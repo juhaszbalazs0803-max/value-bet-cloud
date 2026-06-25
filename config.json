@@ -1,0 +1,137 @@
+{
+  "_comment": "Másold át config.json néven és töltsd ki. A value betek kereséséhez kell egy referencia-forrás (The Odds API), különben csak a vegas.hu odds-okat és a margint látod.",
+  "vegas": {
+    "integration": "vegas.hu",
+    "api_base": "https://hu-sb2frontend-altenar2.biahosted.com/api/",
+    "culture": "hu-HU",
+    "country_code": "US",
+    "sport_ids": [
+      66,
+      68,
+      67,
+      70
+    ],
+    "_sport_ids_comment": "66=Foci, 68=Tenisz, 67=Kosárlabda, 70=Jégkorong, 145=E-sport, 78=Darts, 77=Asztalitenisz, 69=Röplabda"
+  },
+  "reference": {
+    "provider": "pinnacle",
+    "_provider_comment": "'pinnacle' = Pinnacle (éles iroda) a publikus guest API-ból, kulcs NEM kell. 'oddsapi' = The Odds API (kell kulcs).",
+    "devig_method": "proportional",
+    "_devig_method_comment": "'proportional' (egyszerű) vagy 'shin' (pontosabb favorit-longshot torzításra).",
+    "oddsapi_key": "IDE_JON_A_THE_ODDS_API_KULCSOD",
+    "oddsapi_regions": "eu,uk",
+    "oddsapi_sport_keys": [
+      "soccer_epl",
+      "basketball_nba",
+      "icehockey_nhl"
+    ]
+  },
+  "live": {
+    "_comment": "Az élő webes felülethez (--web). Ezek a felületen is állíthatók és mentődnek.",
+    "sports": [
+      66,
+      68,
+      67,
+      70
+    ],
+    "markets": [
+      "ml",
+      "ou",
+      "ah"
+    ],
+    "_markets_comment": "ml=meccsgyőztes, ou=Over/Under, ah=hendikep.",
+    "bankroll": 100000,
+    "_bankroll_comment": "Tőke forintban; ebből számolja a javasolt tétet (Kelly).",
+    "min_bet": 100,
+    "max_stake_pct": 5,
+    "_max_stake_pct_comment": "Max tét egy fogadásra a tőke %-ában (0=nincs sapka). Megvédi a kis tőkét a túl nagy Kelly-téttől.",
+    "only_solid": true,
+    "_only_solid_comment": "Csak a 'biztos' value betek (erős párosítás + józan odds/value sáv). A felületen kikapcsolható.",
+    "solid": {
+      "min_score": 0.8,
+      "max_odds": 5.0,
+      "max_value_pct": 22.0,
+      "min_age_sec": 25,
+      "min_limit": 500,
+      "max_hours_to_start": 24,
+      "_comment": "Biztos = párosítás >= min_score, odds <= max_odds, value <= max_value_pct, ÉLŐ, min_age_sec óta stabil, Pinnacle tétlimit >= min_limit (0=off), és a kezdésig hátralévő idő <= max_hours_to_start óra (0=off; minél közelebb a meccs, annál élesebb a Pinnacle). A min_limit/min_age/max_hours a felületen is állítható."
+    },
+    "poll_interval_sec": 5,
+    "_poll_comment": "Ennyi mp-enként kérdezi le a vegas.hu-t és a Pinnacle-t. A felület 2 mp-enként frissül a gyorsítótárból. 2 alá ne állítsd (terhelés).",
+    "grace_sec": 45,
+    "_grace_comment": "Egy eltűnt value bet ennyi mp-ig marad látható 'LEJÁRT' jelzéssel."
+  },
+  "value": {
+    "min_value_pct": 3.0,
+    "_min_value_pct_comment": "Csak ennél nagyobb value%-ot mutat (pl. 3.0 = 3%).",
+    "min_odds": 1.2,
+    "max_odds": 15.0,
+    "max_plausible_pct": 30.0,
+    "_max_plausible_comment": "Ennél nagyobb value szinte biztosan hibás meccs-párosítás, ezért eldobjuk.",
+    "kelly_fraction": 0.25,
+    "_kelly_fraction_comment": "Javasolt tét = ennyiszerese a teljes Kelly-nek (1/4 Kelly = óvatos)."
+  },
+  "notify": {
+    "_comment": "Email-értesítés KIKAPCSOLVA – mostantól Telegramon jönnek a tippek. (A felhős email is ki: a cloud csak Telegramot küld.)",
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "",
+    "smtp_password": "",
+    "to_email": "",
+    "min_value_pct": 3.0,
+    "arm_after_sec": 30,
+    "_arm_comment": "Indítás után ennyi mp-ig csak előjegyzi a meglévő tippeket (nem küld tömeg-emailt); utána csak az ÚJ tippekről értesít."
+  },
+  "telegram": {
+    "_comment": "A KÜLDÉST a felhő végzi (egyszer, laptop nélkül is). A laptopos app NEM küld (enabled=false), hogy ne duplázzon – de a token/chat_id itt marad, mert a gombnyomásaidat (✅ Megraktam) így tudja beolvasni és menteni.",
+    "enabled": true,
+    "token": "",
+    "chat_id": ""
+  },
+  "matching": {
+    "max_start_diff_minutes": 90,
+    "min_token_score": 0.6,
+    "_comment": "Két forrás meccseit a csapatnevek hasonlósága + kezdési idő alapján párosítjuk."
+  },
+  "http": {
+    "verify_ssl": true,
+    "_verify_ssl_comment": "Ha SSL hibát kapsz (céges/vírusirtó proxy), állítsd false-ra.",
+    "request_delay_sec": 0.3
+  },
+  "inbox": {
+    "enabled": true,
+    "poll_sec": 120,
+    "imap_host": "imap.gmail.com",
+    "imap_port": 993,
+    "since_days": 7
+  },
+  "results": {
+    "auto_settle": true,
+    "settle_poll_sec": 30,
+    "min_minutes_after_start": 90,
+    "absent_grace_sec": 180,
+    "retroactive": true,
+    "_retroactive_comment": "Visszamenőleges végeredmény-lekérés a TheSportsDB-ből (foci/kosár/jégkorong ÉS tenisz a strResult-ból), akkor is, ha az app nem futott a meccs végén.",
+    "sportsdb_key": "3",
+    "sportsdb_min_score": 0.6,
+    "tennisexplorer": true,
+    "_tennisexplorer_comment": "Tenisz végeredmény a tennisexplorer.com-ról – a TELJES mezőny (ATP/WTA/Challenger/ITF), nem csak a nagy tornák. Elsődleges tenisz-forrás, a TheSportsDB a tartalék.",
+    "te_min_score": 0.5,
+    "auto_void": true,
+    "auto_void_after_days": 3,
+    "_auto_void_comment": "Amit ennyi nap után sehol nem talált meg az eredmény-forrás (pl. obskúrus alsóbb osztályú meccs), automatikusan 'semmis'-re (void) tesz -> SOHA nem marad kézi lezárás. A void nem számít se nyertnek, se vesztettnek."
+  },
+  "paper": {
+    "_comment": "AUTO PAPÍR-FOGADÁS: a szoftver nem küld per-tipp értesítést, hanem automatikusan 'megrakja' a biztos value tippeket (papíron) és statisztikát vezet. Valódi fogadás NEM történik.",
+    "enabled": true,
+    "max_odds": 2.0,
+    "_max_odds_comment": "Csak az ennél kisebb/egyenlő oddsú tippeket rakja meg automatikusan."
+  },
+  "report": {
+    "_comment": "Napi EGY Telegram-jelentés a statisztikáról (portfólió-növekedés %, yield, találati arány). A LOKÁLIS appból megy (a statisztika itt él), ezért a gépnek futnia kell aznap.",
+    "enabled": true,
+    "hour": 9,
+    "_hour_comment": "Ekkor (vagy utána) küldi az aznapi jelentést (helyi idő, 0-23)."
+  }
+}
