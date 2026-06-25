@@ -356,13 +356,63 @@
       "close_fair_p": 0.5321230143203693,
       "close_ts": 1782412570.8760803,
       "clv_pct": 1.6
+    },
+    {
+      "id": 20,
+      "ts": 1782423676.965948,
+      "key": "68:16908491:ah:-1.5:away",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:-1.5:away",
+      "event": "Felix Balshaw - Andrej Nedic",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Andrej Nedic (+1.5)",
+      "odds": 1.833,
+      "stake": 5000,
+      "value_pct": 18.16,
+      "fair_pct": 64.4,
+      "start": "2026-06-26T09:00:00+00:00",
+      "start_ts": 1782464400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
+    },
+    {
+      "id": 21,
+      "ts": 1782423676.965948,
+      "key": "68:16908473:ah:1.5:home",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:1.5:home",
+      "event": "Chia Yi Tsao - Gyeong Seo Lee",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Chia Yi Tsao (+1.5)",
+      "odds": 1.85,
+      "stake": 5000,
+      "value_pct": 17.13,
+      "fair_pct": 63.3,
+      "start": "2026-06-26T03:00:00+00:00",
+      "start_ts": 1782442800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
     "maximo zeitune|nicolas zanellato|ah:-1.5:away|2026-06-25": 1782399975.6035843,
     "ana candiotto|ana carmen zamburek|ml:away|2026-06-25": 1782399975.6035843,
-    "toronto tempo n|los angeles sparks n|ou:179.5:over|2026-06-25": 1782399975.6035843
+    "toronto tempo n|los angeles sparks n|ou:179.5:over|2026-06-25": 1782399975.6035843,
+    "felixbalshaw|andrejnedic|ah:-1.5:away|20260626": 1782423676.965948,
+    "chiayitsao|gyeongseolee|ah:1.5:home|20260626": 1782423676.965948
   },
   "last_report_date": "2026-06-25",
-  "next_id": 20
+  "next_id": 22
 }
