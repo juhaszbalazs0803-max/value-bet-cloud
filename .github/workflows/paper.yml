@@ -2,7 +2,7 @@ name: paper-trade
 
 on:
   schedule:
-    - cron: "7 * * * *"      # óránként (privát repo Actions-keret alatt marad)
+    - cron: "2 * * * *"      # óránként újraindul; a loop tölti ki az órát (~folyamatos)
   workflow_dispatch:
 
 permissions:
@@ -15,6 +15,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,19 +23,12 @@ jobs:
           python-version: "3.12"
       - name: Függőségek
         run: pip install -r requirements.txt
-      - name: Papír-foglaló futtatása
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python paper_cron.py
-      - name: Ledger visszamentése
+      - name: Git azonosító
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
-          git add paper_data.json
-          if git diff --cached --quiet; then
-            echo "nincs valtozas a ledgerben"
-          else
-            git commit -m "paper: ledger frissites [skip ci]"
-            git push
-          fi
+      - name: Folyamatos papír-foglaló (loop, ~90 mp-enként scan)
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python paper_watch.py
