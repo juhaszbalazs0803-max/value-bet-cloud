@@ -803,6 +803,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 38,
+      "ts": 1782514776.582597,
+      "key": "67:16886062:ml:home",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Heroes de Moca - Indios de San Francisco de Macoris",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Heroes de Moca",
+      "odds": 1.952,
+      "stake": 1500,
+      "value_pct": 5.8,
+      "fair_pct": 54.2,
+      "start": "2026-06-27T00:00:00+00:00",
+      "start_ts": 1782518400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -826,8 +850,9 @@
     "jacksatterfield|lorenzoclaverie|ml:away|20260626": 1782490483.416207,
     "jacksatterfield|lorenzoclaverie|ah:1.5:home|20260626": 1782490483.416207,
     "fbkkarlstad|hammarbytalangff|ml:away|20260626": 1782491563.417774,
-    "ayumimiyamoto|gaeuljang|ah:-1.5:away|20260627": 1782506738.722896
+    "ayumimiyamoto|gaeuljang|ah:-1.5:away|20260627": 1782506738.722896,
+    "heroesdemoca|indiosdesanfranciscodemacoris|ml:home|20260627": 1782514776.582597
   },
   "last_report_date": "2026-06-26",
-  "next_id": 38
+  "next_id": 39
 }
