@@ -527,6 +527,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 27,
+      "ts": 1782447380.157803,
+      "key": "68:16910568:ah:-1.5:away",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:-1.5:away",
+      "event": "Florian Broska - Yassine Dlimi",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Yassine Dlimi (+1.5)",
+      "odds": 1.8,
+      "stake": 5000,
+      "value_pct": 17.19,
+      "fair_pct": 65.1,
+      "start": "2026-06-26T10:00:00+00:00",
+      "start_ts": 1782468000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -539,8 +563,9 @@
     "matildemariani|lenkamunzarova|ah:1.5:home|20260626": 1782444590.153904,
     "natalijasenic|kseniazaytseva|ah:1.5:home|20260626": 1782444590.153904,
     "janahossamsalah|iremkurt|ah:1.5:home|20260626": 1782444590.153904,
-    "manellazarojuncadella|julienpenzlin|ah:1.5:home|20260626": 1782444950.154461
+    "manellazarojuncadella|julienpenzlin|ah:1.5:home|20260626": 1782444950.154461,
+    "florianbroska|yassinedlimi|ah:-1.5:away|20260626": 1782447380.157803
   },
   "last_report_date": "2026-06-25",
-  "next_id": 27
+  "next_id": 28
 }
