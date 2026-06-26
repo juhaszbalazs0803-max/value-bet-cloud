@@ -779,6 +779,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 37,
+      "ts": 1782506738.722896,
+      "key": "68:16917454:ah:-1.5:away",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:-1.5:away",
+      "event": "Ayumi Miyamoto - Gaeul Jang",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Gaeul Jang (+1.5)",
+      "odds": 1.8,
+      "stake": 5000,
+      "value_pct": 18.07,
+      "fair_pct": 65.6,
+      "start": "2026-06-27T03:00:00+00:00",
+      "start_ts": 1782529200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -801,8 +825,9 @@
     "enakoike|ayanaakli|ah:1.5:home|20260626": 1782461204.684442,
     "jacksatterfield|lorenzoclaverie|ml:away|20260626": 1782490483.416207,
     "jacksatterfield|lorenzoclaverie|ah:1.5:home|20260626": 1782490483.416207,
-    "fbkkarlstad|hammarbytalangff|ml:away|20260626": 1782491563.417774
+    "fbkkarlstad|hammarbytalangff|ml:away|20260626": 1782491563.417774,
+    "ayumimiyamoto|gaeuljang|ah:-1.5:away|20260627": 1782506738.722896
   },
   "last_report_date": "2026-06-26",
-  "next_id": 37
+  "next_id": 38
 }
