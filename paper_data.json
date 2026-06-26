@@ -755,6 +755,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 36,
+      "ts": 1782491563.417774,
+      "key": "66:16868580:ml:away",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "FBK Karlstad - Hammarby Talang FF",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Hammarby Talang FF",
+      "odds": 2.0,
+      "stake": 1300,
+      "value_pct": 5.12,
+      "fair_pct": 52.6,
+      "start": "2026-06-26T17:00:00+00:00",
+      "start_ts": 1782493200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -776,8 +800,9 @@
     "oscarweightman|sergiperezcontri|ml:away|20260626": 1782460664.68364,
     "enakoike|ayanaakli|ah:1.5:home|20260626": 1782461204.684442,
     "jacksatterfield|lorenzoclaverie|ml:away|20260626": 1782490483.416207,
-    "jacksatterfield|lorenzoclaverie|ah:1.5:home|20260626": 1782490483.416207
+    "jacksatterfield|lorenzoclaverie|ah:1.5:home|20260626": 1782490483.416207,
+    "fbkkarlstad|hammarbytalangff|ml:away|20260626": 1782491563.417774
   },
   "last_report_date": "2026-06-26",
-  "next_id": 36
+  "next_id": 37
 }
