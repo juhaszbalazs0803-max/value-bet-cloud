@@ -503,6 +503,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 26,
+      "ts": 1782444950.154461,
+      "key": "68:16909405:ah:1.5:home",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:1.5:home",
+      "event": "Manel Lazaro Juncadella - Julien Penzlin",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Manel Lazaro Juncadella (+1.5)",
+      "odds": 1.833,
+      "stake": 5000,
+      "value_pct": 20.72,
+      "fair_pct": 65.8,
+      "start": "2026-06-26T09:00:00+00:00",
+      "start_ts": 1782464400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -514,8 +538,9 @@
     "fonsvansambeek|pieterdelange|ah:1.5:home|20260626": 1782444590.153904,
     "matildemariani|lenkamunzarova|ah:1.5:home|20260626": 1782444590.153904,
     "natalijasenic|kseniazaytseva|ah:1.5:home|20260626": 1782444590.153904,
-    "janahossamsalah|iremkurt|ah:1.5:home|20260626": 1782444590.153904
+    "janahossamsalah|iremkurt|ah:1.5:home|20260626": 1782444590.153904,
+    "manellazarojuncadella|julienpenzlin|ah:1.5:home|20260626": 1782444950.154461
   },
   "last_report_date": "2026-06-25",
-  "next_id": 26
+  "next_id": 27
 }
