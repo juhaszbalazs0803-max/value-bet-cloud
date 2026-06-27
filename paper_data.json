@@ -1022,6 +1022,54 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 47,
+      "ts": 1782554759.74314,
+      "key": "68:16922784:ah:1.5:home",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:1.5:home",
+      "event": "Kacper Szymkowiak - Alan Wazny",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Kacper Szymkowiak (+1.5)",
+      "odds": 1.85,
+      "stake": 4100,
+      "value_pct": 13.84,
+      "fair_pct": 61.5,
+      "start": "2026-06-27T15:00:00+00:00",
+      "start_ts": 1782572400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
+    },
+    {
+      "id": 48,
+      "ts": 1782554759.74314,
+      "key": "67:15751474:ah:-5.0:home",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-5.0:home",
+      "event": "Toronto Tempo (N) - Phoenix Mercury (N)",
+      "market": "ah",
+      "market_name": "Hendikep -5",
+      "tip": "Hendikep Toronto Tempo (N) (-5)",
+      "odds": 1.926,
+      "stake": 1000,
+      "value_pct": 3.85,
+      "fair_pct": 53.9,
+      "start": "2026-06-27T18:00:00+00:00",
+      "start_ts": 1782583200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1054,8 +1102,10 @@
     "ninaradovanovic|anjastankovic|ah:-1.5:away|20260627": 1782535919.889082,
     "torontotempon|phoenixmercuryn|ah:-4.5:home|20260627": 1782537629.891997,
     "constantinbittounkouzmine|keshavchopra|ah:1.5:home|20260627": 1782546478.597857,
-    "tiagotorres|carlemiloverbeck|ah:-1.5:away|20260627": 1782546478.597857
+    "tiagotorres|carlemiloverbeck|ah:-1.5:away|20260627": 1782546478.597857,
+    "kacperszymkowiak|alanwazny|ah:1.5:home|20260627": 1782554759.74314,
+    "torontotempon|phoenixmercuryn|ah:-5.0:home|20260627": 1782554759.74314
   },
-  "last_report_date": "2026-06-26",
-  "next_id": 47
+  "last_report_date": "2026-06-27",
+  "next_id": 49
 }
