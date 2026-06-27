@@ -974,6 +974,54 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 45,
+      "ts": 1782546478.597857,
+      "key": "68:16919040:ah:1.5:home",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:1.5:home",
+      "event": "Constantin Bittoun Kouzmine - Keshav Chopra",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Constantin Bittoun Kouzmine (+1.5)",
+      "odds": 1.8,
+      "stake": 3600,
+      "value_pct": 11.54,
+      "fair_pct": 62.0,
+      "start": "2026-06-27T08:36:00+00:00",
+      "start_ts": 1782549360.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
+    },
+    {
+      "id": 46,
+      "ts": 1782546478.597857,
+      "key": "68:16921889:ah:-1.5:away",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:-1.5:away",
+      "event": "Tiago Torres - Carl Emil Overbeck",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Carl Emil Overbeck (+1.5)",
+      "odds": 1.833,
+      "stake": 4700,
+      "value_pct": 15.81,
+      "fair_pct": 63.2,
+      "start": "2026-06-27T11:00:00+00:00",
+      "start_ts": 1782558000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1004,8 +1052,10 @@
     "marcmajdandzic|jessedejager|ah:-1.5:away|20260627": 1782535919.889082,
     "lenkamunzarova|arinaarifullina|ml:home|20260627": 1782535919.889082,
     "ninaradovanovic|anjastankovic|ah:-1.5:away|20260627": 1782535919.889082,
-    "torontotempon|phoenixmercuryn|ah:-4.5:home|20260627": 1782537629.891997
+    "torontotempon|phoenixmercuryn|ah:-4.5:home|20260627": 1782537629.891997,
+    "constantinbittounkouzmine|keshavchopra|ah:1.5:home|20260627": 1782546478.597857,
+    "tiagotorres|carlemiloverbeck|ah:-1.5:away|20260627": 1782546478.597857
   },
   "last_report_date": "2026-06-26",
-  "next_id": 45
+  "next_id": 47
 }
