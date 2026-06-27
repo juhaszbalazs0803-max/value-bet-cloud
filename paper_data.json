@@ -1076,6 +1076,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 49,
+      "ts": 1782562266.912133,
+      "key": "67:15753892:ah:9.5:home",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:9.5:home",
+      "event": "Seattle Storm (N) - Atlanta Dream (N)",
+      "market": "ah",
+      "market_name": "Hendikep +9.5",
+      "tip": "Hendikep Seattle Storm (N) (+9.5)",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.32,
+      "fair_pct": 54.1,
+      "start": "2026-06-28T01:00:00+00:00",
+      "start_ts": 1782608400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1110,8 +1134,9 @@
     "constantinbittounkouzmine|keshavchopra|ah:1.5:home|20260627": 1782546478.597857,
     "tiagotorres|carlemiloverbeck|ah:-1.5:away|20260627": 1782546478.597857,
     "kacperszymkowiak|alanwazny|ah:1.5:home|20260627": 1782554759.74314,
-    "torontotempon|phoenixmercuryn|ah:-5.0:home|20260627": 1782554759.74314
+    "torontotempon|phoenixmercuryn|ah:-5.0:home|20260627": 1782554759.74314,
+    "seattlestormn|atlantadreamn|ah:9.5:home|20260628": 1782562266.912133
   },
   "last_report_date": "2026-06-27",
-  "next_id": 49
+  "next_id": 50
 }
