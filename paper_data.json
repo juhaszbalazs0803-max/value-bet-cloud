@@ -1208,6 +1208,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 54,
+      "ts": 1782598996.330446,
+      "key": "67:16886054:ah:-3.5:home",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-3.5:home",
+      "event": "Metros de Santiago - Caneros del Este",
+      "market": "ah",
+      "market_name": "Hendikep -3.5",
+      "tip": "Hendikep Metros de Santiago (-3.5)",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.22,
+      "fair_pct": 54.1,
+      "start": "2026-06-28T00:30:00+00:00",
+      "start_ts": 1782606600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1247,8 +1271,9 @@
     "alexandravagramov|alexisnguyen|ah:-1.5:away|20260627": 1782570486.738727,
     "sportivohuracanfc|rentistas|ou:2.5:over|20260627": 1782572736.74204,
     "metrosdesantiago|canerosdeleste|ou:172.5:under|20260628": 1782584516.652211,
-    "indianafevern|losangelessparksn|ou:179.5:over|20260628": 1782597188.818687
+    "indianafevern|losangelessparksn|ou:179.5:over|20260628": 1782597188.818687,
+    "metrosdesantiago|canerosdeleste|ah:-3.5:home|20260628": 1782598996.330446
   },
   "last_report_date": "2026-06-27",
-  "next_id": 54
+  "next_id": 55
 }
