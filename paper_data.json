@@ -1181,6 +1181,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 53,
+      "ts": 1782597188.818687,
+      "key": "67:15753732:ou:179.5:over",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:179.5:over",
+      "event": "Indiana Fever (N) - Los Angeles Sparks (N)",
+      "market": "ou",
+      "market_name": "O/U 179.5",
+      "tip": "Több mint 179.5",
+      "odds": 1.926,
+      "stake": 1200,
+      "value_pct": 4.62,
+      "fair_pct": 54.3,
+      "start": "2026-06-28T00:00:00+00:00",
+      "start_ts": 1782604800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1219,8 +1243,9 @@
     "seattlestormn|atlantadreamn|ah:9.5:home|20260628": 1782562266.912133,
     "alexandravagramov|alexisnguyen|ah:-1.5:away|20260627": 1782570486.738727,
     "sportivohuracanfc|rentistas|ou:2.5:over|20260627": 1782572736.74204,
-    "metrosdesantiago|canerosdeleste|ou:172.5:under|20260628": 1782584516.652211
+    "metrosdesantiago|canerosdeleste|ou:172.5:under|20260628": 1782584516.652211,
+    "indianafevern|losangelessparksn|ou:179.5:over|20260628": 1782597188.818687
   },
   "last_report_date": "2026-06-27",
-  "next_id": 53
+  "next_id": 54
 }
