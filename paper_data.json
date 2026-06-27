@@ -950,6 +950,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 44,
+      "ts": 1782537629.891997,
+      "key": "67:15751474:ah:-4.5:home",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-4.5:home",
+      "event": "Toronto Tempo (N) - Phoenix Mercury (N)",
+      "market": "ah",
+      "market_name": "Hendikep -4.5",
+      "tip": "Hendikep Toronto Tempo (N) (-4.5)",
+      "odds": 1.952,
+      "stake": 1000,
+      "value_pct": 3.75,
+      "fair_pct": 53.1,
+      "start": "2026-06-27T18:00:00+00:00",
+      "start_ts": 1782583200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -979,8 +1003,9 @@
     "constantinbittounkouzmine|keshavchopra|ml:away|20260627": 1782535919.889082,
     "marcmajdandzic|jessedejager|ah:-1.5:away|20260627": 1782535919.889082,
     "lenkamunzarova|arinaarifullina|ml:home|20260627": 1782535919.889082,
-    "ninaradovanovic|anjastankovic|ah:-1.5:away|20260627": 1782535919.889082
+    "ninaradovanovic|anjastankovic|ah:-1.5:away|20260627": 1782535919.889082,
+    "torontotempon|phoenixmercuryn|ah:-4.5:home|20260627": 1782537629.891997
   },
   "last_report_date": "2026-06-26",
-  "next_id": 44
+  "next_id": 45
 }
