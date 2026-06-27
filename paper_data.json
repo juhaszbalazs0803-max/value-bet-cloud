@@ -827,6 +827,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 39,
+      "ts": 1782518697.219516,
+      "key": "68:16920321:ah:1.5:home",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:1.5:home",
+      "event": "Hikaru Sato - Priska Madelyn Nugroho",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Hikaru Sato (+1.5)",
+      "odds": 1.8,
+      "stake": 5000,
+      "value_pct": 19.09,
+      "fair_pct": 66.2,
+      "start": "2026-06-27T02:00:00+00:00",
+      "start_ts": 1782525600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -851,8 +875,9 @@
     "jacksatterfield|lorenzoclaverie|ah:1.5:home|20260626": 1782490483.416207,
     "fbkkarlstad|hammarbytalangff|ml:away|20260626": 1782491563.417774,
     "ayumimiyamoto|gaeuljang|ah:-1.5:away|20260627": 1782506738.722896,
-    "heroesdemoca|indiosdesanfranciscodemacoris|ml:home|20260627": 1782514776.582597
+    "heroesdemoca|indiosdesanfranciscodemacoris|ml:home|20260627": 1782514776.582597,
+    "hikarusato|priskamadelynnugroho|ah:1.5:home|20260627": 1782518697.219516
   },
   "last_report_date": "2026-06-26",
-  "next_id": 39
+  "next_id": 40
 }
