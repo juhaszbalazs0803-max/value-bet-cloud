@@ -1148,6 +1148,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 52,
+      "ts": 1782584516.652211,
+      "key": "67:16886054:ou:172.5:under",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:172.5:under",
+      "event": "Metros de Santiago - Caneros del Este",
+      "market": "ou",
+      "market_name": "O/U 172.5",
+      "tip": "Kevesebb mint 172.5",
+      "odds": 1.833,
+      "stake": 1200,
+      "value_pct": 4.19,
+      "fair_pct": 56.8,
+      "start": "2026-06-28T00:00:00+00:00",
+      "start_ts": 1782604800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1185,8 +1209,9 @@
     "torontotempon|phoenixmercuryn|ah:-5.0:home|20260627": 1782554759.74314,
     "seattlestormn|atlantadreamn|ah:9.5:home|20260628": 1782562266.912133,
     "alexandravagramov|alexisnguyen|ah:-1.5:away|20260627": 1782570486.738727,
-    "sportivohuracanfc|rentistas|ou:2.5:over|20260627": 1782572736.74204
+    "sportivohuracanfc|rentistas|ou:2.5:over|20260627": 1782572736.74204,
+    "metrosdesantiago|canerosdeleste|ou:172.5:under|20260628": 1782584516.652211
   },
   "last_report_date": "2026-06-27",
-  "next_id": 52
+  "next_id": 53
 }
