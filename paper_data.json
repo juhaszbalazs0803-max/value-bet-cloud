@@ -1100,6 +1100,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 50,
+      "ts": 1782570486.738727,
+      "key": "68:16924089:ah:-1.5:away",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:-1.5:away",
+      "event": "Alexandra Vagramov - Alexis Nguyen",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Alexis Nguyen (+1.5)",
+      "odds": 1.8,
+      "stake": 5000,
+      "value_pct": 19.22,
+      "fair_pct": 66.2,
+      "start": "2026-06-27T19:00:00+00:00",
+      "start_ts": 1782586800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1135,8 +1159,9 @@
     "tiagotorres|carlemiloverbeck|ah:-1.5:away|20260627": 1782546478.597857,
     "kacperszymkowiak|alanwazny|ah:1.5:home|20260627": 1782554759.74314,
     "torontotempon|phoenixmercuryn|ah:-5.0:home|20260627": 1782554759.74314,
-    "seattlestormn|atlantadreamn|ah:9.5:home|20260628": 1782562266.912133
+    "seattlestormn|atlantadreamn|ah:9.5:home|20260628": 1782562266.912133,
+    "alexandravagramov|alexisnguyen|ah:-1.5:away|20260627": 1782570486.738727
   },
   "last_report_date": "2026-06-27",
-  "next_id": 50
+  "next_id": 51
 }
