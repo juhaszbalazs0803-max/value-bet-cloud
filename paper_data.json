@@ -974,11 +974,14 @@
       "fair_pct": 53.1,
       "start": "2026-06-27T18:00:00+00:00",
       "start_ts": 1782583200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1782594042.9292846,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        80,
+        89
+      ],
+      "settle_source": "sportsdb",
       "needs_manual": false
     },
     {
@@ -1070,11 +1073,14 @@
       "fair_pct": 53.9,
       "start": "2026-06-27T18:00:00+00:00",
       "start_ts": 1782583200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1782594042.9292846,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        80,
+        89
+      ],
+      "settle_source": "sportsdb",
       "needs_manual": false
     },
     {
