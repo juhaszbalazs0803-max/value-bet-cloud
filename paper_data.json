@@ -1409,6 +1409,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 62,
+      "ts": 1782646089.597917,
+      "key": "67:15763033:ah:7.5:home",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:7.5:home",
+      "event": "Chicago Sky (N) - Las Vegas Aces (N)",
+      "market": "ah",
+      "market_name": "Hendikep +7.5",
+      "tip": "Hendikep Chicago Sky (N) (+7.5)",
+      "odds": 1.87,
+      "stake": 900,
+      "value_pct": 3.17,
+      "fair_pct": 55.2,
+      "start": "2026-06-28T20:00:00+00:00",
+      "start_ts": 1782676800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1456,8 +1480,9 @@
     "pieterdelange|marcmajdandzic|ml:home|20260628": 1782623245.613611,
     "ameliahoner|ayanaakli|ah:-1.5:away|20260628": 1782634804.402272,
     "washingtonmysticsn|portlandfiren|ou:165.5:over|20260628": 1782634804.402272,
-    "dylandietrich|maxhansrehberg|ah:1.5:home|20260628": 1782636964.405621
+    "dylandietrich|maxhansrehberg|ah:1.5:home|20260628": 1782636964.405621,
+    "chicagoskyn|lasvegasacesn|ah:7.5:home|20260628": 1782646089.597917
   },
   "last_report_date": "2026-06-28",
-  "next_id": 62
+  "next_id": 63
 }
