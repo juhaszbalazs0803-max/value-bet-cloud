@@ -1334,6 +1334,54 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 59,
+      "ts": 1782634804.402272,
+      "key": "68:16931765:ah:-1.5:away",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:-1.5:away",
+      "event": "Amelia Honer - Ayana Akli",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Ayana Akli (+1.5)",
+      "odds": 1.85,
+      "stake": 5000,
+      "value_pct": 18.43,
+      "fair_pct": 64.0,
+      "start": "2026-06-28T13:00:00+00:00",
+      "start_ts": 1782651600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
+    },
+    {
+      "id": 60,
+      "ts": 1782634804.402272,
+      "key": "67:15762714:ou:165.5:over",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:165.5:over",
+      "event": "Washington Mystics (N) - Portland Fire (N)",
+      "market": "ou",
+      "market_name": "O/U 165.5",
+      "tip": "Több mint 165.5",
+      "odds": 1.926,
+      "stake": 1100,
+      "value_pct": 4.08,
+      "fair_pct": 54.0,
+      "start": "2026-06-28T19:00:00+00:00",
+      "start_ts": 1782673200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1378,8 +1426,10 @@
     "milipoljicak|alejosanchezquilez|ah:-1.5:away|20260628": 1782604808.406607,
     "pieterdelange|marcmajdandzic|ah:-1.5:away|20260628": 1782620545.609728,
     "josydaems|valentinaivanov|ah:-1.5:away|20260628": 1782620545.609728,
-    "pieterdelange|marcmajdandzic|ml:home|20260628": 1782623245.613611
+    "pieterdelange|marcmajdandzic|ml:home|20260628": 1782623245.613611,
+    "ameliahoner|ayanaakli|ah:-1.5:away|20260628": 1782634804.402272,
+    "washingtonmysticsn|portlandfiren|ou:165.5:over|20260628": 1782634804.402272
   },
   "last_report_date": "2026-06-27",
-  "next_id": 59
+  "next_id": 61
 }
