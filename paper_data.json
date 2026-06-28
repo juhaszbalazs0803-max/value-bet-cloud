@@ -1532,6 +1532,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 67,
+      "ts": 1782661871.810677,
+      "key": "67:15763033:ou:179.5:over",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:179.5:over",
+      "event": "Chicago Sky (N) - Las Vegas Aces (N)",
+      "market": "ou",
+      "market_name": "O/U 179.5",
+      "tip": "Több mint 179.5",
+      "odds": 1.926,
+      "stake": 900,
+      "value_pct": 3.45,
+      "fair_pct": 53.7,
+      "start": "2026-06-28T20:00:00+00:00",
+      "start_ts": 1782676800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1584,8 +1608,9 @@
     "alexisnguyen|alyssaahn|ah:-1.5:away|20260628": 1782654123.451844,
     "chicagoskyn|lasvegasacesn|ou:179.0:over|20260628": 1782654123.451844,
     "chicagoskyn|lasvegasacesn|ah:7.0:home|20260628": 1782654123.451844,
-    "sanmarino|gibraltar|ou:135.5:over|20260628": 1782654123.451844
+    "sanmarino|gibraltar|ou:135.5:over|20260628": 1782654123.451844,
+    "chicagoskyn|lasvegasacesn|ou:179.5:over|20260628": 1782661871.810677
   },
   "last_report_date": "2026-06-28",
-  "next_id": 67
+  "next_id": 68
 }
