@@ -1310,6 +1310,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 58,
+      "ts": 1782623245.613611,
+      "key": "68:16933351:ml:home",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Pieter de Lange - Marc Majdandzic",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Pieter de Lange",
+      "odds": 1.85,
+      "stake": 1200,
+      "value_pct": 3.93,
+      "fair_pct": 56.2,
+      "start": "2026-06-28T10:00:00+00:00",
+      "start_ts": 1782640800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1353,8 +1377,9 @@
     "metrosdesantiago|canerosdeleste|ah:-3.5:home|20260628": 1782598996.330446,
     "milipoljicak|alejosanchezquilez|ah:-1.5:away|20260628": 1782604808.406607,
     "pieterdelange|marcmajdandzic|ah:-1.5:away|20260628": 1782620545.609728,
-    "josydaems|valentinaivanov|ah:-1.5:away|20260628": 1782620545.609728
+    "josydaems|valentinaivanov|ah:-1.5:away|20260628": 1782620545.609728,
+    "pieterdelange|marcmajdandzic|ml:home|20260628": 1782623245.613611
   },
   "last_report_date": "2026-06-27",
-  "next_id": 58
+  "next_id": 59
 }
