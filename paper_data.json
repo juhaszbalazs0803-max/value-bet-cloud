@@ -1382,6 +1382,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 61,
+      "ts": 1782636964.405621,
+      "key": "68:16929898:ah:1.5:home",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:1.5:home",
+      "event": "Dylan Dietrich - Max Hans Rehberg",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Dylan Dietrich (+1.5)",
+      "odds": 1.85,
+      "stake": 4900,
+      "value_pct": 16.79,
+      "fair_pct": 63.1,
+      "start": "2026-06-28T12:30:00+00:00",
+      "start_ts": 1782649800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1428,8 +1452,9 @@
     "josydaems|valentinaivanov|ah:-1.5:away|20260628": 1782620545.609728,
     "pieterdelange|marcmajdandzic|ml:home|20260628": 1782623245.613611,
     "ameliahoner|ayanaakli|ah:-1.5:away|20260628": 1782634804.402272,
-    "washingtonmysticsn|portlandfiren|ou:165.5:over|20260628": 1782634804.402272
+    "washingtonmysticsn|portlandfiren|ou:165.5:over|20260628": 1782634804.402272,
+    "dylandietrich|maxhansrehberg|ah:1.5:home|20260628": 1782636964.405621
   },
-  "last_report_date": "2026-06-27",
-  "next_id": 61
+  "last_report_date": "2026-06-28",
+  "next_id": 62
 }
