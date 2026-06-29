@@ -46,6 +46,36 @@ def git_push():
         print(f"[git] hiba: {e}")
 
 
+def handle_commands(cfg, ledger, tg):
+    """Telegram parancsok kiszolgálása a FELHŐBŐL (laptop nélkül is).
+    /start, /stat, /stats -> aktuális statisztika. Csak a tulajdonos chatnek.
+    Ha a lokális app is pollozza a getUpdates-et, az 409-et ad -> csendben kihagyjuk."""
+    if not tg.configured():
+        return
+    owner = str(cfg.get("telegram", {}).get("chat_id", "")).strip()
+    try:
+        updates = tg.get_updates(offset=ledger.get("tg_offset"), timeout=0) or []
+    except Exception:
+        return  # 409 (a lokális app pollozik) vagy hálózati hiba -> kihagyjuk
+    for u in updates:
+        ledger["tg_offset"] = u["update_id"] + 1
+        msg = u.get("message") or u.get("edited_message")
+        if not msg:
+            continue
+        chat = str(msg.get("chat", {}).get("id", ""))
+        if owner and chat != owner:
+            continue  # csak a tulajdonosnak válaszol
+        cmd = (msg.get("text") or "").strip().lower().split("@")[0]
+        try:
+            if cmd in ("/start", "/stat", "/stats", "/statisztika"):
+                tg.send(P.report_text(cfg, ledger))
+            elif cmd == "/help":
+                tg.send("📊 Parancsok:\n/start vagy /stat – aktuális statisztika\n"
+                        "/help – ez a súgó")
+        except Exception as e:
+            print(f"[cmd] válasz hiba: {e}")
+
+
 def main():
     cfg = P.load_cfg()
     http = Http(verify_ssl=cfg.get("http", {}).get("verify_ssl", True), delay_sec=0)
@@ -63,6 +93,7 @@ def main():
     while time.time() - start < MAX_RUNTIME:
         cycle_t = time.time()
         cycles += 1
+        handle_commands(cfg, ledger, tg)   # /start, /stat kiszolgálása (felhőből)
         try:
             total_placed += P.place_new(cfg, ledger)
         except Exception as e:

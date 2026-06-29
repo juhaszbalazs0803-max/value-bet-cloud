@@ -1,0 +1,47 @@
+name: keepalive
+
+# A GitHub a 60 napja inaktív PUBLIKUS repók ütemezett (cron) workflow-jait
+# felfüggeszti. Ez a workflow hetente egy "heartbeat" commitot tol be, ami
+# nullázza a 60 napos inaktivitási órát -> a paper-trade (napi statisztika)
+# SOHA nem áll le magától, kézi beavatkozás nélkül.
+#
+# FONTOS: a heartbeat commitnak NEM az Actions-bot (GITHUB_TOKEN) tokenjével
+# kell mennie, mert azt a GitHub kizárja az "aktivitás" számításból. Ezért egy
+# KEEPALIVE_TOKEN nevű secretet (személyes hozzáférési token, PAT) használunk;
+# ha nincs beállítva, a github.token-re esik vissza (csak best-effort).
+
+on:
+  schedule:
+    - cron: "23 7 * * 1"     # minden hétfő 07:23 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write             # a paper.yml újra-engedélyezéséhez
+
+concurrency:
+  group: keepalive
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.KEEPALIVE_TOKEN || github.token }}
+
+      - name: Heartbeat commit (nullázza a 60 napos órát)
+        run: |
+          git config user.name "value-bet-bot"
+          git config user.email "juhaszbalazs0803-max@users.noreply.github.com"
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > .keepalive
+          git add .keepalive
+          git commit -m "keepalive heartbeat [skip ci]" || echo "nincs változás"
+          git push || echo "push kihagyva"
+
+      - name: Biztonság – a paper-trade workflow újra-engedélyezése
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow enable paper.yml --repo "${{ github.repository }}" || true

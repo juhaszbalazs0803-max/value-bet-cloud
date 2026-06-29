@@ -47,6 +47,7 @@ def load_ledger():
     d.setdefault("placed", [])
     d.setdefault("papered", {})
     d.setdefault("last_report_date", None)
+    d.setdefault("tg_offset", None)   # Telegram getUpdates offset (parancsokhoz)
     d.setdefault("next_id", max([b.get("id", 0) for b in d["placed"]], default=0) + 1)
     return d
 
