@@ -1562,6 +1562,30 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 68,
+      "ts": 1782712101.109312,
+      "key": "68:16932828:ah:-1.5:away",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ah:-1.5:away",
+      "event": "Cosme Rolland de Ravel - Marat Sharipov",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Marat Sharipov (+1.5)",
+      "odds": 1.85,
+      "stake": 5000,
+      "value_pct": 20.26,
+      "fair_pct": 65.0,
+      "start": "2026-06-29T12:30:00+00:00",
+      "start_ts": 1782736200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1615,8 +1639,9 @@
     "chicagoskyn|lasvegasacesn|ou:179.0:over|20260628": 1782654123.451844,
     "chicagoskyn|lasvegasacesn|ah:7.0:home|20260628": 1782654123.451844,
     "sanmarino|gibraltar|ou:135.5:over|20260628": 1782654123.451844,
-    "chicagoskyn|lasvegasacesn|ou:179.5:over|20260628": 1782661871.810677
+    "chicagoskyn|lasvegasacesn|ou:179.5:over|20260628": 1782661871.810677,
+    "cosmerollandderavel|maratsharipov|ah:-1.5:away|20260629": 1782712101.109312
   },
   "last_report_date": "2026-06-28",
-  "next_id": 68
+  "next_id": 69
 }
