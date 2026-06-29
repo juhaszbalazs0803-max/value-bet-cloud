@@ -172,13 +172,16 @@
       "fair_pct": 64.4,
       "start": "2026-06-06T12:22:00+00:00",
       "start_ts": 1780748520.0,
-      "status": "void",
-      "settled_ts": 1782402399.1255329,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "email",
       "live_score": null,
       "live_seen_ts": null,
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_ref_odds": 1.483,
       "close_fair_odds": 1.553,
@@ -272,16 +275,19 @@
       "fair_pct": 65.3,
       "start": "2026-06-25T16:25:00+00:00",
       "start_ts": 1782404700.0,
-      "status": "void",
-      "settled_ts": 1782666490.8118382,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
       "live_score": [
         0,
         1
       ],
       "live_seen_ts": 1782412565.2062776,
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_ref_odds": 1.47,
       "close_fair_odds": 1.532,
@@ -309,13 +315,16 @@
       "fair_pct": 51.7,
       "start": "2026-06-25T19:00:00+00:00",
       "start_ts": 1782414000.0,
-      "status": "void",
-      "settled_ts": 1782674201.3263593,
+      "status": "lost",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
       "live_score": null,
       "live_seen_ts": null,
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_ref_odds": 1.847,
       "close_fair_odds": 1.933,
@@ -431,11 +440,14 @@
       "fair_pct": 64.4,
       "start": "2026-06-26T08:00:00+00:00",
       "start_ts": 1782460800.0,
-      "status": "void",
-      "settled_ts": 1782730430.230621,
+      "status": "lost",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -455,11 +467,14 @@
       "fair_pct": 64.7,
       "start": "2026-06-26T08:30:00+00:00",
       "start_ts": 1782462600.0,
-      "status": "void",
-      "settled_ts": 1782730430.230621,
+      "status": "lost",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -479,11 +494,14 @@
       "fair_pct": 62.7,
       "start": "2026-06-26T07:00:00+00:00",
       "start_ts": 1782457200.0,
-      "status": "void",
-      "settled_ts": 1782730430.230621,
+      "status": "lost",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -530,11 +548,14 @@
       "fair_pct": 65.8,
       "start": "2026-06-26T09:00:00+00:00",
       "start_ts": 1782464400.0,
-      "status": "void",
-      "settled_ts": 1782730430.230621,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -554,11 +575,14 @@
       "fair_pct": 65.1,
       "start": "2026-06-26T10:00:00+00:00",
       "start_ts": 1782468000.0,
-      "status": "void",
-      "settled_ts": 1782730430.230621,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -602,11 +626,14 @@
       "fair_pct": 51.5,
       "start": "2026-06-26T09:00:00+00:00",
       "start_ts": 1782464400.0,
-      "status": "void",
-      "settled_ts": 1782730430.230621,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -626,11 +653,14 @@
       "fair_pct": 67.4,
       "start": "2026-06-26T10:00:00+00:00",
       "start_ts": 1782468000.0,
-      "status": "void",
-      "settled_ts": 1782730430.230621,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -650,11 +680,14 @@
       "fair_pct": 65.3,
       "start": "2026-06-26T09:00:00+00:00",
       "start_ts": 1782464400.0,
-      "status": "void",
-      "settled_ts": 1782730430.230621,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -674,11 +707,14 @@
       "fair_pct": 52.0,
       "start": "2026-06-26T13:00:00+00:00",
       "start_ts": 1782478800.0,
-      "status": "void",
-      "settled_ts": 1782744412.3841324,
+      "status": "lost",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -725,11 +761,14 @@
       "fair_pct": 59.8,
       "start": "2026-06-26T18:00:00+00:00",
       "start_ts": 1782496800.0,
-      "status": "void",
-      "settled_ts": 1782756381.2119167,
+      "status": "lost",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -749,11 +788,14 @@
       "fair_pct": 58.7,
       "start": "2026-06-26T18:00:00+00:00",
       "start_ts": 1782496800.0,
-      "status": "void",
-      "settled_ts": 1782756381.2119167,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -875,11 +917,14 @@
       "fair_pct": 57.6,
       "start": "2026-06-27T08:30:00+00:00",
       "start_ts": 1782549000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -899,11 +944,14 @@
       "fair_pct": 66.5,
       "start": "2026-06-27T09:00:00+00:00",
       "start_ts": 1782550800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -1004,11 +1052,14 @@
       "fair_pct": 62.0,
       "start": "2026-06-27T08:36:00+00:00",
       "start_ts": 1782549360.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -1028,11 +1079,14 @@
       "fair_pct": 63.2,
       "start": "2026-06-27T11:00:00+00:00",
       "start_ts": 1782558000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -1052,11 +1106,14 @@
       "fair_pct": 61.5,
       "start": "2026-06-27T15:00:00+00:00",
       "start_ts": 1782572400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -1256,11 +1313,14 @@
       "fair_pct": 64.2,
       "start": "2026-06-28T09:30:00+00:00",
       "start_ts": 1782639000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -1280,11 +1340,14 @@
       "fair_pct": 62.7,
       "start": "2026-06-28T10:00:00+00:00",
       "start_ts": 1782640800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -1331,11 +1394,14 @@
       "fair_pct": 56.2,
       "start": "2026-06-28T10:00:00+00:00",
       "start_ts": 1782640800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -1580,11 +1646,14 @@
       "fair_pct": 65.0,
       "start": "2026-06-29T12:30:00+00:00",
       "start_ts": 1782736200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1782766108.647695,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
