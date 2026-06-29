@@ -725,11 +725,11 @@
       "fair_pct": 59.8,
       "start": "2026-06-26T18:00:00+00:00",
       "start_ts": 1782496800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782756381.2119167,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
@@ -749,11 +749,11 @@
       "fair_pct": 58.7,
       "start": "2026-06-26T18:00:00+00:00",
       "start_ts": 1782496800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782756381.2119167,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
@@ -1613,6 +1613,30 @@
       ],
       "settle_source": "tennisexplorer",
       "needs_manual": false
+    },
+    {
+      "id": 70,
+      "ts": 1782756198.561955,
+      "key": "67:16896532:ou:169.5:over",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:169.5:over",
+      "event": "Club Atletico Olimpia - CD Albatros",
+      "market": "ou",
+      "market_name": "O/U 169.5",
+      "tip": "Több mint 169.5",
+      "odds": 1.87,
+      "stake": 1200,
+      "value_pct": 4.2,
+      "fair_pct": 55.7,
+      "start": "2026-06-29T23:15:00+00:00",
+      "start_ts": 1782774900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false
     }
   ],
   "papered": {
@@ -1668,8 +1692,9 @@
     "sanmarino|gibraltar|ou:135.5:over|20260628": 1782654123.451844,
     "chicagoskyn|lasvegasacesn|ou:179.5:over|20260628": 1782661871.810677,
     "cosmerollandderavel|maratsharipov|ah:-1.5:away|20260629": 1782712101.109312,
-    "alvaroguillenmeza|francoroncadelli|ah:-1.5:away|20260629": 1782730424.897332
+    "alvaroguillenmeza|francoroncadelli|ah:-1.5:away|20260629": 1782730424.897332,
+    "clubatleticoolimpia|cdalbatros|ou:169.5:over|20260629": 1782756198.561955
   },
   "last_report_date": "2026-06-29",
-  "next_id": 70
+  "next_id": 71
 }
