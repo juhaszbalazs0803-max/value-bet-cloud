@@ -23,8 +23,11 @@ from . import matching
 
 BASE = "https://www.tennisexplorer.com/results/"
 
+# A két sort az id párosítja (rN -> rNb). A `fRow` class CSAK a torna első
+# meccsén van, ezért NEM szabad rá szűrni – különben a torna többi meccse (a
+# Challenger/ITF mezőny zöme) elveszik és tévesen auto-void lesz.
 _MATCH_RE = re.compile(
-    r'<tr id="r(\d+)"[^>]*class="[^"]*fRow[^"]*"[^>]*>(.*?)</tr>\s*'
+    r'<tr id="r(\d+)"[^>]*>(.*?)</tr>\s*'
     r'<tr id="r\1b"[^>]*>(.*?)</tr>', re.S)
 _NAME_RE = re.compile(r'<td class="t-name"><a href="/player/[^"]*">([^<]+)</a>')
 _RESULT_RE = re.compile(r'<td class="result">(\d+)</td>')

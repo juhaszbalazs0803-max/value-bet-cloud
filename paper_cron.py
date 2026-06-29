@@ -100,6 +100,7 @@ def place_new(cfg, ledger):
         start = d["start"]
         rec = {
             "id": ledger["next_id"], "ts": now, "key": d["key"],
+            "content_key": ck,
             "sport": d["sport"], "sport_id": v.sport_id, "subkey": b["subkey"],
             "event": d["event"], "market": b.get("market", ""),
             "market_name": b["market_name"], "tip": b["tip"],
@@ -108,15 +109,63 @@ def place_new(cfg, ledger):
             "start": start, "start_ts": _iso_ts(start),
             "status": "pending", "settled_ts": None, "source": "auto",
             "final_score": None, "settle_source": None, "needs_manual": False,
+            "close_fair_odds": None, "clv_pct": None,
         }
         ledger["next_id"] += 1
         ledger["placed"].append(rec)
         placed += 1
+    # CLV: a friss scan-eredményekből a nyitott tételek záró-oddsát frissítjük
+    capture_clv(ledger, found, now)
     # régi tartalom-kulcsok takarítása
     cutoff = now - 45 * 86400
     ledger["papered"] = {k: t for k, t in ledger["papered"].items() if t >= cutoff}
     print(f"[paper] {placed} uj tipp megrakva (<={max_odds} odds), osszes talalat: {len(found)}.")
     return placed
+
+
+# ---------- CLV (záró-odds) követés ----------
+def _rec_content_key(rec):
+    """A megrakott tétel tartalom-kulcsa (a `notify_cron.dedup_key` formátuma),
+    hogy a friss scan-találatokhoz tudjuk párosítani akkor is, ha a vegas event-id
+    közben megváltozott."""
+    ev = rec.get("event", "")
+    home, _, away = ev.partition(" - ")
+    day = ""
+    st = rec.get("start")
+    if st:
+        try:
+            day = datetime.fromisoformat(str(st).replace("Z", "+00:00")).strftime("%Y%m%d")
+        except Exception:
+            day = ""
+    return f"{notify_cron._norm(home)}|{notify_cron._norm(away)}|{rec.get('subkey', '')}|{day}"
+
+
+def capture_clv(ledger, found, now):
+    """A nyitott papír-tételekhez a kezdésig FRISSÜLŐ Pinnacle (vig nélküli) záró-
+    oddsot rögzíti, és számolja a CLV%-ot: (fogadott_odds / záró_fair_odds − 1)×100.
+    Pozitív CLV = a megfogott odds verte az éles iroda záró vonalát → a value valódi,
+    hosszú-távú bizonyítéka (megbízhatóbb mint a rövidtávú yield). A meccs kezdéséig
+    minden körben felülírja, kezdés után fagyasztva marad az utolsó (záró) érték."""
+    cur = {ck: b for ck, _v, b in found}
+    changed = 0
+    for rec in ledger["placed"]:
+        if rec.get("status") != "pending":
+            continue
+        ck = rec.get("content_key") or _rec_content_key(rec)
+        b = cur.get(ck)
+        st = rec.get("start_ts") or _iso_ts(rec.get("start"))
+        pre_kickoff = st is None or now < st
+        if b and b.get("fair_p") and pre_kickoff:
+            rec["close_fair_odds"] = round(1.0 / b["fair_p"], 4)
+            rec["close_fair_p"] = b["fair_p"]
+            rec["close_ts"] = now
+        cf = rec.get("close_fair_odds")
+        if cf and rec.get("odds"):
+            clv = round((rec["odds"] / cf - 1) * 100, 2)
+            if rec.get("clv_pct") != clv:
+                rec["clv_pct"] = clv
+                changed += 1
+    return changed
 
 
 # ---------- lezárás (visszamenőleges + auto-void) ----------
@@ -210,6 +259,10 @@ def compute_stats(ledger):
     real_pnl = sum(profit(b) for b in settled)
     u_pnl = sum(uprofit(b) for b in settled)
     u_staked = unit * len(settled)
+    # CLV: minden tételen (nyitott + lezárt), aminek van záró-odds összevetése
+    clvs = [b["clv_pct"] for b in placed if b.get("clv_pct") is not None]
+    clv_avg = round(sum(clvs) / len(clvs), 2) if clvs else None
+    beat = sum(1 for c in clvs if c > 0)
     return {
         "settled": len(settled), "won": won, "lost": len(settled) - won,
         "hit_rate": round(100 * won / len(settled), 1) if settled else 0,
@@ -217,6 +270,8 @@ def compute_stats(ledger):
         "roi": round(100 * u_pnl / u_staked, 1) if u_staked else 0,
         "open": sum(1 for b in placed if b["status"] == "pending"),
         "void": sum(1 for b in placed if b["status"] == "void"),
+        "clv_avg": clv_avg, "clv_n": len(clvs),
+        "clv_beat_rate": round(100 * beat / len(clvs), 1) if clvs else None,
     }
 
 
@@ -226,6 +281,7 @@ def report_text(cfg, ledger):
     growth = (100 * s["real_pnl"] / bankroll) if bankroll else 0
     gsign = "+" if growth >= 0 else ""
     ysign = "+" if s["roi"] >= 0 else ""
+    max_odds = float(cfg.get("paper", {}).get("max_odds", 2.0))
     lines = [
         "📊 <b>Napi value-bet jelentés</b> (felhő)",
         "",
@@ -233,9 +289,15 @@ def report_text(cfg, ledger):
         f"({s['real_pnl']:+,} Ft / {bankroll:,.0f} Ft tőke)".replace(",", " "),
         f"📈 Hozam (yield, egys. tét): <b>{ysign}{s['roi']}%</b>",
         f"🎯 Találati arány: <b>{s['hit_rate']}%</b>  ({s['won']}/{s['settled']} nyert/lezárt)",
+    ]
+    if s.get("clv_avg") is not None:
+        csign = "+" if s["clv_avg"] >= 0 else ""
+        lines.append(f"📐 Átlag CLV: <b>{csign}{s['clv_avg']}%</b>  "
+                     f"({s['clv_n']} tipp, {s['clv_beat_rate']}% verte a zárót)")
+    lines += [
         f"🟢 Nyitott (papír) tétel: <b>{s['open']}</b>",
         "",
-        "<i>A szoftver automatikusan 'megrakja' a ≤2.00 oddsú biztos value "
+        f"<i>A szoftver automatikusan 'megrakja' a ≤{max_odds:.2f} oddsú biztos value "
         "tippeket; valódi fogadás nem történik.</i>",
     ]
     return "\n".join(lines)
