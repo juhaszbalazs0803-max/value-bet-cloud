@@ -1706,6 +1706,35 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false
+    },
+    {
+      "id": 71,
+      "ts": 1782768356.658748,
+      "key": "67:16896532:ah:-8.5:home",
+      "content_key": "clubatleticoolimpia|cdalbatros|ah:-8.5:home|20260629",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-8.5:home",
+      "event": "Club Atletico Olimpia - CD Albatros",
+      "market": "ah",
+      "market_name": "Hendikep -8.5",
+      "tip": "Hendikep Club Atletico Olimpia (-8.5)",
+      "odds": 1.8,
+      "stake": 900,
+      "value_pct": 3.03,
+      "fair_pct": 57.2,
+      "start": "2026-06-29T23:15:00+00:00",
+      "start_ts": 1782774900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7471,
+      "clv_pct": 3.03,
+      "close_fair_p": 0.5723932367914325,
+      "close_ts": 1782768626.659123
     }
   ],
   "papered": {
@@ -1762,8 +1791,9 @@
     "chicagoskyn|lasvegasacesn|ou:179.5:over|20260628": 1782661871.810677,
     "cosmerollandderavel|maratsharipov|ah:-1.5:away|20260629": 1782712101.109312,
     "alvaroguillenmeza|francoroncadelli|ah:-1.5:away|20260629": 1782730424.897332,
-    "clubatleticoolimpia|cdalbatros|ou:169.5:over|20260629": 1782756198.561955
+    "clubatleticoolimpia|cdalbatros|ou:169.5:over|20260629": 1782756198.561955,
+    "clubatleticoolimpia|cdalbatros|ah:-8.5:home|20260629": 1782768356.658748
   },
   "last_report_date": "2026-06-29",
-  "next_id": 71
+  "next_id": 72
 }
