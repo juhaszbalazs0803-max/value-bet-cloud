@@ -125,8 +125,8 @@
   "paper": {
     "_comment": "AUTO PAPÍR-FOGADÁS: a szoftver nem küld per-tipp értesítést, hanem automatikusan 'megrakja' a biztos value tippeket (papíron) és statisztikát vezet. Valódi fogadás NEM történik.",
     "enabled": true,
-    "max_odds": 5.0,
-    "_max_odds_comment": "Csak az ennél kisebb/egyenlő oddsú tippeket rakja meg automatikusan. A solid.max_odds-hoz (5.0) igazítva, hogy a 2.0 feletti value tippek (pl. tenisz +1.5 hendikep) is bekerüljenek a statisztikába; a magasabb odds nagyobb szórást is jelent."
+    "max_odds": 2.0,
+    "_max_odds_comment": "Csak az ennél kisebb/egyenlő oddsú tippeket rakja meg automatikusan. 2.0-n tartva: az eddigi pozitív statisztika (yield +10.5%, 60% találat, +11% CLV) MIND ≤2.0 oddsból jött, ez a bevált sáv."
   },
   "report": {
     "_comment": "Napi EGY Telegram-jelentés a statisztikáról (portfólió-növekedés %, yield, találati arány). A LOKÁLIS appból megy (a statisztika itt él), ezért a gépnek futnia kell aznap.",
