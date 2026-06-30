@@ -1188,11 +1188,11 @@
       "fair_pct": 54.0,
       "start": "2026-06-27T19:00:00+00:00",
       "start_ts": 1782586800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782849149.8797772,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
@@ -1830,5 +1830,5 @@
   },
   "last_report_date": "2026-06-30",
   "next_id": 74,
-  "tg_offset": null
+  "tg_offset": 363415778
 }
