@@ -573,11 +573,14 @@
       "fair_pct": 53.4,
       "start": "2026-06-26T10:30:00+00:00",
       "start_ts": 1782469800.0,
-      "status": "void",
-      "settled_ts": 1782730430.230621,
+      "status": "won",
+      "settled_ts": 1782824622.835748,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false
     },
     {
@@ -1734,7 +1737,7 @@
       "close_fair_odds": 1.841,
       "clv_pct": 3.69,
       "close_fair_p": 0.5431957583948435,
-      "close_ts": 1782823008.533803
+      "close_ts": 1782824618.268265
     }
   ],
   "papered": {
