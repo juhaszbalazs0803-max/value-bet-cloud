@@ -1735,6 +1735,35 @@
       "clv_pct": 4.83,
       "close_fair_p": 0.5824172941207335,
       "close_ts": 1782769256.660021
+    },
+    {
+      "id": 72,
+      "ts": 1782819858.444683,
+      "key": "67:16839939:ou:174.5:over",
+      "content_key": "newyorklibertyn|lasvegasacesn|ou:174.5:over|20260630",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:174.5:over",
+      "event": "New York Liberty (N) - Las Vegas Aces (N)",
+      "market": "ou",
+      "market_name": "O/U 174.5",
+      "tip": "Több mint 174.5",
+      "odds": 1.909,
+      "stake": 1000,
+      "value_pct": 3.55,
+      "fair_pct": 54.2,
+      "start": "2026-06-30T23:00:00+00:00",
+      "start_ts": 1782860400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8436,
+      "clv_pct": 3.55,
+      "close_fair_p": 0.5424101878783114,
+      "close_ts": 1782819858.444683
     }
   ],
   "papered": {
@@ -1792,9 +1821,10 @@
     "cosmerollandderavel|maratsharipov|ah:-1.5:away|20260629": 1782712101.109312,
     "alvaroguillenmeza|francoroncadelli|ah:-1.5:away|20260629": 1782730424.897332,
     "clubatleticoolimpia|cdalbatros|ou:169.5:over|20260629": 1782756198.561955,
-    "clubatleticoolimpia|cdalbatros|ah:-8.5:home|20260629": 1782768356.658748
+    "clubatleticoolimpia|cdalbatros|ah:-8.5:home|20260629": 1782768356.658748,
+    "newyorklibertyn|lasvegasacesn|ou:174.5:over|20260630": 1782819858.444683
   },
   "last_report_date": "2026-06-30",
-  "next_id": 72,
+  "next_id": 73,
   "tg_offset": null
 }
