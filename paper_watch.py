@@ -37,11 +37,25 @@ def git_push():
     beállított hitelesítést használja; hiba esetén csak logol, nem áll meg."""
     try:
         subprocess.run(["git", "add", "paper_data.json"], check=False)
-        if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
-            subprocess.run(["git", "commit", "-m", "paper: ledger frissites [skip ci]"],
-                           check=False)
+        if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode == 0:
+            return  # nincs ledger-változás
+        subprocess.run(["git", "commit", "-m", "paper: ledger frissites [skip ci]"],
+                       check=False)
+        # A távoli main időközben előrébb léphetett (keepalive heartbeat, sorba
+        # állított futás pushja) -> ELŐBB rebase-eljük rá a ledger-commitot, csak
+        # utána pusholunk. Enélkül a push non-fast-forward miatt elutasul és a
+        # ledger-frissítés (akár a frissen beállított last_report_date) elveszne,
+        # ami a napi jelentés DUPLÁZÓDÁSÁHOZ vezet a következő futásban.
+        for attempt in range(3):
+            subprocess.run(["git", "pull", "--rebase", "--autostash"],
+                           capture_output=True, text=True)
             r = subprocess.run(["git", "push"], capture_output=True, text=True)
-            print("[git] ledger pusholva" if r.returncode == 0 else f"[git] push hiba: {r.stderr.strip()}")
+            if r.returncode == 0:
+                print("[git] ledger pusholva")
+                return
+            tail = (r.stderr.strip().splitlines() or [""])[-1]
+            print(f"[git] push hiba (próba {attempt + 1}/3): {tail}")
+            time.sleep(2)
     except Exception as e:
         print(f"[git] hiba: {e}")
 

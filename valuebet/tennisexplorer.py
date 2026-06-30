@@ -29,7 +29,10 @@ BASE = "https://www.tennisexplorer.com/results/"
 _MATCH_RE = re.compile(
     r'<tr id="r(\d+)"[^>]*>(.*?)</tr>\s*'
     r'<tr id="r\1b"[^>]*>(.*?)</tr>', re.S)
-_NAME_RE = re.compile(r'<td class="t-name"><a href="/player/[^"]*">([^<]+)</a>')
+# /player/ = egyéni, /doubles-team/ = páros (két játékos egy cellában, pl.
+# "Arribage / Olivetti") – a párost is el kell fogadni, különben a teljes
+# páros-mezőny kimarad és tévesen auto-void lesz.
+_NAME_RE = re.compile(r'<td class="t-name"><a href="/(?:player|doubles-team)/[^"]*"[^>]*>([^<]+)</a>')
 _RESULT_RE = re.compile(r'<td class="result">(\d+)</td>')
 _SCORE_RE = re.compile(r'<td class="score">(\d+)</td>')
 
