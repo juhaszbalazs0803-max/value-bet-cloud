@@ -1738,6 +1738,35 @@
       "clv_pct": 3.69,
       "close_fair_p": 0.5431957583948435,
       "close_ts": 1782825248.274115
+    },
+    {
+      "id": 73,
+      "ts": 1782839869.766426,
+      "key": "67:16896580:ah:-6.5:away",
+      "content_key": "csdeportivosayago|montevideobasket|ah:-6.5:away|20260630",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-6.5:away",
+      "event": "CS Deportivo Sayago - Montevideo Basket",
+      "market": "ah",
+      "market_name": "Hendikep +6.5",
+      "tip": "Hendikep Montevideo Basket (+6.5)",
+      "odds": 1.87,
+      "stake": 1500,
+      "value_pct": 5.37,
+      "fair_pct": 56.4,
+      "start": "2026-06-30T23:15:00+00:00",
+      "start_ts": 1782861300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7744,
+      "clv_pct": 5.39,
+      "close_fair_p": 0.5635815208763296,
+      "close_ts": 1782840409.753633
     }
   ],
   "papered": {
@@ -1796,9 +1825,10 @@
     "alvaroguillenmeza|francoroncadelli|ah:-1.5:away|20260629": 1782730424.897332,
     "clubatleticoolimpia|cdalbatros|ou:169.5:over|20260629": 1782756198.561955,
     "clubatleticoolimpia|cdalbatros|ah:-8.5:home|20260629": 1782768356.658748,
-    "newyorklibertyn|lasvegasacesn|ou:174.5:over|20260630": 1782819858.444683
+    "newyorklibertyn|lasvegasacesn|ou:174.5:over|20260630": 1782819858.444683,
+    "csdeportivosayago|montevideobasket|ah:-6.5:away|20260630": 1782839869.766426
   },
   "last_report_date": "2026-06-30",
-  "next_id": 73,
+  "next_id": 74,
   "tg_offset": null
 }
