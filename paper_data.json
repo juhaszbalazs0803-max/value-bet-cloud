@@ -866,11 +866,11 @@
       "fair_pct": 54.2,
       "start": "2026-06-27T00:00:00+00:00",
       "start_ts": 1782518400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782777757.4902978,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
