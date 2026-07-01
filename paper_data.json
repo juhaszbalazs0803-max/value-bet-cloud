@@ -1473,11 +1473,11 @@
       "fair_pct": 55.2,
       "start": "2026-06-28T20:00:00+00:00",
       "start_ts": 1782676800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782936116.2423291,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
@@ -1524,11 +1524,11 @@
       "fair_pct": 53.7,
       "start": "2026-06-28T20:00:00+00:00",
       "start_ts": 1782676800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782936116.2423291,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
@@ -1548,11 +1548,11 @@
       "fair_pct": 52.8,
       "start": "2026-06-28T20:00:00+00:00",
       "start_ts": 1782676800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782936116.2423291,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
@@ -1596,11 +1596,11 @@
       "fair_pct": 53.7,
       "start": "2026-06-28T20:00:00+00:00",
       "start_ts": 1782676800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782936116.2423291,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
