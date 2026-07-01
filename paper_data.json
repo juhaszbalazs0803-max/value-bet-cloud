@@ -1770,6 +1770,35 @@
       "clv_pct": 5.39,
       "close_fair_p": 0.5635815208763296,
       "close_ts": 1782842299.769784
+    },
+    {
+      "id": 74,
+      "ts": 1782908559.201532,
+      "key": "68:16961728:ml:home",
+      "content_key": "gonzalezmgonzalezs|kokkinakistkovacevica|ml:home|20260701",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Gonzalez M / Gonzalez S - Kokkinakis, T/Kovacevic, A",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Gonzalez M / Gonzalez S",
+      "odds": 1.571,
+      "stake": 3400,
+      "value_pct": 7.71,
+      "fair_pct": 68.5,
+      "start": "2026-07-01T13:30:00+00:00",
+      "start_ts": 1782912600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.459,
+      "clv_pct": 7.68,
+      "close_fair_p": 0.6854134041442546,
+      "close_ts": 1782908649.127111
     }
   ],
   "papered": {
@@ -1829,9 +1858,10 @@
     "clubatleticoolimpia|cdalbatros|ou:169.5:over|20260629": 1782756198.561955,
     "clubatleticoolimpia|cdalbatros|ah:-8.5:home|20260629": 1782768356.658748,
     "newyorklibertyn|lasvegasacesn|ou:174.5:over|20260630": 1782819858.444683,
-    "csdeportivosayago|montevideobasket|ah:-6.5:away|20260630": 1782839869.766426
+    "csdeportivosayago|montevideobasket|ah:-6.5:away|20260630": 1782839869.766426,
+    "gonzalezmgonzalezs|kokkinakistkovacevica|ml:home|20260701": 1782908559.201532
   },
   "last_report_date": "2026-07-01",
-  "next_id": 74,
+  "next_id": 75,
   "tg_offset": 363415778
 }
