@@ -1212,11 +1212,11 @@
       "fair_pct": 56.8,
       "start": "2026-06-28T00:00:00+00:00",
       "start_ts": 1782604800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782864161.9392483,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
