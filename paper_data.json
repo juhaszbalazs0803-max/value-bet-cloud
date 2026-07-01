@@ -1263,11 +1263,11 @@
       "fair_pct": 54.1,
       "start": "2026-06-28T00:30:00+00:00",
       "start_ts": 1782606600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782877018.7000935,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
@@ -1728,11 +1728,14 @@
       "fair_pct": 54.2,
       "start": "2026-06-30T23:00:00+00:00",
       "start_ts": 1782860400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1782877018.7000935,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        93,
+        85
+      ],
+      "settle_source": "sportsdb",
       "needs_manual": false,
       "close_fair_odds": 1.841,
       "clv_pct": 3.69,
