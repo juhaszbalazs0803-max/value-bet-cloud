@@ -1572,11 +1572,11 @@
       "fair_pct": 55.7,
       "start": "2026-06-28T15:00:00+00:00",
       "start_ts": 1782658800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1782920374.2434115,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false
     },
     {
