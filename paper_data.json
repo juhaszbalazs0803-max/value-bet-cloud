@@ -1860,6 +1860,35 @@
       "clv_pct": 7.7,
       "close_fair_p": 0.5494934763926144,
       "close_ts": 1782910539.211881
+    },
+    {
+      "id": 77,
+      "ts": 1782977362.312326,
+      "key": "67:16914133:ah:24.5:home",
+      "content_key": "uganda|angola|ah:24.5:home|20260702",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:24.5:home",
+      "event": "Uganda - Angola",
+      "market": "ah",
+      "market_name": "Hendikep +24.5",
+      "tip": "Hendikep Uganda (+24.5)",
+      "odds": 1.87,
+      "stake": 1500,
+      "value_pct": 5.03,
+      "fair_pct": 56.2,
+      "start": "2026-07-02T18:00:00+00:00",
+      "start_ts": 1783015200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.78,
+      "clv_pct": 5.06,
+      "close_fair_p": 0.5617977528089888,
+      "close_ts": 1782977362.312326
     }
   ],
   "papered": {
@@ -1922,9 +1951,10 @@
     "csdeportivosayago|montevideobasket|ah:-6.5:away|20260630": 1782839869.766426,
     "gonzalezmgonzalezs|kokkinakistkovacevica|ml:home|20260701": 1782908559.201532,
     "christiefsilvae|birrellkgibsont|ml:away|20260702": 1782909459.198304,
-    "melicharmartineznroutliffee|kostyukmrusee|ml:away|20260702": 1782909459.198304
+    "melicharmartineznroutliffee|kostyukmrusee|ml:away|20260702": 1782909459.198304,
+    "uganda|angola|ah:24.5:home|20260702": 1782977362.312326
   },
   "last_report_date": "2026-07-01",
-  "next_id": 77,
+  "next_id": 78,
   "tg_offset": 363415778
 }
