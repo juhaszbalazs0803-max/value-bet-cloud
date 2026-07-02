@@ -1918,6 +1918,35 @@
       "clv_pct": 4.67,
       "close_fair_p": 0.5582549364209656,
       "close_ts": 1782990011.366618
+    },
+    {
+      "id": 79,
+      "ts": 1782998764.056832,
+      "key": "67:15806105:ah:7.5:home",
+      "content_key": "washingtonmysticsn|atlantadreamn|ah:7.5:home|20260702",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:7.5:home",
+      "event": "Washington Mystics (N) - Atlanta Dream (N)",
+      "market": "ah",
+      "market_name": "Hendikep +7.5",
+      "tip": "Hendikep Washington Mystics (N) (+7.5)",
+      "odds": 1.909,
+      "stake": 1000,
+      "value_pct": 3.54,
+      "fair_pct": 54.2,
+      "start": "2026-07-02T23:30:00+00:00",
+      "start_ts": 1783035000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8439,
+      "clv_pct": 3.53,
+      "close_fair_p": 0.5423423900103177,
+      "close_ts": 1782998764.056832
     }
   ],
   "papered": {
@@ -1982,9 +2011,10 @@
     "christiefsilvae|birrellkgibsont|ml:away|20260702": 1782909459.198304,
     "melicharmartineznroutliffee|kostyukmrusee|ml:away|20260702": 1782909459.198304,
     "uganda|angola|ah:24.5:home|20260702": 1782977362.312326,
-    "darthlumsdenm|sutjiadiatjenj|ml:away|20260702": 1782988571.449143
+    "darthlumsdenm|sutjiadiatjenj|ml:away|20260702": 1782988571.449143,
+    "washingtonmysticsn|atlantadreamn|ah:7.5:home|20260702": 1782998764.056832
   },
   "last_report_date": "2026-07-02",
-  "next_id": 79,
+  "next_id": 80,
   "tg_offset": 363415778
 }
