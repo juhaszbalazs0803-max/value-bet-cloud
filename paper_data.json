@@ -1947,6 +1947,35 @@
       "clv_pct": 3.53,
       "close_fair_p": 0.5423423900103177,
       "close_ts": 1782998764.056832
+    },
+    {
+      "id": 80,
+      "ts": 1783005216.882621,
+      "key": "67:16314463:ah:8.5:home",
+      "content_key": "connecticutsunn|dallaswingsn|ah:8.5:home|20260703",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:8.5:home",
+      "event": "Connecticut Sun (N) - Dallas Wings (N)",
+      "market": "ah",
+      "market_name": "Hendikep +8.5",
+      "tip": "Hendikep Connecticut Sun (N) (+8.5)",
+      "odds": 1.909,
+      "stake": 1400,
+      "value_pct": 5.27,
+      "fair_pct": 55.1,
+      "start": "2026-07-03T00:00:00+00:00",
+      "start_ts": 1783036800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8135,
+      "clv_pct": 5.27,
+      "close_fair_p": 0.5514227748010196,
+      "close_ts": 1783005216.882621
     }
   ],
   "papered": {
@@ -2012,9 +2041,10 @@
     "melicharmartineznroutliffee|kostyukmrusee|ml:away|20260702": 1782909459.198304,
     "uganda|angola|ah:24.5:home|20260702": 1782977362.312326,
     "darthlumsdenm|sutjiadiatjenj|ml:away|20260702": 1782988571.449143,
-    "washingtonmysticsn|atlantadreamn|ah:7.5:home|20260702": 1782998764.056832
+    "washingtonmysticsn|atlantadreamn|ah:7.5:home|20260702": 1782998764.056832,
+    "connecticutsunn|dallaswingsn|ah:8.5:home|20260703": 1783005216.882621
   },
   "last_report_date": "2026-07-02",
-  "next_id": 80,
+  "next_id": 81,
   "tg_offset": 363415778
 }
