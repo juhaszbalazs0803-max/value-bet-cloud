@@ -1889,6 +1889,35 @@
       "clv_pct": 5.06,
       "close_fair_p": 0.5617977528089888,
       "close_ts": 1782977362.312326
+    },
+    {
+      "id": 78,
+      "ts": 1782988571.449143,
+      "key": "68:16918499:ml:away",
+      "content_key": "darthlumsdenm|sutjiadiatjenj|ml:away|20260702",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Dart H / Lumsden M - Sutjiadi A / Tjen J",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Sutjiadi A / Tjen J",
+      "odds": 1.875,
+      "stake": 1300,
+      "value_pct": 4.67,
+      "fair_pct": 55.8,
+      "start": "2026-07-02T13:43:00+00:00",
+      "start_ts": 1782999780.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7913,
+      "clv_pct": 4.67,
+      "close_fair_p": 0.5582549364209656,
+      "close_ts": 1782988571.449143
     }
   ],
   "papered": {
@@ -1952,9 +1981,10 @@
     "gonzalezmgonzalezs|kokkinakistkovacevica|ml:home|20260701": 1782908559.201532,
     "christiefsilvae|birrellkgibsont|ml:away|20260702": 1782909459.198304,
     "melicharmartineznroutliffee|kostyukmrusee|ml:away|20260702": 1782909459.198304,
-    "uganda|angola|ah:24.5:home|20260702": 1782977362.312326
+    "uganda|angola|ah:24.5:home|20260702": 1782977362.312326,
+    "darthlumsdenm|sutjiadiatjenj|ml:away|20260702": 1782988571.449143
   },
-  "last_report_date": "2026-07-01",
-  "next_id": 78,
+  "last_report_date": "2026-07-02",
+  "next_id": 79,
   "tg_offset": 363415778
 }
