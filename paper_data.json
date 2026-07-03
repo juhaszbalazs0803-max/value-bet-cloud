@@ -2040,6 +2040,35 @@
       "clv_pct": 4.25,
       "close_fair_p": 0.5791302516584185,
       "close_ts": 1783063091.462496
+    },
+    {
+      "id": 83,
+      "ts": 1783074256.549138,
+      "key": "68:16980021:ml:away",
+      "content_key": "amandaanisimova|madisonkeys|ml:away|20260704",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Amanda Anisimova - Madison Keys",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Madison Keys",
+      "odds": 1.75,
+      "stake": 1400,
+      "value_pct": 4.14,
+      "fair_pct": 59.5,
+      "start": "2026-07-04T09:00:00+00:00",
+      "start_ts": 1783155600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6804,
+      "clv_pct": 4.14,
+      "close_fair_p": 0.5951052592427286,
+      "close_ts": 1783074256.549138
     }
   ],
   "papered": {
@@ -2108,9 +2137,10 @@
     "washingtonmysticsn|atlantadreamn|ah:7.5:home|20260702": 1782998764.056832,
     "connecticutsunn|dallaswingsn|ah:8.5:home|20260703": 1783005216.882621,
     "tianhuizhang|hanyiliu|ml:away|20260703": 1783046710.623668,
-    "canterburyrams|manawatujets|ah:-7.5:away|20260703": 1783062641.516124
+    "canterburyrams|manawatujets|ah:-7.5:away|20260703": 1783062641.516124,
+    "amandaanisimova|madisonkeys|ml:away|20260704": 1783074256.549138
   },
   "last_report_date": "2026-07-03",
-  "next_id": 83,
+  "next_id": 84,
   "tg_offset": 363415778
 }
