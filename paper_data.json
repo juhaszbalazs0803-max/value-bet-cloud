@@ -2101,6 +2101,35 @@
       "clv_pct": 3.51,
       "close_fair_p": 0.549123215997099,
       "close_ts": 1783094241.367985
+    },
+    {
+      "id": 85,
+      "ts": 1783101015.228994,
+      "key": "67:16934770:ah:-2.5:away",
+      "content_key": "sanantoniospurs|miamiheat|ah:-2.5:away|20260704",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-2.5:away",
+      "event": "San Antonio Spurs - Miami Heat",
+      "market": "ah",
+      "market_name": "Hendikep +2.5",
+      "tip": "Hendikep Miami Heat (+2.5)",
+      "odds": 1.952,
+      "stake": 1700,
+      "value_pct": 6.44,
+      "fair_pct": 54.5,
+      "start": "2026-07-04T00:00:00+00:00",
+      "start_ts": 1783123200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8343,
+      "clv_pct": 6.42,
+      "close_fair_p": 0.5451733808612692,
+      "close_ts": 1783101015.228994
     }
   ],
   "papered": {
@@ -2171,9 +2200,10 @@
     "tianhuizhang|hanyiliu|ml:away|20260703": 1783046710.623668,
     "canterburyrams|manawatujets|ah:-7.5:away|20260703": 1783062641.516124,
     "amandaanisimova|madisonkeys|ml:away|20260704": 1783074256.549138,
-    "lasvegasacesn|chicagoskyn|ah:-6.5:home|20260704": 1783093971.380389
+    "lasvegasacesn|chicagoskyn|ah:-6.5:home|20260704": 1783093971.380389,
+    "sanantoniospurs|miamiheat|ah:-2.5:away|20260704": 1783101015.228994
   },
   "last_report_date": "2026-07-03",
-  "next_id": 85,
+  "next_id": 86,
   "tg_offset": 363415778
 }
