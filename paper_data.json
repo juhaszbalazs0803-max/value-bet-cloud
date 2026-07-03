@@ -2072,6 +2072,35 @@
       "clv_pct": 4.14,
       "close_fair_p": 0.5951052592427286,
       "close_ts": 1783074256.549138
+    },
+    {
+      "id": 84,
+      "ts": 1783093971.380389,
+      "key": "67:15817621:ah:-6.5:home",
+      "content_key": "lasvegasacesn|chicagoskyn|ah:-6.5:home|20260704",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-6.5:home",
+      "event": "Las Vegas Aces (N) - Chicago Sky (N)",
+      "market": "ah",
+      "market_name": "Hendikep -6.5",
+      "tip": "Hendikep Las Vegas Aces (N) (-6.5)",
+      "odds": 1.885,
+      "stake": 1000,
+      "value_pct": 3.51,
+      "fair_pct": 54.9,
+      "start": "2026-07-04T02:00:00+00:00",
+      "start_ts": 1783130400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8211,
+      "clv_pct": 3.51,
+      "close_fair_p": 0.549123215997099,
+      "close_ts": 1783094241.367985
     }
   ],
   "papered": {
@@ -2141,9 +2170,10 @@
     "connecticutsunn|dallaswingsn|ah:8.5:home|20260703": 1783005216.882621,
     "tianhuizhang|hanyiliu|ml:away|20260703": 1783046710.623668,
     "canterburyrams|manawatujets|ah:-7.5:away|20260703": 1783062641.516124,
-    "amandaanisimova|madisonkeys|ml:away|20260704": 1783074256.549138
+    "amandaanisimova|madisonkeys|ml:away|20260704": 1783074256.549138,
+    "lasvegasacesn|chicagoskyn|ah:-6.5:home|20260704": 1783093971.380389
   },
   "last_report_date": "2026-07-03",
-  "next_id": 84,
+  "next_id": 85,
   "tg_offset": 363415778
 }
