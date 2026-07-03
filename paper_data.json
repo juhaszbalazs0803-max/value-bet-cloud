@@ -2011,6 +2011,35 @@
       "clv_pct": 5.99,
       "close_fair_p": 0.5934643163796152,
       "close_ts": 1783046800.668193
+    },
+    {
+      "id": 82,
+      "ts": 1783062641.516124,
+      "key": "67:16195167:ah:-7.5:away",
+      "content_key": "canterburyrams|manawatujets|ah:-7.5:away|20260703",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-7.5:away",
+      "event": "Canterbury Rams - Manawatu Jets",
+      "market": "ah",
+      "market_name": "Hendikep +7.5",
+      "tip": "Hendikep Manawatu Jets (+7.5)",
+      "odds": 1.8,
+      "stake": 1300,
+      "value_pct": 4.24,
+      "fair_pct": 57.9,
+      "start": "2026-07-03T07:30:00+00:00",
+      "start_ts": 1783063800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7267,
+      "clv_pct": 4.25,
+      "close_fair_p": 0.5791302516584185,
+      "close_ts": 1783062731.510292
     }
   ],
   "papered": {
@@ -2078,9 +2107,10 @@
     "darthlumsdenm|sutjiadiatjenj|ml:away|20260702": 1782988571.449143,
     "washingtonmysticsn|atlantadreamn|ah:7.5:home|20260702": 1782998764.056832,
     "connecticutsunn|dallaswingsn|ah:8.5:home|20260703": 1783005216.882621,
-    "tianhuizhang|hanyiliu|ml:away|20260703": 1783046710.623668
+    "tianhuizhang|hanyiliu|ml:away|20260703": 1783046710.623668,
+    "canterburyrams|manawatujets|ah:-7.5:away|20260703": 1783062641.516124
   },
   "last_report_date": "2026-07-02",
-  "next_id": 82,
+  "next_id": 83,
   "tg_offset": 363415778
 }
