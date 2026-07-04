@@ -2223,6 +2223,35 @@
       "clv_pct": 3.14,
       "close_fair_p": 0.5471347417471661,
       "close_ts": 1783169901.602335
+    },
+    {
+      "id": 89,
+      "ts": 1783186628.006513,
+      "key": "68:16987007:ml:home",
+      "content_key": "krawietzkpuetzt|cabralfmiedlerl|ml:home|20260705",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Krawietz K / Puetz T - Cabral F / Miedler L",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Krawietz K / Puetz T",
+      "odds": 1.714,
+      "stake": 1200,
+      "value_pct": 3.51,
+      "fair_pct": 60.4,
+      "start": "2026-07-05T10:00:00+00:00",
+      "start_ts": 1783245600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6561,
+      "clv_pct": 3.5,
+      "close_fair_p": 0.6038191561627292,
+      "close_ts": 1783187078.075483
     }
   ],
   "papered": {
@@ -2297,9 +2326,10 @@
     "sanantoniospurs|miamiheat|ah:-2.5:away|20260704": 1783101015.228994,
     "atlantadreamn|goldenstatevalkyriesn|ou:161.5:over|20260704": 1783151084.496835,
     "atlantadreamn|goldenstatevalkyriesn|ah:-4.5:away|20260704": 1783151084.496835,
-    "atlantadreamn|goldenstatevalkyriesn|ah:-3.5:home|20260704": 1783169451.554342
+    "atlantadreamn|goldenstatevalkyriesn|ah:-3.5:home|20260704": 1783169451.554342,
+    "krawietzkpuetzt|cabralfmiedlerl|ml:home|20260705": 1783186628.006513
   },
   "last_report_date": "2026-07-04",
-  "next_id": 89,
+  "next_id": 90,
   "tg_offset": 363415778
 }
