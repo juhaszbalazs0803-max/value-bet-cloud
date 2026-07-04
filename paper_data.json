@@ -2065,11 +2065,14 @@
       "fair_pct": 59.5,
       "start": "2026-07-04T09:00:00+00:00",
       "start_ts": 1783155600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1783185190.976039,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6804,
       "clv_pct": 4.14,
