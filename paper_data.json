@@ -2281,6 +2281,35 @@
       "clv_pct": 3.16,
       "close_fair_p": 0.5403544089211453,
       "close_ts": 1783192903.183298
+    },
+    {
+      "id": 91,
+      "ts": 1783201192.612601,
+      "key": "67:16935053:ah:10.5:home",
+      "content_key": "ialarreborges|clubtrouville|ah:10.5:home|20260704",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:10.5:home",
+      "event": "IA Larre Borges - Club Trouville",
+      "market": "ah",
+      "market_name": "Hendikep +10.5",
+      "tip": "Hendikep IA Larre Borges (+10.5)",
+      "odds": 1.833,
+      "stake": 2600,
+      "value_pct": 8.81,
+      "fair_pct": 59.3,
+      "start": "2026-07-04T22:00:00+00:00",
+      "start_ts": 1783202400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.685,
+      "clv_pct": 8.78,
+      "close_fair_p": 0.5934718100890208,
+      "close_ts": 1783201642.67822
     }
   ],
   "papered": {
@@ -2357,9 +2386,10 @@
     "atlantadreamn|goldenstatevalkyriesn|ah:-4.5:away|20260704": 1783151084.496835,
     "atlantadreamn|goldenstatevalkyriesn|ah:-3.5:home|20260704": 1783169451.554342,
     "krawietzkpuetzt|cabralfmiedlerl|ml:home|20260705": 1783186628.006513,
-    "seattlestormn|portlandfiren|ou:172.0:under|20260705": 1783192813.267439
+    "seattlestormn|portlandfiren|ou:172.0:under|20260705": 1783192813.267439,
+    "ialarreborges|clubtrouville|ah:10.5:home|20260704": 1783201192.612601
   },
   "last_report_date": "2026-07-04",
-  "next_id": 91,
+  "next_id": 92,
   "tg_offset": 363415778
 }
