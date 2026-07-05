@@ -2457,10 +2457,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8018,
-      "clv_pct": 3.79,
-      "close_fair_p": 0.5550096927530075,
-      "close_ts": 1783265608.848984
+      "close_fair_odds": 1.8378,
+      "clv_pct": 1.75,
+      "close_fair_p": 0.5441160780966606,
+      "close_ts": 1783270083.781199
+    },
+    {
+      "id": 97,
+      "ts": 1783269903.779977,
+      "key": "68:16997654:ml:away",
+      "content_key": "jiangxxuy|siegemundlzvonarevav|ml:away|20260706",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Jiang X / Xu Y - Siegemund L / Zvonareva V",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Siegemund L / Zvonareva V",
+      "odds": 1.4,
+      "stake": 3000,
+      "value_pct": 4.8,
+      "fair_pct": 74.9,
+      "start": "2026-07-06T10:00:00+00:00",
+      "start_ts": 1783332000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3358,
+      "clv_pct": 4.81,
+      "close_fair_p": 0.7485889692048717,
+      "close_ts": 1783270083.781199
     }
   ],
   "papered": {
@@ -2543,9 +2572,10 @@
     "lasvegasacesn|indianafevern|ah:-4.0:away|20260705": 1783226495.19285,
     "osoriocamilasierrasolana|perezeschuursd|ml:away|20260705": 1783249108.613403,
     "losangeleslakers|miamiheat|ah:1.5:away|20260705": 1783253663.999516,
-    "montenegr|romnia|ah:-7.5:away|20260705": 1783265518.886246
+    "montenegr|romnia|ah:-7.5:away|20260705": 1783265518.886246,
+    "jiangxxuy|siegemundlzvonarevav|ml:away|20260706": 1783269903.779977
   },
   "last_report_date": "2026-07-05",
-  "next_id": 97,
+  "next_id": 98,
   "tg_offset": 363415778
 }
