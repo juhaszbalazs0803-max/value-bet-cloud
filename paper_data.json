@@ -2339,6 +2339,35 @@
       "clv_pct": 10.24,
       "close_fair_p": 0.601410203235172,
       "close_ts": 1783202318.051053
+    },
+    {
+      "id": 93,
+      "ts": 1783226495.19285,
+      "key": "67:15837553:ah:-4.0:away",
+      "content_key": "lasvegasacesn|indianafevern|ah:-4.0:away|20260705",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-4.0:away",
+      "event": "Las Vegas Aces (N) - Indiana Fever (N)",
+      "market": "ah",
+      "market_name": "Hendikep +4",
+      "tip": "Hendikep Indiana Fever (N) (+4)",
+      "odds": 1.885,
+      "stake": 900,
+      "value_pct": 3.29,
+      "fair_pct": 54.8,
+      "start": "2026-07-05T23:00:00+00:00",
+      "start_ts": 1783292400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.825,
+      "clv_pct": 3.29,
+      "close_fair_p": 0.5479523203573377,
+      "close_ts": 1783226765.239474
     }
   ],
   "papered": {
@@ -2417,9 +2446,10 @@
     "krawietzkpuetzt|cabralfmiedlerl|ml:home|20260705": 1783186628.006513,
     "seattlestormn|portlandfiren|ou:172.0:under|20260705": 1783192813.267439,
     "ialarreborges|clubtrouville|ah:10.5:home|20260704": 1783201192.612601,
-    "ialarreborges|clubtrouville|ah:9.5:home|20260704": 1783202228.090915
+    "ialarreborges|clubtrouville|ah:9.5:home|20260704": 1783202228.090915,
+    "lasvegasacesn|indianafevern|ah:-4.0:away|20260705": 1783226495.19285
   },
   "last_report_date": "2026-07-04",
-  "next_id": 93,
+  "next_id": 94,
   "tg_offset": 363415778
 }
