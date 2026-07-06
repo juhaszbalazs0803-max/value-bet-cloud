@@ -2605,7 +2605,7 @@
       "close_fair_odds": 1.6548,
       "clv_pct": 3.58,
       "close_fair_p": 0.6043129388164494,
-      "close_ts": 1783323303.55096
+      "close_ts": 1783323933.527239
     },
     {
       "id": 102,
@@ -2634,7 +2634,36 @@
       "close_fair_odds": 1.8185,
       "clv_pct": 3.66,
       "close_fair_p": 0.5498923559774856,
-      "close_ts": 1783323303.55096
+      "close_ts": 1783323933.527239
+    },
+    {
+      "id": 103,
+      "ts": 1783323753.508391,
+      "key": "67:15849181:ah:-13.5:home",
+      "content_key": "minnesotalynxn|connecticutsunn|ah:-13.5:home|20260707",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-13.5:home",
+      "event": "Minnesota Lynx (N) - Connecticut Sun (N)",
+      "market": "ah",
+      "market_name": "Hendikep -13.5",
+      "tip": "Hendikep Minnesota Lynx (N) (-13.5)",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.32,
+      "fair_pct": 54.1,
+      "start": "2026-07-07T00:00:00+00:00",
+      "start_ts": 1783382400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8478,
+      "clv_pct": 3.31,
+      "close_fair_p": 0.541187490243014,
+      "close_ts": 1783323933.527239
     }
   ],
   "papered": {
@@ -2723,9 +2752,10 @@
     "leyreromerogormaz|darjasemenistaja|ml:away|20260706": 1783307966.652514,
     "oleksandraoliynykova|moyukauchijima|ml:home|20260706": 1783322043.500797,
     "losangelessparksn|seattlestormn|ml:home|20260707": 1783322043.500797,
-    "losangelessparksn|seattlestormn|ah:-2.5:home|20260707": 1783322043.500797
+    "losangelessparksn|seattlestormn|ah:-2.5:home|20260707": 1783322043.500797,
+    "minnesotalynxn|connecticutsunn|ah:-13.5:home|20260707": 1783323753.508391
   },
   "last_report_date": "2026-07-05",
-  "next_id": 103,
+  "next_id": 104,
   "tg_offset": 363415778
 }
