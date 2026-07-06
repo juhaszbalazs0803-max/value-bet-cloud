@@ -2519,6 +2519,35 @@
       "clv_pct": 3.03,
       "close_fair_p": 0.6180628878988437,
       "close_ts": 1783285121.947539
+    },
+    {
+      "id": 99,
+      "ts": 1783307966.652514,
+      "key": "68:17007932:ml:away",
+      "content_key": "leyreromerogormaz|darjasemenistaja|ml:away|20260706",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Leyre Romero Gormaz - Darja Semenistaja",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Darja Semenistaja",
+      "odds": 1.818,
+      "stake": 1200,
+      "value_pct": 4.05,
+      "fair_pct": 57.2,
+      "start": "2026-07-06T10:15:00+00:00",
+      "start_ts": 1783332900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7474,
+      "clv_pct": 4.04,
+      "close_fair_p": 0.5722791079631483,
+      "close_ts": 1783307966.652514
     }
   ],
   "papered": {
@@ -2603,9 +2632,10 @@
     "losangeleslakers|miamiheat|ah:1.5:away|20260705": 1783253663.999516,
     "montenegr|romnia|ah:-7.5:away|20260705": 1783265518.886246,
     "jiangxxuy|siegemundlzvonarevav|ml:away|20260706": 1783269903.779977,
-    "chicagoredstarsn|utahroyalsfcn|ou:2.5:over|20260705": 1783285031.940962
+    "chicagoredstarsn|utahroyalsfcn|ou:2.5:over|20260705": 1783285031.940962,
+    "leyreromerogormaz|darjasemenistaja|ml:away|20260706": 1783307966.652514
   },
   "last_report_date": "2026-07-05",
-  "next_id": 99,
+  "next_id": 100,
   "tg_offset": 363415778
 }
