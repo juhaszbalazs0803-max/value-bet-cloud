@@ -2701,7 +2701,7 @@
       "close_fair_odds": 1.8056,
       "clv_pct": 3.57,
       "close_fair_p": 0.5538248528902735,
-      "close_ts": 1783378447.017675
+      "close_ts": 1783379077.376571
     },
     {
       "id": 105,
@@ -2760,6 +2760,35 @@
       "clv_pct": 7.76,
       "close_fair_p": 0.5644766347913499,
       "close_ts": 1783377637.035587
+    },
+    {
+      "id": 107,
+      "ts": 1783378627.008212,
+      "key": "67:16963612:ah:-3.5:away",
+      "content_key": "sacramentokings|milwaukeebucks|ah:-3.5:away|20260707",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-3.5:away",
+      "event": "Sacramento Kings - Milwaukee Bucks",
+      "market": "ah",
+      "market_name": "Hendikep +3.5",
+      "tip": "Hendikep Milwaukee Bucks (+3.5)",
+      "odds": 1.952,
+      "stake": 1100,
+      "value_pct": 4.32,
+      "fair_pct": 53.4,
+      "start": "2026-07-07T02:00:00+00:00",
+      "start_ts": 1783389600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8715,
+      "clv_pct": 4.3,
+      "close_fair_p": 0.5343230153716572,
+      "close_ts": 1783378987.012089
     }
   ],
   "papered": {
@@ -2852,9 +2881,10 @@
     "minnesotalynxn|connecticutsunn|ah:-13.5:home|20260707": 1783323753.508391,
     "clubatleticoolimpia|camarne|ah:-17.5:away|20260706": 1783375927.063685,
     "washingtonmysticsn|goldenstatevalkyriesn|ah:7.0:home|20260706": 1783377367.002452,
-    "washingtonmysticsn|goldenstatevalkyriesn|ah:7.5:home|20260706": 1783377637.035587
+    "washingtonmysticsn|goldenstatevalkyriesn|ah:7.5:home|20260706": 1783377637.035587,
+    "sacramentokings|milwaukeebucks|ah:-3.5:away|20260707": 1783378627.008212
   },
   "last_report_date": "2026-07-06",
-  "next_id": 107,
+  "next_id": 108,
   "tg_offset": 363415778
 }
