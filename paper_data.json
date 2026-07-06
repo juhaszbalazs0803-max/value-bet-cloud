@@ -2567,11 +2567,14 @@
       "fair_pct": 60.9,
       "start": "2026-07-06T09:00:00+00:00",
       "start_ts": 1783328400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1783339386.5998147,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6427,
       "clv_pct": 3.0,
@@ -2755,7 +2758,7 @@
     "losangelessparksn|seattlestormn|ah:-2.5:home|20260707": 1783322043.500797,
     "minnesotalynxn|connecticutsunn|ah:-13.5:home|20260707": 1783323753.508391
   },
-  "last_report_date": "2026-07-05",
+  "last_report_date": "2026-07-06",
   "next_id": 104,
   "tg_offset": 363415778
 }
