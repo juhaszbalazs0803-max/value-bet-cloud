@@ -3050,6 +3050,35 @@
       "clv_pct": 4.18,
       "close_fair_p": 0.5683470353432551,
       "close_ts": 1783466027.633389
+    },
+    {
+      "id": 117,
+      "ts": 1783468277.634534,
+      "key": "67:15859451:ah:-5.5:away",
+      "content_key": "newyorklibertyn|dallaswingsn|ah:-5.5:away|20260708",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-5.5:away",
+      "event": "New York Liberty (N) - Dallas Wings (N)",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep Dallas Wings (N) (+5.5)",
+      "odds": 1.885,
+      "stake": 1000,
+      "value_pct": 3.65,
+      "fair_pct": 55.0,
+      "start": "2026-07-08T00:00:00+00:00",
+      "start_ts": 1783468800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8185,
+      "clv_pct": 3.66,
+      "close_fair_p": 0.5498923559774856,
+      "close_ts": 1783468277.634534
     }
   ],
   "papered": {
@@ -3152,9 +3181,10 @@
     "olivolmundial|colonfc|ah:-8.5:home|20260707": 1783461932.418986,
     "utahjazz|oklahomacitythunder|ah:-3.5:away|20260708": 1783465127.683958,
     "csdeportivosayago|ialarreborges|ml:home|20260707": 1783465577.64412,
-    "csdeportivosayago|ialarreborges|ah:1.5:home|20260707": 1783465577.64412
+    "csdeportivosayago|ialarreborges|ah:1.5:home|20260707": 1783465577.64412,
+    "newyorklibertyn|dallaswingsn|ah:-5.5:away|20260708": 1783468277.634534
   },
   "last_report_date": "2026-07-07",
-  "next_id": 117,
+  "next_id": 118,
   "tg_offset": 363415778
 }
