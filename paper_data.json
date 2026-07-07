@@ -2934,6 +2934,35 @@
       "clv_pct": 3.86,
       "close_fair_p": 0.5666022399322195,
       "close_ts": 1783445766.198882
+    },
+    {
+      "id": 113,
+      "ts": 1783461932.418986,
+      "key": "67:16907162:ah:-8.5:home",
+      "content_key": "olivolmundial|colonfc|ah:-8.5:home|20260707",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-8.5:home",
+      "event": "Olivol Mundial - Colon FC",
+      "market": "ah",
+      "market_name": "Hendikep -8.5",
+      "tip": "Hendikep Olivol Mundial (-8.5)",
+      "odds": 1.8,
+      "stake": 1100,
+      "value_pct": 3.44,
+      "fair_pct": 57.5,
+      "start": "2026-07-07T23:15:00+00:00",
+      "start_ts": 1783466100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7401,
+      "clv_pct": 3.44,
+      "close_fair_p": 0.5746671938842758,
+      "close_ts": 1783462202.424642
     }
   ],
   "papered": {
@@ -3032,9 +3061,10 @@
     "phoenixmercuryn|chicagoskyn|ah:-2.5:home|20260708": 1783399835.852424,
     "phoenixmercuryn|chicagoskyn|ml:home|20260708": 1783412486.281354,
     "newyorklibertyn|dallaswingsn|ah:-4.5:home|20260708": 1783434473.490114,
-    "clubtrouville|cdalbatros|ah:-15.5:home|20260707": 1783444776.217336
+    "clubtrouville|cdalbatros|ah:-15.5:home|20260707": 1783444776.217336,
+    "olivolmundial|colonfc|ah:-8.5:home|20260707": 1783461932.418986
   },
   "last_report_date": "2026-07-07",
-  "next_id": 113,
+  "next_id": 114,
   "tg_offset": 363415778
 }
