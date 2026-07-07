@@ -2876,6 +2876,35 @@
       "clv_pct": 3.58,
       "close_fair_p": 0.6043129388164494,
       "close_ts": 1783414196.251582
+    },
+    {
+      "id": 111,
+      "ts": 1783434473.490114,
+      "key": "67:15859451:ah:-4.5:home",
+      "content_key": "newyorklibertyn|dallaswingsn|ah:-4.5:home|20260708",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-4.5:home",
+      "event": "New York Liberty (N) - Dallas Wings (N)",
+      "market": "ah",
+      "market_name": "Hendikep -4.5",
+      "tip": "Hendikep New York Liberty (N) (-4.5)",
+      "odds": 1.952,
+      "stake": 900,
+      "value_pct": 3.31,
+      "fair_pct": 52.9,
+      "start": "2026-07-08T00:00:00+00:00",
+      "start_ts": 1783468800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8899,
+      "clv_pct": 3.29,
+      "close_fair_p": 0.5291281115600156,
+      "close_ts": 1783434473.490114
     }
   ],
   "papered": {
@@ -2972,9 +3001,10 @@
     "sacramentokings|milwaukeebucks|ah:-3.5:away|20260707": 1783378627.008212,
     "losangelessparksn|seattlestormn|ou:175.0:over|20260707": 1783384051.139831,
     "phoenixmercuryn|chicagoskyn|ah:-2.5:home|20260708": 1783399835.852424,
-    "phoenixmercuryn|chicagoskyn|ml:home|20260708": 1783412486.281354
+    "phoenixmercuryn|chicagoskyn|ml:home|20260708": 1783412486.281354,
+    "newyorklibertyn|dallaswingsn|ah:-4.5:home|20260708": 1783434473.490114
   },
   "last_report_date": "2026-07-07",
-  "next_id": 111,
+  "next_id": 112,
   "tg_offset": 363415778
 }
