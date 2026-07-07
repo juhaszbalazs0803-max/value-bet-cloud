@@ -2905,6 +2905,35 @@
       "clv_pct": 3.29,
       "close_fair_p": 0.5291281115600156,
       "close_ts": 1783436543.485114
+    },
+    {
+      "id": 112,
+      "ts": 1783444776.217336,
+      "key": "67:16963551:ah:-15.5:home",
+      "content_key": "clubtrouville|cdalbatros|ah:-15.5:home|20260707",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-15.5:home",
+      "event": "Club Trouville - CD Albatros",
+      "market": "ah",
+      "market_name": "Hendikep -15.5",
+      "tip": "Hendikep Club Trouville (-15.5)",
+      "odds": 1.833,
+      "stake": 1200,
+      "value_pct": 3.88,
+      "fair_pct": 56.7,
+      "start": "2026-07-07T23:15:00+00:00",
+      "start_ts": 1783466100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7649,
+      "clv_pct": 3.86,
+      "close_fair_p": 0.5666022399322195,
+      "close_ts": 1783444956.191047
     }
   ],
   "papered": {
@@ -3002,9 +3031,10 @@
     "losangelessparksn|seattlestormn|ou:175.0:over|20260707": 1783384051.139831,
     "phoenixmercuryn|chicagoskyn|ah:-2.5:home|20260708": 1783399835.852424,
     "phoenixmercuryn|chicagoskyn|ml:home|20260708": 1783412486.281354,
-    "newyorklibertyn|dallaswingsn|ah:-4.5:home|20260708": 1783434473.490114
+    "newyorklibertyn|dallaswingsn|ah:-4.5:home|20260708": 1783434473.490114,
+    "clubtrouville|cdalbatros|ah:-15.5:home|20260707": 1783444776.217336
   },
   "last_report_date": "2026-07-07",
-  "next_id": 112,
+  "next_id": 113,
   "tg_offset": 363415778
 }
