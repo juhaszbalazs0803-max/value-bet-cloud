@@ -2963,6 +2963,35 @@
       "clv_pct": 3.44,
       "close_fair_p": 0.5746671938842758,
       "close_ts": 1783462202.424642
+    },
+    {
+      "id": 114,
+      "ts": 1783465127.683958,
+      "key": "67:16973420:ah:-3.5:away",
+      "content_key": "utahjazz|oklahomacitythunder|ah:-3.5:away|20260708",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-3.5:away",
+      "event": "Utah Jazz - Oklahoma City Thunder",
+      "market": "ah",
+      "market_name": "Hendikep +3.5",
+      "tip": "Hendikep Oklahoma City Thunder (+3.5)",
+      "odds": 1.952,
+      "stake": 1100,
+      "value_pct": 4.16,
+      "fair_pct": 53.3,
+      "start": "2026-07-08T01:00:00+00:00",
+      "start_ts": 1783472400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8745,
+      "clv_pct": 4.13,
+      "close_fair_p": 0.5334805003679175,
+      "close_ts": 1783465127.683958
     }
   ],
   "papered": {
@@ -3062,9 +3091,10 @@
     "phoenixmercuryn|chicagoskyn|ml:home|20260708": 1783412486.281354,
     "newyorklibertyn|dallaswingsn|ah:-4.5:home|20260708": 1783434473.490114,
     "clubtrouville|cdalbatros|ah:-15.5:home|20260707": 1783444776.217336,
-    "olivolmundial|colonfc|ah:-8.5:home|20260707": 1783461932.418986
+    "olivolmundial|colonfc|ah:-8.5:home|20260707": 1783461932.418986,
+    "utahjazz|oklahomacitythunder|ah:-3.5:away|20260708": 1783465127.683958
   },
   "last_report_date": "2026-07-07",
-  "next_id": 114,
+  "next_id": 115,
   "tg_offset": 363415778
 }
