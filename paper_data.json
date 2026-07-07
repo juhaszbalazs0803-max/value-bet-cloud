@@ -2843,10 +2843,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8252,
-      "clv_pct": 3.28,
-      "close_fair_p": 0.5478949300057673,
-      "close_ts": 1783402985.842259
+      "close_fair_odds": 1.8001,
+      "clv_pct": 4.72,
+      "close_fair_p": 0.555526576600073,
+      "close_ts": 1783412486.281354
+    },
+    {
+      "id": 110,
+      "ts": 1783412486.281354,
+      "key": "67:15859704:ml:home",
+      "content_key": "phoenixmercuryn|chicagoskyn|ml:home|20260708",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Phoenix Mercury (N) - Chicago Sky (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Phoenix Mercury (N)",
+      "odds": 1.714,
+      "stake": 1300,
+      "value_pct": 3.6,
+      "fair_pct": 60.4,
+      "start": "2026-07-08T02:00:00+00:00",
+      "start_ts": 1783476000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6548,
+      "clv_pct": 3.58,
+      "close_fair_p": 0.6043129388164494,
+      "close_ts": 1783412486.281354
     }
   ],
   "papered": {
@@ -2942,9 +2971,10 @@
     "washingtonmysticsn|goldenstatevalkyriesn|ah:7.5:home|20260706": 1783377637.035587,
     "sacramentokings|milwaukeebucks|ah:-3.5:away|20260707": 1783378627.008212,
     "losangelessparksn|seattlestormn|ou:175.0:over|20260707": 1783384051.139831,
-    "phoenixmercuryn|chicagoskyn|ah:-2.5:home|20260708": 1783399835.852424
+    "phoenixmercuryn|chicagoskyn|ah:-2.5:home|20260708": 1783399835.852424,
+    "phoenixmercuryn|chicagoskyn|ml:home|20260708": 1783412486.281354
   },
   "last_report_date": "2026-07-06",
-  "next_id": 110,
+  "next_id": 111,
   "tg_offset": 363415778
 }
