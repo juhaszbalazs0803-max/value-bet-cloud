@@ -2789,6 +2789,35 @@
       "clv_pct": 4.3,
       "close_fair_p": 0.5343230153716572,
       "close_ts": 1783378987.012089
+    },
+    {
+      "id": 108,
+      "ts": 1783384051.139831,
+      "key": "67:15849497:ou:175.0:over",
+      "content_key": "losangelessparksn|seattlestormn|ou:175.0:over|20260707",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:175.0:over",
+      "event": "Los Angeles Sparks (N) - Seattle Storm (N)",
+      "market": "ou",
+      "market_name": "O/U 175",
+      "tip": "Több mint 175",
+      "odds": 1.909,
+      "stake": 1000,
+      "value_pct": 3.7,
+      "fair_pct": 54.3,
+      "start": "2026-07-07T02:00:00+00:00",
+      "start_ts": 1783389600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.841,
+      "clv_pct": 3.69,
+      "close_fair_p": 0.5431957583948435,
+      "close_ts": 1783384051.139831
     }
   ],
   "papered": {
@@ -2882,9 +2911,10 @@
     "clubatleticoolimpia|camarne|ah:-17.5:away|20260706": 1783375927.063685,
     "washingtonmysticsn|goldenstatevalkyriesn|ah:7.0:home|20260706": 1783377367.002452,
     "washingtonmysticsn|goldenstatevalkyriesn|ah:7.5:home|20260706": 1783377637.035587,
-    "sacramentokings|milwaukeebucks|ah:-3.5:away|20260707": 1783378627.008212
+    "sacramentokings|milwaukeebucks|ah:-3.5:away|20260707": 1783378627.008212,
+    "losangelessparksn|seattlestormn|ou:175.0:over|20260707": 1783384051.139831
   },
   "last_report_date": "2026-07-06",
-  "next_id": 108,
+  "next_id": 109,
   "tg_offset": 363415778
 }
