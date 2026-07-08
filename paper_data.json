@@ -3120,6 +3120,35 @@
       "clv_pct": 4.3,
       "close_fair_p": 0.7090358841331604,
       "close_ts": 1783490994.487798
+    },
+    {
+      "id": 119,
+      "ts": 1783499241.189745,
+      "key": "67:15879791:ou:167.5:under",
+      "content_key": "torontotempon|goldenstatevalkyriesn|ou:167.5:under|20260708",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:167.5:under",
+      "event": "Toronto Tempo (N) - Golden State Valkyries (N)",
+      "market": "ou",
+      "market_name": "O/U 167.5",
+      "tip": "Kevesebb mint 167.5",
+      "odds": 1.926,
+      "stake": 900,
+      "value_pct": 3.3,
+      "fair_pct": 53.6,
+      "start": "2026-07-08T23:00:00+00:00",
+      "start_ts": 1783551600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8644,
+      "clv_pct": 3.3,
+      "close_fair_p": 0.5363622022401009,
+      "close_ts": 1783499691.052747
     }
   ],
   "papered": {
@@ -3224,9 +3253,10 @@
     "csdeportivosayago|ialarreborges|ml:home|20260707": 1783465577.64412,
     "csdeportivosayago|ialarreborges|ah:1.5:home|20260707": 1783465577.64412,
     "newyorklibertyn|dallaswingsn|ah:-5.5:away|20260708": 1783468277.634534,
-    "varvaralepchenko|tamarakorpatsch|ml:away|20260708": 1783481553.758453
+    "varvaralepchenko|tamarakorpatsch|ml:away|20260708": 1783481553.758453,
+    "torontotempon|goldenstatevalkyriesn|ou:167.5:under|20260708": 1783499241.189745
   },
   "last_report_date": "2026-07-07",
-  "next_id": 119,
+  "next_id": 120,
   "tg_offset": 363415778
 }
