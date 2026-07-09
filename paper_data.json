@@ -3155,6 +3155,35 @@
       "clv_pct": 3.3,
       "close_fair_p": 0.5363622022401009,
       "close_ts": 1783499871.061437
+    },
+    {
+      "id": 120,
+      "ts": 1783575173.303974,
+      "key": "67:15890834:ah:9.5:home",
+      "content_key": "portlandfiren|lasvegasacesn|ah:9.5:home|20260710",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:9.5:home",
+      "event": "Portland Fire (N) - Las Vegas Aces (N)",
+      "market": "ah",
+      "market_name": "Hendikep +9.5",
+      "tip": "Hendikep Portland Fire (N) (+9.5)",
+      "odds": 1.926,
+      "stake": 800,
+      "value_pct": 3.15,
+      "fair_pct": 53.6,
+      "start": "2026-07-10T02:00:00+00:00",
+      "start_ts": 1783648800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8673,
+      "clv_pct": 3.14,
+      "close_fair_p": 0.5355455213693163,
+      "close_ts": 1783575173.303974
     }
   ],
   "papered": {
@@ -3260,9 +3289,10 @@
     "csdeportivosayago|ialarreborges|ah:1.5:home|20260707": 1783465577.64412,
     "newyorklibertyn|dallaswingsn|ah:-5.5:away|20260708": 1783468277.634534,
     "varvaralepchenko|tamarakorpatsch|ml:away|20260708": 1783481553.758453,
-    "torontotempon|goldenstatevalkyriesn|ou:167.5:under|20260708": 1783499241.189745
+    "torontotempon|goldenstatevalkyriesn|ou:167.5:under|20260708": 1783499241.189745,
+    "portlandfiren|lasvegasacesn|ah:9.5:home|20260710": 1783575173.303974
   },
   "last_report_date": "2026-07-08",
-  "next_id": 120,
+  "next_id": 121,
   "tg_offset": 363415778
 }
