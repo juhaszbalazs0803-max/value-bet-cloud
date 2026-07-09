@@ -3300,6 +3300,35 @@
       "clv_pct": 6.07,
       "close_fair_p": 0.562667767912451,
       "close_ts": 1783611965.405027
+    },
+    {
+      "id": 125,
+      "ts": 1783634912.854121,
+      "key": "67:16983507:ah:4.5:away",
+      "content_key": "dallasmavericks|goldenstatewarriors|ah:4.5:away|20260709",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:4.5:away",
+      "event": "Dallas Mavericks - Golden State Warriors",
+      "market": "ah",
+      "market_name": "Hendikep -4.5",
+      "tip": "Hendikep Golden State Warriors (-4.5)",
+      "odds": 1.909,
+      "stake": 1100,
+      "value_pct": 4.08,
+      "fair_pct": 54.5,
+      "start": "2026-07-09T23:00:00+00:00",
+      "start_ts": 1783638000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8343,
+      "clv_pct": 4.07,
+      "close_fair_p": 0.5451733808612692,
+      "close_ts": 1783635272.851209
     }
   ],
   "papered": {
@@ -3410,9 +3439,10 @@
     "atlantadreamn|seattlestormn|ah:-11.0:away|20260710": 1783598670.875216,
     "atlantadreamn|seattlestormn|ou:168.5:under|20260710": 1783600470.861357,
     "philadelphia76ers|detroitpistons|ml:away|20260709": 1783609535.364969,
-    "atlantadreamn|seattlestormn|ah:-9.5:home|20260710": 1783611065.396976
+    "atlantadreamn|seattlestormn|ah:-9.5:home|20260710": 1783611065.396976,
+    "dallasmavericks|goldenstatewarriors|ah:4.5:away|20260709": 1783634912.854121
   },
   "last_report_date": "2026-07-09",
-  "next_id": 125,
+  "next_id": 126,
   "tg_offset": 363415778
 }
