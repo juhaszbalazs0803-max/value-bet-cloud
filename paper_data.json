@@ -3329,6 +3329,35 @@
       "clv_pct": 4.07,
       "close_fair_p": 0.5451733808612692,
       "close_ts": 1783635272.851209
+    },
+    {
+      "id": 126,
+      "ts": 1783638553.495537,
+      "key": "67:16966903:ah:-1.5:home",
+      "content_key": "catabare|verdirrojobbc|ah:-1.5:home|20260709",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-1.5:home",
+      "event": "CA Tabare - Verdirrojo BBC",
+      "market": "ah",
+      "market_name": "Hendikep -1.5",
+      "tip": "Hendikep CA Tabare (-1.5)",
+      "odds": 1.952,
+      "stake": 2300,
+      "value_pct": 8.62,
+      "fair_pct": 55.6,
+      "start": "2026-07-09T23:15:00+00:00",
+      "start_ts": 1783638900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7975,
+      "clv_pct": 8.6,
+      "close_fair_p": 0.5563393403785237,
+      "close_ts": 1783638553.495537
     }
   ],
   "papered": {
@@ -3440,9 +3469,10 @@
     "atlantadreamn|seattlestormn|ou:168.5:under|20260710": 1783600470.861357,
     "philadelphia76ers|detroitpistons|ml:away|20260709": 1783609535.364969,
     "atlantadreamn|seattlestormn|ah:-9.5:home|20260710": 1783611065.396976,
-    "dallasmavericks|goldenstatewarriors|ah:4.5:away|20260709": 1783634912.854121
+    "dallasmavericks|goldenstatewarriors|ah:4.5:away|20260709": 1783634912.854121,
+    "catabare|verdirrojobbc|ah:-1.5:home|20260709": 1783638553.495537
   },
   "last_report_date": "2026-07-09",
-  "next_id": 126,
+  "next_id": 127,
   "tg_offset": 363415778
 }
