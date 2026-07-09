@@ -3242,6 +3242,35 @@
       "clv_pct": 3.69,
       "close_fair_p": 0.5431957583948435,
       "close_ts": 1783601280.927969
+    },
+    {
+      "id": 123,
+      "ts": 1783609535.364969,
+      "key": "67:16983433:ml:away",
+      "content_key": "philadelphia76ers|detroitpistons|ml:away|20260709",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Philadelphia 76ers - Detroit Pistons",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Detroit Pistons",
+      "odds": 1.714,
+      "stake": 1400,
+      "value_pct": 3.94,
+      "fair_pct": 60.6,
+      "start": "2026-07-09T21:30:00+00:00",
+      "start_ts": 1783632600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6493,
+      "clv_pct": 3.92,
+      "close_fair_p": 0.606303552638172,
+      "close_ts": 1783609625.404953
     }
   ],
   "papered": {
@@ -3350,9 +3379,10 @@
     "torontotempon|goldenstatevalkyriesn|ou:167.5:under|20260708": 1783499241.189745,
     "portlandfiren|lasvegasacesn|ah:9.5:home|20260710": 1783575173.303974,
     "atlantadreamn|seattlestormn|ah:-11.0:away|20260710": 1783598670.875216,
-    "atlantadreamn|seattlestormn|ou:168.5:under|20260710": 1783600470.861357
+    "atlantadreamn|seattlestormn|ou:168.5:under|20260710": 1783600470.861357,
+    "philadelphia76ers|detroitpistons|ml:away|20260709": 1783609535.364969
   },
   "last_report_date": "2026-07-09",
-  "next_id": 123,
+  "next_id": 124,
   "tg_offset": 363415778
 }
