@@ -3209,10 +3209,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7795,
-      "clv_pct": 5.93,
-      "close_fair_p": 0.5619570541076999,
-      "close_ts": 1783600020.878401
+      "close_fair_odds": 1.8125,
+      "clv_pct": 4.0,
+      "close_fair_p": 0.5517349580315352,
+      "close_ts": 1783600650.89122
+    },
+    {
+      "id": 122,
+      "ts": 1783600470.861357,
+      "key": "67:15890307:ou:168.5:under",
+      "content_key": "atlantadreamn|seattlestormn|ou:168.5:under|20260710",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:168.5:under",
+      "event": "Atlanta Dream (N) - Seattle Storm (N)",
+      "market": "ou",
+      "market_name": "O/U 168.5",
+      "tip": "Kevesebb mint 168.5",
+      "odds": 1.909,
+      "stake": 1000,
+      "value_pct": 3.7,
+      "fair_pct": 54.3,
+      "start": "2026-07-10T00:00:00+00:00",
+      "start_ts": 1783641600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.841,
+      "clv_pct": 3.69,
+      "close_fair_p": 0.5431957583948435,
+      "close_ts": 1783600650.89122
     }
   ],
   "papered": {
@@ -3320,9 +3349,10 @@
     "varvaralepchenko|tamarakorpatsch|ml:away|20260708": 1783481553.758453,
     "torontotempon|goldenstatevalkyriesn|ou:167.5:under|20260708": 1783499241.189745,
     "portlandfiren|lasvegasacesn|ah:9.5:home|20260710": 1783575173.303974,
-    "atlantadreamn|seattlestormn|ah:-11.0:away|20260710": 1783598670.875216
+    "atlantadreamn|seattlestormn|ah:-11.0:away|20260710": 1783598670.875216,
+    "atlantadreamn|seattlestormn|ou:168.5:under|20260710": 1783600470.861357
   },
   "last_report_date": "2026-07-09",
-  "next_id": 122,
+  "next_id": 123,
   "tg_offset": 363415778
 }
