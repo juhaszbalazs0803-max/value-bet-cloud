@@ -3184,6 +3184,35 @@
       "clv_pct": 3.14,
       "close_fair_p": 0.5355455213693163,
       "close_ts": 1783575173.303974
+    },
+    {
+      "id": 121,
+      "ts": 1783598670.875216,
+      "key": "67:15890307:ah:-11.0:away",
+      "content_key": "atlantadreamn|seattlestormn|ah:-11.0:away|20260710",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-11.0:away",
+      "event": "Atlanta Dream (N) - Seattle Storm (N)",
+      "market": "ah",
+      "market_name": "Hendikep +11",
+      "tip": "Hendikep Seattle Storm (N) (+11)",
+      "odds": 1.885,
+      "stake": 1200,
+      "value_pct": 4.16,
+      "fair_pct": 55.3,
+      "start": "2026-07-10T00:00:00+00:00",
+      "start_ts": 1783641600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8097,
+      "clv_pct": 4.16,
+      "close_fair_p": 0.5525865200020754,
+      "close_ts": 1783598760.872381
     }
   ],
   "papered": {
@@ -3290,9 +3319,10 @@
     "newyorklibertyn|dallaswingsn|ah:-5.5:away|20260708": 1783468277.634534,
     "varvaralepchenko|tamarakorpatsch|ml:away|20260708": 1783481553.758453,
     "torontotempon|goldenstatevalkyriesn|ou:167.5:under|20260708": 1783499241.189745,
-    "portlandfiren|lasvegasacesn|ah:9.5:home|20260710": 1783575173.303974
+    "portlandfiren|lasvegasacesn|ah:9.5:home|20260710": 1783575173.303974,
+    "atlantadreamn|seattlestormn|ah:-11.0:away|20260710": 1783598670.875216
   },
   "last_report_date": "2026-07-09",
-  "next_id": 121,
+  "next_id": 122,
   "tg_offset": 363415778
 }
