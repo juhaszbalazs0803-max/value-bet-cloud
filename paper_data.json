@@ -3512,6 +3512,35 @@
       "clv_pct": 3.14,
       "close_fair_p": 0.5355455213693163,
       "close_ts": 1783679262.633673
+    },
+    {
+      "id": 132,
+      "ts": 1783689288.399867,
+      "key": "67:15900828:ah:6.5:away",
+      "content_key": "torontotempon|dallaswingsn|ah:6.5:away|20260710",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:6.5:away",
+      "event": "Toronto Tempo (N) - Dallas Wings (N)",
+      "market": "ah",
+      "market_name": "Hendikep -6.5",
+      "tip": "Hendikep Dallas Wings (N) (-6.5)",
+      "odds": 1.909,
+      "stake": 1500,
+      "value_pct": 5.35,
+      "fair_pct": 55.2,
+      "start": "2026-07-10T23:30:00+00:00",
+      "start_ts": 1783726200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8122,
+      "clv_pct": 5.34,
+      "close_fair_p": 0.5518277675587451,
+      "close_ts": 1783689648.35947
     }
   ],
   "papered": {
@@ -3629,9 +3658,10 @@
     "franklinbulls|otagonuggets|ml:away|20260710": 1783652992.222547,
     "whai|wellingtonsaints|ah:7.5:away|20260710": 1783654882.207637,
     "maxwiskandt|antonmatusevich|ml:home|20260710": 1783665789.220051,
-    "losangelessparksn|chicagoskyn|ou:179.5:under|20260711": 1783678992.604354
+    "losangelessparksn|chicagoskyn|ou:179.5:under|20260711": 1783678992.604354,
+    "torontotempon|dallaswingsn|ah:6.5:away|20260710": 1783689288.399867
   },
   "last_report_date": "2026-07-10",
-  "next_id": 132,
+  "next_id": 133,
   "tg_offset": 363415778
 }
