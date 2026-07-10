@@ -3631,6 +3631,35 @@
       "clv_pct": 3.17,
       "close_fair_p": 0.5404129174427451,
       "close_ts": 1783720781.291995
+    },
+    {
+      "id": 136,
+      "ts": 1783723301.249931,
+      "key": "67:17003696:ah:4.5:home",
+      "content_key": "losangeleslakers|oklahomacitythunder|ah:4.5:home|20260711",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:4.5:home",
+      "event": "Los Angeles Lakers - Oklahoma City Thunder",
+      "market": "ah",
+      "market_name": "Hendikep +4.5",
+      "tip": "Hendikep Los Angeles Lakers (+4.5)",
+      "odds": 1.909,
+      "stake": 1100,
+      "value_pct": 4.08,
+      "fair_pct": 54.5,
+      "start": "2026-07-11T02:00:00+00:00",
+      "start_ts": 1783735200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8343,
+      "clv_pct": 4.07,
+      "close_fair_p": 0.5451733808612692,
+      "close_ts": 1783723301.249931
     }
   ],
   "papered": {
@@ -3752,9 +3781,10 @@
     "torontotempon|dallaswingsn|ah:6.5:away|20260710": 1783689288.399867,
     "connecticutsunn|goldenstatevalkyriesn|ah:7.5:home|20260710": 1783690188.34647,
     "torontotempon|dallaswingsn|ou:180.0:under|20260710": 1783700603.154645,
-    "newyorkknicks|brooklynnets|ah:7.5:away|20260710": 1783720781.291995
+    "newyorkknicks|brooklynnets|ah:7.5:away|20260710": 1783720781.291995,
+    "losangeleslakers|oklahomacitythunder|ah:4.5:home|20260711": 1783723301.249931
   },
   "last_report_date": "2026-07-10",
-  "next_id": 136,
+  "next_id": 137,
   "tg_offset": 363415778
 }
