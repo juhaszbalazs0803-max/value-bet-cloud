@@ -3602,6 +3602,35 @@
       "clv_pct": 3.29,
       "close_fair_p": 0.5479523203573377,
       "close_ts": 1783702133.128978
+    },
+    {
+      "id": 135,
+      "ts": 1783720781.291995,
+      "key": "67:16993468:ah:7.5:away",
+      "content_key": "newyorkknicks|brooklynnets|ah:7.5:away|20260710",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:7.5:away",
+      "event": "New York Knicks - Brooklyn Nets",
+      "market": "ah",
+      "market_name": "Hendikep -7.5",
+      "tip": "Hendikep Brooklyn Nets (-7.5)",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.17,
+      "fair_pct": 54.0,
+      "start": "2026-07-10T22:00:00+00:00",
+      "start_ts": 1783720800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8504,
+      "clv_pct": 3.17,
+      "close_fair_p": 0.5404129174427451,
+      "close_ts": 1783720781.291995
     }
   ],
   "papered": {
@@ -3722,9 +3751,10 @@
     "losangelessparksn|chicagoskyn|ou:179.5:under|20260711": 1783678992.604354,
     "torontotempon|dallaswingsn|ah:6.5:away|20260710": 1783689288.399867,
     "connecticutsunn|goldenstatevalkyriesn|ah:7.5:home|20260710": 1783690188.34647,
-    "torontotempon|dallaswingsn|ou:180.0:under|20260710": 1783700603.154645
+    "torontotempon|dallaswingsn|ou:180.0:under|20260710": 1783700603.154645,
+    "newyorkknicks|brooklynnets|ah:7.5:away|20260710": 1783720781.291995
   },
   "last_report_date": "2026-07-10",
-  "next_id": 135,
+  "next_id": 136,
   "tg_offset": 363415778
 }
