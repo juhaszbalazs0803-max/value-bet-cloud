@@ -3425,6 +3425,35 @@
       "clv_pct": 3.45,
       "close_fair_p": 0.5418902406630186,
       "close_ts": 1783652992.222547
+    },
+    {
+      "id": 129,
+      "ts": 1783654882.207637,
+      "key": "67:16262264:ah:7.5:away",
+      "content_key": "whai|wellingtonsaints|ah:7.5:away|20260710",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:7.5:away",
+      "event": "Whai - Wellington Saints",
+      "market": "ah",
+      "market_name": "Hendikep -7.5",
+      "tip": "Hendikep Wellington Saints (-7.5)",
+      "odds": 1.833,
+      "stake": 1000,
+      "value_pct": 3.33,
+      "fair_pct": 56.4,
+      "start": "2026-07-10T07:30:00+00:00",
+      "start_ts": 1783668600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7744,
+      "clv_pct": 3.3,
+      "close_fair_p": 0.5635815208763296,
+      "close_ts": 1783654882.207637
     }
   ],
   "papered": {
@@ -3539,9 +3568,10 @@
     "dallasmavericks|goldenstatewarriors|ah:4.5:away|20260709": 1783634912.854121,
     "catabare|verdirrojobbc|ah:-1.5:home|20260709": 1783638553.495537,
     "whai|wellingtonsaints|ah:9.5:home|20260710": 1783651732.191337,
-    "franklinbulls|otagonuggets|ml:away|20260710": 1783652992.222547
+    "franklinbulls|otagonuggets|ml:away|20260710": 1783652992.222547,
+    "whai|wellingtonsaints|ah:7.5:away|20260710": 1783654882.207637
   },
   "last_report_date": "2026-07-09",
-  "next_id": 129,
+  "next_id": 130,
   "tg_offset": 363415778
 }
