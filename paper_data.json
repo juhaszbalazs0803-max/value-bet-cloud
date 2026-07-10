@@ -3541,6 +3541,35 @@
       "clv_pct": 5.34,
       "close_fair_p": 0.5518277675587451,
       "close_ts": 1783689648.35947
+    },
+    {
+      "id": 133,
+      "ts": 1783690188.34647,
+      "key": "67:15900824:ah:7.5:home",
+      "content_key": "connecticutsunn|goldenstatevalkyriesn|ah:7.5:home|20260710",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:7.5:home",
+      "event": "Connecticut Sun (N) - Golden State Valkyries (N)",
+      "market": "ah",
+      "market_name": "Hendikep +7.5",
+      "tip": "Hendikep Connecticut Sun (N) (+7.5)",
+      "odds": 1.909,
+      "stake": 1200,
+      "value_pct": 4.23,
+      "fair_pct": 54.6,
+      "start": "2026-07-10T23:30:00+00:00",
+      "start_ts": 1783726200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8316,
+      "clv_pct": 4.23,
+      "close_fair_p": 0.5459792527883941,
+      "close_ts": 1783690278.402101
     }
   ],
   "papered": {
@@ -3659,9 +3688,10 @@
     "whai|wellingtonsaints|ah:7.5:away|20260710": 1783654882.207637,
     "maxwiskandt|antonmatusevich|ml:home|20260710": 1783665789.220051,
     "losangelessparksn|chicagoskyn|ou:179.5:under|20260711": 1783678992.604354,
-    "torontotempon|dallaswingsn|ah:6.5:away|20260710": 1783689288.399867
+    "torontotempon|dallaswingsn|ah:6.5:away|20260710": 1783689288.399867,
+    "connecticutsunn|goldenstatevalkyriesn|ah:7.5:home|20260710": 1783690188.34647
   },
   "last_report_date": "2026-07-10",
-  "next_id": 133,
+  "next_id": 134,
   "tg_offset": 363415778
 }
