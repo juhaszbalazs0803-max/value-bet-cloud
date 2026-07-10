@@ -3570,6 +3570,35 @@
       "clv_pct": 4.23,
       "close_fair_p": 0.5459792527883941,
       "close_ts": 1783690638.403014
+    },
+    {
+      "id": 134,
+      "ts": 1783700603.154645,
+      "key": "67:15900828:ou:180.0:under",
+      "content_key": "torontotempon|dallaswingsn|ou:180.0:under|20260710",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:180.0:under",
+      "event": "Toronto Tempo (N) - Dallas Wings (N)",
+      "market": "ou",
+      "market_name": "O/U 180",
+      "tip": "Kevesebb mint 180",
+      "odds": 1.885,
+      "stake": 1000,
+      "value_pct": 3.65,
+      "fair_pct": 55.0,
+      "start": "2026-07-10T23:30:00+00:00",
+      "start_ts": 1783726200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8185,
+      "clv_pct": 3.66,
+      "close_fair_p": 0.5498923559774856,
+      "close_ts": 1783700603.154645
     }
   ],
   "papered": {
@@ -3689,9 +3718,10 @@
     "maxwiskandt|antonmatusevich|ml:home|20260710": 1783665789.220051,
     "losangelessparksn|chicagoskyn|ou:179.5:under|20260711": 1783678992.604354,
     "torontotempon|dallaswingsn|ah:6.5:away|20260710": 1783689288.399867,
-    "connecticutsunn|goldenstatevalkyriesn|ah:7.5:home|20260710": 1783690188.34647
+    "connecticutsunn|goldenstatevalkyriesn|ah:7.5:home|20260710": 1783690188.34647,
+    "torontotempon|dallaswingsn|ou:180.0:under|20260710": 1783700603.154645
   },
   "last_report_date": "2026-07-10",
-  "next_id": 134,
+  "next_id": 135,
   "tg_offset": 363415778
 }
