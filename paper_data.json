@@ -3811,6 +3811,35 @@
       "clv_pct": 4.45,
       "close_fair_p": 0.5471347417471661,
       "close_ts": 1783777326.52946
+    },
+    {
+      "id": 142,
+      "ts": 1783778046.53884,
+      "key": "67:15910778:ou:173.5:under",
+      "content_key": "atlantadreamn|portlandfiren|ou:173.5:under|20260711",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:173.5:under",
+      "event": "Atlanta Dream (N) - Portland Fire (N)",
+      "market": "ou",
+      "market_name": "O/U 173.5",
+      "tip": "Kevesebb mint 173.5",
+      "odds": 1.909,
+      "stake": 1400,
+      "value_pct": 5.19,
+      "fair_pct": 55.1,
+      "start": "2026-07-11T20:00:00+00:00",
+      "start_ts": 1783800000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8149,
+      "clv_pct": 5.18,
+      "close_fair_p": 0.551000156682509,
+      "close_ts": 1783778136.524517
     }
   ],
   "papered": {
@@ -3938,9 +3967,10 @@
     "torontoraptors|bostonceltics|ou:180.5:under|20260711": 1783729980.282553,
     "minnesotalynxn|newyorklibertyn|ah:-5.5:away|20260711": 1783743063.707235,
     "qianhuitang|elinanepliy|ml:away|20260711": 1783753808.197064,
-    "philadelphia76ers|indianapacers|ou:180.5:over|20260711": 1783777146.518471
+    "philadelphia76ers|indianapacers|ou:180.5:over|20260711": 1783777146.518471,
+    "atlantadreamn|portlandfiren|ou:173.5:under|20260711": 1783778046.53884
   },
   "last_report_date": "2026-07-11",
-  "next_id": 142,
+  "next_id": 143,
   "tg_offset": 363415778
 }
