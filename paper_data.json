@@ -3782,6 +3782,35 @@
       "clv_pct": 3.62,
       "close_fair_p": 0.6737401746224535,
       "close_ts": 1783753988.189407
+    },
+    {
+      "id": 141,
+      "ts": 1783777146.518471,
+      "key": "67:17003350:ou:180.5:over",
+      "content_key": "philadelphia76ers|indianapacers|ou:180.5:over|20260711",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:180.5:over",
+      "event": "Philadelphia 76ers - Indiana Pacers",
+      "market": "ou",
+      "market_name": "O/U 180.5",
+      "tip": "Több mint 180.5",
+      "odds": 1.909,
+      "stake": 1200,
+      "value_pct": 4.45,
+      "fair_pct": 54.7,
+      "start": "2026-07-11T21:30:00+00:00",
+      "start_ts": 1783805400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8277,
+      "clv_pct": 4.45,
+      "close_fair_p": 0.5471347417471661,
+      "close_ts": 1783777326.52946
     }
   ],
   "papered": {
@@ -3908,9 +3937,10 @@
     "torontoraptors|bostonceltics|ml:away|20260711": 1783729980.282553,
     "torontoraptors|bostonceltics|ou:180.5:under|20260711": 1783729980.282553,
     "minnesotalynxn|newyorklibertyn|ah:-5.5:away|20260711": 1783743063.707235,
-    "qianhuitang|elinanepliy|ml:away|20260711": 1783753808.197064
+    "qianhuitang|elinanepliy|ml:away|20260711": 1783753808.197064,
+    "philadelphia76ers|indianapacers|ou:180.5:over|20260711": 1783777146.518471
   },
   "last_report_date": "2026-07-11",
-  "next_id": 141,
+  "next_id": 142,
   "tg_offset": 363415778
 }
