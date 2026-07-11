@@ -3753,6 +3753,35 @@
       "clv_pct": 4.07,
       "close_fair_p": 0.5451733808612692,
       "close_ts": 1783746213.699073
+    },
+    {
+      "id": 140,
+      "ts": 1783753808.197064,
+      "key": "68:17059285:ml:away",
+      "content_key": "qianhuitang|elinanepliy|ml:away|20260711",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Qianhui Tang - Elina Nepliy",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Elina Nepliy",
+      "odds": 1.538,
+      "stake": 1700,
+      "value_pct": 3.65,
+      "fair_pct": 67.4,
+      "start": "2026-07-11T15:30:00+00:00",
+      "start_ts": 1783783800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4843,
+      "clv_pct": 3.62,
+      "close_fair_p": 0.6737401746224535,
+      "close_ts": 1783753808.197064
     }
   ],
   "papered": {
@@ -3878,9 +3907,10 @@
     "losangeleslakers|oklahomacitythunder|ah:4.5:home|20260711": 1783723301.249931,
     "torontoraptors|bostonceltics|ml:away|20260711": 1783729980.282553,
     "torontoraptors|bostonceltics|ou:180.5:under|20260711": 1783729980.282553,
-    "minnesotalynxn|newyorklibertyn|ah:-5.5:away|20260711": 1783743063.707235
+    "minnesotalynxn|newyorklibertyn|ah:-5.5:away|20260711": 1783743063.707235,
+    "qianhuitang|elinanepliy|ml:away|20260711": 1783753808.197064
   },
   "last_report_date": "2026-07-10",
-  "next_id": 140,
+  "next_id": 141,
   "tg_offset": 363415778
 }
