@@ -3840,6 +3840,35 @@
       "clv_pct": 5.18,
       "close_fair_p": 0.551000156682509,
       "close_ts": 1783778316.534115
+    },
+    {
+      "id": 143,
+      "ts": 1783781472.570085,
+      "key": "68:17060272:ml:away",
+      "content_key": "keeganrice|jaydylanharafriend|ml:away|20260711",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Keegan Rice - Jay Dylan Hara Friend",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Jay Dylan Hara Friend",
+      "odds": 1.556,
+      "stake": 2100,
+      "value_pct": 4.58,
+      "fair_pct": 67.2,
+      "start": "2026-07-11T15:00:00+00:00",
+      "start_ts": 1783782000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4874,
+      "clv_pct": 4.61,
+      "close_fair_p": 0.6723038536179651,
+      "close_ts": 1783781472.570085
     }
   ],
   "papered": {
@@ -3968,9 +3997,10 @@
     "minnesotalynxn|newyorklibertyn|ah:-5.5:away|20260711": 1783743063.707235,
     "qianhuitang|elinanepliy|ml:away|20260711": 1783753808.197064,
     "philadelphia76ers|indianapacers|ou:180.5:over|20260711": 1783777146.518471,
-    "atlantadreamn|portlandfiren|ou:173.5:under|20260711": 1783778046.53884
+    "atlantadreamn|portlandfiren|ou:173.5:under|20260711": 1783778046.53884,
+    "keeganrice|jaydylanharafriend|ml:away|20260711": 1783781472.570085
   },
   "last_report_date": "2026-07-11",
-  "next_id": 143,
+  "next_id": 144,
   "tg_offset": 363415778
 }
