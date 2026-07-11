@@ -4081,6 +4081,35 @@
       "clv_pct": 6.23,
       "close_fair_p": 0.5720560819266033,
       "close_ts": 1783807100.877294
+    },
+    {
+      "id": 151,
+      "ts": 1783811467.754232,
+      "key": "67:17012770:ah:2.5:home",
+      "content_key": "brooklynnets|atlantahawks|ah:2.5:home|20260712",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:2.5:home",
+      "event": "Brooklyn Nets - Atlanta Hawks",
+      "market": "ah",
+      "market_name": "Hendikep +2.5",
+      "tip": "Hendikep Brooklyn Nets (+2.5)",
+      "odds": 1.952,
+      "stake": 1000,
+      "value_pct": 3.92,
+      "fair_pct": 53.2,
+      "start": "2026-07-12T00:00:00+00:00",
+      "start_ts": 1783814400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8788,
+      "clv_pct": 3.9,
+      "close_fair_p": 0.5322512647554807,
+      "close_ts": 1783811467.754232
     }
   ],
   "papered": {
@@ -4217,9 +4246,10 @@
     "orlandomagic|miamiheat|ou:178.5:over|20260711": 1783793422.827438,
     "lasvegasacesn|phoenixmercuryn|ou:170.5:under|20260711": 1783806380.798024,
     "lasvegasacesn|phoenixmercuryn|ah:-9.5:away|20260711": 1783806380.798024,
-    "clementtabur|marcandreahuesler|ml:home|20260712": 1783806830.79183
+    "clementtabur|marcandreahuesler|ml:home|20260712": 1783806830.79183,
+    "brooklynnets|atlantahawks|ah:2.5:home|20260712": 1783811467.754232
   },
   "last_report_date": "2026-07-11",
-  "next_id": 151,
+  "next_id": 152,
   "tg_offset": 363415778
 }
