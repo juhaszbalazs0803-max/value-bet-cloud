@@ -4022,7 +4022,7 @@
       "close_fair_odds": 1.8522,
       "clv_pct": 3.07,
       "close_fair_p": 0.5399079762759648,
-      "close_ts": 1783806380.798024
+      "close_ts": 1783806560.784597
     },
     {
       "id": 149,
@@ -4051,7 +4051,36 @@
       "close_fair_odds": 1.845,
       "clv_pct": 4.39,
       "close_fair_p": 0.5420054200542005,
-      "close_ts": 1783806380.798024
+      "close_ts": 1783806560.784597
+    },
+    {
+      "id": 150,
+      "ts": 1783806830.79183,
+      "key": "68:17062384:ml:home",
+      "content_key": "clementtabur|marcandreahuesler|ml:home|20260712",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Clement Tabur - Marc-Andrea Huesler",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Clement Tabur",
+      "odds": 1.857,
+      "stake": 1800,
+      "value_pct": 6.24,
+      "fair_pct": 57.2,
+      "start": "2026-07-12T09:00:00+00:00",
+      "start_ts": 1783846800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7481,
+      "clv_pct": 6.23,
+      "close_fair_p": 0.5720560819266033,
+      "close_ts": 1783807010.794291
     }
   ],
   "papered": {
@@ -4187,9 +4216,10 @@
     "torontoraptors|houstonrockets|ou:177.5:over|20260712": 1783787999.433226,
     "orlandomagic|miamiheat|ou:178.5:over|20260711": 1783793422.827438,
     "lasvegasacesn|phoenixmercuryn|ou:170.5:under|20260711": 1783806380.798024,
-    "lasvegasacesn|phoenixmercuryn|ah:-9.5:away|20260711": 1783806380.798024
+    "lasvegasacesn|phoenixmercuryn|ah:-9.5:away|20260711": 1783806380.798024,
+    "clementtabur|marcandreahuesler|ml:home|20260712": 1783806830.79183
   },
   "last_report_date": "2026-07-11",
-  "next_id": 150,
+  "next_id": 151,
   "tg_offset": 363415778
 }
