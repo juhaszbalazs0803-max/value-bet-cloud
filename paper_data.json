@@ -3927,6 +3927,35 @@
       "clv_pct": 4.83,
       "close_fair_p": 0.549123215997099,
       "close_ts": 1783785209.272949
+    },
+    {
+      "id": 146,
+      "ts": 1783787999.433226,
+      "key": "67:17012711:ou:177.5:over",
+      "content_key": "torontoraptors|houstonrockets|ou:177.5:over|20260712",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:177.5:over",
+      "event": "Toronto Raptors - Houston Rockets",
+      "market": "ou",
+      "market_name": "O/U 177.5",
+      "tip": "Több mint 177.5",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.17,
+      "fair_pct": 54.0,
+      "start": "2026-07-12T01:30:00+00:00",
+      "start_ts": 1783819800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8504,
+      "clv_pct": 3.17,
+      "close_fair_p": 0.5404129174427451,
+      "close_ts": 1783788359.251731
     }
   ],
   "papered": {
@@ -4058,9 +4087,10 @@
     "atlantadreamn|portlandfiren|ou:173.5:under|20260711": 1783778046.53884,
     "keeganrice|jaydylanharafriend|ml:away|20260711": 1783781472.570085,
     "brooklynnets|atlantahawks|ml:away|20260712": 1783781652.518364,
-    "atlantadreamn|portlandfiren|ah:-12.5:home|20260711": 1783783452.569845
+    "atlantadreamn|portlandfiren|ah:-12.5:home|20260711": 1783783452.569845,
+    "torontoraptors|houstonrockets|ou:177.5:over|20260712": 1783787999.433226
   },
   "last_report_date": "2026-07-11",
-  "next_id": 146,
+  "next_id": 147,
   "tg_offset": 363415778
 }
