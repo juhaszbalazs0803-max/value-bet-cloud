@@ -4380,6 +4380,35 @@
       "clv_pct": 6.05,
       "close_fair_p": 0.555526576600073,
       "close_ts": 1783869203.526493
+    },
+    {
+      "id": 161,
+      "ts": 1783874641.252784,
+      "key": "67:15920022:ou:163.0:under",
+      "content_key": "washingtonmysticsn|seattlestormn|ou:163.0:under|20260712",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:163.0:under",
+      "event": "Washington Mystics (N) - Seattle Storm (N)",
+      "market": "ou",
+      "market_name": "O/U 163",
+      "tip": "Kevesebb mint 163",
+      "odds": 1.909,
+      "stake": 1100,
+      "value_pct": 4.08,
+      "fair_pct": 54.5,
+      "start": "2026-07-12T19:00:00+00:00",
+      "start_ts": 1783882800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8343,
+      "clv_pct": 4.07,
+      "close_fair_p": 0.5451733808612692,
+      "close_ts": 1783874821.227177
     }
   ],
   "papered": {
@@ -4526,9 +4555,10 @@
     "roadwarriors|terrafirmadyip|ah:-17.0:away|20260712": 1783845879.082813,
     "lasvegasacesn|indianafevern|ah:-6.0:away|20260713": 1783854970.221756,
     "milwaukeebucks|sanantoniospurs|ah:-3.5:away|20260713": 1783857453.021681,
-    "lasvegasacesn|indianafevern|ah:-5.5:away|20260713": 1783862259.841793
+    "lasvegasacesn|indianafevern|ah:-5.5:away|20260713": 1783862259.841793,
+    "washingtonmysticsn|seattlestormn|ou:163.0:under|20260712": 1783874641.252784
   },
   "last_report_date": "2026-07-12",
-  "next_id": 161,
+  "next_id": 162,
   "tg_offset": 363415778
 }
