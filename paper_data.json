@@ -4376,10 +4376,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8277,
-      "clv_pct": 4.45,
-      "close_fair_p": 0.5471347417471661,
-      "close_ts": 1783864419.89859
+      "close_fair_odds": 1.8343,
+      "clv_pct": 4.07,
+      "close_fair_p": 0.5451733808612692,
+      "close_ts": 1783865319.843642
     }
   ],
   "papered": {
