@@ -4293,6 +4293,35 @@
       "clv_pct": 5.1,
       "close_fair_p": 0.5733821470873264,
       "close_ts": 1783847139.04289
+    },
+    {
+      "id": 158,
+      "ts": 1783854970.221756,
+      "key": "67:15922114:ah:-6.0:away",
+      "content_key": "lasvegasacesn|indianafevern|ah:-6.0:away|20260713",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-6.0:away",
+      "event": "Las Vegas Aces (N) - Indiana Fever (N)",
+      "market": "ah",
+      "market_name": "Hendikep +6",
+      "tip": "Hendikep Indiana Fever (N) (+6)",
+      "odds": 1.885,
+      "stake": 1000,
+      "value_pct": 3.5,
+      "fair_pct": 54.9,
+      "start": "2026-07-13T01:00:00+00:00",
+      "start_ts": 1783904400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8212,
+      "clv_pct": 3.5,
+      "close_fair_p": 0.5490770276630236,
+      "close_ts": 1783855060.215147
     }
   ],
   "papered": {
@@ -4436,9 +4465,10 @@
     "torontotempon|newyorklibertyn|ou:175.5:over|20260712": 1783843989.070595,
     "roadwarriors|terrafirmadyip|ah:-15.5:away|20260712": 1783844889.058593,
     "roadwarriors|terrafirmadyip|ah:-16.0:away|20260712": 1783845789.16096,
-    "roadwarriors|terrafirmadyip|ah:-17.0:away|20260712": 1783845879.082813
+    "roadwarriors|terrafirmadyip|ah:-17.0:away|20260712": 1783845879.082813,
+    "lasvegasacesn|indianafevern|ah:-6.0:away|20260713": 1783854970.221756
   },
   "last_report_date": "2026-07-12",
-  "next_id": 158,
+  "next_id": 159,
   "tg_offset": 363415778
 }
