@@ -4202,7 +4202,36 @@
       "close_fair_odds": 1.8644,
       "clv_pct": 3.3,
       "close_fair_p": 0.5363622022401009,
-      "close_ts": 1783844619.082382
+      "close_ts": 1783845249.061532
+    },
+    {
+      "id": 155,
+      "ts": 1783844889.058593,
+      "key": "67:17012976:ah:-15.5:away",
+      "content_key": "roadwarriors|terrafirmadyip|ah:-15.5:away|20260712",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-15.5:away",
+      "event": "Road Warriors - Terrafirma Dyip",
+      "market": "ah",
+      "market_name": "Hendikep +15.5",
+      "tip": "Hendikep Terrafirma Dyip (+15.5)",
+      "odds": 1.833,
+      "stake": 1400,
+      "value_pct": 4.72,
+      "fair_pct": 57.1,
+      "start": "2026-07-12T09:15:00+00:00",
+      "start_ts": 1783847700.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7508,
+      "clv_pct": 4.69,
+      "close_fair_p": 0.5711668507691893,
+      "close_ts": 1783844979.099431
     }
   ],
   "papered": {
@@ -4343,9 +4372,10 @@
     "brooklynnets|atlantahawks|ah:2.5:home|20260712": 1783811467.754232,
     "washingtonmysticsn|seattlestormn|ou:160.5:under|20260712": 1783816840.45642,
     "aucklandtuatara|otagonuggets|ah:-12.5:away|20260712": 1783826056.912552,
-    "torontotempon|newyorklibertyn|ou:175.5:over|20260712": 1783843989.070595
+    "torontotempon|newyorklibertyn|ou:175.5:over|20260712": 1783843989.070595,
+    "roadwarriors|terrafirmadyip|ah:-15.5:away|20260712": 1783844889.058593
   },
   "last_report_date": "2026-07-11",
-  "next_id": 155,
+  "next_id": 156,
   "tg_offset": 363415778
 }
