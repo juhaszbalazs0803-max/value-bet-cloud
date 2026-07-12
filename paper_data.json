@@ -4321,7 +4321,36 @@
       "close_fair_odds": 1.8212,
       "clv_pct": 3.5,
       "close_fair_p": 0.5490770276630236,
-      "close_ts": 1783855060.215147
+      "close_ts": 1783857453.021681
+    },
+    {
+      "id": 159,
+      "ts": 1783857453.021681,
+      "key": "67:17022650:ah:-3.5:away",
+      "content_key": "milwaukeebucks|sanantoniospurs|ah:-3.5:away|20260713",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-3.5:away",
+      "event": "Milwaukee Bucks - San Antonio Spurs",
+      "market": "ah",
+      "market_name": "Hendikep +3.5",
+      "tip": "Hendikep San Antonio Spurs (+3.5)",
+      "odds": 1.909,
+      "stake": 1400,
+      "value_pct": 5.25,
+      "fair_pct": 55.1,
+      "start": "2026-07-13T01:00:00+00:00",
+      "start_ts": 1783904400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8139,
+      "clv_pct": 5.24,
+      "close_fair_p": 0.5512968602331199,
+      "close_ts": 1783857453.021681
     }
   ],
   "papered": {
@@ -4466,9 +4495,10 @@
     "roadwarriors|terrafirmadyip|ah:-15.5:away|20260712": 1783844889.058593,
     "roadwarriors|terrafirmadyip|ah:-16.0:away|20260712": 1783845789.16096,
     "roadwarriors|terrafirmadyip|ah:-17.0:away|20260712": 1783845879.082813,
-    "lasvegasacesn|indianafevern|ah:-6.0:away|20260713": 1783854970.221756
+    "lasvegasacesn|indianafevern|ah:-6.0:away|20260713": 1783854970.221756,
+    "milwaukeebucks|sanantoniospurs|ah:-3.5:away|20260713": 1783857453.021681
   },
   "last_report_date": "2026-07-12",
-  "next_id": 159,
+  "next_id": 160,
   "tg_offset": 363415778
 }
