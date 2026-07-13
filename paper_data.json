@@ -4539,10 +4539,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8188,
-      "clv_pct": 4.96,
-      "close_fair_p": 0.5498245797769283,
-      "close_ts": 1783963382.760396
+      "close_fair_odds": 1.8477,
+      "clv_pct": 3.32,
+      "close_fair_p": 0.5412079972676878,
+      "close_ts": 1783979659.749987
     },
     {
       "id": 166,
@@ -4597,10 +4597,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9132,
-      "clv_pct": 4.54,
-      "close_fair_p": 0.5226845076311938,
-      "close_ts": 1783963382.760396
+      "close_fair_odds": 1.941,
+      "clv_pct": 3.04,
+      "close_fair_p": 0.5151871601840234,
+      "close_ts": 1783979659.749987
     },
     {
       "id": 168,
