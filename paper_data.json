@@ -3627,11 +3627,11 @@
       "fair_pct": 54.0,
       "start": "2026-07-10T22:00:00+00:00",
       "start_ts": 1783720800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1783980292.2550814,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.8504,
       "clv_pct": 3.17,
@@ -4542,7 +4542,7 @@
       "close_fair_odds": 1.8477,
       "clv_pct": 3.32,
       "close_fair_p": 0.5412079972676878,
-      "close_ts": 1783979659.749987
+      "close_ts": 1783980289.710792
     },
     {
       "id": 166,
@@ -4600,7 +4600,7 @@
       "close_fair_odds": 1.941,
       "clv_pct": 3.04,
       "close_fair_p": 0.5151871601840234,
-      "close_ts": 1783979659.749987
+      "close_ts": 1783980289.710792
     },
     {
       "id": 168,
