@@ -4514,6 +4514,35 @@
       "clv_pct": 3.54,
       "close_fair_p": 0.5522153123629138,
       "close_ts": 1783926439.500111
+    },
+    {
+      "id": 165,
+      "ts": 1783960952.705671,
+      "key": "67:15938694:ah:-1.5:away",
+      "content_key": "connecticutsunn|portlandfiren|ah:-1.5:away|20260714",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-1.5:away",
+      "event": "Connecticut Sun (N) - Portland Fire (N)",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Portland Fire (N) (+1.5)",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.32,
+      "fair_pct": 54.1,
+      "start": "2026-07-14T15:00:00+00:00",
+      "start_ts": 1784041200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8477,
+      "clv_pct": 3.32,
+      "close_fair_p": 0.5412079972676878,
+      "close_ts": 1783961492.703339
     }
   ],
   "papered": {
@@ -4664,9 +4693,10 @@
     "washingtonmysticsn|seattlestormn|ou:163.0:under|20260712": 1783874641.252784,
     "portlandtrailblazers|orlandomagic|ml:away|20260712": 1783896334.114355,
     "portlandtrailblazers|orlandomagic|ah:2.5:away|20260712": 1783896334.114355,
-    "varvarapanshina|weronikafalkowska|ml:away|20260713": 1783923289.474821
+    "varvarapanshina|weronikafalkowska|ml:away|20260713": 1783923289.474821,
+    "connecticutsunn|portlandfiren|ah:-1.5:away|20260714": 1783960952.705671
   },
   "last_report_date": "2026-07-13",
-  "next_id": 165,
+  "next_id": 166,
   "tg_offset": 363415778
 }
