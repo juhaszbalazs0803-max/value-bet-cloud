@@ -4659,6 +4659,35 @@
       "clv_pct": 3.32,
       "close_fair_p": 0.5293095275714963,
       "close_ts": 1783963382.760396
+    },
+    {
+      "id": 170,
+      "ts": 1783976104.716569,
+      "key": "67:17022666:ml:away",
+      "content_key": "bostonceltics|atlantahawks|ml:away|20260713",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Boston Celtics - Atlanta Hawks",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Atlanta Hawks",
+      "odds": 1.952,
+      "stake": 5000,
+      "value_pct": 20.62,
+      "fair_pct": 61.8,
+      "start": "2026-07-13T22:00:00+00:00",
+      "start_ts": 1783980000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6187,
+      "clv_pct": 20.59,
+      "close_fair_p": 0.6177893561592854,
+      "close_ts": 1783976104.716569
     }
   ],
   "papered": {
@@ -4814,9 +4843,10 @@
     "clevelandcavaliers|miamiheat|ah:-2.5:away|20260714": 1783961852.708576,
     "connecticutsunn|portlandfiren|ml:away|20260714": 1783961852.708576,
     "newyorkknicks|detroitpistons|ou:168.5:under|20260713": 1783962752.75969,
-    "memphisgrizzlies|dallasmavericks|ou:179.5:under|20260713": 1783963382.760396
+    "memphisgrizzlies|dallasmavericks|ou:179.5:under|20260713": 1783963382.760396,
+    "bostonceltics|atlantahawks|ml:away|20260713": 1783976104.716569
   },
   "last_report_date": "2026-07-13",
-  "next_id": 170,
+  "next_id": 171,
   "tg_offset": 363415778
 }
