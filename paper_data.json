@@ -4542,7 +4542,7 @@
       "close_fair_odds": 1.8188,
       "clv_pct": 4.96,
       "close_fair_p": 0.5498245797769283,
-      "close_ts": 1783962122.70292
+      "close_ts": 1783962752.75969
     },
     {
       "id": 166,
@@ -4571,7 +4571,7 @@
       "close_fair_odds": 1.8519,
       "clv_pct": 3.08,
       "close_fair_p": 0.5399994731712456,
-      "close_ts": 1783962122.70292
+      "close_ts": 1783962662.704575
     },
     {
       "id": 167,
@@ -4600,7 +4600,36 @@
       "close_fair_odds": 1.9132,
       "clv_pct": 4.54,
       "close_fair_p": 0.5226845076311938,
-      "close_ts": 1783962122.70292
+      "close_ts": 1783962752.75969
+    },
+    {
+      "id": 168,
+      "ts": 1783962752.75969,
+      "key": "67:17022691:ou:168.5:under",
+      "content_key": "newyorkknicks|detroitpistons|ou:168.5:under|20260713",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:168.5:under",
+      "event": "New York Knicks - Detroit Pistons",
+      "market": "ou",
+      "market_name": "O/U 168.5",
+      "tip": "Kevesebb mint 168.5",
+      "odds": 1.952,
+      "stake": 900,
+      "value_pct": 3.34,
+      "fair_pct": 52.9,
+      "start": "2026-07-13T20:00:00+00:00",
+      "start_ts": 1783972800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8893,
+      "clv_pct": 3.32,
+      "close_fair_p": 0.5293095275714963,
+      "close_ts": 1783962752.75969
     }
   ],
   "papered": {
@@ -4754,9 +4783,10 @@
     "varvarapanshina|weronikafalkowska|ml:away|20260713": 1783923289.474821,
     "connecticutsunn|portlandfiren|ah:-1.5:away|20260714": 1783960952.705671,
     "clevelandcavaliers|miamiheat|ah:-2.5:away|20260714": 1783961852.708576,
-    "connecticutsunn|portlandfiren|ml:away|20260714": 1783961852.708576
+    "connecticutsunn|portlandfiren|ml:away|20260714": 1783961852.708576,
+    "newyorkknicks|detroitpistons|ou:168.5:under|20260713": 1783962752.75969
   },
   "last_report_date": "2026-07-13",
-  "next_id": 168,
+  "next_id": 169,
   "tg_offset": 363415778
 }
