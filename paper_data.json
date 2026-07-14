@@ -4775,6 +4775,35 @@
       "clv_pct": 3.7,
       "close_fair_p": 0.5432072847508331,
       "close_ts": 1784047796.328394
+    },
+    {
+      "id": 174,
+      "ts": 1784068347.380722,
+      "key": "67:17054783:ml:away",
+      "content_key": "chicagobulls|washingtonwizards|ml:away|20260715",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Chicago Bulls - Washington Wizards",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Washington Wizards",
+      "odds": 1.8,
+      "stake": 1100,
+      "value_pct": 3.44,
+      "fair_pct": 57.5,
+      "start": "2026-07-15T00:00:00+00:00",
+      "start_ts": 1784073600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7401,
+      "clv_pct": 3.44,
+      "close_fair_p": 0.574668411195772,
+      "close_ts": 1784068617.327904
     }
   ],
   "papered": {
@@ -4934,9 +4963,10 @@
     "bostonceltics|atlantahawks|ml:away|20260713": 1783976104.716569,
     "portlandtrailblazers|minnesotatimberwolves|ou:182.5:under|20260714": 1783997975.286858,
     "connecticutsunn|portlandfiren|ou:169.5:under|20260714": 1784031589.693791,
-    "brooklynnets|sacramentokings|ah:-1.5:away|20260714": 1784047256.313424
+    "brooklynnets|sacramentokings|ah:-1.5:away|20260714": 1784047256.313424,
+    "chicagobulls|washingtonwizards|ml:away|20260715": 1784068347.380722
   },
   "last_report_date": "2026-07-14",
-  "next_id": 174,
+  "next_id": 175,
   "tg_offset": 363415778
 }
