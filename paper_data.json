@@ -4800,10 +4800,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7401,
-      "clv_pct": 3.44,
-      "close_fair_p": 0.574668411195772,
-      "close_ts": 1784068617.327904
+      "close_fair_odds": 2.0263,
+      "clv_pct": -11.17,
+      "close_fair_p": 0.4935071735260236,
+      "close_ts": 1784070411.28321
+    },
+    {
+      "id": 175,
+      "ts": 1784070051.285645,
+      "key": "67:15949887:ah:-3.5:away",
+      "content_key": "chicagoskyn|seattlestormn|ah:-3.5:away|20260715",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-3.5:away",
+      "event": "Chicago Sky (N) - Seattle Storm (N)",
+      "market": "ah",
+      "market_name": "Hendikep +3.5",
+      "tip": "Hendikep Seattle Storm (N) (+3.5)",
+      "odds": 1.909,
+      "stake": 2200,
+      "value_pct": 8.07,
+      "fair_pct": 56.6,
+      "start": "2026-07-15T16:00:00+00:00",
+      "start_ts": 1784131200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7666,
+      "clv_pct": 8.06,
+      "close_fair_p": 0.5660720313676613,
+      "close_ts": 1784070411.28321
     }
   ],
   "papered": {
@@ -4964,9 +4993,10 @@
     "portlandtrailblazers|minnesotatimberwolves|ou:182.5:under|20260714": 1783997975.286858,
     "connecticutsunn|portlandfiren|ou:169.5:under|20260714": 1784031589.693791,
     "brooklynnets|sacramentokings|ah:-1.5:away|20260714": 1784047256.313424,
-    "chicagobulls|washingtonwizards|ml:away|20260715": 1784068347.380722
+    "chicagobulls|washingtonwizards|ml:away|20260715": 1784068347.380722,
+    "chicagoskyn|seattlestormn|ah:-3.5:away|20260715": 1784070051.285645
   },
   "last_report_date": "2026-07-14",
-  "next_id": 175,
+  "next_id": 176,
   "tg_offset": 363415778
 }
