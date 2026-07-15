@@ -4891,6 +4891,35 @@
       "clv_pct": 3.54,
       "close_fair_p": 0.5375632232608638,
       "close_ts": 1784076275.436944
+    },
+    {
+      "id": 178,
+      "ts": 1784114321.849557,
+      "key": "67:17054784:ah:1.5:away",
+      "content_key": "sacramentokings|bostonceltics|ah:1.5:away|20260716",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:1.5:away",
+      "event": "Sacramento Kings - Boston Celtics",
+      "market": "ah",
+      "market_name": "Hendikep -1.5",
+      "tip": "Hendikep Boston Celtics (-1.5)",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.17,
+      "fair_pct": 54.0,
+      "start": "2026-07-16T00:00:00+00:00",
+      "start_ts": 1784160000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8504,
+      "clv_pct": 3.17,
+      "close_fair_p": 0.5404129174427451,
+      "close_ts": 1784114321.849557
     }
   ],
   "papered": {
@@ -5054,9 +5083,10 @@
     "chicagobulls|washingtonwizards|ml:away|20260715": 1784068347.380722,
     "chicagoskyn|seattlestormn|ah:-3.5:away|20260715": 1784070051.285645,
     "indianafevern|goldenstatevalkyriesn|ml:home|20260716": 1784073665.402313,
-    "indianafevern|goldenstatevalkyriesn|ou:168.5:over|20260716": 1784073665.402313
+    "indianafevern|goldenstatevalkyriesn|ou:168.5:over|20260716": 1784073665.402313,
+    "sacramentokings|bostonceltics|ah:1.5:away|20260716": 1784114321.849557
   },
   "last_report_date": "2026-07-15",
-  "next_id": 178,
+  "next_id": 179,
   "tg_offset": 363415778
 }
