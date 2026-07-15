@@ -4978,6 +4978,35 @@
       "clv_pct": 3.08,
       "close_fair_p": 0.5399994731712456,
       "close_ts": 1784118848.608302
+    },
+    {
+      "id": 181,
+      "ts": 1784120378.579477,
+      "key": "66:17079022:ou:3.5:under",
+      "content_key": "sksturmgraz|pogonszczecin|ou:3.5:under|20260715",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "SK Sturm Graz - Pogon Szczecin",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.667,
+      "stake": 1200,
+      "value_pct": 3.17,
+      "fair_pct": 61.9,
+      "start": "2026-07-15T15:00:00+00:00",
+      "start_ts": 1784127600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6155,
+      "clv_pct": 3.19,
+      "close_fair_p": 0.6190163934426229,
+      "close_ts": 1784120738.557324
     }
   ],
   "papered": {
@@ -5144,9 +5173,10 @@
     "indianafevern|goldenstatevalkyriesn|ou:168.5:over|20260716": 1784073665.402313,
     "sacramentokings|bostonceltics|ah:1.5:away|20260716": 1784114321.849557,
     "minnesotalynxn|losangelessparksn|ah:-13.0:away|20260715": 1784117588.567968,
-    "minnesotalynxn|losangelessparksn|ah:-12.5:away|20260715": 1784118488.584418
+    "minnesotalynxn|losangelessparksn|ah:-12.5:away|20260715": 1784118488.584418,
+    "sksturmgraz|pogonszczecin|ou:3.5:under|20260715": 1784120378.579477
   },
   "last_report_date": "2026-07-15",
-  "next_id": 181,
+  "next_id": 182,
   "tg_offset": 363415778
 }
