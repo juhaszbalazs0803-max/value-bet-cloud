@@ -5016,6 +5016,35 @@
       "clv_pct": 3.19,
       "close_fair_p": 0.6190163934426229,
       "close_ts": 1784120738.557324
+    },
+    {
+      "id": 182,
+      "ts": 1784154103.06591,
+      "key": "66:17058034:ou:3.5:over",
+      "content_key": "thestrongest|orientepetrolero|ou:3.5:over|20260716",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "The Strongest - Oriente Petrolero",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.8,
+      "stake": 1600,
+      "value_pct": 5.11,
+      "fair_pct": 58.4,
+      "start": "2026-07-16T00:00:00+00:00",
+      "start_ts": 1784160000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7125,
+      "clv_pct": 5.11,
+      "close_fair_p": 0.5839300340846039,
+      "close_ts": 1784154553.022645
     }
   ],
   "papered": {
@@ -5183,9 +5212,10 @@
     "sacramentokings|bostonceltics|ah:1.5:away|20260716": 1784114321.849557,
     "minnesotalynxn|losangelessparksn|ah:-13.0:away|20260715": 1784117588.567968,
     "minnesotalynxn|losangelessparksn|ah:-12.5:away|20260715": 1784118488.584418,
-    "sksturmgraz|pogonszczecin|ou:3.5:under|20260715": 1784120378.579477
+    "sksturmgraz|pogonszczecin|ou:3.5:under|20260715": 1784120378.579477,
+    "thestrongest|orientepetrolero|ou:3.5:over|20260716": 1784154103.06591
   },
   "last_report_date": "2026-07-15",
-  "next_id": 182,
+  "next_id": 183,
   "tg_offset": 363415778
 }
