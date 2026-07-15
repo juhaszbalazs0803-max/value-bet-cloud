@@ -5070,10 +5070,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8062,
-      "clv_pct": 4.36,
-      "close_fair_p": 0.5536404470907761,
-      "close_ts": 1784158133.470196
+      "close_fair_odds": 1.7859,
+      "clv_pct": 5.55,
+      "close_fair_p": 0.5599395786129125,
+      "close_ts": 1784158763.516107
     },
     {
       "id": 184,
