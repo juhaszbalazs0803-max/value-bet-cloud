@@ -5289,6 +5289,35 @@
       "clv_pct": 3.14,
       "close_fair_p": 0.5471347417471661,
       "close_ts": 1784205431.761018
+    },
+    {
+      "id": 191,
+      "ts": 1784219006.811009,
+      "key": "67:17080603:ou:172.5:over",
+      "content_key": "newyorkknicks|goldenstatewarriors|ou:172.5:over|20260716",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:172.5:over",
+      "event": "New York Knicks - Golden State Warriors",
+      "market": "ou",
+      "market_name": "O/U 172.5",
+      "tip": "Több mint 172.5",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.17,
+      "fair_pct": 54.0,
+      "start": "2026-07-16T23:00:00+00:00",
+      "start_ts": 1784242800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8504,
+      "clv_pct": 3.17,
+      "close_fair_p": 0.5404129174427451,
+      "close_ts": 1784219366.812526
     }
   ],
   "papered": {
@@ -5465,9 +5494,10 @@
     "pavlasekariklp|burruchagaromanandreskestelboimmariano|ml:home|20260716": 1784191210.455403,
     "washingtonmysticsn|portlandfiren|ou:162.5:over|20260716": 1784199417.928952,
     "dallaswingsn|newyorklibertyn|ml:home|20260717": 1784205431.761018,
-    "dallaswingsn|newyorklibertyn|ah:-1.0:home|20260717": 1784205431.761018
+    "dallaswingsn|newyorklibertyn|ah:-1.0:home|20260717": 1784205431.761018,
+    "newyorkknicks|goldenstatewarriors|ou:172.5:over|20260716": 1784219006.811009
   },
   "last_report_date": "2026-07-16",
-  "next_id": 191,
+  "next_id": 192,
   "tg_offset": 363415778
 }
