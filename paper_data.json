@@ -5112,6 +5112,35 @@
       "clv_pct": 3.66,
       "close_fair_p": 0.5498923559774856,
       "close_ts": 1784157683.499545
+    },
+    {
+      "id": 185,
+      "ts": 1784169458.789971,
+      "key": "68:17093227:ml:home",
+      "content_key": "jankumstat|florianbroska|ml:home|20260716",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Jan Kumstat - Florian Broska",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Jan Kumstat",
+      "odds": 1.933,
+      "stake": 1000,
+      "value_pct": 3.69,
+      "fair_pct": 53.6,
+      "start": "2026-07-16T10:30:00+00:00",
+      "start_ts": 1784197800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8647,
+      "clv_pct": 3.66,
+      "close_fair_p": 0.5362907424763095,
+      "close_ts": 1784169728.767615
     }
   ],
   "papered": {
@@ -5282,9 +5311,10 @@
     "sksturmgraz|pogonszczecin|ou:3.5:under|20260715": 1784120378.579477,
     "thestrongest|orientepetrolero|ou:3.5:over|20260716": 1784154103.06591,
     "washingtonmysticsn|portlandfiren|ah:-4.5:home|20260716": 1784156423.49134,
-    "indianafevern|goldenstatevalkyriesn|ah:-1.5:home|20260716": 1784156513.510634
+    "indianafevern|goldenstatevalkyriesn|ah:-1.5:home|20260716": 1784156513.510634,
+    "jankumstat|florianbroska|ml:home|20260716": 1784169458.789971
   },
   "last_report_date": "2026-07-15",
-  "next_id": 185,
+  "next_id": 186,
   "tg_offset": 363415778
 }
