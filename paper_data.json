@@ -5199,6 +5199,35 @@
       "clv_pct": 4.95,
       "close_fair_p": 0.7773954521455751,
       "close_ts": 1784192470.47392
+    },
+    {
+      "id": 188,
+      "ts": 1784199417.928952,
+      "key": "67:15964093:ou:162.5:over",
+      "content_key": "washingtonmysticsn|portlandfiren|ou:162.5:over|20260716",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:162.5:over",
+      "event": "Washington Mystics (N) - Portland Fire (N)",
+      "market": "ou",
+      "market_name": "O/U 162.5",
+      "tip": "Több mint 162.5",
+      "odds": 1.926,
+      "stake": 800,
+      "value_pct": 3.14,
+      "fair_pct": 53.6,
+      "start": "2026-07-16T23:00:00+00:00",
+      "start_ts": 1784242800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8673,
+      "clv_pct": 3.14,
+      "close_fair_p": 0.5355391182162835,
+      "close_ts": 1784199417.928952
     }
   ],
   "papered": {
@@ -5372,9 +5401,10 @@
     "indianafevern|goldenstatevalkyriesn|ah:-1.5:home|20260716": 1784156513.510634,
     "jankumstat|florianbroska|ml:home|20260716": 1784169458.789971,
     "otagonuggets|hawkesbayhawks|ah:-9.5:home|20260716": 1784170988.865623,
-    "pavlasekariklp|burruchagaromanandreskestelboimmariano|ml:home|20260716": 1784191210.455403
+    "pavlasekariklp|burruchagaromanandreskestelboimmariano|ml:home|20260716": 1784191210.455403,
+    "washingtonmysticsn|portlandfiren|ou:162.5:over|20260716": 1784199417.928952
   },
   "last_report_date": "2026-07-16",
-  "next_id": 188,
+  "next_id": 189,
   "tg_offset": 363415778
 }
