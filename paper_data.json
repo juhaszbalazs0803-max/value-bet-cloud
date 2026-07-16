@@ -5141,6 +5141,35 @@
       "clv_pct": 3.66,
       "close_fair_p": 0.5362907424763095,
       "close_ts": 1784169728.767615
+    },
+    {
+      "id": 186,
+      "ts": 1784170988.865623,
+      "key": "67:16318872:ah:-9.5:home",
+      "content_key": "otagonuggets|hawkesbayhawks|ah:-9.5:home|20260716",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-9.5:home",
+      "event": "Otago Nuggets - Hawkes Bay Hawks",
+      "market": "ah",
+      "market_name": "Hendikep -9.5",
+      "tip": "Hendikep Otago Nuggets (-9.5)",
+      "odds": 1.833,
+      "stake": 2100,
+      "value_pct": 7.17,
+      "fair_pct": 58.5,
+      "start": "2026-07-16T07:00:00+00:00",
+      "start_ts": 1784185200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7107,
+      "clv_pct": 7.15,
+      "close_fair_p": 0.5845653769529202,
+      "close_ts": 1784171168.776904
     }
   ],
   "papered": {
@@ -5312,9 +5341,10 @@
     "thestrongest|orientepetrolero|ou:3.5:over|20260716": 1784154103.06591,
     "washingtonmysticsn|portlandfiren|ah:-4.5:home|20260716": 1784156423.49134,
     "indianafevern|goldenstatevalkyriesn|ah:-1.5:home|20260716": 1784156513.510634,
-    "jankumstat|florianbroska|ml:home|20260716": 1784169458.789971
+    "jankumstat|florianbroska|ml:home|20260716": 1784169458.789971,
+    "otagonuggets|hawkesbayhawks|ah:-9.5:home|20260716": 1784170988.865623
   },
   "last_report_date": "2026-07-15",
-  "next_id": 186,
+  "next_id": 187,
   "tg_offset": 363415778
 }
