@@ -5979,6 +5979,35 @@
       "clv_pct": 3.29,
       "close_fair_p": 0.5634692856578636,
       "close_ts": 1784318740.806573
+    },
+    {
+      "id": 209,
+      "ts": 1784319550.783343,
+      "key": "67:15975814:ah:-8.5:home",
+      "content_key": "indianafevern|seattlestormn|ah:-8.5:home|20260717",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-8.5:home",
+      "event": "Indiana Fever (N) - Seattle Storm (N)",
+      "market": "ah",
+      "market_name": "Hendikep -8.5",
+      "tip": "Hendikep Indiana Fever (N) (-8.5)",
+      "odds": 1.885,
+      "stake": 900,
+      "value_pct": 3.29,
+      "fair_pct": 54.8,
+      "start": "2026-07-17T23:30:00+00:00",
+      "start_ts": 1784331000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.825,
+      "clv_pct": 3.29,
+      "close_fair_p": 0.5479523203573377,
+      "close_ts": 1784319910.791187
     }
   ],
   "papered": {
@@ -6173,17 +6202,18 @@
     "torontotempon|atlantadreamn|ah:8.5:away|20260717": 1784300380.598094,
     "floratallinn|nommeunited|ml:home|20260717": 1784301640.546262,
     "indianafevern|seattlestormn|ah:-9.0:home|20260717": 1784302360.602637,
-    "nicaraguawomen|salvadorn|ou:139.5:over|20260717": 1784314131.887814
+    "nicaraguawomen|salvadorn|ou:139.5:over|20260717": 1784314131.887814,
+    "indianafevern|seattlestormn|ah:-8.5:home|20260717": 1784319550.783343
   },
   "last_report_date": "2026-07-17",
-  "next_id": 209,
+  "next_id": 210,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784319280.782543,
+      "ts": 1784319910.791187,
       "ok": true,
-      "vegas_events": 1241,
-      "pinnacle_events": 742,
+      "vegas_events": 1242,
+      "pinnacle_events": 762,
       "sports_err": {},
       "problems": [],
       "settle_err": null
