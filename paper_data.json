@@ -5886,6 +5886,35 @@
       "clv_pct": 4.23,
       "close_fair_p": 0.5459792527883941,
       "close_ts": 1784300740.648992
+    },
+    {
+      "id": 206,
+      "ts": 1784301640.546262,
+      "key": "66:15972166:ml:home",
+      "content_key": "floratallinn|nommeunited|ml:home|20260717",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Flora Tallinn - Nomme United",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Flora Tallinn",
+      "odds": 1.5,
+      "stake": 3200,
+      "value_pct": 6.46,
+      "fair_pct": 71.0,
+      "start": "2026-07-17T16:00:00+00:00",
+      "start_ts": 1784304000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.409,
+      "clv_pct": 6.46,
+      "close_fair_p": 0.7097478875928674,
+      "close_ts": 1784301640.546262
     }
   ],
   "papered": {
@@ -6077,17 +6106,18 @@
     "chicagoskyn|losangelessparksn|ou:185.5:under|20260717": 1784292566.622425,
     "torontotempon|atlantadreamn|ah:9.0:away|20260717": 1784299300.595159,
     "newyorkknicks|dallasmavericks|ml:away|20260718": 1784299480.540863,
-    "torontotempon|atlantadreamn|ah:8.5:away|20260717": 1784300380.598094
+    "torontotempon|atlantadreamn|ah:8.5:away|20260717": 1784300380.598094,
+    "floratallinn|nommeunited|ml:home|20260717": 1784301640.546262
   },
   "last_report_date": "2026-07-17",
-  "next_id": 206,
+  "next_id": 207,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784301190.597241,
+      "ts": 1784301820.613659,
       "ok": true,
-      "vegas_events": 1198,
-      "pinnacle_events": 829,
+      "vegas_events": 1203,
+      "pinnacle_events": 836,
       "sports_err": {},
       "problems": [],
       "settle_err": null
