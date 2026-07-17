@@ -23,6 +23,7 @@ from datetime import datetime
 import paper_cron as P
 from valuebet.http import Http
 from valuebet.sportsdb import SportsDBClient
+from valuebet.espn import ESPNClient
 from valuebet.tennisexplorer import TennisExplorerClient
 from valuebet.telegram import TelegramNotifier
 
@@ -94,6 +95,7 @@ def main():
     cfg = P.load_cfg()
     http = Http(verify_ssl=cfg.get("http", {}).get("verify_ssl", True), delay_sec=0)
     sportsdb = SportsDBClient(http, cfg)
+    espn = ESPNClient(http, cfg)
     te = TennisExplorerClient(http, cfg)
     tg = TelegramNotifier(cfg)
 
@@ -116,9 +118,9 @@ def main():
         if now - last_settle >= SETTLE_EVERY:
             last_settle = now
             # friss eredmenyekhez a napi cache-t uritjuk
-            sportsdb._cache.clear(); te._cache.clear()
+            sportsdb._cache.clear(); espn._cache.clear(); te._cache.clear()
             try:
-                P.settle(cfg, ledger, sportsdb, te)
+                P.settle(cfg, ledger, sportsdb, te, espn)
             except Exception as e:
                 print(f"[settle] hiba: {e}")
             P.maybe_report(cfg, ledger, tg)
@@ -130,9 +132,9 @@ def main():
         time.sleep(max(5, POLL - dt))
 
     # zaras: utolso lezaras + jelentes + mentes
-    sportsdb._cache.clear(); te._cache.clear()
+    sportsdb._cache.clear(); espn._cache.clear(); te._cache.clear()
     try:
-        P.settle(cfg, ledger, sportsdb, te)
+        P.settle(cfg, ledger, sportsdb, te, espn)
     except Exception as e:
         print(f"[settle] hiba: {e}")
     P.maybe_report(cfg, ledger, tg)

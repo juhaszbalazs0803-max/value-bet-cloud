@@ -19,6 +19,7 @@ from datetime import datetime, timezone, date
 
 from valuebet.http import Http
 from valuebet.sportsdb import SportsDBClient, TENNIS_SPORT_ID
+from valuebet.espn import ESPNClient, BASKETBALL_SPORT_ID as ESPN_BASKETBALL_ID
 from valuebet.tennisexplorer import TennisExplorerClient
 from valuebet.telegram import TelegramNotifier
 from valuebet import results, value as V
@@ -170,7 +171,7 @@ def capture_clv(ledger, found, now):
 
 
 # ---------- lezárás (visszamenőleges + auto-void) ----------
-def settle(cfg, ledger, sportsdb, te):
+def settle(cfg, ledger, sportsdb, te, espn=None):
     rcfg = cfg.get("results", {})
     min_after = rcfg.get("min_minutes_after_start", 90) * 60
     auto_void = rcfg.get("auto_void", True)
@@ -203,7 +204,15 @@ def settle(cfg, ledger, sportsdb, te):
                 res = results.grade_tennis(b.get("subkey", ""), *tr)
                 final = [tr[0], tr[1]]
             else:
-                fs = sportsdb.final_score(sid, home, away, b.get("start"))
+                fs = None
+                # kosárban az ESPN az elsődleges (a TheSportsDB ott alig ad meccset)
+                if espn is not None and sid == ESPN_BASKETBALL_ID:
+                    fs = espn.final_score(home, away, b.get("start"))
+                    if fs:
+                        src = "espn"
+                if not fs:
+                    fs = sportsdb.final_score(sid, home, away, b.get("start"))
+                    src = "sportsdb"
                 if not fs:
                     continue
                 res = results.grade(sid, b.get("subkey", ""), fs[0], fs[1])
@@ -297,6 +306,7 @@ def report_text(cfg, ledger):
                      f"({s['clv_n']} tipp, {s['clv_beat_rate']}% verte a zárót)")
     lines += [
         f"🟢 Nyitott (papír) tétel: <b>{s['open']}</b>",
+        f"⚪ Void (eredmény nem található): <b>{s['void']}</b>",
         "",
         f"<i>A szoftver automatikusan 'megrakja' a ≤{max_odds:.2f} oddsú biztos value "
         "tippeket; valódi fogadás nem történik.</i>",
@@ -328,6 +338,7 @@ def main():
     cfg = load_cfg()
     http = Http(verify_ssl=cfg.get("http", {}).get("verify_ssl", True), delay_sec=0)
     sportsdb = SportsDBClient(http, cfg)
+    espn = ESPNClient(http, cfg)
     te = TennisExplorerClient(http, cfg)
     tg = TelegramNotifier(cfg)
 
@@ -336,7 +347,7 @@ def main():
         place_new(cfg, ledger)
     except Exception as e:
         print(f"[paper] scan/megrakás hiba: {e}")
-    settle(cfg, ledger, sportsdb, te)
+    settle(cfg, ledger, sportsdb, te, espn)
     maybe_report(cfg, ledger, tg)
     save_ledger(ledger)
     s = compute_stats(ledger)
