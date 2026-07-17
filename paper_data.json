@@ -5950,6 +5950,35 @@
       "clv_pct": 3.06,
       "close_fair_p": 0.5350803925662978,
       "close_ts": 1784302450.557883
+    },
+    {
+      "id": 208,
+      "ts": 1784314131.887814,
+      "key": "67:17116469:ou:139.5:over",
+      "content_key": "nicaraguawomen|salvadorn|ou:139.5:over|20260717",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:139.5:over",
+      "event": "Nicaragua Women - Salvador (N)",
+      "market": "ou",
+      "market_name": "O/U 139.5",
+      "tip": "Több mint 139.5",
+      "odds": 1.833,
+      "stake": 1000,
+      "value_pct": 3.31,
+      "fair_pct": 56.3,
+      "start": "2026-07-17T20:30:00+00:00",
+      "start_ts": 1784320200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7747,
+      "clv_pct": 3.29,
+      "close_fair_p": 0.5634692856578636,
+      "close_ts": 1784314581.891776
     }
   ],
   "papered": {
@@ -6143,17 +6172,18 @@
     "newyorkknicks|dallasmavericks|ml:away|20260718": 1784299480.540863,
     "torontotempon|atlantadreamn|ah:8.5:away|20260717": 1784300380.598094,
     "floratallinn|nommeunited|ml:home|20260717": 1784301640.546262,
-    "indianafevern|seattlestormn|ah:-9.0:home|20260717": 1784302360.602637
+    "indianafevern|seattlestormn|ah:-9.0:home|20260717": 1784302360.602637,
+    "nicaraguawomen|salvadorn|ou:139.5:over|20260717": 1784314131.887814
   },
   "last_report_date": "2026-07-17",
-  "next_id": 208,
+  "next_id": 209,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784313951.898068,
+      "ts": 1784314581.891776,
       "ok": true,
-      "vegas_events": 1223,
-      "pinnacle_events": 755,
+      "vegas_events": 1224,
+      "pinnacle_events": 747,
       "sports_err": {},
       "problems": [],
       "settle_err": null
