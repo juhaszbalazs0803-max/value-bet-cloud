@@ -5767,6 +5767,35 @@
       "clv_pct": 4.38,
       "close_fair_p": 0.5642038314569281,
       "close_ts": 1784287499.375845
+    },
+    {
+      "id": 202,
+      "ts": 1784292566.622425,
+      "key": "67:15975817:ou:185.5:under",
+      "content_key": "chicagoskyn|losangelessparksn|ou:185.5:under|20260717",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:185.5:under",
+      "event": "Chicago Sky (N) - Los Angeles Sparks (N)",
+      "market": "ou",
+      "market_name": "O/U 185.5",
+      "tip": "Kevesebb mint 185.5",
+      "odds": 1.926,
+      "stake": 1300,
+      "value_pct": 4.85,
+      "fair_pct": 54.4,
+      "start": "2026-07-17T23:30:00+00:00",
+      "start_ts": 1784331000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8369,
+      "clv_pct": 4.85,
+      "close_fair_p": 0.5444028581150051,
+      "close_ts": 1784292746.607981
     }
   ],
   "papered": {
@@ -5954,16 +5983,17 @@
     "macaublackbears|convergefiberxers|ah:14.5:home|20260717": 1784278265.357876,
     "foshannanshifc|nantongzhiyunfc|ml:away|20260717": 1784284349.392635,
     "blackwaterbossing|timpladoshotshots|ah:6.5:home|20260717": 1784286959.404665,
-    "anastasiazakharova|tatianaprozorova|ml:away|20260717": 1784287229.3767
+    "anastasiazakharova|tatianaprozorova|ml:away|20260717": 1784287229.3767,
+    "chicagoskyn|losangelessparksn|ou:185.5:under|20260717": 1784292566.622425
   },
   "last_report_date": "2026-07-17",
-  "next_id": 202,
+  "next_id": 203,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784292116.620375,
+      "ts": 1784292746.607981,
       "ok": true,
-      "vegas_events": 1168,
+      "vegas_events": 1177,
       "pinnacle_events": 829,
       "sports_err": {},
       "problems": [],
