@@ -5462,7 +5462,7 @@
       "close_fair_odds": 1.8602,
       "clv_pct": 3.54,
       "close_fair_p": 0.5375632232608638,
-      "close_ts": 1784278085.349715
+      "close_ts": 1784278715.403294
     },
     {
       "id": 197,
@@ -5492,6 +5492,35 @@
       "clv_pct": 4.7,
       "close_fair_p": 0.5363622022401009,
       "close_ts": 1784269987.767269
+    },
+    {
+      "id": 198,
+      "ts": 1784278265.357876,
+      "key": "67:17086114:ah:14.5:home",
+      "content_key": "macaublackbears|convergefiberxers|ah:14.5:home|20260717",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:14.5:home",
+      "event": "Macau Black Bears - Converge Fiberxers",
+      "market": "ah",
+      "market_name": "Hendikep +14.5",
+      "tip": "Hendikep Macau Black Bears (+14.5)",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.31,
+      "fair_pct": 56.9,
+      "start": "2026-07-17T09:15:00+00:00",
+      "start_ts": 1784279700.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7577,
+      "clv_pct": 4.28,
+      "close_fair_p": 0.5689171699741157,
+      "close_ts": 1784278355.360675
     }
   ],
   "papered": {
@@ -5675,9 +5704,10 @@
     "torontotempon|atlantadreamn|ah:8.5:home|20260717": 1784255239.63166,
     "vendulavaldmannova|alionafalei|ml:home|20260717": 1784257309.668793,
     "phoenixmercuryn|connecticutsunn|ou:163.5:over|20260718": 1784269717.744622,
-    "torontotempon|atlantadreamn|ah:8.0:home|20260717": 1784269807.753748
+    "torontotempon|atlantadreamn|ah:8.0:home|20260717": 1784269807.753748,
+    "macaublackbears|convergefiberxers|ah:14.5:home|20260717": 1784278265.357876
   },
   "last_report_date": "2026-07-16",
-  "next_id": 198,
+  "next_id": 199,
   "tg_offset": 363415778
 }
