@@ -5583,11 +5583,14 @@
       "fair_pct": 56.6,
       "start": "2026-07-17T13:15:00+00:00",
       "start_ts": 1784294100.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784302454.4514098,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.768,
       "clv_pct": 4.41,
@@ -5915,6 +5918,35 @@
       "clv_pct": 6.46,
       "close_fair_p": 0.7097478875928674,
       "close_ts": 1784301640.546262
+    },
+    {
+      "id": 207,
+      "ts": 1784302360.602637,
+      "key": "67:15975814:ah:-9.0:home",
+      "content_key": "indianafevern|seattlestormn|ah:-9.0:home|20260717",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-9.0:home",
+      "event": "Indiana Fever (N) - Seattle Storm (N)",
+      "market": "ah",
+      "market_name": "Hendikep -9",
+      "tip": "Hendikep Indiana Fever (N) (-9)",
+      "odds": 1.926,
+      "stake": 800,
+      "value_pct": 3.06,
+      "fair_pct": 53.5,
+      "start": "2026-07-17T23:30:00+00:00",
+      "start_ts": 1784331000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8689,
+      "clv_pct": 3.06,
+      "close_fair_p": 0.5350803925662978,
+      "close_ts": 1784302450.557883
     }
   ],
   "papered": {
@@ -6107,17 +6139,18 @@
     "torontotempon|atlantadreamn|ah:9.0:away|20260717": 1784299300.595159,
     "newyorkknicks|dallasmavericks|ml:away|20260718": 1784299480.540863,
     "torontotempon|atlantadreamn|ah:8.5:away|20260717": 1784300380.598094,
-    "floratallinn|nommeunited|ml:home|20260717": 1784301640.546262
+    "floratallinn|nommeunited|ml:home|20260717": 1784301640.546262,
+    "indianafevern|seattlestormn|ah:-9.0:home|20260717": 1784302360.602637
   },
   "last_report_date": "2026-07-17",
-  "next_id": 207,
+  "next_id": 208,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784301820.613659,
+      "ts": 1784302450.557883,
       "ok": true,
-      "vegas_events": 1203,
-      "pinnacle_events": 836,
+      "vegas_events": 1202,
+      "pinnacle_events": 842,
       "sports_err": {},
       "problems": [],
       "settle_err": null
