@@ -4562,11 +4562,11 @@
       "fair_pct": 54.0,
       "start": "2026-07-14T00:00:00+00:00",
       "start_ts": 1783987200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1784255245.4288838,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.8519,
       "clv_pct": 3.08,
@@ -5376,6 +5376,35 @@
       "clv_pct": 3.11,
       "close_fair_p": 0.6384522370012091,
       "close_ts": 1784243915.992054
+    },
+    {
+      "id": 194,
+      "ts": 1784255239.63166,
+      "key": "67:15975815:ah:8.5:home",
+      "content_key": "torontotempon|atlantadreamn|ah:8.5:home|20260717",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:8.5:home",
+      "event": "Toronto Tempo (N) - Atlanta Dream (N)",
+      "market": "ah",
+      "market_name": "Hendikep +8.5",
+      "tip": "Hendikep Toronto Tempo (N) (+8.5)",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.17,
+      "fair_pct": 54.0,
+      "start": "2026-07-17T23:30:00+00:00",
+      "start_ts": 1784331000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8504,
+      "clv_pct": 3.17,
+      "close_fair_p": 0.5404129174427451,
+      "close_ts": 1784255239.63166
     }
   ],
   "papered": {
@@ -5555,9 +5584,10 @@
     "dallaswingsn|newyorklibertyn|ah:-1.0:home|20260717": 1784205431.761018,
     "newyorkknicks|goldenstatewarriors|ou:172.5:over|20260716": 1784219006.811009,
     "washingtonmysticsn|portlandfiren|ah:-7.0:away|20260716": 1784242442.347786,
-    "francescajones|nomanohaakugue|ml:home|20260717": 1784243735.980922
+    "francescajones|nomanohaakugue|ml:home|20260717": 1784243735.980922,
+    "torontotempon|atlantadreamn|ah:8.5:home|20260717": 1784255239.63166
   },
   "last_report_date": "2026-07-16",
-  "next_id": 194,
+  "next_id": 195,
   "tg_offset": 363415778
 }
