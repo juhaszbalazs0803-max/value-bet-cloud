@@ -5827,7 +5827,7 @@
       "close_fair_odds": 1.8617,
       "clv_pct": 2.54,
       "close_fair_p": 0.5371297455152273,
-      "close_ts": 1784299930.594458
+      "close_ts": 1784300290.546345
     },
     {
       "id": 204,
@@ -5857,6 +5857,35 @@
       "clv_pct": 5.89,
       "close_fair_p": 0.6177893561592854,
       "close_ts": 1784299570.542001
+    },
+    {
+      "id": 205,
+      "ts": 1784300380.598094,
+      "key": "67:15975815:ah:8.5:away",
+      "content_key": "torontotempon|atlantadreamn|ah:8.5:away|20260717",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:8.5:away",
+      "event": "Toronto Tempo (N) - Atlanta Dream (N)",
+      "market": "ah",
+      "market_name": "Hendikep -8.5",
+      "tip": "Hendikep Atlanta Dream (N) (-8.5)",
+      "odds": 1.909,
+      "stake": 1700,
+      "value_pct": 6.08,
+      "fair_pct": 55.6,
+      "start": "2026-07-17T23:30:00+00:00",
+      "start_ts": 1784331000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8316,
+      "clv_pct": 4.23,
+      "close_fair_p": 0.5459792527883941,
+      "close_ts": 1784300560.543241
     }
   ],
   "papered": {
@@ -6047,17 +6076,18 @@
     "anastasiazakharova|tatianaprozorova|ml:away|20260717": 1784287229.3767,
     "chicagoskyn|losangelessparksn|ou:185.5:under|20260717": 1784292566.622425,
     "torontotempon|atlantadreamn|ah:9.0:away|20260717": 1784299300.595159,
-    "newyorkknicks|dallasmavericks|ml:away|20260718": 1784299480.540863
+    "newyorkknicks|dallasmavericks|ml:away|20260718": 1784299480.540863,
+    "torontotempon|atlantadreamn|ah:8.5:away|20260717": 1784300380.598094
   },
   "last_report_date": "2026-07-17",
-  "next_id": 205,
+  "next_id": 206,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784299930.594458,
+      "ts": 1784300560.543241,
       "ok": true,
-      "vegas_events": 1199,
-      "pinnacle_events": 833,
+      "vegas_events": 1193,
+      "pinnacle_events": 836,
       "sports_err": {},
       "problems": [],
       "settle_err": null
