@@ -5757,11 +5757,14 @@
       "fair_pct": 56.4,
       "start": "2026-07-17T12:00:00+00:00",
       "start_ts": 1784289600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1784299304.362821,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.7724,
       "clv_pct": 4.38,
@@ -5796,6 +5799,35 @@
       "clv_pct": 4.85,
       "close_fair_p": 0.5444028581150051,
       "close_ts": 1784294006.609781
+    },
+    {
+      "id": 203,
+      "ts": 1784299300.595159,
+      "key": "67:15975815:ah:9.0:away",
+      "content_key": "torontotempon|atlantadreamn|ah:9.0:away|20260717",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:9.0:away",
+      "event": "Toronto Tempo (N) - Atlanta Dream (N)",
+      "market": "ah",
+      "market_name": "Hendikep -9",
+      "tip": "Hendikep Atlanta Dream (N) (-9)",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.32,
+      "fair_pct": 54.1,
+      "start": "2026-07-17T23:30:00+00:00",
+      "start_ts": 1784331000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8478,
+      "clv_pct": 3.31,
+      "close_fair_p": 0.541187490243014,
+      "close_ts": 1784299300.595159
     }
   ],
   "papered": {
@@ -5984,17 +6016,18 @@
     "foshannanshifc|nantongzhiyunfc|ml:away|20260717": 1784284349.392635,
     "blackwaterbossing|timpladoshotshots|ah:6.5:home|20260717": 1784286959.404665,
     "anastasiazakharova|tatianaprozorova|ml:away|20260717": 1784287229.3767,
-    "chicagoskyn|losangelessparksn|ou:185.5:under|20260717": 1784292566.622425
+    "chicagoskyn|losangelessparksn|ou:185.5:under|20260717": 1784292566.622425,
+    "torontotempon|atlantadreamn|ah:9.0:away|20260717": 1784299300.595159
   },
   "last_report_date": "2026-07-17",
-  "next_id": 203,
+  "next_id": 204,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784294006.609781,
+      "ts": 1784299300.595159,
       "ok": true,
-      "vegas_events": 1187,
-      "pinnacle_events": 821,
+      "vegas_events": 1194,
+      "pinnacle_events": 833,
       "sports_err": {},
       "problems": [],
       "settle_err": null
