@@ -5958,5 +5958,16 @@
   },
   "last_report_date": "2026-07-17",
   "next_id": 202,
-  "tg_offset": 363415778
+  "tg_offset": 363415778,
+  "health": {
+    "last_scan": {
+      "ts": 1784290856.647567,
+      "ok": true,
+      "vegas_events": 1153,
+      "pinnacle_events": 806,
+      "sports_err": {},
+      "problems": [],
+      "settle_err": null
+    }
+  }
 }
