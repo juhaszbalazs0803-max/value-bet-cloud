@@ -4707,11 +4707,11 @@
       "fair_pct": 54.7,
       "start": "2026-07-14T03:00:00+00:00",
       "start_ts": 1783998000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1784257762.323779,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.8277,
       "clv_pct": 4.45,
@@ -5404,7 +5404,36 @@
       "close_fair_odds": 1.8504,
       "clv_pct": 3.17,
       "close_fair_p": 0.5404129174427451,
-      "close_ts": 1784257129.62193
+      "close_ts": 1784257759.622006
+    },
+    {
+      "id": 195,
+      "ts": 1784257309.668793,
+      "key": "68:17110692:ml:home",
+      "content_key": "vendulavaldmannova|alionafalei|ml:home|20260717",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Vendula Valdmannova - Aliona Falei",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Vendula Valdmannova",
+      "odds": 1.846,
+      "stake": 1300,
+      "value_pct": 4.42,
+      "fair_pct": 56.6,
+      "start": "2026-07-17T13:15:00+00:00",
+      "start_ts": 1784294100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.768,
+      "clv_pct": 4.41,
+      "close_fair_p": 0.5655963184821451,
+      "close_ts": 1784257489.619476
     }
   ],
   "papered": {
@@ -5585,9 +5614,10 @@
     "newyorkknicks|goldenstatewarriors|ou:172.5:over|20260716": 1784219006.811009,
     "washingtonmysticsn|portlandfiren|ah:-7.0:away|20260716": 1784242442.347786,
     "francescajones|nomanohaakugue|ml:home|20260717": 1784243735.980922,
-    "torontotempon|atlantadreamn|ah:8.5:home|20260717": 1784255239.63166
+    "torontotempon|atlantadreamn|ah:8.5:home|20260717": 1784255239.63166,
+    "vendulavaldmannova|alionafalei|ml:home|20260717": 1784257309.668793
   },
   "last_report_date": "2026-07-16",
-  "next_id": 195,
+  "next_id": 196,
   "tg_offset": 363415778
 }
