@@ -12,6 +12,7 @@ A 'főkönyv' a `paper_data.json` (a workflow commitolja vissza a PRIVÁT repób
 így a statisztika a futások közt megmarad. A Telegram token/chat a TELEGRAM_TOKEN/
 TELEGRAM_CHAT_ID környezeti változókból (GitHub secrets) jön.
 """
+import html as html_mod
 import json
 import os
 import time
@@ -307,6 +308,19 @@ def report_text(cfg, ledger):
     lines += [
         f"🟢 Nyitott (papír) tétel: <b>{s['open']}</b>",
         f"⚪ Void (eredmény nem található): <b>{s['void']}</b>",
+    ]
+    h = (ledger.get("health") or {}).get("last_scan")
+    if h:
+        if h.get("ok"):
+            err_note = ""
+            if h.get("sports_err"):
+                err_note = f", {len(h['sports_err'])} sport átmeneti hibával"
+            lines.append(f"🩺 Adatgyűjtés: OK (vegas {h.get('vegas_events', 0)} / "
+                         f"pinnacle {h.get('pinnacle_events', 0)} esemény{err_note})")
+        else:
+            lines.append("🩺 Adatgyűjtés: <b>⚠️ HIBA</b> — " + "; ".join(
+                html_mod.escape(p) for p in (h.get("problems") or ["ismeretlen"])))
+    lines += [
         "",
         f"<i>A szoftver automatikusan 'megrakja' a ≤{max_odds:.2f} oddsú biztos value "
         "tippeket; valódi fogadás nem történik.</i>",

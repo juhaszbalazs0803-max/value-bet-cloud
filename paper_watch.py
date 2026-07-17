@@ -15,11 +15,13 @@ Env:
   COMMIT_EVERY_SEC  – milyen sűrűn mentse/pusholja a ledgert (alap 600 = 10 perc)
   SETTLE_EVERY_SEC  – milyen sűrűn próbáljon eredményt lezárni (alap 600)
 """
+import html
 import os
 import subprocess
 import time
 from datetime import datetime
 
+import notify_cron
 import paper_cron as P
 from valuebet.http import Http
 from valuebet.sportsdb import SportsDBClient
@@ -31,6 +33,74 @@ POLL = int(os.environ.get("POLL_SEC", "90"))
 MAX_RUNTIME = int(os.environ.get("MAX_RUNTIME_SEC", "3180"))
 COMMIT_EVERY = int(os.environ.get("COMMIT_EVERY_SEC", "600"))
 SETTLE_EVERY = int(os.environ.get("SETTLE_EVERY_SEC", "600"))
+# riasztás: ennyi EGYMÁST KÖVETŐ rossz scan-kör után szól Telegramon
+ALERT_AFTER_BAD = int(os.environ.get("ALERT_AFTER_BAD", "3"))
+# két riasztás közt legalább ennyi idő (a cooldown a ledgerben perzisztál,
+# így az óránkénti workflow-újraindulás nem nullázza)
+ALERT_COOLDOWN = int(os.environ.get("ALERT_COOLDOWN_SEC", str(6 * 3600)))
+
+
+# ---------- rendszer-egészség + Telegram hibariasztás ----------
+def scan_problems(scan_exc):
+    """Az utolsó scan-kör problémái (lista, üres = egészséges).
+
+    Csak RENDSZERSZINTŰ bajra riasztunk (minden forrás elhasal / 0 esemény);
+    az egy-egy sportot érintő átmeneti hiba nem riasztás, azt a napi jelentés
+    egészség-sora mutatja."""
+    if scan_exc is not None:
+        return [f"scan kivétel: {scan_exc}"]
+    h = notify_cron.LAST_SCAN_HEALTH
+    if not h:
+        return []
+    probs = []
+    errs = h.get("sports_err") or {}
+    if not h.get("sports_ok"):
+        first = "; ".join(f"[{k}] {v}" for k, v in list(errs.items())[:2]) or "?"
+        probs.append(f"MINDEN sport lekérése elhasalt ({first})")
+    else:
+        if not h.get("vegas_events"):
+            probs.append("a vegas.hu (Altenar) 0 eseményt adott — API-változás?")
+        if not h.get("pinnacle_events"):
+            probs.append("a Pinnacle 0 eseményt adott — API/kulcs-változás?")
+    return probs
+
+
+def update_health(ledger, tg, problems, consec_bad, settle_err=None):
+    """Egészség-állapot a ledgerbe (a napi jelentés innen olvassa) + riasztás.
+
+    Riasztás: ALERT_AFTER_BAD egymást követő rossz kör után, ALERT_COOLDOWN
+    ránctartással; helyreálláskor egyszeri ✅ üzenet."""
+    hstate = ledger.setdefault("health", {})
+    h = notify_cron.LAST_SCAN_HEALTH or {}
+    hstate["last_scan"] = {
+        "ts": h.get("ts") or time.time(), "ok": not problems,
+        "vegas_events": h.get("vegas_events", 0),
+        "pinnacle_events": h.get("pinnacle_events", 0),
+        "sports_err": h.get("sports_err") or {},
+        "problems": problems, "settle_err": settle_err,
+    }
+    if not tg.configured():
+        return
+    now = time.time()
+    try:
+        if problems and consec_bad >= ALERT_AFTER_BAD:
+            if now - float(hstate.get("last_alert_ts") or 0) >= ALERT_COOLDOWN:
+                body = "\n".join("• " + html.escape(p) for p in problems)
+                if settle_err:
+                    body += "\n• " + html.escape(f"eredmény-lezárás hibázik: {settle_err}")
+                tg.send("🔴 <b>Value-bet rendszerhiba</b>\n" + body +
+                        f"\n\n<i>{consec_bad} egymást követő körben. Legfeljebb "
+                        f"{ALERT_COOLDOWN // 3600} óránként egy riasztás; "
+                        "helyreálláskor külön üzenet jön.</i>")
+                hstate["last_alert_ts"] = now
+                hstate["alert_active"] = True
+                print(f"[health] RIASZTÁS kiküldve: {problems}")
+        elif not problems and hstate.get("alert_active"):
+            tg.send("✅ <b>Value-bet:</b> az adatgyűjtés helyreállt, a rendszer megy tovább.")
+            hstate["alert_active"] = False
+            print("[health] helyreállás-üzenet kiküldve")
+    except Exception as e:
+        print(f"[health] riasztás-küldés hiba: {e}")
 
 
 def git_push():
@@ -103,6 +173,8 @@ def main():
     start = time.time()
     last_commit = last_settle = 0.0
     cycles = total_placed = 0
+    consec_bad = settle_bad = 0
+    settle_err = None
     print(f"Folyamatos paper-figyelo indul: poll={POLL}s, futasido<={MAX_RUNTIME}s, "
           f"ledger tetelek={len(ledger['placed'])}")
 
@@ -110,9 +182,11 @@ def main():
         cycle_t = time.time()
         cycles += 1
         handle_commands(cfg, ledger, tg)   # /start, /stat kiszolgálása (felhőből)
+        scan_exc = None
         try:
             total_placed += P.place_new(cfg, ledger)
         except Exception as e:
+            scan_exc = e
             print(f"[scan] hiba: {e}")
         now = time.time()
         if now - last_settle >= SETTLE_EVERY:
@@ -121,9 +195,17 @@ def main():
             sportsdb._cache.clear(); espn._cache.clear(); te._cache.clear()
             try:
                 P.settle(cfg, ledger, sportsdb, te, espn)
+                settle_bad = 0
+                settle_err = None
             except Exception as e:
+                settle_bad += 1
+                if settle_bad >= 2:      # egyszeri botlásra nem riasztunk
+                    settle_err = str(e)[:200]
                 print(f"[settle] hiba: {e}")
             P.maybe_report(cfg, ledger, tg)
+        problems = scan_problems(scan_exc)
+        consec_bad = consec_bad + 1 if problems else 0
+        update_health(ledger, tg, problems, consec_bad, settle_err)
         if now - last_commit >= COMMIT_EVERY:
             last_commit = now
             P.save_ledger(ledger)

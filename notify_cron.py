@@ -192,6 +192,11 @@ def build_email(cfg, items, intro):
     return "\n".join(text), html
 
 
+# Az utolsó scan() egészség-képe (a paper_watch riasztásához): sportonkénti
+# hibák + hány eseményt adott a két forrás. A scan() minden futáskor frissíti.
+LAST_SCAN_HEALTH = {}
+
+
 def scan(cfg):
     http = Http(verify_ssl=cfg.get("http", {}).get("verify_ssl", True), delay_sec=0)
     vegas = VegasClient(http, cfg["vegas"])
@@ -206,6 +211,8 @@ def scan(cfg):
     now = datetime.now(timezone.utc).timestamp()
 
     found = []
+    health = {"ts": now, "sports_ok": 0, "sports_err": {},
+              "vegas_events": 0, "pinnacle_events": 0}
     for sid in live.get("sports", [66, 68, 67, 70]):
         ps = SPORT_MAP.get(sid)
         if not ps:
@@ -214,7 +221,11 @@ def scan(cfg):
             ve, re_ = vegas.fetch_sport(sid), pinn.fetch_sport(ps)
         except Exception as e:
             print(f"  [{sid}] hiba: {e}")
+            health["sports_err"][str(sid)] = str(e)[:200]
             continue
+        health["sports_ok"] += 1
+        health["vegas_events"] += len(ve)
+        health["pinnacle_events"] += len(re_)
         pairs = matching.match_events(ve, re_, mcfg.get("max_start_diff_minutes", 90),
                                       mcfg.get("min_token_score", 0.6))
         for v, r, sw, score in pairs:
@@ -236,6 +247,8 @@ def scan(cfg):
                     if hrs < 0 or hrs > mh:
                         continue
                 found.append((dedup_key(v, b), v, b))
+    LAST_SCAN_HEALTH.clear()
+    LAST_SCAN_HEALTH.update(health)
     return found, now
 
 
