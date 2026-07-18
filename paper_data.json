@@ -6185,7 +6185,7 @@
       "close_fair_odds": 1.8673,
       "clv_pct": 3.14,
       "close_fair_p": 0.5355455213693163,
-      "close_ts": 1784416027.38322
+      "close_ts": 1784416387.22056
     },
     {
       "id": 215,
@@ -6519,7 +6519,36 @@
       "close_fair_odds": 1.6953,
       "clv_pct": 4.35,
       "close_fair_p": 0.5898627133684815,
-      "close_ts": 1784416027.38322
+      "close_ts": 1784416387.22056
+    },
+    {
+      "id": 226,
+      "ts": 1784416477.235677,
+      "key": "67:16345871:ml:away",
+      "content_key": "canterburyrams|aucklandtuatara|ml:away|20260719",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Canterbury Rams - Auckland Tuatara",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Auckland Tuatara",
+      "odds": 1.87,
+      "stake": 1500,
+      "value_pct": 5.35,
+      "fair_pct": 56.3,
+      "start": "2026-07-19T03:00:00+00:00",
+      "start_ts": 1784430000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7747,
+      "clv_pct": 5.37,
+      "close_fair_p": 0.5634692856578636,
+      "close_ts": 1784416657.225154
     }
   ],
   "papered": {
@@ -6731,17 +6760,18 @@
     "orlandomagic|bostonceltics|ou:185.5:over|20260718": 1784403737.307894,
     "atlantadreamn|chicagoskyn|ah:-9.5:home|20260719": 1784406487.764484,
     "milwaukeebucks|philadelphia76ers|ah:-6.5:away|20260718": 1784407747.747245,
-    "canterburyrams|aucklandtuatara|ah:-1.5:away|20260719": 1784415577.226422
+    "canterburyrams|aucklandtuatara|ah:-1.5:away|20260719": 1784415577.226422,
+    "canterburyrams|aucklandtuatara|ml:away|20260719": 1784416477.235677
   },
   "last_report_date": "2026-07-18",
-  "next_id": 226,
+  "next_id": 227,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784416027.38322,
+      "ts": 1784416657.225154,
       "ok": true,
       "vegas_events": 864,
-      "pinnacle_events": 587,
+      "pinnacle_events": 590,
       "sports_err": {},
       "problems": [],
       "settle_err": null
