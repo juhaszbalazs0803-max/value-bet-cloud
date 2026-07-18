@@ -6244,6 +6244,35 @@
       "clv_pct": 4.2,
       "close_fair_p": 0.5954018962799891,
       "close_ts": 1784363900.563014
+    },
+    {
+      "id": 217,
+      "ts": 1784376601.603491,
+      "key": "67:15986673:ou:177.5:over",
+      "content_key": "indianafevern|newyorklibertyn|ou:177.5:over|20260719",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:177.5:over",
+      "event": "Indiana Fever (N) - New York Liberty (N)",
+      "market": "ou",
+      "market_name": "O/U 177.5",
+      "tip": "Több mint 177.5",
+      "odds": 1.926,
+      "stake": 1100,
+      "value_pct": 4.08,
+      "fair_pct": 54.0,
+      "start": "2026-07-19T00:00:00+00:00",
+      "start_ts": 1784419200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8504,
+      "clv_pct": 4.09,
+      "close_fair_p": 0.5404129174427451,
+      "close_ts": 1784377141.564577
     }
   ],
   "papered": {
@@ -6446,17 +6475,18 @@
     "indianafevern|newyorklibertyn|ah:1.0:away|20260719": 1784360750.498315,
     "goldenstatevalkyriesn|washingtonmysticsn|ou:147.5:over|20260719": 1784362100.548912,
     "gillesverbeeks|demolinermgallowayr|ml:home|20260718": 1784363270.49664,
-    "bernardtomic|spencerjohnson|ml:away|20260718": 1784363540.506158
+    "bernardtomic|spencerjohnson|ml:away|20260718": 1784363540.506158,
+    "indianafevern|newyorklibertyn|ou:177.5:over|20260719": 1784376601.603491
   },
   "last_report_date": "2026-07-18",
-  "next_id": 217,
+  "next_id": 218,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784376511.574263,
+      "ts": 1784377141.564577,
       "ok": true,
-      "vegas_events": 1051,
-      "pinnacle_events": 799,
+      "vegas_events": 1058,
+      "pinnacle_events": 811,
       "sports_err": {},
       "problems": [],
       "settle_err": null
