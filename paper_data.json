@@ -6331,6 +6331,35 @@
       "clv_pct": 3.17,
       "close_fair_p": 0.5404129174427451,
       "close_ts": 1784386457.744041
+    },
+    {
+      "id": 220,
+      "ts": 1784388437.735543,
+      "key": "66:15982599:ou:4.5:under",
+      "content_key": "thorakureyri|vikingurreykjavik|ou:4.5:under|20260718",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:4.5:under",
+      "event": "Thor Akureyri - Vikingur Reykjavik",
+      "market": "ou",
+      "market_name": "O/U 4.5",
+      "tip": "Kevesebb mint 4.5",
+      "odds": 1.667,
+      "stake": 2200,
+      "value_pct": 5.88,
+      "fair_pct": 63.5,
+      "start": "2026-07-18T16:00:00+00:00",
+      "start_ts": 1784390400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5741,
+      "clv_pct": 5.9,
+      "close_fair_p": 0.6352929677955335,
+      "close_ts": 1784388707.737665
     }
   ],
   "papered": {
@@ -6536,17 +6565,18 @@
     "bernardtomic|spencerjohnson|ml:away|20260718": 1784363540.506158,
     "indianafevern|newyorklibertyn|ou:177.5:over|20260719": 1784376601.603491,
     "memphisgrizzlies|houstonrockets|ou:187.5:under|20260718": 1784382016.279222,
-    "orlandomagic|bostonceltics|ou:187.5:over|20260718": 1784386187.701129
+    "orlandomagic|bostonceltics|ou:187.5:over|20260718": 1784386187.701129,
+    "thorakureyri|vikingurreykjavik|ou:4.5:under|20260718": 1784388437.735543
   },
   "last_report_date": "2026-07-18",
-  "next_id": 220,
+  "next_id": 221,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784388077.732388,
+      "ts": 1784388707.737665,
       "ok": true,
-      "vegas_events": 937,
-      "pinnacle_events": 672,
+      "vegas_events": 934,
+      "pinnacle_events": 670,
       "sports_err": {},
       "problems": [],
       "settle_err": null
