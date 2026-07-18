@@ -6421,6 +6421,35 @@
       "clv_pct": 3.32,
       "close_fair_p": 0.5412079972676878,
       "close_ts": 1784403827.309121
+    },
+    {
+      "id": 223,
+      "ts": 1784406487.764484,
+      "key": "67:15995357:ah:-9.5:home",
+      "content_key": "atlantadreamn|chicagoskyn|ah:-9.5:home|20260719",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-9.5:home",
+      "event": "Atlanta Dream (N) - Chicago Sky (N)",
+      "market": "ah",
+      "market_name": "Hendikep -9.5",
+      "tip": "Hendikep Atlanta Dream (N) (-9.5)",
+      "odds": 1.885,
+      "stake": 1600,
+      "value_pct": 5.55,
+      "fair_pct": 56.0,
+      "start": "2026-07-19T20:00:00+00:00",
+      "start_ts": 1784491200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7859,
+      "clv_pct": 5.55,
+      "close_fair_p": 0.5599395786129125,
+      "close_ts": 1784406577.75621
     }
   ],
   "papered": {
@@ -6629,17 +6658,18 @@
     "orlandomagic|bostonceltics|ou:187.5:over|20260718": 1784386187.701129,
     "thorakureyri|vikingurreykjavik|ou:4.5:under|20260718": 1784388437.735543,
     "milwaukeebucks|philadelphia76ers|ml:home|20260718": 1784389247.746498,
-    "orlandomagic|bostonceltics|ou:185.5:over|20260718": 1784403737.307894
+    "orlandomagic|bostonceltics|ou:185.5:over|20260718": 1784403737.307894,
+    "atlantadreamn|chicagoskyn|ah:-9.5:home|20260719": 1784406487.764484
   },
   "last_report_date": "2026-07-18",
-  "next_id": 223,
+  "next_id": 224,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784406397.742593,
+      "ts": 1784407027.754598,
       "ok": true,
-      "vegas_events": 897,
-      "pinnacle_events": 583,
+      "vegas_events": 884,
+      "pinnacle_events": 589,
       "sports_err": {},
       "problems": [],
       "settle_err": null
