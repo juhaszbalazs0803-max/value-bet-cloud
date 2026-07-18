@@ -6302,6 +6302,35 @@
       "clv_pct": 3.49,
       "close_fair_p": 0.5301751424351129,
       "close_ts": 1784382826.290305
+    },
+    {
+      "id": 219,
+      "ts": 1784386187.701129,
+      "key": "67:17118073:ou:187.5:over",
+      "content_key": "orlandomagic|bostonceltics|ou:187.5:over|20260718",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:187.5:over",
+      "event": "Orlando Magic - Boston Celtics",
+      "market": "ou",
+      "market_name": "O/U 187.5",
+      "tip": "Több mint 187.5",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.17,
+      "fair_pct": 54.0,
+      "start": "2026-07-18T20:30:00+00:00",
+      "start_ts": 1784406600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8504,
+      "clv_pct": 3.17,
+      "close_fair_p": 0.5404129174427451,
+      "close_ts": 1784386187.701129
     }
   ],
   "papered": {
@@ -6506,17 +6535,18 @@
     "gillesverbeeks|demolinermgallowayr|ml:home|20260718": 1784363270.49664,
     "bernardtomic|spencerjohnson|ml:away|20260718": 1784363540.506158,
     "indianafevern|newyorklibertyn|ou:177.5:over|20260719": 1784376601.603491,
-    "memphisgrizzlies|houstonrockets|ou:187.5:under|20260718": 1784382016.279222
+    "memphisgrizzlies|houstonrockets|ou:187.5:under|20260718": 1784382016.279222,
+    "orlandomagic|bostonceltics|ou:187.5:over|20260718": 1784386187.701129
   },
   "last_report_date": "2026-07-18",
-  "next_id": 219,
+  "next_id": 220,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784383636.306534,
+      "ts": 1784386187.701129,
       "ok": true,
-      "vegas_events": 951,
-      "pinnacle_events": 787,
+      "vegas_events": 955,
+      "pinnacle_events": 702,
       "sports_err": {},
       "problems": [],
       "settle_err": null
