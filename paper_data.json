@@ -5865,11 +5865,14 @@
       "fair_pct": 61.8,
       "start": "2026-07-18T00:30:00+00:00",
       "start_ts": 1784334600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784342624.2013817,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        88,
+        110
+      ],
+      "settle_source": "espn",
       "needs_manual": false,
       "close_fair_odds": 1.6187,
       "clv_pct": 5.89,
@@ -6231,10 +6234,10 @@
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784341990.561103,
+      "ts": 1784342620.606345,
       "ok": true,
-      "vegas_events": 1220,
-      "pinnacle_events": 925,
+      "vegas_events": 1221,
+      "pinnacle_events": 926,
       "sports_err": {},
       "problems": [],
       "settle_err": null
