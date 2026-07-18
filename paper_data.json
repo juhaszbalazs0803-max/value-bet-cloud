@@ -6359,7 +6359,36 @@
       "close_fair_odds": 1.5741,
       "clv_pct": 5.9,
       "close_fair_p": 0.6352929677955335,
-      "close_ts": 1784388707.737665
+      "close_ts": 1784388887.704425
+    },
+    {
+      "id": 221,
+      "ts": 1784389247.746498,
+      "key": "67:17118072:ml:home",
+      "content_key": "milwaukeebucks|philadelphia76ers|ml:home|20260718",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Milwaukee Bucks - Philadelphia 76ers",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Milwaukee Bucks",
+      "odds": 1.667,
+      "stake": 2800,
+      "value_pct": 7.53,
+      "fair_pct": 64.5,
+      "start": "2026-07-18T21:00:00+00:00",
+      "start_ts": 1784408400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.55,
+      "clv_pct": 7.55,
+      "close_fair_p": 0.6451768217819399,
+      "close_ts": 1784389247.746498
     }
   ],
   "papered": {
@@ -6566,17 +6595,18 @@
     "indianafevern|newyorklibertyn|ou:177.5:over|20260719": 1784376601.603491,
     "memphisgrizzlies|houstonrockets|ou:187.5:under|20260718": 1784382016.279222,
     "orlandomagic|bostonceltics|ou:187.5:over|20260718": 1784386187.701129,
-    "thorakureyri|vikingurreykjavik|ou:4.5:under|20260718": 1784388437.735543
+    "thorakureyri|vikingurreykjavik|ou:4.5:under|20260718": 1784388437.735543,
+    "milwaukeebucks|philadelphia76ers|ml:home|20260718": 1784389247.746498
   },
   "last_report_date": "2026-07-18",
-  "next_id": 221,
+  "next_id": 222,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784388707.737665,
+      "ts": 1784389337.743233,
       "ok": true,
-      "vegas_events": 934,
-      "pinnacle_events": 670,
+      "vegas_events": 935,
+      "pinnacle_events": 660,
       "sports_err": {},
       "problems": [],
       "settle_err": null
