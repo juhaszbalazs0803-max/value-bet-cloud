@@ -6179,7 +6179,36 @@
       "close_fair_odds": 1.8673,
       "clv_pct": 3.14,
       "close_fair_p": 0.5355391182162835,
-      "close_ts": 1784362640.498578
+      "close_ts": 1784362730.551169
+    },
+    {
+      "id": 215,
+      "ts": 1784363270.49664,
+      "key": "68:17120922:ml:home",
+      "content_key": "gillesverbeeks|demolinermgallowayr|ml:home|20260718",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Gille S / Verbeek S - Demoliner M / Galloway R",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Gille S / Verbeek S",
+      "odds": 1.846,
+      "stake": 1200,
+      "value_pct": 4.21,
+      "fair_pct": 56.4,
+      "start": "2026-07-18T09:00:00+00:00",
+      "start_ts": 1784365200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7716,
+      "clv_pct": 4.2,
+      "close_fair_p": 0.5644766347913499,
+      "close_ts": 1784363270.49664
     }
   ],
   "papered": {
@@ -6380,17 +6409,18 @@
     "sandrokopp|pierrehuguesherbert|ml:home|20260718": 1784352181.687811,
     "indianafevern|newyorklibertyn|ml:away|20260719": 1784360750.498315,
     "indianafevern|newyorklibertyn|ah:1.0:away|20260719": 1784360750.498315,
-    "goldenstatevalkyriesn|washingtonmysticsn|ou:147.5:over|20260719": 1784362100.548912
+    "goldenstatevalkyriesn|washingtonmysticsn|ou:147.5:over|20260719": 1784362100.548912,
+    "gillesverbeeks|demolinermgallowayr|ml:home|20260718": 1784363270.49664
   },
   "last_report_date": "2026-07-17",
-  "next_id": 215,
+  "next_id": 216,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784362640.498578,
+      "ts": 1784363270.49664,
       "ok": true,
-      "vegas_events": 1198,
-      "pinnacle_events": 954,
+      "vegas_events": 1196,
+      "pinnacle_events": 955,
       "sports_err": {},
       "problems": [],
       "settle_err": null
