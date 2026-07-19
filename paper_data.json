@@ -6828,6 +6828,35 @@
       "clv_pct": 4.88,
       "close_fair_p": 0.5563750226431696,
       "close_ts": 1784468569.583008
+    },
+    {
+      "id": 236,
+      "ts": 1784476525.128652,
+      "key": "67:15993866:ah:-10.0:away",
+      "content_key": "dallaswingsn|losangelessparksn|ah:-10.0:away|20260719",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-10.0:away",
+      "event": "Dallas Wings (N) - Los Angeles Sparks (N)",
+      "market": "ah",
+      "market_name": "Hendikep +10",
+      "tip": "Hendikep Los Angeles Sparks (N) (+10)",
+      "odds": 1.926,
+      "stake": 1100,
+      "value_pct": 4.23,
+      "fair_pct": 54.1,
+      "start": "2026-07-19T17:00:00+00:00",
+      "start_ts": 1784480400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8478,
+      "clv_pct": 4.23,
+      "close_fair_p": 0.541187490243014,
+      "close_ts": 1784476525.128652
     }
   ],
   "papered": {
@@ -7049,17 +7078,18 @@
     "barangayginebrasanmiguel|phoenixfuelmasters|ou:212.5:under|20260719": 1784450184.751931,
     "barangayginebrasanmiguel|phoenixfuelmasters|ml:home|20260719": 1784456731.04699,
     "dallaswingsn|losangelessparksn|ah:-10.0:home|20260719": 1784468029.581683,
-    "dallaswingsn|losangelessparksn|ah:-9.5:home|20260719": 1784468209.640022
+    "dallaswingsn|losangelessparksn|ah:-9.5:home|20260719": 1784468209.640022,
+    "dallaswingsn|losangelessparksn|ah:-10.0:away|20260719": 1784476525.128652
   },
   "last_report_date": "2026-07-19",
-  "next_id": 236,
+  "next_id": 237,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784475940.147873,
+      "ts": 1784476525.128652,
       "ok": true,
-      "vegas_events": 839,
-      "pinnacle_events": 567,
+      "vegas_events": 836,
+      "pinnacle_events": 569,
       "sports_err": {},
       "problems": [],
       "settle_err": null
