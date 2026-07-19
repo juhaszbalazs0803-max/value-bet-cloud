@@ -6798,7 +6798,36 @@
       "close_fair_odds": 1.8617,
       "clv_pct": 3.45,
       "close_fair_p": 0.5371297455152273,
-      "close_ts": 1784468029.581683
+      "close_ts": 1784468659.582402
+    },
+    {
+      "id": 235,
+      "ts": 1784468209.640022,
+      "key": "67:15993866:ah:-9.5:home",
+      "content_key": "dallaswingsn|losangelessparksn|ah:-9.5:home|20260719",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-9.5:home",
+      "event": "Dallas Wings (N) - Los Angeles Sparks (N)",
+      "market": "ah",
+      "market_name": "Hendikep -9.5",
+      "tip": "Hendikep Dallas Wings (N) (-9.5)",
+      "odds": 1.885,
+      "stake": 1400,
+      "value_pct": 4.88,
+      "fair_pct": 55.6,
+      "start": "2026-07-19T17:00:00+00:00",
+      "start_ts": 1784480400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7973,
+      "clv_pct": 4.88,
+      "close_fair_p": 0.5563750226431696,
+      "close_ts": 1784468569.583008
     }
   ],
   "papered": {
@@ -7019,17 +7048,18 @@
     "atlantadreamn|chicagoskyn|ah:-10.5:away|20260719": 1784448744.758777,
     "barangayginebrasanmiguel|phoenixfuelmasters|ou:212.5:under|20260719": 1784450184.751931,
     "barangayginebrasanmiguel|phoenixfuelmasters|ml:home|20260719": 1784456731.04699,
-    "dallaswingsn|losangelessparksn|ah:-10.0:home|20260719": 1784468029.581683
+    "dallaswingsn|losangelessparksn|ah:-10.0:home|20260719": 1784468029.581683,
+    "dallaswingsn|losangelessparksn|ah:-9.5:home|20260719": 1784468209.640022
   },
   "last_report_date": "2026-07-19",
-  "next_id": 235,
+  "next_id": 236,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784468029.581683,
+      "ts": 1784468659.582402,
       "ok": true,
-      "vegas_events": 853,
-      "pinnacle_events": 613,
+      "vegas_events": 850,
+      "pinnacle_events": 607,
       "sports_err": {},
       "problems": [],
       "settle_err": null
