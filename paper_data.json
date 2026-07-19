@@ -6741,6 +6741,35 @@
       "clv_pct": 3.55,
       "close_fair_p": 0.5649261560810266,
       "close_ts": 1784450634.771283
+    },
+    {
+      "id": 233,
+      "ts": 1784456731.04699,
+      "key": "67:17118102:ml:home",
+      "content_key": "barangayginebrasanmiguel|phoenixfuelmasters|ml:home|20260719",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Barangay Ginebra San Miguel - Phoenix Fuel Masters",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Barangay Ginebra San Miguel",
+      "odds": 1.526,
+      "stake": 4300,
+      "value_pct": 9.04,
+      "fair_pct": 71.4,
+      "start": "2026-07-19T11:30:00+00:00",
+      "start_ts": 1784460600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3999,
+      "clv_pct": 9.01,
+      "close_fair_p": 0.7143343084563577,
+      "close_ts": 1784456731.04699
     }
   ],
   "papered": {
@@ -6959,17 +6988,18 @@
     "phoenixmercuryn|connecticutsunn|ah:-4.5:away|20260719": 1784440182.630951,
     "franklinbulls|taranakimountainairs|ah:-4.5:away|20260719": 1784440452.62609,
     "atlantadreamn|chicagoskyn|ah:-10.5:away|20260719": 1784448744.758777,
-    "barangayginebrasanmiguel|phoenixfuelmasters|ou:212.5:under|20260719": 1784450184.751931
+    "barangayginebrasanmiguel|phoenixfuelmasters|ou:212.5:under|20260719": 1784450184.751931,
+    "barangayginebrasanmiguel|phoenixfuelmasters|ml:home|20260719": 1784456731.04699
   },
   "last_report_date": "2026-07-19",
-  "next_id": 233,
+  "next_id": 234,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784451894.779862,
+      "ts": 1784456731.04699,
       "ok": true,
-      "vegas_events": 878,
-      "pinnacle_events": 613,
+      "vegas_events": 866,
+      "pinnacle_events": 630,
       "sports_err": {},
       "problems": [],
       "settle_err": null
