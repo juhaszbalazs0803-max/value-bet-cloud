@@ -6708,10 +6708,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8343,
-      "clv_pct": 4.07,
-      "close_fair_p": 0.5451733808612692,
-      "close_ts": 1784451264.76644
+      "close_fair_odds": 1.8477,
+      "clv_pct": 3.32,
+      "close_fair_p": 0.5412079972676878,
+      "close_ts": 1784451894.779862
     },
     {
       "id": 232,
@@ -6961,15 +6961,15 @@
     "atlantadreamn|chicagoskyn|ah:-10.5:away|20260719": 1784448744.758777,
     "barangayginebrasanmiguel|phoenixfuelmasters|ou:212.5:under|20260719": 1784450184.751931
   },
-  "last_report_date": "2026-07-18",
+  "last_report_date": "2026-07-19",
   "next_id": 233,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784451264.76644,
+      "ts": 1784451894.779862,
       "ok": true,
-      "vegas_events": 892,
-      "pinnacle_events": 625,
+      "vegas_events": 878,
+      "pinnacle_events": 613,
       "sports_err": {},
       "problems": [],
       "settle_err": null
