@@ -7215,6 +7215,35 @@
       "clv_pct": 4.85,
       "close_fair_p": 0.5444028581150051,
       "close_ts": 1784571996.39989
+    },
+    {
+      "id": 248,
+      "ts": 1784577409.298976,
+      "key": "67:16008621:ah:11.5:home",
+      "content_key": "torontotempon|lasvegasacesn|ah:11.5:home|20260721",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:11.5:home",
+      "event": "Toronto Tempo (N) - Las Vegas Aces (N)",
+      "market": "ah",
+      "market_name": "Hendikep +11.5",
+      "tip": "Hendikep Toronto Tempo (N) (+11.5)",
+      "odds": 1.885,
+      "stake": 900,
+      "value_pct": 3.13,
+      "fair_pct": 54.7,
+      "start": "2026-07-21T00:00:00+00:00",
+      "start_ts": 1784592000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8277,
+      "clv_pct": 3.14,
+      "close_fair_p": 0.5471347417471661,
+      "close_ts": 1784577499.295548
     }
   ],
   "papered": {
@@ -7448,17 +7477,18 @@
     "dallaswingsn|newyorklibertyn|ml:away|20260721": 1784570376.397294,
     "goldenstatevalkyriesn|washingtonmysticsn|ou:145.5:over|20260721": 1784570376.397294,
     "dallaswingsn|newyorklibertyn|ah:4.5:away|20260721": 1784570466.44941,
-    "torontotempon|lasvegasacesn|ou:182.5:under|20260721": 1784571816.399533
+    "torontotempon|lasvegasacesn|ou:182.5:under|20260721": 1784571816.399533,
+    "torontotempon|lasvegasacesn|ah:11.5:home|20260721": 1784577409.298976
   },
   "last_report_date": "2026-07-20",
-  "next_id": 248,
+  "next_id": 249,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784576869.301735,
+      "ts": 1784577499.295548,
       "ok": true,
-      "vegas_events": 1023,
-      "pinnacle_events": 633,
+      "vegas_events": 1027,
+      "pinnacle_events": 638,
       "sports_err": {},
       "problems": [],
       "settle_err": null
