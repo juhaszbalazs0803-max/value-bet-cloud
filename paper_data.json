@@ -7243,7 +7243,7 @@
       "close_fair_odds": 1.8277,
       "clv_pct": 3.14,
       "close_fair_p": 0.5471347417471661,
-      "close_ts": 1784583699.250647
+      "close_ts": 1784583879.269295
     },
     {
       "id": 249,
@@ -7273,6 +7273,35 @@
       "clv_pct": 4.92,
       "close_fair_p": 0.5447511776625701,
       "close_ts": 1784580019.282049
+    },
+    {
+      "id": 250,
+      "ts": 1784583969.234729,
+      "key": "67:17123909:ah:-3.5:away",
+      "content_key": "csdeportivosayago|castockolmo|ah:-3.5:away|20260721",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-3.5:away",
+      "event": "CS Deportivo Sayago - CA Stockolmo",
+      "market": "ah",
+      "market_name": "Hendikep +3.5",
+      "tip": "Hendikep CA Stockolmo (+3.5)",
+      "odds": 1.833,
+      "stake": 1000,
+      "value_pct": 3.44,
+      "fair_pct": 56.4,
+      "start": "2026-07-21T00:30:00+00:00",
+      "start_ts": 1784593800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7724,
+      "clv_pct": 3.42,
+      "close_fair_p": 0.5642085187539733,
+      "close_ts": 1784584329.406334
     }
   ],
   "papered": {
@@ -7508,14 +7537,15 @@
     "dallaswingsn|newyorklibertyn|ah:4.5:away|20260721": 1784570466.44941,
     "torontotempon|lasvegasacesn|ou:182.5:under|20260721": 1784571816.399533,
     "torontotempon|lasvegasacesn|ah:11.5:home|20260721": 1784577409.298976,
-    "seattlestormn|minnesotalynxn|ou:173.5:over|20260721": 1784578489.302232
+    "seattlestormn|minnesotalynxn|ou:173.5:over|20260721": 1784578489.302232,
+    "csdeportivosayago|castockolmo|ah:-3.5:away|20260721": 1784583969.234729
   },
   "last_report_date": "2026-07-20",
-  "next_id": 250,
+  "next_id": 251,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784583699.250647,
+      "ts": 1784584329.406334,
       "ok": true,
       "vegas_events": 1061,
       "pinnacle_events": 634,
