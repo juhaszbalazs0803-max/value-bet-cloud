@@ -7156,7 +7156,36 @@
       "close_fair_odds": 1.8306,
       "clv_pct": 5.21,
       "close_fair_p": 0.5462606217343114,
-      "close_ts": 1784570376.397294
+      "close_ts": 1784571006.398281
+    },
+    {
+      "id": 246,
+      "ts": 1784570466.44941,
+      "key": "67:17144681:ah:4.5:away",
+      "content_key": "dallaswingsn|newyorklibertyn|ah:4.5:away|20260721",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:4.5:away",
+      "event": "Dallas Wings (N) - New York Liberty (N)",
+      "market": "ah",
+      "market_name": "Hendikep -4.5",
+      "tip": "Hendikep New York Liberty (N) (-4.5)",
+      "odds": 1.885,
+      "stake": 900,
+      "value_pct": 3.13,
+      "fair_pct": 54.7,
+      "start": "2026-07-21T00:00:00+00:00",
+      "start_ts": 1784592000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8277,
+      "clv_pct": 3.14,
+      "close_fair_p": 0.5471347417471661,
+      "close_ts": 1784570556.397681
     }
   ],
   "papered": {
@@ -7388,17 +7417,18 @@
     "phoenixmercuryn|connecticutsunn|ah:-3.5:home|20260719": 1784501728.840066,
     "seattlestormn|minnesotalynxn|ah:10.5:home|20260721": 1784562800.939485,
     "dallaswingsn|newyorklibertyn|ml:away|20260721": 1784570376.397294,
-    "goldenstatevalkyriesn|washingtonmysticsn|ou:145.5:over|20260721": 1784570376.397294
+    "goldenstatevalkyriesn|washingtonmysticsn|ou:145.5:over|20260721": 1784570376.397294,
+    "dallaswingsn|newyorklibertyn|ah:4.5:away|20260721": 1784570466.44941
   },
   "last_report_date": "2026-07-20",
-  "next_id": 246,
+  "next_id": 247,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784570376.397294,
+      "ts": 1784571006.398281,
       "ok": true,
-      "vegas_events": 1017,
-      "pinnacle_events": 636,
+      "vegas_events": 1015,
+      "pinnacle_events": 634,
       "sports_err": {},
       "problems": [],
       "settle_err": null
