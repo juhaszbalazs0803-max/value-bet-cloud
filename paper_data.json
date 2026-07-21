@@ -7468,6 +7468,35 @@
       "clv_pct": 3.72,
       "close_fair_p": 0.68237972064149,
       "close_ts": 1784641284.759019
+    },
+    {
+      "id": 256,
+      "ts": 1784641734.775203,
+      "key": "68:17129596:ml:away",
+      "content_key": "ariasbzeballosf|azkaraardaerelyanki|ml:away|20260722",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Arias B / Zeballos F - Azkara, Arda/Erel, Yanki",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Azkara, Arda/Erel, Yanki",
+      "odds": 1.96,
+      "stake": 3300,
+      "value_pct": 12.66,
+      "fair_pct": 57.5,
+      "start": "2026-07-22T09:00:00+00:00",
+      "start_ts": 1784710800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8671,
+      "clv_pct": 4.98,
+      "close_fair_p": 0.535577158728862,
+      "close_ts": 1784642004.786655
     }
   ],
   "papered": {
@@ -7709,16 +7738,17 @@
     "barnettamurraysharans|bartunkovanikolasalkovadominika|ml:away|20260721": 1784639484.77866,
     "gonzalezsreyesvarelama|ferreirasilvafpereirat|ml:home|20260721": 1784640024.773671,
     "martosgornesswalkows|jecanapavelb|ml:home|20260721": 1784640024.773671,
-    "frantzenchaaser|nouzapoberleitnern|ml:away|20260721": 1784641104.774737
+    "frantzenchaaser|nouzapoberleitnern|ml:away|20260721": 1784641104.774737,
+    "ariasbzeballosf|azkaraardaerelyanki|ml:away|20260722": 1784641734.775203
   },
   "last_report_date": "2026-07-21",
-  "next_id": 256,
+  "next_id": 257,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784641374.779103,
+      "ts": 1784642004.786655,
       "ok": true,
-      "vegas_events": 1129,
+      "vegas_events": 1146,
       "pinnacle_events": 199,
       "sports_err": {},
       "problems": [],
