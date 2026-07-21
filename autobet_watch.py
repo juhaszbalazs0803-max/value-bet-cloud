@@ -156,31 +156,46 @@ def _notify(tg, dry, entry):
         print(f"[autobet] értesítés hiba: {e}")
 
 
-def smoke_test(ab, tg):
-    """Gyors, tippektől független belépés-teszt: eldönti, hogy erről az IP-ről
-    (felhő) egyáltalán be tud-e lépni a vegas.hu-ra. Képernyőkép + Telegram."""
-    print("[smoke] belépés-teszt indul...")
+def _notify(tg, text):
+    if tg is not None and tg.configured():
+        try:
+            tg.send(text)
+        except Exception as e:
+            print(f"[autobet] Telegram hiba: {e}")
+
+
+def establish_session(ab, tg, ledger):
+    """A futás elején EGYETLEN belépés. Siker esetén a böngésző-munkamenet a
+    profilban megmarad, így a tippeknél már nem kell újra belépni.
+
+    Ha a belépés SIKERTELEN, azonnal beállítjuk a perzisztens `login_blocked`
+    jelzőt és leállunk – így SOHA nem gyűlhet össze a 3 sikertelen próba, ami
+    zárolná a fiókot. A jelző csak kézzel (a user OK-ja után) törölhető."""
+    if ledger.get("login_blocked"):
+        print("[autobet] login_blocked -> nem próbálok belépni (kézi feloldás kell).")
+        return False
+    print("[autobet] belépés-teszt (egyszer)...")
     try:
         ok, detail = ab.login_smoke()
     except Exception as e:
         ok, detail = False, {"login_err": f"kivétel: {e}"}
-    print(f"[smoke] eredmény: sikeres={ok} | {detail}")
-    if tg is not None and tg.configured():
-        if ok:
-            msg = ("✅ <b>Felhős belépés-teszt: SIKERES</b>\n"
-                   "A felhő (GitHub Actions) be tud lépni a vegas.hu-ra. "
-                   "Ha akarod, élesíthetjük (AUTOBET_LIVE=1).")
-        else:
-            why = detail.get("login_err") or (
-                "geo-blokk/captcha gyanú" if detail.get("blocked") else "ismeretlen ok")
-            msg = ("⚠️ <b>Felhős belépés-teszt: SIKERTELEN</b>\n"
-                   f"Ok: {why}\nValószínűleg az amerikai IP miatt – EU-s "
-                   "megoldásra (Oracle Frankfurt) kell váltani.")
-        try:
-            tg.send(msg)
-        except Exception as e:
-            print(f"[smoke] Telegram hiba: {e}")
-    return ok
+    print(f"[autobet] belépés eredmény: sikeres={ok} | {detail}")
+    if ok:
+        ledger["login_fail_streak"] = 0
+        ledger["login_blocked"] = False
+        _notify(tg, "✅ <b>Felhős belépés: SIKERES</b>\nA felhő be tud lépni a "
+                    "vegas.hu-ra. A munkamenet megvan; a tippeknél már nem lép be újra.")
+        return True
+    # SIKERTELEN -> azonnal blokkolunk (nem kockáztatjuk a 3. próbát)
+    ledger["login_blocked"] = True
+    ledger["login_fail_streak"] = ledger.get("login_fail_streak", 0) + 1
+    why = detail.get("login_err") or (
+        "ZÁROLVA/geo-blokk gyanú" if detail.get("blocked") else "ismeretlen ok")
+    _notify(tg, "⛔ <b>Felhős belépés SIKERTELEN – leálltam</b>\n"
+                f"Ok: {why}\nLetiltottam a további belépési próbákat, hogy a fiók "
+                "NE záródjon (max 1 sikertelen próba). Nézd meg a fiókot; ha rendben, "
+                "szólj és feloldom a botot.")
+    return False
 
 
 def main():
@@ -194,11 +209,22 @@ def main():
         print("[autobet] NINCS VEGAS_USER/VEGAS_PASS secret – kilépés.")
         return
 
+    # EGYETLEN belépés a futás elején; siker nélkül SEMMILYEN tippet nem
+    # próbálunk (különben meccsenként újra-belépés → 3 sikertelen → zárolás).
+    login_ok = establish_session(ab, tg, ledger)
+    if not login_ok:
+        save_ledger(ledger)
+        git_push()
+        print("[autobet] belépés nélkül nincs megrakás – kilépés.")
+        return
+    # innentől TILOS az újra-belépés (a munkamenet a profilban él); ha elveszne,
+    # a bot inkább kihagyja a tippet, mintsem újabb sikertelen próbát adjon
+    ab._allow_login = False
+
     smoke = os.environ.get("AUTOBET_SMOKE", "").strip().lower() in ("1", "true", "yes", "on")
     if smoke:
-        # gyors teszt-üzem: belépés-teszt + EGY megrakó kör (dry) + kilépés,
+        # gyors teszt-üzem: belépés OK után EGY megrakó kör (dry) + kilépés,
         # hogy a képernyőképek pár percen belül feltöltődjenek (ne 53 perc múlva)
-        login_ok = smoke_test(ab, tg)
         try:
             n = place_new(cfg, ledger, ab, tg)
             print(f"[smoke] egy megrakó kör kész: {n} tipp feldolgozva.")
@@ -206,7 +232,7 @@ def main():
             print(f"[smoke] megrakó kör hiba: {e}")
         save_ledger(ledger)
         git_push()
-        print(f"[smoke] kész (belépés sikeres={login_ok}).")
+        print("[smoke] kész (belépés sikeres).")
         return
 
     mode = "ÉLES (valódi pénz!)" if not ab.dry_run else "PRÓBA (dry-run)"

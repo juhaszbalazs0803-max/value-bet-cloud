@@ -79,6 +79,10 @@ class AutoBetter:
         self.on_failed = on_failed
         self.max_odds = float(ab["max_odds"])
         self.dry_run = bool(ab["dry_run"])
+        # zárolás-védelem: ha False, a bot SOHA nem ír be jelszót (a munkamenetnek
+        # már élnie kell). A megrakó fázisban False-ra állítjuk, hogy futásonként
+        # legfeljebb EGY belépés (a login_smoke) történhessen.
+        self._allow_login = True
         self._q = queue.Queue()
         self._stop = threading.Event()
         self._thread = None
@@ -254,6 +258,12 @@ class AutoBetter:
         if btn is None:
             return  # nincs Belépés gomb -> már be vagyunk lépve
 
+        # zárolás-védelem: a megrakó fázisban NEM lépünk be újra (ha a munkamenet
+        # elveszett, inkább leállunk, mint hogy egy újabb sikertelen próbát adjunk)
+        if not self._allow_login:
+            raise RuntimeError("a munkamenet elveszett és a belépés le van tiltva "
+                               "(zárolás-védelem) – ez a tipp kimarad")
+
         user, pwd = str(ab.get("username", "")), str(ab.get("password", ""))
         if not user or not pwd:
             raise RuntimeError("nincs belépve, és nincs autobet.username/password "
@@ -281,8 +291,7 @@ class AutoBetter:
         page.wait_for_timeout(600)
 
         # A modális ablak SUBMIT gombja – NEM a fejléc 'Belépés' gombja. A modált
-        # a jelszó-mezőt tartalmazó legszűkebb konténerrel azonosítjuk, és azon
-        # BELÜL keressük a Belépés/Bejelentkezés feliratú gombot.
+        # a jelszó-mezőt tartalmazó legszűkebb konténerrel azonosítjuk.
         submit_re = re.compile(r"belépés|bejelentkez|login", re.I)
         modal = None
         for depth in (2, 3, 4, 5):
@@ -293,52 +302,54 @@ class AutoBetter:
                     break
             except Exception:
                 continue
-
-        def _do_submit():
-            # 1) modálon belüli gomb, 2) bármely submit input, 3) Enter a jelszón
-            targets = []
-            if modal is not None:
-                targets += [modal.get_by_role("button", name=submit_re),
-                            modal.locator("button[type='submit']"),
-                            modal.get_by_text(submit_re)]
-            targets.append(page.get_by_role("button", name=submit_re).last)
-            for t in targets:
+        # EGYETLEN belépési kísérlet (a fiók 3 sikertelen próba után zárol!):
+        # modálon belüli gomb -> submit input -> Enter a jelszón.
+        clicked = False
+        if modal is not None:
+            for t in (modal.get_by_role("button", name=submit_re),
+                      modal.locator("button[type='submit']"),
+                      modal.get_by_text(submit_re)):
                 try:
-                    if t.count() == 0:
-                        continue
-                    el = t.last
-                    el.scroll_into_view_if_needed(timeout=2000)
-                    el.click(timeout=3000)
-                    return True
+                    if t.count():
+                        t.last.scroll_into_view_if_needed(timeout=2000)
+                        t.last.click(timeout=3000)
+                        clicked = True
+                        break
                 except Exception:
                     continue
+        if not clicked:
             try:
                 pfield.press("Enter")
-                return True
             except Exception:
-                return False
+                pass
 
-        def _logged_in():
-            try:
-                return not page.get_by_role("button", name=login_re).first.is_visible()
-            except Exception:
-                return True  # a gomb eltűnt
-
+        # várunk a modál eltűnésére / eredményre (max ~10 mp)
         ok = False
-        for attempt in (1, 2):
-            _do_submit()
-            for _ in range(8):          # legfeljebb ~8 mp várakozás a modál eltűnésére
-                page.wait_for_timeout(1000)
-                if _logged_in():
-                    ok = True
-                    break
-            if ok:
+        for _ in range(10):
+            page.wait_for_timeout(1000)
+            body = ""
+            try:
+                body = page.locator("body").inner_text(timeout=1500)
+            except Exception:
+                pass
+            low = body.lower()
+            if "zárolva" in low or "zarolva" in low:
+                self._shot(page, "00_login_zarolva")
+                raise RuntimeError("A FIÓK ZÁROLVA – NE próbálj újra belépni; "
+                                   "előbb a vegas.hu ügyfélszolgálat oldja fel.")
+            # POZITÍV siker-jel: belépett-állapot mutatói (a puszta 'Belépés'
+            # gomb eltűnése nem elég, mert a láblécben mindig ott a szó)
+            pos = ("befizetés" in low or "kifizetés" in low or "kilépés" in low
+                   or "kijelentkez" in low or user.lower() in low)
+            login_modal_open = "jelentkezz be a folytatáshoz" in low
+            if pos and not login_modal_open:
+                ok = True
                 break
         self._shot(page, "00_login_utan")
         if not ok:
-            raise RuntimeError("a belépés nem sikerült (a modál nyitva maradt / a "
-                               "'Belépés' gomb továbbra is látszik) – jelszó vagy "
-                               "extra megerősítés (captcha/2FA)?")
+            raise RuntimeError("a belépés nem erősíthető meg (a fejléc nem mutat "
+                               "belépett állapotot) – LEÁLLOK, hogy ne gyűljön több "
+                               "sikertelen próba.")
 
     def login_smoke(self):
         """Tippektől FÜGGETLEN belépés-teszt: megnyitja a sport-oldalt, belép,
@@ -370,19 +381,22 @@ class AutoBetter:
                 except Exception:
                     pass
                 low = body.lower()
-                logged_in = ("belépés" not in low) and (
-                    "kilépés" in low or "kijelentkez" in low or "egyenleg" in low
-                    or "befizetés" in low or "fogadásaim" in low)
-                blocked = any(w in low for w in (
+                user = str(ab.get("username", "")).lower()
+                # POZITÍV siker-jel (a lábléc miatt a 'belépés' szó mindig ott van)
+                logged_in = ("kilépés" in low or "kijelentkez" in low
+                             or "befizetés" in low or "kifizetés" in low
+                             or "fogadásaim" in low or (user and user in low))
+                locked = "zárolva" in low or "zarolva" in low
+                blocked = locked or any(w in low for w in (
                     "captcha", "verify", "robot", "hozzáférés megtagad",
                     "not available in your", "nem érhető el", "unusual traffic",
                     "cloudflare", "just a moment"))
                 detail = {
-                    "logged_in": logged_in, "blocked": blocked,
+                    "logged_in": logged_in, "blocked": blocked, "locked": locked,
                     "login_err": login_err,
                     "sample": body[:300].replace("\n", " "),
                 }
-                return logged_in and not login_err, detail
+                return (logged_in and not login_err and not locked), detail
             finally:
                 ctx.close()
 
