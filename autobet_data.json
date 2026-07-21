@@ -1,0 +1,33 @@
+{
+  "realbetted": {
+    "adrianoetzbach|pieterdelange|ml:home|20260722": 1784659329.403476,
+    "justinschlageter|patrickzahraj|ml:away|20260722": 1784659329.403476,
+    "annasiskova|anetakucmova|ml:home|20260722": 1784659329.403476
+  },
+  "log": [
+    {
+      "ts": "2026-07-21T18:43:30",
+      "event": "Adrian Oetzbach - Pieter de Lange",
+      "tip": "1 — Adrian Oetzbach",
+      "odds": 1.818,
+      "stake": 200,
+      "status": "HIBA: keresési találat: Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_text(re.compile(r\"Adrian\\ Oetzbach\", re.IGNORECASE)).first\n    - locator resolved to <div class=\"CompetitorNameBase-sc-e8629365-0 CompetitorName-sc-cc6a346d-7 dvZwdu hARVRU\">Adrian Oetzbach</div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not stable\n    - retrying click action\n      - waiting 100ms\n    9 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n"
+    },
+    {
+      "ts": "2026-07-21T18:44:40",
+      "event": "Justin Schlageter - Patrick Zahraj",
+      "tip": "2 — Patrick Zahraj",
+      "odds": 1.538,
+      "stake": 140,
+      "status": "HIBA: keresési találat: Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_text(re.compile(r\"Justin\\ Schlageter\", re.IGNORECASE)).first\n    - locator resolved to <div class=\"CompetitorNameBase-sc-e8629365-0 CompetitorName-sc-cc6a346d-7 dvZwdu hARVRU\">Justin Schlageter</div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not stable\n    - retrying click action\n      - waiting 100ms\n    9 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n"
+    },
+    {
+      "ts": "2026-07-21T18:45:50",
+      "event": "Anna Siskova - Aneta Kucmova",
+      "tip": "1 — Anna Siskova",
+      "odds": 1.32,
+      "stake": 280,
+      "status": "HIBA: keresési találat: Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_text(re.compile(r\"Anna\\ Siskova\", re.IGNORECASE)).first\n    - locator resolved to <div class=\"CompetitorNameBase-sc-e8629365-0 CompetitorName-sc-cc6a346d-7 dvZwdu hARVRU\">Anna Siskova</div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not stable\n    - retrying click action\n      - waiting 100ms\n    9 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n"
+    }
+  ]
+}
