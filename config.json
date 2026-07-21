@@ -14,8 +14,8 @@
     "_sport_ids_comment": "66=Foci, 68=Tenisz, 67=Kosárlabda, 70=Jégkorong, 145=E-sport, 78=Darts, 77=Asztalitenisz, 69=Röplabda"
   },
   "reference": {
-    "provider": "pinnacle",
-    "_provider_comment": "'pinnacle' = Pinnacle (éles iroda) a publikus guest API-ból, kulcs NEM kell. 'oddsapi' = The Odds API (kell kulcs).",
+    "provider": "smarkets",
+    "_provider_comment": "'smarkets' = Smarkets tőzsde PUBLIKUS, kulcs nélküli API (a Pinnacle guest API 503-at ad; a felhő is eléri a Smarketst). 'pinnacle'/'oddsapi' egyéb opciók.",
     "devig_method": "proportional",
     "_devig_method_comment": "'proportional' (egyszerű) vagy 'shin' (pontosabb favorit-longshot torzításra).",
     "oddsapi_key": "IDE_JON_A_THE_ODDS_API_KULCSOD",
@@ -25,6 +25,10 @@
       "basketball_nba",
       "icehockey_nhl"
     ]
+  },
+  "smarkets": {
+    "_comment": "Kulcs NEM kell (publikus tőzsde-API). cache_ttl_sec: sportonkénti gyorsítótár mp-ben.",
+    "cache_ttl_sec": 60
   },
   "live": {
     "_comment": "Az élő webes felülethez (--web). Ezek a felületen is állíthatók és mentődnek.",
@@ -52,7 +56,7 @@
       "max_odds": 5.0,
       "max_value_pct": 22.0,
       "min_age_sec": 25,
-      "min_limit": 500,
+      "min_limit": 0,
       "max_hours_to_start": 24,
       "_comment": "Biztos = párosítás >= min_score, odds <= max_odds, value <= max_value_pct, ÉLŐ, min_age_sec óta stabil, Pinnacle tétlimit >= min_limit (0=off), és a kezdésig hátralévő idő <= max_hours_to_start óra (0=off; minél közelebb a meccs, annál élesebb a Pinnacle). A min_limit/min_age/max_hours a felületen is állítható."
     },

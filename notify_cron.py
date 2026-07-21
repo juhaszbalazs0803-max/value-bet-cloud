@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 
 from valuebet.http import Http
 from valuebet.vegas import VegasClient, SPORT_NAMES
-from valuebet.pinnacle import PinnacleClient, SPORT_MAP
+from valuebet.reference import make_reference
 from valuebet.notify import EmailNotifier
 from valuebet.telegram import TelegramNotifier, format_tip, BUTTONS
 from valuebet import matching, compute, bettoken
@@ -200,7 +200,7 @@ LAST_SCAN_HEALTH = {}
 def scan(cfg):
     http = Http(verify_ssl=cfg.get("http", {}).get("verify_ssl", True), delay_sec=0)
     vegas = VegasClient(http, cfg["vegas"])
-    pinn = PinnacleClient(http)
+    ref = make_reference(http, cfg)  # fair-odds forrás a config szerint (smarkets|pinnacle|...)
 
     live = cfg.get("live", {})
     solid = live.get("solid", {})
@@ -214,11 +214,11 @@ def scan(cfg):
     health = {"ts": now, "sports_ok": 0, "sports_err": {},
               "vegas_events": 0, "pinnacle_events": 0}
     for sid in live.get("sports", [66, 68, 67, 70]):
-        ps = SPORT_MAP.get(sid)
-        if not ps:
-            continue
         try:
-            ve, re_ = vegas.fetch_sport(sid), pinn.fetch_sport(ps)
+            re_ = ref.fetch_for_vegas(sid)
+            if re_ is None:  # a forrás nem támogatja ezt a sportot
+                continue
+            ve = vegas.fetch_sport(sid)
         except Exception as e:
             print(f"  [{sid}] hiba: {e}")
             health["sports_err"][str(sid)] = str(e)[:200]
