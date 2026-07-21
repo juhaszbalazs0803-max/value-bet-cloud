@@ -300,6 +300,52 @@ class AutoBetter:
         except Exception:
             pass  # a gomb eltűnt -> rendben
 
+    def login_smoke(self):
+        """Tippektől FÜGGETLEN belépés-teszt: megnyitja a sport-oldalt, belép,
+        képernyőképet ment, és visszaadja (sikerult, reszletek). Ezzel a felhőben
+        eldönthető, hogy az adott (pl. amerikai) IP-ről egyáltalán működik-e a
+        belépés – anélkül, hogy valódi tétet vagy akár value bet meglétét várnánk."""
+        from playwright.sync_api import sync_playwright
+        ab = self.cfg
+        with sync_playwright() as pw:
+            ctx = pw.chromium.launch_persistent_context(
+                ab["profile_dir"], headless=bool(ab.get("headless", True)),
+                viewport={"width": 1400, "height": 900}, locale="hu-HU")
+            try:
+                page = ctx.pages[0] if ctx.pages else ctx.new_page()
+                page.goto(ab["sport_url"], wait_until="domcontentloaded", timeout=90000)
+                page.wait_for_timeout(6000)
+                self._dismiss_cookies(page)
+                self._shot(page, "10_smoke_betoltve")
+                try:
+                    self._ensure_logged_in(page)
+                    login_err = None
+                except Exception as e:
+                    login_err = str(e)
+                page.wait_for_timeout(2000)
+                self._shot(page, "11_smoke_login_utan")
+                body = ""
+                try:
+                    body = page.locator("body").inner_text(timeout=4000)
+                except Exception:
+                    pass
+                low = body.lower()
+                logged_in = ("belépés" not in low) and (
+                    "kilépés" in low or "kijelentkez" in low or "egyenleg" in low
+                    or "befizetés" in low or "fogadásaim" in low)
+                blocked = any(w in low for w in (
+                    "captcha", "verify", "robot", "hozzáférés megtagad",
+                    "not available in your", "nem érhető el", "unusual traffic",
+                    "cloudflare", "just a moment"))
+                detail = {
+                    "logged_in": logged_in, "blocked": blocked,
+                    "login_err": login_err,
+                    "sample": body[:300].replace("\n", " "),
+                }
+                return logged_in and not login_err, detail
+            finally:
+                ctx.close()
+
     def _open_event(self, page, job):
         """Sport-oldal -> belépés-ellenőrzés -> keresés -> meccs megnyitása."""
         page.goto(self.cfg["sport_url"], wait_until="domcontentloaded", timeout=90000)

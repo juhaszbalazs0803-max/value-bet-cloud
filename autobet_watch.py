@@ -156,6 +156,33 @@ def _notify(tg, dry, entry):
         print(f"[autobet] értesítés hiba: {e}")
 
 
+def smoke_test(ab, tg):
+    """Gyors, tippektől független belépés-teszt: eldönti, hogy erről az IP-ről
+    (felhő) egyáltalán be tud-e lépni a vegas.hu-ra. Képernyőkép + Telegram."""
+    print("[smoke] belépés-teszt indul...")
+    try:
+        ok, detail = ab.login_smoke()
+    except Exception as e:
+        ok, detail = False, {"login_err": f"kivétel: {e}"}
+    print(f"[smoke] eredmény: sikeres={ok} | {detail}")
+    if tg is not None and tg.configured():
+        if ok:
+            msg = ("✅ <b>Felhős belépés-teszt: SIKERES</b>\n"
+                   "A felhő (GitHub Actions) be tud lépni a vegas.hu-ra. "
+                   "Ha akarod, élesíthetjük (AUTOBET_LIVE=1).")
+        else:
+            why = detail.get("login_err") or (
+                "geo-blokk/captcha gyanú" if detail.get("blocked") else "ismeretlen ok")
+            msg = ("⚠️ <b>Felhős belépés-teszt: SIKERTELEN</b>\n"
+                   f"Ok: {why}\nValószínűleg az amerikai IP miatt – EU-s "
+                   "megoldásra (Oracle Frankfurt) kell váltani.")
+        try:
+            tg.send(msg)
+        except Exception as e:
+            print(f"[smoke] Telegram hiba: {e}")
+    return ok
+
+
 def main():
     cfg = P.load_cfg()
     cfg = inject_login(cfg)
@@ -166,6 +193,22 @@ def main():
     if not cfg["autobet"].get("username") or not cfg["autobet"].get("password"):
         print("[autobet] NINCS VEGAS_USER/VEGAS_PASS secret – kilépés.")
         return
+
+    smoke = os.environ.get("AUTOBET_SMOKE", "").strip().lower() in ("1", "true", "yes", "on")
+    if smoke:
+        # gyors teszt-üzem: belépés-teszt + EGY megrakó kör (dry) + kilépés,
+        # hogy a képernyőképek pár percen belül feltöltődjenek (ne 53 perc múlva)
+        login_ok = smoke_test(ab, tg)
+        try:
+            n = place_new(cfg, ledger, ab, tg)
+            print(f"[smoke] egy megrakó kör kész: {n} tipp feldolgozva.")
+        except Exception as e:
+            print(f"[smoke] megrakó kör hiba: {e}")
+        save_ledger(ledger)
+        git_push()
+        print(f"[smoke] kész (belépés sikeres={login_ok}).")
+        return
+
     mode = "ÉLES (valódi pénz!)" if not ab.dry_run else "PRÓBA (dry-run)"
     print(f"Felhős autobet indul: mód={mode}, max_odds={ab.max_odds}, "
           f"poll={POLL}s, futasido<={MAX_RUNTIME}s")

@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: "5 * * * *"     # óránként; a loop ~53 percig tölti ki
   workflow_dispatch:        # kézi indítás (a próbához ezt használjuk)
+    inputs:
+      smoke:
+        description: "Gyors belépés-teszt (belép + 1 kör + kilép, ~perc)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -39,6 +44,7 @@ jobs:
           VEGAS_USER: ${{ secrets.VEGAS_USER }}
           VEGAS_PASS: ${{ secrets.VEGAS_PASS }}
           AUTOBET_LIVE: ${{ secrets.AUTOBET_LIVE }}
+          AUTOBET_SMOKE: ${{ github.event.inputs.smoke }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python autobet_watch.py
