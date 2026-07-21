@@ -38,5 +38,7 @@
       "stake": 190,
       "status": "HIBA: keresési találat: Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_text(re.compile(r\"Diletta\\ Cherubini\", re.IGNORECASE)).first\n    - locator resolved to <div class=\"CompetitorNameBase-sc-e8629365-0 CompetitorName-sc-cc6a346d-7 dvZwdu hARVRU\">Diletta Cherubini</div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not stable\n    - retrying click action\n      - waiting 100ms\n    9 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n"
     }
-  ]
+  ],
+  "login_blocked": true,
+  "login_fail_streak": 1
 }
