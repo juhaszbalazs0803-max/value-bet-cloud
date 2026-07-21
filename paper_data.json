@@ -7403,11 +7403,14 @@
       "fair_pct": 74.3,
       "start": "2026-07-21T15:00:00+00:00",
       "start_ts": 1784646000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784654150.8487399,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.3461,
       "clv_pct": 8.09,
@@ -7621,7 +7624,7 @@
       "close_fair_odds": 1.704,
       "clv_pct": 6.69,
       "close_fair_p": 0.5868421052631578,
-      "close_ts": 1784651649.308235
+      "close_ts": 1784654139.790208
     },
     {
       "id": 261,
@@ -7650,7 +7653,7 @@
       "close_fair_odds": 1.4929,
       "clv_pct": 5.23,
       "close_fair_p": 0.6698564593301435,
-      "close_ts": 1784651649.308235
+      "close_ts": 1784654139.790208
     },
     {
       "id": 262,
@@ -7679,7 +7682,36 @@
       "close_fair_odds": 1.3324,
       "clv_pct": 21.21,
       "close_fair_p": 0.7505114429382636,
-      "close_ts": 1784651649.308235
+      "close_ts": 1784654139.790208
+    },
+    {
+      "id": 263,
+      "ts": 1784654139.790208,
+      "key": "68:17157241:ml:home",
+      "content_key": "annasiskova|anetakucmova|ml:home|20260722",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Anna Siskova - Aneta Kucmova",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Anna Siskova",
+      "odds": 1.333,
+      "stake": 3500,
+      "value_pct": 4.63,
+      "fair_pct": 78.5,
+      "start": "2026-07-22T11:30:00+00:00",
+      "start_ts": 1784719800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.2744,
+      "clv_pct": 4.6,
+      "close_fair_p": 0.7846715328467153,
+      "close_ts": 1784654139.790208
     }
   ],
   "papered": {
@@ -7928,17 +7960,18 @@
     "jakupovicdradisicn|cavallereimersysaldenl|ml:home|20260722": 1784648589.459571,
     "adrianoetzbach|pieterdelange|ml:home|20260722": 1784649939.271375,
     "justinschlageter|patrickzahraj|ml:away|20260722": 1784650029.247518,
-    "yizhou|lukapavlovic|ml:home|20260722": 1784650569.316985
+    "yizhou|lukapavlovic|ml:home|20260722": 1784650569.316985,
+    "annasiskova|anetakucmova|ml:home|20260722": 1784654139.790208
   },
   "last_report_date": "2026-07-21",
-  "next_id": 263,
+  "next_id": 264,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784651649.308235,
+      "ts": 1784654139.790208,
       "ok": true,
-      "vegas_events": 1167,
-      "pinnacle_events": 497,
+      "vegas_events": 1170,
+      "pinnacle_events": 547,
       "sports_err": {},
       "problems": [],
       "settle_err": null
