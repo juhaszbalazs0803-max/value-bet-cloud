@@ -7591,15 +7591,15 @@
     "csdeportivosayago|castockolmo|ah:-3.5:away|20260721": 1784583969.234729,
     "meralcobolts|blackwaterbossing|ou:209.5:over|20260721": 1784622439.476865
   },
-  "last_report_date": "2026-07-20",
+  "last_report_date": "2026-07-21",
   "next_id": 252,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784624149.414744,
+      "ts": 1784624779.404558,
       "ok": true,
-      "vegas_events": 1155,
-      "pinnacle_events": 907,
+      "vegas_events": 1142,
+      "pinnacle_events": 913,
       "sports_err": {},
       "problems": [],
       "settle_err": null
