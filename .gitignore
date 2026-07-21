@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 pw_profile/
 autobet_logs/
+session.json
+pw_profile/
+autobet_logs/

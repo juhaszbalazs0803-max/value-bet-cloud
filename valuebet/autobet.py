@@ -23,6 +23,7 @@ Egyszeri beállítás:
 Kalibrálás (éles rakás nélkül, képernyőképekkel):
     python -m valuebet.autobet --test
 """
+import base64
 import json
 import os
 import queue
@@ -54,7 +55,12 @@ DEFAULTS = {
     "confirm_texts": ["Fogadás megtétele", "Fogadás elküldése", "Fogadok",
                       "Megerősítés", "Place bet"],
     "success_texts": ["sikeres", "elfogadva", "azonosító", "szelvényszám"],
-    "cookie_texts": ["Nem, köszönöm", "Elfogad", "Összes elfogadása", "Rendben", "Accept"],
+    "cookie_texts": ["Nem, köszönöm", "Elfogad", "Összes elfogadása", "Rendben", "Accept",
+                     "Folytatom", "Tovább", "Bezárás", "Értem", "Megértettem"],
+    "_cookie_texts_note": ("felugrók bezáró gombjai: süti-sáv, push-értesítés ÉS a "
+                           "felelős-játék 'már ennyi ideje játszol' emlékeztető "
+                           "('Folytatom'/'Tovább'). SOHA ne tegyél ide 'Kilépés'/"
+                           "'Kijelentkezés' szót, mert az kiléptetne!"),
 }
 
 
@@ -81,8 +87,10 @@ class AutoBetter:
         self.dry_run = bool(ab["dry_run"])
         # zárolás-védelem: ha False, a bot SOHA nem ír be jelszót (a munkamenetnek
         # már élnie kell). A megrakó fázisban False-ra állítjuk, hogy futásonként
-        # legfeljebb EGY belépés (a login_smoke) történhessen.
-        self._allow_login = True
+        # legfeljebb EGY belépés (a login_smoke) történhessen. Ha van MENTETT
+        # session (storage_state), eleve tiltjuk a jelszó-gépelést: a felhő csak a
+        # kész munkamenetet használja, így SEMMILYEN sikertelen belépés nem lehet.
+        self._allow_login = self._storage_state() is None
         self._q = queue.Queue()
         self._stop = threading.Event()
         self._thread = None
@@ -189,15 +197,51 @@ class AutoBetter:
         except Exception:
             pass
 
+    # ---------- session (jelszó nélküli belépés) ----------
+    def _storage_state(self):
+        """A mentett bejelentkezett munkamenet (Playwright storage_state), vagy None.
+        Forrás: VEGAS_SESSION env (base64 vagy nyers JSON), különben a session_file.
+        Ha van, a felhő EZT használja és SOHA nem gépel jelszót."""
+        raw = os.environ.get("VEGAS_SESSION", "").strip()
+        if raw:
+            try:
+                return json.loads(base64.b64decode(raw))
+            except Exception:
+                try:
+                    return json.loads(raw)
+                except Exception:
+                    return None
+        path = self.cfg.get("session_file") or "session.json"
+        if os.path.exists(path):
+            try:
+                with open(path, encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                return None
+        return None
+
+    def _launch(self, pw):
+        """(browser, context): ha van mentett session -> friss kontextus a
+        session-nel (jelszó nélkül), különben perzisztens profil."""
+        ab = self.cfg
+        state = self._storage_state()
+        if state is not None:
+            browser = pw.chromium.launch(headless=bool(ab.get("headless", True)))
+            ctx = browser.new_context(storage_state=state,
+                                      viewport={"width": 1400, "height": 900},
+                                      locale="hu-HU")
+            return browser, ctx
+        ctx = pw.chromium.launch_persistent_context(
+            ab["profile_dir"], headless=bool(ab.get("headless", True)),
+            viewport={"width": 1400, "height": 900}, locale="hu-HU")
+        return None, ctx
+
     # ---------- Playwright ----------
     def _process(self, job, force_dry=False):
         """Egy fogadás megrakása. Visszatérés: 'dry' | 'placed' | 'unverified'."""
         from playwright.sync_api import sync_playwright
-        ab = self.cfg
         with sync_playwright() as pw:
-            ctx = pw.chromium.launch_persistent_context(
-                ab["profile_dir"], headless=bool(ab["headless"]),
-                viewport={"width": 1400, "height": 900}, locale="hu-HU")
+            browser, ctx = self._launch(pw)
             try:
                 page = ctx.pages[0] if ctx.pages else ctx.new_page()
                 self._open_event(page, job)
@@ -206,7 +250,15 @@ class AutoBetter:
                 return self._fill_and_confirm(fr, page, job,
                                               dry=force_dry or self.dry_run)
             finally:
-                ctx.close()
+                try:
+                    ctx.close()
+                except Exception:
+                    pass
+                if browser is not None:
+                    try:
+                        browser.close()
+                    except Exception:
+                        pass
 
     def _widget(self, page):
         """Az Altenar sportsbook sokszor iframe-ben él – megkeressük a keretét."""
@@ -359,9 +411,7 @@ class AutoBetter:
         from playwright.sync_api import sync_playwright
         ab = self.cfg
         with sync_playwright() as pw:
-            ctx = pw.chromium.launch_persistent_context(
-                ab["profile_dir"], headless=bool(ab.get("headless", True)),
-                viewport={"width": 1400, "height": 900}, locale="hu-HU")
+            browser, ctx = self._launch(pw)
             try:
                 page = ctx.pages[0] if ctx.pages else ctx.new_page()
                 page.goto(ab["sport_url"], wait_until="domcontentloaded", timeout=90000)
@@ -398,7 +448,15 @@ class AutoBetter:
                 }
                 return (logged_in and not login_err and not locked), detail
             finally:
-                ctx.close()
+                try:
+                    ctx.close()
+                except Exception:
+                    pass
+                if browser is not None:
+                    try:
+                        browser.close()
+                    except Exception:
+                        pass
 
     def _open_event(self, page, job):
         """Sport-oldal -> belépés-ellenőrzés -> keresés -> meccs megnyitása."""
