@@ -184,7 +184,7 @@ def main():
         handle_commands(cfg, ledger, tg)   # /start, /stat kiszolgálása (felhőből)
         scan_exc = None
         try:
-            total_placed += P.place_new(cfg, ledger)
+            total_placed += P.place_new(cfg, ledger, tg)
         except Exception as e:
             scan_exc = e
             print(f"[scan] hiba: {e}")

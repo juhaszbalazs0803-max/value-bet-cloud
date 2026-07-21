@@ -89,10 +89,57 @@ def stake_capped(cfg, fair_p, odds):
 
 
 # ---------- megrakás ----------
-def place_new(cfg, ledger):
+def _esc(s):
+    return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def _esc(s):
+    return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def tip_message(cfg, rec):
+    """Egy megrakott (≤max_odds) tipp Telegram-üzenete (HTML)."""
+    v = rec.get("value_pct")
+    vs = f"+{v}" if isinstance(v, (int, float)) and v >= 0 else f"{v}"
+    start = (rec.get("start") or "")[:16].replace("T", " ")
+    return (
+        "🎯 <b>Új value tipp</b> (papírra megrakva)\n"
+        f"🏟️ {_esc(rec.get('sport',''))}: <b>{_esc(rec.get('event',''))}</b>\n"
+        f"💡 {_esc(rec.get('tip',''))}  ({_esc(rec.get('market_name',''))})\n"
+        f"📊 Odds <b>{rec.get('odds')}</b>  |  value <b>{vs}%</b>  |  fair {rec.get('fair_pct')}%\n"
+        f"💰 Tét: <b>{rec.get('stake')} Ft</b>\n"
+        f"🕒 Kezdés: {start} UTC")
+
+
+def _notify_placed(cfg, tg, new_recs):
+    """Telegram-értesítés az ÚJ megrakott (≤max_odds) tippekről. A papered-kulcs
+    dedupol -> tippenként pontosan 1x, a régiek nem mennek ki újra. Sapka: sok új
+    tippnél egy összevont üzenet (sose legyen áradat)."""
+    if tg is None or not cfg.get("paper", {}).get("notify_tips", True):
+        return
+    if not new_recs or not tg.configured():
+        return
+    cap = int(cfg.get("paper", {}).get("notify_max_per_cycle", 8))
+    try:
+        if len(new_recs) > cap:
+            lines = [f"🎯 <b>{len(new_recs)} új value tipp</b> (papírra megrakva):"]
+            for r in new_recs[:cap]:
+                lines.append(f"• {_esc(r['sport'])}: {_esc(r['event'])} — {_esc(r['tip'])} "
+                             f"@ {r['odds']} (+{r['value_pct']}%)")
+            lines.append(f"… és még {len(new_recs) - cap}. (Részletek: /start)")
+            tg.send("\n".join(lines))
+        else:
+            for r in new_recs:
+                tg.send(tip_message(cfg, r))
+    except Exception as e:
+        print(f"[paper] tipp-ertesites hiba: {e}")
+
+
+def place_new(cfg, ledger, tg=None):
     found, now = notify_cron.scan(cfg)
     max_odds = float(cfg.get("paper", {}).get("max_odds", 2.0))
     placed = 0
+    new_recs = []
     for ck, v, b in found:
         if b["odds"] > max_odds:
             continue
@@ -116,7 +163,10 @@ def place_new(cfg, ledger):
         }
         ledger["next_id"] += 1
         ledger["placed"].append(rec)
+        new_recs.append(rec)
         placed += 1
+    # ÉRTESÍTÉS csak az új, ≤max_odds (papírra megrakott) tippekről
+    _notify_placed(cfg, tg, new_recs)
     # CLV: a friss scan-eredményekből a nyitott tételek záró-oddsát frissítjük
     capture_clv(ledger, found, now)
     # régi tartalom-kulcsok takarítása

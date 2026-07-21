@@ -135,10 +135,14 @@
     "_auto_void_comment": "Amit ennyi nap után sehol nem talált meg az eredmény-forrás (pl. obskúrus alsóbb osztályú meccs), automatikusan 'semmis'-re (void) tesz -> SOHA nem marad kézi lezárás. A void nem számít se nyertnek, se vesztettnek."
   },
   "paper": {
-    "_comment": "AUTO PAPÍR-FOGADÁS: a szoftver nem küld per-tipp értesítést, hanem automatikusan 'megrakja' a biztos value tippeket (papíron) és statisztikát vezet. Valódi fogadás NEM történik.",
+    "_comment": "AUTO PAPÍR-FOGADÁS: automatikusan 'megrakja' a biztos value tippeket (papíron) és statisztikát vezet. Valódi fogadás NEM történik. notify_tips=true esetén minden ÚJ megrakott tippről Telegram-értesítést is küld (a napi jelentésen felül).",
     "enabled": true,
     "max_odds": 2.0,
-    "_max_odds_comment": "Csak az ennél kisebb/egyenlő oddsú tippeket rakja meg automatikusan. 2.0-n tartva: az eddigi pozitív statisztika (yield +10.5%, 60% találat, +11% CLV) MIND ≤2.0 oddsból jött, ez a bevált sáv."
+    "_max_odds_comment": "Csak az ennél kisebb/egyenlő oddsú tippeket rakja meg automatikusan. 2.0-n tartva: az eddigi pozitív statisztika (yield +10.5%, 60% találat, +11% CLV) MIND ≤2.0 oddsból jött, ez a bevált sáv.",
+    "notify_tips": true,
+    "_notify_tips_comment": "Telegram-értesítés minden ÚJ megrakott tippnél (dedup: tippenként 1x). false = csak a napi jelentés.",
+    "notify_max_per_cycle": 8,
+    "_notify_max_comment": "Ha egy körben ennél több új tipp van, egy összevont üzenet megy (nincs áradat)."
   },
   "report": {
     "_comment": "Napi EGY Telegram-jelentés a statisztikáról (portfólió-növekedés %, yield, találati arány). A LOKÁLIS appból megy (a statisztika itt él), ezért a gépnek futnia kell aznap.",
