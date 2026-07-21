@@ -278,27 +278,67 @@ class AutoBetter:
             raise RuntimeError("nem találom a belépési űrlap felhasználó-mezőjét")
         ufield.fill(user)
         pfield.fill(pwd)
-        submitted = False
-        for t in ("Belépés", "Bejelentkezés", "Login"):
+        page.wait_for_timeout(600)
+
+        # A modális ablak SUBMIT gombja – NEM a fejléc 'Belépés' gombja. A modált
+        # a jelszó-mezőt tartalmazó legszűkebb konténerrel azonosítjuk, és azon
+        # BELÜL keressük a Belépés/Bejelentkezés feliratú gombot.
+        submit_re = re.compile(r"belépés|bejelentkez|login", re.I)
+        modal = None
+        for depth in (2, 3, 4, 5):
             try:
-                page.get_by_role("button", name=re.compile(t, re.I)).last.click(timeout=2500)
-                submitted = True
-                break
+                cand = pfield.locator("xpath=ancestor::*[" + str(depth) + "]")
+                if cand.get_by_text(submit_re).count():
+                    modal = cand
+                    break
             except Exception:
                 continue
-        if not submitted:
-            pfield.press("Enter")
-        page.wait_for_timeout(7000)
+
+        def _do_submit():
+            # 1) modálon belüli gomb, 2) bármely submit input, 3) Enter a jelszón
+            targets = []
+            if modal is not None:
+                targets += [modal.get_by_role("button", name=submit_re),
+                            modal.locator("button[type='submit']"),
+                            modal.get_by_text(submit_re)]
+            targets.append(page.get_by_role("button", name=submit_re).last)
+            for t in targets:
+                try:
+                    if t.count() == 0:
+                        continue
+                    el = t.last
+                    el.scroll_into_view_if_needed(timeout=2000)
+                    el.click(timeout=3000)
+                    return True
+                except Exception:
+                    continue
+            try:
+                pfield.press("Enter")
+                return True
+            except Exception:
+                return False
+
+        def _logged_in():
+            try:
+                return not page.get_by_role("button", name=login_re).first.is_visible()
+            except Exception:
+                return True  # a gomb eltűnt
+
+        ok = False
+        for attempt in (1, 2):
+            _do_submit()
+            for _ in range(8):          # legfeljebb ~8 mp várakozás a modál eltűnésére
+                page.wait_for_timeout(1000)
+                if _logged_in():
+                    ok = True
+                    break
+            if ok:
+                break
         self._shot(page, "00_login_utan")
-        try:
-            still = page.get_by_role("button", name=login_re).first
-            if still.is_visible():
-                raise RuntimeError("a belépés nem sikerült (a 'Belépés' gomb "
-                                   "továbbra is látszik) – ellenőrizd a jelszót")
-        except RuntimeError:
-            raise
-        except Exception:
-            pass  # a gomb eltűnt -> rendben
+        if not ok:
+            raise RuntimeError("a belépés nem sikerült (a modál nyitva maradt / a "
+                               "'Belépés' gomb továbbra is látszik) – jelszó vagy "
+                               "extra megerősítés (captcha/2FA)?")
 
     def login_smoke(self):
         """Tippektől FÜGGETLEN belépés-teszt: megnyitja a sport-oldalt, belép,
