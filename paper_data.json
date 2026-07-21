@@ -7531,7 +7531,7 @@
       "close_fair_odds": 1.8785,
       "clv_pct": 3.81,
       "close_fair_p": 0.5323484462557311,
-      "close_ts": 1784650389.303986
+      "close_ts": 1784650659.246766
     },
     {
       "id": 258,
@@ -7618,7 +7618,7 @@
       "close_fair_odds": 1.704,
       "clv_pct": 6.69,
       "close_fair_p": 0.5868421052631578,
-      "close_ts": 1784650389.303986
+      "close_ts": 1784651019.298506
     },
     {
       "id": 261,
@@ -7647,7 +7647,36 @@
       "close_fair_odds": 1.4929,
       "clv_pct": 5.23,
       "close_fair_p": 0.6698564593301435,
-      "close_ts": 1784650389.303986
+      "close_ts": 1784651019.298506
+    },
+    {
+      "id": 262,
+      "ts": 1784650569.316985,
+      "key": "68:17154902:ml:home",
+      "content_key": "yizhou|lukapavlovic|ml:home|20260722",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Yi Zhou - Luka Pavlovic",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Yi Zhou",
+      "odds": 1.615,
+      "stake": 5000,
+      "value_pct": 21.24,
+      "fair_pct": 75.1,
+      "start": "2026-07-22T08:05:00+00:00",
+      "start_ts": 1784707500.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3324,
+      "clv_pct": 21.21,
+      "close_fair_p": 0.7505114429382636,
+      "close_ts": 1784651019.298506
     }
   ],
   "papered": {
@@ -7895,17 +7924,18 @@
     "whai|otagonuggets|ml:home|20260722": 1784643104.287148,
     "jakupovicdradisicn|cavallereimersysaldenl|ml:home|20260722": 1784648589.459571,
     "adrianoetzbach|pieterdelange|ml:home|20260722": 1784649939.271375,
-    "justinschlageter|patrickzahraj|ml:away|20260722": 1784650029.247518
+    "justinschlageter|patrickzahraj|ml:away|20260722": 1784650029.247518,
+    "yizhou|lukapavlovic|ml:home|20260722": 1784650569.316985
   },
   "last_report_date": "2026-07-21",
-  "next_id": 262,
+  "next_id": 263,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784650389.303986,
+      "ts": 1784651019.298506,
       "ok": true,
-      "vegas_events": 1158,
-      "pinnacle_events": 492,
+      "vegas_events": 1164,
+      "pinnacle_events": 500,
       "sports_err": {},
       "problems": [],
       "settle_err": null
