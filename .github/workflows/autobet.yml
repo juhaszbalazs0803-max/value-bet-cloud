@@ -1,0 +1,62 @@
+name: autobet-live
+
+# VALÓDI automata fogadás-megrakó a vegas.hu-ra (Playwright, headless).
+# ELŐSZÖR PRÓBA (dry-run): amíg az AUTOBET_LIVE secret nincs '1'-re állítva,
+# a bot csak belép + eljut a szelvényig, de NEM erősít meg (képernyőképek az
+# artifactban). Csak a képernyőképek ellenőrzése után élesíts.
+
+on:
+  schedule:
+    - cron: "5 * * * *"     # óránként; a loop ~53 percig tölti ki
+  workflow_dispatch:        # kézi indítás (a próbához ezt használjuk)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autobet
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Függőségek
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Git azonosító
+        run: |
+          git config user.name "autobet-bot"
+          git config user.email "autobet-bot@users.noreply.github.com"
+      - name: Automata megrakó (loop)
+        env:
+          VEGAS_USER: ${{ secrets.VEGAS_USER }}
+          VEGAS_PASS: ${{ secrets.VEGAS_PASS }}
+          AUTOBET_LIVE: ${{ secrets.AUTOBET_LIVE }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python autobet_watch.py
+      - name: Képernyőképek feltöltése (mindig)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: autobet-screenshots
+          path: autobet_logs/
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Crash-riasztás Telegramra
+        if: failure()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            --data-urlencode chat_id="${TELEGRAM_CHAT_ID}" \
+            --data-urlencode text="🔴 Autobet: a felhős futás HIBÁVAL állt le. Log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            > /dev/null || true

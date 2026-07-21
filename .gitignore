@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+pw_profile/
+autobet_logs/

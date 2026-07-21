@@ -149,5 +149,25 @@
     "enabled": true,
     "hour": 9,
     "_hour_comment": "Ekkor (vagy utána) küldi az aznapi jelentést (helyi idő, 0-23)."
+  },
+  "autobet": {
+    "_comment": "VALODI automata fogadas (Playwright, felho). A belepesi adatok NEM itt vannak (publikus repo!), hanem a VEGAS_USER/VEGAS_PASS GitHub secretekben; az autobet_watch.py env-bol tolti. Eles rakas csak ha az AUTOBET_LIVE secret = 1 (kulonben dry-run, akkor is ha dry_run=false).",
+    "enabled": true,
+    "dry_run": true,
+    "bankroll": 5000,
+    "stake_multiplier": 2.0,
+    "min_stake": 100,
+    "stake_round": 10,
+    "max_stake_pct": 10,
+    "max_odds": 2.0,
+    "max_daily_stake": 1500,
+    "odds_tolerance_pct": 3.0,
+    "headless": true,
+    "site_url": "https://www.vegas.hu/",
+    "sport_url": "https://www.vegas.hu/sports",
+    "profile_dir": "pw_profile",
+    "log_dir": "autobet_logs",
+    "username": "",
+    "password": ""
   }
 }
