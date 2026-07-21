@@ -7624,7 +7624,7 @@
       "close_fair_odds": 1.704,
       "clv_pct": 6.69,
       "close_fair_p": 0.5868421052631578,
-      "close_ts": 1784656029.801515
+      "close_ts": 1784656659.766663
     },
     {
       "id": 261,
@@ -7653,7 +7653,7 @@
       "close_fair_odds": 1.4929,
       "clv_pct": 5.23,
       "close_fair_p": 0.6698564593301435,
-      "close_ts": 1784656029.801515
+      "close_ts": 1784656659.766663
     },
     {
       "id": 262,
@@ -7770,6 +7770,35 @@
       "clv_pct": 7.41,
       "close_fair_p": 0.5686257023098189,
       "close_ts": 1784655849.801819
+    },
+    {
+      "id": 266,
+      "ts": 1784656389.79132,
+      "key": "66:17137974:ml:home",
+      "content_key": "albacete|alkholood|ml:home|20260721",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Albacete - Al-Kholood",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Albacete",
+      "odds": 1.846,
+      "stake": 2000,
+      "value_pct": 6.78,
+      "fair_pct": 57.8,
+      "start": "2026-07-21T18:00:00+00:00",
+      "start_ts": 1784656800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7289,
+      "clv_pct": 6.77,
+      "close_fair_p": 0.5783980390606468,
+      "close_ts": 1784656659.766663
     }
   ],
   "papered": {
@@ -8021,17 +8050,18 @@
     "yizhou|lukapavlovic|ml:home|20260722": 1784650569.316985,
     "annasiskova|anetakucmova|ml:home|20260722": 1784654139.790208,
     "florentbax|paulinchauspe|ml:away|20260722": 1784654859.799531,
-    "akirasantillan|mertalkaya|ml:away|20260722": 1784655489.801484
+    "akirasantillan|mertalkaya|ml:away|20260722": 1784655489.801484,
+    "albacete|alkholood|ml:home|20260721": 1784656389.79132
   },
   "last_report_date": "2026-07-21",
-  "next_id": 266,
+  "next_id": 267,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784656029.801515,
+      "ts": 1784656659.766663,
       "ok": true,
-      "vegas_events": 1217,
-      "pinnacle_events": 545,
+      "vegas_events": 1222,
+      "pinnacle_events": 540,
       "sports_err": {},
       "problems": [],
       "settle_err": null
