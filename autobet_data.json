@@ -2,7 +2,8 @@
   "realbetted": {
     "adrianoetzbach|pieterdelange|ml:home|20260722": 1784659329.403476,
     "justinschlageter|patrickzahraj|ml:away|20260722": 1784659329.403476,
-    "annasiskova|anetakucmova|ml:home|20260722": 1784659329.403476
+    "annasiskova|anetakucmova|ml:home|20260722": 1784659329.403476,
+    "dilettacherubini|violaturini|ml:home|20260722": 1784659955.936754
   },
   "log": [
     {
@@ -28,6 +29,14 @@
       "odds": 1.32,
       "stake": 280,
       "status": "HIBA: keresési találat: Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_text(re.compile(r\"Anna\\ Siskova\", re.IGNORECASE)).first\n    - locator resolved to <div class=\"CompetitorNameBase-sc-e8629365-0 CompetitorName-sc-cc6a346d-7 dvZwdu hARVRU\">Anna Siskova</div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not stable\n    - retrying click action\n      - waiting 100ms\n    9 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n"
+    },
+    {
+      "ts": "2026-07-21T18:53:52",
+      "event": "Diletta Cherubini - Viola Turini",
+      "tip": "1 — Diletta Cherubini",
+      "odds": 1.714,
+      "stake": 190,
+      "status": "HIBA: keresési találat: Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_text(re.compile(r\"Diletta\\ Cherubini\", re.IGNORECASE)).first\n    - locator resolved to <div class=\"CompetitorNameBase-sc-e8629365-0 CompetitorName-sc-cc6a346d-7 dvZwdu hARVRU\">Diletta Cherubini</div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not stable\n    - retrying click action\n      - waiting 100ms\n    9 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div aria-hidden=\"true\" class=\"c162 modal-background\"></div> from <div data-mui-portal=\"true\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n"
     }
   ]
 }
