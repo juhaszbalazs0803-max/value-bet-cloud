@@ -7624,7 +7624,7 @@
       "close_fair_odds": 1.704,
       "clv_pct": 6.69,
       "close_fair_p": 0.5868421052631578,
-      "close_ts": 1784654769.800008
+      "close_ts": 1784655399.791122
     },
     {
       "id": 261,
@@ -7653,7 +7653,7 @@
       "close_fair_odds": 1.4929,
       "clv_pct": 5.23,
       "close_fair_p": 0.6698564593301435,
-      "close_ts": 1784654769.800008
+      "close_ts": 1784655399.791122
     },
     {
       "id": 262,
@@ -7682,7 +7682,7 @@
       "close_fair_odds": 1.3324,
       "clv_pct": 21.21,
       "close_fair_p": 0.7505114429382636,
-      "close_ts": 1784654769.800008
+      "close_ts": 1784655399.791122
     },
     {
       "id": 263,
@@ -7711,7 +7711,36 @@
       "close_fair_odds": 1.2744,
       "clv_pct": 4.6,
       "close_fair_p": 0.7846715328467153,
-      "close_ts": 1784654769.800008
+      "close_ts": 1784655399.791122
+    },
+    {
+      "id": 264,
+      "ts": 1784654859.799531,
+      "key": "68:17155329:ml:away",
+      "content_key": "florentbax|paulinchauspe|ml:away|20260722",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Florent Bax - Paul Inchauspe",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Paul Inchauspe",
+      "odds": 1.636,
+      "stake": 1200,
+      "value_pct": 3.13,
+      "fair_pct": 63.0,
+      "start": "2026-07-22T15:00:00+00:00",
+      "start_ts": 1784732400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5868,
+      "clv_pct": 3.1,
+      "close_fair_p": 0.6302179630738783,
+      "close_ts": 1784655039.80338
     }
   ],
   "papered": {
@@ -7961,17 +7990,18 @@
     "adrianoetzbach|pieterdelange|ml:home|20260722": 1784649939.271375,
     "justinschlageter|patrickzahraj|ml:away|20260722": 1784650029.247518,
     "yizhou|lukapavlovic|ml:home|20260722": 1784650569.316985,
-    "annasiskova|anetakucmova|ml:home|20260722": 1784654139.790208
+    "annasiskova|anetakucmova|ml:home|20260722": 1784654139.790208,
+    "florentbax|paulinchauspe|ml:away|20260722": 1784654859.799531
   },
   "last_report_date": "2026-07-21",
-  "next_id": 264,
+  "next_id": 265,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784654769.800008,
+      "ts": 1784655399.791122,
       "ok": true,
-      "vegas_events": 1209,
-      "pinnacle_events": 557,
+      "vegas_events": 1211,
+      "pinnacle_events": 551,
       "sports_err": {},
       "problems": [],
       "settle_err": null
