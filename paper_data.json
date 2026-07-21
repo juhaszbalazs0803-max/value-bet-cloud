@@ -7352,6 +7352,35 @@
       "clv_pct": 4.19,
       "close_fair_p": 0.5683950882084831,
       "close_ts": 1784622709.418974
+    },
+    {
+      "id": 252,
+      "ts": 1784639484.77866,
+      "key": "68:17133833:ml:away",
+      "content_key": "barnettamurraysharans|bartunkovanikolasalkovadominika|ml:away|20260721",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Barnett A / Murray Sharan S - Bartunkova, Nikola/Salkova, Dominika",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Bartunkova, Nikola/Salkova, Dominika",
+      "odds": 1.538,
+      "stake": 1900,
+      "value_pct": 4.02,
+      "fair_pct": 67.6,
+      "start": "2026-07-21T13:20:00+00:00",
+      "start_ts": 1784640000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.479,
+      "clv_pct": 3.99,
+      "close_fair_p": 0.6761374795417349,
+      "close_ts": 1784639484.77866
     }
   ],
   "papered": {
@@ -7589,29 +7618,23 @@
     "torontotempon|lasvegasacesn|ah:11.5:home|20260721": 1784577409.298976,
     "seattlestormn|minnesotalynxn|ou:173.5:over|20260721": 1784578489.302232,
     "csdeportivosayago|castockolmo|ah:-3.5:away|20260721": 1784583969.234729,
-    "meralcobolts|blackwaterbossing|ou:209.5:over|20260721": 1784622439.476865
+    "meralcobolts|blackwaterbossing|ou:209.5:over|20260721": 1784622439.476865,
+    "barnettamurraysharans|bartunkovanikolasalkovadominika|ml:away|20260721": 1784639484.77866
   },
   "last_report_date": "2026-07-21",
-  "next_id": 252,
+  "next_id": 253,
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784635103.682773,
-      "ok": false,
-      "vegas_events": 0,
-      "pinnacle_events": 0,
-      "sports_err": {
-        "66": "503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
-      "problems": [
-        "MINDEN sport lekérése elhasalt ([66] 503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] 503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
-      ],
+      "ts": 1784639484.77866,
+      "ok": true,
+      "vegas_events": 1124,
+      "pinnacle_events": 199,
+      "sports_err": {},
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1784632136.0787249,
-    "alert_active": true
+    "alert_active": false
   }
 }
