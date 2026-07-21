@@ -7596,12 +7596,19 @@
   "tg_offset": 363415778,
   "health": {
     "last_scan": {
-      "ts": 1784625409.413884,
-      "ok": true,
-      "vegas_events": 1139,
-      "pinnacle_events": 914,
-      "sports_err": {},
-      "problems": [],
+      "ts": 1784631953.823341,
+      "ok": false,
+      "vegas_events": 0,
+      "pinnacle_events": 0,
+      "sports_err": {
+        "66": "503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
+        "68": "503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
+        "67": "503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
+        "70": "503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+      },
+      "problems": [
+        "MINDEN sport lekérése elhasalt ([66] 503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] 503 Server Error: Service Unavailable for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     }
   }
