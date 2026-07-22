@@ -8022,7 +8022,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1784729253.295978
+      "close_ts": 1784729883.313225
     },
     {
       "id": 274,
@@ -8161,11 +8161,14 @@
       "fair_pct": 65.1,
       "start": "2026-07-22T12:10:00+00:00",
       "start_ts": 1784722200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784729897.329298,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.5366,
       "clv_pct": 3.02,
@@ -8196,10 +8199,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3976,
-      "clv_pct": 4.11,
-      "close_fair_p": 0.7155025203168398,
-      "close_ts": 1784729253.295978
+      "close_fair_odds": 1.3719,
+      "clv_pct": 6.06,
+      "close_fair_p": 0.7289320085111367,
+      "close_ts": 1784729883.313225
     },
     {
       "id": 280,
@@ -8228,7 +8231,36 @@
       "close_fair_odds": 1.6148,
       "clv_pct": 8.99,
       "close_fair_p": 0.6192865489037047,
-      "close_ts": 1784729253.295978
+      "close_ts": 1784729613.305976
+    },
+    {
+      "id": 281,
+      "ts": 1784729613.305976,
+      "key": "68:17131945:ml:home",
+      "content_key": "zaarlisazimmermannkimberley|brockmanntessajohannakraussinja|ml:home|20260722",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Zaar, Lisa/Zimmermann, Kimberley - Brockmann, Tessa Johanna/Kraus, Sinja",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Zaar, Lisa/Zimmermann, Kimberley",
+      "odds": 1.75,
+      "stake": 1400,
+      "value_pct": 4.09,
+      "fair_pct": 59.5,
+      "start": "2026-07-22T14:20:00+00:00",
+      "start_ts": 1784730000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6812,
+      "clv_pct": 4.09,
+      "close_fair_p": 0.594801152202193,
+      "close_ts": 1784729613.305976
     }
   ],
   "papered": {
@@ -8495,17 +8527,18 @@
     "kirkovvstevensb|demolinermgallowayr|ml:home|20260722": 1784720049.774675,
     "tomasmartinetcheverry|jurijrodionov|ml:home|20260722": 1784720769.769958,
     "merinoalexanderriccagiorgio|thijmenloofkaitouesugi|ml:away|20260722": 1784727993.340702,
-    "bangu|olaria|ml:away|20260722": 1784729073.307869
+    "bangu|olaria|ml:away|20260722": 1784729073.307869,
+    "zaarlisazimmermannkimberley|brockmanntessajohannakraussinja|ml:home|20260722": 1784729613.305976
   },
   "last_report_date": "2026-07-22",
-  "next_id": 281,
+  "next_id": 282,
   "tg_offset": 363415781,
   "health": {
     "last_scan": {
-      "ts": 1784729253.295978,
+      "ts": 1784729883.313225,
       "ok": true,
       "vegas_events": 1142,
-      "pinnacle_events": 533,
+      "pinnacle_events": 543,
       "sports_err": {},
       "problems": [],
       "settle_err": null
