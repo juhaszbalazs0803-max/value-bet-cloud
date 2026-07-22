@@ -8436,6 +8436,35 @@
       "clv_pct": 8.01,
       "close_fair_p": 0.8182494347256932,
       "close_ts": 1784743677.519721
+    },
+    {
+      "id": 287,
+      "ts": 1784754856.460236,
+      "key": "66:17123613:ml:home",
+      "content_key": "portuguesa|americano|ml:home|20260723",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Portuguesa - Americano",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Portuguesa",
+      "odds": 1.625,
+      "stake": 1700,
+      "value_pct": 4.24,
+      "fair_pct": 64.1,
+      "start": "2026-07-23T00:00:00+00:00",
+      "start_ts": 1784764800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.559,
+      "clv_pct": 4.23,
+      "close_fair_p": 0.6414473684210527,
+      "close_ts": 1784754856.460236
     }
   ],
   "papered": {
@@ -8708,17 +8737,18 @@
     "nicolasparizzia|dellelbav|ml:home|20260723": 1784734732.535142,
     "haroldmayot|mikabrunold|ml:home|20260723": 1784740527.508992,
     "lachlanmcfadzean|danieljovanovski|ml:away|20260723": 1784740527.508992,
-    "alejandromorocanas|ivanmarrerocurbelo|ml:home|20260723": 1784742147.445083
+    "alejandromorocanas|ivanmarrerocurbelo|ml:home|20260723": 1784742147.445083,
+    "portuguesa|americano|ml:home|20260723": 1784754856.460236
   },
   "last_report_date": "2026-07-22",
-  "next_id": 287,
+  "next_id": 288,
   "tg_offset": 363415782,
   "health": {
     "last_scan": {
-      "ts": 1784750742.611006,
+      "ts": 1784754856.460236,
       "ok": true,
-      "vegas_events": 1037,
-      "pinnacle_events": 467,
+      "vegas_events": 1060,
+      "pinnacle_events": 476,
       "sports_err": {},
       "problems": [],
       "settle_err": null
