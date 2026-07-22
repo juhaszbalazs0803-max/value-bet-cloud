@@ -7914,7 +7914,7 @@
       "close_fair_odds": 1.8085,
       "clv_pct": 10.59,
       "close_fair_p": 0.5529407781126198,
-      "close_ts": 1784708676.51685
+      "close_ts": 1784709306.430732
     },
     {
       "id": 271,
@@ -7943,7 +7943,7 @@
       "close_fair_odds": 1.9124,
       "clv_pct": 4.58,
       "close_fair_p": 0.522911051212938,
-      "close_ts": 1784708676.51685
+      "close_ts": 1784709306.430732
     },
     {
       "id": 272,
@@ -8001,7 +8001,36 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1784708676.51685
+      "close_ts": 1784709306.430732
+    },
+    {
+      "id": 274,
+      "ts": 1784709126.423629,
+      "key": "68:17153770:ml:away",
+      "content_key": "gamarramartinsininomiyam|kichenoknadiiakubkamartyna|ml:away|20260722",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Gamarra Martins, I/Ninomiya, M - Kichenok, Nadiia/Kubka, Martyna",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Kichenok, Nadiia/Kubka, Martyna",
+      "odds": 1.867,
+      "stake": 1900,
+      "value_pct": 6.71,
+      "fair_pct": 57.2,
+      "start": "2026-07-22T12:45:00+00:00",
+      "start_ts": 1784724300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7493,
+      "clv_pct": 6.73,
+      "close_fair_p": 0.5716470445442409,
+      "close_ts": 1784709126.423629
     }
   ],
   "papered": {
@@ -8261,17 +8290,18 @@
     "novaiguacu|americarj|ml:home|20260722": 1784700254.93076,
     "georgiapedone|dariaegorova|ml:home|20260722": 1784700884.893699,
     "oceanebabel|martinacapurrotaborda|ml:away|20260722": 1784701064.945388,
-    "lourdesayala|juliakonishicamargosilva|ml:away|20260722": 1784701064.945388
+    "lourdesayala|juliakonishicamargosilva|ml:away|20260722": 1784701064.945388,
+    "gamarramartinsininomiyam|kichenoknadiiakubkamartyna|ml:away|20260722": 1784709126.423629
   },
   "last_report_date": "2026-07-21",
-  "next_id": 274,
+  "next_id": 275,
   "tg_offset": 363415781,
   "health": {
     "last_scan": {
-      "ts": 1784708676.51685,
+      "ts": 1784709306.430732,
       "ok": true,
-      "vegas_events": 1212,
-      "pinnacle_events": 635,
+      "vegas_events": 1215,
+      "pinnacle_events": 628,
       "sports_err": {},
       "problems": [],
       "settle_err": null
