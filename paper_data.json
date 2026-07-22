@@ -7499,11 +7499,14 @@
       "fair_pct": 57.5,
       "start": "2026-07-22T09:00:00+00:00",
       "start_ts": 1784710800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784718442.292791,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.8609,
       "clv_pct": 5.33,
@@ -7586,11 +7589,14 @@
       "fair_pct": 57.3,
       "start": "2026-07-22T08:00:00+00:00",
       "start_ts": 1784707200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784718442.292791,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.5487,
       "clv_pct": 19.91,
@@ -7673,11 +7679,14 @@
       "fair_pct": 75.1,
       "start": "2026-07-22T08:05:00+00:00",
       "start_ts": 1784707500.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1784718442.292791,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6171,
       "clv_pct": -0.13,
@@ -7760,11 +7769,14 @@
       "fair_pct": 56.3,
       "start": "2026-07-22T09:10:00+00:00",
       "start_ts": 1784711400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784718442.292791,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.7586,
       "clv_pct": 7.41,
@@ -7914,7 +7926,7 @@
       "close_fair_odds": 1.8085,
       "clv_pct": 10.59,
       "close_fair_p": 0.5529407781126198,
-      "close_ts": 1784711826.51224
+      "close_ts": 1784718429.81085
     },
     {
       "id": 271,
@@ -7943,7 +7955,7 @@
       "close_fair_odds": 1.9124,
       "clv_pct": 4.58,
       "close_fair_p": 0.522911051212938,
-      "close_ts": 1784711826.51224
+      "close_ts": 1784718429.81085
     },
     {
       "id": 272,
@@ -8001,7 +8013,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1784711826.51224
+      "close_ts": 1784718429.81085
     },
     {
       "id": 274,
@@ -8031,6 +8043,64 @@
       "clv_pct": 7.98,
       "close_fair_p": 0.5783671897564263,
       "close_ts": 1784709576.458416
+    },
+    {
+      "id": 275,
+      "ts": 1784718429.81085,
+      "key": "66:17062914:ml:home",
+      "content_key": "sassuolo|padova|ml:home|20260722",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Sassuolo - Padova",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Sassuolo",
+      "odds": 1.625,
+      "stake": 1600,
+      "value_pct": 3.93,
+      "fair_pct": 64.0,
+      "start": "2026-07-22T15:00:00+00:00",
+      "start_ts": 1784732400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5635,
+      "clv_pct": 3.93,
+      "close_fair_p": 0.6395800933125971,
+      "close_ts": 1784718429.81085
+    },
+    {
+      "id": 276,
+      "ts": 1784718429.81085,
+      "key": "66:17119005:ml:away",
+      "content_key": "rfcliege|sinttruiden|ml:away|20260722",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "RFC Liege - Sint-Truiden",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Sint-Truiden",
+      "odds": 1.714,
+      "stake": 2300,
+      "value_pct": 6.5,
+      "fair_pct": 62.1,
+      "start": "2026-07-22T16:00:00+00:00",
+      "start_ts": 1784736000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6096,
+      "clv_pct": 6.49,
+      "close_fair_p": 0.6212624584717608,
+      "close_ts": 1784718429.81085
     }
   ],
   "papered": {
@@ -8291,17 +8361,19 @@
     "georgiapedone|dariaegorova|ml:home|20260722": 1784700884.893699,
     "oceanebabel|martinacapurrotaborda|ml:away|20260722": 1784701064.945388,
     "lourdesayala|juliakonishicamargosilva|ml:away|20260722": 1784701064.945388,
-    "gamarramartinsininomiyam|kichenoknadiiakubkamartyna|ml:away|20260722": 1784709126.423629
+    "gamarramartinsininomiyam|kichenoknadiiakubkamartyna|ml:away|20260722": 1784709126.423629,
+    "sassuolo|padova|ml:home|20260722": 1784718429.81085,
+    "rfcliege|sinttruiden|ml:away|20260722": 1784718429.81085
   },
   "last_report_date": "2026-07-22",
-  "next_id": 275,
+  "next_id": 277,
   "tg_offset": 363415781,
   "health": {
     "last_scan": {
-      "ts": 1784711826.51224,
+      "ts": 1784718429.81085,
       "ok": true,
-      "vegas_events": 1224,
-      "pinnacle_events": 633,
+      "vegas_events": 1190,
+      "pinnacle_events": 604,
       "sports_err": {},
       "problems": [],
       "settle_err": null
