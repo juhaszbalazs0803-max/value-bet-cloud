@@ -7926,7 +7926,7 @@
       "close_fair_odds": 1.8085,
       "clv_pct": 10.59,
       "close_fair_p": 0.5529407781126198,
-      "close_ts": 1784720319.910666
+      "close_ts": 1784720949.770853
     },
     {
       "id": 271,
@@ -7955,7 +7955,7 @@
       "close_fair_odds": 1.9124,
       "clv_pct": 4.58,
       "close_fair_p": 0.522911051212938,
-      "close_ts": 1784720319.910666
+      "close_ts": 1784720949.770853
     },
     {
       "id": 272,
@@ -8013,7 +8013,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1784720319.910666
+      "close_ts": 1784720949.770853
     },
     {
       "id": 274,
@@ -8039,10 +8039,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5169,
-      "clv_pct": 23.08,
-      "close_fair_p": 0.6592233422653226,
-      "close_ts": 1784719149.789788
+      "close_fair_odds": 1.5341,
+      "clv_pct": 21.7,
+      "close_fair_p": 0.6518621327781633,
+      "close_ts": 1784720949.770853
     },
     {
       "id": 275,
@@ -8071,7 +8071,7 @@
       "close_fair_odds": 1.5635,
       "clv_pct": 3.93,
       "close_fair_p": 0.6395800933125971,
-      "close_ts": 1784720319.910666
+      "close_ts": 1784720949.770853
     },
     {
       "id": 276,
@@ -8130,6 +8130,35 @@
       "clv_pct": 3.08,
       "close_fair_p": 0.5425126903553299,
       "close_ts": 1784720139.792847
+    },
+    {
+      "id": 278,
+      "ts": 1784720769.769958,
+      "key": "68:17147067:ml:home",
+      "content_key": "tomasmartinetcheverry|jurijrodionov|ml:home|20260722",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Tomas Martin Etcheverry - Jurij Rodionov",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Tomas Martin Etcheverry",
+      "odds": 1.583,
+      "stake": 1300,
+      "value_pct": 3.04,
+      "fair_pct": 65.1,
+      "start": "2026-07-22T12:10:00+00:00",
+      "start_ts": 1784722200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5366,
+      "clv_pct": 3.02,
+      "close_fair_p": 0.6507708119218911,
+      "close_ts": 1784720949.770853
     }
   ],
   "papered": {
@@ -8393,16 +8422,17 @@
     "gamarramartinsininomiyam|kichenoknadiiakubkamartyna|ml:away|20260722": 1784709126.423629,
     "sassuolo|padova|ml:home|20260722": 1784718429.81085,
     "rfcliege|sinttruiden|ml:away|20260722": 1784718429.81085,
-    "kirkovvstevensb|demolinermgallowayr|ml:home|20260722": 1784720049.774675
+    "kirkovvstevensb|demolinermgallowayr|ml:home|20260722": 1784720049.774675,
+    "tomasmartinetcheverry|jurijrodionov|ml:home|20260722": 1784720769.769958
   },
   "last_report_date": "2026-07-22",
-  "next_id": 278,
+  "next_id": 279,
   "tg_offset": 363415781,
   "health": {
     "last_scan": {
-      "ts": 1784720319.910666,
+      "ts": 1784720949.770853,
       "ok": true,
-      "vegas_events": 1185,
+      "vegas_events": 1182,
       "pinnacle_events": 594,
       "sports_err": {},
       "problems": [],
