@@ -7621,11 +7621,14 @@
       "fair_pct": 58.7,
       "start": "2026-07-22T11:00:00+00:00",
       "start_ts": 1784718000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784729266.2617414,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.704,
       "clv_pct": 6.69,
@@ -8019,7 +8022,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1784728623.335902
+      "close_ts": 1784729253.295978
     },
     {
       "id": 274,
@@ -8193,10 +8196,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3977,
-      "clv_pct": 4.1,
-      "close_fair_p": 0.7154394299287411,
-      "close_ts": 1784728173.307816
+      "close_fair_odds": 1.3976,
+      "clv_pct": 4.11,
+      "close_fair_p": 0.7155025203168398,
+      "close_ts": 1784729253.295978
+    },
+    {
+      "id": 280,
+      "ts": 1784729073.307869,
+      "key": "66:17144584:ml:away",
+      "content_key": "bangu|olaria|ml:away|20260722",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Bangu - Olaria",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Olaria",
+      "odds": 1.76,
+      "stake": 3000,
+      "value_pct": 8.99,
+      "fair_pct": 61.9,
+      "start": "2026-07-22T17:45:00+00:00",
+      "start_ts": 1784742300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6148,
+      "clv_pct": 8.99,
+      "close_fair_p": 0.6192865489037047,
+      "close_ts": 1784729253.295978
     }
   ],
   "papered": {
@@ -8462,17 +8494,18 @@
     "rfcliege|sinttruiden|ml:away|20260722": 1784718429.81085,
     "kirkovvstevensb|demolinermgallowayr|ml:home|20260722": 1784720049.774675,
     "tomasmartinetcheverry|jurijrodionov|ml:home|20260722": 1784720769.769958,
-    "merinoalexanderriccagiorgio|thijmenloofkaitouesugi|ml:away|20260722": 1784727993.340702
+    "merinoalexanderriccagiorgio|thijmenloofkaitouesugi|ml:away|20260722": 1784727993.340702,
+    "bangu|olaria|ml:away|20260722": 1784729073.307869
   },
   "last_report_date": "2026-07-22",
-  "next_id": 280,
+  "next_id": 281,
   "tg_offset": 363415781,
   "health": {
     "last_scan": {
-      "ts": 1784728623.335902,
+      "ts": 1784729253.295978,
       "ok": true,
-      "vegas_events": 1147,
-      "pinnacle_events": 536,
+      "vegas_events": 1142,
+      "pinnacle_events": 533,
       "sports_err": {},
       "problems": [],
       "settle_err": null
