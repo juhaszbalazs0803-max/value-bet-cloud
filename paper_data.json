@@ -6743,11 +6743,11 @@
       "fair_pct": 56.5,
       "start": "2026-07-19T11:30:00+00:00",
       "start_ts": 1784460600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1784720331.2472718,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7701,
       "clv_pct": 3.55,
@@ -6772,11 +6772,11 @@
       "fair_pct": 71.4,
       "start": "2026-07-19T11:30:00+00:00",
       "start_ts": 1784460600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1784720331.2472718,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.3999,
       "clv_pct": 9.01,
@@ -7926,7 +7926,7 @@
       "close_fair_odds": 1.8085,
       "clv_pct": 10.59,
       "close_fair_p": 0.5529407781126198,
-      "close_ts": 1784719689.819211
+      "close_ts": 1784720319.910666
     },
     {
       "id": 271,
@@ -7955,7 +7955,7 @@
       "close_fair_odds": 1.9124,
       "clv_pct": 4.58,
       "close_fair_p": 0.522911051212938,
-      "close_ts": 1784719689.819211
+      "close_ts": 1784720319.910666
     },
     {
       "id": 272,
@@ -8013,7 +8013,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1784719689.819211
+      "close_ts": 1784720319.910666
     },
     {
       "id": 274,
@@ -8071,7 +8071,7 @@
       "close_fair_odds": 1.5635,
       "clv_pct": 3.93,
       "close_fair_p": 0.6395800933125971,
-      "close_ts": 1784719689.819211
+      "close_ts": 1784720319.910666
     },
     {
       "id": 276,
@@ -8101,6 +8101,35 @@
       "clv_pct": 6.49,
       "close_fair_p": 0.6212624584717608,
       "close_ts": 1784719689.819211
+    },
+    {
+      "id": 277,
+      "ts": 1784720049.774675,
+      "key": "68:17131289:ml:home",
+      "content_key": "kirkovvstevensb|demolinermgallowayr|ml:home|20260722",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Kirkov V / Stevens B - Demoliner M / Galloway R",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Kirkov V / Stevens B",
+      "odds": 1.9,
+      "stake": 2500,
+      "value_pct": 9.1,
+      "fair_pct": 57.4,
+      "start": "2026-07-22T12:00:00+00:00",
+      "start_ts": 1784721600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8433,
+      "clv_pct": 3.08,
+      "close_fair_p": 0.5425126903553299,
+      "close_ts": 1784720139.792847
     }
   ],
   "papered": {
@@ -8363,17 +8392,18 @@
     "lourdesayala|juliakonishicamargosilva|ml:away|20260722": 1784701064.945388,
     "gamarramartinsininomiyam|kichenoknadiiakubkamartyna|ml:away|20260722": 1784709126.423629,
     "sassuolo|padova|ml:home|20260722": 1784718429.81085,
-    "rfcliege|sinttruiden|ml:away|20260722": 1784718429.81085
+    "rfcliege|sinttruiden|ml:away|20260722": 1784718429.81085,
+    "kirkovvstevensb|demolinermgallowayr|ml:home|20260722": 1784720049.774675
   },
   "last_report_date": "2026-07-22",
-  "next_id": 277,
+  "next_id": 278,
   "tg_offset": 363415781,
   "health": {
     "last_scan": {
-      "ts": 1784719689.819211,
+      "ts": 1784720319.910666,
       "ok": true,
-      "vegas_events": 1182,
-      "pinnacle_events": 600,
+      "vegas_events": 1185,
+      "pinnacle_events": 594,
       "sports_err": {},
       "problems": [],
       "settle_err": null
