@@ -8464,7 +8464,7 @@
       "close_fair_odds": 1.559,
       "clv_pct": 4.23,
       "close_fair_p": 0.6414473684210527,
-      "close_ts": 1784761204.90877
+      "close_ts": 1784761834.860575
     },
     {
       "id": 288,
@@ -8832,13 +8832,13 @@
   },
   "last_report_date": "2026-07-22",
   "next_id": 291,
-  "tg_offset": 363415784,
+  "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784761204.90877,
+      "ts": 1784761834.860575,
       "ok": true,
-      "vegas_events": 1059,
-      "pinnacle_events": 480,
+      "vegas_events": 1057,
+      "pinnacle_events": 473,
       "sports_err": {},
       "problems": [],
       "settle_err": null
