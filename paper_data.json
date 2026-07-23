@@ -8624,7 +8624,7 @@
       "close_fair_odds": 1.5852,
       "clv_pct": 3.9,
       "close_fair_p": 0.6308516497271316,
-      "close_ts": 1784810632.5815
+      "close_ts": 1784811262.571587
     },
     {
       "id": 293,
@@ -8682,7 +8682,7 @@
       "close_fair_odds": 1.5725,
       "clv_pct": 6.01,
       "close_fair_p": 0.6359102244389027,
-      "close_ts": 1784810632.5815
+      "close_ts": 1784811262.571587
     },
     {
       "id": 295,
@@ -8827,7 +8827,36 @@
       "close_fair_odds": 1.5358,
       "clv_pct": 8.54,
       "close_fair_p": 0.6511056511056511,
-      "close_ts": 1784810632.5815
+      "close_ts": 1784811262.571587
+    },
+    {
+      "id": 300,
+      "ts": 1784810812.57751,
+      "key": "68:17174673:ml:away",
+      "content_key": "yayiyang|chiayitsao|ml:away|20260724",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Ya Yi Yang - Chia Yi Tsao",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Chia Yi Tsao",
+      "odds": 1.818,
+      "stake": 2800,
+      "value_pct": 9.28,
+      "fair_pct": 60.1,
+      "start": "2026-07-24T01:00:00+00:00",
+      "start_ts": 1784854800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6638,
+      "clv_pct": 9.27,
+      "close_fair_p": 0.6010362694300517,
+      "close_ts": 1784811262.571587
     }
   ],
   "papered": {
@@ -9113,17 +9142,18 @@
     "augustholmgren|liamdraxl|ml:home|20260723": 1784804386.907867,
     "francescacurmi|martinatrevisan|ml:away|20260723": 1784804836.923588,
     "gauthieronclin|tomgentzsch|ml:away|20260724": 1784810092.537696,
-    "moeranibouzige|matthulme|ml:home|20260724": 1784810452.539422
+    "moeranibouzige|matthulme|ml:home|20260724": 1784810452.539422,
+    "yayiyang|chiayitsao|ml:away|20260724": 1784810812.57751
   },
   "last_report_date": "2026-07-23",
-  "next_id": 300,
+  "next_id": 301,
   "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784810632.5815,
+      "ts": 1784811262.571587,
       "ok": true,
-      "vegas_events": 1159,
-      "pinnacle_events": 543,
+      "vegas_events": 1157,
+      "pinnacle_events": 555,
       "sports_err": {},
       "problems": [],
       "settle_err": null
