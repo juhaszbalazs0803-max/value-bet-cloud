@@ -8612,7 +8612,7 @@
       "close_fair_odds": 1.5852,
       "clv_pct": 3.9,
       "close_fair_p": 0.6308516497271316,
-      "close_ts": 1784783177.347693
+      "close_ts": 1784791867.276689
     },
     {
       "id": 293,
@@ -8642,6 +8642,35 @@
       "clv_pct": 4.39,
       "close_fair_p": 0.8351164722363413,
       "close_ts": 1784783177.347693
+    },
+    {
+      "id": 294,
+      "ts": 1784791867.276689,
+      "key": "68:17170363:ml:home",
+      "content_key": "markomiladinovic|mitchellsheldon|ml:home|20260723",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Marko Miladinovic - Mitchell Sheldon",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Marko Miladinovic",
+      "odds": 1.667,
+      "stake": 2300,
+      "value_pct": 5.99,
+      "fair_pct": 63.6,
+      "start": "2026-07-23T17:00:00+00:00",
+      "start_ts": 1784826000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5725,
+      "clv_pct": 6.01,
+      "close_fair_p": 0.6359102244389027,
+      "close_ts": 1784791867.276689
     }
   ],
   "papered": {
@@ -8921,17 +8950,18 @@
     "fccincinnati|vancouverwhitecaps|ml:away|20260722": 1784761204.90877,
     "herbertphkrawietzk|neumayerlschwaerzlerj|ml:home|20260723": 1784766691.272259,
     "cagliari|sampdoria|ml:home|20260723": 1784780027.334756,
-    "schunknastasjastusekjulia|romerogormazleyresorribestormosara|ml:away|20260723": 1784780027.334756
+    "schunknastasjastusekjulia|romerogormazleyresorribestormosara|ml:away|20260723": 1784780027.334756,
+    "markomiladinovic|mitchellsheldon|ml:home|20260723": 1784791867.276689
   },
   "last_report_date": "2026-07-22",
-  "next_id": 294,
+  "next_id": 295,
   "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784783177.347693,
+      "ts": 1784791867.276689,
       "ok": true,
-      "vegas_events": 1079,
-      "pinnacle_events": 461,
+      "vegas_events": 1121,
+      "pinnacle_events": 477,
       "sports_err": {},
       "problems": [],
       "settle_err": null
