@@ -8615,7 +8615,7 @@
       "close_fair_odds": 1.5852,
       "clv_pct": 3.9,
       "close_fair_p": 0.6308516497271316,
-      "close_ts": 1784802655.419902
+      "close_ts": 1784803306.888885
     },
     {
       "id": 293,
@@ -8673,7 +8673,36 @@
       "close_fair_odds": 1.5725,
       "clv_pct": 6.01,
       "close_fair_p": 0.6359102244389027,
-      "close_ts": 1784802655.419902
+      "close_ts": 1784803306.888885
+    },
+    {
+      "id": 295,
+      "ts": 1784802835.476745,
+      "key": "68:17165113:ml:home",
+      "content_key": "darthlumsdenm|bartunkovanikolasalkovadominika|ml:home|20260723",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Dart H / Lumsden M - Bartunkova, Nikola/Salkova, Dominika",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Dart H / Lumsden M",
+      "odds": 1.636,
+      "stake": 3500,
+      "value_pct": 9.05,
+      "fair_pct": 66.6,
+      "start": "2026-07-23T12:30:00+00:00",
+      "start_ts": 1784809800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5842,
+      "clv_pct": 3.27,
+      "close_fair_p": 0.6312157926743697,
+      "close_ts": 1784803306.888885
     }
   ],
   "papered": {
@@ -8954,17 +8983,18 @@
     "herbertphkrawietzk|neumayerlschwaerzlerj|ml:home|20260723": 1784766691.272259,
     "cagliari|sampdoria|ml:home|20260723": 1784780027.334756,
     "schunknastasjastusekjulia|romerogormazleyresorribestormosara|ml:away|20260723": 1784780027.334756,
-    "markomiladinovic|mitchellsheldon|ml:home|20260723": 1784791867.276689
+    "markomiladinovic|mitchellsheldon|ml:home|20260723": 1784791867.276689,
+    "darthlumsdenm|bartunkovanikolasalkovadominika|ml:home|20260723": 1784802835.476745
   },
   "last_report_date": "2026-07-23",
-  "next_id": 295,
+  "next_id": 296,
   "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784802655.419902,
+      "ts": 1784803306.888885,
       "ok": true,
-      "vegas_events": 1132,
-      "pinnacle_events": 499,
+      "vegas_events": 1135,
+      "pinnacle_events": 502,
       "sports_err": {},
       "problems": [],
       "settle_err": null
