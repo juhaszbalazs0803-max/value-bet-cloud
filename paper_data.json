@@ -8310,11 +8310,14 @@
       "fair_pct": 62.0,
       "start": "2026-07-23T09:30:00+00:00",
       "start_ts": 1784799000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784804581.9123123,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.73,
       "clv_pct": 3.24,
@@ -8615,7 +8618,7 @@
       "close_fair_odds": 1.5852,
       "clv_pct": 3.9,
       "close_fair_p": 0.6308516497271316,
-      "close_ts": 1784803936.917267
+      "close_ts": 1784804566.914813
     },
     {
       "id": 293,
@@ -8673,7 +8676,7 @@
       "close_fair_odds": 1.5725,
       "clv_pct": 6.01,
       "close_fair_p": 0.6359102244389027,
-      "close_ts": 1784803936.917267
+      "close_ts": 1784804566.914813
     },
     {
       "id": 295,
@@ -8699,10 +8702,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5747,
-      "clv_pct": 3.89,
-      "close_fair_p": 0.6350480045180723,
-      "close_ts": 1784803936.917267
+      "close_fair_odds": 1.5653,
+      "clv_pct": 4.52,
+      "close_fair_p": 0.6388458245597798,
+      "close_ts": 1784804566.914813
+    },
+    {
+      "id": 296,
+      "ts": 1784804386.907867,
+      "key": "68:17161030:ml:home",
+      "content_key": "augustholmgren|liamdraxl|ml:home|20260723",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "August Holmgren - Liam Draxl",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — August Holmgren",
+      "odds": 1.889,
+      "stake": 800,
+      "value_pct": 3.02,
+      "fair_pct": 54.5,
+      "start": "2026-07-23T23:00:00+00:00",
+      "start_ts": 1784847600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8336,
+      "clv_pct": 3.02,
+      "close_fair_p": 0.5453811757007307,
+      "close_ts": 1784804386.907867
     }
   ],
   "papered": {
@@ -8984,17 +9016,18 @@
     "cagliari|sampdoria|ml:home|20260723": 1784780027.334756,
     "schunknastasjastusekjulia|romerogormazleyresorribestormosara|ml:away|20260723": 1784780027.334756,
     "markomiladinovic|mitchellsheldon|ml:home|20260723": 1784791867.276689,
-    "darthlumsdenm|bartunkovanikolasalkovadominika|ml:home|20260723": 1784802835.476745
+    "darthlumsdenm|bartunkovanikolasalkovadominika|ml:home|20260723": 1784802835.476745,
+    "augustholmgren|liamdraxl|ml:home|20260723": 1784804386.907867
   },
   "last_report_date": "2026-07-23",
-  "next_id": 296,
+  "next_id": 297,
   "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784803936.917267,
+      "ts": 1784804566.914813,
       "ok": true,
-      "vegas_events": 1139,
-      "pinnacle_events": 493,
+      "vegas_events": 1144,
+      "pinnacle_events": 497,
       "sports_err": {},
       "problems": [],
       "settle_err": null
