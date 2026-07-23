@@ -9139,6 +9139,35 @@
       "clv_pct": 7.64,
       "close_fair_p": 0.6053969323625497,
       "close_ts": 1784841285.981351
+    },
+    {
+      "id": 310,
+      "ts": 1784845414.763719,
+      "key": "68:17176197:ml:away",
+      "content_key": "henrisquire|ottovirtanen|ml:away|20260724",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Henri Squire - Otto Virtanen",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Otto Virtanen",
+      "odds": 1.444,
+      "stake": 2000,
+      "value_pct": 3.65,
+      "fair_pct": 71.8,
+      "start": "2026-07-24T14:00:00+00:00",
+      "start_ts": 1784901600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3936,
+      "clv_pct": 3.62,
+      "close_fair_p": 0.7175464702766778,
+      "close_ts": 1784845504.76921
     }
   ],
   "papered": {
@@ -9434,17 +9463,18 @@
     "alexanderbublik|tomasmartinetcheverry|ml:home|20260724": 1784828725.267131,
     "vojvodina|afcajax|ml:away|20260723": 1784828905.460074,
     "herbertphkrawietzk|schnaitterjwallnerm|ml:home|20260724": 1784829535.291165,
-    "preston|cambridge|ml:home|20260724": 1784841195.914943
+    "preston|cambridge|ml:home|20260724": 1784841195.914943,
+    "henrisquire|ottovirtanen|ml:away|20260724": 1784845414.763719
   },
   "last_report_date": "2026-07-23",
-  "next_id": 310,
+  "next_id": 311,
   "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784845234.758411,
+      "ts": 1784845864.768277,
       "ok": true,
-      "vegas_events": 1109,
-      "pinnacle_events": 454,
+      "vegas_events": 1105,
+      "pinnacle_events": 451,
       "sports_err": {},
       "problems": [],
       "settle_err": null
