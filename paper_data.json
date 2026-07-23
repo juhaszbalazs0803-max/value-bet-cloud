@@ -8839,7 +8839,7 @@
       "close_fair_odds": 1.6468,
       "clv_pct": 1.23,
       "close_fair_p": 0.6072351421188631,
-      "close_ts": 1784827195.25147
+      "close_ts": 1784827825.241186
     },
     {
       "id": 300,
@@ -8926,7 +8926,7 @@
       "close_fair_odds": 1.5008,
       "clv_pct": 14.21,
       "close_fair_p": 0.6663286335830416,
-      "close_ts": 1784827195.25147
+      "close_ts": 1784827375.244199
     },
     {
       "id": 303,
@@ -8952,10 +8952,68 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6682,
-      "clv_pct": 16.89,
-      "close_fair_p": 0.5994502602491374,
-      "close_ts": 1784822375.70716
+      "close_fair_odds": 1.8358,
+      "clv_pct": 6.22,
+      "close_fair_p": 0.5447087776866284,
+      "close_ts": 1784827465.231766
+    },
+    {
+      "id": 304,
+      "ts": 1784827735.291994,
+      "key": "68:17176257:ml:away",
+      "content_key": "lillitagger|sarabejlek|ml:away|20260724",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Lilli Tagger - Sara Bejlek",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Sara Bejlek",
+      "odds": 1.7,
+      "stake": 1100,
+      "value_pct": 3.02,
+      "fair_pct": 60.6,
+      "start": "2026-07-24T11:20:00+00:00",
+      "start_ts": 1784892000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6501,
+      "clv_pct": 3.02,
+      "close_fair_p": 0.6060287332966797,
+      "close_ts": 1784827735.291994
+    },
+    {
+      "id": 305,
+      "ts": 1784827735.291994,
+      "key": "68:17176230:ml:away",
+      "content_key": "shkutovaanna|mainesn|ml:away|20260724",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Shkutova, Anna - Maines, N",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Maines, N",
+      "odds": 1.636,
+      "stake": 4400,
+      "value_pct": 11.15,
+      "fair_pct": 67.9,
+      "start": "2026-07-24T09:15:00+00:00",
+      "start_ts": 1784884500.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4722,
+      "clv_pct": 11.13,
+      "close_fair_p": 0.6792452830188679,
+      "close_ts": 1784827825.241186
     }
   ],
   "papered": {
@@ -9245,17 +9303,19 @@
     "yayiyang|chiayitsao|ml:away|20260724": 1784810812.57751,
     "abbagnatoatonam|mcadoorasheedanagyadrienn|ml:away|20260723": 1784820665.647055,
     "rionoguchi|charlesbroom|ml:home|20260724": 1784821385.668893,
-    "michaelzheng|adamwalton|ml:home|20260724": 1784821385.668893
+    "michaelzheng|adamwalton|ml:home|20260724": 1784821385.668893,
+    "lillitagger|sarabejlek|ml:away|20260724": 1784827735.291994,
+    "shkutovaanna|mainesn|ml:away|20260724": 1784827735.291994
   },
   "last_report_date": "2026-07-23",
-  "next_id": 304,
+  "next_id": 306,
   "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784827195.25147,
+      "ts": 1784827825.241186,
       "ok": true,
-      "vegas_events": 1103,
-      "pinnacle_events": 471,
+      "vegas_events": 1102,
+      "pinnacle_events": 463,
       "sports_err": {},
       "problems": [],
       "settle_err": null
