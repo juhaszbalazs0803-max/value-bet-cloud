@@ -8624,7 +8624,7 @@
       "close_fair_odds": 1.5852,
       "clv_pct": 3.9,
       "close_fair_p": 0.6308516497271316,
-      "close_ts": 1784810002.501637
+      "close_ts": 1784810632.5815
     },
     {
       "id": 293,
@@ -8682,7 +8682,7 @@
       "close_fair_odds": 1.5725,
       "clv_pct": 6.01,
       "close_fair_p": 0.6359102244389027,
-      "close_ts": 1784810002.501637
+      "close_ts": 1784810632.5815
     },
     {
       "id": 295,
@@ -8770,6 +8770,64 @@
       "clv_pct": 3.35,
       "close_fair_p": 0.5638297872340425,
       "close_ts": 1784804836.923588
+    },
+    {
+      "id": 298,
+      "ts": 1784810092.537696,
+      "key": "68:17165172:ml:away",
+      "content_key": "gauthieronclin|tomgentzsch|ml:away|20260724",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Gauthier Onclin - Tom Gentzsch",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Tom Gentzsch",
+      "odds": 1.727,
+      "stake": 2000,
+      "value_pct": 5.74,
+      "fair_pct": 61.2,
+      "start": "2026-07-24T08:00:00+00:00",
+      "start_ts": 1784880000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6335,
+      "clv_pct": 5.72,
+      "close_fair_p": 0.6121639593426428,
+      "close_ts": 1784810092.537696
+    },
+    {
+      "id": 299,
+      "ts": 1784810452.539422,
+      "key": "68:17173774:ml:home",
+      "content_key": "moeranibouzige|matthulme|ml:home|20260724",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Moerani Bouzige - Matt Hulme",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Moerani Bouzige",
+      "odds": 1.667,
+      "stake": 3200,
+      "value_pct": 8.52,
+      "fair_pct": 65.1,
+      "start": "2026-07-24T01:00:00+00:00",
+      "start_ts": 1784854800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5358,
+      "clv_pct": 8.54,
+      "close_fair_p": 0.6511056511056511,
+      "close_ts": 1784810632.5815
     }
   ],
   "papered": {
@@ -9053,17 +9111,19 @@
     "markomiladinovic|mitchellsheldon|ml:home|20260723": 1784791867.276689,
     "darthlumsdenm|bartunkovanikolasalkovadominika|ml:home|20260723": 1784802835.476745,
     "augustholmgren|liamdraxl|ml:home|20260723": 1784804386.907867,
-    "francescacurmi|martinatrevisan|ml:away|20260723": 1784804836.923588
+    "francescacurmi|martinatrevisan|ml:away|20260723": 1784804836.923588,
+    "gauthieronclin|tomgentzsch|ml:away|20260724": 1784810092.537696,
+    "moeranibouzige|matthulme|ml:home|20260724": 1784810452.539422
   },
   "last_report_date": "2026-07-23",
-  "next_id": 298,
+  "next_id": 300,
   "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784810002.501637,
+      "ts": 1784810632.5815,
       "ok": true,
-      "vegas_events": 1149,
-      "pinnacle_events": 503,
+      "vegas_events": 1159,
+      "pinnacle_events": 543,
       "sports_err": {},
       "problems": [],
       "settle_err": null
