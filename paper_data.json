@@ -8552,6 +8552,35 @@
       "clv_pct": 3.52,
       "close_fair_p": 0.5176081304656109,
       "close_ts": 1784761204.90877
+    },
+    {
+      "id": 291,
+      "ts": 1784766691.272259,
+      "key": "68:17157276:ml:home",
+      "content_key": "herbertphkrawietzk|neumayerlschwaerzlerj|ml:home|20260723",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Herbert, P-H/Krawietz, K - Neumayer, L/Schwaerzler, J",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Herbert, P-H/Krawietz, K",
+      "odds": 1.286,
+      "stake": 3500,
+      "value_pct": 3.94,
+      "fair_pct": 80.8,
+      "start": "2026-07-23T09:30:00+00:00",
+      "start_ts": 1784799000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.2371,
+      "clv_pct": 3.95,
+      "close_fair_p": 0.8083422063793343,
+      "close_ts": 1784766691.272259
     }
   ],
   "papered": {
@@ -8828,17 +8857,18 @@
     "portuguesa|americano|ml:home|20260723": 1784754856.460236,
     "augustholmgren|liamdraxl|ml:away|20260723": 1784757008.193055,
     "davidcristiancarteputreda|calinapostol|ml:home|20260723": 1784757099.731242,
-    "fccincinnati|vancouverwhitecaps|ml:away|20260722": 1784761204.90877
+    "fccincinnati|vancouverwhitecaps|ml:away|20260722": 1784761204.90877,
+    "herbertphkrawietzk|neumayerlschwaerzlerj|ml:home|20260723": 1784766691.272259
   },
   "last_report_date": "2026-07-22",
-  "next_id": 291,
+  "next_id": 292,
   "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784766331.273765,
+      "ts": 1784766961.301639,
       "ok": true,
-      "vegas_events": 1062,
-      "pinnacle_events": 450,
+      "vegas_events": 1055,
+      "pinnacle_events": 446,
       "sports_err": {},
       "problems": [],
       "settle_err": null
