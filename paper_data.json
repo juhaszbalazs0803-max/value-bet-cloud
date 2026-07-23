@@ -8339,11 +8339,14 @@
       "fair_pct": 75.7,
       "start": "2026-07-23T08:30:00+00:00",
       "start_ts": 1784795400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784802041.8210824,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.3211,
       "clv_pct": 5.97,
@@ -8612,7 +8615,7 @@
       "close_fair_odds": 1.5852,
       "clv_pct": 3.9,
       "close_fair_p": 0.6308516497271316,
-      "close_ts": 1784795027.453622
+      "close_ts": 1784802025.441641
     },
     {
       "id": 293,
@@ -8670,7 +8673,7 @@
       "close_fair_odds": 1.5725,
       "clv_pct": 6.01,
       "close_fair_p": 0.6359102244389027,
-      "close_ts": 1784795027.453622
+      "close_ts": 1784802025.441641
     }
   ],
   "papered": {
@@ -8953,15 +8956,15 @@
     "schunknastasjastusekjulia|romerogormazleyresorribestormosara|ml:away|20260723": 1784780027.334756,
     "markomiladinovic|mitchellsheldon|ml:home|20260723": 1784791867.276689
   },
-  "last_report_date": "2026-07-22",
+  "last_report_date": "2026-07-23",
   "next_id": 295,
   "tg_offset": 363415785,
   "health": {
     "last_scan": {
-      "ts": 1784795027.453622,
+      "ts": 1784802025.441641,
       "ok": true,
-      "vegas_events": 1122,
-      "pinnacle_events": 485,
+      "vegas_events": 1131,
+      "pinnacle_events": 501,
       "sports_err": {},
       "problems": [],
       "settle_err": null
