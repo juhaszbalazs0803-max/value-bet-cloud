@@ -9185,11 +9185,14 @@
       "fair_pct": 71.8,
       "start": "2026-07-24T14:00:00+00:00",
       "start_ts": 1784901600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784911225.073573,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.4511,
       "clv_pct": -0.49,
@@ -9310,7 +9313,7 @@
       "close_fair_odds": 1.5331,
       "clv_pct": 9.58,
       "close_fair_p": 0.6522885273237778,
-      "close_ts": 1784875271.812619
+      "close_ts": 1784911210.151259
     },
     {
       "id": 315,
@@ -9397,7 +9400,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784907929.314022
+      "close_ts": 1784911210.151259
     },
     {
       "id": 318,
@@ -9455,7 +9458,7 @@
       "close_fair_odds": 1.7902,
       "clv_pct": 3.73,
       "close_fair_p": 0.55858310626703,
-      "close_ts": 1784907929.314022
+      "close_ts": 1784911210.151259
     },
     {
       "id": 320,
@@ -9485,6 +9488,35 @@
       "clv_pct": 8.65,
       "close_fair_p": 0.5810296913851104,
       "close_ts": 1784906759.347454
+    },
+    {
+      "id": 321,
+      "ts": 1784911210.151259,
+      "key": "66:16907313:ml:home",
+      "content_key": "coomatigers|tuggeranong|ml:home|20260725",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Cooma Tigers - Tuggeranong",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Cooma Tigers",
+      "odds": 1.727,
+      "stake": 2000,
+      "value_pct": 5.89,
+      "fair_pct": 61.3,
+      "start": "2026-07-25T08:00:00+00:00",
+      "start_ts": 1784966400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6312,
+      "clv_pct": 5.87,
+      "close_fair_p": 0.6130544536602958,
+      "close_ts": 1784911210.151259
     }
   ],
   "papered": {
@@ -9791,17 +9823,18 @@
     "montrealalliance|ottawablackjacks|ml:away|20260724": 1784890914.549967,
     "deportivorecoletatar|sanlorenzoreserve|ml:home|20260724": 1784892084.534972,
     "eintrachtbraunschweig|southampton|ml:away|20260724": 1784904779.381658,
-    "wellingtonsaints|southlandsharks|ml:away|20260725": 1784906489.378154
+    "wellingtonsaints|southlandsharks|ml:away|20260725": 1784906489.378154,
+    "coomatigers|tuggeranong|ml:home|20260725": 1784911210.151259
   },
   "last_report_date": "2026-07-24",
-  "next_id": 321,
+  "next_id": 322,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784907929.314022,
+      "ts": 1784911210.151259,
       "ok": true,
-      "vegas_events": 1332,
-      "pinnacle_events": 613,
+      "vegas_events": 1307,
+      "pinnacle_events": 574,
       "sports_err": {},
       "problems": [],
       "settle_err": null
