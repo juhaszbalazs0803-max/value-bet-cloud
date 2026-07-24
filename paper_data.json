@@ -9319,7 +9319,7 @@
       "close_fair_odds": 1.5331,
       "clv_pct": 9.58,
       "close_fair_p": 0.6522885273237778,
-      "close_ts": 1784916961.046012
+      "close_ts": 1784917591.01667
     },
     {
       "id": 315,
@@ -9406,7 +9406,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784916961.046012
+      "close_ts": 1784917591.01667
     },
     {
       "id": 318,
@@ -9551,7 +9551,7 @@
       "close_fair_odds": 1.6842,
       "clv_pct": 7.94,
       "close_fair_p": 0.59375,
-      "close_ts": 1784916961.046012
+      "close_ts": 1784917591.01667
     },
     {
       "id": 323,
@@ -9580,7 +9580,36 @@
       "close_fair_odds": 1.3793,
       "clv_pct": 16.0,
       "close_fair_p": 0.7250054454367241,
-      "close_ts": 1784916961.046012
+      "close_ts": 1784917591.01667
+    },
+    {
+      "id": 324,
+      "ts": 1784917501.04473,
+      "key": "68:17189035:ml:away",
+      "content_key": "elinaavanesyan|bondranna|ml:away|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Elina Avanesyan - Bondár Anna",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Bondár Anna",
+      "odds": 1.667,
+      "stake": 1400,
+      "value_pct": 3.85,
+      "fair_pct": 62.3,
+      "start": "2026-07-25T12:00:00+00:00",
+      "start_ts": 1784980800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6049,
+      "clv_pct": 3.87,
+      "close_fair_p": 0.6230739691835069,
+      "close_ts": 1784917501.04473
     }
   ],
   "papered": {
@@ -9890,17 +9919,18 @@
     "wellingtonsaints|southlandsharks|ml:away|20260725": 1784906489.378154,
     "coomatigers|tuggeranong|ml:home|20260725": 1784911210.151259,
     "carmengallardoguevara|shannonlam|ml:away|20260725": 1784913190.127868,
-    "schnaitterjwallnerm|miedlerlucaspolmansmarc|ml:away|20260725": 1784916961.046012
+    "schnaitterjwallnerm|miedlerlucaspolmansmarc|ml:away|20260725": 1784916961.046012,
+    "elinaavanesyan|bondranna|ml:away|20260725": 1784917501.04473
   },
   "last_report_date": "2026-07-24",
-  "next_id": 324,
+  "next_id": 325,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784916961.046012,
+      "ts": 1784917591.01667,
       "ok": true,
-      "vegas_events": 1284,
-      "pinnacle_events": 543,
+      "vegas_events": 1282,
+      "pinnacle_events": 566,
       "sports_err": {},
       "problems": [],
       "settle_err": null
