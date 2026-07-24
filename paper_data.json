@@ -9632,11 +9632,14 @@
       "fair_pct": 61.8,
       "start": "2026-07-24T18:45:00+00:00",
       "start_ts": 1784918700.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784930575.4651031,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6249,
       "clv_pct": 7.7,
@@ -9728,7 +9731,36 @@
       "close_fair_odds": 1.8001,
       "clv_pct": 7.83,
       "close_fair_p": 0.5555159888896801,
-      "close_ts": 1784927445.391977
+      "close_ts": 1784930563.464695
+    },
+    {
+      "id": 329,
+      "ts": 1784930563.464695,
+      "key": "67:17144485:ml:home",
+      "content_key": "diablosrojosdelmexico|panterasdeaguascalientes|ml:home|20260725",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Diablos Rojos Del Mexico - Panteras de Aguascalientes",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Diablos Rojos Del Mexico",
+      "odds": 1.667,
+      "stake": 2700,
+      "value_pct": 7.26,
+      "fair_pct": 64.4,
+      "start": "2026-07-25T02:15:00+00:00",
+      "start_ts": 1784945700.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5538,
+      "clv_pct": 7.29,
+      "close_fair_p": 0.6435643564356436,
+      "close_ts": 1784930563.464695
     }
   ],
   "papered": {
@@ -10043,17 +10075,18 @@
     "tikhonovaanastasiazidansektamara|ciricbagariclucijamoratelliangelica|ml:home|20260724": 1784918130.990571,
     "carloslopezmontagud|lagutinpavel|ml:away|20260725": 1784919030.995364,
     "kristinanovak|mainesn|ml:home|20260725": 1784919930.9922,
-    "virginiaunitedn|moretoncityexcelsiorn|ml:home|20260725": 1784920021.016125
+    "virginiaunitedn|moretoncityexcelsiorn|ml:home|20260725": 1784920021.016125,
+    "diablosrojosdelmexico|panterasdeaguascalientes|ml:home|20260725": 1784930563.464695
   },
   "last_report_date": "2026-07-24",
-  "next_id": 329,
+  "next_id": 330,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784927445.391977,
+      "ts": 1784930563.464695,
       "ok": true,
-      "vegas_events": 1269,
-      "pinnacle_events": 559,
+      "vegas_events": 1267,
+      "pinnacle_events": 586,
       "sports_err": {},
       "problems": [],
       "settle_err": null
