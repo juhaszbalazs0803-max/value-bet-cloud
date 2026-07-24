@@ -9316,7 +9316,7 @@
       "close_fair_odds": 1.5331,
       "clv_pct": 9.58,
       "close_fair_p": 0.6522885273237778,
-      "close_ts": 1784913100.075027
+      "close_ts": 1784913730.077793
     },
     {
       "id": 315,
@@ -9403,7 +9403,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784913100.075027
+      "close_ts": 1784913730.077793
     },
     {
       "id": 318,
@@ -9461,7 +9461,7 @@
       "close_fair_odds": 1.7902,
       "clv_pct": 3.73,
       "close_fair_p": 0.55858310626703,
-      "close_ts": 1784913100.075027
+      "close_ts": 1784913730.077793
     },
     {
       "id": 320,
@@ -9519,7 +9519,36 @@
       "close_fair_odds": 1.6312,
       "clv_pct": 5.87,
       "close_fair_p": 0.6130544536602958,
-      "close_ts": 1784913100.075027
+      "close_ts": 1784913190.127868
+    },
+    {
+      "id": 322,
+      "ts": 1784913190.127868,
+      "key": "68:17190726:ml:away",
+      "content_key": "carmengallardoguevara|shannonlam|ml:away|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Carmen Gallardo Guevara - Shannon Lam",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Shannon Lam",
+      "odds": 1.818,
+      "stake": 2400,
+      "value_pct": 7.96,
+      "fair_pct": 59.4,
+      "start": "2026-07-25T09:30:00+00:00",
+      "start_ts": 1784971800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6842,
+      "clv_pct": 7.94,
+      "close_fair_p": 0.59375,
+      "close_ts": 1784913730.077793
     }
   ],
   "papered": {
@@ -9827,17 +9856,18 @@
     "deportivorecoletatar|sanlorenzoreserve|ml:home|20260724": 1784892084.534972,
     "eintrachtbraunschweig|southampton|ml:away|20260724": 1784904779.381658,
     "wellingtonsaints|southlandsharks|ml:away|20260725": 1784906489.378154,
-    "coomatigers|tuggeranong|ml:home|20260725": 1784911210.151259
+    "coomatigers|tuggeranong|ml:home|20260725": 1784911210.151259,
+    "carmengallardoguevara|shannonlam|ml:away|20260725": 1784913190.127868
   },
   "last_report_date": "2026-07-24",
-  "next_id": 322,
+  "next_id": 323,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784913100.075027,
+      "ts": 1784913730.077793,
       "ok": true,
-      "vegas_events": 1295,
-      "pinnacle_events": 544,
+      "vegas_events": 1299,
+      "pinnacle_events": 545,
       "sports_err": {},
       "problems": [],
       "settle_err": null
