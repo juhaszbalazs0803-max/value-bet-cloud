@@ -9319,7 +9319,7 @@
       "close_fair_odds": 1.5331,
       "clv_pct": 9.58,
       "close_fair_p": 0.6522885273237778,
-      "close_ts": 1784918851.047879
+      "close_ts": 1784919300.995432
     },
     {
       "id": 315,
@@ -9406,7 +9406,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784918851.047879
+      "close_ts": 1784919481.057461
     },
     {
       "id": 318,
@@ -9551,7 +9551,7 @@
       "close_fair_odds": 1.6842,
       "clv_pct": 7.94,
       "close_fair_p": 0.59375,
-      "close_ts": 1784918851.047879
+      "close_ts": 1784919481.057461
     },
     {
       "id": 323,
@@ -9639,6 +9639,35 @@
       "clv_pct": 7.7,
       "close_fair_p": 0.6154367820963845,
       "close_ts": 1784918671.063495
+    },
+    {
+      "id": 326,
+      "ts": 1784919030.995364,
+      "key": "68:17193630:ml:away",
+      "content_key": "carloslopezmontagud|lagutinpavel|ml:away|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Carlos Lopez Montagud - Lagutin, Pavel",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Lagutin, Pavel",
+      "odds": 1.818,
+      "stake": 2500,
+      "value_pct": 8.24,
+      "fair_pct": 59.5,
+      "start": "2026-07-25T16:00:00+00:00",
+      "start_ts": 1784995200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6798,
+      "clv_pct": 8.23,
+      "close_fair_p": 0.5953002610966058,
+      "close_ts": 1784919481.057461
     }
   ],
   "papered": {
@@ -9950,17 +9979,18 @@
     "carmengallardoguevara|shannonlam|ml:away|20260725": 1784913190.127868,
     "schnaitterjwallnerm|miedlerlucaspolmansmarc|ml:away|20260725": 1784916961.046012,
     "elinaavanesyan|bondranna|ml:away|20260725": 1784917501.04473,
-    "tikhonovaanastasiazidansektamara|ciricbagariclucijamoratelliangelica|ml:home|20260724": 1784918130.990571
+    "tikhonovaanastasiazidansektamara|ciricbagariclucijamoratelliangelica|ml:home|20260724": 1784918130.990571,
+    "carloslopezmontagud|lagutinpavel|ml:away|20260725": 1784919030.995364
   },
   "last_report_date": "2026-07-24",
-  "next_id": 326,
+  "next_id": 327,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784918851.047879,
+      "ts": 1784919481.057461,
       "ok": true,
-      "vegas_events": 1265,
-      "pinnacle_events": 565,
+      "vegas_events": 1269,
+      "pinnacle_events": 572,
       "sports_err": {},
       "problems": [],
       "settle_err": null
