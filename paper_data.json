@@ -9731,7 +9731,7 @@
       "close_fair_odds": 1.8001,
       "clv_pct": 7.83,
       "close_fair_p": 0.5555159888896801,
-      "close_ts": 1784930563.464695
+      "close_ts": 1784931193.479817
     },
     {
       "id": 329,
@@ -9760,7 +9760,36 @@
       "close_fair_odds": 1.5538,
       "clv_pct": 7.29,
       "close_fair_p": 0.6435643564356436,
-      "close_ts": 1784930563.464695
+      "close_ts": 1784931193.479817
+    },
+    {
+      "id": 330,
+      "ts": 1784931193.479817,
+      "key": "68:17194019:ml:away",
+      "content_key": "charlesbroom|tobysamuel|ml:away|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Charles Broom - Toby Samuel",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Toby Samuel",
+      "odds": 1.444,
+      "stake": 5000,
+      "value_pct": 12.8,
+      "fair_pct": 78.1,
+      "start": "2026-07-25T18:00:00+00:00",
+      "start_ts": 1785002400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.2806,
+      "clv_pct": 12.76,
+      "close_fair_p": 0.7808968045642883,
+      "close_ts": 1784931193.479817
     }
   ],
   "papered": {
@@ -10076,17 +10105,18 @@
     "carloslopezmontagud|lagutinpavel|ml:away|20260725": 1784919030.995364,
     "kristinanovak|mainesn|ml:home|20260725": 1784919930.9922,
     "virginiaunitedn|moretoncityexcelsiorn|ml:home|20260725": 1784920021.016125,
-    "diablosrojosdelmexico|panterasdeaguascalientes|ml:home|20260725": 1784930563.464695
+    "diablosrojosdelmexico|panterasdeaguascalientes|ml:home|20260725": 1784930563.464695,
+    "charlesbroom|tobysamuel|ml:away|20260725": 1784931193.479817
   },
   "last_report_date": "2026-07-24",
-  "next_id": 330,
+  "next_id": 331,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784930563.464695,
+      "ts": 1784931193.479817,
       "ok": true,
-      "vegas_events": 1267,
-      "pinnacle_events": 586,
+      "vegas_events": 1268,
+      "pinnacle_events": 584,
       "sports_err": {},
       "problems": [],
       "settle_err": null
