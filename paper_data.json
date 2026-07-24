@@ -7342,11 +7342,11 @@
       "fair_pct": 56.8,
       "start": "2026-07-21T09:15:00+00:00",
       "start_ts": 1784625300.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1784884591.8606315,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7593,
       "clv_pct": 4.19,
@@ -9266,7 +9266,7 @@
       "close_fair_odds": 1.6352,
       "clv_pct": -3.93,
       "close_fair_p": 0.6115317414094351,
-      "close_ts": 1784883948.815803
+      "close_ts": 1784884578.761626
     },
     {
       "id": 314,
@@ -9353,7 +9353,7 @@
       "close_fair_odds": 1.7543,
       "clv_pct": 4.49,
       "close_fair_p": 0.5700323062037751,
-      "close_ts": 1784883948.815803
+      "close_ts": 1784884578.761626
     }
   ],
   "papered": {
@@ -9663,10 +9663,10 @@
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784883948.815803,
+      "ts": 1784884578.761626,
       "ok": true,
-      "vegas_events": 1266,
-      "pinnacle_events": 583,
+      "vegas_events": 1244,
+      "pinnacle_events": 579,
       "sports_err": {},
       "problems": [],
       "settle_err": null
