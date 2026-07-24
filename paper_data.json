@@ -9391,7 +9391,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784899022.450725
+      "close_ts": 1784904779.381658
     },
     {
       "id": 318,
@@ -9420,7 +9420,36 @@
       "close_fair_odds": 1.5198,
       "clv_pct": 4.16,
       "close_fair_p": 0.6579716925956253,
-      "close_ts": 1784899022.450725
+      "close_ts": 1784904779.381658
+    },
+    {
+      "id": 319,
+      "ts": 1784904779.381658,
+      "key": "66:17146023:ml:away",
+      "content_key": "eintrachtbraunschweig|southampton|ml:away|20260724",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Eintracht Braunschweig - Southampton",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Southampton",
+      "odds": 1.857,
+      "stake": 1100,
+      "value_pct": 3.74,
+      "fair_pct": 55.9,
+      "start": "2026-07-24T18:00:00+00:00",
+      "start_ts": 1784916000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7902,
+      "clv_pct": 3.73,
+      "close_fair_p": 0.55858310626703,
+      "close_ts": 1784904779.381658
     }
   ],
   "papered": {
@@ -9725,17 +9754,18 @@
     "groningen|volendam|ml:home|20260724": 1784881428.777631,
     "jincheonhrfc|geojecitizen|ml:home|20260725": 1784883678.770622,
     "montrealalliance|ottawablackjacks|ml:away|20260724": 1784890914.549967,
-    "deportivorecoletatar|sanlorenzoreserve|ml:home|20260724": 1784892084.534972
+    "deportivorecoletatar|sanlorenzoreserve|ml:home|20260724": 1784892084.534972,
+    "eintrachtbraunschweig|southampton|ml:away|20260724": 1784904779.381658
   },
   "last_report_date": "2026-07-24",
-  "next_id": 319,
+  "next_id": 320,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784899022.450725,
+      "ts": 1784904779.381658,
       "ok": true,
-      "vegas_events": 1306,
-      "pinnacle_events": 609,
+      "vegas_events": 1340,
+      "pinnacle_events": 626,
       "sports_err": {},
       "problems": [],
       "settle_err": null
