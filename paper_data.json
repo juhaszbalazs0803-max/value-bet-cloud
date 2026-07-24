@@ -7313,11 +7313,11 @@
       "fair_pct": 56.4,
       "start": "2026-07-21T00:30:00+00:00",
       "start_ts": 1784593800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1784853612.5175662,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7724,
       "clv_pct": 3.42,
@@ -8845,7 +8845,7 @@
       "close_fair_odds": 1.6468,
       "clv_pct": 1.23,
       "close_fair_p": 0.6072351421188631,
-      "close_ts": 1784852972.498555
+      "close_ts": 1784853062.453947
     },
     {
       "id": 300,
@@ -9138,7 +9138,7 @@
       "close_fair_odds": 1.6518,
       "clv_pct": 7.64,
       "close_fair_p": 0.6053969323625497,
-      "close_ts": 1784852972.498555
+      "close_ts": 1784853602.553682
     },
     {
       "id": 310,
@@ -9168,6 +9168,35 @@
       "clv_pct": 5.07,
       "close_fair_p": 0.7276594106665126,
       "close_ts": 1784846494.750364
+    },
+    {
+      "id": 311,
+      "ts": 1784853602.553682,
+      "key": "68:17177418:ml:home",
+      "content_key": "alejandromorocanas|olivercrawford|ml:home|20260724",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Alejandro Moro Canas - Oliver Crawford",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Alejandro Moro Canas",
+      "odds": 1.636,
+      "stake": 3600,
+      "value_pct": 9.19,
+      "fair_pct": 66.7,
+      "start": "2026-07-24T15:00:00+00:00",
+      "start_ts": 1784905200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4987,
+      "clv_pct": 9.16,
+      "close_fair_p": 0.6672424484010985,
+      "close_ts": 1784853602.553682
     }
   ],
   "papered": {
@@ -9464,17 +9493,18 @@
     "vojvodina|afcajax|ml:away|20260723": 1784828905.460074,
     "herbertphkrawietzk|schnaitterjwallnerm|ml:home|20260724": 1784829535.291165,
     "preston|cambridge|ml:home|20260724": 1784841195.914943,
-    "henrisquire|ottovirtanen|ml:away|20260724": 1784845414.763719
+    "henrisquire|ottovirtanen|ml:away|20260724": 1784845414.763719,
+    "alejandromorocanas|olivercrawford|ml:home|20260724": 1784853602.553682
   },
   "last_report_date": "2026-07-23",
-  "next_id": 311,
+  "next_id": 312,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784852972.498555,
+      "ts": 1784853602.553682,
       "ok": true,
-      "vegas_events": 1139,
-      "pinnacle_events": 437,
+      "vegas_events": 1137,
+      "pinnacle_events": 438,
       "sports_err": {},
       "problems": [],
       "settle_err": null
