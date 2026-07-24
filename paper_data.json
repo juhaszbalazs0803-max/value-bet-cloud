@@ -9060,11 +9060,14 @@
       "fair_pct": 64.8,
       "start": "2026-07-24T12:30:00+00:00",
       "start_ts": 1784896200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784905422.301773,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.5441,
       "clv_pct": 3.62,
@@ -9391,7 +9394,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784904779.381658
+      "close_ts": 1784905409.372389
     },
     {
       "id": 318,
@@ -9420,7 +9423,7 @@
       "close_fair_odds": 1.5198,
       "clv_pct": 4.16,
       "close_fair_p": 0.6579716925956253,
-      "close_ts": 1784904779.381658
+      "close_ts": 1784905409.372389
     },
     {
       "id": 319,
@@ -9449,7 +9452,7 @@
       "close_fair_odds": 1.7902,
       "clv_pct": 3.73,
       "close_fair_p": 0.55858310626703,
-      "close_ts": 1784904779.381658
+      "close_ts": 1784905409.372389
     }
   ],
   "papered": {
@@ -9762,10 +9765,10 @@
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784904779.381658,
+      "ts": 1784905409.372389,
       "ok": true,
-      "vegas_events": 1340,
-      "pinnacle_events": 626,
+      "vegas_events": 1332,
+      "pinnacle_events": 624,
       "sports_err": {},
       "problems": [],
       "settle_err": null
