@@ -7813,11 +7813,11 @@
       "fair_pct": 57.8,
       "start": "2026-07-21T18:00:00+00:00",
       "start_ts": 1784656800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1784916974.80275,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7289,
       "clv_pct": 6.77,
@@ -8970,11 +8970,14 @@
       "fair_pct": 59.9,
       "start": "2026-07-24T15:00:00+00:00",
       "start_ts": 1784905200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784916974.80275,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.8358,
       "clv_pct": 6.22,
@@ -9316,7 +9319,7 @@
       "close_fair_odds": 1.5331,
       "clv_pct": 9.58,
       "close_fair_p": 0.6522885273237778,
-      "close_ts": 1784914360.146641
+      "close_ts": 1784916961.046012
     },
     {
       "id": 315,
@@ -9403,7 +9406,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784914360.146641
+      "close_ts": 1784916961.046012
     },
     {
       "id": 318,
@@ -9548,7 +9551,36 @@
       "close_fair_odds": 1.6842,
       "clv_pct": 7.94,
       "close_fair_p": 0.59375,
-      "close_ts": 1784914360.146641
+      "close_ts": 1784916961.046012
+    },
+    {
+      "id": 323,
+      "ts": 1784916961.046012,
+      "key": "68:17191096:ml:away",
+      "content_key": "schnaitterjwallnerm|miedlerlucaspolmansmarc|ml:away|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Schnaitter J / Wallner M - Miedler, Lucas/Polmans, Marc",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Miedler, Lucas/Polmans, Marc",
+      "odds": 1.6,
+      "stake": 5000,
+      "value_pct": 16.0,
+      "fair_pct": 72.5,
+      "start": "2026-07-25T08:30:00+00:00",
+      "start_ts": 1784968200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3793,
+      "clv_pct": 16.0,
+      "close_fair_p": 0.7250054454367241,
+      "close_ts": 1784916961.046012
     }
   ],
   "papered": {
@@ -9857,17 +9889,18 @@
     "eintrachtbraunschweig|southampton|ml:away|20260724": 1784904779.381658,
     "wellingtonsaints|southlandsharks|ml:away|20260725": 1784906489.378154,
     "coomatigers|tuggeranong|ml:home|20260725": 1784911210.151259,
-    "carmengallardoguevara|shannonlam|ml:away|20260725": 1784913190.127868
+    "carmengallardoguevara|shannonlam|ml:away|20260725": 1784913190.127868,
+    "schnaitterjwallnerm|miedlerlucaspolmansmarc|ml:away|20260725": 1784916961.046012
   },
   "last_report_date": "2026-07-24",
-  "next_id": 323,
+  "next_id": 324,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784914360.146641,
+      "ts": 1784916961.046012,
       "ok": true,
-      "vegas_events": 1288,
-      "pinnacle_events": 536,
+      "vegas_events": 1284,
+      "pinnacle_events": 543,
       "sports_err": {},
       "problems": [],
       "settle_err": null
