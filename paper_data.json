@@ -9394,7 +9394,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784906039.34988
+      "close_ts": 1784906669.301676
     },
     {
       "id": 318,
@@ -9423,7 +9423,7 @@
       "close_fair_odds": 1.5198,
       "clv_pct": 4.16,
       "close_fair_p": 0.6579716925956253,
-      "close_ts": 1784906039.34988
+      "close_ts": 1784906669.301676
     },
     {
       "id": 319,
@@ -9452,7 +9452,36 @@
       "close_fair_odds": 1.7902,
       "clv_pct": 3.73,
       "close_fair_p": 0.55858310626703,
-      "close_ts": 1784906039.34988
+      "close_ts": 1784906669.301676
+    },
+    {
+      "id": 320,
+      "ts": 1784906489.378154,
+      "key": "67:16402006:ml:away",
+      "content_key": "wellingtonsaints|southlandsharks|ml:away|20260725",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Wellington Saints - Southland Sharks",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Southland Sharks",
+      "odds": 1.87,
+      "stake": 2400,
+      "value_pct": 8.31,
+      "fair_pct": 57.9,
+      "start": "2026-07-25T04:00:00+00:00",
+      "start_ts": 1784952000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7211,
+      "clv_pct": 8.65,
+      "close_fair_p": 0.5810296913851104,
+      "close_ts": 1784906669.301676
     }
   ],
   "papered": {
@@ -9758,17 +9787,18 @@
     "jincheonhrfc|geojecitizen|ml:home|20260725": 1784883678.770622,
     "montrealalliance|ottawablackjacks|ml:away|20260724": 1784890914.549967,
     "deportivorecoletatar|sanlorenzoreserve|ml:home|20260724": 1784892084.534972,
-    "eintrachtbraunschweig|southampton|ml:away|20260724": 1784904779.381658
+    "eintrachtbraunschweig|southampton|ml:away|20260724": 1784904779.381658,
+    "wellingtonsaints|southlandsharks|ml:away|20260725": 1784906489.378154
   },
   "last_report_date": "2026-07-24",
-  "next_id": 320,
+  "next_id": 321,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784906039.34988,
+      "ts": 1784906669.301676,
       "ok": true,
-      "vegas_events": 1331,
-      "pinnacle_events": 626,
+      "vegas_events": 1332,
+      "pinnacle_events": 627,
       "sports_err": {},
       "problems": [],
       "settle_err": null
