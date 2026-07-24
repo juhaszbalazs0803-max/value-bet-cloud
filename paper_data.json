@@ -9319,7 +9319,7 @@
       "close_fair_odds": 1.5331,
       "clv_pct": 9.58,
       "close_fair_p": 0.6522885273237778,
-      "close_ts": 1784919300.995432
+      "close_ts": 1784920111.044474
     },
     {
       "id": 315,
@@ -9406,7 +9406,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784919481.057461
+      "close_ts": 1784920111.044474
     },
     {
       "id": 318,
@@ -9551,7 +9551,7 @@
       "close_fair_odds": 1.6842,
       "clv_pct": 7.94,
       "close_fair_p": 0.59375,
-      "close_ts": 1784919481.057461
+      "close_ts": 1784919841.060429
     },
     {
       "id": 323,
@@ -9577,10 +9577,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5183,
-      "clv_pct": 5.38,
-      "close_fair_p": 0.6586421209975611,
-      "close_ts": 1784918040.990101
+      "close_fair_odds": 1.5215,
+      "clv_pct": 5.16,
+      "close_fair_p": 0.6572288368441712,
+      "close_ts": 1784920111.044474
     },
     {
       "id": 324,
@@ -9667,7 +9667,65 @@
       "close_fair_odds": 1.6798,
       "clv_pct": 8.23,
       "close_fair_p": 0.5953002610966058,
-      "close_ts": 1784919481.057461
+      "close_ts": 1784920111.044474
+    },
+    {
+      "id": 327,
+      "ts": 1784919930.9922,
+      "key": "68:17190727:ml:home",
+      "content_key": "kristinanovak|mainesn|ml:home|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Kristina Novak - Maines, N",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Kristina Novak",
+      "odds": 1.818,
+      "stake": 1100,
+      "value_pct": 3.48,
+      "fair_pct": 56.9,
+      "start": "2026-07-25T09:30:00+00:00",
+      "start_ts": 1784971800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.757,
+      "clv_pct": 3.47,
+      "close_fair_p": 0.5691489361702128,
+      "close_ts": 1784919930.9922
+    },
+    {
+      "id": 328,
+      "ts": 1784920021.016125,
+      "key": "66:16907293:ml:home",
+      "content_key": "virginiaunitedn|moretoncityexcelsiorn|ml:home|20260725",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Virginia United (N) - Moreton City Excelsior (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Virginia United (N)",
+      "odds": 1.941,
+      "stake": 2100,
+      "value_pct": 7.84,
+      "fair_pct": 55.6,
+      "start": "2026-07-25T07:00:00+00:00",
+      "start_ts": 1784962800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8001,
+      "clv_pct": 7.83,
+      "close_fair_p": 0.5555159888896801,
+      "close_ts": 1784920111.044474
     }
   ],
   "papered": {
@@ -9980,17 +10038,19 @@
     "schnaitterjwallnerm|miedlerlucaspolmansmarc|ml:away|20260725": 1784916961.046012,
     "elinaavanesyan|bondranna|ml:away|20260725": 1784917501.04473,
     "tikhonovaanastasiazidansektamara|ciricbagariclucijamoratelliangelica|ml:home|20260724": 1784918130.990571,
-    "carloslopezmontagud|lagutinpavel|ml:away|20260725": 1784919030.995364
+    "carloslopezmontagud|lagutinpavel|ml:away|20260725": 1784919030.995364,
+    "kristinanovak|mainesn|ml:home|20260725": 1784919930.9922,
+    "virginiaunitedn|moretoncityexcelsiorn|ml:home|20260725": 1784920021.016125
   },
   "last_report_date": "2026-07-24",
-  "next_id": 327,
+  "next_id": 329,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784919481.057461,
+      "ts": 1784920111.044474,
       "ok": true,
-      "vegas_events": 1269,
-      "pinnacle_events": 572,
+      "vegas_events": 1265,
+      "pinnacle_events": 576,
       "sports_err": {},
       "problems": [],
       "settle_err": null
