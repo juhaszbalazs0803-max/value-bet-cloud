@@ -9266,7 +9266,36 @@
       "close_fair_odds": 1.4643,
       "clv_pct": 7.29,
       "close_fair_p": 0.6829268292682926,
-      "close_ts": 1784874011.776397
+      "close_ts": 1784874641.80212
+    },
+    {
+      "id": 314,
+      "ts": 1784874641.80212,
+      "key": "66:16907367:ml:home",
+      "content_key": "hakoahsydneycityeast|rydalmerelionsfc|ml:home|20260725",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Hakoah Sydney City East - Rydalmere Lions FC",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Hakoah Sydney City East",
+      "odds": 1.68,
+      "stake": 3500,
+      "value_pct": 9.58,
+      "fair_pct": 65.2,
+      "start": "2026-07-25T06:30:00+00:00",
+      "start_ts": 1784961000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5331,
+      "clv_pct": 9.58,
+      "close_fair_p": 0.6522885273237778,
+      "close_ts": 1784874641.80212
     }
   ],
   "papered": {
@@ -9566,17 +9595,18 @@
     "henrisquire|ottovirtanen|ml:away|20260724": 1784845414.763719,
     "alejandromorocanas|olivercrawford|ml:home|20260724": 1784853602.553682,
     "dhakshineswarsuresh|andresmartin|ml:home|20260724": 1784854142.486201,
-    "guniverse|artilheiros|ml:home|20260724": 1784860777.576235
+    "guniverse|artilheiros|ml:home|20260724": 1784860777.576235,
+    "hakoahsydneycityeast|rydalmerelionsfc|ml:home|20260725": 1784874641.80212
   },
   "last_report_date": "2026-07-23",
-  "next_id": 314,
+  "next_id": 315,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784874011.776397,
+      "ts": 1784874641.80212,
       "ok": true,
-      "vegas_events": 1241,
-      "pinnacle_events": 521,
+      "vegas_events": 1258,
+      "pinnacle_events": 532,
       "sports_err": {},
       "problems": [],
       "settle_err": null
