@@ -9388,7 +9388,36 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784891544.542129
+      "close_ts": 1784892174.499189
+    },
+    {
+      "id": 318,
+      "ts": 1784892084.534972,
+      "key": "66:17160950:ml:home",
+      "content_key": "deportivorecoletatar|sanlorenzoreserve|ml:home|20260724",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Deportivo Recoleta (Tar.) - San Lorenzo Reserve",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Deportivo Recoleta (Tar.)",
+      "odds": 1.583,
+      "stake": 1800,
+      "value_pct": 4.18,
+      "fair_pct": 65.8,
+      "start": "2026-07-24T17:00:00+00:00",
+      "start_ts": 1784912400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5198,
+      "clv_pct": 4.16,
+      "close_fair_p": 0.6579716925956253,
+      "close_ts": 1784892174.499189
     }
   ],
   "papered": {
@@ -9692,17 +9721,18 @@
     "hakoahsydneycityeast|rydalmerelionsfc|ml:home|20260725": 1784874641.80212,
     "groningen|volendam|ml:home|20260724": 1784881428.777631,
     "jincheonhrfc|geojecitizen|ml:home|20260725": 1784883678.770622,
-    "montrealalliance|ottawablackjacks|ml:away|20260724": 1784890914.549967
+    "montrealalliance|ottawablackjacks|ml:away|20260724": 1784890914.549967,
+    "deportivorecoletatar|sanlorenzoreserve|ml:home|20260724": 1784892084.534972
   },
   "last_report_date": "2026-07-24",
-  "next_id": 318,
+  "next_id": 319,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784891544.542129,
+      "ts": 1784892174.499189,
       "ok": true,
-      "vegas_events": 1262,
-      "pinnacle_events": 602,
+      "vegas_events": 1268,
+      "pinnacle_events": 598,
       "sports_err": {},
       "problems": [],
       "settle_err": null
