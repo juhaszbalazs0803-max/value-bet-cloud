@@ -9266,7 +9266,7 @@
       "close_fair_odds": 1.6352,
       "clv_pct": -3.93,
       "close_fair_p": 0.6115317414094351,
-      "close_ts": 1784883318.825647
+      "close_ts": 1784883948.815803
     },
     {
       "id": 314,
@@ -9325,6 +9325,35 @@
       "clv_pct": 5.17,
       "close_fair_p": 0.5509257644966701,
       "close_ts": 1784881788.717683
+    },
+    {
+      "id": 316,
+      "ts": 1784883678.770622,
+      "key": "66:17146069:ml:home",
+      "content_key": "jincheonhrfc|geojecitizen|ml:home|20260725",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Jincheon HR FC - Geoje Citizen",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Jincheon HR FC",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.51,
+      "fair_pct": 57.0,
+      "start": "2026-07-25T07:30:00+00:00",
+      "start_ts": 1784964600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7543,
+      "clv_pct": 4.49,
+      "close_fair_p": 0.5700323062037751,
+      "close_ts": 1784883948.815803
     }
   ],
   "papered": {
@@ -9626,17 +9655,18 @@
     "dhakshineswarsuresh|andresmartin|ml:home|20260724": 1784854142.486201,
     "guniverse|artilheiros|ml:home|20260724": 1784860777.576235,
     "hakoahsydneycityeast|rydalmerelionsfc|ml:home|20260725": 1784874641.80212,
-    "groningen|volendam|ml:home|20260724": 1784881428.777631
+    "groningen|volendam|ml:home|20260724": 1784881428.777631,
+    "jincheonhrfc|geojecitizen|ml:home|20260725": 1784883678.770622
   },
-  "last_report_date": "2026-07-23",
-  "next_id": 316,
+  "last_report_date": "2026-07-24",
+  "next_id": 317,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784883318.825647,
+      "ts": 1784883948.815803,
       "ok": true,
-      "vegas_events": 1260,
-      "pinnacle_events": 582,
+      "vegas_events": 1266,
+      "pinnacle_events": 583,
       "sports_err": {},
       "problems": [],
       "settle_err": null
