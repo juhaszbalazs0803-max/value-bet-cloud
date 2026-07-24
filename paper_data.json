@@ -9319,7 +9319,7 @@
       "close_fair_odds": 1.5331,
       "clv_pct": 9.58,
       "close_fair_p": 0.6522885273237778,
-      "close_ts": 1784917591.01667
+      "close_ts": 1784918220.99254
     },
     {
       "id": 315,
@@ -9406,7 +9406,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1784917591.01667
+      "close_ts": 1784918220.99254
     },
     {
       "id": 318,
@@ -9551,7 +9551,7 @@
       "close_fair_odds": 1.6842,
       "clv_pct": 7.94,
       "close_fair_p": 0.59375,
-      "close_ts": 1784917591.01667
+      "close_ts": 1784918220.99254
     },
     {
       "id": 323,
@@ -9577,10 +9577,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3793,
-      "clv_pct": 16.0,
-      "close_fair_p": 0.7250054454367241,
-      "close_ts": 1784917591.01667
+      "close_fair_odds": 1.5183,
+      "clv_pct": 5.38,
+      "close_fair_p": 0.6586421209975611,
+      "close_ts": 1784918040.990101
     },
     {
       "id": 324,
@@ -9610,6 +9610,35 @@
       "clv_pct": 3.87,
       "close_fair_p": 0.6230739691835069,
       "close_ts": 1784917501.04473
+    },
+    {
+      "id": 325,
+      "ts": 1784918130.990571,
+      "key": "68:17179871:ml:home",
+      "content_key": "tikhonovaanastasiazidansektamara|ciricbagariclucijamoratelliangelica|ml:home|20260724",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Tikhonova, Anastasia/Zidansek, Tamara - Ciric Bagaric, Lucija/Moratelli, Angelica",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Tikhonova, Anastasia/Zidansek, Tamara",
+      "odds": 1.75,
+      "stake": 2700,
+      "value_pct": 8.13,
+      "fair_pct": 61.8,
+      "start": "2026-07-24T18:45:00+00:00",
+      "start_ts": 1784918700.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6184,
+      "clv_pct": 8.13,
+      "close_fair_p": 0.6178949369494963,
+      "close_ts": 1784918220.99254
     }
   ],
   "papered": {
@@ -9920,17 +9949,18 @@
     "coomatigers|tuggeranong|ml:home|20260725": 1784911210.151259,
     "carmengallardoguevara|shannonlam|ml:away|20260725": 1784913190.127868,
     "schnaitterjwallnerm|miedlerlucaspolmansmarc|ml:away|20260725": 1784916961.046012,
-    "elinaavanesyan|bondranna|ml:away|20260725": 1784917501.04473
+    "elinaavanesyan|bondranna|ml:away|20260725": 1784917501.04473,
+    "tikhonovaanastasiazidansektamara|ciricbagariclucijamoratelliangelica|ml:home|20260724": 1784918130.990571
   },
   "last_report_date": "2026-07-24",
-  "next_id": 325,
+  "next_id": 326,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784917591.01667,
+      "ts": 1784918220.99254,
       "ok": true,
-      "vegas_events": 1282,
-      "pinnacle_events": 566,
+      "vegas_events": 1272,
+      "pinnacle_events": 570,
       "sports_err": {},
       "problems": [],
       "settle_err": null
