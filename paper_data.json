@@ -9577,11 +9577,14 @@
       "fair_pct": 72.5,
       "start": "2026-07-25T08:30:00+00:00",
       "start_ts": 1784968200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1784975785.1273837,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.4808,
       "clv_pct": 8.05,
@@ -9879,7 +9882,7 @@
       "close_fair_odds": 1.6086,
       "clv_pct": 13.02,
       "close_fair_p": 0.6216696269982238,
-      "close_ts": 1784973100.370089
+      "close_ts": 1784975768.815485
     },
     {
       "id": 334,
@@ -9934,10 +9937,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9077,
-      "clv_pct": 0.07,
-      "close_fair_p": 0.5241935483870968,
-      "close_ts": 1784970760.346105
+      "close_fair_odds": 1.9633,
+      "clv_pct": -2.77,
+      "close_fair_p": 0.5093401068952743,
+      "close_ts": 1784975768.815485
     },
     {
       "id": 336,
@@ -9995,7 +9998,7 @@
       "close_fair_odds": 1.7572,
       "clv_pct": 3.46,
       "close_fair_p": 0.5690956328096004,
-      "close_ts": 1784973100.370089
+      "close_ts": 1784975768.815485
     },
     {
       "id": 338,
@@ -10024,7 +10027,7 @@
       "close_fair_odds": 1.7372,
       "clv_pct": 4.65,
       "close_fair_p": 0.5756240822320118,
-      "close_ts": 1784973100.370089
+      "close_ts": 1784975768.815485
     },
     {
       "id": 339,
@@ -10111,7 +10114,7 @@
       "close_fair_odds": 1.7339,
       "clv_pct": 12.58,
       "close_fair_p": 0.5767195767195767,
-      "close_ts": 1784973100.370089
+      "close_ts": 1784975768.815485
     },
     {
       "id": 342,
@@ -10170,6 +10173,64 @@
       "clv_pct": 7.04,
       "close_fair_p": 0.5993465386971616,
       "close_ts": 1784972470.368903
+    },
+    {
+      "id": 344,
+      "ts": 1784975768.815485,
+      "key": "66:17145958:ml:home",
+      "content_key": "hpsn|tampereenilvesn|ml:home|20260725",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "HPS  (N) - Tampereen Ilves  (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — HPS  (N)",
+      "odds": 1.7,
+      "stake": 2500,
+      "value_pct": 6.98,
+      "fair_pct": 62.9,
+      "start": "2026-07-25T11:00:00+00:00",
+      "start_ts": 1784977200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.589,
+      "clv_pct": 6.99,
+      "close_fair_p": 0.6293163336193863,
+      "close_ts": 1784975768.815485
+    },
+    {
+      "id": 345,
+      "ts": 1784975768.815485,
+      "key": "68:17197092:ml:away",
+      "content_key": "leama|katieswan|ml:away|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Lea Ma - Katie Swan",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Katie Swan",
+      "odds": 1.5,
+      "stake": 1800,
+      "value_pct": 3.65,
+      "fair_pct": 69.1,
+      "start": "2026-07-25T17:45:00+00:00",
+      "start_ts": 1785001500.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4472,
+      "clv_pct": 3.65,
+      "close_fair_p": 0.6909852371479427,
+      "close_ts": 1784975768.815485
     }
   ],
   "papered": {
@@ -10499,17 +10560,19 @@
     "dandenongrangers|kilsythcobras|ml:home|20260725": 1784969950.691649,
     "fuerzaregia|solesdemexicali|ml:away|20260725": 1784969950.691649,
     "kamillarakhimova|heatherwatson|ml:home|20260725": 1784970670.345943,
-    "fionaferro|luciabronzetti|ml:home|20260725": 1784971480.397299
+    "fionaferro|luciabronzetti|ml:home|20260725": 1784971480.397299,
+    "hpsn|tampereenilvesn|ml:home|20260725": 1784975768.815485,
+    "leama|katieswan|ml:away|20260725": 1784975768.815485
   },
   "last_report_date": "2026-07-25",
-  "next_id": 344,
+  "next_id": 346,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1784973100.370089,
+      "ts": 1784975768.815485,
       "ok": true,
-      "vegas_events": 1260,
-      "pinnacle_events": 740,
+      "vegas_events": 1251,
+      "pinnacle_events": 707,
       "sports_err": {},
       "problems": [],
       "settle_err": null
