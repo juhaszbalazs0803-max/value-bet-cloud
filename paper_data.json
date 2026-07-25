@@ -7560,11 +7560,11 @@
       "fair_pct": 70.9,
       "start": "2026-07-22T07:00:00+00:00",
       "start_ts": 1784703600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1784963292.4704778,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.3443,
       "clv_pct": 16.86,
@@ -9734,7 +9734,7 @@
       "close_fair_odds": 1.7866,
       "clv_pct": 8.64,
       "close_fair_p": 0.5597286164283983,
-      "close_ts": 1784962650.934886
+      "close_ts": 1784962740.96378
     },
     {
       "id": 329,
@@ -9879,7 +9879,7 @@
       "close_fair_odds": 1.5849,
       "clv_pct": 14.71,
       "close_fair_p": 0.6309380436237121,
-      "close_ts": 1784962650.934886
+      "close_ts": 1784963280.926082
     },
     {
       "id": 334,
@@ -9908,7 +9908,7 @@
       "close_fair_odds": 1.2474,
       "clv_pct": 4.22,
       "close_fair_p": 0.8016858307755738,
-      "close_ts": 1784962650.934886
+      "close_ts": 1784963280.926082
     },
     {
       "id": 335,
@@ -9937,7 +9937,36 @@
       "close_fair_odds": 1.8298,
       "clv_pct": 4.33,
       "close_fair_p": 0.5465191932335719,
-      "close_ts": 1784962650.934886
+      "close_ts": 1784963280.926082
+    },
+    {
+      "id": 336,
+      "ts": 1784963280.926082,
+      "key": "66:17119237:ml:away",
+      "content_key": "wehenwiesbaden|bayernmunich|ml:away|20260725",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Wehen Wiesbaden - Bayern Munich",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Bayern Munich",
+      "odds": 1.417,
+      "stake": 4000,
+      "value_pct": 6.7,
+      "fair_pct": 75.3,
+      "start": "2026-07-25T13:30:00+00:00",
+      "start_ts": 1784986200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3278,
+      "clv_pct": 6.72,
+      "close_fair_p": 0.7531380753138076,
+      "close_ts": 1784963280.926082
     }
   ],
   "papered": {
@@ -10259,17 +10288,18 @@
     "omiyaardijaventusn|bayernmnchenn|ml:away|20260725": 1784960130.952995,
     "nacao|hercilioluz|ml:away|20260725": 1784960130.952995,
     "pk35vantaan|hjkhelsinkin|ml:away|20260725": 1784960130.952995,
-    "forfarathleticfc|brechincity|ml:home|20260725": 1784961210.946527
+    "forfarathleticfc|brechincity|ml:home|20260725": 1784961210.946527,
+    "wehenwiesbaden|bayernmunich|ml:away|20260725": 1784963280.926082
   },
   "last_report_date": "2026-07-24",
-  "next_id": 336,
+  "next_id": 337,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784962650.934886,
+      "ts": 1784963280.926082,
       "ok": true,
-      "vegas_events": 1337,
-      "pinnacle_events": 745,
+      "vegas_events": 1299,
+      "pinnacle_events": 736,
       "sports_err": {},
       "problems": [],
       "settle_err": null
