@@ -9888,7 +9888,7 @@
       "close_fair_odds": 1.6086,
       "clv_pct": 13.02,
       "close_fair_p": 0.6216696269982238,
-      "close_ts": 1784991606.750782
+      "close_ts": 1784992236.696805
     },
     {
       "id": 334,
@@ -10294,7 +10294,7 @@
       "close_fair_odds": 1.8895,
       "clv_pct": 3.73,
       "close_fair_p": 0.5292352777002512,
-      "close_ts": 1784991606.750782
+      "close_ts": 1784992236.696805
     },
     {
       "id": 348,
@@ -10323,7 +10323,7 @@
       "close_fair_odds": 1.5672,
       "clv_pct": 7.2,
       "close_fair_p": 0.6380638063806381,
-      "close_ts": 1784991606.750782
+      "close_ts": 1784992236.696805
     },
     {
       "id": 349,
@@ -10411,6 +10411,64 @@
       "clv_pct": 3.24,
       "close_fair_p": 0.5806451612903225,
       "close_ts": 1784991606.750782
+    },
+    {
+      "id": 352,
+      "ts": 1784991786.721009,
+      "key": "68:17195964:ml:away",
+      "content_key": "andreilagan|remybertola|ml:away|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Andre Ilagan - Remy Bertola",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Remy Bertola",
+      "odds": 1.556,
+      "stake": 1700,
+      "value_pct": 3.69,
+      "fair_pct": 66.7,
+      "start": "2026-07-25T15:10:00+00:00",
+      "start_ts": 1784992200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4986,
+      "clv_pct": 3.83,
+      "close_fair_p": 0.667279411764706,
+      "close_ts": 1784991876.772251
+    },
+    {
+      "id": 353,
+      "ts": 1784992236.696805,
+      "key": "68:17196092:ml:home",
+      "content_key": "bornagojo|aidanmayo|ml:home|20260726",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Borna Gojo - Aidan Mayo",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Borna Gojo",
+      "odds": 1.32,
+      "stake": 2700,
+      "value_pct": 3.51,
+      "fair_pct": 78.4,
+      "start": "2026-07-26T04:00:00+00:00",
+      "start_ts": 1785038400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.2753,
+      "clv_pct": 3.51,
+      "close_fair_p": 0.7841315527713699,
+      "close_ts": 1784992236.696805
     }
   ],
   "papered": {
@@ -10748,17 +10806,19 @@
     "cobreloa|cdsantacruz|ml:home|20260725": 1784980897.406233,
     "lechiagdansk|pogongrodziskmazowiecki|ml:away|20260725": 1784983237.469181,
     "alanmagadan|garrettjohns|ml:home|20260726": 1784983327.461903,
-    "fccska1948|botevvratsa|ml:home|20260725": 1784991606.750782
+    "fccska1948|botevvratsa|ml:home|20260725": 1784991606.750782,
+    "andreilagan|remybertola|ml:away|20260725": 1784991786.721009,
+    "bornagojo|aidanmayo|ml:home|20260726": 1784992236.696805
   },
   "last_report_date": "2026-07-25",
-  "next_id": 352,
+  "next_id": 354,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1784991606.750782,
+      "ts": 1784992236.696805,
       "ok": true,
-      "vegas_events": 1090,
-      "pinnacle_events": 618,
+      "vegas_events": 1091,
+      "pinnacle_events": 599,
       "sports_err": {},
       "problems": [],
       "settle_err": null
