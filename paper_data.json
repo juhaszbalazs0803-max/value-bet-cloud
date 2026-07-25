@@ -9891,7 +9891,7 @@
       "close_fair_odds": 1.6086,
       "clv_pct": 13.02,
       "close_fair_p": 0.6216696269982238,
-      "close_ts": 1784996301.098891
+      "close_ts": 1784996931.24176
     },
     {
       "id": 334,
@@ -10297,7 +10297,7 @@
       "close_fair_odds": 1.8895,
       "clv_pct": 3.73,
       "close_fair_p": 0.5292352777002512,
-      "close_ts": 1784996301.098891
+      "close_ts": 1784996931.24176
     },
     {
       "id": 348,
@@ -10326,7 +10326,7 @@
       "close_fair_odds": 1.5672,
       "clv_pct": 7.2,
       "close_fair_p": 0.6380638063806381,
-      "close_ts": 1784996301.098891
+      "close_ts": 1784996931.24176
     },
     {
       "id": 349,
@@ -10501,6 +10501,35 @@
       "clv_pct": 5.8,
       "close_fair_p": 0.6346909964881987,
       "close_ts": 1784992596.690123
+    },
+    {
+      "id": 355,
+      "ts": 1784996391.07147,
+      "key": "68:17196093:ml:away",
+      "content_key": "migueltobon|bernardtomic|ml:away|20260726",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Miguel Tobon - Bernard Tomic",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Bernard Tomic",
+      "odds": 1.4,
+      "stake": 3200,
+      "value_pct": 5.1,
+      "fair_pct": 75.1,
+      "start": "2026-07-26T01:00:00+00:00",
+      "start_ts": 1785027600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3321,
+      "clv_pct": 5.1,
+      "close_fair_p": 0.7507097337753865,
+      "close_ts": 1784996391.07147
     }
   ],
   "papered": {
@@ -10841,17 +10870,18 @@
     "fccska1948|botevvratsa|ml:home|20260725": 1784991606.750782,
     "andreilagan|remybertola|ml:away|20260725": 1784991786.721009,
     "bornagojo|aidanmayo|ml:home|20260726": 1784992236.696805,
-    "sportboys|tarma|ml:home|20260725": 1784992506.71113
+    "sportboys|tarma|ml:home|20260725": 1784992506.71113,
+    "migueltobon|bernardtomic|ml:away|20260726": 1784996391.07147
   },
   "last_report_date": "2026-07-25",
-  "next_id": 355,
+  "next_id": 356,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1784996301.098891,
+      "ts": 1784996931.24176,
       "ok": true,
-      "vegas_events": 1037,
-      "pinnacle_events": 591,
+      "vegas_events": 1040,
+      "pinnacle_events": 592,
       "sports_err": {},
       "problems": [],
       "settle_err": null
