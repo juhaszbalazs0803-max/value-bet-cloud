@@ -9325,7 +9325,7 @@
       "close_fair_odds": 1.6913,
       "clv_pct": -0.67,
       "close_fair_p": 0.5912729939497647,
-      "close_ts": 1784960760.93169
+      "close_ts": 1784960940.953245
     },
     {
       "id": 315,
@@ -9734,7 +9734,7 @@
       "close_fair_odds": 1.7866,
       "clv_pct": 8.64,
       "close_fair_p": 0.5597286164283983,
-      "close_ts": 1784960760.93169
+      "close_ts": 1784961390.95831
     },
     {
       "id": 329,
@@ -9850,7 +9850,7 @@
       "close_fair_odds": 1.2668,
       "clv_pct": 8.54,
       "close_fair_p": 0.7893871286043197,
-      "close_ts": 1784960760.93169
+      "close_ts": 1784961210.946527
     },
     {
       "id": 333,
@@ -9879,7 +9879,7 @@
       "close_fair_odds": 1.5849,
       "clv_pct": 14.71,
       "close_fair_p": 0.6309380436237121,
-      "close_ts": 1784960760.93169
+      "close_ts": 1784961390.95831
     },
     {
       "id": 334,
@@ -9908,7 +9908,36 @@
       "close_fair_odds": 1.2474,
       "clv_pct": 4.22,
       "close_fair_p": 0.8016858307755738,
-      "close_ts": 1784960760.93169
+      "close_ts": 1784961390.95831
+    },
+    {
+      "id": 335,
+      "ts": 1784961210.946527,
+      "key": "66:17146090:ml:home",
+      "content_key": "forfarathleticfc|brechincity|ml:home|20260725",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Forfar Athletic FC - Brechin City",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Forfar Athletic FC",
+      "odds": 1.909,
+      "stake": 1200,
+      "value_pct": 4.34,
+      "fair_pct": 54.7,
+      "start": "2026-07-25T14:00:00+00:00",
+      "start_ts": 1784988000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8298,
+      "clv_pct": 4.33,
+      "close_fair_p": 0.5465191932335719,
+      "close_ts": 1784961390.95831
     }
   ],
   "papered": {
@@ -10229,17 +10258,18 @@
     "renatazarazua|carolinedolehide|ml:home|20260725": 1784931823.436851,
     "omiyaardijaventusn|bayernmnchenn|ml:away|20260725": 1784960130.952995,
     "nacao|hercilioluz|ml:away|20260725": 1784960130.952995,
-    "pk35vantaan|hjkhelsinkin|ml:away|20260725": 1784960130.952995
+    "pk35vantaan|hjkhelsinkin|ml:away|20260725": 1784960130.952995,
+    "forfarathleticfc|brechincity|ml:home|20260725": 1784961210.946527
   },
   "last_report_date": "2026-07-24",
-  "next_id": 335,
+  "next_id": 336,
   "tg_offset": 363415787,
   "health": {
     "last_scan": {
-      "ts": 1784960760.93169,
+      "ts": 1784961390.95831,
       "ok": true,
-      "vegas_events": 1329,
-      "pinnacle_events": 732,
+      "vegas_events": 1324,
+      "pinnacle_events": 727,
       "sports_err": {},
       "problems": [],
       "settle_err": null
