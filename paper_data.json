@@ -9888,7 +9888,7 @@
       "close_fair_odds": 1.6086,
       "clv_pct": 13.02,
       "close_fair_p": 0.6216696269982238,
-      "close_ts": 1784992236.696805
+      "close_ts": 1784992866.784001
     },
     {
       "id": 334,
@@ -10294,7 +10294,7 @@
       "close_fair_odds": 1.8895,
       "clv_pct": 3.73,
       "close_fair_p": 0.5292352777002512,
-      "close_ts": 1784992236.696805
+      "close_ts": 1784992866.784001
     },
     {
       "id": 348,
@@ -10323,7 +10323,7 @@
       "close_fair_odds": 1.5672,
       "clv_pct": 7.2,
       "close_fair_p": 0.6380638063806381,
-      "close_ts": 1784992236.696805
+      "close_ts": 1784992866.784001
     },
     {
       "id": 349,
@@ -10468,7 +10468,36 @@
       "close_fair_odds": 1.2753,
       "clv_pct": 3.51,
       "close_fair_p": 0.7841315527713699,
-      "close_ts": 1784992236.696805
+      "close_ts": 1784992596.690123
+    },
+    {
+      "id": 354,
+      "ts": 1784992506.71113,
+      "key": "66:17089359:ml:home",
+      "content_key": "sportboys|tarma|ml:home|20260725",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Sport Boys - Tarma",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Sport Boys",
+      "odds": 1.667,
+      "stake": 2200,
+      "value_pct": 5.78,
+      "fair_pct": 63.5,
+      "start": "2026-07-25T15:30:00+00:00",
+      "start_ts": 1784993400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5756,
+      "clv_pct": 5.8,
+      "close_fair_p": 0.6346909964881987,
+      "close_ts": 1784992596.690123
     }
   ],
   "papered": {
@@ -10808,17 +10837,18 @@
     "alanmagadan|garrettjohns|ml:home|20260726": 1784983327.461903,
     "fccska1948|botevvratsa|ml:home|20260725": 1784991606.750782,
     "andreilagan|remybertola|ml:away|20260725": 1784991786.721009,
-    "bornagojo|aidanmayo|ml:home|20260726": 1784992236.696805
+    "bornagojo|aidanmayo|ml:home|20260726": 1784992236.696805,
+    "sportboys|tarma|ml:home|20260725": 1784992506.71113
   },
   "last_report_date": "2026-07-25",
-  "next_id": 354,
+  "next_id": 355,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1784992236.696805,
+      "ts": 1784992866.784001,
       "ok": true,
-      "vegas_events": 1091,
-      "pinnacle_events": 599,
+      "vegas_events": 1095,
+      "pinnacle_events": 611,
       "sports_err": {},
       "problems": [],
       "settle_err": null
