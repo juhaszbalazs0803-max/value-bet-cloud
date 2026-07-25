@@ -9879,7 +9879,7 @@
       "close_fair_odds": 1.6086,
       "clv_pct": 13.02,
       "close_fair_p": 0.6216696269982238,
-      "close_ts": 1784971210.346579
+      "close_ts": 1784971840.396013
     },
     {
       "id": 334,
@@ -9966,7 +9966,7 @@
       "close_fair_odds": 1.3278,
       "clv_pct": 6.72,
       "close_fair_p": 0.7531380753138076,
-      "close_ts": 1784963280.926082
+      "close_ts": 1784971840.396013
     },
     {
       "id": 337,
@@ -9995,7 +9995,7 @@
       "close_fair_odds": 1.7572,
       "clv_pct": 3.46,
       "close_fair_p": 0.5690956328096004,
-      "close_ts": 1784971210.346579
+      "close_ts": 1784971840.396013
     },
     {
       "id": 338,
@@ -10024,7 +10024,7 @@
       "close_fair_odds": 1.7372,
       "clv_pct": 4.65,
       "close_fair_p": 0.5756240822320118,
-      "close_ts": 1784971210.346579
+      "close_ts": 1784971840.396013
     },
     {
       "id": 339,
@@ -10053,7 +10053,7 @@
       "close_fair_odds": 1.5347,
       "clv_pct": 4.25,
       "close_fair_p": 0.6515857474058567,
-      "close_ts": 1784971210.346579
+      "close_ts": 1784971750.448335
     },
     {
       "id": 340,
@@ -10111,7 +10111,7 @@
       "close_fair_odds": 1.7339,
       "clv_pct": 12.58,
       "close_fair_p": 0.5767195767195767,
-      "close_ts": 1784971210.346579
+      "close_ts": 1784971840.396013
     },
     {
       "id": 342,
@@ -10137,10 +10137,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5058,
-      "clv_pct": 6.26,
-      "close_fair_p": 0.6641142984708115,
-      "close_ts": 1784971210.346579
+      "close_fair_odds": 1.5192,
+      "clv_pct": 5.32,
+      "close_fair_p": 0.6582241101242533,
+      "close_ts": 1784971840.396013
+    },
+    {
+      "id": 343,
+      "ts": 1784971480.397299,
+      "key": "68:17194361:ml:home",
+      "content_key": "fionaferro|luciabronzetti|ml:home|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Fiona Ferro - Lucia Bronzetti",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Fiona Ferro",
+      "odds": 1.786,
+      "stake": 1900,
+      "value_pct": 6.05,
+      "fair_pct": 59.4,
+      "start": "2026-07-25T18:15:00+00:00",
+      "start_ts": 1785003300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6685,
+      "clv_pct": 7.04,
+      "close_fair_p": 0.5993465386971616,
+      "close_ts": 1784971840.396013
     }
   ],
   "papered": {
@@ -10469,17 +10498,18 @@
     "astrasharma|aoiito|ml:away|20260725": 1784969950.691649,
     "dandenongrangers|kilsythcobras|ml:home|20260725": 1784969950.691649,
     "fuerzaregia|solesdemexicali|ml:away|20260725": 1784969950.691649,
-    "kamillarakhimova|heatherwatson|ml:home|20260725": 1784970670.345943
+    "kamillarakhimova|heatherwatson|ml:home|20260725": 1784970670.345943,
+    "fionaferro|luciabronzetti|ml:home|20260725": 1784971480.397299
   },
   "last_report_date": "2026-07-25",
-  "next_id": 343,
+  "next_id": 344,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1784971210.346579,
+      "ts": 1784971840.396013,
       "ok": true,
-      "vegas_events": 1275,
-      "pinnacle_events": 753,
+      "vegas_events": 1264,
+      "pinnacle_events": 749,
       "sports_err": {},
       "problems": [],
       "settle_err": null
