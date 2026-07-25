@@ -9879,7 +9879,7 @@
       "close_fair_odds": 1.6086,
       "clv_pct": 13.02,
       "close_fair_p": 0.6216696269982238,
-      "close_ts": 1784972470.368903
+      "close_ts": 1784973100.370089
     },
     {
       "id": 334,
@@ -9966,7 +9966,7 @@
       "close_fair_odds": 1.3804,
       "clv_pct": 2.65,
       "close_fair_p": 0.7244163952225842,
-      "close_ts": 1784972470.368903
+      "close_ts": 1784973100.370089
     },
     {
       "id": 337,
@@ -9995,7 +9995,7 @@
       "close_fair_odds": 1.7572,
       "clv_pct": 3.46,
       "close_fair_p": 0.5690956328096004,
-      "close_ts": 1784972470.368903
+      "close_ts": 1784973100.370089
     },
     {
       "id": 338,
@@ -10024,7 +10024,7 @@
       "close_fair_odds": 1.7372,
       "clv_pct": 4.65,
       "close_fair_p": 0.5756240822320118,
-      "close_ts": 1784972470.368903
+      "close_ts": 1784973100.370089
     },
     {
       "id": 339,
@@ -10053,7 +10053,7 @@
       "close_fair_odds": 1.5204,
       "clv_pct": 5.24,
       "close_fair_p": 0.6577039409305222,
-      "close_ts": 1784972470.368903
+      "close_ts": 1784973100.370089
     },
     {
       "id": 340,
@@ -10111,7 +10111,7 @@
       "close_fair_odds": 1.7339,
       "clv_pct": 12.58,
       "close_fair_p": 0.5767195767195767,
-      "close_ts": 1784972470.368903
+      "close_ts": 1784973100.370089
     },
     {
       "id": 342,
@@ -10137,10 +10137,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5042,
-      "clv_pct": 6.37,
-      "close_fair_p": 0.6648201309769445,
-      "close_ts": 1784972020.369411
+      "close_fair_odds": 1.4373,
+      "clv_pct": 11.32,
+      "close_fair_p": 0.6957433376922036,
+      "close_ts": 1784973100.370089
     },
     {
       "id": 343,
@@ -10506,10 +10506,10 @@
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1784972470.368903,
+      "ts": 1784973100.370089,
       "ok": true,
-      "vegas_events": 1261,
-      "pinnacle_events": 745,
+      "vegas_events": 1260,
+      "pinnacle_events": 740,
       "sports_err": {},
       "problems": [],
       "settle_err": null
