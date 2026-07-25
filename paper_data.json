@@ -10600,6 +10600,35 @@
       "clv_pct": 5.63,
       "close_fair_p": 0.5281527580284759,
       "close_ts": 1785002378.6584
+    },
+    {
+      "id": 358,
+      "ts": 1785004988.719351,
+      "key": "68:17197221:ml:away",
+      "content_key": "miakupres|valeriasavinykh|ml:away|20260725",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Mia Kupres - Valeria Savinykh",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Valeria Savinykh",
+      "odds": 1.714,
+      "stake": 1100,
+      "value_pct": 3.08,
+      "fair_pct": 60.1,
+      "start": "2026-07-25T18:50:00+00:00",
+      "start_ts": 1785005400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6631,
+      "clv_pct": 3.06,
+      "close_fair_p": 0.601304681504221,
+      "close_ts": 1785005348.796891
     }
   ],
   "papered": {
@@ -10943,17 +10972,18 @@
     "sportboys|tarma|ml:home|20260725": 1784992506.71113,
     "migueltobon|bernardtomic|ml:away|20260726": 1784996391.07147,
     "annafrey|mariaaranteixidogarcia|ml:home|20260725": 1784997111.205478,
-    "tubarao|guaranidepalhocasc|ml:home|20260725": 1785002198.716209
+    "tubarao|guaranidepalhocasc|ml:home|20260725": 1785002198.716209,
+    "miakupres|valeriasavinykh|ml:away|20260725": 1785004988.719351
   },
   "last_report_date": "2026-07-25",
-  "next_id": 358,
+  "next_id": 359,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785004718.712399,
+      "ts": 1785005348.796891,
       "ok": true,
-      "vegas_events": 951,
-      "pinnacle_events": 522,
+      "vegas_events": 973,
+      "pinnacle_events": 516,
       "sports_err": {},
       "problems": [],
       "settle_err": null
