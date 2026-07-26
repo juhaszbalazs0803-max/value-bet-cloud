@@ -10797,7 +10797,7 @@
       "close_fair_odds": 1.7247,
       "clv_pct": 5.41,
       "close_fair_p": 0.5798257650700449,
-      "close_ts": 1785075463.104541
+      "close_ts": 1785076093.157903
     },
     {
       "id": 364,
@@ -11061,10 +11061,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7658,
-      "clv_pct": 5.16,
-      "close_fair_p": 0.5663211546472592,
-      "close_ts": 1785075283.144472
+      "close_fair_odds": 1.5582,
+      "clv_pct": 19.18,
+      "close_fair_p": 0.6417761239621227,
+      "close_ts": 1785075823.08711
+    },
+    {
+      "id": 373,
+      "ts": 1785075553.091829,
+      "key": "68:17206187:ml:away",
+      "content_key": "emmasiyudong|valeriasavinykh|ml:away|20260726",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Emma SI Yu Dong - Valeria Savinykh",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Valeria Savinykh",
+      "odds": 1.818,
+      "stake": 1100,
+      "value_pct": 3.69,
+      "fair_pct": 57.0,
+      "start": "2026-07-26T20:00:00+00:00",
+      "start_ts": 1785096000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7535,
+      "clv_pct": 3.68,
+      "close_fair_p": 0.5702917771883289,
+      "close_ts": 1785076093.157903
     }
   ],
   "papered": {
@@ -11423,17 +11452,18 @@
     "shunsukenakagawa|sabapurtseladze|ml:away|20260726": 1785063119.443803,
     "francescajones|fionaferro|ml:away|20260726": 1785067265.861909,
     "kaerjengun|dudelange|ml:away|20260726": 1785069065.803991,
-    "alejandrotabilo|tallongriekspoor|ml:away|20260727": 1785075013.099381
+    "alejandrotabilo|tallongriekspoor|ml:away|20260727": 1785075013.099381,
+    "emmasiyudong|valeriasavinykh|ml:away|20260726": 1785075553.091829
   },
   "last_report_date": "2026-07-26",
-  "next_id": 373,
+  "next_id": 374,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785075463.104541,
+      "ts": 1785076093.157903,
       "ok": true,
-      "vegas_events": 971,
-      "pinnacle_events": 479,
+      "vegas_events": 989,
+      "pinnacle_events": 487,
       "sports_err": {},
       "problems": [],
       "settle_err": null
