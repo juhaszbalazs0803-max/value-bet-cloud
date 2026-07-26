@@ -10884,10 +10884,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5258,
-      "clv_pct": 14.1,
-      "close_fair_p": 0.6553817417697875,
-      "close_ts": 1785103659.922354
+      "close_fair_odds": 1.7152,
+      "clv_pct": 1.5,
+      "close_fair_p": 0.5830090614710605,
+      "close_ts": 1785103749.878279
     },
     {
       "id": 367,
@@ -11186,7 +11186,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 3.68,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1785103659.922354
+      "close_ts": 1785104289.883559
     },
     {
       "id": 377,
@@ -11216,6 +11216,35 @@
       "clv_pct": 4.21,
       "close_fair_p": 0.5458799483648881,
       "close_ts": 1785103569.853596
+    },
+    {
+      "id": 378,
+      "ts": 1785103929.911146,
+      "key": "68:17197200:ml:home",
+      "content_key": "anastasiazakharova|lindafruhvirtova|ml:home|20260727",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Anastasia Zakharova - Linda Fruhvirtova",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Anastasia Zakharova",
+      "odds": 1.48,
+      "stake": 3600,
+      "value_pct": 6.95,
+      "fair_pct": 72.3,
+      "start": "2026-07-27T14:00:00+00:00",
+      "start_ts": 1785160800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3969,
+      "clv_pct": 5.95,
+      "close_fair_p": 0.7158609668397922,
+      "close_ts": 1785104289.883559
     }
   ],
   "papered": {
@@ -11579,17 +11608,18 @@
     "ssafcba|fluminensedefeira|ml:away|20260726": 1785088786.40715,
     "gabiadrianboitan|gabrieldebru|ml:away|20260727": 1785099332.350966,
     "emmasiyudong|valeriasavinykh|ml:away|20260727": 1785099332.350966,
-    "fuerzaregia|solesdemexicali|ml:away|20260726": 1785103569.853596
+    "fuerzaregia|solesdemexicali|ml:away|20260726": 1785103569.853596,
+    "anastasiazakharova|lindafruhvirtova|ml:home|20260727": 1785103929.911146
   },
   "last_report_date": "2026-07-26",
-  "next_id": 378,
+  "next_id": 379,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785103659.922354,
+      "ts": 1785104289.883559,
       "ok": true,
-      "vegas_events": 955,
-      "pinnacle_events": 336,
+      "vegas_events": 962,
+      "pinnacle_events": 333,
       "sports_err": {},
       "problems": [],
       "settle_err": null
