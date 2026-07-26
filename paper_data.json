@@ -11274,6 +11274,35 @@
       "clv_pct": 5.37,
       "close_fair_p": 0.5899655561313134,
       "close_ts": 1785106737.712765
+    },
+    {
+      "id": 380,
+      "ts": 1785108717.716162,
+      "key": "68:17197193:ml:home",
+      "content_key": "taliagibson|tatjanamaria|ml:home|20260727",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Talia Gibson - Tatjana Maria",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Talia Gibson",
+      "odds": 1.556,
+      "stake": 2500,
+      "value_pct": 5.47,
+      "fair_pct": 67.8,
+      "start": "2026-07-27T15:10:00+00:00",
+      "start_ts": 1785165000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4749,
+      "clv_pct": 5.5,
+      "close_fair_p": 0.6780307987610696,
+      "close_ts": 1785108897.693208
     }
   ],
   "papered": {
@@ -11639,17 +11668,18 @@
     "emmasiyudong|valeriasavinykh|ml:away|20260727": 1785099332.350966,
     "fuerzaregia|solesdemexicali|ml:away|20260726": 1785103569.853596,
     "anastasiazakharova|lindafruhvirtova|ml:home|20260727": 1785103929.911146,
-    "washingtonspiritn|denversummitfcn|ml:home|20260726": 1785106647.697039
+    "washingtonspiritn|denversummitfcn|ml:home|20260726": 1785106647.697039,
+    "taliagibson|tatjanamaria|ml:home|20260727": 1785108717.716162
   },
   "last_report_date": "2026-07-26",
-  "next_id": 380,
+  "next_id": 381,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785108537.716073,
+      "ts": 1785109167.692514,
       "ok": true,
-      "vegas_events": 976,
-      "pinnacle_events": 351,
+      "vegas_events": 975,
+      "pinnacle_events": 353,
       "sports_err": {},
       "problems": [],
       "settle_err": null
