@@ -10884,10 +10884,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6798,
-      "clv_pct": 3.64,
-      "close_fair_p": 0.5953002610966058,
-      "close_ts": 1785070415.834632
+      "close_fair_odds": 1.5258,
+      "clv_pct": 14.1,
+      "close_fair_p": 0.6553817417697875,
+      "close_ts": 1785103659.922354
     },
     {
       "id": 367,
@@ -11186,7 +11186,36 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 3.68,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1785103029.878335
+      "close_ts": 1785103659.922354
+    },
+    {
+      "id": 377,
+      "ts": 1785103569.853596,
+      "key": "67:17144686:ml:away",
+      "content_key": "fuerzaregia|solesdemexicali|ml:away|20260726",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Fuerza Regia - Soles de Mexicali",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Soles de Mexicali",
+      "odds": 1.909,
+      "stake": 1200,
+      "value_pct": 4.21,
+      "fair_pct": 54.6,
+      "start": "2026-07-26T22:15:00+00:00",
+      "start_ts": 1785104100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8319,
+      "clv_pct": 4.21,
+      "close_fair_p": 0.5458799483648881,
+      "close_ts": 1785103569.853596
     }
   ],
   "papered": {
@@ -11549,17 +11578,18 @@
     "emmasiyudong|valeriasavinykh|ml:away|20260726": 1785075553.091829,
     "ssafcba|fluminensedefeira|ml:away|20260726": 1785088786.40715,
     "gabiadrianboitan|gabrieldebru|ml:away|20260727": 1785099332.350966,
-    "emmasiyudong|valeriasavinykh|ml:away|20260727": 1785099332.350966
+    "emmasiyudong|valeriasavinykh|ml:away|20260727": 1785099332.350966,
+    "fuerzaregia|solesdemexicali|ml:away|20260726": 1785103569.853596
   },
   "last_report_date": "2026-07-26",
-  "next_id": 377,
+  "next_id": 378,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785103029.878335,
+      "ts": 1785103659.922354,
       "ok": true,
-      "vegas_events": 939,
-      "pinnacle_events": 343,
+      "vegas_events": 955,
+      "pinnacle_events": 336,
       "sports_err": {},
       "problems": [],
       "settle_err": null
