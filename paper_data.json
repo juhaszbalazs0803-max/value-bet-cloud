@@ -10393,11 +10393,14 @@
       "fair_pct": 66.9,
       "start": "2026-07-26T01:00:00+00:00",
       "start_ts": 1785027600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785034418.7499874,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.5177,
       "clv_pct": 12.93,
@@ -10728,6 +10731,35 @@
       "clv_pct": 8.16,
       "close_fair_p": 0.669744682530287,
       "close_ts": 1785024726.148201
+    },
+    {
+      "id": 362,
+      "ts": 1785034408.081491,
+      "key": "66:17133597:ml:home",
+      "content_key": "ferroviario|goiatuba|ml:home|20260726",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Ferroviario - Goiatuba",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Ferroviario",
+      "odds": 2.0,
+      "stake": 1500,
+      "value_pct": 5.87,
+      "fair_pct": 52.9,
+      "start": "2026-07-26T20:00:00+00:00",
+      "start_ts": 1785096000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8891,
+      "clv_pct": 5.87,
+      "close_fair_p": 0.5293400661675083,
+      "close_ts": 1785034408.081491
     }
   ],
   "papered": {
@@ -11075,17 +11107,18 @@
     "miakupres|valeriasavinykh|ml:away|20260725": 1785004988.719351,
     "nicolasmejia|alexhernandez|ml:home|20260726": 1785006928.229856,
     "barangayginebrasanmiguel|rainorshineelastopainters|ml:home|20260726": 1785022511.209214,
-    "manuelmazza|nielsvisker|ml:away|20260726": 1785024636.106291
+    "manuelmazza|nielsvisker|ml:away|20260726": 1785024636.106291,
+    "ferroviario|goiatuba|ml:home|20260726": 1785034408.081491
   },
   "last_report_date": "2026-07-25",
-  "next_id": 362,
+  "next_id": 363,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785027066.150397,
+      "ts": 1785034408.081491,
       "ok": true,
-      "vegas_events": 938,
-      "pinnacle_events": 519,
+      "vegas_events": 930,
+      "pinnacle_events": 509,
       "sports_err": {},
       "problems": [],
       "settle_err": null
