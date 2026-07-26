@@ -10797,7 +10797,7 @@
       "close_fair_odds": 1.7247,
       "clv_pct": 5.41,
       "close_fair_p": 0.5798257650700449,
-      "close_ts": 1785074833.161536
+      "close_ts": 1785075463.104541
     },
     {
       "id": 364,
@@ -11036,6 +11036,35 @@
       "clv_pct": 4.09,
       "close_fair_p": 0.650538427496681,
       "close_ts": 1785070415.834632
+    },
+    {
+      "id": 372,
+      "ts": 1785075013.099381,
+      "key": "68:17203902:ml:away",
+      "content_key": "alejandrotabilo|tallongriekspoor|ml:away|20260727",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Alejandro Tabilo - Tallon Griekspoor",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Tallon Griekspoor",
+      "odds": 1.857,
+      "stake": 1500,
+      "value_pct": 5.18,
+      "fair_pct": 56.6,
+      "start": "2026-07-27T14:00:00+00:00",
+      "start_ts": 1785160800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7658,
+      "clv_pct": 5.16,
+      "close_fair_p": 0.5663211546472592,
+      "close_ts": 1785075283.144472
     }
   ],
   "papered": {
@@ -11393,17 +11422,18 @@
     "darthlumsdenm|havlickovalsamsonl|ml:home|20260726": 1785055160.248524,
     "shunsukenakagawa|sabapurtseladze|ml:away|20260726": 1785063119.443803,
     "francescajones|fionaferro|ml:away|20260726": 1785067265.861909,
-    "kaerjengun|dudelange|ml:away|20260726": 1785069065.803991
+    "kaerjengun|dudelange|ml:away|20260726": 1785069065.803991,
+    "alejandrotabilo|tallongriekspoor|ml:away|20260727": 1785075013.099381
   },
   "last_report_date": "2026-07-26",
-  "next_id": 372,
+  "next_id": 373,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785074833.161536,
+      "ts": 1785075463.104541,
       "ok": true,
-      "vegas_events": 972,
-      "pinnacle_events": 478,
+      "vegas_events": 971,
+      "pinnacle_events": 479,
       "sports_err": {},
       "problems": [],
       "settle_err": null
