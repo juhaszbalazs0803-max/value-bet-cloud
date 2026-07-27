@@ -11395,11 +11395,14 @@
       "fair_pct": 79.3,
       "start": "2026-07-27T18:30:00+00:00",
       "start_ts": 1785177000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785184885.3027103,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.2615,
       "clv_pct": 3.05,
@@ -11636,7 +11639,7 @@
       "close_fair_odds": 1.4807,
       "clv_pct": 3.87,
       "close_fair_p": 0.6753554502369669,
-      "close_ts": 1785184244.688241
+      "close_ts": 1785184874.642347
     },
     {
       "id": 392,
@@ -11665,7 +11668,36 @@
       "close_fair_odds": 1.4722,
       "clv_pct": 4.47,
       "close_fair_p": 0.6792452830188679,
-      "close_ts": 1785184244.688241
+      "close_ts": 1785184874.642347
+    },
+    {
+      "id": 393,
+      "ts": 1785184784.693487,
+      "key": "66:17175403:ml:home",
+      "content_key": "throtturreykjavikn|vikingurreykjavikn|ml:home|20260728",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Throttur Reykjavik (N) - Vikingur Reykjavik (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Throttur Reykjavik (N)",
+      "odds": 2.0,
+      "stake": 1200,
+      "value_pct": 4.78,
+      "fair_pct": 52.4,
+      "start": "2026-07-28T19:15:00+00:00",
+      "start_ts": 1785266100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9088,
+      "clv_pct": 4.78,
+      "close_fair_p": 0.5238970588235294,
+      "close_ts": 1785184874.642347
     }
   ],
   "papered": {
@@ -12044,17 +12076,18 @@
     "ngounoueclerviesmithalana|liatausonc|ml:away|20260727": 1785168919.628165,
     "cristinabucsa|polinakudermetova|ml:home|20260728": 1785171529.543831,
     "mariacarle|emmalene|ml:home|20260728": 1785183614.672204,
-    "carmengallardoguevara|matildejorge|ml:away|20260728": 1785183614.672204
+    "carmengallardoguevara|matildejorge|ml:away|20260728": 1785183614.672204,
+    "throtturreykjavikn|vikingurreykjavikn|ml:home|20260728": 1785184784.693487
   },
   "last_report_date": "2026-07-27",
-  "next_id": 393,
+  "next_id": 394,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785184244.688241,
+      "ts": 1785184874.642347,
       "ok": true,
-      "vegas_events": 1137,
-      "pinnacle_events": 470,
+      "vegas_events": 1139,
+      "pinnacle_events": 484,
       "sports_err": {},
       "problems": [],
       "settle_err": null
