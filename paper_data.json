@@ -11422,6 +11422,35 @@
       "clv_pct": 9.7,
       "close_fair_p": 0.7597193603869011,
       "close_ts": 1785150798.942643
+    },
+    {
+      "id": 385,
+      "ts": 1785151428.943146,
+      "key": "68:17216505:ml:home",
+      "content_key": "yutakawahashi|samryanziegann|ml:home|20260728",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Yuta Kawahashi - Sam Ryan Ziegann",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Yuta Kawahashi",
+      "odds": 1.818,
+      "stake": 2700,
+      "value_pct": 8.9,
+      "fair_pct": 59.9,
+      "start": "2026-07-28T01:00:00+00:00",
+      "start_ts": 1785200400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6696,
+      "clv_pct": 8.89,
+      "close_fair_p": 0.5989583333333333,
+      "close_ts": 1785151968.878184
     }
   ],
   "papered": {
@@ -11792,17 +11821,18 @@
     "gabiadrianboitan|gabrieldebru|ml:home|20260727": 1785121824.010816,
     "katievolynets|viktorijagolubic|ml:home|20260727": 1785135353.916452,
     "bolellisvavassoria|cashrerlera|ml:home|20260727": 1785149628.867084,
-    "makskasnikowski|fredericoferreirasilva|ml:home|20260728": 1785150618.8734
+    "makskasnikowski|fredericoferreirasilva|ml:home|20260728": 1785150618.8734,
+    "yutakawahashi|samryanziegann|ml:home|20260728": 1785151428.943146
   },
   "last_report_date": "2026-07-27",
-  "next_id": 385,
+  "next_id": 386,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785151338.877078,
+      "ts": 1785151968.878184,
       "ok": true,
-      "vegas_events": 1069,
-      "pinnacle_events": 421,
+      "vegas_events": 1081,
+      "pinnacle_events": 423,
       "sports_err": {},
       "problems": [],
       "settle_err": null
