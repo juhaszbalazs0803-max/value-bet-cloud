@@ -11306,6 +11306,35 @@
       "clv_pct": 5.5,
       "close_fair_p": 0.6780307987610696,
       "close_ts": 1785108897.693208
+    },
+    {
+      "id": 381,
+      "ts": 1785121824.010816,
+      "key": "68:17203574:ml:home",
+      "content_key": "gabiadrianboitan|gabrieldebru|ml:home|20260727",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Gabi Adrian Boitan - Gabriel Debru",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Gabi Adrian Boitan",
+      "odds": 1.96,
+      "stake": 900,
+      "value_pct": 3.27,
+      "fair_pct": 52.7,
+      "start": "2026-07-27T11:30:00+00:00",
+      "start_ts": 1785151800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.898,
+      "clv_pct": 3.27,
+      "close_fair_p": 0.5268829765485821,
+      "close_ts": 1785121914.248334
     }
   ],
   "papered": {
@@ -11672,17 +11701,18 @@
     "fuerzaregia|solesdemexicali|ml:away|20260726": 1785103569.853596,
     "anastasiazakharova|lindafruhvirtova|ml:home|20260727": 1785103929.911146,
     "washingtonspiritn|denversummitfcn|ml:home|20260726": 1785106647.697039,
-    "taliagibson|tatjanamaria|ml:home|20260727": 1785108717.716162
+    "taliagibson|tatjanamaria|ml:home|20260727": 1785108717.716162,
+    "gabiadrianboitan|gabrieldebru|ml:home|20260727": 1785121824.010816
   },
   "last_report_date": "2026-07-26",
-  "next_id": 381,
+  "next_id": 382,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785121553.988961,
+      "ts": 1785122183.990763,
       "ok": true,
       "vegas_events": 994,
-      "pinnacle_events": 718,
+      "pinnacle_events": 717,
       "sports_err": {},
       "problems": [],
       "settle_err": null
