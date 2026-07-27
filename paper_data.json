@@ -11335,6 +11335,35 @@
       "clv_pct": 3.27,
       "close_fair_p": 0.5268829765485821,
       "close_ts": 1785121914.248334
+    },
+    {
+      "id": 382,
+      "ts": 1785135353.916452,
+      "key": "68:17197187:ml:home",
+      "content_key": "katievolynets|viktorijagolubic|ml:home|20260727",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Katie Volynets - Viktorija Golubic",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Katie Volynets",
+      "odds": 1.75,
+      "stake": 1300,
+      "value_pct": 4.04,
+      "fair_pct": 59.4,
+      "start": "2026-07-27T15:00:00+00:00",
+      "start_ts": 1785164400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6821,
+      "clv_pct": 4.04,
+      "close_fair_p": 0.5944914230490457,
+      "close_ts": 1785135533.867024
     }
   ],
   "papered": {
@@ -11702,17 +11731,18 @@
     "anastasiazakharova|lindafruhvirtova|ml:home|20260727": 1785103929.911146,
     "washingtonspiritn|denversummitfcn|ml:home|20260726": 1785106647.697039,
     "taliagibson|tatjanamaria|ml:home|20260727": 1785108717.716162,
-    "gabiadrianboitan|gabrieldebru|ml:home|20260727": 1785121824.010816
+    "gabiadrianboitan|gabrieldebru|ml:home|20260727": 1785121824.010816,
+    "katievolynets|viktorijagolubic|ml:home|20260727": 1785135353.916452
   },
   "last_report_date": "2026-07-26",
-  "next_id": 382,
+  "next_id": 383,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785134903.89896,
+      "ts": 1785135533.867024,
       "ok": true,
-      "vegas_events": 1039,
-      "pinnacle_events": 421,
+      "vegas_events": 1040,
+      "pinnacle_events": 434,
       "sports_err": {},
       "problems": [],
       "settle_err": null
