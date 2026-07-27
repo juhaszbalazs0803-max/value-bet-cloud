@@ -11642,7 +11642,7 @@
       "close_fair_odds": 1.4807,
       "clv_pct": 3.87,
       "close_fair_p": 0.6753554502369669,
-      "close_ts": 1785191127.881705
+      "close_ts": 1785191757.902852
     },
     {
       "id": 392,
@@ -11700,7 +11700,36 @@
       "close_fair_odds": 1.9088,
       "clv_pct": 4.78,
       "close_fair_p": 0.5238970588235294,
-      "close_ts": 1785191127.881705
+      "close_ts": 1785191757.902852
+    },
+    {
+      "id": 394,
+      "ts": 1785191757.902852,
+      "key": "66:17185099:ml:home",
+      "content_key": "realmadrid|cdleganes|ml:home|20260728",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Real Madrid - CD Leganes",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Real Madrid",
+      "odds": 1.48,
+      "stake": 2700,
+      "value_pct": 5.13,
+      "fair_pct": 71.0,
+      "start": "2026-07-28T16:00:00+00:00",
+      "start_ts": 1785254400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4078,
+      "clv_pct": 5.13,
+      "close_fair_p": 0.7103435067987535,
+      "close_ts": 1785191757.902852
     }
   ],
   "papered": {
@@ -12080,17 +12109,18 @@
     "cristinabucsa|polinakudermetova|ml:home|20260728": 1785171529.543831,
     "mariacarle|emmalene|ml:home|20260728": 1785183614.672204,
     "carmengallardoguevara|matildejorge|ml:away|20260728": 1785183614.672204,
-    "throtturreykjavikn|vikingurreykjavikn|ml:home|20260728": 1785184784.693487
+    "throtturreykjavikn|vikingurreykjavikn|ml:home|20260728": 1785184784.693487,
+    "realmadrid|cdleganes|ml:home|20260728": 1785191757.902852
   },
   "last_report_date": "2026-07-27",
-  "next_id": 394,
+  "next_id": 395,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785191127.881705,
+      "ts": 1785191757.902852,
       "ok": true,
-      "vegas_events": 1188,
-      "pinnacle_events": 481,
+      "vegas_events": 1181,
+      "pinnacle_events": 471,
       "sports_err": {},
       "problems": [],
       "settle_err": null
