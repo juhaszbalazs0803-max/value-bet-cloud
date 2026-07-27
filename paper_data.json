@@ -11485,7 +11485,7 @@
       "close_fair_odds": 1.6406,
       "clv_pct": 5.63,
       "close_fair_p": 0.609518658734451,
-      "close_ts": 1785161957.401612
+      "close_ts": 1785162587.386308
     },
     {
       "id": 387,
@@ -11515,6 +11515,35 @@
       "clv_pct": 5.55,
       "close_fair_p": 0.8443793772009656,
       "close_ts": 1785159797.35595
+    },
+    {
+      "id": 388,
+      "ts": 1785162407.383229,
+      "key": "67:17154899:ml:home",
+      "content_key": "leonesdeponce|aguadasanteros|ml:home|20260728",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Leones de Ponce - Aguada Santeros",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Leones de Ponce",
+      "odds": 1.571,
+      "stake": 2300,
+      "value_pct": 5.27,
+      "fair_pct": 67.0,
+      "start": "2026-07-28T00:00:00+00:00",
+      "start_ts": 1785196800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4929,
+      "clv_pct": 5.23,
+      "close_fair_p": 0.6698564593301435,
+      "close_ts": 1785162587.386308
     }
   ],
   "papered": {
@@ -11888,17 +11917,18 @@
     "makskasnikowski|fredericoferreirasilva|ml:home|20260728": 1785150618.8734,
     "yutakawahashi|samryanziegann|ml:home|20260728": 1785151428.943146,
     "galatasaraysk|venezia|ml:home|20260727": 1785159437.403112,
-    "ergikirkin|paulinchauspe|ml:away|20260728": 1785159797.35595
+    "ergikirkin|paulinchauspe|ml:away|20260728": 1785159797.35595,
+    "leonesdeponce|aguadasanteros|ml:home|20260728": 1785162407.383229
   },
   "last_report_date": "2026-07-27",
-  "next_id": 388,
+  "next_id": 389,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785161957.401612,
+      "ts": 1785162587.386308,
       "ok": true,
-      "vegas_events": 1075,
-      "pinnacle_events": 425,
+      "vegas_events": 1078,
+      "pinnacle_events": 424,
       "sports_err": {},
       "problems": [],
       "settle_err": null
