@@ -11364,6 +11364,35 @@
       "clv_pct": 4.04,
       "close_fair_p": 0.5944914230490457,
       "close_ts": 1785136793.905762
+    },
+    {
+      "id": 383,
+      "ts": 1785149628.867084,
+      "key": "68:17207232:ml:home",
+      "content_key": "bolellisvavassoria|cashrerlera|ml:home|20260727",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Bolelli S / Vavassori A - Cash, R/Erler, A",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Bolelli S / Vavassori A",
+      "odds": 1.3,
+      "stake": 2500,
+      "value_pct": 3.05,
+      "fair_pct": 79.3,
+      "start": "2026-07-27T18:30:00+00:00",
+      "start_ts": 1785177000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.2615,
+      "clv_pct": 3.05,
+      "close_fair_p": 0.792687255946042,
+      "close_ts": 1785150078.912748
     }
   ],
   "papered": {
@@ -11732,17 +11761,18 @@
     "washingtonspiritn|denversummitfcn|ml:home|20260726": 1785106647.697039,
     "taliagibson|tatjanamaria|ml:home|20260727": 1785108717.716162,
     "gabiadrianboitan|gabrieldebru|ml:home|20260727": 1785121824.010816,
-    "katievolynets|viktorijagolubic|ml:home|20260727": 1785135353.916452
+    "katievolynets|viktorijagolubic|ml:home|20260727": 1785135353.916452,
+    "bolellisvavassoria|cashrerlera|ml:home|20260727": 1785149628.867084
   },
   "last_report_date": "2026-07-27",
-  "next_id": 383,
+  "next_id": 384,
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785149448.931792,
+      "ts": 1785150078.912748,
       "ok": true,
-      "vegas_events": 1057,
-      "pinnacle_events": 423,
+      "vegas_events": 1066,
+      "pinnacle_events": 416,
       "sports_err": {},
       "problems": [],
       "settle_err": null
