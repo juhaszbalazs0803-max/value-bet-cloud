@@ -11863,7 +11863,7 @@
       "close_fair_odds": 2.0166,
       "clv_pct": -7.02,
       "close_fair_p": 0.4958803783948733,
-      "close_ts": 1785247238.486165
+      "close_ts": 1785247418.479922
     },
     {
       "id": 399,
@@ -11950,7 +11950,7 @@
       "close_fair_odds": 1.5671,
       "clv_pct": 5.1,
       "close_fair_p": 0.6381201044386423,
-      "close_ts": 1785247238.486165
+      "close_ts": 1785247868.454619
     },
     {
       "id": 402,
@@ -11979,7 +11979,7 @@
       "close_fair_odds": 1.5829,
       "clv_pct": 6.89,
       "close_fair_p": 0.6317427385892116,
-      "close_ts": 1785247238.486165
+      "close_ts": 1785247868.454619
     },
     {
       "id": 403,
@@ -12008,7 +12008,36 @@
       "close_fair_odds": 1.4062,
       "clv_pct": 5.25,
       "close_fair_p": 0.7111111111111111,
-      "close_ts": 1785247238.486165
+      "close_ts": 1785247508.610926
+    },
+    {
+      "id": 404,
+      "ts": 1785247418.479922,
+      "key": "68:17207266:ml:home",
+      "content_key": "augustholmgren|hugogrenier|ml:home|20260728",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "August Holmgren - Hugo Grenier",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — August Holmgren",
+      "odds": 1.429,
+      "stake": 5000,
+      "value_pct": 8.92,
+      "fair_pct": 76.2,
+      "start": "2026-07-28T20:30:00+00:00",
+      "start_ts": 1785270600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3117,
+      "clv_pct": 8.94,
+      "close_fair_p": 0.7623918744657113,
+      "close_ts": 1785247418.479922
     }
   ],
   "papered": {
@@ -12398,17 +12427,18 @@
     "shintaromochizuki|charlesbroom|ml:home|20260728": 1785238657.431311,
     "fulham|alahlisaudifc|ml:home|20260728": 1785247238.486165,
     "oxfordunited|crawleytown|ml:home|20260728": 1785247238.486165,
-    "polonahercog|laurapigossi|ml:home|20260729": 1785247238.486165
+    "polonahercog|laurapigossi|ml:home|20260729": 1785247238.486165,
+    "augustholmgren|hugogrenier|ml:home|20260728": 1785247418.479922
   },
   "last_report_date": "2026-07-28",
-  "next_id": 404,
+  "next_id": 405,
   "tg_offset": 363415789,
   "health": {
     "last_scan": {
-      "ts": 1785247238.486165,
+      "ts": 1785247868.454619,
       "ok": true,
-      "vegas_events": 1253,
-      "pinnacle_events": 548,
+      "vegas_events": 1252,
+      "pinnacle_events": 541,
       "sports_err": {},
       "problems": [],
       "settle_err": null
