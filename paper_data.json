@@ -11768,6 +11768,35 @@
       "clv_pct": 6.38,
       "close_fair_p": 0.677140674280565,
       "close_ts": 1785209306.151429
+    },
+    {
+      "id": 396,
+      "ts": 1785218547.135651,
+      "key": "68:17223778:ml:away",
+      "content_key": "jeremyzhang|haydenjones|ml:away|20260729",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Jeremy Zhang - Hayden Jones",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Hayden Jones",
+      "odds": 1.875,
+      "stake": 4800,
+      "value_pct": 16.89,
+      "fair_pct": 62.3,
+      "start": "2026-07-29T02:30:00+00:00",
+      "start_ts": 1785292200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6041,
+      "clv_pct": 16.89,
+      "close_fair_p": 0.6234096692111959,
+      "close_ts": 1785218547.135651
     }
   ],
   "papered": {
@@ -12149,17 +12178,18 @@
     "carmengallardoguevara|matildejorge|ml:away|20260728": 1785183614.672204,
     "throtturreykjavikn|vikingurreykjavikn|ml:home|20260728": 1785184784.693487,
     "realmadrid|cdleganes|ml:home|20260728": 1785191757.902852,
-    "danesweeny|duncanchan|ml:home|20260728": 1785208226.103685
+    "danesweeny|duncanchan|ml:home|20260728": 1785208226.103685,
+    "jeremyzhang|haydenjones|ml:away|20260729": 1785218547.135651
   },
   "last_report_date": "2026-07-27",
-  "next_id": 396,
+  "next_id": 397,
   "tg_offset": 363415789,
   "health": {
     "last_scan": {
-      "ts": 1785218097.088928,
+      "ts": 1785218727.116317,
       "ok": true,
-      "vegas_events": 1233,
-      "pinnacle_events": 540,
+      "vegas_events": 1239,
+      "pinnacle_events": 532,
       "sports_err": {},
       "problems": [],
       "settle_err": null
