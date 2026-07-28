@@ -12075,7 +12075,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 3.68,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1785277410.409871
+      "close_ts": 1785278040.458469
     },
     {
       "id": 406,
@@ -12133,7 +12133,7 @@
       "close_fair_odds": 2.3416,
       "clv_pct": -14.59,
       "close_fair_p": 0.4270557029177719,
-      "close_ts": 1785277410.409871
+      "close_ts": 1785278040.458469
     },
     {
       "id": 408,
@@ -12285,6 +12285,35 @@
       "clv_pct": 21.96,
       "close_fair_p": 0.6969168989778309,
       "close_ts": 1785270955.654245
+    },
+    {
+      "id": 413,
+      "ts": 1785277770.391273,
+      "key": "68:17206627:ml:away",
+      "content_key": "horaykittaybenjamin|rojerjjwinegart|ml:away|20260729",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Ho, Ray/Kittay, Benjamin - Rojer J-J / Winegar T",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Rojer J-J / Winegar T",
+      "odds": 1.68,
+      "stake": 1300,
+      "value_pct": 3.41,
+      "fair_pct": 61.6,
+      "start": "2026-07-29T02:30:00+00:00",
+      "start_ts": 1785292200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6245,
+      "clv_pct": 3.42,
+      "close_fair_p": 0.6155619177018633,
+      "close_ts": 1785278040.458469
     }
   ],
   "papered": {
@@ -12683,17 +12712,18 @@
     "hayatomatsuoka|jameskenttrotter|ml:away|20260728": 1785257835.616581,
     "kyrgiosntiafoef|cabralftracyj|ml:away|20260728": 1785262360.920462,
     "ilkestontownfc|basfordunited|ml:home|20260728": 1785262900.908504,
-    "katomolmosg|mihalikovatwatsonh|ml:home|20260728": 1785270685.657559
+    "katomolmosg|mihalikovatwatsonh|ml:home|20260728": 1785270685.657559,
+    "horaykittaybenjamin|rojerjjwinegart|ml:away|20260729": 1785277770.391273
   },
   "last_report_date": "2026-07-28",
-  "next_id": 413,
+  "next_id": 414,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785277410.409871,
+      "ts": 1785278040.458469,
       "ok": true,
-      "vegas_events": 1270,
-      "pinnacle_events": 498,
+      "vegas_events": 1266,
+      "pinnacle_events": 521,
       "sports_err": {},
       "problems": [],
       "settle_err": null
