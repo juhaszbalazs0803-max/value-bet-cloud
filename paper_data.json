@@ -9403,11 +9403,11 @@
       "fair_pct": 57.0,
       "start": "2026-07-24T23:30:00+00:00",
       "start_ts": 1784935800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1785196814.2380874,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7535,
       "clv_pct": 11.32,
@@ -11305,11 +11305,14 @@
       "fair_pct": 67.8,
       "start": "2026-07-27T15:10:00+00:00",
       "start_ts": 1785165000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1785196814.2380874,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.4749,
       "clv_pct": 5.5,
@@ -11366,11 +11369,14 @@
       "fair_pct": 59.4,
       "start": "2026-07-27T15:00:00+00:00",
       "start_ts": 1785164400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785196814.2380874,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6821,
       "clv_pct": 4.04,
@@ -11729,7 +11735,7 @@
       "close_fair_odds": 1.4078,
       "clv_pct": 5.13,
       "close_fair_p": 0.7103435067987535,
-      "close_ts": 1785193017.889478
+      "close_ts": 1785196804.636621
     }
   ],
   "papered": {
@@ -12117,10 +12123,10 @@
   "tg_offset": 363415788,
   "health": {
     "last_scan": {
-      "ts": 1785193017.889478,
+      "ts": 1785196804.636621,
       "ok": true,
-      "vegas_events": 1184,
-      "pinnacle_events": 465,
+      "vegas_events": 1180,
+      "pinnacle_events": 968,
       "sports_err": {},
       "problems": [],
       "settle_err": null
