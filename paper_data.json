@@ -12479,7 +12479,7 @@
       "close_fair_odds": 1.5647,
       "clv_pct": 3.21,
       "close_fair_p": 0.6390977443609022,
-      "close_ts": 1785316064.217604
+      "close_ts": 1785316694.140073
     },
     {
       "id": 419,
@@ -12537,7 +12537,7 @@
       "close_fair_odds": 1.8922,
       "clv_pct": -1.33,
       "close_fair_p": 0.5284807002533811,
-      "close_ts": 1785316064.217604
+      "close_ts": 1785316694.140073
     },
     {
       "id": 421,
@@ -12624,7 +12624,36 @@
       "close_fair_odds": 1.7342,
       "clv_pct": 5.7,
       "close_fair_p": 0.5766267336083909,
-      "close_ts": 1785316064.217604
+      "close_ts": 1785316424.113672
+    },
+    {
+      "id": 424,
+      "ts": 1785316514.118301,
+      "key": "66:17159795:ml:home",
+      "content_key": "bucheonfc|pajucitizenfc|ml:home|20260729",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Bucheon FC - Paju Citizen FC",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Bucheon FC",
+      "odds": 1.818,
+      "stake": 1100,
+      "value_pct": 3.66,
+      "fair_pct": 57.0,
+      "start": "2026-07-29T10:00:00+00:00",
+      "start_ts": 1785319200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.754,
+      "clv_pct": 3.65,
+      "close_fair_p": 0.570133870394503,
+      "close_ts": 1785316694.140073
     }
   ],
   "papered": {
@@ -13034,17 +13063,18 @@
     "chungnamasanfc|siheungcitizenfc|ml:home|20260729": 1785305387.749969,
     "alexandremuller|marcocecchinato|ml:home|20260729": 1785305845.936824,
     "michalnovansky|jonasgundacker|ml:away|20260729": 1785306212.978699,
-    "bangorladies|greenislandladieswomen|ml:home|20260729": 1785314174.30764
+    "bangorladies|greenislandladieswomen|ml:home|20260729": 1785314174.30764,
+    "bucheonfc|pajucitizenfc|ml:home|20260729": 1785316514.118301
   },
   "last_report_date": "2026-07-29",
-  "next_id": 424,
+  "next_id": 425,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785316064.217604,
+      "ts": 1785316694.140073,
       "ok": true,
-      "vegas_events": 1313,
-      "pinnacle_events": 612,
+      "vegas_events": 1312,
+      "pinnacle_events": 610,
       "sports_err": {},
       "problems": [],
       "settle_err": null
