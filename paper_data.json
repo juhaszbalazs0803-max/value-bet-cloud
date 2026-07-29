@@ -12903,7 +12903,7 @@
       "close_fair_odds": 1.5185,
       "clv_pct": 4.25,
       "close_fair_p": 0.6585365853658537,
-      "close_ts": 1785350168.908465
+      "close_ts": 1785350798.984817
     },
     {
       "id": 433,
@@ -13048,7 +13048,7 @@
       "close_fair_odds": 1.5476,
       "clv_pct": 5.71,
       "close_fair_p": 0.6461448186832531,
-      "close_ts": 1785350168.908465
+      "close_ts": 1785350798.984817
     },
     {
       "id": 438,
@@ -13106,7 +13106,7 @@
       "close_fair_odds": 1.4414,
       "clv_pct": 5.45,
       "close_fair_p": 0.6937523653336698,
-      "close_ts": 1785350168.908465
+      "close_ts": 1785350798.984817
     },
     {
       "id": 440,
@@ -13135,7 +13135,36 @@
       "close_fair_odds": 1.6092,
       "clv_pct": 11.86,
       "close_fair_p": 0.6214309337449012,
-      "close_ts": 1785350168.908465
+      "close_ts": 1785350798.984817
+    },
+    {
+      "id": 441,
+      "ts": 1785350618.932189,
+      "key": "66:17168958:ml:away",
+      "content_key": "barranquilla|junior|ml:away|20260729",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Barranquilla - Junior",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Junior",
+      "odds": 1.692,
+      "stake": 1800,
+      "value_pct": 5.02,
+      "fair_pct": 62.1,
+      "start": "2026-07-29T22:30:00+00:00",
+      "start_ts": 1785364200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6116,
+      "clv_pct": 4.99,
+      "close_fair_p": 0.6205160478288231,
+      "close_ts": 1785350798.984817
     }
   ],
   "papered": {
@@ -13562,17 +13591,18 @@
     "arseneaultmarseneaultn|broadylwendelkenh|ml:away|20260730": 1785344411.972535,
     "alvarezlcmagadana|boyertwintere|ml:away|20260730": 1785344501.960468,
     "hachverdugohmartinezld|oliveirabpearsonk|ml:home|20260730": 1785344681.97847,
-    "alvarezlcmagadana|boyertwintere|ml:home|20260730": 1785349088.909794
+    "alvarezlcmagadana|boyertwintere|ml:home|20260730": 1785349088.909794,
+    "barranquilla|junior|ml:away|20260729": 1785350618.932189
   },
   "last_report_date": "2026-07-29",
-  "next_id": 441,
+  "next_id": 442,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785350168.908465,
+      "ts": 1785350798.984817,
       "ok": true,
-      "vegas_events": 1170,
-      "pinnacle_events": 520,
+      "vegas_events": 1163,
+      "pinnacle_events": 514,
       "sports_err": {},
       "problems": [],
       "settle_err": null
