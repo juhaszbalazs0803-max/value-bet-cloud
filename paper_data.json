@@ -13296,6 +13296,35 @@
       "clv_pct": 3.54,
       "close_fair_p": 0.5974317719559212,
       "close_ts": 1785367607.700859
+    },
+    {
+      "id": 446,
+      "ts": 1785369048.428478,
+      "key": "68:17207363:ml:home",
+      "content_key": "lujjsavinykhv|leonsschoppee|ml:home|20260730",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Lu J-J / Savinykh V - Leon, S/Schoppe, E",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Lu J-J / Savinykh V",
+      "odds": 1.5,
+      "stake": 2800,
+      "value_pct": 5.54,
+      "fair_pct": 70.4,
+      "start": "2026-07-30T00:05:00+00:00",
+      "start_ts": 1785369900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4244,
+      "clv_pct": 5.31,
+      "close_fair_p": 0.7020456877237798,
+      "close_ts": 1785369138.403302
     }
   ],
   "papered": {
@@ -13727,17 +13756,18 @@
     "lujjsavinykhv|leonsschoppee|ml:home|20260729": 1785355868.940854,
     "maikouchijima|laquisakhan|ml:home|20260730": 1785357218.922181,
     "nicohipfl|adamjilly|ml:home|20260730": 1785358028.937798,
-    "rcdmallorca|alittihadclub|ml:home|20260730": 1785366617.683862
+    "rcdmallorca|alittihadclub|ml:home|20260730": 1785366617.683862,
+    "lujjsavinykhv|leonsschoppee|ml:home|20260730": 1785369048.428478
   },
   "last_report_date": "2026-07-29",
-  "next_id": 446,
+  "next_id": 447,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785368507.695555,
+      "ts": 1785369138.403302,
       "ok": true,
-      "vegas_events": 1206,
-      "pinnacle_events": 536,
+      "vegas_events": 1209,
+      "pinnacle_events": 535,
       "sports_err": {},
       "problems": [],
       "settle_err": null
