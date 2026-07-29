@@ -10791,11 +10791,11 @@
       "fair_pct": 60.4,
       "start": "2026-07-26T16:30:00+00:00",
       "start_ts": 1785083400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1785342627.031419,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7416,
       "clv_pct": 4.39,
@@ -12868,10 +12868,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.2327,
-      "clv_pct": 18.6,
-      "close_fair_p": 0.8112582781456954,
-      "close_ts": 1785341981.975209
+      "close_fair_odds": 1.2833,
+      "clv_pct": 13.93,
+      "close_fair_p": 0.7792207792207793,
+      "close_ts": 1785342161.952579
     },
     {
       "id": 432,
@@ -12900,7 +12900,7 @@
       "close_fair_odds": 1.5185,
       "clv_pct": 4.25,
       "close_fair_p": 0.6585365853658537,
-      "close_ts": 1785341981.975209
+      "close_ts": 1785342611.959684
     },
     {
       "id": 433,
@@ -12929,7 +12929,36 @@
       "close_fair_odds": 1.8155,
       "clv_pct": 10.16,
       "close_fair_p": 0.5508021390374332,
-      "close_ts": 1785341981.975209
+      "close_ts": 1785342611.959684
+    },
+    {
+      "id": 434,
+      "ts": 1785342431.962452,
+      "key": "68:17232391:ml:home",
+      "content_key": "dianashnaider|anastasiapotapova|ml:home|20260730",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Diana Shnaider - Anastasia Potapova",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Diana Shnaider",
+      "odds": 1.714,
+      "stake": 1100,
+      "value_pct": 3.11,
+      "fair_pct": 60.1,
+      "start": "2026-07-30T14:00:00+00:00",
+      "start_ts": 1785420000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6625,
+      "clv_pct": 3.1,
+      "close_fair_p": 0.6014882528357627,
+      "close_ts": 1785342431.962452
     }
   ],
   "papered": {
@@ -13349,17 +13378,18 @@
     "shnaiderdianawilliamsvenus|tangqxuy|ml:home|20260729": 1785336757.818151,
     "lukatalanlopatic|ignaciopariscaromera|ml:away|20260730": 1785341981.975209,
     "nadiapodoroska|andrealazarogarcia|ml:away|20260730": 1785341981.975209,
-    "laurapigossi|carolinewerner|ml:away|20260730": 1785341981.975209
+    "laurapigossi|carolinewerner|ml:away|20260730": 1785341981.975209,
+    "dianashnaider|anastasiapotapova|ml:home|20260730": 1785342431.962452
   },
   "last_report_date": "2026-07-29",
-  "next_id": 434,
+  "next_id": 435,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785341981.975209,
+      "ts": 1785342611.959684,
       "ok": true,
-      "vegas_events": 1191,
-      "pinnacle_events": 515,
+      "vegas_events": 1185,
+      "pinnacle_events": 512,
       "sports_err": {},
       "problems": [],
       "settle_err": null
