@@ -12078,7 +12078,7 @@
       "close_fair_odds": 1.7535,
       "clv_pct": 3.68,
       "close_fair_p": 0.5702917771883289,
-      "close_ts": 1785293200.198387
+      "close_ts": 1785293830.192765
     },
     {
       "id": 406,
@@ -12410,6 +12410,35 @@
       "clv_pct": 5.06,
       "close_fair_p": 0.5561497326203209,
       "close_ts": 1785286137.896477
+    },
+    {
+      "id": 417,
+      "ts": 1785293830.192765,
+      "key": "66:16178167:ml:away",
+      "content_key": "magni|kfaustfjardja|ml:away|20260729",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Magni - KF Austfjardja",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — KF Austfjardja",
+      "odds": 1.96,
+      "stake": 1000,
+      "value_pct": 3.72,
+      "fair_pct": 52.9,
+      "start": "2026-07-29T18:00:00+00:00",
+      "start_ts": 1785348000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8898,
+      "clv_pct": 3.71,
+      "close_fair_p": 0.5291688177594218,
+      "close_ts": 1785293830.192765
     }
   ],
   "papered": {
@@ -12812,17 +12841,18 @@
     "horaykittaybenjamin|rojerjjwinegart|ml:away|20260729": 1785277770.391273,
     "alicerame|margauxrouvroy|ml:home|20260729": 1785283347.898726,
     "gallowayrkinge|reynoldsfwattj|ml:home|20260729": 1785285687.905632,
-    "violetapisah|oliviasymons|ml:away|20260729": 1785285957.916259
+    "violetapisah|oliviasymons|ml:away|20260729": 1785285957.916259,
+    "magni|kfaustfjardja|ml:away|20260729": 1785293830.192765
   },
   "last_report_date": "2026-07-28",
-  "next_id": 417,
+  "next_id": 418,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785293200.198387,
+      "ts": 1785293830.192765,
       "ok": true,
-      "vegas_events": 1242,
-      "pinnacle_events": 557,
+      "vegas_events": 1245,
+      "pinnacle_events": 561,
       "sports_err": {},
       "problems": [],
       "settle_err": null
