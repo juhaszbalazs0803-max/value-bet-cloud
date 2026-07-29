@@ -13057,7 +13057,7 @@
       "close_fair_odds": 1.569,
       "clv_pct": 4.27,
       "close_fair_p": 0.6373626373626373,
-      "close_ts": 1785357758.871364
+      "close_ts": 1785358298.9219
     },
     {
       "id": 438,
@@ -13115,7 +13115,7 @@
       "close_fair_odds": 1.4414,
       "clv_pct": 5.45,
       "close_fair_p": 0.6937523653336698,
-      "close_ts": 1785357758.871364
+      "close_ts": 1785358388.869384
     },
     {
       "id": 440,
@@ -13199,10 +13199,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4197,
-      "clv_pct": 5.66,
-      "close_fair_p": 0.7043759584882671,
-      "close_ts": 1785357758.871364
+      "close_fair_odds": 1.4204,
+      "clv_pct": 5.6,
+      "close_fair_p": 0.7040068130361631,
+      "close_ts": 1785358388.869384
     },
     {
       "id": 443,
@@ -13231,7 +13231,36 @@
       "close_fair_odds": 1.4127,
       "clv_pct": 3.49,
       "close_fair_p": 0.7078651685393258,
-      "close_ts": 1785357758.871364
+      "close_ts": 1785358388.869384
+    },
+    {
+      "id": 444,
+      "ts": 1785358028.937798,
+      "key": "68:17239552:ml:home",
+      "content_key": "nicohipfl|adamjilly|ml:home|20260730",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Nico Hipfl - Adam Jilly",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Nico Hipfl",
+      "odds": 1.48,
+      "stake": 4900,
+      "value_pct": 9.46,
+      "fair_pct": 74.0,
+      "start": "2026-07-30T10:00:00+00:00",
+      "start_ts": 1785405600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3521,
+      "clv_pct": 9.46,
+      "close_fair_p": 0.7395833333333333,
+      "close_ts": 1785358388.869384
     }
   ],
   "papered": {
@@ -13661,17 +13690,18 @@
     "alvarezlcmagadana|boyertwintere|ml:home|20260730": 1785349088.909794,
     "barranquilla|junior|ml:away|20260729": 1785350618.932189,
     "lujjsavinykhv|leonsschoppee|ml:home|20260729": 1785355868.940854,
-    "maikouchijima|laquisakhan|ml:home|20260730": 1785357218.922181
+    "maikouchijima|laquisakhan|ml:home|20260730": 1785357218.922181,
+    "nicohipfl|adamjilly|ml:home|20260730": 1785358028.937798
   },
   "last_report_date": "2026-07-29",
-  "next_id": 444,
+  "next_id": 445,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785357758.871364,
+      "ts": 1785358388.869384,
       "ok": true,
-      "vegas_events": 1170,
-      "pinnacle_events": 525,
+      "vegas_events": 1174,
+      "pinnacle_events": 534,
       "sports_err": {},
       "problems": [],
       "settle_err": null
