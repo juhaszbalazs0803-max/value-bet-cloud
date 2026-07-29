@@ -10762,11 +10762,11 @@
       "fair_pct": 52.9,
       "start": "2026-07-26T20:00:00+00:00",
       "start_ts": 1785096000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1785355885.2136621,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.8891,
       "clv_pct": 5.87,
@@ -11096,11 +11096,11 @@
       "fair_pct": 57.0,
       "start": "2026-07-26T20:00:00+00:00",
       "start_ts": 1785096000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1785355885.2136621,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7535,
       "clv_pct": 3.68,
@@ -13045,10 +13045,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5476,
-      "clv_pct": 5.71,
-      "close_fair_p": 0.6461448186832531,
-      "close_ts": 1785351429.005128
+      "close_fair_odds": 1.569,
+      "clv_pct": 4.27,
+      "close_fair_p": 0.6373626373626373,
+      "close_ts": 1785355868.940854
     },
     {
       "id": 438,
@@ -13106,7 +13106,7 @@
       "close_fair_odds": 1.4414,
       "clv_pct": 5.45,
       "close_fair_p": 0.6937523653336698,
-      "close_ts": 1785351429.005128
+      "close_ts": 1785355868.940854
     },
     {
       "id": 440,
@@ -13165,6 +13165,35 @@
       "clv_pct": 4.99,
       "close_fair_p": 0.6205160478288231,
       "close_ts": 1785351068.910917
+    },
+    {
+      "id": 442,
+      "ts": 1785355868.940854,
+      "key": "68:17207363:ml:home",
+      "content_key": "lujjsavinykhv|leonsschoppee|ml:home|20260729",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Lu J-J / Savinykh V - Leon, S/Schoppe, E",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Lu J-J / Savinykh V",
+      "odds": 1.5,
+      "stake": 3300,
+      "value_pct": 6.62,
+      "fair_pct": 71.1,
+      "start": "2026-07-29T23:15:00+00:00",
+      "start_ts": 1785366900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4068,
+      "clv_pct": 6.62,
+      "close_fair_p": 0.7108215856314989,
+      "close_ts": 1785355868.940854
     }
   ],
   "papered": {
@@ -13592,17 +13621,18 @@
     "alvarezlcmagadana|boyertwintere|ml:away|20260730": 1785344501.960468,
     "hachverdugohmartinezld|oliveirabpearsonk|ml:home|20260730": 1785344681.97847,
     "alvarezlcmagadana|boyertwintere|ml:home|20260730": 1785349088.909794,
-    "barranquilla|junior|ml:away|20260729": 1785350618.932189
+    "barranquilla|junior|ml:away|20260729": 1785350618.932189,
+    "lujjsavinykhv|leonsschoppee|ml:home|20260729": 1785355868.940854
   },
   "last_report_date": "2026-07-29",
-  "next_id": 442,
+  "next_id": 443,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785351429.005128,
+      "ts": 1785355868.940854,
       "ok": true,
-      "vegas_events": 1161,
-      "pinnacle_events": 503,
+      "vegas_events": 1163,
+      "pinnacle_events": 497,
       "sports_err": {},
       "problems": [],
       "settle_err": null
