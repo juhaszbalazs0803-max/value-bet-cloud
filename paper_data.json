@@ -12639,7 +12639,7 @@
       "close_fair_odds": 1.9899,
       "clv_pct": -7.88,
       "close_fair_p": 0.5025345393102078,
-      "close_ts": 1785326767.428344
+      "close_ts": 1785327397.414968
     },
     {
       "id": 424,
@@ -12727,6 +12727,35 @@
       "clv_pct": 3.23,
       "close_fair_p": 0.7284654773402336,
       "close_ts": 1785317144.114832
+    },
+    {
+      "id": 427,
+      "ts": 1785326857.524987,
+      "key": "68:17229206:ml:away",
+      "content_key": "dujeajdukovic|kilianfeldbausch|ml:away|20260730",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Duje Ajdukovic - Kilian Feldbausch",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Kilian Feldbausch",
+      "odds": 1.286,
+      "stake": 5000,
+      "value_pct": 5.89,
+      "fair_pct": 82.4,
+      "start": "2026-07-30T08:00:00+00:00",
+      "start_ts": 1785398400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.2106,
+      "clv_pct": 6.23,
+      "close_fair_p": 0.8260323605969837,
+      "close_ts": 1785327307.51116
     }
   ],
   "papered": {
@@ -13139,17 +13168,18 @@
     "bangorladies|greenislandladieswomen|ml:home|20260729": 1785314174.30764,
     "bucheonfc|pajucitizenfc|ml:home|20260729": 1785316514.118301,
     "guidoivanjusto|juanbautistatorres|ml:home|20260730": 1785316784.212716,
-    "hunterskrawczykd|chongehozumie|ml:home|20260729": 1785317144.114832
+    "hunterskrawczykd|chongehozumie|ml:home|20260729": 1785317144.114832,
+    "dujeajdukovic|kilianfeldbausch|ml:away|20260730": 1785326857.524987
   },
   "last_report_date": "2026-07-29",
-  "next_id": 427,
+  "next_id": 428,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785326767.428344,
+      "ts": 1785327397.414968,
       "ok": true,
-      "vegas_events": 1266,
-      "pinnacle_events": 521,
+      "vegas_events": 1269,
+      "pinnacle_events": 510,
       "sports_err": {},
       "problems": [],
       "settle_err": null
