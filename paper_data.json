@@ -12450,7 +12450,7 @@
       "close_fair_odds": 1.8898,
       "clv_pct": 3.71,
       "close_fair_p": 0.5291688177594218,
-      "close_ts": 1785305477.769851
+      "close_ts": 1785306115.904506
     },
     {
       "id": 418,
@@ -12479,7 +12479,7 @@
       "close_fair_odds": 1.5647,
       "clv_pct": 3.21,
       "close_fair_p": 0.6390977443609022,
-      "close_ts": 1785305477.769851
+      "close_ts": 1785306115.904506
     },
     {
       "id": 419,
@@ -12537,7 +12537,36 @@
       "close_fair_odds": 1.81,
       "clv_pct": 3.15,
       "close_fair_p": 0.5524861878453039,
-      "close_ts": 1785305477.769851
+      "close_ts": 1785306115.904506
+    },
+    {
+      "id": 421,
+      "ts": 1785305845.936824,
+      "key": "68:17228526:ml:home",
+      "content_key": "alexandremuller|marcocecchinato|ml:home|20260729",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Alexandre Muller - Marco Cecchinato",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Alexandre Muller",
+      "odds": 1.75,
+      "stake": 1200,
+      "value_pct": 3.52,
+      "fair_pct": 59.2,
+      "start": "2026-07-29T16:30:00+00:00",
+      "start_ts": 1785342600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6926,
+      "clv_pct": 3.39,
+      "close_fair_p": 0.5907914242095714,
+      "close_ts": 1785306115.904506
     }
   ],
   "papered": {
@@ -12944,17 +12973,18 @@
     "magni|kfaustfjardja|ml:away|20260729": 1785293830.192765,
     "katefakih|alexisnguyen|ml:home|20260729": 1785304217.792558,
     "doumbiasreboulf|rombolifsmithjp|ml:home|20260729": 1785305027.816752,
-    "chungnamasanfc|siheungcitizenfc|ml:home|20260729": 1785305387.749969
+    "chungnamasanfc|siheungcitizenfc|ml:home|20260729": 1785305387.749969,
+    "alexandremuller|marcocecchinato|ml:home|20260729": 1785305845.936824
   },
   "last_report_date": "2026-07-28",
-  "next_id": 421,
+  "next_id": 422,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785305477.769851,
+      "ts": 1785306115.904506,
       "ok": true,
-      "vegas_events": 1286,
-      "pinnacle_events": 626,
+      "vegas_events": 1296,
+      "pinnacle_events": 633,
       "sports_err": {},
       "problems": [],
       "settle_err": null
