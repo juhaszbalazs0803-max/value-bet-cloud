@@ -13999,7 +13999,7 @@
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
       "close_fair_p": 0.5890052356020942,
-      "close_ts": 1785439295.146
+      "close_ts": 1785439925.116423
     },
     {
       "id": 468,
@@ -14028,7 +14028,7 @@
       "close_fair_odds": 1.5686,
       "clv_pct": 4.3,
       "close_fair_p": 0.6375000000000001,
-      "close_ts": 1785439295.146
+      "close_ts": 1785439925.116423
     },
     {
       "id": 469,
@@ -14057,7 +14057,7 @@
       "close_fair_odds": 1.9026,
       "clv_pct": 5.12,
       "close_fair_p": 0.5256064690026954,
-      "close_ts": 1785439295.146
+      "close_ts": 1785439925.116423
     },
     {
       "id": 470,
@@ -14086,7 +14086,7 @@
       "close_fair_odds": 1.7085,
       "clv_pct": 6.41,
       "close_fair_p": 0.5853018372703411,
-      "close_ts": 1785439295.146
+      "close_ts": 1785439925.116423
     },
     {
       "id": 471,
@@ -14106,11 +14106,14 @@
       "fair_pct": 63.2,
       "start": "2026-07-30T18:00:00+00:00",
       "start_ts": 1785434400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785439935.812453,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.5832,
       "clv_pct": 4.03,
@@ -14144,7 +14147,36 @@
       "close_fair_odds": 1.6486,
       "clv_pct": 3.97,
       "close_fair_p": 0.6065888094823078,
-      "close_ts": 1785439295.146
+      "close_ts": 1785439925.116423
+    },
+    {
+      "id": 473,
+      "ts": 1785439745.117923,
+      "key": "68:17248007:ml:home",
+      "content_key": "tomzeuch|niklasguttau|ml:home|20260731",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Tom Zeuch - Niklas Guttau",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Tom Zeuch",
+      "odds": 1.636,
+      "stake": 2100,
+      "value_pct": 5.31,
+      "fair_pct": 64.4,
+      "start": "2026-07-31T08:00:00+00:00",
+      "start_ts": 1785484800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5538,
+      "clv_pct": 5.29,
+      "close_fair_p": 0.6435643564356436,
+      "close_ts": 1785439925.116423
     }
   ],
   "papered": {
@@ -14603,17 +14635,18 @@
     "niksaarsic|lorenzocomino|ml:away|20260731": 1785432235.018598,
     "orianagniewkowska|klarakajabova|ml:home|20260731": 1785432235.018598,
     "azkaraardamackinlayjames|ozdemirsmturkermn|ml:home|20260730": 1785434218.786195,
-    "vflwolfsburg|telstar|ml:home|20260731": 1785439295.146
+    "vflwolfsburg|telstar|ml:home|20260731": 1785439295.146,
+    "tomzeuch|niklasguttau|ml:home|20260731": 1785439745.117923
   },
   "last_report_date": "2026-07-30",
-  "next_id": 473,
+  "next_id": 474,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785439295.146,
+      "ts": 1785439925.116423,
       "ok": true,
-      "vegas_events": 1244,
-      "pinnacle_events": 496,
+      "vegas_events": 1245,
+      "pinnacle_events": 494,
       "sports_err": {},
       "problems": [],
       "settle_err": null
