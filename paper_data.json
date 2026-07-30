@@ -13513,7 +13513,7 @@
       "close_fair_odds": 1.7085,
       "clv_pct": 7.29,
       "close_fair_p": 0.5853018372703411,
-      "close_ts": 1785404355.644083
+      "close_ts": 1785404985.602678
     },
     {
       "id": 453,
@@ -13542,7 +13542,7 @@
       "close_fair_odds": 1.4722,
       "clv_pct": 3.93,
       "close_fair_p": 0.6792452830188679,
-      "close_ts": 1785404355.644083
+      "close_ts": 1785404985.602678
     },
     {
       "id": 454,
@@ -13597,10 +13597,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.567,
-      "clv_pct": 9.38,
-      "close_fair_p": 0.6381672720584854,
-      "close_ts": 1785404355.644083
+      "close_fair_odds": 1.5616,
+      "clv_pct": 9.76,
+      "close_fair_p": 0.6403829456655852,
+      "close_ts": 1785404985.602678
+    },
+    {
+      "id": 456,
+      "ts": 1785404895.60355,
+      "key": "66:16098139:ml:home",
+      "content_key": "atleticorojiblanco|portoviejo|ml:home|20260730",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Atletico Rojiblanco - Portoviejo",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Atletico Rojiblanco",
+      "odds": 1.95,
+      "stake": 1100,
+      "value_pct": 4.3,
+      "fair_pct": 53.5,
+      "start": "2026-07-30T20:30:00+00:00",
+      "start_ts": 1785443400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8696,
+      "clv_pct": 4.3,
+      "close_fair_p": 0.5348684560662776,
+      "close_ts": 1785404985.602678
     }
   ],
   "papered": {
@@ -14042,17 +14071,18 @@
     "dimitrisazoidis|conorgannon|ml:away|20260730": 1785392722.501701,
     "michaelagwi|julesleroux|ml:home|20260730": 1785392722.501701,
     "raiasheehyj|bayldonbmynenis|ml:away|20260730": 1785394432.461605,
-    "devsdprajwalsinhanitinkumar|recekdsiniakovd|ml:away|20260730": 1785403725.564175
+    "devsdprajwalsinhanitinkumar|recekdsiniakovd|ml:away|20260730": 1785403725.564175,
+    "atleticorojiblanco|portoviejo|ml:home|20260730": 1785404895.60355
   },
   "last_report_date": "2026-07-30",
-  "next_id": 456,
+  "next_id": 457,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785404355.644083,
+      "ts": 1785404985.602678,
       "ok": true,
-      "vegas_events": 1252,
-      "pinnacle_events": 525,
+      "vegas_events": 1280,
+      "pinnacle_events": 519,
       "sports_err": {},
       "problems": [],
       "settle_err": null
