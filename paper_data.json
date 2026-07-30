@@ -13796,6 +13796,35 @@
       "clv_pct": 3.92,
       "close_fair_p": 0.5566075968021221,
       "close_ts": 1785415340.656056
+    },
+    {
+      "id": 462,
+      "ts": 1785420251.016016,
+      "key": "68:17238869:ml:home",
+      "content_key": "nouzapoberleitnern|reymondasanchezl|ml:home|20260730",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Nouza P / Oberleitner N - Reymond A / Sanchez L",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Nouza P / Oberleitner N",
+      "odds": 1.364,
+      "stake": 2900,
+      "value_pct": 4.23,
+      "fair_pct": 76.4,
+      "start": "2026-07-30T14:20:00+00:00",
+      "start_ts": 1785421200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3084,
+      "clv_pct": 4.25,
+      "close_fair_p": 0.7642929319789395,
+      "close_ts": 1785420251.016016
     }
   ],
   "papered": {
@@ -14243,17 +14272,18 @@
     "danielmilavsky|keeganrice|ml:home|20260730": 1785413270.626428,
     "chiayitsao|bellethompson|ml:home|20260731": 1785413450.636006,
     "sarahmildren|mutsumiuemura|ml:away|20260731": 1785414800.718374,
-    "neosepankins|nedunchezhiyanjwanga|ml:away|20260730": 1785415340.656056
+    "neosepankins|nedunchezhiyanjwanga|ml:away|20260730": 1785415340.656056,
+    "nouzapoberleitnern|reymondasanchezl|ml:home|20260730": 1785420251.016016
   },
   "last_report_date": "2026-07-30",
-  "next_id": 462,
+  "next_id": 463,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785419621.081717,
+      "ts": 1785420251.016016,
       "ok": true,
-      "vegas_events": 1324,
-      "pinnacle_events": 513,
+      "vegas_events": 1319,
+      "pinnacle_events": 489,
       "sports_err": {},
       "problems": [],
       "settle_err": null
