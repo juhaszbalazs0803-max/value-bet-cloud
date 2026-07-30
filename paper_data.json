@@ -13789,11 +13789,14 @@
       "fair_pct": 55.7,
       "start": "2026-07-30T13:00:00+00:00",
       "start_ts": 1785416400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1785422164.77728,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.7966,
       "clv_pct": 3.92,
@@ -13828,6 +13831,35 @@
       "clv_pct": 4.07,
       "close_fair_p": 0.7629378645359226,
       "close_ts": 1785420521.063184
+    },
+    {
+      "id": 463,
+      "ts": 1785421967.9051,
+      "key": "68:17239729:ml:home",
+      "content_key": "addedddebrug|betovsergeysinghkaran|ml:home|20260730",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Added, D/Debru, G - Betov, Sergey/Singh, Karan",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Added, D/Debru, G",
+      "odds": 1.8,
+      "stake": 1800,
+      "value_pct": 5.68,
+      "fair_pct": 58.7,
+      "start": "2026-07-30T14:40:00+00:00",
+      "start_ts": 1785422400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7033,
+      "clv_pct": 5.68,
+      "close_fair_p": 0.5870944525464498,
+      "close_ts": 1785421967.9051
     }
   ],
   "papered": {
@@ -14276,17 +14308,18 @@
     "chiayitsao|bellethompson|ml:home|20260731": 1785413450.636006,
     "sarahmildren|mutsumiuemura|ml:away|20260731": 1785414800.718374,
     "neosepankins|nedunchezhiyanjwanga|ml:away|20260730": 1785415340.656056,
-    "nouzapoberleitnern|reymondasanchezl|ml:home|20260730": 1785420251.016016
+    "nouzapoberleitnern|reymondasanchezl|ml:home|20260730": 1785420251.016016,
+    "addedddebrug|betovsergeysinghkaran|ml:home|20260730": 1785421967.9051
   },
   "last_report_date": "2026-07-30",
-  "next_id": 463,
+  "next_id": 464,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785421511.037634,
+      "ts": 1785422147.882541,
       "ok": true,
-      "vegas_events": 1307,
-      "pinnacle_events": 493,
+      "vegas_events": 1308,
+      "pinnacle_events": 495,
       "sports_err": {},
       "problems": [],
       "settle_err": null
