@@ -13043,11 +13043,14 @@
       "fair_pct": 68.0,
       "start": "2026-07-30T14:00:00+00:00",
       "start_ts": 1785420000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785428550.368624,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.4992,
       "clv_pct": 7.72,
@@ -13891,10 +13894,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.762,
-      "clv_pct": 13.51,
-      "close_fair_p": 0.5675384200593152,
-      "close_ts": 1785427902.991925
+      "close_fair_odds": 1.902,
+      "clv_pct": 5.15,
+      "close_fair_p": 0.5257703709239469,
+      "close_ts": 1785428088.920033
     },
     {
       "id": 465,
@@ -13920,10 +13923,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3227,
-      "clv_pct": 5.84,
-      "close_fair_p": 0.7560577819198508,
-      "close_ts": 1785427902.991925
+      "close_fair_odds": 1.3128,
+      "clv_pct": 6.64,
+      "close_fair_p": 0.7617366015787287,
+      "close_ts": 1785428268.865737
     },
     {
       "id": 466,
@@ -13949,10 +13952,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6659,
-      "clv_pct": 12.55,
-      "close_fair_p": 0.6002902502308808,
-      "close_ts": 1785427902.991925
+      "close_fair_odds": 1.7527,
+      "clv_pct": 6.98,
+      "close_fair_p": 0.5705452956314844,
+      "close_ts": 1785428538.86118
     },
     {
       "id": 467,
@@ -13981,7 +13984,7 @@
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
       "close_fair_p": 0.5890052356020942,
-      "close_ts": 1785427902.991925
+      "close_ts": 1785428538.86118
     }
   ],
   "papered": {
@@ -14442,10 +14445,10 @@
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785427902.991925,
+      "ts": 1785428538.86118,
       "ok": true,
       "vegas_events": 1292,
-      "pinnacle_events": 467,
+      "pinnacle_events": 464,
       "sports_err": {},
       "problems": [],
       "settle_err": null
