@@ -14034,7 +14034,7 @@
       "close_fair_odds": 1.5686,
       "clv_pct": 4.3,
       "close_fair_p": 0.6375000000000001,
-      "close_ts": 1785442445.155641
+      "close_ts": 1785445582.020327
     },
     {
       "id": 469,
@@ -14182,7 +14182,36 @@
       "close_fair_odds": 1.5538,
       "clv_pct": 5.29,
       "close_fair_p": 0.6435643564356436,
-      "close_ts": 1785442445.155641
+      "close_ts": 1785445582.020327
+    },
+    {
+      "id": 474,
+      "ts": 1785445582.020327,
+      "key": "66:17179651:ml:home",
+      "content_key": "elche|cordoba|ml:home|20260731",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Elche - Cordoba",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Elche",
+      "odds": 1.833,
+      "stake": 1200,
+      "value_pct": 4.05,
+      "fair_pct": 56.8,
+      "start": "2026-07-31T08:30:00+00:00",
+      "start_ts": 1785486600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.762,
+      "clv_pct": 4.03,
+      "close_fair_p": 0.567522917948884,
+      "close_ts": 1785445582.020327
     }
   ],
   "papered": {
@@ -14642,17 +14671,18 @@
     "orianagniewkowska|klarakajabova|ml:home|20260731": 1785432235.018598,
     "azkaraardamackinlayjames|ozdemirsmturkermn|ml:home|20260730": 1785434218.786195,
     "vflwolfsburg|telstar|ml:home|20260731": 1785439295.146,
-    "tomzeuch|niklasguttau|ml:home|20260731": 1785439745.117923
+    "tomzeuch|niklasguttau|ml:home|20260731": 1785439745.117923,
+    "elche|cordoba|ml:home|20260731": 1785445582.020327
   },
   "last_report_date": "2026-07-30",
-  "next_id": 474,
+  "next_id": 475,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785442445.155641,
+      "ts": 1785445582.020327,
       "ok": true,
-      "vegas_events": 1246,
-      "pinnacle_events": 488,
+      "vegas_events": 1258,
+      "pinnacle_events": 502,
       "sports_err": {},
       "problems": [],
       "settle_err": null
