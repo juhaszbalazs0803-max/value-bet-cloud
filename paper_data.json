@@ -13063,7 +13063,7 @@
       "close_fair_odds": 1.569,
       "clv_pct": 4.27,
       "close_fair_p": 0.6373626373626373,
-      "close_ts": 1785384316.218135
+      "close_ts": 1785384496.224455
     },
     {
       "id": 438,
@@ -13452,7 +13452,36 @@
       "close_fair_odds": 1.7689,
       "clv_pct": 3.62,
       "close_fair_p": 0.5653333333333334,
-      "close_ts": 1785384316.218135
+      "close_ts": 1785384946.217646
+    },
+    {
+      "id": 451,
+      "ts": 1785384676.219382,
+      "key": "68:17239992:ml:away",
+      "content_key": "brycenakashima|karimbennani|ml:away|20260730",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Bryce Nakashima - Karim Bennani",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Karim Bennani",
+      "odds": 1.875,
+      "stake": 1200,
+      "value_pct": 4.28,
+      "fair_pct": 55.6,
+      "start": "2026-07-30T17:00:00+00:00",
+      "start_ts": 1785430800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7981,
+      "clv_pct": 4.28,
+      "close_fair_p": 0.5561497326203209,
+      "close_ts": 1785384946.217646
     }
   ],
   "papered": {
@@ -13889,17 +13918,18 @@
     "namjiyuzukit|isaropparisj|ml:home|20260730": 1785370724.47305,
     "andrejapetrovic|manellazarojuncadella|ml:home|20260730": 1785371806.479004,
     "wellingtonsaints|otagonuggets|ml:home|20260730": 1785384046.220823,
-    "marcelloserafini|johnhallquistlithen|ml:away|20260730": 1785384316.218135
+    "marcelloserafini|johnhallquistlithen|ml:away|20260730": 1785384316.218135,
+    "brycenakashima|karimbennani|ml:away|20260730": 1785384676.219382
   },
   "last_report_date": "2026-07-29",
-  "next_id": 451,
+  "next_id": 452,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785384316.218135,
+      "ts": 1785384946.217646,
       "ok": true,
-      "vegas_events": 1254,
-      "pinnacle_events": 524,
+      "vegas_events": 1255,
+      "pinnacle_events": 526,
       "sports_err": {},
       "problems": [],
       "settle_err": null
