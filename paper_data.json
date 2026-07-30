@@ -13632,7 +13632,36 @@
       "close_fair_odds": 1.8696,
       "clv_pct": 4.3,
       "close_fair_p": 0.5348684560662776,
-      "close_ts": 1785412190.719907
+      "close_ts": 1785412820.627665
+    },
+    {
+      "id": 457,
+      "ts": 1785412730.624138,
+      "key": "68:17236418:ml:away",
+      "content_key": "martinkrumich|sumitnagal|ml:away|20260731",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Martin Krumich - Sumit Nagal",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Sumit Nagal",
+      "odds": 1.727,
+      "stake": 2800,
+      "value_pct": 8.06,
+      "fair_pct": 62.6,
+      "start": "2026-07-31T08:00:00+00:00",
+      "start_ts": 1785484800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5985,
+      "clv_pct": 8.04,
+      "close_fair_p": 0.6255721696673787,
+      "close_ts": 1785412820.627665
     }
   ],
   "papered": {
@@ -14075,17 +14104,18 @@
     "michaelagwi|julesleroux|ml:home|20260730": 1785392722.501701,
     "raiasheehyj|bayldonbmynenis|ml:away|20260730": 1785394432.461605,
     "devsdprajwalsinhanitinkumar|recekdsiniakovd|ml:away|20260730": 1785403725.564175,
-    "atleticorojiblanco|portoviejo|ml:home|20260730": 1785404895.60355
+    "atleticorojiblanco|portoviejo|ml:home|20260730": 1785404895.60355,
+    "martinkrumich|sumitnagal|ml:away|20260731": 1785412730.624138
   },
   "last_report_date": "2026-07-30",
-  "next_id": 457,
+  "next_id": 458,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785412190.719907,
+      "ts": 1785412820.627665,
       "ok": true,
-      "vegas_events": 1300,
-      "pinnacle_events": 516,
+      "vegas_events": 1299,
+      "pinnacle_events": 518,
       "sports_err": {},
       "problems": [],
       "settle_err": null
