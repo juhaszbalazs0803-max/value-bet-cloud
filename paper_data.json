@@ -13958,7 +13958,7 @@
       "close_fair_odds": 1.7527,
       "clv_pct": 6.98,
       "close_fair_p": 0.5705452956314844,
-      "close_ts": 1785429799.030397
+      "close_ts": 1785432235.018598
     },
     {
       "id": 467,
@@ -13987,7 +13987,7 @@
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
       "close_fair_p": 0.5890052356020942,
-      "close_ts": 1785429799.030397
+      "close_ts": 1785432235.018598
     },
     {
       "id": 468,
@@ -14016,7 +14016,65 @@
       "close_fair_odds": 1.5686,
       "clv_pct": 4.3,
       "close_fair_p": 0.6375000000000001,
-      "close_ts": 1785429799.030397
+      "close_ts": 1785432235.018598
+    },
+    {
+      "id": 469,
+      "ts": 1785432235.018598,
+      "key": "68:17248123:ml:away",
+      "content_key": "niksaarsic|lorenzocomino|ml:away|20260731",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Niksa Arsic - Lorenzo Comino",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Lorenzo Comino",
+      "odds": 2.0,
+      "stake": 3700,
+      "value_pct": 14.81,
+      "fair_pct": 57.4,
+      "start": "2026-07-31T07:30:00+00:00",
+      "start_ts": 1785483000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7419,
+      "clv_pct": 14.82,
+      "close_fair_p": 0.574074074074074,
+      "close_ts": 1785432235.018598
+    },
+    {
+      "id": 470,
+      "ts": 1785432235.018598,
+      "key": "68:17246267:ml:home",
+      "content_key": "orianagniewkowska|klarakajabova|ml:home|20260731",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Oriana Gniewkowska - Klara Kajabova",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Oriana Gniewkowska",
+      "odds": 1.818,
+      "stake": 2000,
+      "value_pct": 6.42,
+      "fair_pct": 58.5,
+      "start": "2026-07-31T08:00:00+00:00",
+      "start_ts": 1785484800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7085,
+      "clv_pct": 6.41,
+      "close_fair_p": 0.5853018372703411,
+      "close_ts": 1785432235.018598
     }
   ],
   "papered": {
@@ -14471,17 +14529,19 @@
     "jamiemackenzie|jurijrodionov|ml:away|20260731": 1785427363.017231,
     "lduquito|clubleonesdelnorte|ml:home|20260730": 1785427455.109239,
     "nuriabrancaccio|nastasjaschunk|ml:home|20260731": 1785427723.018698,
-    "katerinatsygourova|barborapalicova|ml:away|20260731": 1785428989.090376
+    "katerinatsygourova|barborapalicova|ml:away|20260731": 1785428989.090376,
+    "niksaarsic|lorenzocomino|ml:away|20260731": 1785432235.018598,
+    "orianagniewkowska|klarakajabova|ml:home|20260731": 1785432235.018598
   },
   "last_report_date": "2026-07-30",
-  "next_id": 469,
+  "next_id": 471,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785429799.030397,
+      "ts": 1785432235.018598,
       "ok": true,
-      "vegas_events": 1289,
-      "pinnacle_events": 463,
+      "vegas_events": 1279,
+      "pinnacle_events": 474,
       "sports_err": {},
       "problems": [],
       "settle_err": null
