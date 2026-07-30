@@ -13455,7 +13455,7 @@
       "close_fair_odds": 1.7689,
       "clv_pct": 3.62,
       "close_fair_p": 0.5653333333333334,
-      "close_ts": 1785393982.451447
+      "close_ts": 1785394612.453508
     },
     {
       "id": 451,
@@ -13513,7 +13513,7 @@
       "close_fair_odds": 1.7085,
       "clv_pct": 7.29,
       "close_fair_p": 0.5853018372703411,
-      "close_ts": 1785393982.451447
+      "close_ts": 1785394612.453508
     },
     {
       "id": 453,
@@ -13542,7 +13542,36 @@
       "close_fair_odds": 1.4722,
       "clv_pct": 3.93,
       "close_fair_p": 0.6792452830188679,
-      "close_ts": 1785393982.451447
+      "close_ts": 1785394612.453508
+    },
+    {
+      "id": 454,
+      "ts": 1785394432.461605,
+      "key": "68:17207307:ml:away",
+      "content_key": "raiasheehyj|bayldonbmynenis|ml:away|20260730",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Rai, A/Sheehy, J - Bayldon, B/Myneni, S",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Bayldon, B/Myneni, S",
+      "odds": 1.875,
+      "stake": 1300,
+      "value_pct": 4.67,
+      "fair_pct": 55.8,
+      "start": "2026-07-30T17:00:00+00:00",
+      "start_ts": 1785430800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7914,
+      "clv_pct": 4.67,
+      "close_fair_p": 0.5582378207042286,
+      "close_ts": 1785394432.461605
     }
   ],
   "papered": {
@@ -13982,17 +14011,18 @@
     "marcelloserafini|johnhallquistlithen|ml:away|20260730": 1785384316.218135,
     "brycenakashima|karimbennani|ml:away|20260730": 1785384676.219382,
     "dimitrisazoidis|conorgannon|ml:away|20260730": 1785392722.501701,
-    "michaelagwi|julesleroux|ml:home|20260730": 1785392722.501701
+    "michaelagwi|julesleroux|ml:home|20260730": 1785392722.501701,
+    "raiasheehyj|bayldonbmynenis|ml:away|20260730": 1785394432.461605
   },
   "last_report_date": "2026-07-29",
-  "next_id": 454,
+  "next_id": 455,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785393982.451447,
+      "ts": 1785394612.453508,
       "ok": true,
-      "vegas_events": 1284,
-      "pinnacle_events": 556,
+      "vegas_events": 1289,
+      "pinnacle_events": 553,
       "sports_err": {},
       "problems": [],
       "settle_err": null
