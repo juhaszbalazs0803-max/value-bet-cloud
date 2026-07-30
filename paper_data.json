@@ -13354,6 +13354,35 @@
       "clv_pct": 9.75,
       "close_fair_p": 0.6402996254681648,
       "close_ts": 1785371534.523629
+    },
+    {
+      "id": 448,
+      "ts": 1785371806.479004,
+      "key": "68:17239655:ml:home",
+      "content_key": "andrejapetrovic|manellazarojuncadella|ml:home|20260730",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Andreja Petrovic - Manel Lazaro Juncadella",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Andreja Petrovic",
+      "odds": 1.692,
+      "stake": 4100,
+      "value_pct": 11.45,
+      "fair_pct": 65.9,
+      "start": "2026-07-30T17:00:00+00:00",
+      "start_ts": 1785430800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5185,
+      "clv_pct": 11.43,
+      "close_fair_p": 0.6585365853658537,
+      "close_ts": 1785372346.463079
     }
   ],
   "papered": {
@@ -13787,17 +13816,18 @@
     "nicohipfl|adamjilly|ml:home|20260730": 1785358028.937798,
     "rcdmallorca|alittihadclub|ml:home|20260730": 1785366617.683862,
     "lujjsavinykhv|leonsschoppee|ml:home|20260730": 1785369048.428478,
-    "namjiyuzukit|isaropparisj|ml:home|20260730": 1785370724.47305
+    "namjiyuzukit|isaropparisj|ml:home|20260730": 1785370724.47305,
+    "andrejapetrovic|manellazarojuncadella|ml:home|20260730": 1785371806.479004
   },
   "last_report_date": "2026-07-29",
-  "next_id": 448,
+  "next_id": 449,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785371714.49774,
+      "ts": 1785372346.463079,
       "ok": true,
-      "vegas_events": 1194,
-      "pinnacle_events": 524,
+      "vegas_events": 1198,
+      "pinnacle_events": 515,
       "sports_err": {},
       "problems": [],
       "settle_err": null
