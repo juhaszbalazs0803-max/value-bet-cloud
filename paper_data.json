@@ -14063,11 +14063,14 @@
       "fair_pct": 57.4,
       "start": "2026-07-31T07:30:00+00:00",
       "start_ts": 1785483000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1785494114.8711326,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.9026,
       "clv_pct": 5.12,
@@ -14400,7 +14403,7 @@
       "close_fair_odds": 1.8623,
       "clv_pct": 7.39,
       "close_fair_p": 0.5369823808246132,
-      "close_ts": 1785493472.246223
+      "close_ts": 1785494102.246062
     },
     {
       "id": 481,
@@ -14545,7 +14548,7 @@
       "close_fair_odds": 1.8743,
       "clv_pct": 6.71,
       "close_fair_p": 0.5335301560522987,
-      "close_ts": 1785493472.246223
+      "close_ts": 1785494102.246062
     },
     {
       "id": 486,
@@ -14571,10 +14574,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.387,
-      "clv_pct": 4.11,
-      "close_fair_p": 0.7209646752726909,
-      "close_ts": 1785493472.246223
+      "close_fair_odds": 1.3882,
+      "clv_pct": 4.02,
+      "close_fair_p": 0.7203447448408254,
+      "close_ts": 1785494012.281878
     },
     {
       "id": 487,
@@ -14629,10 +14632,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7818,
-      "clv_pct": 12.25,
-      "close_fair_p": 0.561239113658913,
-      "close_ts": 1785493472.246223
+      "close_fair_odds": 1.825,
+      "clv_pct": 9.59,
+      "close_fair_p": 0.5479327578373466,
+      "close_ts": 1785494102.246062
     },
     {
       "id": 489,
@@ -14658,10 +14661,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8828,
-      "clv_pct": 6.22,
-      "close_fair_p": 0.5311377245508981,
-      "close_ts": 1785493472.246223
+      "close_fair_odds": 1.8639,
+      "clv_pct": 7.3,
+      "close_fair_p": 0.5365137797234106,
+      "close_ts": 1785494102.246062
     },
     {
       "id": 490,
@@ -14687,10 +14690,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4953,
-      "clv_pct": 3.39,
-      "close_fair_p": 0.6687772875854345,
-      "close_ts": 1785493472.246223
+      "close_fair_odds": 1.5001,
+      "clv_pct": 3.06,
+      "close_fair_p": 0.6666438808758859,
+      "close_ts": 1785494012.281878
+    },
+    {
+      "id": 491,
+      "ts": 1785493562.264805,
+      "key": "68:17253227:ml:away",
+      "content_key": "moeranibouzige|jakedelaney|ml:away|20260801",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Moerani Bouzige - Jake Delaney",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Jake Delaney",
+      "odds": 1.692,
+      "stake": 2300,
+      "value_pct": 6.26,
+      "fair_pct": 62.8,
+      "start": "2026-08-01T02:00:00+00:00",
+      "start_ts": 1785549600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5927,
+      "clv_pct": 6.23,
+      "close_fair_p": 0.6278481012658228,
+      "close_ts": 1785494102.246062
     }
   ],
   "papered": {
@@ -15167,17 +15199,18 @@
     "hennemanncaijsawildalanseresofya|ciricbagariclucijamoratelliangelica|ml:away|20260731": 1785490952.247195,
     "chidekhcgrenierh|hsuyhwatanabes|ml:away|20260731": 1785492572.311522,
     "cameronnorrie|denisshapovalov|ml:home|20260801": 1785492932.317527,
-    "neuchristmpoljakd|paulsonavliegenj|ml:away|20260731": 1785493112.307031
+    "neuchristmpoljakd|paulsonavliegenj|ml:away|20260731": 1785493112.307031,
+    "moeranibouzige|jakedelaney|ml:away|20260801": 1785493562.264805
   },
   "last_report_date": "2026-07-31",
-  "next_id": 491,
+  "next_id": 492,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785493472.246223,
+      "ts": 1785494102.246062,
       "ok": true,
-      "vegas_events": 1407,
-      "pinnacle_events": 614,
+      "vegas_events": 1404,
+      "pinnacle_events": 618,
       "sports_err": {},
       "problems": [],
       "settle_err": null
