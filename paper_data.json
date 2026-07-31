@@ -14310,7 +14310,7 @@
       "close_fair_odds": 1.516,
       "clv_pct": 5.54,
       "close_fair_p": 0.6596182634730539,
-      "close_ts": 1785478230.922327
+      "close_ts": 1785478860.905293
     },
     {
       "id": 478,
@@ -14397,7 +14397,7 @@
       "close_fair_odds": 1.8623,
       "clv_pct": 7.39,
       "close_fair_p": 0.5369823808246132,
-      "close_ts": 1785478230.922327
+      "close_ts": 1785478860.905293
     },
     {
       "id": 481,
@@ -14426,7 +14426,7 @@
       "close_fair_odds": 1.2701,
       "clv_pct": 3.93,
       "close_fair_p": 0.7873180818068553,
-      "close_ts": 1785478230.922327
+      "close_ts": 1785478860.905293
     },
     {
       "id": 482,
@@ -14455,7 +14455,7 @@
       "close_fair_odds": 1.9323,
       "clv_pct": 3.5,
       "close_fair_p": 0.5175202156334231,
-      "close_ts": 1785478230.922327
+      "close_ts": 1785478320.886764
     },
     {
       "id": 483,
@@ -14484,7 +14484,36 @@
       "close_fair_odds": 1.7736,
       "clv_pct": 3.35,
       "close_fair_p": 0.5638297872340425,
-      "close_ts": 1785478230.922327
+      "close_ts": 1785478860.905293
+    },
+    {
+      "id": 484,
+      "ts": 1785478410.880935,
+      "key": "68:17249878:ml:away",
+      "content_key": "choihchoyt|chanhjointm|ml:away|20260731",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Cho I-H / Cho Y T - Chan, H/Joint, M",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Chan, H/Joint, M",
+      "odds": 1.6,
+      "stake": 3500,
+      "value_pct": 8.41,
+      "fair_pct": 67.8,
+      "start": "2026-07-31T16:00:00+00:00",
+      "start_ts": 1785513600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4759,
+      "clv_pct": 8.41,
+      "close_fair_p": 0.677570093457944,
+      "close_ts": 1785478860.905293
     }
   ],
   "papered": {
@@ -14954,17 +14983,18 @@
     "siena|scandicci|ml:home|20260731": 1785478230.922327,
     "queanbeyancityfc|brindabellabluesfc|ml:home|20260801": 1785478230.922327,
     "matthewthomson|mattkuhar|ml:away|20260731": 1785478230.922327,
-    "sarahvanemst|margauxmaquet|ml:home|20260731": 1785478230.922327
+    "sarahvanemst|margauxmaquet|ml:home|20260731": 1785478230.922327,
+    "choihchoyt|chanhjointm|ml:away|20260731": 1785478410.880935
   },
   "last_report_date": "2026-07-30",
-  "next_id": 484,
+  "next_id": 485,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785478230.922327,
+      "ts": 1785478860.905293,
       "ok": true,
-      "vegas_events": 1388,
-      "pinnacle_events": 582,
+      "vegas_events": 1389,
+      "pinnacle_events": 587,
       "sports_err": {},
       "problems": [],
       "settle_err": null
