@@ -14900,7 +14900,7 @@
       "close_fair_odds": 1.5953,
       "clv_pct": 9.7,
       "close_fair_p": 0.6268286896697155,
-      "close_ts": 1785522540.271956
+      "close_ts": 1785523170.32745
     },
     {
       "id": 497,
@@ -14958,7 +14958,7 @@
       "close_fair_odds": 1.6798,
       "clv_pct": 8.23,
       "close_fair_p": 0.5953002610966058,
-      "close_ts": 1785522540.271956
+      "close_ts": 1785523170.32745
     },
     {
       "id": 499,
@@ -14987,7 +14987,36 @@
       "close_fair_odds": 1.3652,
       "clv_pct": 3.79,
       "close_fair_p": 0.732484076433121,
-      "close_ts": 1785522540.271956
+      "close_ts": 1785522810.325022
+    },
+    {
+      "id": 500,
+      "ts": 1785522900.287743,
+      "key": "68:17255447:ml:home",
+      "content_key": "kaitlinquevedo|francescajones|ml:home|20260801",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Kaitlin Quevedo - Francesca Jones",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Kaitlin Quevedo",
+      "odds": 2.0,
+      "stake": 800,
+      "value_pct": 3.18,
+      "fair_pct": 51.6,
+      "start": "2026-08-01T13:00:00+00:00",
+      "start_ts": 1785589200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9384,
+      "clv_pct": 3.18,
+      "close_fair_p": 0.515890859633053,
+      "close_ts": 1785522990.327961
     }
   ],
   "papered": {
@@ -15473,17 +15502,18 @@
     "lautaro|csdrodelindoromanfc|ml:home|20260801": 1785513935.664573,
     "niksaarsic|andreademarchi|ml:away|20260801": 1785516005.68928,
     "robincatry|markusmolder|ml:home|20260801": 1785516455.661199,
-    "vittoriapaganetti|rebeccamunkmortensen|ml:home|20260801": 1785516725.735892
+    "vittoriapaganetti|rebeccamunkmortensen|ml:home|20260801": 1785516725.735892,
+    "kaitlinquevedo|francescajones|ml:home|20260801": 1785522900.287743
   },
   "last_report_date": "2026-07-31",
-  "next_id": 500,
+  "next_id": 501,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785522540.271956,
+      "ts": 1785523170.32745,
       "ok": true,
-      "vegas_events": 1442,
-      "pinnacle_events": 650,
+      "vegas_events": 1441,
+      "pinnacle_events": 648,
       "sports_err": {},
       "problems": [],
       "settle_err": null
