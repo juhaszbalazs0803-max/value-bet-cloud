@@ -13697,11 +13697,14 @@
       "fair_pct": 62.6,
       "start": "2026-07-31T08:00:00+00:00",
       "start_ts": 1785484800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785506477.8920388,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.5366,
       "clv_pct": 12.39,
@@ -13918,11 +13921,14 @@
       "fair_pct": 53.4,
       "start": "2026-07-31T10:30:00+00:00",
       "start_ts": 1785493800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1785506477.8920388,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.902,
       "clv_pct": 5.15,
@@ -14037,11 +14043,14 @@
       "fair_pct": 63.8,
       "start": "2026-07-31T12:00:00+00:00",
       "start_ts": 1785499200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785506477.8920388,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.5686,
       "clv_pct": 4.3,
@@ -14490,11 +14499,14 @@
       "fair_pct": 56.4,
       "start": "2026-07-31T11:00:00+00:00",
       "start_ts": 1785495600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785506477.8920388,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.7736,
       "clv_pct": 3.35,
@@ -14557,7 +14569,7 @@
       "close_fair_odds": 1.8743,
       "clv_pct": 6.71,
       "close_fair_p": 0.5335301560522987,
-      "close_ts": 1785502217.17169
+      "close_ts": 1785506464.582073
     },
     {
       "id": 486,
@@ -14583,10 +14595,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3798,
-      "clv_pct": 4.65,
-      "close_fair_p": 0.7247338835067576,
-      "close_ts": 1785502217.17169
+      "close_fair_odds": 1.3833,
+      "clv_pct": 4.39,
+      "close_fair_p": 0.7228889067266014,
+      "close_ts": 1785506464.582073
     },
     {
       "id": 487,
@@ -14606,11 +14618,14 @@
       "fair_pct": 61.1,
       "start": "2026-07-31T11:00:00+00:00",
       "start_ts": 1785495600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785506477.8920388,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6601,
       "clv_pct": 12.95,
@@ -14693,11 +14708,14 @@
       "fair_pct": 66.7,
       "start": "2026-07-31T10:45:00+00:00",
       "start_ts": 1785494700.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1785506477.8920388,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.5001,
       "clv_pct": 3.06,
@@ -15246,10 +15264,10 @@
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785502217.17169,
+      "ts": 1785506464.582073,
       "ok": true,
-      "vegas_events": 1465,
-      "pinnacle_events": 649,
+      "vegas_events": 1479,
+      "pinnacle_events": 692,
       "sports_err": {},
       "problems": [],
       "settle_err": null
