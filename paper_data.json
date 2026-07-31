@@ -14307,7 +14307,7 @@
       "close_fair_odds": 1.516,
       "clv_pct": 5.54,
       "close_fair_p": 0.6596182634730539,
-      "close_ts": 1785465341.304654
+      "close_ts": 1785465971.235023
     },
     {
       "id": 478,
@@ -14336,7 +14336,36 @@
       "close_fair_odds": 1.8068,
       "clv_pct": 10.69,
       "close_fair_p": 0.553475935828877,
-      "close_ts": 1785465341.304654
+      "close_ts": 1785465971.235023
+    },
+    {
+      "id": 479,
+      "ts": 1785465521.233599,
+      "key": "68:17247797:ml:away",
+      "content_key": "murkelalejandrodellienvelasco|jackloge|ml:away|20260731",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Murkel Alejandro Dellien Velasco - Jack Loge",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Jack Loge",
+      "odds": 1.615,
+      "stake": 2100,
+      "value_pct": 5.18,
+      "fair_pct": 65.1,
+      "start": "2026-07-31T10:00:00+00:00",
+      "start_ts": 1785492000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5358,
+      "clv_pct": 5.16,
+      "close_fair_p": 0.6511056511056511,
+      "close_ts": 1785465971.235023
     }
   ],
   "papered": {
@@ -14801,17 +14830,18 @@
     "herediano|marathon|ml:home|20260731": 1785446571.994419,
     "inglismjonese|arseneaultacrossk|ml:away|20260730": 1785448552.024827,
     "dunedincityroyalsfc|wanakaafc|ml:home|20260801": 1785465341.304654,
-    "brunokuzuhara|jackanthrop|ml:home|20260731": 1785465341.304654
+    "brunokuzuhara|jackanthrop|ml:home|20260731": 1785465341.304654,
+    "murkelalejandrodellienvelasco|jackloge|ml:away|20260731": 1785465521.233599
   },
   "last_report_date": "2026-07-30",
-  "next_id": 479,
+  "next_id": 480,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785465341.304654,
+      "ts": 1785465971.235023,
       "ok": true,
-      "vegas_events": 1285,
-      "pinnacle_events": 469,
+      "vegas_events": 1282,
+      "pinnacle_events": 489,
       "sports_err": {},
       "problems": [],
       "settle_err": null
