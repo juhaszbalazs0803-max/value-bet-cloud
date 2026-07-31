@@ -14400,7 +14400,7 @@
       "close_fair_odds": 1.8623,
       "clv_pct": 7.39,
       "close_fair_p": 0.5369823808246132,
-      "close_ts": 1785492842.261629
+      "close_ts": 1785493472.246223
     },
     {
       "id": 481,
@@ -14545,7 +14545,7 @@
       "close_fair_odds": 1.8743,
       "clv_pct": 6.71,
       "close_fair_p": 0.5335301560522987,
-      "close_ts": 1785492842.261629
+      "close_ts": 1785493472.246223
     },
     {
       "id": 486,
@@ -14571,10 +14571,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3882,
-      "clv_pct": 4.02,
-      "close_fair_p": 0.7203447448408254,
-      "close_ts": 1785492842.261629
+      "close_fair_odds": 1.387,
+      "clv_pct": 4.11,
+      "close_fair_p": 0.7209646752726909,
+      "close_ts": 1785493472.246223
     },
     {
       "id": 487,
@@ -14600,10 +14600,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6323,
-      "clv_pct": 14.87,
-      "close_fair_p": 0.6126318514204362,
-      "close_ts": 1785491402.343665
+      "close_fair_odds": 1.6601,
+      "clv_pct": 12.95,
+      "close_fair_p": 0.6023787366366299,
+      "close_ts": 1785493472.246223
     },
     {
       "id": 488,
@@ -14629,10 +14629,68 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7908,
-      "clv_pct": 11.68,
-      "close_fair_p": 0.5584111633657901,
-      "close_ts": 1785492842.261629
+      "close_fair_odds": 1.7818,
+      "clv_pct": 12.25,
+      "close_fair_p": 0.561239113658913,
+      "close_ts": 1785493472.246223
+    },
+    {
+      "id": 489,
+      "ts": 1785492932.317527,
+      "key": "68:17252951:ml:home",
+      "content_key": "cameronnorrie|denisshapovalov|ml:home|20260801",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Cameron Norrie - Denis Shapovalov",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Cameron Norrie",
+      "odds": 2.0,
+      "stake": 1600,
+      "value_pct": 6.28,
+      "fair_pct": 53.1,
+      "start": "2026-08-01T04:00:00+00:00",
+      "start_ts": 1785556800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8828,
+      "clv_pct": 6.22,
+      "close_fair_p": 0.5311377245508981,
+      "close_ts": 1785493472.246223
+    },
+    {
+      "id": 490,
+      "ts": 1785493112.307031,
+      "key": "68:17246865:ml:away",
+      "content_key": "neuchristmpoljakd|paulsonavliegenj|ml:away|20260731",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Neuchrist, M/Poljak, D - Paulson, A/Vliegen, J",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Paulson, A/Vliegen, J",
+      "odds": 1.546,
+      "stake": 1500,
+      "value_pct": 3.14,
+      "fair_pct": 66.7,
+      "start": "2026-07-31T10:45:00+00:00",
+      "start_ts": 1785494700.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4953,
+      "clv_pct": 3.39,
+      "close_fair_p": 0.6687772875854345,
+      "close_ts": 1785493472.246223
     }
   ],
   "papered": {
@@ -15107,17 +15165,19 @@
     "fortalezan|independientemedellinn|ml:away|20260731": 1785490952.247195,
     "klepacandrejaninomiyamakoto|tjenjanicezhangshuai|ml:away|20260731": 1785490952.247195,
     "hennemanncaijsawildalanseresofya|ciricbagariclucijamoratelliangelica|ml:away|20260731": 1785490952.247195,
-    "chidekhcgrenierh|hsuyhwatanabes|ml:away|20260731": 1785492572.311522
+    "chidekhcgrenierh|hsuyhwatanabes|ml:away|20260731": 1785492572.311522,
+    "cameronnorrie|denisshapovalov|ml:home|20260801": 1785492932.317527,
+    "neuchristmpoljakd|paulsonavliegenj|ml:away|20260731": 1785493112.307031
   },
   "last_report_date": "2026-07-31",
-  "next_id": 489,
+  "next_id": 491,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785492842.261629,
+      "ts": 1785493472.246223,
       "ok": true,
-      "vegas_events": 1405,
-      "pinnacle_events": 617,
+      "vegas_events": 1407,
+      "pinnacle_events": 614,
       "sports_err": {},
       "problems": [],
       "settle_err": null
