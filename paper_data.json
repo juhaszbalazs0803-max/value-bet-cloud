@@ -14569,7 +14569,7 @@
       "close_fair_odds": 1.8743,
       "clv_pct": 6.71,
       "close_fair_p": 0.5335301560522987,
-      "close_ts": 1785507094.630626
+      "close_ts": 1785507727.814212
     },
     {
       "id": 486,
@@ -14598,7 +14598,7 @@
       "close_fair_odds": 1.3833,
       "clv_pct": 4.39,
       "close_fair_p": 0.7228889067266014,
-      "close_ts": 1785507094.630626
+      "close_ts": 1785507727.814212
     },
     {
       "id": 487,
@@ -14779,6 +14779,64 @@
       "clv_pct": 4.12,
       "close_fair_p": 0.5205951669070316,
       "close_ts": 1785499595.001601
+    },
+    {
+      "id": 493,
+      "ts": 1785507547.816557,
+      "key": "68:17246926:ml:away",
+      "content_key": "reymondasanchezl|thijmenloofkaitouesugi|ml:away|20260731",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Reymond A / Sanchez L - Thijmen Loof / Kaito Uesugi",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Thijmen Loof / Kaito Uesugi",
+      "odds": 1.941,
+      "stake": 5000,
+      "value_pct": 20.61,
+      "fair_pct": 62.1,
+      "start": "2026-07-31T16:30:00+00:00",
+      "start_ts": 1785515400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6168,
+      "clv_pct": 20.05,
+      "close_fair_p": 0.6185027030438167,
+      "close_ts": 1785507727.814212
+    },
+    {
+      "id": 494,
+      "ts": 1785507637.817288,
+      "key": "68:17251522:ml:away",
+      "content_key": "escobargkaliyandapoonachan|reynoldsfwattj|ml:away|20260801",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Escobar, G/Kaliyanda Poonacha, N - Reynolds F / Watt J",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Reynolds F / Watt J",
+      "odds": 1.786,
+      "stake": 3500,
+      "value_pct": 10.9,
+      "fair_pct": 62.1,
+      "start": "2026-08-01T02:35:00+00:00",
+      "start_ts": 1785551700.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6103,
+      "clv_pct": 10.91,
+      "close_fair_p": 0.6209904886848147,
+      "close_ts": 1785507727.814212
     }
   ],
   "papered": {
@@ -15257,16 +15315,18 @@
     "cameronnorrie|denisshapovalov|ml:home|20260801": 1785492932.317527,
     "neuchristmpoljakd|paulsonavliegenj|ml:away|20260731": 1785493112.307031,
     "moeranibouzige|jakedelaney|ml:away|20260801": 1785493562.264805,
-    "manchestercity|intermilan|ml:home|20260801": 1785499504.972389
+    "manchestercity|intermilan|ml:home|20260801": 1785499504.972389,
+    "reymondasanchezl|thijmenloofkaitouesugi|ml:away|20260731": 1785507547.816557,
+    "escobargkaliyandapoonachan|reynoldsfwattj|ml:away|20260801": 1785507637.817288
   },
   "last_report_date": "2026-07-31",
-  "next_id": 493,
+  "next_id": 495,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785507094.630626,
+      "ts": 1785507727.814212,
       "ok": true,
-      "vegas_events": 1479,
+      "vegas_events": 1490,
       "pinnacle_events": 681,
       "sports_err": {},
       "problems": [],
