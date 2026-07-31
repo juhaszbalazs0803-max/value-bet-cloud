@@ -12052,11 +12052,11 @@
       "fair_pct": 76.2,
       "start": "2026-07-28T20:30:00+00:00",
       "start_ts": 1785270600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1785530366.8112626,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.3117,
       "clv_pct": 8.94,
@@ -14694,10 +14694,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7196,
-      "clv_pct": 16.31,
-      "close_fair_p": 0.5815272975210636,
-      "close_ts": 1785529723.072622
+      "close_fair_odds": 1.7205,
+      "clv_pct": 16.25,
+      "close_fair_p": 0.5812339645693342,
+      "close_ts": 1785529903.030184
     },
     {
       "id": 490,
@@ -14906,7 +14906,7 @@
       "close_fair_odds": 1.5953,
       "clv_pct": 9.7,
       "close_fair_p": 0.6268286896697155,
-      "close_ts": 1785529723.072622
+      "close_ts": 1785530353.087256
     },
     {
       "id": 497,
@@ -15051,7 +15051,7 @@
       "close_fair_odds": 1.5961,
       "clv_pct": 7.39,
       "close_fair_p": 0.626530279122912,
-      "close_ts": 1785529723.072622
+      "close_ts": 1785530353.087256
     },
     {
       "id": 502,
@@ -15080,7 +15080,7 @@
       "close_fair_odds": 1.4467,
       "clv_pct": 5.07,
       "close_fair_p": 0.6912442396313364,
-      "close_ts": 1785529723.072622
+      "close_ts": 1785530353.087256
     },
     {
       "id": 503,
@@ -15109,7 +15109,7 @@
       "close_fair_odds": 1.6638,
       "clv_pct": 3.02,
       "close_fair_p": 0.6010362694300517,
-      "close_ts": 1785529723.072622
+      "close_ts": 1785530353.087256
     },
     {
       "id": 504,
@@ -15138,7 +15138,7 @@
       "close_fair_odds": 1.7339,
       "clv_pct": 4.85,
       "close_fair_p": 0.5767195767195767,
-      "close_ts": 1785529723.072622
+      "close_ts": 1785530353.087256
     }
   ],
   "papered": {
@@ -15636,10 +15636,10 @@
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785529723.072622,
+      "ts": 1785530353.087256,
       "ok": true,
-      "vegas_events": 1451,
-      "pinnacle_events": 621,
+      "vegas_events": 1450,
+      "pinnacle_events": 623,
       "sports_err": {},
       "problems": [],
       "settle_err": null
