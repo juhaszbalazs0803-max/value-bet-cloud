@@ -15799,6 +15799,35 @@
       "clv_pct": 4.6,
       "close_fair_p": 0.5230125523012552,
       "close_ts": 1785607076.705265
+    },
+    {
+      "id": 526,
+      "ts": 1785613057.680343,
+      "key": "66:17229227:ml:home",
+      "content_key": "sanmartinformosa|soldeamerica|ml:home|20260802",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "San Martin Formosa - Sol de America",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — San Martin Formosa",
+      "odds": 1.7,
+      "stake": 2100,
+      "value_pct": 5.96,
+      "fair_pct": 62.3,
+      "start": "2026-08-02T19:00:00+00:00",
+      "start_ts": 1785697200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6044,
+      "clv_pct": 5.96,
+      "close_fair_p": 0.6232758732337819,
+      "close_ts": 1785613597.653899
     }
   ],
   "papered": {
@@ -16310,17 +16339,18 @@
     "helmondsporttar|sinttruiden|ml:away|20260801": 1785590064.909498,
     "crusadersfc|dundelafc|ml:home|20260801": 1785592322.130457,
     "rebeccamarino|zeynepsonmez|ml:away|20260802": 1785596470.539888,
-    "vilanovan|cearan|ml:home|20260801": 1785602428.085876
+    "vilanovan|cearan|ml:home|20260801": 1785602428.085876,
+    "sanmartinformosa|soldeamerica|ml:home|20260802": 1785613057.680343
   },
   "last_report_date": "2026-08-01",
-  "next_id": 526,
+  "next_id": 527,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785612967.683347,
+      "ts": 1785613597.653899,
       "ok": true,
-      "vegas_events": 1130,
-      "pinnacle_events": 596,
+      "vegas_events": 1137,
+      "pinnacle_events": 591,
       "sports_err": {},
       "problems": [],
       "settle_err": null
