@@ -15830,7 +15830,7 @@
       "close_fair_odds": 1.6044,
       "clv_pct": 5.96,
       "close_fair_p": 0.6232758732337819,
-      "close_ts": 1785625382.285166
+      "close_ts": 1785626012.30597
     },
     {
       "id": 527,
@@ -15859,7 +15859,7 @@
       "close_fair_odds": 1.6458,
       "clv_pct": 4.14,
       "close_fair_p": 0.6076186024772143,
-      "close_ts": 1785625382.285166
+      "close_ts": 1785626012.30597
     },
     {
       "id": 528,
@@ -15888,7 +15888,36 @@
       "close_fair_odds": 1.7302,
       "clv_pct": 3.23,
       "close_fair_p": 0.5779811998621979,
-      "close_ts": 1785625382.285166
+      "close_ts": 1785625832.285334
+    },
+    {
+      "id": 529,
+      "ts": 1785625922.306231,
+      "key": "68:17269317:ml:home",
+      "content_key": "juleniemeier|irinabalus|ml:home|20260802",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Jule Niemeier - Irina Balus",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Jule Niemeier",
+      "odds": 1.818,
+      "stake": 3200,
+      "value_pct": 10.41,
+      "fair_pct": 60.7,
+      "start": "2026-08-02T13:00:00+00:00",
+      "start_ts": 1785675600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6468,
+      "clv_pct": 10.4,
+      "close_fair_p": 0.6072351421188631,
+      "close_ts": 1785626012.30597
     }
   ],
   "papered": {
@@ -16403,17 +16432,18 @@
     "vilanovan|cearan|ml:home|20260801": 1785602428.085876,
     "sanmartinformosa|soldeamerica|ml:home|20260802": 1785613057.680343,
     "realpotosi|sanjos|ml:home|20260802": 1785617865.101164,
-    "kaitlinquevedo|laurasamson|ml:home|20260802": 1785625292.255412
+    "kaitlinquevedo|laurasamson|ml:home|20260802": 1785625292.255412,
+    "juleniemeier|irinabalus|ml:home|20260802": 1785625922.306231
   },
   "last_report_date": "2026-08-01",
-  "next_id": 529,
+  "next_id": 530,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785625382.285166,
+      "ts": 1785626012.30597,
       "ok": true,
-      "vegas_events": 1116,
-      "pinnacle_events": 590,
+      "vegas_events": 1120,
+      "pinnacle_events": 589,
       "sports_err": {},
       "problems": [],
       "settle_err": null
