@@ -14915,7 +14915,7 @@
       "close_fair_odds": 1.5953,
       "clv_pct": 9.7,
       "close_fair_p": 0.6268286896697155,
-      "close_ts": 1785555681.902774
+      "close_ts": 1785556311.899485
     },
     {
       "id": 497,
@@ -15060,7 +15060,7 @@
       "close_fair_odds": 1.5961,
       "clv_pct": 7.39,
       "close_fair_p": 0.626530279122912,
-      "close_ts": 1785555681.902774
+      "close_ts": 1785556311.899485
     },
     {
       "id": 502,
@@ -15234,7 +15234,7 @@
       "close_fair_odds": 1.8262,
       "clv_pct": 3.44,
       "close_fair_p": 0.5475898839974062,
-      "close_ts": 1785555681.902774
+      "close_ts": 1785556311.899485
     },
     {
       "id": 508,
@@ -15263,7 +15263,7 @@
       "close_fair_odds": 1.8058,
       "clv_pct": 5.22,
       "close_fair_p": 0.5537624978074022,
-      "close_ts": 1785555681.902774
+      "close_ts": 1785556311.899485
     },
     {
       "id": 509,
@@ -15321,7 +15321,36 @@
       "close_fair_odds": 1.6173,
       "clv_pct": 5.11,
       "close_fair_p": 0.6183206106870229,
-      "close_ts": 1785555681.902774
+      "close_ts": 1785556311.899485
+    },
+    {
+      "id": 511,
+      "ts": 1785556311.899485,
+      "key": "68:17259044:ml:away",
+      "content_key": "brandonnakashima|taylorfritz|ml:away|20260801",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Brandon Nakashima - Taylor Fritz",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Taylor Fritz",
+      "odds": 1.667,
+      "stake": 2100,
+      "value_pct": 5.56,
+      "fair_pct": 63.3,
+      "start": "2026-08-01T22:30:00+00:00",
+      "start_ts": 1785623400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5789,
+      "clv_pct": 5.58,
+      "close_fair_p": 0.6333712481719632,
+      "close_ts": 1785556311.899485
     }
   ],
   "papered": {
@@ -15818,17 +15847,18 @@
     "vanersborgsif|motalaaif|ml:away|20260801": 1785544440.245858,
     "adelaidevictory|salisburyunited|ml:home|20260801": 1785554421.930481,
     "naomiosaka|alexandraeala|ml:home|20260801": 1785554421.930481,
-    "mayucrossley|pipercharney|ml:home|20260801": 1785554421.930481
+    "mayucrossley|pipercharney|ml:home|20260801": 1785554421.930481,
+    "brandonnakashima|taylorfritz|ml:away|20260801": 1785556311.899485
   },
   "last_report_date": "2026-07-31",
-  "next_id": 511,
+  "next_id": 512,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785555681.902774,
+      "ts": 1785556311.899485,
       "ok": true,
       "vegas_events": 1443,
-      "pinnacle_events": 678,
+      "pinnacle_events": 673,
       "sports_err": {},
       "problems": [],
       "settle_err": null
