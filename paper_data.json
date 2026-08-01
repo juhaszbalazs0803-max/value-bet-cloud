@@ -14921,7 +14921,7 @@
       "close_fair_odds": 1.5953,
       "clv_pct": 9.7,
       "close_fair_p": 0.6268286896697155,
-      "close_ts": 1785566874.424952
+      "close_ts": 1785567504.413717
     },
     {
       "id": 497,
@@ -15066,7 +15066,7 @@
       "close_fair_odds": 1.5961,
       "clv_pct": 7.39,
       "close_fair_p": 0.626530279122912,
-      "close_ts": 1785566874.424952
+      "close_ts": 1785567504.413717
     },
     {
       "id": 502,
@@ -15240,7 +15240,7 @@
       "close_fair_odds": 1.8262,
       "clv_pct": 3.44,
       "close_fair_p": 0.5475898839974062,
-      "close_ts": 1785566874.424952
+      "close_ts": 1785567504.413717
     },
     {
       "id": 508,
@@ -15327,7 +15327,7 @@
       "close_fair_odds": 1.6173,
       "clv_pct": 5.11,
       "close_fair_p": 0.6183206106870229,
-      "close_ts": 1785566874.424952
+      "close_ts": 1785567504.413717
     },
     {
       "id": 511,
@@ -15414,7 +15414,7 @@
       "close_fair_odds": 1.7337,
       "clv_pct": 4.86,
       "close_fair_p": 0.5767846626971145,
-      "close_ts": 1785566874.424952
+      "close_ts": 1785567504.413717
     },
     {
       "id": 514,
@@ -15443,7 +15443,7 @@
       "close_fair_odds": 1.3104,
       "clv_pct": 4.09,
       "close_fair_p": 0.7631502843738954,
-      "close_ts": 1785566874.424952
+      "close_ts": 1785567504.413717
     },
     {
       "id": 515,
@@ -15501,7 +15501,36 @@
       "close_fair_odds": 1.708,
       "clv_pct": 4.1,
       "close_fair_p": 0.5854691538725048,
-      "close_ts": 1785566874.424952
+      "close_ts": 1785567504.413717
+    },
+    {
+      "id": 517,
+      "ts": 1785567324.440711,
+      "key": "68:17260693:ml:home",
+      "content_key": "johannusmonday|ozanbaris|ml:home|20260801",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Johannus Monday - Ozan Baris",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Johannus Monday",
+      "odds": 1.667,
+      "stake": 2300,
+      "value_pct": 5.99,
+      "fair_pct": 63.6,
+      "start": "2026-08-01T13:30:00+00:00",
+      "start_ts": 1785591000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5725,
+      "clv_pct": 6.01,
+      "close_fair_p": 0.6359102244389027,
+      "close_ts": 1785567504.413717
     }
   ],
   "papered": {
@@ -16004,17 +16033,18 @@
     "magicunited|olympicfc|ml:away|20260802": 1785565599.57232,
     "clarencezebrasfc|ulverstonefc|ml:home|20260802": 1785565599.57232,
     "canterburybankstownfc|dulwichhill|ml:home|20260801": 1785565599.57232,
-    "eastkilbride|queenofthesouthfc|ml:home|20260801": 1785565599.57232
+    "eastkilbride|queenofthesouthfc|ml:home|20260801": 1785565599.57232,
+    "johannusmonday|ozanbaris|ml:home|20260801": 1785567324.440711
   },
   "last_report_date": "2026-07-31",
-  "next_id": 517,
+  "next_id": 518,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785566874.424952,
+      "ts": 1785567504.413717,
       "ok": true,
-      "vegas_events": 1476,
-      "pinnacle_events": 794,
+      "vegas_events": 1479,
+      "pinnacle_events": 797,
       "sports_err": {},
       "problems": [],
       "settle_err": null
