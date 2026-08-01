@@ -14924,7 +14924,7 @@
       "close_fair_odds": 1.5953,
       "clv_pct": 9.7,
       "close_fair_p": 0.6268286896697155,
-      "close_ts": 1785586051.617162
+      "close_ts": 1785590064.909498
     },
     {
       "id": 497,
@@ -14944,11 +14944,14 @@
       "fair_pct": 58.9,
       "start": "2026-08-01T08:30:00+00:00",
       "start_ts": 1785573000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785590079.7781126,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6978,
       "clv_pct": 3.66,
@@ -14973,11 +14976,14 @@
       "fair_pct": 59.5,
       "start": "2026-08-01T09:30:00+00:00",
       "start_ts": 1785576600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1785590079.7781126,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6798,
       "clv_pct": 8.23,
@@ -15336,7 +15342,7 @@
       "close_fair_odds": 1.6173,
       "clv_pct": 5.11,
       "close_fair_p": 0.6183206106870229,
-      "close_ts": 1785586051.617162
+      "close_ts": 1785590064.909498
     },
     {
       "id": 511,
@@ -15391,10 +15397,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8856,
-      "clv_pct": 3.42,
-      "close_fair_p": 0.5303378639348182,
-      "close_ts": 1785586051.617162
+      "close_fair_odds": 2.0862,
+      "clv_pct": -6.53,
+      "close_fair_p": 0.47934289567242855,
+      "close_ts": 1785590064.909498
     },
     {
       "id": 513,
@@ -15452,7 +15458,7 @@
       "close_fair_odds": 1.3104,
       "clv_pct": 4.09,
       "close_fair_p": 0.7631502843738954,
-      "close_ts": 1785586051.617162
+      "close_ts": 1785590064.909498
     },
     {
       "id": 515,
@@ -15656,6 +15662,35 @@
       "clv_pct": 3.35,
       "close_fair_p": 0.6399260365550103,
       "close_ts": 1785578203.770372
+    },
+    {
+      "id": 522,
+      "ts": 1785590064.909498,
+      "key": "66:17189460:ml:away",
+      "content_key": "helmondsporttar|sinttruiden|ml:away|20260801",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Helmond Sport (Tar.) - Sint-Truiden",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Sint-Truiden",
+      "odds": 1.667,
+      "stake": 1100,
+      "value_pct": 3.0,
+      "fair_pct": 61.8,
+      "start": "2026-08-01T14:00:00+00:00",
+      "start_ts": 1785592800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6181,
+      "clv_pct": 3.02,
+      "close_fair_p": 0.617993273542601,
+      "close_ts": 1785590064.909498
     }
   ],
   "papered": {
@@ -16163,17 +16198,18 @@
     "orebron|husqvarnaff|ml:home|20260801": 1785567594.414773,
     "escobarfc|bocaunidos|ml:home|20260801": 1785575053.974456,
     "aleksandarvukic|marcelotomasbarriosvera|ml:home|20260801": 1785575053.974456,
-    "victoriajimenezkasintseva|marinabassolsribera|ml:away|20260801": 1785576043.820624
+    "victoriajimenezkasintseva|marinabassolsribera|ml:away|20260801": 1785576043.820624,
+    "helmondsporttar|sinttruiden|ml:away|20260801": 1785590064.909498
   },
   "last_report_date": "2026-08-01",
-  "next_id": 522,
+  "next_id": 523,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785586051.617162,
+      "ts": 1785590064.909498,
       "ok": true,
-      "vegas_events": 1370,
-      "pinnacle_events": 700,
+      "vegas_events": 1348,
+      "pinnacle_events": 677,
       "sports_err": {},
       "problems": [],
       "settle_err": null
