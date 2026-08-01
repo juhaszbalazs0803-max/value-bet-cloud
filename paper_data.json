@@ -14921,7 +14921,7 @@
       "close_fair_odds": 1.5953,
       "clv_pct": 9.7,
       "close_fair_p": 0.6268286896697155,
-      "close_ts": 1785567504.413717
+      "close_ts": 1785568134.391955
     },
     {
       "id": 497,
@@ -15066,7 +15066,7 @@
       "close_fair_odds": 1.5961,
       "clv_pct": 7.39,
       "close_fair_p": 0.626530279122912,
-      "close_ts": 1785567504.413717
+      "close_ts": 1785568134.391955
     },
     {
       "id": 502,
@@ -15240,7 +15240,7 @@
       "close_fair_odds": 1.8262,
       "clv_pct": 3.44,
       "close_fair_p": 0.5475898839974062,
-      "close_ts": 1785567504.413717
+      "close_ts": 1785567774.396096
     },
     {
       "id": 508,
@@ -15327,7 +15327,7 @@
       "close_fair_odds": 1.6173,
       "clv_pct": 5.11,
       "close_fair_p": 0.6183206106870229,
-      "close_ts": 1785567504.413717
+      "close_ts": 1785568134.391955
     },
     {
       "id": 511,
@@ -15385,7 +15385,7 @@
       "close_fair_odds": 1.8856,
       "clv_pct": 3.42,
       "close_fair_p": 0.5303378639348182,
-      "close_ts": 1785565959.564984
+      "close_ts": 1785568134.391955
     },
     {
       "id": 513,
@@ -15414,7 +15414,7 @@
       "close_fair_odds": 1.7337,
       "clv_pct": 4.86,
       "close_fair_p": 0.5767846626971145,
-      "close_ts": 1785567504.413717
+      "close_ts": 1785568134.391955
     },
     {
       "id": 514,
@@ -15443,7 +15443,7 @@
       "close_fair_odds": 1.3104,
       "clv_pct": 4.09,
       "close_fair_p": 0.7631502843738954,
-      "close_ts": 1785567504.413717
+      "close_ts": 1785568134.391955
     },
     {
       "id": 515,
@@ -15501,7 +15501,7 @@
       "close_fair_odds": 1.708,
       "clv_pct": 4.1,
       "close_fair_p": 0.5854691538725048,
-      "close_ts": 1785567504.413717
+      "close_ts": 1785568134.391955
     },
     {
       "id": 517,
@@ -15530,7 +15530,36 @@
       "close_fair_odds": 1.5725,
       "clv_pct": 6.01,
       "close_fair_p": 0.6359102244389027,
-      "close_ts": 1785567504.413717
+      "close_ts": 1785567594.414773
+    },
+    {
+      "id": 518,
+      "ts": 1785567594.414773,
+      "key": "66:17127829:ml:home",
+      "content_key": "orebron|husqvarnaff|ml:home|20260801",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Orebro (N) - Husqvarna FF",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Orebro (N)",
+      "odds": 1.385,
+      "stake": 2000,
+      "value_pct": 3.1,
+      "fair_pct": 74.5,
+      "start": "2026-08-01T11:00:00+00:00",
+      "start_ts": 1785582000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3431,
+      "clv_pct": 3.12,
+      "close_fair_p": 0.7445655274719004,
+      "close_ts": 1785568134.391955
     }
   ],
   "papered": {
@@ -16034,17 +16063,18 @@
     "clarencezebrasfc|ulverstonefc|ml:home|20260802": 1785565599.57232,
     "canterburybankstownfc|dulwichhill|ml:home|20260801": 1785565599.57232,
     "eastkilbride|queenofthesouthfc|ml:home|20260801": 1785565599.57232,
-    "johannusmonday|ozanbaris|ml:home|20260801": 1785567324.440711
+    "johannusmonday|ozanbaris|ml:home|20260801": 1785567324.440711,
+    "orebron|husqvarnaff|ml:home|20260801": 1785567594.414773
   },
   "last_report_date": "2026-07-31",
-  "next_id": 518,
+  "next_id": 519,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785567504.413717,
+      "ts": 1785568134.391955,
       "ok": true,
-      "vegas_events": 1479,
-      "pinnacle_events": 797,
+      "vegas_events": 1478,
+      "pinnacle_events": 784,
       "sports_err": {},
       "problems": [],
       "settle_err": null
