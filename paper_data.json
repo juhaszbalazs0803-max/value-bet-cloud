@@ -14915,7 +14915,7 @@
       "close_fair_odds": 1.5953,
       "clv_pct": 9.7,
       "close_fair_p": 0.6268286896697155,
-      "close_ts": 1785544260.253249
+      "close_ts": 1785544890.258024
     },
     {
       "id": 497,
@@ -15060,7 +15060,7 @@
       "close_fair_odds": 1.5961,
       "clv_pct": 7.39,
       "close_fair_p": 0.626530279122912,
-      "close_ts": 1785544260.253249
+      "close_ts": 1785544890.258024
     },
     {
       "id": 502,
@@ -15118,7 +15118,7 @@
       "close_fair_odds": 1.6638,
       "clv_pct": 3.02,
       "close_fair_p": 0.6010362694300517,
-      "close_ts": 1785544260.253249
+      "close_ts": 1785544890.258024
     },
     {
       "id": 504,
@@ -15206,6 +15206,35 @@
       "clv_pct": 4.47,
       "close_fair_p": 0.5330235418730994,
       "close_ts": 1785537251.676946
+    },
+    {
+      "id": 507,
+      "ts": 1785544440.245858,
+      "key": "66:17216247:ml:away",
+      "content_key": "vanersborgsif|motalaaif|ml:away|20260801",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Vanersborgs IF - Motala AIF",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Motala AIF",
+      "odds": 1.889,
+      "stake": 1000,
+      "value_pct": 3.43,
+      "fair_pct": 54.8,
+      "start": "2026-08-01T11:00:00+00:00",
+      "start_ts": 1785582000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8262,
+      "clv_pct": 3.44,
+      "close_fair_p": 0.5475898839974062,
+      "close_ts": 1785544890.258024
     }
   ],
   "papered": {
@@ -15698,17 +15727,18 @@
     "tropanggiga|sanmiguelbeermen|ml:away|20260801": 1785529093.133712,
     "jackloge|geoffreyblancaneaux|ml:away|20260801": 1785529633.031443,
     "jankumstat|sumitnagal|ml:away|20260801": 1785535361.731935,
-    "vancouverlangleyfc|atleticoottawa|ml:home|20260801": 1785535811.705681
+    "vancouverlangleyfc|atleticoottawa|ml:home|20260801": 1785535811.705681,
+    "vanersborgsif|motalaaif|ml:away|20260801": 1785544440.245858
   },
   "last_report_date": "2026-07-31",
-  "next_id": 507,
+  "next_id": 508,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785544260.253249,
+      "ts": 1785544890.258024,
       "ok": true,
-      "vegas_events": 1441,
-      "pinnacle_events": 645,
+      "vegas_events": 1442,
+      "pinnacle_events": 653,
       "sports_err": {},
       "problems": [],
       "settle_err": null
