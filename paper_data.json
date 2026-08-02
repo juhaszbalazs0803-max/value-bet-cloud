@@ -16249,6 +16249,35 @@
       "clv_pct": 5.25,
       "close_fair_p": 0.5370121130551817,
       "close_ts": 1785682803.592191
+    },
+    {
+      "id": 541,
+      "ts": 1785693664.535917,
+      "key": "66:17233893:ml:home",
+      "content_key": "sanlorenzodealmagron|ferrocarriloesten|ml:home|20260803",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "San Lorenzo de Almagro (N) - Ferro Carril Oeste (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — San Lorenzo de Almagro (N)",
+      "odds": 1.75,
+      "stake": 1400,
+      "value_pct": 4.32,
+      "fair_pct": 59.6,
+      "start": "2026-08-03T18:00:00+00:00",
+      "start_ts": 1785780000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6775,
+      "clv_pct": 4.32,
+      "close_fair_p": 0.5961123110151187,
+      "close_ts": 1785694204.491307
     }
   ],
   "papered": {
@@ -16775,17 +16804,18 @@
     "tomaszberkieta|facundomena|ml:away|20260803": 1785672297.181013,
     "napredak|graficar|ml:home|20260802": 1785674097.251679,
     "psveindhoven|azalkmaar|ml:home|20260802": 1785674729.178873,
-    "etofc|nyregyhzaspartacusfc|ml:home|20260802": 1785682803.592191
+    "etofc|nyregyhzaspartacusfc|ml:home|20260802": 1785682803.592191,
+    "sanlorenzodealmagron|ferrocarriloesten|ml:home|20260803": 1785693664.535917
   },
   "last_report_date": "2026-08-02",
-  "next_id": 541,
+  "next_id": 542,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785693574.542435,
+      "ts": 1785694204.491307,
       "ok": true,
-      "vegas_events": 1021,
-      "pinnacle_events": 463,
+      "vegas_events": 992,
+      "pinnacle_events": 443,
       "sports_err": {},
       "problems": [],
       "settle_err": null
