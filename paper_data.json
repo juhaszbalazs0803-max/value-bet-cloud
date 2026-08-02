@@ -15830,7 +15830,7 @@
       "close_fair_odds": 1.6044,
       "clv_pct": 5.96,
       "close_fair_p": 0.6232758732337819,
-      "close_ts": 1785628505.812343
+      "close_ts": 1785629135.687289
     },
     {
       "id": 527,
@@ -15859,7 +15859,7 @@
       "close_fair_odds": 1.6458,
       "clv_pct": 4.14,
       "close_fair_p": 0.6076186024772143,
-      "close_ts": 1785628505.812343
+      "close_ts": 1785629135.687289
     },
     {
       "id": 528,
@@ -15947,6 +15947,64 @@
       "clv_pct": 5.66,
       "close_fair_p": 0.528290529695024,
       "close_ts": 1785627002.302617
+    },
+    {
+      "id": 531,
+      "ts": 1785628775.739126,
+      "key": "67:16134940:ml:away",
+      "content_key": "portlandfiren|losangelessparksn|ml:away|20260802",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Portland Fire (N) - Los Angeles Sparks (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Los Angeles Sparks (N)",
+      "odds": 2.0,
+      "stake": 900,
+      "value_pct": 3.66,
+      "fair_pct": 51.8,
+      "start": "2026-08-02T19:30:00+00:00",
+      "start_ts": 1785699000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9293,
+      "clv_pct": 3.66,
+      "close_fair_p": 0.518324607329843,
+      "close_ts": 1785629135.687289
+    },
+    {
+      "id": 532,
+      "ts": 1785629045.688313,
+      "key": "67:17239652:ml:away",
+      "content_key": "cdabaancud|cdespanolosorno|ml:away|20260802",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "CD ABA Ancud - CD Espanol Osorno",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — CD Espanol Osorno",
+      "odds": 1.909,
+      "stake": 1900,
+      "value_pct": 6.91,
+      "fair_pct": 56.0,
+      "start": "2026-08-02T00:30:00+00:00",
+      "start_ts": 1785630600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7857,
+      "clv_pct": 6.9,
+      "close_fair_p": 0.56,
+      "close_ts": 1785629135.687289
     }
   ],
   "papered": {
@@ -16463,17 +16521,19 @@
     "realpotosi|sanjos|ml:home|20260802": 1785617865.101164,
     "kaitlinquevedo|laurasamson|ml:home|20260802": 1785625292.255412,
     "juleniemeier|irinabalus|ml:home|20260802": 1785625922.306231,
-    "cosmerollandderavel|adrianandreev|ml:away|20260802": 1785626552.305139
+    "cosmerollandderavel|adrianandreev|ml:away|20260802": 1785626552.305139,
+    "portlandfiren|losangelessparksn|ml:away|20260802": 1785628775.739126,
+    "cdabaancud|cdespanolosorno|ml:away|20260802": 1785629045.688313
   },
   "last_report_date": "2026-08-01",
-  "next_id": 531,
+  "next_id": 533,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785628505.812343,
+      "ts": 1785629135.687289,
       "ok": true,
-      "vegas_events": 1110,
-      "pinnacle_events": 587,
+      "vegas_events": 1097,
+      "pinnacle_events": 584,
       "sports_err": {},
       "problems": [],
       "settle_err": null
