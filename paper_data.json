@@ -16149,10 +16149,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7556,
-      "clv_pct": 3.55,
-      "close_fair_p": 0.5696032279757901,
-      "close_ts": 1785672297.181013
+      "close_fair_odds": 2.0515,
+      "clv_pct": -11.38,
+      "close_fair_p": 0.48744331203979135,
+      "close_ts": 1785682803.592191
     },
     {
       "id": 538,
@@ -16211,6 +16211,35 @@
       "clv_pct": 3.13,
       "close_fair_p": 0.62882096069869,
       "close_ts": 1785675089.153152
+    },
+    {
+      "id": 540,
+      "ts": 1785682803.592191,
+      "key": "66:17186969:ml:home",
+      "content_key": "etofc|nyregyhzaspartacusfc|ml:home|20260802",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "ETO FC - Nyíregyháza Spartacus FC",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — ETO FC",
+      "odds": 1.96,
+      "stake": 1400,
+      "value_pct": 5.25,
+      "fair_pct": 53.7,
+      "start": "2026-08-02T15:30:00+00:00",
+      "start_ts": 1785684600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8622,
+      "clv_pct": 5.25,
+      "close_fair_p": 0.5370121130551817,
+      "close_ts": 1785682803.592191
     }
   ],
   "papered": {
@@ -16736,17 +16765,18 @@
     "tomaszberkieta|facundomena|ml:home|20260803": 1785668772.640163,
     "tomaszberkieta|facundomena|ml:away|20260803": 1785672297.181013,
     "napredak|graficar|ml:home|20260802": 1785674097.251679,
-    "psveindhoven|azalkmaar|ml:home|20260802": 1785674729.178873
+    "psveindhoven|azalkmaar|ml:home|20260802": 1785674729.178873,
+    "etofc|nyregyhzaspartacusfc|ml:home|20260802": 1785682803.592191
   },
   "last_report_date": "2026-08-02",
-  "next_id": 540,
+  "next_id": 541,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785681224.00905,
+      "ts": 1785682803.592191,
       "ok": true,
-      "vegas_events": 1081,
-      "pinnacle_events": 522,
+      "vegas_events": 1056,
+      "pinnacle_events": 513,
       "sports_err": {},
       "problems": [],
       "settle_err": null
