@@ -16153,6 +16153,35 @@
       "clv_pct": 3.55,
       "close_fair_p": 0.5696032279757901,
       "close_ts": 1785672297.181013
+    },
+    {
+      "id": 538,
+      "ts": 1785674097.251679,
+      "key": "66:17204004:ml:home",
+      "content_key": "napredak|graficar|ml:home|20260802",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Napredak - Graficar",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Napredak",
+      "odds": 1.875,
+      "stake": 900,
+      "value_pct": 3.23,
+      "fair_pct": 55.1,
+      "start": "2026-08-02T17:00:00+00:00",
+      "start_ts": 1785690000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8163,
+      "clv_pct": 3.23,
+      "close_fair_p": 0.5505583126550868,
+      "close_ts": 1785674367.213149
     }
   ],
   "papered": {
@@ -16676,16 +16705,17 @@
     "danielerapagnetta|georgelazarov|ml:home|20260802": 1785661445.91052,
     "uerdingen05|spvggerkenschwick|ml:home|20260802": 1785667135.165219,
     "tomaszberkieta|facundomena|ml:home|20260803": 1785668772.640163,
-    "tomaszberkieta|facundomena|ml:away|20260803": 1785672297.181013
+    "tomaszberkieta|facundomena|ml:away|20260803": 1785672297.181013,
+    "napredak|graficar|ml:home|20260802": 1785674097.251679
   },
   "last_report_date": "2026-08-02",
-  "next_id": 538,
+  "next_id": 539,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785673917.232628,
+      "ts": 1785674547.25522,
       "ok": true,
-      "vegas_events": 1122,
+      "vegas_events": 1125,
       "pinnacle_events": 620,
       "sports_err": {},
       "problems": [],
