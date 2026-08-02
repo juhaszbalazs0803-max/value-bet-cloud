@@ -16124,6 +16124,35 @@
       "clv_pct": 3.17,
       "close_fair_p": 0.5576767552995956,
       "close_ts": 1785669132.656273
+    },
+    {
+      "id": 537,
+      "ts": 1785672297.181013,
+      "key": "68:17267516:ml:away",
+      "content_key": "tomaszberkieta|facundomena|ml:away|20260803",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Tomasz Berkieta - Facundo Mena",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Facundo Mena",
+      "odds": 1.818,
+      "stake": 1100,
+      "value_pct": 3.57,
+      "fair_pct": 57.0,
+      "start": "2026-08-03T08:00:00+00:00",
+      "start_ts": 1785744000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7556,
+      "clv_pct": 3.55,
+      "close_fair_p": 0.5696032279757901,
+      "close_ts": 1785672297.181013
     }
   ],
   "papered": {
@@ -16646,17 +16675,18 @@
     "alemanniaaachen|eintrachttrier|ml:home|20260802": 1785658925.908521,
     "danielerapagnetta|georgelazarov|ml:home|20260802": 1785661445.91052,
     "uerdingen05|spvggerkenschwick|ml:home|20260802": 1785667135.165219,
-    "tomaszberkieta|facundomena|ml:home|20260803": 1785668772.640163
+    "tomaszberkieta|facundomena|ml:home|20260803": 1785668772.640163,
+    "tomaszberkieta|facundomena|ml:away|20260803": 1785672297.181013
   },
   "last_report_date": "2026-08-02",
-  "next_id": 537,
+  "next_id": 538,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785672027.250614,
+      "ts": 1785672657.180675,
       "ok": true,
-      "vegas_events": 1133,
-      "pinnacle_events": 623,
+      "vegas_events": 1131,
+      "pinnacle_events": 607,
       "sports_err": {},
       "problems": [],
       "settle_err": null
