@@ -16277,7 +16277,36 @@
       "close_fair_odds": 1.6775,
       "clv_pct": 4.32,
       "close_fair_p": 0.5961123110151187,
-      "close_ts": 1785698184.472037
+      "close_ts": 1785698814.739286
+    },
+    {
+      "id": 542,
+      "ts": 1785698364.49359,
+      "key": "66:17203985:ml:away",
+      "content_key": "jaguaresdecrdoba|atlticonacional|ml:away|20260802",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Jaguares de Córdoba - Atlético Nacional",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Atlético Nacional",
+      "odds": 1.615,
+      "stake": 1300,
+      "value_pct": 3.25,
+      "fair_pct": 63.9,
+      "start": "2026-08-02T20:45:00+00:00",
+      "start_ts": 1785703500.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5646,
+      "clv_pct": 3.22,
+      "close_fair_p": 0.639160257742673,
+      "close_ts": 1785698544.494007
     }
   ],
   "papered": {
@@ -16805,17 +16834,18 @@
     "napredak|graficar|ml:home|20260802": 1785674097.251679,
     "psveindhoven|azalkmaar|ml:home|20260802": 1785674729.178873,
     "etofc|nyregyhzaspartacusfc|ml:home|20260802": 1785682803.592191,
-    "sanlorenzodealmagron|ferrocarriloesten|ml:home|20260803": 1785693664.535917
+    "sanlorenzodealmagron|ferrocarriloesten|ml:home|20260803": 1785693664.535917,
+    "jaguaresdecrdoba|atlticonacional|ml:away|20260802": 1785698364.49359
   },
   "last_report_date": "2026-08-02",
-  "next_id": 542,
+  "next_id": 543,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785698184.472037,
+      "ts": 1785698814.739286,
       "ok": true,
       "vegas_events": 989,
-      "pinnacle_events": 433,
+      "pinnacle_events": 429,
       "sports_err": {},
       "problems": [],
       "settle_err": null
