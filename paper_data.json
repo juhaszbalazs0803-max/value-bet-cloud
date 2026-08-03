@@ -16402,10 +16402,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8895,
-      "clv_pct": 5.85,
-      "close_fair_p": 0.5292542719899205,
-      "close_ts": 1785765163.540845
+      "close_fair_odds": 1.9156,
+      "clv_pct": 4.41,
+      "close_fair_p": 0.5220262475967566,
+      "close_ts": 1785774760.871947
     },
     {
       "id": 546,
@@ -16435,6 +16435,35 @@
       "clv_pct": 4.16,
       "close_fair_p": 0.6031357048748353,
       "close_ts": 1785765433.542681
+    },
+    {
+      "id": 547,
+      "ts": 1785774310.868117,
+      "key": "68:17269116:ml:away",
+      "content_key": "lorenzogiustino|vitaliysachko|ml:away|20260804",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Lorenzo Giustino - Vitaliy Sachko",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Vitaliy Sachko",
+      "odds": 1.52,
+      "stake": 1700,
+      "value_pct": 3.48,
+      "fair_pct": 68.1,
+      "start": "2026-08-04T10:20:00+00:00",
+      "start_ts": 1785838800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4659,
+      "clv_pct": 3.69,
+      "close_fair_p": 0.6821676168530622,
+      "close_ts": 1785774760.871947
     }
   ],
   "papered": {
@@ -16967,17 +16996,18 @@
     "puertomonttbasquetbol|cdatleticopuertovaras|ml:away|20260803": 1785714987.724754,
     "glfidalma|ellaseidel|ml:away|20260804": 1785754884.12262,
     "lindaklimovicova|elizarayaneva|ml:away|20260804": 1785764533.581515,
-    "ollewallin|andreaguerrieri|ml:away|20260804": 1785764623.569485
+    "ollewallin|andreaguerrieri|ml:away|20260804": 1785764623.569485,
+    "lorenzogiustino|vitaliysachko|ml:away|20260804": 1785774310.868117
   },
   "last_report_date": "2026-08-03",
-  "next_id": 547,
+  "next_id": 548,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785774130.870716,
+      "ts": 1785774760.871947,
       "ok": true,
-      "vegas_events": 1115,
-      "pinnacle_events": 394,
+      "vegas_events": 1104,
+      "pinnacle_events": 389,
       "sports_err": {},
       "problems": [],
       "settle_err": null
