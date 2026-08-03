@@ -14235,11 +14235,11 @@
       "fair_pct": 56.8,
       "start": "2026-07-31T08:30:00+00:00",
       "start_ts": 1785486600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1785753634.9193692,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7977,
       "clv_pct": 1.96,
@@ -16283,7 +16283,7 @@
       "close_fair_odds": 1.6775,
       "clv_pct": 4.32,
       "close_fair_p": 0.5961123110151187,
-      "close_ts": 1785741167.871292
+      "close_ts": 1785753624.074651
     },
     {
       "id": 542,
@@ -16873,15 +16873,15 @@
     "jaguaresdecrdoba|atlticonacional|ml:away|20260802": 1785698364.49359,
     "puertomonttbasquetbol|cdatleticopuertovaras|ml:away|20260803": 1785714987.724754
   },
-  "last_report_date": "2026-08-02",
+  "last_report_date": "2026-08-03",
   "next_id": 544,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785741167.871292,
+      "ts": 1785753624.074651,
       "ok": true,
-      "vegas_events": 1057,
-      "pinnacle_events": 419,
+      "vegas_events": 1071,
+      "pinnacle_events": 433,
       "sports_err": {},
       "problems": [],
       "settle_err": null
