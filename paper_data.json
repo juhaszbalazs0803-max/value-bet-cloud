@@ -16608,7 +16608,36 @@
       "close_fair_odds": 1.5753,
       "clv_pct": 6.65,
       "close_fair_p": 0.6348150119776418,
-      "close_ts": 1785788735.568772
+      "close_ts": 1785789365.545644
+    },
+    {
+      "id": 553,
+      "ts": 1785789095.592803,
+      "key": "68:17272068:ml:home",
+      "content_key": "jamesmccabe|dusanlajovic|ml:home|20260804",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "James Mccabe - Dusan Lajovic",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — James Mccabe",
+      "odds": 1.692,
+      "stake": 1500,
+      "value_pct": 4.3,
+      "fair_pct": 61.6,
+      "start": "2026-08-04T14:00:00+00:00",
+      "start_ts": 1785852000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6226,
+      "clv_pct": 4.28,
+      "close_fair_p": 0.616295207772063,
+      "close_ts": 1785789185.550819
     }
   ],
   "papered": {
@@ -17147,17 +17176,18 @@
     "pavlostsitsipas|dominikpalan|ml:away|20260804": 1785776683.877359,
     "zdenekkolar|raulbrancaccio|ml:home|20260804": 1785776863.872675,
     "tomzeuch|neoniedner|ml:home|20260804": 1785777134.034642,
-    "tanznian|ivorycoastn|ml:away|20260804": 1785788735.568772
+    "tanznian|ivorycoastn|ml:away|20260804": 1785788735.568772,
+    "jamesmccabe|dusanlajovic|ml:home|20260804": 1785789095.592803
   },
   "last_report_date": "2026-08-03",
-  "next_id": 553,
+  "next_id": 554,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785788735.568772,
+      "ts": 1785789365.545644,
       "ok": true,
-      "vegas_events": 1114,
-      "pinnacle_events": 427,
+      "vegas_events": 1117,
+      "pinnacle_events": 426,
       "sports_err": {},
       "problems": [],
       "settle_err": null
