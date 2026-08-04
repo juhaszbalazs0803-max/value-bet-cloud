@@ -16885,6 +16885,35 @@
       "clv_pct": 11.53,
       "close_fair_p": 0.7167453485143015,
       "close_ts": 1785850556.579196
+    },
+    {
+      "id": 562,
+      "ts": 1785851481.690019,
+      "key": "68:17264977:ml:away",
+      "content_key": "bassfjansj|martosgornesswalkows|ml:away|20260805",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Bass, F/Jans, J - Martos Gornes S / Walkow S",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Martos Gornes S / Walkow S",
+      "odds": 1.429,
+      "stake": 2000,
+      "value_pct": 3.4,
+      "fair_pct": 72.4,
+      "start": "2026-08-05T08:00:00+00:00",
+      "start_ts": 1785916800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3817,
+      "clv_pct": 3.42,
+      "close_fair_p": 0.723758320532514,
+      "close_ts": 1785851481.690019
     }
   ],
   "papered": {
@@ -17432,17 +17461,18 @@
     "denisyevseyev|yankierel|ml:away|20260804": 1785849386.582336,
     "maxschoenhaus|markotopo|ml:home|20260804": 1785849476.652104,
     "tenerife|tamaraceite|ml:home|20260804": 1785849746.576726,
-    "paulsonavliegenj|prashanthnvsramanathanr|ml:home|20260805": 1785850466.591332
+    "paulsonavliegenj|prashanthnvsramanathanr|ml:home|20260805": 1785850466.591332,
+    "bassfjansj|martosgornesswalkows|ml:away|20260805": 1785851481.690019
   },
   "last_report_date": "2026-08-04",
-  "next_id": 562,
+  "next_id": 563,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785850916.647039,
+      "ts": 1785851571.755137,
       "ok": true,
-      "vegas_events": 1260,
-      "pinnacle_events": 479,
+      "vegas_events": 1277,
+      "pinnacle_events": 483,
       "sports_err": {},
       "problems": [],
       "settle_err": null
