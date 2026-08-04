@@ -16608,7 +16608,7 @@
       "close_fair_odds": 1.5753,
       "clv_pct": 6.65,
       "close_fair_p": 0.6348150119776418,
-      "close_ts": 1785832164.067359
+      "close_ts": 1785839733.407691
     },
     {
       "id": 553,
@@ -16666,7 +16666,7 @@
       "close_fair_odds": 1.8929,
       "clv_pct": 3.02,
       "close_fair_p": 0.5283018867924527,
-      "close_ts": 1785832164.067359
+      "close_ts": 1785839733.407691
     },
     {
       "id": 555,
@@ -16692,10 +16692,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6173,
-      "clv_pct": 4.5,
-      "close_fair_p": 0.6183206106870229,
-      "close_ts": 1785832164.067359
+      "close_fair_odds": 1.5091,
+      "clv_pct": 11.99,
+      "close_fair_p": 0.6626506024096386,
+      "close_ts": 1785839733.407691
     },
     {
       "id": 556,
@@ -16721,10 +16721,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.71,
-      "clv_pct": 7.19,
-      "close_fair_p": 0.58479184619499,
-      "close_ts": 1785832164.067359
+      "close_fair_odds": 1.7576,
+      "clv_pct": 4.29,
+      "close_fair_p": 0.5689593086064098,
+      "close_ts": 1785839733.407691
     }
   ],
   "papered": {
@@ -17269,15 +17269,15 @@
     "roadwarriors|tropanggiga|ml:home|20260804": 1785831984.015518,
     "villarrealcf|levante|ml:home|20260805": 1785832074.067973
   },
-  "last_report_date": "2026-08-03",
+  "last_report_date": "2026-08-04",
   "next_id": 557,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785832164.067359,
+      "ts": 1785839733.407691,
       "ok": true,
-      "vegas_events": 1277,
-      "pinnacle_events": 491,
+      "vegas_events": 1266,
+      "pinnacle_events": 471,
       "sports_err": {},
       "problems": [],
       "settle_err": null
