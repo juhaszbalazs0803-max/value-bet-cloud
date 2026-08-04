@@ -16754,7 +16754,7 @@
       "close_fair_odds": 2.0084,
       "clv_pct": -8.73,
       "close_fair_p": 0.4979066985645933,
-      "close_ts": 1785879075.956521
+      "close_ts": 1785879705.940882
     },
     {
       "id": 557,
@@ -16995,7 +16995,7 @@
       "close_fair_odds": 1.6739,
       "clv_pct": 8.61,
       "close_fair_p": 0.5974025974025974,
-      "close_ts": 1785879075.956521
+      "close_ts": 1785879705.940882
     },
     {
       "id": 565,
@@ -17024,7 +17024,7 @@
       "close_fair_odds": 1.4929,
       "clv_pct": 3.02,
       "close_fair_p": 0.6698564593301435,
-      "close_ts": 1785879075.956521
+      "close_ts": 1785879705.940882
     },
     {
       "id": 566,
@@ -17256,7 +17256,7 @@
       "close_fair_odds": 1.7617,
       "clv_pct": 3.2,
       "close_fair_p": 0.5676392572944297,
-      "close_ts": 1785879075.956521
+      "close_ts": 1785879345.937515
     },
     {
       "id": 574,
@@ -17343,7 +17343,36 @@
       "close_fair_odds": 1.781,
       "clv_pct": 9.49,
       "close_fair_p": 0.5614973262032086,
-      "close_ts": 1785879075.956521
+      "close_ts": 1785879345.937515
+    },
+    {
+      "id": 577,
+      "ts": 1785879436.038988,
+      "key": "68:17288215:ml:away",
+      "content_key": "lucianodarderi|gabrieldiallo|ml:away|20260805",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Luciano Darderi - Gabriel Diallo",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Gabriel Diallo",
+      "odds": 1.778,
+      "stake": 1000,
+      "value_pct": 3.07,
+      "fair_pct": 58.0,
+      "start": "2026-08-05T00:35:00+00:00",
+      "start_ts": 1785890100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7227,
+      "clv_pct": 3.21,
+      "close_fair_p": 0.5804822099663234,
+      "close_ts": 1785879705.940882
     }
   ],
   "papered": {
@@ -17906,17 +17935,18 @@
     "margauxrouvroy|sofyalansere|ml:away|20260805": 1785865636.612548,
     "matyldaburylo|madeliefhageman|ml:away|20260805": 1785867346.620006,
     "susanbandecchi|veronikapodrez|ml:home|20260805": 1785872749.972579,
-    "jiangxuehan|shihomilixuanleong|ml:away|20260805": 1785877815.9996
+    "jiangxuehan|shihomilixuanleong|ml:away|20260805": 1785877815.9996,
+    "lucianodarderi|gabrieldiallo|ml:away|20260805": 1785879436.038988
   },
   "last_report_date": "2026-08-04",
-  "next_id": 577,
+  "next_id": 578,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785879075.956521,
+      "ts": 1785879705.940882,
       "ok": true,
       "vegas_events": 1306,
-      "pinnacle_events": 498,
+      "pinnacle_events": 500,
       "sports_err": {},
       "problems": [],
       "settle_err": null
