@@ -16748,7 +16748,7 @@
       "close_fair_odds": 2.0084,
       "clv_pct": -8.73,
       "close_fair_p": 0.4979066985645933,
-      "close_ts": 1785866806.64486
+      "close_ts": 1785867436.678435
     },
     {
       "id": 557,
@@ -16983,7 +16983,7 @@
       "close_fair_odds": 1.6739,
       "clv_pct": 8.61,
       "close_fair_p": 0.5974025974025974,
-      "close_ts": 1785866806.64486
+      "close_ts": 1785867436.678435
     },
     {
       "id": 565,
@@ -17012,7 +17012,7 @@
       "close_fair_odds": 1.4929,
       "clv_pct": 3.02,
       "close_fair_p": 0.6698564593301435,
-      "close_ts": 1785866806.64486
+      "close_ts": 1785867436.678435
     },
     {
       "id": 566,
@@ -17183,10 +17183,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6923,
-      "clv_pct": 9.08,
-      "close_fair_p": 0.5908979691705407,
-      "close_ts": 1785866806.64486
+      "close_fair_odds": 1.7902,
+      "clv_pct": 3.12,
+      "close_fair_p": 0.55858310626703,
+      "close_ts": 1785867436.678435
     },
     {
       "id": 572,
@@ -17215,7 +17215,7 @@
       "close_fair_odds": 1.8788,
       "clv_pct": 4.32,
       "close_fair_p": 0.5322580645161289,
-      "close_ts": 1785866806.64486
+      "close_ts": 1785867436.678435
     },
     {
       "id": 573,
@@ -17244,7 +17244,36 @@
       "close_fair_odds": 1.7617,
       "clv_pct": 3.2,
       "close_fair_p": 0.5676392572944297,
-      "close_ts": 1785866806.64486
+      "close_ts": 1785867436.678435
+    },
+    {
+      "id": 574,
+      "ts": 1785867346.620006,
+      "key": "68:17292908:ml:away",
+      "content_key": "matyldaburylo|madeliefhageman|ml:away|20260805",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Matylda Burylo - Madelief Hageman",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Madelief Hageman",
+      "odds": 1.364,
+      "stake": 2500,
+      "value_pct": 3.56,
+      "fair_pct": 75.9,
+      "start": "2026-08-05T08:00:00+00:00",
+      "start_ts": 1785916800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3169,
+      "clv_pct": 3.58,
+      "close_fair_p": 0.7593688362919132,
+      "close_ts": 1785867436.678435
     }
   ],
   "papered": {
@@ -17804,17 +17833,18 @@
     "leonesdeponce|aguadasanteros|ml:home|20260805": 1785859628.336547,
     "bracknell|dorkingwanderers|ml:away|20260804": 1785865546.636518,
     "dalilajakupovic|elenamalygina|ml:away|20260805": 1785865546.636518,
-    "margauxrouvroy|sofyalansere|ml:away|20260805": 1785865636.612548
+    "margauxrouvroy|sofyalansere|ml:away|20260805": 1785865636.612548,
+    "matyldaburylo|madeliefhageman|ml:away|20260805": 1785867346.620006
   },
   "last_report_date": "2026-08-04",
-  "next_id": 574,
+  "next_id": 575,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785866806.64486,
+      "ts": 1785867436.678435,
       "ok": true,
-      "vegas_events": 1280,
-      "pinnacle_events": 465,
+      "vegas_events": 1278,
+      "pinnacle_events": 472,
       "sports_err": {},
       "problems": [],
       "settle_err": null
