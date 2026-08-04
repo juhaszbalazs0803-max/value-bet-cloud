@@ -16754,7 +16754,7 @@
       "close_fair_odds": 2.0084,
       "clv_pct": -8.73,
       "close_fair_p": 0.4979066985645933,
-      "close_ts": 1785879705.940882
+      "close_ts": 1785880335.946337
     },
     {
       "id": 557,
@@ -16995,7 +16995,7 @@
       "close_fair_odds": 1.6739,
       "clv_pct": 8.61,
       "close_fair_p": 0.5974025974025974,
-      "close_ts": 1785879705.940882
+      "close_ts": 1785880335.946337
     },
     {
       "id": 565,
@@ -17024,7 +17024,7 @@
       "close_fair_odds": 1.4929,
       "clv_pct": 3.02,
       "close_fair_p": 0.6698564593301435,
-      "close_ts": 1785879705.940882
+      "close_ts": 1785880335.946337
     },
     {
       "id": 566,
@@ -17943,10 +17943,10 @@
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785879705.940882,
+      "ts": 1785880335.946337,
       "ok": true,
-      "vegas_events": 1306,
-      "pinnacle_events": 500,
+      "vegas_events": 1303,
+      "pinnacle_events": 491,
       "sports_err": {},
       "problems": [],
       "settle_err": null
