@@ -17658,7 +17658,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785962752.26826
+      "close_ts": 1785963382.308777
     },
     {
       "id": 586,
@@ -17745,7 +17745,7 @@
       "close_fair_odds": 1.6567,
       "clv_pct": 3.46,
       "close_fair_p": 0.6036269430051813,
-      "close_ts": 1785962752.26826
+      "close_ts": 1785963382.308777
     },
     {
       "id": 589,
@@ -17832,7 +17832,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 9.13,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785962752.26826
+      "close_ts": 1785963382.308777
     },
     {
       "id": 592,
@@ -17977,7 +17977,7 @@
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
       "close_fair_p": 0.5890052356020942,
-      "close_ts": 1785962752.26826
+      "close_ts": 1785963382.308777
     },
     {
       "id": 597,
@@ -18093,7 +18093,36 @@
       "close_fair_odds": 1.5302,
       "clv_pct": 7.63,
       "close_fair_p": 0.6535159268481154,
-      "close_ts": 1785962752.26826
+      "close_ts": 1785962842.289105
+    },
+    {
+      "id": 601,
+      "ts": 1785963292.240062,
+      "key": "68:17304081:ml:home",
+      "content_key": "browno|benjamingusicwan|ml:home|20260806",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Brown, O - Benjamin Gusic Wan",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Brown, O",
+      "odds": 1.546,
+      "stake": 2300,
+      "value_pct": 4.98,
+      "fair_pct": 67.9,
+      "start": "2026-08-06T11:30:00+00:00",
+      "start_ts": 1786015800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4722,
+      "clv_pct": 5.01,
+      "close_fair_p": 0.6792452830188679,
+      "close_ts": 1785963382.308777
     }
   ],
   "papered": {
@@ -18680,17 +18709,18 @@
     "loesebelingkoning|evabennemann|ml:away|20260806": 1785953947.353677,
     "alicetubello|emilyappleton|ml:home|20260806": 1785954037.351018,
     "marcelloserafini|gabrielecrivellaro|ml:home|20260806": 1785956647.389604,
-    "ozanbaris|edasbutvilas|ml:away|20260806": 1785961492.308304
+    "ozanbaris|edasbutvilas|ml:away|20260806": 1785961492.308304,
+    "browno|benjamingusicwan|ml:home|20260806": 1785963292.240062
   },
   "last_report_date": "2026-08-05",
-  "next_id": 601,
+  "next_id": 602,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785962752.26826,
+      "ts": 1785963382.308777,
       "ok": true,
-      "vegas_events": 1324,
-      "pinnacle_events": 539,
+      "vegas_events": 1326,
+      "pinnacle_events": 535,
       "sports_err": {},
       "problems": [],
       "settle_err": null
