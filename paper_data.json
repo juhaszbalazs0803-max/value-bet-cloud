@@ -16928,11 +16928,14 @@
       "fair_pct": 72.4,
       "start": "2026-08-05T08:00:00+00:00",
       "start_ts": 1785916800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1785939503.3338215,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.3594,
       "clv_pct": 5.12,
@@ -17134,11 +17137,14 @@
       "fair_pct": 65.5,
       "start": "2026-08-05T09:00:00+00:00",
       "start_ts": 1785920400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785939503.3338215,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.527,
       "clv_pct": 5.76,
@@ -17253,11 +17259,14 @@
       "fair_pct": 56.8,
       "start": "2026-08-05T11:00:00+00:00",
       "start_ts": 1785927600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1785939503.3338215,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.7617,
       "clv_pct": 3.2,
@@ -17503,10 +17512,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5609,
-      "clv_pct": 6.8,
-      "close_fair_p": 0.6406570841889117,
-      "close_ts": 1785925666.852147
+      "close_fair_odds": 2.0711,
+      "clv_pct": -19.51,
+      "close_fair_p": 0.4828274760383386,
+      "close_ts": 1785939480.330551
     },
     {
       "id": 582,
@@ -17625,7 +17634,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785938850.366802
+      "close_ts": 1785939480.330551
     },
     {
       "id": 586,
@@ -17683,7 +17692,7 @@
       "close_fair_odds": 1.7281,
       "clv_pct": 6.07,
       "close_fair_p": 0.5786703519656561,
-      "close_ts": 1785938850.366802
+      "close_ts": 1785939480.330551
     },
     {
       "id": 588,
@@ -17712,7 +17721,36 @@
       "close_fair_odds": 1.6567,
       "clv_pct": 3.46,
       "close_fair_p": 0.6036269430051813,
-      "close_ts": 1785938850.366802
+      "close_ts": 1785939480.330551
+    },
+    {
+      "id": 589,
+      "ts": 1785938940.331838,
+      "key": "68:17294454:ml:away",
+      "content_key": "ilyaivashka|haroldmayot|ml:away|20260806",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Ilya Ivashka - Harold Mayot",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Harold Mayot",
+      "odds": 2.0,
+      "stake": 1700,
+      "value_pct": 6.8,
+      "fair_pct": 53.4,
+      "start": "2026-08-06T09:00:00+00:00",
+      "start_ts": 1786006800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7849,
+      "clv_pct": 12.05,
+      "close_fair_p": 0.5602414574854552,
+      "close_ts": 1785939480.330551
     }
   ],
   "papered": {
@@ -18287,17 +18325,18 @@
     "ruienzhang|yuhanwang|ml:away|20260806": 1785932424.313351,
     "nashvillesc|clubleon|ml:home|20260806": 1785933594.333334,
     "odderigf|skiveik|ml:away|20260805": 1785933594.333334,
-    "gaeuljang|meiqiguo|ml:away|20260806": 1785938850.366802
+    "gaeuljang|meiqiguo|ml:away|20260806": 1785938850.366802,
+    "ilyaivashka|haroldmayot|ml:away|20260806": 1785938940.331838
   },
   "last_report_date": "2026-08-05",
-  "next_id": 589,
+  "next_id": 590,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785938850.366802,
+      "ts": 1785939480.330551,
       "ok": true,
-      "vegas_events": 1392,
-      "pinnacle_events": 448,
+      "vegas_events": 1391,
+      "pinnacle_events": 437,
       "sports_err": {},
       "problems": [],
       "settle_err": null
