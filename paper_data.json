@@ -17494,7 +17494,7 @@
       "close_fair_odds": 1.5609,
       "clv_pct": 6.8,
       "close_fair_p": 0.6406570841889117,
-      "close_ts": 1785923146.778612
+      "close_ts": 1785923776.81418
     },
     {
       "id": 582,
@@ -17520,10 +17520,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5114,
-      "clv_pct": 3.94,
-      "close_fair_p": 0.6616319444444444,
-      "close_ts": 1785923146.778612
+      "close_fair_odds": 1.4771,
+      "clv_pct": 6.36,
+      "close_fair_p": 0.6770046639361726,
+      "close_ts": 1785923686.755112
+    },
+    {
+      "id": 583,
+      "ts": 1785923416.939159,
+      "key": "68:17264634:ml:home",
+      "content_key": "duncanswhitehousem|basicmdzumhurd|ml:home|20260805",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Duncan S / Whitehouse M - Basic M / Dzumhur D",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Duncan S / Whitehouse M",
+      "odds": 1.6,
+      "stake": 5000,
+      "value_pct": 13.56,
+      "fair_pct": 71.0,
+      "start": "2026-08-05T10:00:00+00:00",
+      "start_ts": 1785924000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.409,
+      "clv_pct": 13.56,
+      "close_fair_p": 0.709741965792633,
+      "close_ts": 1785923416.939159
     }
   ],
   "papered": {
@@ -18092,17 +18121,18 @@
     "dilettacherubini|tilwithdigirolami|ml:away|20260805": 1785914109.967709,
     "lidiaencheva|nellietarabawallberg|ml:away|20260805": 1785914109.967709,
     "scmdunareagiurgiu|csmcetateaturnumagurele|ml:away|20260805": 1785922516.757912,
-    "matejdodig|lorenzogiustino|ml:home|20260806": 1785922516.757912
+    "matejdodig|lorenzogiustino|ml:home|20260806": 1785922516.757912,
+    "duncanswhitehousem|basicmdzumhurd|ml:home|20260805": 1785923416.939159
   },
   "last_report_date": "2026-08-05",
-  "next_id": 583,
+  "next_id": 584,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785923146.778612,
+      "ts": 1785923776.81418,
       "ok": true,
-      "vegas_events": 1405,
-      "pinnacle_events": 483,
+      "vegas_events": 1404,
+      "pinnacle_events": 495,
       "sports_err": {},
       "problems": [],
       "settle_err": null
