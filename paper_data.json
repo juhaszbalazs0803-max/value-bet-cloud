@@ -17553,10 +17553,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4326,
-      "clv_pct": 9.66,
-      "close_fair_p": 0.6980435953173922,
-      "close_ts": 1785948722.045369
+      "close_fair_odds": 1.3854,
+      "clv_pct": 13.4,
+      "close_fair_p": 0.7218035023371279,
+      "close_ts": 1785949892.01957
     },
     {
       "id": 583,
@@ -17649,7 +17649,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785949261.986044
+      "close_ts": 1785949892.01957
     },
     {
       "id": 586,
@@ -17736,7 +17736,7 @@
       "close_fair_odds": 1.6567,
       "clv_pct": 3.46,
       "close_fair_p": 0.6036269430051813,
-      "close_ts": 1785949261.986044
+      "close_ts": 1785949892.01957
     },
     {
       "id": 589,
@@ -17823,7 +17823,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 9.13,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785949261.986044
+      "close_ts": 1785949892.01957
     },
     {
       "id": 592,
@@ -17853,6 +17853,64 @@
       "clv_pct": 5.6,
       "close_fair_p": 0.5617062354822168,
       "close_ts": 1785948722.045369
+    },
+    {
+      "id": 593,
+      "ts": 1785949441.989256,
+      "key": "66:17250163:ml:home",
+      "content_key": "dallas|queretaro|ml:home|20260806",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Dallas - Queretaro",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Dallas",
+      "odds": 2.0,
+      "stake": 1000,
+      "value_pct": 4.0,
+      "fair_pct": 52.0,
+      "start": "2026-08-06T00:30:00+00:00",
+      "start_ts": 1785976200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9231,
+      "clv_pct": 4.0,
+      "close_fair_p": 0.5199999999999999,
+      "close_ts": 1785949892.01957
+    },
+    {
+      "id": 594,
+      "ts": 1785949892.01957,
+      "key": "68:17293888:ml:home",
+      "content_key": "jeromekym|maxhoukes|ml:home|20260806",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Jerome Kym - Max Houkes",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Jerome Kym",
+      "odds": 1.429,
+      "stake": 2400,
+      "value_pct": 4.14,
+      "fair_pct": 72.9,
+      "start": "2026-08-06T10:30:00+00:00",
+      "start_ts": 1786012200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3718,
+      "clv_pct": 4.17,
+      "close_fair_p": 0.7289877428499959,
+      "close_ts": 1785949892.01957
     }
   ],
   "papered": {
@@ -18431,17 +18489,19 @@
     "ilyaivashka|haroldmayot|ml:away|20260806": 1785938940.331838,
     "racingfcunionluxembourgn|hjkhelsinkin|ml:away|20260805": 1785939750.330543,
     "rebeccamunkmortensen|ayaelaouni|ml:away|20260806": 1785948002.05787,
-    "agfaarhus|sabahfc|ml:home|20260805": 1785948722.045369
+    "agfaarhus|sabahfc|ml:home|20260805": 1785948722.045369,
+    "dallas|queretaro|ml:home|20260806": 1785949441.989256,
+    "jeromekym|maxhoukes|ml:home|20260806": 1785949892.01957
   },
   "last_report_date": "2026-08-05",
-  "next_id": 593,
+  "next_id": 595,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785949261.986044,
+      "ts": 1785949892.01957,
       "ok": true,
-      "vegas_events": 1318,
-      "pinnacle_events": 461,
+      "vegas_events": 1325,
+      "pinnacle_events": 457,
       "sports_err": {},
       "problems": [],
       "settle_err": null
