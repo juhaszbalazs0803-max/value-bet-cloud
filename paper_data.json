@@ -17597,6 +17597,35 @@
       "clv_pct": 15.95,
       "close_fair_p": 0.8918662480816623,
       "close_ts": 1785931794.308495
+    },
+    {
+      "id": 585,
+      "ts": 1785932424.313351,
+      "key": "68:17300878:ml:away",
+      "content_key": "ruienzhang|yuhanwang|ml:away|20260806",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Ruien Zhang - Yuhan Wang",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Yuhan Wang",
+      "odds": 1.818,
+      "stake": 1800,
+      "value_pct": 5.82,
+      "fair_pct": 58.2,
+      "start": "2026-08-06T03:00:00+00:00",
+      "start_ts": 1785985200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7182,
+      "clv_pct": 5.81,
+      "close_fair_p": 0.582010582010582,
+      "close_ts": 1785932424.313351
     }
   ],
   "papered": {
@@ -18167,17 +18196,18 @@
     "scmdunareagiurgiu|csmcetateaturnumagurele|ml:away|20260805": 1785922516.757912,
     "matejdodig|lorenzogiustino|ml:home|20260806": 1785922516.757912,
     "duncanswhitehousem|basicmdzumhurd|ml:home|20260805": 1785923416.939159,
-    "henningphilipsakellaridisdimitris|lalamilaaroussiypieczonkaf|ml:away|20260805": 1785931794.308495
+    "henningphilipsakellaridisdimitris|lalamilaaroussiypieczonkaf|ml:away|20260805": 1785931794.308495,
+    "ruienzhang|yuhanwang|ml:away|20260806": 1785932424.313351
   },
   "last_report_date": "2026-08-05",
-  "next_id": 585,
+  "next_id": 586,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785932334.314516,
+      "ts": 1785932964.289812,
       "ok": true,
       "vegas_events": 1394,
-      "pinnacle_events": 486,
+      "pinnacle_events": 483,
       "sports_err": {},
       "problems": [],
       "settle_err": null
