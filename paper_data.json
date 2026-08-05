@@ -16309,11 +16309,11 @@
       "fair_pct": 63.9,
       "start": "2026-08-02T20:45:00+00:00",
       "start_ts": 1785703500.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1785962765.9176571,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.5646,
       "clv_pct": 3.22,
@@ -17658,7 +17658,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785962122.286235
+      "close_ts": 1785962752.26826
     },
     {
       "id": 586,
@@ -17745,7 +17745,7 @@
       "close_fair_odds": 1.6567,
       "clv_pct": 3.46,
       "close_fair_p": 0.6036269430051813,
-      "close_ts": 1785962122.286235
+      "close_ts": 1785962752.26826
     },
     {
       "id": 589,
@@ -17832,7 +17832,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 9.13,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785962122.286235
+      "close_ts": 1785962752.26826
     },
     {
       "id": 592,
@@ -17977,7 +17977,7 @@
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
       "close_fair_p": 0.5890052356020942,
-      "close_ts": 1785962122.286235
+      "close_ts": 1785962752.26826
     },
     {
       "id": 597,
@@ -18090,10 +18090,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5294,
-      "clv_pct": 7.69,
-      "close_fair_p": 0.6538387200687211,
-      "close_ts": 1785962122.286235
+      "close_fair_odds": 1.5302,
+      "clv_pct": 7.63,
+      "close_fair_p": 0.6535159268481154,
+      "close_ts": 1785962752.26826
     }
   ],
   "papered": {
@@ -18687,10 +18687,10 @@
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785962122.286235,
+      "ts": 1785962752.26826,
       "ok": true,
       "vegas_events": 1324,
-      "pinnacle_events": 536,
+      "pinnacle_events": 539,
       "sports_err": {},
       "problems": [],
       "settle_err": null
