@@ -17652,7 +17652,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785951152.024522
+      "close_ts": 1785953947.353677
     },
     {
       "id": 586,
@@ -17739,7 +17739,7 @@
       "close_fair_odds": 1.6567,
       "clv_pct": 3.46,
       "close_fair_p": 0.6036269430051813,
-      "close_ts": 1785951152.024522
+      "close_ts": 1785953947.353677
     },
     {
       "id": 589,
@@ -17826,7 +17826,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 9.13,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785951152.024522
+      "close_ts": 1785953947.353677
     },
     {
       "id": 592,
@@ -17943,6 +17943,64 @@
       "clv_pct": 8.2,
       "close_fair_p": 0.5410128388017118,
       "close_ts": 1785951152.024522
+    },
+    {
+      "id": 596,
+      "ts": 1785953947.353677,
+      "key": "68:17303874:ml:home",
+      "content_key": "ustiniyalekomtseva|mariiamasiianskaia|ml:home|20260806",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Ustiniya Lekomtseva - Mariia Masiianskaia",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Ustiniya Lekomtseva",
+      "odds": 1.818,
+      "stake": 2200,
+      "value_pct": 7.09,
+      "fair_pct": 58.9,
+      "start": "2026-08-06T10:00:00+00:00",
+      "start_ts": 1786010400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6978,
+      "clv_pct": 7.08,
+      "close_fair_p": 0.5890052356020942,
+      "close_ts": 1785953947.353677
+    },
+    {
+      "id": 597,
+      "ts": 1785953947.353677,
+      "key": "68:17300242:ml:away",
+      "content_key": "loesebelingkoning|evabennemann|ml:away|20260806",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Loes Ebeling Koning - Eva Bennemann",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Eva Bennemann",
+      "odds": 1.583,
+      "stake": 4100,
+      "value_pct": 9.7,
+      "fair_pct": 69.3,
+      "start": "2026-08-06T09:00:00+00:00",
+      "start_ts": 1786006800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4433,
+      "clv_pct": 9.68,
+      "close_fair_p": 0.6928406466512702,
+      "close_ts": 1785953947.353677
     }
   ],
   "papered": {
@@ -18524,17 +18582,19 @@
     "agfaarhus|sabahfc|ml:home|20260805": 1785948722.045369,
     "dallas|queretaro|ml:home|20260806": 1785949441.989256,
     "jeromekym|maxhoukes|ml:home|20260806": 1785949892.01957,
-    "santiagowanderers|uninlacalera|ml:away|20260805": 1785951152.024522
+    "santiagowanderers|uninlacalera|ml:away|20260805": 1785951152.024522,
+    "ustiniyalekomtseva|mariiamasiianskaia|ml:home|20260806": 1785953947.353677,
+    "loesebelingkoning|evabennemann|ml:away|20260806": 1785953947.353677
   },
   "last_report_date": "2026-08-05",
-  "next_id": 596,
+  "next_id": 598,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785951152.024522,
+      "ts": 1785953947.353677,
       "ok": true,
-      "vegas_events": 1328,
-      "pinnacle_events": 483,
+      "vegas_events": 1330,
+      "pinnacle_events": 519,
       "sports_err": {},
       "problems": [],
       "settle_err": null
