@@ -17655,7 +17655,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 5.81,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785956467.355939
+      "close_ts": 1785957097.357118
     },
     {
       "id": 586,
@@ -17742,7 +17742,7 @@
       "close_fair_odds": 1.6567,
       "clv_pct": 3.46,
       "close_fair_p": 0.6036269430051813,
-      "close_ts": 1785956467.355939
+      "close_ts": 1785957097.357118
     },
     {
       "id": 589,
@@ -17829,7 +17829,7 @@
       "close_fair_odds": 1.7182,
       "clv_pct": 9.13,
       "close_fair_p": 0.582010582010582,
-      "close_ts": 1785956467.355939
+      "close_ts": 1785957097.357118
     },
     {
       "id": 592,
@@ -17974,7 +17974,7 @@
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
       "close_fair_p": 0.5890052356020942,
-      "close_ts": 1785956467.355939
+      "close_ts": 1785957097.357118
     },
     {
       "id": 597,
@@ -18032,7 +18032,36 @@
       "close_fair_odds": 1.3969,
       "clv_pct": 5.95,
       "close_fair_p": 0.7158590308370044,
-      "close_ts": 1785956467.355939
+      "close_ts": 1785957097.357118
+    },
+    {
+      "id": 599,
+      "ts": 1785956647.389604,
+      "key": "68:17303875:ml:home",
+      "content_key": "marcelloserafini|gabrielecrivellaro|ml:home|20260806",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Marcello Serafini - Gabriele Crivellaro",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Marcello Serafini",
+      "odds": 1.818,
+      "stake": 3300,
+      "value_pct": 10.96,
+      "fair_pct": 61.0,
+      "start": "2026-08-06T12:00:00+00:00",
+      "start_ts": 1786017600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6387,
+      "clv_pct": 10.94,
+      "close_fair_p": 0.6102564102564102,
+      "close_ts": 1785956737.360258
     }
   ],
   "papered": {
@@ -18617,17 +18646,18 @@
     "santiagowanderers|uninlacalera|ml:away|20260805": 1785951152.024522,
     "ustiniyalekomtseva|mariiamasiianskaia|ml:home|20260806": 1785953947.353677,
     "loesebelingkoning|evabennemann|ml:away|20260806": 1785953947.353677,
-    "alicetubello|emilyappleton|ml:home|20260806": 1785954037.351018
+    "alicetubello|emilyappleton|ml:home|20260806": 1785954037.351018,
+    "marcelloserafini|gabrielecrivellaro|ml:home|20260806": 1785956647.389604
   },
   "last_report_date": "2026-08-05",
-  "next_id": 599,
+  "next_id": 600,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1785956467.355939,
+      "ts": 1785957097.357118,
       "ok": true,
-      "vegas_events": 1316,
-      "pinnacle_events": 535,
+      "vegas_events": 1318,
+      "pinnacle_events": 531,
       "sports_err": {},
       "problems": [],
       "settle_err": null
