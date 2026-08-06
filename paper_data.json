@@ -17771,11 +17771,14 @@
       "fair_pct": 53.4,
       "start": "2026-08-06T09:00:00+00:00",
       "start_ts": 1786006800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1786015273.1447368,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.8748,
       "clv_pct": 6.68,
@@ -18032,11 +18035,14 @@
       "fair_pct": 71.6,
       "start": "2026-08-06T09:00:00+00:00",
       "start_ts": 1786006800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1786015273.1447368,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.3969,
       "clv_pct": 5.95,
@@ -18157,7 +18163,7 @@
       "close_fair_odds": 1.497,
       "clv_pct": 5.74,
       "close_fair_p": 0.6680162839063676,
-      "close_ts": 1786008261.64889
+      "close_ts": 1786015260.076061
     },
     {
       "id": 603,
@@ -18264,11 +18270,14 @@
       "fair_pct": 55.6,
       "start": "2026-08-06T07:00:00+00:00",
       "start_ts": 1785999600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1786015273.1447368,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.7981,
       "clv_pct": 8.45,
@@ -18380,11 +18389,14 @@
       "fair_pct": 65.8,
       "start": "2026-08-06T09:05:00+00:00",
       "start_ts": 1786007100.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1786015273.1447368,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        0,
+        2
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.5207,
       "clv_pct": 4.1,
@@ -18447,7 +18459,7 @@
       "close_fair_odds": 1.5006,
       "clv_pct": 3.69,
       "close_fair_p": 0.6664020245124795,
-      "close_ts": 1786008261.64889
+      "close_ts": 1786015260.076061
     },
     {
       "id": 613,
@@ -18506,6 +18518,35 @@
       "clv_pct": 5.75,
       "close_fair_p": 0.5598093897222072,
       "close_ts": 1786008261.64889
+    },
+    {
+      "id": 615,
+      "ts": 1786015260.076061,
+      "key": "66:17298852:ml:away",
+      "content_key": "cavese|juvestabia|ml:away|20260806",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Cavese - Juve Stabia",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Juve Stabia",
+      "odds": 1.556,
+      "stake": 2000,
+      "value_pct": 4.42,
+      "fair_pct": 67.1,
+      "start": "2026-08-06T18:30:00+00:00",
+      "start_ts": 1786041000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4898,
+      "clv_pct": 4.44,
+      "close_fair_p": 0.6712207354244579,
+      "close_ts": 1786015260.076061
     }
   ],
   "papered": {
@@ -19106,17 +19147,18 @@
     "yannickhanfmann|nunoborges|ml:away|20260806": 1786006911.643151,
     "elnacional|9deoctubrefc|ml:away|20260806": 1786007631.659832,
     "jecanapavelb|bassfjansj|ml:home|20260806": 1786007991.639118,
-    "reisakamoto|michaelmmoh|ml:home|20260806": 1786008261.64889
+    "reisakamoto|michaelmmoh|ml:home|20260806": 1786008261.64889,
+    "cavese|juvestabia|ml:away|20260806": 1786015260.076061
   },
   "last_report_date": "2026-08-06",
-  "next_id": 615,
+  "next_id": 616,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786008261.64889,
+      "ts": 1786015260.076061,
       "ok": true,
-      "vegas_events": 1393,
-      "pinnacle_events": 528,
+      "vegas_events": 1408,
+      "pinnacle_events": 540,
       "sports_err": {},
       "problems": [],
       "settle_err": null
