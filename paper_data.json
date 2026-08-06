@@ -18570,7 +18570,7 @@
       "close_fair_odds": 1.4898,
       "clv_pct": 4.44,
       "close_fair_p": 0.6712207354244579,
-      "close_ts": 1786026796.689913
+      "close_ts": 1786027426.858035
     },
     {
       "id": 616,
@@ -18596,10 +18596,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5622,
-      "clv_pct": 4.72,
-      "close_fair_p": 0.6401062753036437,
-      "close_ts": 1786026796.689913
+      "close_fair_odds": 1.5445,
+      "clv_pct": 5.92,
+      "close_fair_p": 0.647476702143912,
+      "close_ts": 1786027426.858035
     },
     {
       "id": 617,
@@ -18628,7 +18628,7 @@
       "close_fair_odds": 1.7617,
       "clv_pct": 11.26,
       "close_fair_p": 0.5676392572944297,
-      "close_ts": 1786026796.689913
+      "close_ts": 1786027156.712017
     },
     {
       "id": 618,
@@ -18657,7 +18657,36 @@
       "close_fair_odds": 1.6303,
       "clv_pct": 3.78,
       "close_fair_p": 0.6134020618556701,
-      "close_ts": 1786026796.689913
+      "close_ts": 1786027426.858035
+    },
+    {
+      "id": 619,
+      "ts": 1786027156.712017,
+      "key": "68:17300115:ml:away",
+      "content_key": "karamokonaimasaldenlara|falkowskaweronikasmithalana|ml:away|20260806",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Karamoko, Naima/Salden, Lara - Falkowska, Weronika/Smith, Alana",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Falkowska, Weronika/Smith, Alana",
+      "odds": 1.667,
+      "stake": 1400,
+      "value_pct": 3.6,
+      "fair_pct": 62.2,
+      "start": "2026-08-06T14:50:00+00:00",
+      "start_ts": 1786027800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5936,
+      "clv_pct": 4.61,
+      "close_fair_p": 0.6275254443262951,
+      "close_ts": 1786027426.858035
     }
   ],
   "papered": {
@@ -19262,16 +19291,17 @@
     "cavese|juvestabia|ml:away|20260806": 1786015260.076061,
     "iliasimakin|florentbax|ml:home|20260807": 1786024906.707501,
     "chentingzhu|jiayiwang|ml:home|20260807": 1786024906.707501,
-    "sebastiansec|johnhallquistlithen|ml:away|20260807": 1786025176.717011
+    "sebastiansec|johnhallquistlithen|ml:away|20260807": 1786025176.717011,
+    "karamokonaimasaldenlara|falkowskaweronikasmithalana|ml:away|20260806": 1786027156.712017
   },
   "last_report_date": "2026-08-06",
-  "next_id": 619,
+  "next_id": 620,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786026796.689913,
+      "ts": 1786027426.858035,
       "ok": true,
-      "vegas_events": 1461,
+      "vegas_events": 1464,
       "pinnacle_events": 546,
       "sports_err": {},
       "problems": [],
