@@ -18157,7 +18157,7 @@
       "close_fair_odds": 1.497,
       "clv_pct": 5.74,
       "close_fair_p": 0.6680162839063676,
-      "close_ts": 1786006371.637951
+      "close_ts": 1786007001.638288
     },
     {
       "id": 603,
@@ -18299,10 +18299,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9352,
-      "clv_pct": 3.35,
-      "close_fair_p": 0.5167400087495818,
-      "close_ts": 1786005111.595014
+      "close_fair_odds": 1.9212,
+      "clv_pct": 4.1,
+      "close_fair_p": 0.5205136389304917,
+      "close_ts": 1786006731.592824
     },
     {
       "id": 608,
@@ -18390,6 +18390,35 @@
       "clv_pct": 4.1,
       "close_fair_p": 0.6575937231393119,
       "close_ts": 1786006101.595944
+    },
+    {
+      "id": 611,
+      "ts": 1786006911.643151,
+      "key": "68:17303818:ml:away",
+      "content_key": "yannickhanfmann|nunoborges|ml:away|20260806",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Yannick Hanfmann - Nuno Borges",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Nuno Borges",
+      "odds": 1.556,
+      "stake": 2400,
+      "value_pct": 5.33,
+      "fair_pct": 67.7,
+      "start": "2026-08-06T17:40:00+00:00",
+      "start_ts": 1786038000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4769,
+      "clv_pct": 5.36,
+      "close_fair_p": 0.6770862239841428,
+      "close_ts": 1786006911.643151
     }
   ],
   "papered": {
@@ -18986,17 +19015,18 @@
     "spencerjohnson|jaydylanharafriend|ml:home|20260806": 1786005111.595014,
     "ayanaakli|carolynansari|ml:home|20260806": 1786005111.595014,
     "indianafevern|lasvegasacesn|ml:home|20260806": 1786005111.595014,
-    "ariasbingildsenj|paulsonavliegenj|ml:away|20260806": 1786006101.595944
+    "ariasbingildsenj|paulsonavliegenj|ml:away|20260806": 1786006101.595944,
+    "yannickhanfmann|nunoborges|ml:away|20260806": 1786006911.643151
   },
-  "last_report_date": "2026-08-05",
-  "next_id": 611,
+  "last_report_date": "2026-08-06",
+  "next_id": 612,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786006371.637951,
+      "ts": 1786007001.638288,
       "ok": true,
-      "vegas_events": 1404,
-      "pinnacle_events": 539,
+      "vegas_events": 1398,
+      "pinnacle_events": 544,
       "sports_err": {},
       "problems": [],
       "settle_err": null
