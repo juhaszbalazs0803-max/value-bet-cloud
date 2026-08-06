@@ -18157,7 +18157,7 @@
       "close_fair_odds": 1.497,
       "clv_pct": 5.74,
       "close_fair_p": 0.6680162839063676,
-      "close_ts": 1786007001.638288
+      "close_ts": 1786007631.659832
     },
     {
       "id": 603,
@@ -18419,6 +18419,35 @@
       "clv_pct": 5.36,
       "close_fair_p": 0.6770862239841428,
       "close_ts": 1786006911.643151
+    },
+    {
+      "id": 612,
+      "ts": 1786007631.659832,
+      "key": "66:17255304:ml:away",
+      "content_key": "elnacional|9deoctubrefc|ml:away|20260806",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "El Nacional - 9 De Octubre FC",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — 9 De Octubre FC",
+      "odds": 1.556,
+      "stake": 1700,
+      "value_pct": 3.67,
+      "fair_pct": 66.6,
+      "start": "2026-08-06T21:30:00+00:00",
+      "start_ts": 1786051800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5006,
+      "clv_pct": 3.69,
+      "close_fair_p": 0.6664020245124795,
+      "close_ts": 1786007631.659832
     }
   ],
   "papered": {
@@ -19016,17 +19045,18 @@
     "ayanaakli|carolynansari|ml:home|20260806": 1786005111.595014,
     "indianafevern|lasvegasacesn|ml:home|20260806": 1786005111.595014,
     "ariasbingildsenj|paulsonavliegenj|ml:away|20260806": 1786006101.595944,
-    "yannickhanfmann|nunoborges|ml:away|20260806": 1786006911.643151
+    "yannickhanfmann|nunoborges|ml:away|20260806": 1786006911.643151,
+    "elnacional|9deoctubrefc|ml:away|20260806": 1786007631.659832
   },
   "last_report_date": "2026-08-06",
-  "next_id": 612,
+  "next_id": 613,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786007001.638288,
+      "ts": 1786007631.659832,
       "ok": true,
-      "vegas_events": 1398,
-      "pinnacle_events": 544,
+      "vegas_events": 1394,
+      "pinnacle_events": 532,
       "sports_err": {},
       "problems": [],
       "settle_err": null
