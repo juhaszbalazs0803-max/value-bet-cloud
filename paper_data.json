@@ -18740,6 +18740,35 @@
       "clv_pct": 7.94,
       "close_fair_p": 0.6250363966223934,
       "close_ts": 1786028056.687738
+    },
+    {
+      "id": 621,
+      "ts": 1786063810.584193,
+      "key": "68:17315819:ml:home",
+      "content_key": "mathyserhard|ivanmarrerocurbelo|ml:home|20260807",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Mathys Erhard - Ivan Marrero Curbelo",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Mathys Erhard",
+      "odds": 1.692,
+      "stake": 1800,
+      "value_pct": 4.98,
+      "fair_pct": 62.0,
+      "start": "2026-08-07T15:00:00+00:00",
+      "start_ts": 1786114800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6122,
+      "clv_pct": 4.95,
+      "close_fair_p": 0.6202772881032922,
+      "close_ts": 1786063810.584193
     }
   ],
   "papered": {
@@ -19346,17 +19375,18 @@
     "chentingzhu|jiayiwang|ml:home|20260807": 1786024906.707501,
     "sebastiansec|johnhallquistlithen|ml:away|20260807": 1786025176.717011,
     "karamokonaimasaldenlara|falkowskaweronikasmithalana|ml:away|20260806": 1786027156.712017,
-    "micheleribecai|andreaguerrieri|ml:away|20260807": 1786027966.756284
+    "micheleribecai|andreaguerrieri|ml:away|20260807": 1786027966.756284,
+    "mathyserhard|ivanmarrerocurbelo|ml:home|20260807": 1786063810.584193
   },
   "last_report_date": "2026-08-06",
-  "next_id": 621,
+  "next_id": 622,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786063180.58899,
+      "ts": 1786063810.584193,
       "ok": true,
       "vegas_events": 1426,
-      "pinnacle_events": 518,
+      "pinnacle_events": 524,
       "sports_err": {},
       "problems": [],
       "settle_err": null
