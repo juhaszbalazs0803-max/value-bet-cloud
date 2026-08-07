@@ -18899,7 +18899,7 @@
       "close_fair_odds": 1.788,
       "clv_pct": 6.26,
       "close_fair_p": 0.5592878736983541,
-      "close_ts": 1786113153.755354
+      "close_ts": 1786113783.76489
     },
     {
       "id": 626,
@@ -19045,6 +19045,35 @@
       "clv_pct": 3.44,
       "close_fair_p": 0.6712962962962963,
       "close_ts": 1786107874.260159
+    },
+    {
+      "id": 631,
+      "ts": 1786113783.76489,
+      "key": "66:17314841:ml:away",
+      "content_key": "cdcacahuatiquewomen|cdfuertesanfranciscomorazann|ml:away|20260807",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "CD Cacahuatique Women - CD Fuerte San Francisco Morazan (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — CD Fuerte San Francisco Morazan (N)",
+      "odds": 2.0,
+      "stake": 4400,
+      "value_pct": 17.78,
+      "fair_pct": 58.9,
+      "start": "2026-08-07T20:00:00+00:00",
+      "start_ts": 1786132800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6981,
+      "clv_pct": 17.78,
+      "close_fair_p": 0.5889101338432122,
+      "close_ts": 1786113783.76489
     }
   ],
   "papered": {
@@ -19661,16 +19690,17 @@
     "yverdonn|zurichn|ml:away|20260807": 1786101165.377894,
     "radovanovictadijarollandderavelcosme|carbonilorenzouzhylovskyivolodymyr|ml:home|20260807": 1786107424.222794,
     "gaeuljang|chentingzhu|ml:away|20260808": 1786107424.222794,
-    "washingtonmysticsn|atlantadreamn|ml:away|20260807": 1786107604.252788
+    "washingtonmysticsn|atlantadreamn|ml:away|20260807": 1786107604.252788,
+    "cdcacahuatiquewomen|cdfuertesanfranciscomorazann|ml:away|20260807": 1786113783.76489
   },
   "last_report_date": "2026-08-07",
-  "next_id": 631,
+  "next_id": 632,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786113153.755354,
+      "ts": 1786113783.76489,
       "ok": true,
-      "vegas_events": 1642,
+      "vegas_events": 1644,
       "pinnacle_events": 805,
       "sports_err": {},
       "problems": [],
