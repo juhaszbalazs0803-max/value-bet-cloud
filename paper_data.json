@@ -19120,7 +19120,7 @@
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
       "close_fair_p": 0.5890052356020942,
-      "close_ts": 1786128743.95895
+      "close_ts": 1786129373.946553
     },
     {
       "id": 633,
@@ -19150,6 +19150,35 @@
       "clv_pct": 3.24,
       "close_fair_p": 0.534082923401265,
       "close_ts": 1786120166.439171
+    },
+    {
+      "id": 634,
+      "ts": 1786129283.960838,
+      "key": "68:17306953:ml:away",
+      "content_key": "boticvandezandschulp|huberthurkacz|ml:away|20260807",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Botic Van de Zandschulp - Hubert Hurkacz",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Hubert Hurkacz",
+      "odds": 1.52,
+      "stake": 2600,
+      "value_pct": 5.41,
+      "fair_pct": 69.4,
+      "start": "2026-08-07T19:15:00+00:00",
+      "start_ts": 1786130100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4419,
+      "clv_pct": 5.42,
+      "close_fair_p": 0.6935123042505593,
+      "close_ts": 1786129283.960838
     }
   ],
   "papered": {
@@ -19769,17 +19798,18 @@
     "washingtonmysticsn|atlantadreamn|ml:away|20260807": 1786107604.252788,
     "cdcacahuatiquewomen|cdfuertesanfranciscomorazann|ml:away|20260807": 1786113783.76489,
     "ameliejustinehejtmanek|victoriapohle|ml:away|20260808": 1786118006.441663,
-    "fcliefering|wschertha|ml:home|20260807": 1786119356.451077
+    "fcliefering|wschertha|ml:home|20260807": 1786119356.451077,
+    "boticvandezandschulp|huberthurkacz|ml:away|20260807": 1786129283.960838
   },
   "last_report_date": "2026-08-07",
-  "next_id": 634,
+  "next_id": 635,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786128743.95895,
+      "ts": 1786129373.946553,
       "ok": true,
-      "vegas_events": 1553,
-      "pinnacle_events": 746,
+      "vegas_events": 1549,
+      "pinnacle_events": 756,
       "sports_err": {},
       "problems": [],
       "settle_err": null
