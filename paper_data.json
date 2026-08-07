@@ -19211,6 +19211,35 @@
       "clv_pct": 5.62,
       "close_fair_p": 0.5281302170283806,
       "close_ts": 1786134605.452969
+    },
+    {
+      "id": 636,
+      "ts": 1786138838.606919,
+      "key": "66:17301851:ml:home",
+      "content_key": "ucammurcia|orihuelacf|ml:home|20260808",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "UCAM Murcia - Orihuela CF",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — UCAM Murcia",
+      "odds": 1.95,
+      "stake": 1700,
+      "value_pct": 6.61,
+      "fair_pct": 54.7,
+      "start": "2026-08-08T08:30:00+00:00",
+      "start_ts": 1786177800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8291,
+      "clv_pct": 6.61,
+      "close_fair_p": 0.5467093140492995,
+      "close_ts": 1786138838.606919
     }
   ],
   "papered": {
@@ -19832,17 +19861,18 @@
     "ameliejustinehejtmanek|victoriapohle|ml:away|20260808": 1786118006.441663,
     "fcliefering|wschertha|ml:home|20260807": 1786119356.451077,
     "boticvandezandschulp|huberthurkacz|ml:away|20260807": 1786129283.960838,
-    "andreaguerrieri|daniilglinka|ml:away|20260808": 1786134605.452969
+    "andreaguerrieri|daniilglinka|ml:away|20260808": 1786134605.452969,
+    "ucammurcia|orihuelacf|ml:home|20260808": 1786138838.606919
   },
   "last_report_date": "2026-08-07",
-  "next_id": 636,
+  "next_id": 637,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786135415.502957,
+      "ts": 1786138838.606919,
       "ok": true,
-      "vegas_events": 1556,
-      "pinnacle_events": 776,
+      "vegas_events": 1563,
+      "pinnacle_events": 825,
       "sports_err": {},
       "problems": [],
       "settle_err": null
