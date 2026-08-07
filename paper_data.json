@@ -19123,7 +19123,7 @@
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
       "close_fair_p": 0.5890052356020942,
-      "close_ts": 1786134155.515389
+      "close_ts": 1786134785.453527
     },
     {
       "id": 633,
@@ -19182,6 +19182,35 @@
       "clv_pct": 5.42,
       "close_fair_p": 0.6935123042505593,
       "close_ts": 1786129283.960838
+    },
+    {
+      "id": 635,
+      "ts": 1786134605.452969,
+      "key": "68:17320925:ml:away",
+      "content_key": "andreaguerrieri|daniilglinka|ml:away|20260808",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Andrea Guerrieri - Daniil Glinka",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Daniil Glinka",
+      "odds": 2.0,
+      "stake": 1400,
+      "value_pct": 5.63,
+      "fair_pct": 52.8,
+      "start": "2026-08-08T09:00:00+00:00",
+      "start_ts": 1786179600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8935,
+      "clv_pct": 5.62,
+      "close_fair_p": 0.5281302170283806,
+      "close_ts": 1786134605.452969
     }
   ],
   "papered": {
@@ -19802,17 +19831,18 @@
     "cdcacahuatiquewomen|cdfuertesanfranciscomorazann|ml:away|20260807": 1786113783.76489,
     "ameliejustinehejtmanek|victoriapohle|ml:away|20260808": 1786118006.441663,
     "fcliefering|wschertha|ml:home|20260807": 1786119356.451077,
-    "boticvandezandschulp|huberthurkacz|ml:away|20260807": 1786129283.960838
+    "boticvandezandschulp|huberthurkacz|ml:away|20260807": 1786129283.960838,
+    "andreaguerrieri|daniilglinka|ml:away|20260808": 1786134605.452969
   },
   "last_report_date": "2026-08-07",
-  "next_id": 635,
+  "next_id": 636,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786134155.515389,
+      "ts": 1786134785.453527,
       "ok": true,
-      "vegas_events": 1552,
-      "pinnacle_events": 768,
+      "vegas_events": 1556,
+      "pinnacle_events": 767,
       "sports_err": {},
       "problems": [],
       "settle_err": null
