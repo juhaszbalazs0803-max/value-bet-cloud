@@ -19383,9 +19383,9 @@
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786064440.544353,
+      "ts": 1786065070.567366,
       "ok": true,
-      "vegas_events": 1421,
+      "vegas_events": 1422,
       "pinnacle_events": 525,
       "sports_err": {},
       "problems": [],
