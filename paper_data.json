@@ -18640,11 +18640,14 @@
       "fair_pct": 56.8,
       "start": "2026-08-07T03:00:00+00:00",
       "start_ts": 1786071600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1786086708.5453625,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.7617,
       "clv_pct": 11.26,
@@ -18798,6 +18801,35 @@
       "clv_pct": 12.07,
       "close_fair_p": 0.8215991312198249,
       "close_ts": 1786084256.110434
+    },
+    {
+      "id": 623,
+      "ts": 1786086695.332058,
+      "key": "68:17301145:ml:away",
+      "content_key": "alexanderdonski|daniilglinka|ml:away|20260807",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Alexander Donski - Daniil Glinka",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Daniil Glinka",
+      "odds": 1.6,
+      "stake": 1800,
+      "value_pct": 4.33,
+      "fair_pct": 65.2,
+      "start": "2026-08-07T10:00:00+00:00",
+      "start_ts": 1786096800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5336,
+      "clv_pct": 4.33,
+      "close_fair_p": 0.6520455117785765,
+      "close_ts": 1786086695.332058
     }
   ],
   "papered": {
@@ -19406,17 +19438,18 @@
     "karamokonaimasaldenlara|falkowskaweronikasmithalana|ml:away|20260806": 1786027156.712017,
     "micheleribecai|andreaguerrieri|ml:away|20260807": 1786027966.756284,
     "mathyserhard|ivanmarrerocurbelo|ml:home|20260807": 1786063810.584193,
-    "mirraandreeva|leylahanniefernandez|ml:home|20260807": 1786083266.151163
+    "mirraandreeva|leylahanniefernandez|ml:home|20260807": 1786083266.151163,
+    "alexanderdonski|daniilglinka|ml:away|20260807": 1786086695.332058
   },
   "last_report_date": "2026-08-06",
-  "next_id": 623,
+  "next_id": 624,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786084256.110434,
+      "ts": 1786086695.332058,
       "ok": true,
-      "vegas_events": 1487,
-      "pinnacle_events": 674,
+      "vegas_events": 1522,
+      "pinnacle_events": 685,
       "sports_err": {},
       "problems": [],
       "settle_err": null
