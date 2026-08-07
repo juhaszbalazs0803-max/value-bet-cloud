@@ -19239,7 +19239,36 @@
       "close_fair_odds": 1.8291,
       "clv_pct": 6.61,
       "close_fair_p": 0.5467093140492995,
-      "close_ts": 1786138838.606919
+      "close_ts": 1786139468.619538
+    },
+    {
+      "id": 637,
+      "ts": 1786139108.623276,
+      "key": "68:17325155:ml:home",
+      "content_key": "carlemiloverbeck|marcelloserafini|ml:home|20260808",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Carl Emil Overbeck - Marcello Serafini",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Carl Emil Overbeck",
+      "odds": 1.286,
+      "stake": 3300,
+      "value_pct": 3.73,
+      "fair_pct": 80.7,
+      "start": "2026-08-08T16:00:00+00:00",
+      "start_ts": 1786204800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.2396,
+      "clv_pct": 3.74,
+      "close_fair_p": 0.8067226890756303,
+      "close_ts": 1786139468.619538
     }
   ],
   "papered": {
@@ -19862,17 +19891,18 @@
     "fcliefering|wschertha|ml:home|20260807": 1786119356.451077,
     "boticvandezandschulp|huberthurkacz|ml:away|20260807": 1786129283.960838,
     "andreaguerrieri|daniilglinka|ml:away|20260808": 1786134605.452969,
-    "ucammurcia|orihuelacf|ml:home|20260808": 1786138838.606919
+    "ucammurcia|orihuelacf|ml:home|20260808": 1786138838.606919,
+    "carlemiloverbeck|marcelloserafini|ml:home|20260808": 1786139108.623276
   },
   "last_report_date": "2026-08-07",
-  "next_id": 637,
+  "next_id": 638,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786138838.606919,
+      "ts": 1786139468.619538,
       "ok": true,
-      "vegas_events": 1563,
-      "pinnacle_events": 825,
+      "vegas_events": 1566,
+      "pinnacle_events": 831,
       "sports_err": {},
       "problems": [],
       "settle_err": null
