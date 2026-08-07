@@ -18893,7 +18893,7 @@
       "close_fair_odds": 1.788,
       "clv_pct": 6.26,
       "close_fair_p": 0.5592878736983541,
-      "close_ts": 1786107424.222794
+      "close_ts": 1786108054.253123
     },
     {
       "id": 626,
@@ -18977,10 +18977,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6365,
-      "clv_pct": 14.57,
-      "close_fair_p": 0.6110694465276735,
-      "close_ts": 1786107424.222794
+      "close_fair_odds": 1.7073,
+      "clv_pct": 9.82,
+      "close_fair_p": 0.585723528143196,
+      "close_ts": 1786108054.253123
     },
     {
       "id": 629,
@@ -19009,7 +19009,36 @@
       "close_fair_odds": 1.469,
       "clv_pct": 5.24,
       "close_fair_p": 0.6807511737089202,
-      "close_ts": 1786107424.222794
+      "close_ts": 1786108054.253123
+    },
+    {
+      "id": 630,
+      "ts": 1786107604.252788,
+      "key": "67:16184185:ml:away",
+      "content_key": "washingtonmysticsn|atlantadreamn|ml:away|20260807",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Washington Mystics (N) - Atlanta Dream (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Atlanta Dream (N)",
+      "odds": 1.541,
+      "stake": 1600,
+      "value_pct": 3.42,
+      "fair_pct": 67.1,
+      "start": "2026-08-07T23:30:00+00:00",
+      "start_ts": 1786145400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4897,
+      "clv_pct": 3.44,
+      "close_fair_p": 0.6712962962962963,
+      "close_ts": 1786107874.260159
     }
   ],
   "papered": {
@@ -19625,17 +19654,18 @@
     "neeliolmosg|danilinaakrunica|ml:away|20260807": 1786095327.950479,
     "yverdonn|zurichn|ml:away|20260807": 1786101165.377894,
     "radovanovictadijarollandderavelcosme|carbonilorenzouzhylovskyivolodymyr|ml:home|20260807": 1786107424.222794,
-    "gaeuljang|chentingzhu|ml:away|20260808": 1786107424.222794
+    "gaeuljang|chentingzhu|ml:away|20260808": 1786107424.222794,
+    "washingtonmysticsn|atlantadreamn|ml:away|20260807": 1786107604.252788
   },
   "last_report_date": "2026-08-07",
-  "next_id": 630,
+  "next_id": 631,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786107424.222794,
+      "ts": 1786108054.253123,
       "ok": true,
-      "vegas_events": 1595,
-      "pinnacle_events": 690,
+      "vegas_events": 1602,
+      "pinnacle_events": 697,
       "sports_err": {},
       "problems": [],
       "settle_err": null
