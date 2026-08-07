@@ -18905,7 +18905,7 @@
       "close_fair_odds": 1.8867,
       "clv_pct": 0.7,
       "close_fair_p": 0.5300353356890459,
-      "close_ts": 1786119266.393747
+      "close_ts": 1786119896.443898
     },
     {
       "id": 626,
@@ -19108,7 +19108,36 @@
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
       "close_fair_p": 0.5890052356020942,
-      "close_ts": 1786119266.393747
+      "close_ts": 1786119896.443898
+    },
+    {
+      "id": 633,
+      "ts": 1786119356.451077,
+      "key": "66:17191984:ml:home",
+      "content_key": "fcliefering|wschertha|ml:home|20260807",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "FC Liefering - WSC Hertha",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — FC Liefering",
+      "odds": 1.933,
+      "stake": 900,
+      "value_pct": 3.26,
+      "fair_pct": 53.4,
+      "start": "2026-08-07T16:30:00+00:00",
+      "start_ts": 1786120200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8724,
+      "clv_pct": 3.24,
+      "close_fair_p": 0.534082923401265,
+      "close_ts": 1786119896.443898
     }
   ],
   "papered": {
@@ -19727,17 +19756,18 @@
     "gaeuljang|chentingzhu|ml:away|20260808": 1786107424.222794,
     "washingtonmysticsn|atlantadreamn|ml:away|20260807": 1786107604.252788,
     "cdcacahuatiquewomen|cdfuertesanfranciscomorazann|ml:away|20260807": 1786113783.76489,
-    "ameliejustinehejtmanek|victoriapohle|ml:away|20260808": 1786118006.441663
+    "ameliejustinehejtmanek|victoriapohle|ml:away|20260808": 1786118006.441663,
+    "fcliefering|wschertha|ml:home|20260807": 1786119356.451077
   },
   "last_report_date": "2026-08-07",
-  "next_id": 633,
+  "next_id": 634,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786119266.393747,
+      "ts": 1786119896.443898,
       "ok": true,
-      "vegas_events": 1639,
-      "pinnacle_events": 763,
+      "vegas_events": 1640,
+      "pinnacle_events": 775,
       "sports_err": {},
       "problems": [],
       "settle_err": null
