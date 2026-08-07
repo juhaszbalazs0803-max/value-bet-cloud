@@ -18859,6 +18859,35 @@
       "clv_pct": 3.32,
       "close_fair_p": 0.6358164621277261,
       "close_ts": 1786089485.311419
+    },
+    {
+      "id": 625,
+      "ts": 1786092987.932874,
+      "key": "66:17286688:ml:home",
+      "content_key": "cdleganes|merida|ml:home|20260807",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "CD Leganes - Merida",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — CD Leganes",
+      "odds": 1.9,
+      "stake": 1700,
+      "value_pct": 6.26,
+      "fair_pct": 55.9,
+      "start": "2026-08-07T17:00:00+00:00",
+      "start_ts": 1786122000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.788,
+      "clv_pct": 6.26,
+      "close_fair_p": 0.5592878736983541,
+      "close_ts": 1786092987.932874
     }
   ],
   "papered": {
@@ -19469,16 +19498,17 @@
     "mathyserhard|ivanmarrerocurbelo|ml:home|20260807": 1786063810.584193,
     "mirraandreeva|leylahanniefernandez|ml:home|20260807": 1786083266.151163,
     "alexanderdonski|daniilglinka|ml:away|20260807": 1786086695.332058,
-    "paulsonavliegenj|bassfjansj|ml:home|20260807": 1786087325.328282
+    "paulsonavliegenj|bassfjansj|ml:home|20260807": 1786087325.328282,
+    "cdleganes|merida|ml:home|20260807": 1786092987.932874
   },
   "last_report_date": "2026-08-06",
-  "next_id": 625,
+  "next_id": 626,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786089845.361744,
+      "ts": 1786092987.932874,
       "ok": true,
-      "vegas_events": 1535,
+      "vegas_events": 1548,
       "pinnacle_events": 707,
       "sports_err": {},
       "problems": [],
