@@ -19303,7 +19303,7 @@
       "close_fair_odds": 1.7294,
       "clv_pct": 4.08,
       "close_fair_p": 0.5782267712348798,
-      "close_ts": 1786167334.745869
+      "close_ts": 1786167964.714016
     },
     {
       "id": 639,
@@ -19332,7 +19332,36 @@
       "close_fair_odds": 1.6787,
       "clv_pct": 5.92,
       "close_fair_p": 0.5956873315363881,
-      "close_ts": 1786167334.745869
+      "close_ts": 1786167964.714016
+    },
+    {
+      "id": 640,
+      "ts": 1786167874.714562,
+      "key": "66:17309989:ml:away",
+      "content_key": "realavila|unionistasdesalamancacf|ml:away|20260808",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Real Avila - Unionistas de Salamanca CF",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Unionistas de Salamanca CF",
+      "odds": 1.846,
+      "stake": 1700,
+      "value_pct": 5.84,
+      "fair_pct": 57.3,
+      "start": "2026-08-08T17:30:00+00:00",
+      "start_ts": 1786210200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7443,
+      "clv_pct": 5.83,
+      "close_fair_p": 0.5732875825456429,
+      "close_ts": 1786167964.714016
     }
   ],
   "papered": {
@@ -19958,17 +19987,18 @@
     "ucammurcia|orihuelacf|ml:home|20260808": 1786138838.606919,
     "carlemiloverbeck|marcelloserafini|ml:home|20260808": 1786139108.623276,
     "ifkkumla|vanersborgsif|ml:home|20260808": 1786152079.823829,
-    "gimnasticasegoviana|atleticomadridb|ml:away|20260808": 1786159360.896138
+    "gimnasticasegoviana|atleticomadridb|ml:away|20260808": 1786159360.896138,
+    "realavila|unionistasdesalamancacf|ml:away|20260808": 1786167874.714562
   },
   "last_report_date": "2026-08-07",
-  "next_id": 640,
+  "next_id": 641,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786167334.745869,
+      "ts": 1786167964.714016,
       "ok": true,
-      "vegas_events": 1589,
-      "pinnacle_events": 891,
+      "vegas_events": 1588,
+      "pinnacle_events": 892,
       "sports_err": {},
       "problems": [],
       "settle_err": null
