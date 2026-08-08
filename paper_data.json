@@ -19117,11 +19117,14 @@
       "fair_pct": 58.9,
       "start": "2026-08-08T08:00:00+00:00",
       "start_ts": 1786176000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1786181780.358405,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6978,
       "clv_pct": 7.08,
@@ -19303,7 +19306,7 @@
       "close_fair_odds": 1.7294,
       "clv_pct": 4.08,
       "close_fair_p": 0.5782267712348798,
-      "close_ts": 1786178357.549583
+      "close_ts": 1786181765.227282
     },
     {
       "id": 639,
@@ -19361,7 +19364,7 @@
       "close_fair_odds": 1.7443,
       "clv_pct": 5.83,
       "close_fair_p": 0.5732875825456429,
-      "close_ts": 1786178357.549583
+      "close_ts": 1786181765.227282
     },
     {
       "id": 641,
@@ -20110,15 +20113,15 @@
     "brisbanecity|goldcoastunited|ml:home|20260808": 1786175567.595883,
     "jeonbuk|jejuunitedfc|ml:home|20260808": 1786177367.581454
   },
-  "last_report_date": "2026-08-07",
+  "last_report_date": "2026-08-08",
   "next_id": 645,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786178357.549583,
+      "ts": 1786181765.227282,
       "ok": true,
-      "vegas_events": 1555,
-      "pinnacle_events": 914,
+      "vegas_events": 1554,
+      "pinnacle_events": 875,
       "sports_err": {},
       "problems": [],
       "settle_err": null
