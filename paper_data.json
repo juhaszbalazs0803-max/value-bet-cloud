@@ -19303,7 +19303,7 @@
       "close_fair_odds": 1.7294,
       "clv_pct": 4.08,
       "close_fair_p": 0.5782267712348798,
-      "close_ts": 1786174150.994518
+      "close_ts": 1786174780.930869
     },
     {
       "id": 639,
@@ -19361,7 +19361,7 @@
       "close_fair_odds": 1.7443,
       "clv_pct": 5.83,
       "close_fair_p": 0.5732875825456429,
-      "close_ts": 1786174150.994518
+      "close_ts": 1786174780.930869
     },
     {
       "id": 641,
@@ -19390,7 +19390,36 @@
       "close_fair_odds": 1.6705,
       "clv_pct": 10.51,
       "close_fair_p": 0.5986231667165519,
-      "close_ts": 1786174150.994518
+      "close_ts": 1786174780.930869
+    },
+    {
+      "id": 642,
+      "ts": 1786174330.938528,
+      "key": "67:16191885:ml:away",
+      "content_key": "chicagoskyn|indianafevern|ml:away|20260808",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Chicago Sky (N) - Indiana Fever (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Indiana Fever (N)",
+      "odds": 1.435,
+      "stake": 2900,
+      "value_pct": 5.02,
+      "fair_pct": 73.2,
+      "start": "2026-08-08T19:30:00+00:00",
+      "start_ts": 1786217400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3662,
+      "clv_pct": 5.04,
+      "close_fair_p": 0.7319587628865979,
+      "close_ts": 1786174330.938528
     }
   ],
   "papered": {
@@ -20018,17 +20047,18 @@
     "ifkkumla|vanersborgsif|ml:home|20260808": 1786152079.823829,
     "gimnasticasegoviana|atleticomadridb|ml:away|20260808": 1786159360.896138,
     "realavila|unionistasdesalamancacf|ml:away|20260808": 1786167874.714562,
-    "osasunab|mirandes|ml:away|20260808": 1786171630.962004
+    "osasunab|mirandes|ml:away|20260808": 1786171630.962004,
+    "chicagoskyn|indianafevern|ml:away|20260808": 1786174330.938528
   },
   "last_report_date": "2026-08-07",
-  "next_id": 642,
+  "next_id": 643,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786174150.994518,
+      "ts": 1786174780.930869,
       "ok": true,
-      "vegas_events": 1595,
-      "pinnacle_events": 921,
+      "vegas_events": 1590,
+      "pinnacle_events": 915,
       "sports_err": {},
       "problems": [],
       "settle_err": null
