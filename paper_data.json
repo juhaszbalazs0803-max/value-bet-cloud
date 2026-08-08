@@ -19893,6 +19893,35 @@
       "clv_pct": 3.22,
       "close_fair_p": 0.5287958115183247,
       "close_ts": 1786228301.229251
+    },
+    {
+      "id": 659,
+      "ts": 1786231788.37316,
+      "key": "66:17315848:ml:home",
+      "content_key": "herrestadsaif|iktord|ml:home|20260809",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Herrestads AIF - IK Tord",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Herrestads AIF",
+      "odds": 1.9,
+      "stake": 1000,
+      "value_pct": 3.66,
+      "fair_pct": 54.6,
+      "start": "2026-08-09T11:00:00+00:00",
+      "start_ts": 1786273200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.833,
+      "clv_pct": 3.66,
+      "close_fair_p": 0.5455657052434726,
+      "close_ts": 1786232148.380581
     }
   ],
   "papered": {
@@ -20537,17 +20566,18 @@
     "maximechazal|vincentdullinger|ml:home|20260809": 1786217821.479268,
     "fortaleza|ccutadeportivo|ml:home|20260808": 1786222999.407534,
     "jirilehecka|rafaeljodar|ml:away|20260808": 1786226954.502699,
-    "portlandfiren|seattlestormn|ml:home|20260809": 1786228301.229251
+    "portlandfiren|seattlestormn|ml:home|20260809": 1786228301.229251,
+    "herrestadsaif|iktord|ml:home|20260809": 1786231788.37316
   },
   "last_report_date": "2026-08-08",
-  "next_id": 659,
+  "next_id": 660,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786231518.345485,
+      "ts": 1786232148.380581,
       "ok": true,
-      "vegas_events": 1103,
-      "pinnacle_events": 590,
+      "vegas_events": 1100,
+      "pinnacle_events": 597,
       "sports_err": {},
       "problems": [],
       "settle_err": null
