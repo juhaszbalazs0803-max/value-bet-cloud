@@ -19309,7 +19309,7 @@
       "close_fair_odds": 1.7294,
       "clv_pct": 4.08,
       "close_fair_p": 0.5782267712348798,
-      "close_ts": 1786188319.576034
+      "close_ts": 1786188949.533123
     },
     {
       "id": 639,
@@ -19367,7 +19367,7 @@
       "close_fair_odds": 1.7443,
       "clv_pct": 5.83,
       "close_fair_p": 0.5732875825456429,
-      "close_ts": 1786188319.576034
+      "close_ts": 1786188949.533123
     },
     {
       "id": 641,
@@ -19542,6 +19542,35 @@
       "clv_pct": 3.53,
       "close_fair_p": 0.5176371914689671,
       "close_ts": 1786184915.237006
+    },
+    {
+      "id": 647,
+      "ts": 1786188589.554477,
+      "key": "67:17323813:ml:home",
+      "content_key": "fraservalleybandits|winnipegseabears|ml:home|20260808",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Fraser Valley Bandits - Winnipeg Sea Bears",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Fraser Valley Bandits",
+      "odds": 1.476,
+      "stake": 3300,
+      "value_pct": 6.36,
+      "fair_pct": 72.1,
+      "start": "2026-08-08T19:30:00+00:00",
+      "start_ts": 1786217400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3879,
+      "clv_pct": 6.35,
+      "close_fair_p": 0.7205240174672489,
+      "close_ts": 1786188589.554477
     }
   ],
   "papered": {
@@ -20174,17 +20203,18 @@
     "brisbanecity|goldcoastunited|ml:home|20260808": 1786175567.595883,
     "jeonbuk|jejuunitedfc|ml:home|20260808": 1786177367.581454,
     "maardulinnameeskond|viimsijk|ml:away|20260808": 1786182755.217198,
-    "luzomatosr|cabralftracyj|ml:home|20260808": 1786184735.246257
+    "luzomatosr|cabralftracyj|ml:home|20260808": 1786184735.246257,
+    "fraservalleybandits|winnipegseabears|ml:home|20260808": 1786188589.554477
   },
   "last_report_date": "2026-08-08",
-  "next_id": 647,
+  "next_id": 648,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786188319.576034,
+      "ts": 1786188949.533123,
       "ok": true,
-      "vegas_events": 1507,
-      "pinnacle_events": 836,
+      "vegas_events": 1497,
+      "pinnacle_events": 845,
       "sports_err": {},
       "problems": [],
       "settle_err": null
