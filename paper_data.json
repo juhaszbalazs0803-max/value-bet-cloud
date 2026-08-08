@@ -19303,7 +19303,7 @@
       "close_fair_odds": 1.7294,
       "clv_pct": 4.08,
       "close_fair_p": 0.5782267712348798,
-      "close_ts": 1786175207.583334
+      "close_ts": 1786175837.580604
     },
     {
       "id": 639,
@@ -19361,7 +19361,7 @@
       "close_fair_odds": 1.7443,
       "clv_pct": 5.83,
       "close_fair_p": 0.5732875825456429,
-      "close_ts": 1786175207.583334
+      "close_ts": 1786175837.580604
     },
     {
       "id": 641,
@@ -19390,7 +19390,7 @@
       "close_fair_odds": 1.6705,
       "clv_pct": 10.51,
       "close_fair_p": 0.5986231667165519,
-      "close_ts": 1786175207.583334
+      "close_ts": 1786175837.580604
     },
     {
       "id": 642,
@@ -19420,6 +19420,35 @@
       "clv_pct": 5.04,
       "close_fair_p": 0.7319587628865979,
       "close_ts": 1786174330.938528
+    },
+    {
+      "id": 643,
+      "ts": 1786175567.595883,
+      "key": "66:16186918:ml:home",
+      "content_key": "brisbanecity|goldcoastunited|ml:home|20260808",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Brisbane City - Gold Coast United",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Brisbane City",
+      "odds": 1.846,
+      "stake": 1200,
+      "value_pct": 4.23,
+      "fair_pct": 56.5,
+      "start": "2026-08-08T08:00:00+00:00",
+      "start_ts": 1786176000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7712,
+      "clv_pct": 4.22,
+      "close_fair_p": 0.564592015055787,
+      "close_ts": 1786175837.580604
     }
   ],
   "papered": {
@@ -20048,17 +20077,18 @@
     "gimnasticasegoviana|atleticomadridb|ml:away|20260808": 1786159360.896138,
     "realavila|unionistasdesalamancacf|ml:away|20260808": 1786167874.714562,
     "osasunab|mirandes|ml:away|20260808": 1786171630.962004,
-    "chicagoskyn|indianafevern|ml:away|20260808": 1786174330.938528
+    "chicagoskyn|indianafevern|ml:away|20260808": 1786174330.938528,
+    "brisbanecity|goldcoastunited|ml:home|20260808": 1786175567.595883
   },
   "last_report_date": "2026-08-07",
-  "next_id": 643,
+  "next_id": 644,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786175207.583334,
+      "ts": 1786175837.580604,
       "ok": true,
-      "vegas_events": 1591,
-      "pinnacle_events": 912,
+      "vegas_events": 1596,
+      "pinnacle_events": 919,
       "sports_err": {},
       "problems": [],
       "settle_err": null
