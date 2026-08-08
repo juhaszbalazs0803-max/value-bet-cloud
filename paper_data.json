@@ -19367,7 +19367,7 @@
       "close_fair_odds": 1.7443,
       "clv_pct": 5.83,
       "close_fair_p": 0.5732875825456429,
-      "close_ts": 1786196048.791059
+      "close_ts": 1786196571.443638
     },
     {
       "id": 641,
@@ -19571,6 +19571,35 @@
       "clv_pct": 6.35,
       "close_fair_p": 0.7205240174672489,
       "close_ts": 1786188589.554477
+    },
+    {
+      "id": 648,
+      "ts": 1786196571.443638,
+      "key": "66:17272757:ml:home",
+      "content_key": "elgincityfc|forfarathleticfc|ml:home|20260808",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Elgin City FC - Forfar Athletic FC",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Elgin City FC",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.42,
+      "fair_pct": 57.0,
+      "start": "2026-08-08T14:00:00+00:00",
+      "start_ts": 1786197600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7559,
+      "clv_pct": 4.39,
+      "close_fair_p": 0.5695164798393844,
+      "close_ts": 1786196571.443638
     }
   ],
   "papered": {
@@ -20204,17 +20233,18 @@
     "jeonbuk|jejuunitedfc|ml:home|20260808": 1786177367.581454,
     "maardulinnameeskond|viimsijk|ml:away|20260808": 1786182755.217198,
     "luzomatosr|cabralftracyj|ml:home|20260808": 1786184735.246257,
-    "fraservalleybandits|winnipegseabears|ml:home|20260808": 1786188589.554477
+    "fraservalleybandits|winnipegseabears|ml:home|20260808": 1786188589.554477,
+    "elgincityfc|forfarathleticfc|ml:home|20260808": 1786196571.443638
   },
   "last_report_date": "2026-08-08",
-  "next_id": 648,
+  "next_id": 649,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786196048.791059,
+      "ts": 1786196571.443638,
       "ok": true,
       "vegas_events": 1450,
-      "pinnacle_events": 810,
+      "pinnacle_events": 805,
       "sports_err": {},
       "problems": [],
       "settle_err": null
