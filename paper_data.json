@@ -19805,7 +19805,7 @@
       "close_fair_odds": 1.2113,
       "clv_pct": 4.6,
       "close_fair_p": 0.8255451713395638,
-      "close_ts": 1786223899.410807
+      "close_ts": 1786224434.554688
     },
     {
       "id": 656,
@@ -20484,10 +20484,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786223899.410807,
+      "ts": 1786224434.554688,
       "ok": true,
-      "vegas_events": 1131,
-      "pinnacle_events": 459,
+      "vegas_events": 1132,
+      "pinnacle_events": 605,
       "sports_err": {},
       "problems": [],
       "settle_err": null
