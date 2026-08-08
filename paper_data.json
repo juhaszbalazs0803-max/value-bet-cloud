@@ -19242,7 +19242,7 @@
       "close_fair_odds": 1.8291,
       "clv_pct": 6.61,
       "close_fair_p": 0.5467093140492995,
-      "close_ts": 1786155229.82047
+      "close_ts": 1786159360.896138
     },
     {
       "id": 637,
@@ -19300,7 +19300,36 @@
       "close_fair_odds": 1.7294,
       "clv_pct": 4.08,
       "close_fair_p": 0.5782267712348798,
-      "close_ts": 1786155229.82047
+      "close_ts": 1786159360.896138
+    },
+    {
+      "id": 639,
+      "ts": 1786159360.896138,
+      "key": "66:17301854:ml:away",
+      "content_key": "gimnasticasegoviana|atleticomadridb|ml:away|20260808",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Gimnastica Segoviana - Atletico Madrid B",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Atletico Madrid B",
+      "odds": 1.778,
+      "stake": 1900,
+      "value_pct": 5.9,
+      "fair_pct": 59.6,
+      "start": "2026-08-08T09:00:00+00:00",
+      "start_ts": 1786179600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6787,
+      "clv_pct": 5.92,
+      "close_fair_p": 0.5956873315363881,
+      "close_ts": 1786159360.896138
     }
   ],
   "papered": {
@@ -19925,17 +19954,18 @@
     "andreaguerrieri|daniilglinka|ml:away|20260808": 1786134605.452969,
     "ucammurcia|orihuelacf|ml:home|20260808": 1786138838.606919,
     "carlemiloverbeck|marcelloserafini|ml:home|20260808": 1786139108.623276,
-    "ifkkumla|vanersborgsif|ml:home|20260808": 1786152079.823829
+    "ifkkumla|vanersborgsif|ml:home|20260808": 1786152079.823829,
+    "gimnasticasegoviana|atleticomadridb|ml:away|20260808": 1786159360.896138
   },
   "last_report_date": "2026-08-07",
-  "next_id": 639,
+  "next_id": 640,
   "tg_offset": 363415791,
   "health": {
     "last_scan": {
-      "ts": 1786155229.82047,
+      "ts": 1786159360.896138,
       "ok": true,
-      "vegas_events": 1565,
-      "pinnacle_events": 852,
+      "vegas_events": 1570,
+      "pinnacle_events": 844,
       "sports_err": {},
       "problems": [],
       "settle_err": null
