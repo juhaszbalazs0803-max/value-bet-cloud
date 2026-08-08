@@ -19367,7 +19367,7 @@
       "close_fair_odds": 1.7443,
       "clv_pct": 5.83,
       "close_fair_p": 0.5732875825456429,
-      "close_ts": 1786207233.125718
+      "close_ts": 1786207863.169891
     },
     {
       "id": 641,
@@ -19716,6 +19716,35 @@
       "clv_pct": 8.49,
       "close_fair_p": 0.6027040436616224,
       "close_ts": 1786206783.177525
+    },
+    {
+      "id": 653,
+      "ts": 1786207593.170216,
+      "key": "66:17308950:ml:home",
+      "content_key": "colina|deportesrengo|ml:home|20260808",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Colina - Deportes Rengo",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Colina",
+      "odds": 1.96,
+      "stake": 1900,
+      "value_pct": 7.34,
+      "fair_pct": 54.8,
+      "start": "2026-08-08T19:30:00+00:00",
+      "start_ts": 1786217400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.826,
+      "clv_pct": 7.34,
+      "close_fair_p": 0.5476314046924494,
+      "close_ts": 1786207683.126361
     }
   ],
   "papered": {
@@ -20354,17 +20383,18 @@
     "southlandsharks|wellingtonsaints|ml:home|20260809": 1786204472.714704,
     "vandermeerschenmartin|theopapamalamis|ml:away|20260809": 1786204742.70795,
     "ajaxn|rangersn|ml:home|20260808": 1786206693.177632,
-    "luzomatosr|cabralftracyj|ml:away|20260808": 1786206693.177632
+    "luzomatosr|cabralftracyj|ml:away|20260808": 1786206693.177632,
+    "colina|deportesrengo|ml:home|20260808": 1786207593.170216
   },
   "last_report_date": "2026-08-08",
-  "next_id": 653,
+  "next_id": 654,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786207233.125718,
+      "ts": 1786207863.169891,
       "ok": true,
-      "vegas_events": 1242,
-      "pinnacle_events": 707,
+      "vegas_events": 1243,
+      "pinnacle_events": 702,
       "sports_err": {},
       "problems": [],
       "settle_err": null
