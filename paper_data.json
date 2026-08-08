@@ -19367,7 +19367,7 @@
       "close_fair_odds": 1.7389,
       "clv_pct": 6.16,
       "close_fair_p": 0.5750605326876513,
-      "close_ts": 1786209123.214492
+      "close_ts": 1786209753.215664
     },
     {
       "id": 641,
@@ -19745,6 +19745,35 @@
       "clv_pct": 7.34,
       "close_fair_p": 0.5476314046924494,
       "close_ts": 1786207683.126361
+    },
+    {
+      "id": 654,
+      "ts": 1786209753.215664,
+      "key": "66:17053638:ml:home",
+      "content_key": "canberrajuventus|canberrawhiteeagles|ml:home|20260809",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Canberra Juventus - Canberra White Eagles",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Canberra Juventus",
+      "odds": 1.556,
+      "stake": 4000,
+      "value_pct": 8.95,
+      "fair_pct": 70.0,
+      "start": "2026-08-09T05:00:00+00:00",
+      "start_ts": 1786251600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4278,
+      "clv_pct": 8.98,
+      "close_fair_p": 0.7003925330618558,
+      "close_ts": 1786209753.215664
     }
   ],
   "papered": {
@@ -20384,17 +20413,18 @@
     "vandermeerschenmartin|theopapamalamis|ml:away|20260809": 1786204742.70795,
     "ajaxn|rangersn|ml:home|20260808": 1786206693.177632,
     "luzomatosr|cabralftracyj|ml:away|20260808": 1786206693.177632,
-    "colina|deportesrengo|ml:home|20260808": 1786207593.170216
+    "colina|deportesrengo|ml:home|20260808": 1786207593.170216,
+    "canberrajuventus|canberrawhiteeagles|ml:home|20260809": 1786209753.215664
   },
   "last_report_date": "2026-08-08",
-  "next_id": 654,
+  "next_id": 655,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786209123.214492,
+      "ts": 1786209753.215664,
       "ok": true,
-      "vegas_events": 1221,
-      "pinnacle_events": 676,
+      "vegas_events": 1222,
+      "pinnacle_events": 682,
       "sports_err": {},
       "problems": [],
       "settle_err": null
