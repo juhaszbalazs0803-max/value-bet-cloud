@@ -20014,10 +20014,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8971,
-      "clv_pct": 5.42,
-      "close_fair_p": 0.5271178339471982,
-      "close_ts": 1786249282.166879
+      "close_fair_odds": 1.8112,
+      "clv_pct": 10.42,
+      "close_fair_p": 0.5521160822249093,
+      "close_ts": 1786259049.397325
     },
     {
       "id": 663,
@@ -20134,6 +20134,35 @@
       "clv_pct": 10.19,
       "close_fair_p": 0.6169665809768637,
       "close_ts": 1786258599.290962
+    },
+    {
+      "id": 667,
+      "ts": 1786259049.397325,
+      "key": "68:17336871:ml:away",
+      "content_key": "manningw|gavinyoung|ml:away|20260809",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Manning, W - Gavin Young",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Gavin Young",
+      "odds": 1.222,
+      "stake": 5000,
+      "value_pct": 5.99,
+      "fair_pct": 86.7,
+      "start": "2026-08-09T15:30:00+00:00",
+      "start_ts": 1786289400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.1532,
+      "clv_pct": 5.97,
+      "close_fair_p": 0.8671509522879047,
+      "close_ts": 1786259049.397325
     }
   ],
   "papered": {
@@ -20786,17 +20815,18 @@
     "hyeonchung|taiseiichikawa|ml:home|20260809": 1786249282.166879,
     "fkjablonec|1fcslovacko|ml:home|20260809": 1786251717.27064,
     "charlesbroom|olivertarvet|ml:away|20260809": 1786251717.27064,
-    "janaotzipka|irinafetecau|ml:home|20260809": 1786258329.296111
+    "janaotzipka|irinafetecau|ml:home|20260809": 1786258329.296111,
+    "manningw|gavinyoung|ml:away|20260809": 1786259049.397325
   },
   "last_report_date": "2026-08-08",
-  "next_id": 667,
+  "next_id": 668,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786258959.312709,
+      "ts": 1786259589.296789,
       "ok": true,
-      "vegas_events": 1114,
-      "pinnacle_events": 701,
+      "vegas_events": 1120,
+      "pinnacle_events": 688,
       "sports_err": {},
       "problems": [],
       "settle_err": null
