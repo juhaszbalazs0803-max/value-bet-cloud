@@ -20288,6 +20288,35 @@
       "clv_pct": -1.41,
       "close_fair_p": 0.5689001264222503,
       "close_ts": 1786283401.473123
+    },
+    {
+      "id": 672,
+      "ts": 1786285201.423905,
+      "key": "68:17334749:ml:home",
+      "content_key": "denisyevseyev|noellarwig|ml:home|20260809",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Denis Yevseyev - Noel Larwig",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Denis Yevseyev",
+      "odds": 1.273,
+      "stake": 2800,
+      "value_pct": 3.05,
+      "fair_pct": 81.0,
+      "start": "2026-08-09T14:30:00+00:00",
+      "start_ts": 1786285800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.2352,
+      "clv_pct": 3.06,
+      "close_fair_p": 0.8096089559200809,
+      "close_ts": 1786285381.581463
     }
   ],
   "papered": {
@@ -20945,16 +20974,17 @@
     "tomgentzsch|andrejnedic|ml:home|20260810": 1786268478.090029,
     "olot|cesabadellfc|ml:away|20260809": 1786268748.067126,
     "deportivocoatepeque|juventudcopalera|ml:home|20260809": 1786279397.166068,
-    "deportivoiztapa|chichicastecofc|ml:home|20260809": 1786280027.172252
+    "deportivoiztapa|chichicastecofc|ml:home|20260809": 1786280027.172252,
+    "denisyevseyev|noellarwig|ml:home|20260809": 1786285201.423905
   },
   "last_report_date": "2026-08-09",
-  "next_id": 672,
+  "next_id": 673,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786285111.434316,
+      "ts": 1786285741.475261,
       "ok": true,
-      "vegas_events": 994,
+      "vegas_events": 996,
       "pinnacle_events": 527,
       "sports_err": {},
       "problems": [],
