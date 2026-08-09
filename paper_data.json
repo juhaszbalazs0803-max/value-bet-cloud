@@ -20255,10 +20255,39 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7949,
-      "clv_pct": 11.43,
-      "close_fair_p": 0.5571319814520035,
-      "close_ts": 1786279397.166068
+      "close_fair_odds": 1.8961,
+      "clv_pct": 5.48,
+      "close_fair_p": 0.5273909702569485,
+      "close_ts": 1786279757.170388
+    },
+    {
+      "id": 671,
+      "ts": 1786280027.172252,
+      "key": "66:17316425:ml:home",
+      "content_key": "deportivoiztapa|chichicastecofc|ml:home|20260809",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Deportivo Iztapa - Chichicasteco FC",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Deportivo Iztapa",
+      "odds": 1.733,
+      "stake": 1300,
+      "value_pct": 3.74,
+      "fair_pct": 59.8,
+      "start": "2026-08-09T17:00:00+00:00",
+      "start_ts": 1786294800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6709,
+      "clv_pct": 3.72,
+      "close_fair_p": 0.5984715956173464,
+      "close_ts": 1786280027.172252
     }
   ],
   "papered": {
@@ -20915,17 +20944,18 @@
     "manningw|gavinyoung|ml:away|20260809": 1786259049.397325,
     "tomgentzsch|andrejnedic|ml:home|20260810": 1786268478.090029,
     "olot|cesabadellfc|ml:away|20260809": 1786268748.067126,
-    "deportivocoatepeque|juventudcopalera|ml:home|20260809": 1786279397.166068
+    "deportivocoatepeque|juventudcopalera|ml:home|20260809": 1786279397.166068,
+    "deportivoiztapa|chichicastecofc|ml:home|20260809": 1786280027.172252
   },
   "last_report_date": "2026-08-09",
-  "next_id": 671,
+  "next_id": 672,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786279397.166068,
+      "ts": 1786280027.172252,
       "ok": true,
       "vegas_events": 1043,
-      "pinnacle_events": 558,
+      "pinnacle_events": 554,
       "sports_err": {},
       "problems": [],
       "settle_err": null
