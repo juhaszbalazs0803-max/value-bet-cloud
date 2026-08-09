@@ -20320,9 +20320,6 @@
     }
   ],
   "papered": {
-    "maximo zeitune|nicolas zanellato|ah:-1.5:away|2026-06-25": 1782399975.6035843,
-    "ana candiotto|ana carmen zamburek|ml:away|2026-06-25": 1782399975.6035843,
-    "toronto tempo n|los angeles sparks n|ou:179.5:over|2026-06-25": 1782399975.6035843,
     "felixbalshaw|andrejnedic|ah:-1.5:away|20260626": 1782423676.965948,
     "chiayitsao|gyeongseolee|ah:1.5:home|20260626": 1782423676.965948,
     "fonsvansambeek|pieterdelange|ah:1.5:home|20260626": 1782444590.153904,
@@ -20982,10 +20979,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786286371.426196,
+      "ts": 1786289765.664169,
       "ok": true,
-      "vegas_events": 979,
-      "pinnacle_events": 521,
+      "vegas_events": 934,
+      "pinnacle_events": 411,
       "sports_err": {},
       "problems": [],
       "settle_err": null
