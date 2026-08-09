@@ -19989,6 +19989,35 @@
       "clv_pct": 4.84,
       "close_fair_p": 0.681674786358917,
       "close_ts": 1786241961.17336
+    },
+    {
+      "id": 662,
+      "ts": 1786247212.11232,
+      "key": "68:17334743:ml:home",
+      "content_key": "niklasguttau|nikolaibarsukov|ml:home|20260809",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Niklas Guttau - Nikolai Barsukov",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Niklas Guttau",
+      "odds": 2.0,
+      "stake": 1400,
+      "value_pct": 5.42,
+      "fair_pct": 52.7,
+      "start": "2026-08-09T10:50:00+00:00",
+      "start_ts": 1786272600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8971,
+      "clv_pct": 5.42,
+      "close_fair_p": 0.5271178339471982,
+      "close_ts": 1786247392.147015
     }
   ],
   "papered": {
@@ -20636,17 +20665,18 @@
     "portlandfiren|seattlestormn|ml:home|20260809": 1786228301.229251,
     "herrestadsaif|iktord|ml:home|20260809": 1786231788.37316,
     "ericvanshelboim|dominikrecek|ml:home|20260809": 1786238811.194654,
-    "juancruzmartinmanzano|danielerapagnetta|ml:home|20260809": 1786238811.194654
+    "juancruzmartinmanzano|danielerapagnetta|ml:home|20260809": 1786238811.194654,
+    "niklasguttau|nikolaibarsukov|ml:home|20260809": 1786247212.11232
   },
   "last_report_date": "2026-08-08",
-  "next_id": 662,
+  "next_id": 663,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786246762.165086,
+      "ts": 1786247392.147015,
       "ok": true,
       "vegas_events": 1104,
-      "pinnacle_events": 578,
+      "pinnacle_events": 577,
       "sports_err": {},
       "problems": [],
       "settle_err": null
