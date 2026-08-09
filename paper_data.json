@@ -20011,11 +20011,14 @@
       "fair_pct": 52.7,
       "start": "2026-08-09T10:50:00+00:00",
       "start_ts": 1786272600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1786290408.3331058,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.7449,
       "clv_pct": 14.62,
@@ -20317,6 +20320,35 @@
       "clv_pct": 3.06,
       "close_fair_p": 0.8096089559200809,
       "close_ts": 1786285381.581463
+    },
+    {
+      "id": 673,
+      "ts": 1786289945.676525,
+      "key": "66:17281285:ml:home",
+      "content_key": "kaizerchiefs|lamontvillegoldenarrows|ml:home|20260809",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Kaizer Chiefs - Lamontville Golden Arrows",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Kaizer Chiefs",
+      "odds": 1.786,
+      "stake": 1100,
+      "value_pct": 3.59,
+      "fair_pct": 58.0,
+      "start": "2026-08-09T16:00:00+00:00",
+      "start_ts": 1786291200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7238,
+      "clv_pct": 3.61,
+      "close_fair_p": 0.5800994456192491,
+      "close_ts": 1786290125.651133
     }
   ],
   "papered": {
@@ -20972,17 +21004,18 @@
     "olot|cesabadellfc|ml:away|20260809": 1786268748.067126,
     "deportivocoatepeque|juventudcopalera|ml:home|20260809": 1786279397.166068,
     "deportivoiztapa|chichicastecofc|ml:home|20260809": 1786280027.172252,
-    "denisyevseyev|noellarwig|ml:home|20260809": 1786285201.423905
+    "denisyevseyev|noellarwig|ml:home|20260809": 1786285201.423905,
+    "kaizerchiefs|lamontvillegoldenarrows|ml:home|20260809": 1786289945.676525
   },
   "last_report_date": "2026-08-09",
-  "next_id": 673,
+  "next_id": 674,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786289765.664169,
+      "ts": 1786290395.62887,
       "ok": true,
       "vegas_events": 934,
-      "pinnacle_events": 411,
+      "pinnacle_events": 468,
       "sports_err": {},
       "problems": [],
       "settle_err": null
