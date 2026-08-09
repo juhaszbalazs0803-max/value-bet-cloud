@@ -1,11 +1,14 @@
 """Fair-odds referencia-forrás választása a config `reference.provider` alapján.
 
-  - "multi"    : TÖBB forrás egyszerre (reference.sources lista, prioritás
-                 sorrendben) – több meccs + biztonsági tartalék. AJÁNLOTT.
-  - "smarkets" : Smarkets tőzsde PUBLIKUS, KULCS NÉLKÜLI API-ja (sharp).
-  - "kambi"    : Kambi/Unibet publikus feed, KULCS NÉLKÜLI (SOFT book, tartalék).
+  - "multi"    : TÖBB forrás PRIORITÁS sorrendben (reference.sources lista) –
+                 az ELSŐ a fair vonal, a többi csak akkor jut szóhoz, ha az adott
+                 sportot az első nem ismeri. AJÁNLOTT.
+  - "pinnacle" : Pinnacle guest API – éles iroda, ez a fair vonal alapesetben.
+  - "smarkets" : Smarkets tőzsde PUBLIKUS, KULCS NÉLKÜLI API-ja. CSAK szoros
+                 könyvvel használható (lásd smarkets.max_spread_pp).
+  - "kambi"    : Kambi/Unibet publikus feed – SOFT bukméker, fair vonalnak
+                 ALKALMATLAN, alapból tiltott (SOFT_SOURCES / allow_soft).
   - "betfair"  : Betfair Exchange (back/lay közép) – VPN + app key kell.
-  - "pinnacle" : Pinnacle guest API (jelenleg 503, gyakorlatilag halott).
 
 Egységes felület: `fetch_for_vegas(vegas_sid) -> list[RefEvent] | None`
 (None = ezt a sportot egyik forrás sem támogatja; az engine kihagyja).
@@ -106,6 +109,14 @@ _SINGLE = {
     "betfair": BetfairReference,
 }
 
+# SOFT bukmékerek: a saját áruk NEM fair vonal (be van építve a haszonkulcsuk és
+# a saját torzításuk), ezért referenciaként hamis value-t gyártanak. 2026-08-09-i
+# mérés: a Smarkets 0 kosárlabda-eseményt ad, így a kosaras fair vonal 100%-ban a
+# Kambi (Unibet) volt; teniszben az események ~1/3-át is az adta. A foci-feedje
+# ráadásul részben esport ("Torino (T3RZ) - Bologna FC (abr4m_5)").
+# Alapból tiltjuk; csak a `reference.allow_soft: true` engedi vissza.
+SOFT_SOURCES = {"kambi"}
+
 
 def _make_single(http, cfg, name):
     name = name.lower()
@@ -124,9 +135,17 @@ class MultiReference:
     forrás nyer, a soft forrás csak a réseket tölti."""
 
     def __init__(self, http, cfg):
-        names = cfg.get("reference", {}).get("sources") or ["smarkets", "kambi"]
+        rcfg = cfg.get("reference", {})
+        names = rcfg.get("sources") or ["pinnacle", "smarkets"]
+        allow_soft = bool(rcfg.get("allow_soft", False))
         self.sources = []
+        self.skipped_soft = []
         for n in names:
+            if not allow_soft and n.lower() in SOFT_SOURCES:
+                self.skipped_soft.append(n.lower())
+                print(f"[reference] '{n}' SOFT bukméker -> kihagyva a fair vonalból "
+                      "(reference.allow_soft: true engedi vissza)")
+                continue
             src = _make_single(http, cfg, n)
             if src and src.configured():
                 self.sources.append(src)
