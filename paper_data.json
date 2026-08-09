@@ -20476,7 +20476,36 @@
       "close_fair_odds": 1.5953,
       "clv_pct": 3.24,
       "close_fair_p": 0.6268286896697155,
-      "close_ts": 1786297766.563427
+      "close_ts": 1786298396.5641
+    },
+    {
+      "id": 678,
+      "ts": 1786298396.5641,
+      "key": "68:17342341:ml:home",
+      "content_key": "verenameliss|albareygarcia|ml:home|20260810",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Verena Meliss - Alba Rey Garcia",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Verena Meliss",
+      "odds": 1.875,
+      "stake": 1200,
+      "value_pct": 4.28,
+      "fair_pct": 55.6,
+      "start": "2026-08-10T08:00:00+00:00",
+      "start_ts": 1786348800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7981,
+      "clv_pct": 4.28,
+      "close_fair_p": 0.5561497326203209,
+      "close_ts": 1786298396.5641
     }
   ],
   "papered": {
@@ -21137,17 +21166,18 @@
     "chunhsintseng|vitaliysachko|ml:away|20260810": 1786290845.687868,
     "benjaminkittay|meesrottgering|ml:away|20260809": 1786292375.613714,
     "lokomotivgornaoryahovitsa|fcfratriavarna|ml:away|20260809": 1786293915.583279,
-    "kiklaksvik|hbtorshavn|ml:home|20260810": 1786296686.78611
+    "kiklaksvik|hbtorshavn|ml:home|20260810": 1786296686.78611,
+    "verenameliss|albareygarcia|ml:home|20260810": 1786298396.5641
   },
   "last_report_date": "2026-08-09",
-  "next_id": 678,
+  "next_id": 679,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786297766.563427,
+      "ts": 1786298396.5641,
       "ok": true,
-      "vegas_events": 888,
-      "pinnacle_events": 433,
+      "vegas_events": 864,
+      "pinnacle_events": 431,
       "sports_err": {},
       "problems": [],
       "settle_err": null
