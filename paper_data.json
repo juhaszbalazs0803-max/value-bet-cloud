@@ -19654,11 +19654,14 @@
       "fair_pct": 68.1,
       "start": "2026-08-09T13:00:00+00:00",
       "start_ts": 1786280400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1786294376.458516,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        1
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.469,
       "clv_pct": 6.94,
@@ -20136,11 +20139,14 @@
       "fair_pct": 61.7,
       "start": "2026-08-09T10:00:00+00:00",
       "start_ts": 1786269600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "won",
+      "settled_ts": 1786294376.458516,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        2,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.6208,
       "clv_pct": 10.19,
@@ -20374,10 +20380,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8785,
-      "clv_pct": 6.47,
-      "close_fair_p": 0.5323275319245397,
-      "close_ts": 1786293735.67617
+      "close_fair_odds": 1.7866,
+      "clv_pct": 11.94,
+      "close_fair_p": 0.5597244732576986,
+      "close_ts": 1786294365.627673
     },
     {
       "id": 675,
@@ -20406,7 +20412,36 @@
       "close_fair_odds": 1.1648,
       "clv_pct": 3.02,
       "close_fair_p": 0.8585035012976837,
-      "close_ts": 1786293735.67617
+      "close_ts": 1786294005.609059
+    },
+    {
+      "id": 676,
+      "ts": 1786293915.583279,
+      "key": "66:17053615:ml:away",
+      "content_key": "lokomotivgornaoryahovitsa|fcfratriavarna|ml:away|20260809",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Lokomotiv Gorna Oryahovitsa - FC Fratria Varna",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — FC Fratria Varna",
+      "odds": 1.96,
+      "stake": 1100,
+      "value_pct": 4.36,
+      "fair_pct": 53.2,
+      "start": "2026-08-09T17:00:00+00:00",
+      "start_ts": 1786294800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8782,
+      "clv_pct": 4.36,
+      "close_fair_p": 0.5324384787472036,
+      "close_ts": 1786294365.627673
     }
   ],
   "papered": {
@@ -21065,17 +21100,18 @@
     "denisyevseyev|noellarwig|ml:home|20260809": 1786285201.423905,
     "kaizerchiefs|lamontvillegoldenarrows|ml:home|20260809": 1786289945.676525,
     "chunhsintseng|vitaliysachko|ml:away|20260810": 1786290845.687868,
-    "benjaminkittay|meesrottgering|ml:away|20260809": 1786292375.613714
+    "benjaminkittay|meesrottgering|ml:away|20260809": 1786292375.613714,
+    "lokomotivgornaoryahovitsa|fcfratriavarna|ml:away|20260809": 1786293915.583279
   },
   "last_report_date": "2026-08-09",
-  "next_id": 676,
+  "next_id": 677,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786293735.67617,
+      "ts": 1786294365.627673,
       "ok": true,
-      "vegas_events": 904,
-      "pinnacle_events": 446,
+      "vegas_events": 906,
+      "pinnacle_events": 445,
       "sports_err": {},
       "problems": [],
       "settle_err": null
