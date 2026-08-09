@@ -28,6 +28,10 @@ import notify_cron
 
 LEDGER = os.environ.get("PAPER_LEDGER", "paper_data.json")
 
+# CLV: csak a kezdés előtti ennyi percben mért fair vonal számít ZÁRÓ vonalnak.
+# Ennél korábbi mérés nem "close", hanem a belépési ár visszhangja (lásd capture_clv).
+CLV_WINDOW_MIN = int(os.environ.get("CLV_WINDOW_MIN", "15"))
+
 
 # ---------- config / ledger ----------
 def load_cfg():
@@ -168,7 +172,7 @@ def place_new(cfg, ledger, tg=None):
     # ÉRTESÍTÉS csak az új, ≤max_odds (papírra megrakott) tippekről
     _notify_placed(cfg, tg, new_recs)
     # CLV: a friss scan-eredményekből a nyitott tételek záró-oddsát frissítjük
-    capture_clv(ledger, found, now)
+    capture_clv(ledger, found, now, _clv_window(cfg))
     # régi tartalom-kulcsok takarítása
     cutoff = now - 45 * 86400
     ledger["papered"] = {k: t for k, t in ledger["papered"].items() if t >= cutoff}
@@ -177,6 +181,14 @@ def place_new(cfg, ledger, tg=None):
 
 
 # ---------- CLV (záró-odds) követés ----------
+def _clv_window(cfg):
+    """A záró-ablak percben: paper.clv_window_min, alap CLV_WINDOW_MIN.
+    Ha pár nap után kevés a mérés (kevés tipp éri el az ablakot, mert a meccs
+    kezdés előtt lekerül a pre-match kínálatról), ezt kell tágítani – NEM a
+    szűrést lazítani."""
+    return int(cfg.get("paper", {}).get("clv_window_min", CLV_WINDOW_MIN))
+
+
 def _rec_content_key(rec):
     """A megrakott tétel tartalom-kulcsa (a `notify_cron.dedup_key` formátuma),
     hogy a friss scan-találatokhoz tudjuk párosítani akkor is, ha a vegas event-id
@@ -193,13 +205,30 @@ def _rec_content_key(rec):
     return f"{notify_cron._norm(home)}|{notify_cron._norm(away)}|{rec.get('subkey', '')}|{day}"
 
 
-def capture_clv(ledger, found, now):
-    """A nyitott papír-tételekhez a kezdésig FRISSÜLŐ Pinnacle (vig nélküli) záró-
-    oddsot rögzíti, és számolja a CLV%-ot: (fogadott_odds / záró_fair_odds − 1)×100.
-    Pozitív CLV = a megfogott odds verte az éles iroda záró vonalát → a value valódi,
-    hosszú-távú bizonyítéka (megbízhatóbb mint a rövidtávú yield). A meccs kezdéséig
-    minden körben felülírja, kezdés után fagyasztva marad az utolsó (záró) érték."""
-    cur = {ck: b for ck, _v, b in found}
+def capture_clv(ledger, found, now, clv_window_min=CLV_WINDOW_MIN):
+    """A nyitott papír-tételekhez a kezdésig FRISSÜLŐ (vig nélküli) záró-oddsot
+    rögzíti, és számolja a CLV%-ot: (fogadott_odds / záró_fair_odds − 1)×100.
+
+    KÉT KORÁBBI HIBA, ami a CLV-t értelmetlenné tette (2026-08-09-i mérés a
+    ledgeren: átlag +5,49% CLV, 98% "verte a zárót", miközben a tényleges yield
+    +0,3% volt — a tippek 69%-ánál a clv_pct 0,1 százalékponton belül AZONOS volt
+    a belépéskori value_pct-tel):
+
+    1) SZŰRT FORRÁS. A frissítés a `found` listából jött, az pedig csak azokat a
+       tippeket tartalmazza, amiken MÉG VAN value (>= min_value_pct). Amint a
+       vonal a tipp ellen mozdult, a tétel kiesett a `found`-ból, és a záró-odds
+       ott FAGYOTT BE, ahol utoljára value volt. Így a CLV szerkezetileg képtelen
+       volt rosszat mutatni. Mostantól a szűretlen `notify_cron.LAST_SCAN_ALL`-ból
+       frissítünk.
+    2) TÚL KORAI "ZÁRÓ". A snapshot mediánban 5,5 ÓRÁVAL a kezdés előtt készült
+       (és 19 perccel a fogadás után), amikor a fair vonal 76%-ban meg sem mozdult
+       — ez nem záró vonal, hanem a belépési ár visszaolvasva. Mostantól csak a
+       kezdés előtti `clv_window_min` percben rögzített ár számít ZÁRÓNAK; ami
+       ennél korábbi, az `close_provisional` marad és NEM ad clv_pct-et.
+
+    Ha a meccs kezdéséig nincs egyetlen ablakon belüli mérés sem, a clv_pct None
+    marad. Ez helyes: a hiányzó mérés jobb, mint a hamis."""
+    cur = dict(notify_cron.LAST_SCAN_ALL) or {ck: b for ck, _v, b in found}
     changed = 0
     for rec in ledger["placed"]:
         if rec.get("status") != "pending":
@@ -209,11 +238,14 @@ def capture_clv(ledger, found, now):
         st = rec.get("start_ts") or _iso_ts(rec.get("start"))
         pre_kickoff = st is None or now < st
         if b and b.get("fair_p") and pre_kickoff:
+            in_window = st is not None and (st - now) <= clv_window_min * 60
             rec["close_fair_odds"] = round(1.0 / b["fair_p"], 4)
             rec["close_fair_p"] = b["fair_p"]
             rec["close_ts"] = now
+            # provizórikus = túl korai ahhoz, hogy záró vonalnak hívjuk
+            rec["close_provisional"] = not in_window
         cf = rec.get("close_fair_odds")
-        if cf and rec.get("odds"):
+        if cf and rec.get("odds") and not rec.get("close_provisional", True):
             clv = round((rec["odds"] / cf - 1) * 100, 2)
             if rec.get("clv_pct") != clv:
                 rec["clv_pct"] = clv
@@ -320,8 +352,13 @@ def compute_stats(ledger):
     real_pnl = sum(profit(b) for b in settled)
     u_pnl = sum(uprofit(b) for b in settled)
     u_staked = unit * len(settled)
-    # CLV: minden tételen (nyitott + lezárt), aminek van záró-odds összevetése
-    clvs = [b["clv_pct"] for b in placed if b.get("clv_pct") is not None]
+    # CLV: CSAK a valódi záró-ablakban mért tételek (close_provisional == False).
+    # A 2026-08-09 előtti tételeknél a mező hiányzik -> kimaradnak, SZÁNDÉKOSAN:
+    # azok a CLV-értékek a szűrt forrás + túl korai snapshot miatt a belépési
+    # edge visszhangjai voltak (98% "verte a zárót" +0,3% yield mellett), tehát
+    # nem validálnak semmit. Inkább nulla mérés, mint hamis.
+    clvs = [b["clv_pct"] for b in placed
+            if b.get("clv_pct") is not None and b.get("close_provisional") is False]
     clv_avg = round(sum(clvs) / len(clvs), 2) if clvs else None
     beat = sum(1 for c in clvs if c > 0)
     return {
@@ -354,7 +391,12 @@ def report_text(cfg, ledger):
     if s.get("clv_avg") is not None:
         csign = "+" if s["clv_avg"] >= 0 else ""
         lines.append(f"📐 Átlag CLV: <b>{csign}{s['clv_avg']}%</b>  "
-                     f"({s['clv_n']} tipp, {s['clv_beat_rate']}% verte a zárót)")
+                     f"({s['clv_n']} tipp, {s['clv_beat_rate']}% verte a zárót, "
+                     f"kezdés előtt ≤{CLV_WINDOW_MIN} percben mérve)")
+    else:
+        lines.append(f"📐 Átlag CLV: <b>—</b>  (még nincs a kezdés előtti "
+                     f"{CLV_WINDOW_MIN} percben mért tipp; a régi CLV-számok "
+                     "hibás méréssel készültek, ezért nem számítanak bele)")
     lines += [
         f"🟢 Nyitott (papír) tétel: <b>{s['open']}</b>",
         f"⚪ Void (eredmény nem található): <b>{s['void']}</b>",

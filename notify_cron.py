@@ -196,6 +196,12 @@ def build_email(cfg, items, intro):
 # hibák + hány eseményt adott a két forrás. A scan() minden futáskor frissíti.
 LAST_SCAN_HEALTH = {}
 
+# Az utolsó scan() ÖSSZES kiszámolt fogadása (dedup_key -> bet), a value-küszöb
+# és a többi tipp-szűrő ELŐTT. A CLV-nek erre van szüksége: a záró vonalat akkor
+# is látnunk kell, amikor a tippen már nincs value – különben csak azt mérjük,
+# hol volt utoljára value (lásd capture_clv).
+LAST_SCAN_ALL = {}
+
 # Üres referencia csak akkor számít hibának, ha a vegas oldalon legalább ennyi
 # meccs van az adott sportra (különben szezonon kívüli sportra riasztanánk).
 REF_EMPTY_MIN_VEGAS = 5
@@ -215,6 +221,7 @@ def scan(cfg):
     now = datetime.now(timezone.utc).timestamp()
 
     found = []
+    all_bets = {}   # dedup_key -> bet, SZŰRETLENÜL (a CLV-hez), lásd LAST_SCAN_ALL
     health = {"ts": now, "sports_ok": 0, "sports_err": {},
               "ref_down": {},   # üzemzavar (hiba) -> riasztás
               "ref_gap": {},    # tartós lefedettségi hiány -> csak jelentés
@@ -256,6 +263,9 @@ def scan(cfg):
             if score < solid.get("min_score", 0.8):
                 continue
             for b in compute.compute_bets(v, r, sw, devig):
+                # A CLV-hez a fair vonal KELL akkor is, ha a value már elfogyott
+                # (különben a záró-odds ott fagy meg, ahol utoljára value volt).
+                all_bets[dedup_key(v, b)] = b
                 val = b["value_pct"]
                 if val < min_value or val > solid.get("max_value_pct", 20.0):
                     continue
@@ -273,6 +283,8 @@ def scan(cfg):
                 found.append((dedup_key(v, b), v, b))
     LAST_SCAN_HEALTH.clear()
     LAST_SCAN_HEALTH.update(health)
+    LAST_SCAN_ALL.clear()
+    LAST_SCAN_ALL.update(all_bets)
     return found, now
 
 

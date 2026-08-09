@@ -149,6 +149,8 @@
     "_max_odds_comment": "Csak az ennél kisebb/egyenlő oddsú tippeket rakja meg automatikusan. 2.0-n tartva: az eddigi pozitív statisztika (yield +10.5%, 60% találat, +11% CLV) MIND ≤2.0 oddsból jött, ez a bevált sáv.",
     "notify_tips": true,
     "_notify_tips_comment": "Telegram-értesítés minden ÚJ megrakott tippnél (dedup: tippenként 1x). false = csak a napi jelentés.",
+    "clv_window_min": 15,
+    "_clv_window_min_comment": "CLV: csak a kezdés előtti ennyi percben mért fair vonal számít ZÁRÓ vonalnak; a korábbi mérés provizórikus és nem ad CLV-t. Ha pár nap után kevés a mérés, EZT tágítsd (pl. 30), ne a szűrést lazítsd.",
     "notify_max_per_cycle": 8,
     "_notify_max_comment": "Ha egy körben ennél több új tipp van, egy összevont üzenet megy (nincs áradat)."
   },
