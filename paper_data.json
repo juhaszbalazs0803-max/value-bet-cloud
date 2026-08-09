@@ -20392,7 +20392,7 @@
       "close_fair_odds": 2.1604,
       "clv_pct": 3.0,
       "close_fair_p": 0.4628702544847726,
-      "close_ts": 1786305655.174361,
+      "close_ts": 1786306375.17565,
       "close_provisional": true
     },
     {
@@ -20483,7 +20483,7 @@
       "close_fair_odds": 1.8249,
       "clv_pct": 3.24,
       "close_fair_p": 0.5479767014101777,
-      "close_ts": 1786305745.177159,
+      "close_ts": 1786306375.17565,
       "close_provisional": true
     },
     {
@@ -20629,7 +20629,7 @@
       "close_fair_odds": 1.7857,
       "clv_pct": null,
       "close_fair_p": 0.559993630404204,
-      "close_ts": 1786305745.177159,
+      "close_ts": 1786306375.17565,
       "close_provisional": true
     }
   ],
@@ -21303,24 +21303,20 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786305745.177159,
-      "ok": false,
-      "vegas_events": 720,
-      "ref_events": 606,
+      "ts": 1786306375.17565,
+      "ok": true,
+      "vegas_events": 816,
+      "ref_events": 650,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {
-        "70": "0 referencia-esemény 23 vegas meccs mellett"
+        "70": "0 referencia-esemény 24 vegas meccs mellett"
       },
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
-    "last_alert_ts": 1784632136.0787249,
+    "last_alert_ts": 1786305928.436932,
     "alert_active": false
   }
 }
