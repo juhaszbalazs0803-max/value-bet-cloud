@@ -20386,10 +20386,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7861,
-      "clv_pct": 11.98,
-      "close_fair_p": 0.5598729030347093,
-      "close_ts": 1786296506.666415
+      "close_fair_odds": 1.7512,
+      "clv_pct": 14.21,
+      "close_fair_p": 0.5710473649099399,
+      "close_ts": 1786297136.562854
     },
     {
       "id": 675,
@@ -20448,6 +20448,35 @@
       "clv_pct": 4.36,
       "close_fair_p": 0.5324384787472036,
       "close_ts": 1786294725.611273
+    },
+    {
+      "id": 677,
+      "ts": 1786296686.78611,
+      "key": "66:17279938:ml:home",
+      "content_key": "kiklaksvik|hbtorshavn|ml:home|20260810",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "KI Klaksvik - HB Torshavn",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — KI Klaksvik",
+      "odds": 1.647,
+      "stake": 1300,
+      "value_pct": 3.24,
+      "fair_pct": 62.7,
+      "start": "2026-08-10T17:30:00+00:00",
+      "start_ts": 1786383000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5953,
+      "clv_pct": 3.24,
+      "close_fair_p": 0.6268286896697155,
+      "close_ts": 1786297136.562854
     }
   ],
   "papered": {
@@ -21107,17 +21136,18 @@
     "kaizerchiefs|lamontvillegoldenarrows|ml:home|20260809": 1786289945.676525,
     "chunhsintseng|vitaliysachko|ml:away|20260810": 1786290845.687868,
     "benjaminkittay|meesrottgering|ml:away|20260809": 1786292375.613714,
-    "lokomotivgornaoryahovitsa|fcfratriavarna|ml:away|20260809": 1786293915.583279
+    "lokomotivgornaoryahovitsa|fcfratriavarna|ml:away|20260809": 1786293915.583279,
+    "kiklaksvik|hbtorshavn|ml:home|20260810": 1786296686.78611
   },
   "last_report_date": "2026-08-09",
-  "next_id": 677,
+  "next_id": 678,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786296506.666415,
+      "ts": 1786297136.562854,
       "ok": true,
-      "vegas_events": 887,
-      "pinnacle_events": 444,
+      "vegas_events": 884,
+      "pinnacle_events": 436,
       "sports_err": {},
       "problems": [],
       "settle_err": null
