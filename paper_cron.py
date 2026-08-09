@@ -410,9 +410,10 @@ def report_text(cfg, ledger):
             if h.get("ref_gap"):
                 err_note += (f", {len(h['ref_gap'])} sport fair vonal nélkül "
                              "(kihagyva)")
+            # ref_events/ref_name a régi ledgerben még pinnacle_events néven van
+            ref_n = h.get("ref_events", h.get("pinnacle_events", 0))
             lines.append(f"🩺 Adatgyűjtés: OK (vegas {h.get('vegas_events', 0)} / "
-                         f"{h.get('ref_name', 'referencia')} "
-                         f"{h.get('ref_events', 0)} esemény{err_note})")
+                         f"{h.get('ref_name', 'referencia')} {ref_n} esemény{err_note})")
         else:
             lines.append("🩺 Adatgyűjtés: <b>⚠️ HIBA</b> — " + "; ".join(
                 html_mod.escape(p) for p in (h.get("problems") or ["ismeretlen"])))
