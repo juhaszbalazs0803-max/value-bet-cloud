@@ -20378,6 +20378,35 @@
       "clv_pct": 14.65,
       "close_fair_p": 0.5732767437103702,
       "close_ts": 1786292105.638918
+    },
+    {
+      "id": 675,
+      "ts": 1786292375.613714,
+      "key": "68:17336869:ml:away",
+      "content_key": "benjaminkittay|meesrottgering|ml:away|20260809",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Benjamin Kittay - Mees Rottgering",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Mees Rottgering",
+      "odds": 1.2,
+      "stake": 5000,
+      "value_pct": 5.22,
+      "fair_pct": 87.7,
+      "start": "2026-08-09T17:25:00+00:00",
+      "start_ts": 1786296300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.1532,
+      "clv_pct": 4.06,
+      "close_fair_p": 0.8671509522879047,
+      "close_ts": 1786292645.680333
     }
   ],
   "papered": {
@@ -21035,17 +21064,18 @@
     "deportivoiztapa|chichicastecofc|ml:home|20260809": 1786280027.172252,
     "denisyevseyev|noellarwig|ml:home|20260809": 1786285201.423905,
     "kaizerchiefs|lamontvillegoldenarrows|ml:home|20260809": 1786289945.676525,
-    "chunhsintseng|vitaliysachko|ml:away|20260810": 1786290845.687868
+    "chunhsintseng|vitaliysachko|ml:away|20260810": 1786290845.687868,
+    "benjaminkittay|meesrottgering|ml:away|20260809": 1786292375.613714
   },
   "last_report_date": "2026-08-09",
-  "next_id": 675,
+  "next_id": 676,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786292285.676752,
+      "ts": 1786292915.691022,
       "ok": true,
-      "vegas_events": 914,
-      "pinnacle_events": 460,
+      "vegas_events": 915,
+      "pinnacle_events": 457,
       "sports_err": {},
       "problems": [],
       "settle_err": null
