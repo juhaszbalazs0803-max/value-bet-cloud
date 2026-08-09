@@ -30,6 +30,9 @@ class PinnacleReference:
     def configured(self):
         return True
 
+    def _supports(self, vegas_sid):
+        return vegas_sid in PINN_MAP
+
     def fetch_for_vegas(self, vegas_sid):
         pinn = PINN_MAP.get(vegas_sid)
         if not pinn:
@@ -126,13 +129,27 @@ def _make_single(http, cfg, name):
     return cls(http, cfg) if cls else None
 
 
+class ReferenceDown(Exception):
+    """Az adott sport ELSŐDLEGES fair-forrása nem elérhető. A hívó ilyenkor
+    HAGYJA KI a sportot és riasszon — tilos gyengébb forrásra visszaesni."""
+
+
 class MultiReference:
-    """Több forrás egyszerre, PRIORITÁS sorrendben (a `sources` lista első eleme
-    a legerősebb). Egy meccset az első olyan forrás ad, amelyik ismeri; a többi
-    csak a HIÁNYZÓ meccseket tölti be -> több tipp. Ha egy forrás kiesik/hibázik,
-    a többi viszi tovább -> beépített tartalék (mint amikor a Pinnacle 503 lett).
-    A sharp odds nem hígul: az azonos meccsnél a magasabb prioritású (sharp)
-    forrás nyer, a soft forrás csak a réseket tölti."""
+    """Több forrás PRIORITÁS sorrendben (a `sources` lista első eleme a fair vonal).
+
+    SZIGORÚ mód (alap, `reference.strict: true`): egy sportot az első olyan forrás
+    ad, amelyik ISMERI a sportot. Ha az elhasal, a kör NEM esik vissza a gyengébb
+    forrásra, hanem `ReferenceDown`-t dob -> a hívó kihagyja a sportot és riaszt.
+
+    Miért: 2026-07-21-én a Pinnacle átmenetileg 503-at adott, a csendes fallback
+    Smarkets+Kambira váltott, és onnantól hetekig soft/illikvid vonalhoz mérte a
+    value-t (a kalibráció elromlott: 70-80%-os sávban várás 74,1% / tény 44,2%).
+    Egy múló hiba tartós, észrevétlen minőségromlássá vált. Jobb egy körre vakon
+    maradni és szólni, mint rossz vonalról fogadni.
+
+    `reference.fill_gaps` (alap false): engedi-e, hogy alacsonyabb prioritású
+    forrás olyan MECCSEKET is hozzáadjon, amiket az elsődleges nem ismer. Alapból
+    tiltott — pont ez a rés engedte be a Kambit a tenisz ~1/3-ára."""
 
     def __init__(self, http, cfg):
         rcfg = cfg.get("reference", {})
@@ -150,25 +167,42 @@ class MultiReference:
             if src and src.configured():
                 self.sources.append(src)
         self.name = "multi(" + ",".join(s.name for s in self.sources) + ")"
+        self.strict = bool(rcfg.get("strict", True))
+        self.fill_gaps = bool(rcfg.get("fill_gaps", False))
         self.last_errors = []
 
     def fetch_for_vegas(self, vegas_sid):
         combined = {}       # norm(home)|norm(away) -> RefEvent (első nyer)
         any_supported = False
         errors = []
+        primary = None      # az első forrás, amelyik ISMERI ezt a sportot
         for src in self.sources:
+            supports = src._supports(vegas_sid) if hasattr(src, "_supports") else True
             try:
                 evs = src.fetch_for_vegas(vegas_sid)
             except Exception as e:
                 errors.append(f"{src.name}: {e}")
+                if self.strict and primary is None and supports:
+                    # az elsődleges forrás hasalt el -> nincs fallback
+                    self.last_errors = errors
+                    raise ReferenceDown(f"{src.name}: {e}") from e
                 continue
             if evs is None:      # ez a forrás nem ismeri ezt a sportot
                 continue
             any_supported = True
-            for ev in evs:
-                key = _norm(ev.home) + "|" + _norm(ev.away)
-                combined.setdefault(key, ev)
+            if primary is None:
+                primary = src
+                for ev in evs:
+                    combined[_norm(ev.home) + "|" + _norm(ev.away)] = ev
+                if self.strict and not self.fill_gaps:
+                    break        # a fair vonal megvan, gyengébb forrás nem hígít
+                continue
+            for ev in evs:       # csak a HIÁNYZÓ meccseket tölti (fill_gaps)
+                combined.setdefault(_norm(ev.home) + "|" + _norm(ev.away), ev)
         self.last_errors = errors
+        # ÜRES listára itt NEM dobunk: egy szezonon kívüli sport (nyáron a
+        # jégkorong) jogosan üres. Azt, hogy az üresség baj-e, a hívó dönti el,
+        # mert csak ő látja, hogy a vegas oldalon van-e egyáltalán meccs.
         if not any_supported and not combined:
             # egyik forrás sem támogatta a sportot ÉS egyik sem adott adatot
             return None if not errors else []

@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 
 from valuebet.http import Http
 from valuebet.vegas import VegasClient, SPORT_NAMES
-from valuebet.reference import make_reference
+from valuebet.reference import make_reference, ReferenceDown
 from valuebet.notify import EmailNotifier
 from valuebet.telegram import TelegramNotifier, format_tip, BUTTONS
 from valuebet import matching, compute, bettoken
@@ -196,6 +196,10 @@ def build_email(cfg, items, intro):
 # hibák + hány eseményt adott a két forrás. A scan() minden futáskor frissíti.
 LAST_SCAN_HEALTH = {}
 
+# Üres referencia csak akkor számít hibának, ha a vegas oldalon legalább ennyi
+# meccs van az adott sportra (különben szezonon kívüli sportra riasztanánk).
+REF_EMPTY_MIN_VEGAS = 5
+
 
 def scan(cfg):
     http = Http(verify_ssl=cfg.get("http", {}).get("verify_ssl", True), delay_sec=0)
@@ -212,20 +216,40 @@ def scan(cfg):
 
     found = []
     health = {"ts": now, "sports_ok": 0, "sports_err": {},
-              "vegas_events": 0, "pinnacle_events": 0}
+              "ref_down": {},   # üzemzavar (hiba) -> riasztás
+              "ref_gap": {},    # tartós lefedettségi hiány -> csak jelentés
+              "vegas_events": 0, "ref_events": 0, "ref_name": getattr(ref, "name", "?")}
     for sid in live.get("sports", [66, 68, 67, 70]):
         try:
             re_ = ref.fetch_for_vegas(sid)
             if re_ is None:  # a forrás nem támogatja ezt a sportot
                 continue
             ve = vegas.fetch_sport(sid)
+        except ReferenceDown as e:
+            # Az ELSŐDLEGES fair-forrás esett ki. NEM esünk vissza gyengébb
+            # vonalra (ez történt 2026-07-21-én) -> kihagyjuk a sportot és
+            # riasztunk. Inkább egy körre vakon maradunk, mint rosszul mérjünk.
+            print(f"  [{sid}] REFERENCIA KIESETT: {e} -> sport kihagyva, nincs fallback")
+            health["ref_down"][str(sid)] = str(e)[:200]   # üzemzavar -> riasztás
+            continue
         except Exception as e:
             print(f"  [{sid}] hiba: {e}")
             health["sports_err"][str(sid)] = str(e)[:200]
             continue
+        if not re_ and len(ve) >= REF_EMPTY_MIN_VEGAS:
+            # A referencia üres, a vegas oldalon viszont van meccs -> nincs fair
+            # vonalunk erre a sportra, tehát KIHAGYJUK (soft vonalra visszaesni
+            # tilos). De ez nem üzemzavar, hanem tartós lefedettségi hiány (pl.
+            # a Pinnacle nem viszi a vegas jégkorong-kínálatát), ezért csak a
+            # napi jelentésbe kerül, riasztást NEM vált ki – különben a riasztás
+            # állandóan szólna és leszoknál róla.
+            print(f"  [{sid}] nincs referencia-lefedettseg ({len(ve)} vegas meccs, "
+                  "0 referencia) -> sport kihagyva")
+            health["ref_gap"][str(sid)] = f"0 referencia-esemény {len(ve)} vegas meccs mellett"
+            continue
         health["sports_ok"] += 1
         health["vegas_events"] += len(ve)
-        health["pinnacle_events"] += len(re_)
+        health["ref_events"] += len(re_)
         pairs = matching.match_events(ve, re_, mcfg.get("max_start_diff_minutes", 90),
                                       mcfg.get("min_token_score", 0.6))
         for v, r, sw, score in pairs:

@@ -20,6 +20,10 @@
       "pinnacle",
       "smarkets"
     ],
+    "strict": true,
+    "_strict_comment": "true = ha az adott sport ELSŐDLEGES fair-forrása elhasal vagy 0 eseményt ad, a sportot KIHAGYJUK és riasztunk — TILOS gyengébb vonalra visszaesni. Ez a 2026-07-21-i csendes fallback (Pinnacle 503 -> soft vonal, hetekig észrevétlen) megismétlődése ellen véd.",
+    "fill_gaps": false,
+    "_fill_gaps_comment": "false = alacsonyabb prioritású forrás NEM tölti fel az elsődleges által nem ismert meccsekkel a kört. Ezen a résen jutott be a Kambi a tenisz ~1/3-ára.",
     "allow_soft": false,
     "_allow_soft_comment": "false = SOFT bukmékert (kambi/Unibet) a kód KIHAGYJA a fair vonalból, akkor is, ha a sources-ban benne maradt. Soft áru nem fair vonal -> hamis value-t gyárt.",
     "devig_method": "proportional",

@@ -365,8 +365,12 @@ def report_text(cfg, ledger):
             err_note = ""
             if h.get("sports_err"):
                 err_note = f", {len(h['sports_err'])} sport átmeneti hibával"
+            if h.get("ref_gap"):
+                err_note += (f", {len(h['ref_gap'])} sport fair vonal nélkül "
+                             "(kihagyva)")
             lines.append(f"🩺 Adatgyűjtés: OK (vegas {h.get('vegas_events', 0)} / "
-                         f"pinnacle {h.get('pinnacle_events', 0)} esemény{err_note})")
+                         f"{h.get('ref_name', 'referencia')} "
+                         f"{h.get('ref_events', 0)} esemény{err_note})")
         else:
             lines.append("🩺 Adatgyűjtés: <b>⚠️ HIBA</b> — " + "; ".join(
                 html_mod.escape(p) for p in (h.get("problems") or ["ismeretlen"])))

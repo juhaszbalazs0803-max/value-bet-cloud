@@ -54,14 +54,23 @@ def scan_problems(scan_exc):
         return []
     probs = []
     errs = h.get("sports_err") or {}
+    down = h.get("ref_down") or {}
+    # A fair-forrás kiesése MINDIG riasztás, akkor is, ha más sport megy tovább:
+    # ilyenkor a bot szándékosan vakon marad azon a sporton (nincs fallback),
+    # mert 2026-07-21-én épp a csendes visszaesés rontotta el a value-mérést.
+    if down:
+        first = "; ".join(f"[{k}] {v}" for k, v in list(down.items())[:2])
+        probs.append(f"az ELSŐDLEGES fair-forrás kiesett {len(down)} sportnál — "
+                     f"ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ({first})")
     if not h.get("sports_ok"):
         first = "; ".join(f"[{k}] {v}" for k, v in list(errs.items())[:2]) or "?"
         probs.append(f"MINDEN sport lekérése elhasalt ({first})")
     else:
         if not h.get("vegas_events"):
             probs.append("a vegas.hu (Altenar) 0 eseményt adott — API-változás?")
-        if not h.get("pinnacle_events"):
-            probs.append("a Pinnacle 0 eseményt adott — API/kulcs-változás?")
+        if not h.get("ref_events"):
+            probs.append(f"a fair-forrás ({h.get('ref_name', '?')}) 0 eseményt adott "
+                         "— API/kulcs-változás?")
     return probs
 
 
@@ -75,7 +84,10 @@ def update_health(ledger, tg, problems, consec_bad, settle_err=None):
     hstate["last_scan"] = {
         "ts": h.get("ts") or time.time(), "ok": not problems,
         "vegas_events": h.get("vegas_events", 0),
-        "pinnacle_events": h.get("pinnacle_events", 0),
+        "ref_events": h.get("ref_events", 0),
+        "ref_name": h.get("ref_name", "?"),
+        "ref_down": h.get("ref_down") or {},
+        "ref_gap": h.get("ref_gap") or {},
         "sports_err": h.get("sports_err") or {},
         "problems": problems, "settle_err": settle_err,
     }
