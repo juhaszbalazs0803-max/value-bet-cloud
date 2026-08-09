@@ -20017,7 +20017,36 @@
       "close_fair_odds": 1.8971,
       "clv_pct": 5.42,
       "close_fair_p": 0.5271178339471982,
-      "close_ts": 1786248652.161996
+      "close_ts": 1786249282.166879
+    },
+    {
+      "id": 663,
+      "ts": 1786249282.166879,
+      "key": "68:17331763:ml:home",
+      "content_key": "hyeonchung|taiseiichikawa|ml:home|20260809",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Hyeon Chung - Taisei Ichikawa",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Hyeon Chung",
+      "odds": 1.4,
+      "stake": 2300,
+      "value_pct": 3.68,
+      "fair_pct": 74.1,
+      "start": "2026-08-09T08:00:00+00:00",
+      "start_ts": 1786262400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3503,
+      "clv_pct": 3.68,
+      "close_fair_p": 0.7405952560809791,
+      "close_ts": 1786249282.166879
     }
   ],
   "papered": {
@@ -20666,17 +20695,18 @@
     "herrestadsaif|iktord|ml:home|20260809": 1786231788.37316,
     "ericvanshelboim|dominikrecek|ml:home|20260809": 1786238811.194654,
     "juancruzmartinmanzano|danielerapagnetta|ml:home|20260809": 1786238811.194654,
-    "niklasguttau|nikolaibarsukov|ml:home|20260809": 1786247212.11232
+    "niklasguttau|nikolaibarsukov|ml:home|20260809": 1786247212.11232,
+    "hyeonchung|taiseiichikawa|ml:home|20260809": 1786249282.166879
   },
   "last_report_date": "2026-08-08",
-  "next_id": 663,
+  "next_id": 664,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786248652.161996,
+      "ts": 1786249282.166879,
       "ok": true,
-      "vegas_events": 1101,
-      "pinnacle_events": 569,
+      "vegas_events": 1102,
+      "pinnacle_events": 582,
       "sports_err": {},
       "problems": [],
       "settle_err": null
