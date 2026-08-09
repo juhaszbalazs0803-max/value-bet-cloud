@@ -19985,10 +19985,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4749,
-      "clv_pct": 4.28,
-      "close_fair_p": 0.6779918758462661,
-      "close_ts": 1786254597.276612
+      "close_fair_odds": 1.4722,
+      "clv_pct": 4.47,
+      "close_fair_p": 0.6792653657518523,
+      "close_ts": 1786258329.296111
     },
     {
       "id": 662,
@@ -20075,7 +20075,7 @@
       "close_fair_odds": 1.7142,
       "clv_pct": 3.72,
       "close_fair_p": 0.5833503307205921,
-      "close_ts": 1786251807.222881
+      "close_ts": 1786258329.296111
     },
     {
       "id": 665,
@@ -20105,6 +20105,35 @@
       "clv_pct": 4.66,
       "close_fair_p": 0.7158590308370044,
       "close_ts": 1786251717.27064
+    },
+    {
+      "id": 666,
+      "ts": 1786258329.296111,
+      "key": "68:17334165:ml:home",
+      "content_key": "janaotzipka|irinafetecau|ml:home|20260809",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Jana Otzipka - Irina Fetecau",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Jana Otzipka",
+      "odds": 1.786,
+      "stake": 3200,
+      "value_pct": 10.18,
+      "fair_pct": 61.7,
+      "start": "2026-08-09T10:00:00+00:00",
+      "start_ts": 1786269600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6208,
+      "clv_pct": 10.19,
+      "close_fair_p": 0.6169665809768637,
+      "close_ts": 1786258329.296111
     }
   ],
   "papered": {
@@ -20756,17 +20785,18 @@
     "niklasguttau|nikolaibarsukov|ml:home|20260809": 1786247212.11232,
     "hyeonchung|taiseiichikawa|ml:home|20260809": 1786249282.166879,
     "fkjablonec|1fcslovacko|ml:home|20260809": 1786251717.27064,
-    "charlesbroom|olivertarvet|ml:away|20260809": 1786251717.27064
+    "charlesbroom|olivertarvet|ml:away|20260809": 1786251717.27064,
+    "janaotzipka|irinafetecau|ml:home|20260809": 1786258329.296111
   },
   "last_report_date": "2026-08-08",
-  "next_id": 666,
+  "next_id": 667,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786254867.344134,
+      "ts": 1786258329.296111,
       "ok": true,
-      "vegas_events": 1112,
-      "pinnacle_events": 668,
+      "vegas_events": 1119,
+      "pinnacle_events": 686,
       "sports_err": {},
       "problems": [],
       "settle_err": null
