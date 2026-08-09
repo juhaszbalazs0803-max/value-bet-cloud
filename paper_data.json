@@ -20389,10 +20389,11 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9417,
+      "close_fair_odds": 2.1604,
       "clv_pct": 3.0,
-      "close_fair_p": 0.5150148848232607,
-      "close_ts": 1786297676.66698
+      "close_fair_p": 0.4628702544847726,
+      "close_ts": 1786303855.226521,
+      "close_provisional": true
     },
     {
       "id": 675,
@@ -20476,10 +20477,11 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5953,
+      "close_fair_odds": 1.8249,
       "clv_pct": 3.24,
-      "close_fair_p": 0.6268286896697155,
-      "close_ts": 1786303730.174879
+      "close_fair_p": 0.5479767014101777,
+      "close_ts": 1786303855.226521,
+      "close_provisional": true
     },
     {
       "id": 678,
@@ -20596,6 +20598,36 @@
       "clv_pct": 3.06,
       "close_fair_p": 0.5153035763792626,
       "close_ts": 1786300760.192903
+    },
+    {
+      "id": 682,
+      "ts": 1786303855.226521,
+      "key": "67:17309443:ah:-10.5:away",
+      "content_key": "vaquerosdebayamon|aguadasanteros|ah:-10.5:away|20260810",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-10.5:away",
+      "event": "Vaqueros de Bayamon - Aguada Santeros",
+      "market": "ah",
+      "market_name": "Hendikep +10.5",
+      "tip": "Hendikep Aguada Santeros (+10.5)",
+      "odds": 1.87,
+      "stake": 1400,
+      "value_pct": 4.82,
+      "fair_pct": 56.1,
+      "start": "2026-08-10T00:00:00+00:00",
+      "start_ts": 1786320000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7837,
+      "clv_pct": null,
+      "close_fair_p": 0.560633436071846,
+      "close_ts": 1786303855.226521,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -21260,17 +21292,23 @@
     "verenameliss|albareygarcia|ml:home|20260810": 1786298396.5641,
     "lucijaciricbagaric|kseniazaytseva|ml:home|20260810": 1786299206.586455,
     "cezar2001cretu|marvinmoeller|ml:away|20260810": 1786299566.629231,
-    "michaelmmoh|edasbutvilas|ml:home|20260810": 1786299656.578087
+    "michaelmmoh|edasbutvilas|ml:home|20260810": 1786299656.578087,
+    "vaquerosdebayamon|aguadasanteros|ah:-10.5:away|20260810": 1786303855.226521
   },
   "last_report_date": "2026-08-09",
-  "next_id": 682,
+  "next_id": 683,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786303730.174879,
+      "ts": 1786303855.226521,
       "ok": true,
-      "vegas_events": 853,
-      "pinnacle_events": 391,
+      "vegas_events": 820,
+      "ref_events": 673,
+      "ref_name": "multi(pinnacle,smarkets)",
+      "ref_down": {},
+      "ref_gap": {
+        "70": "0 referencia-esemény 21 vegas meccs mellett"
+      },
       "sports_err": {},
       "problems": [],
       "settle_err": null
