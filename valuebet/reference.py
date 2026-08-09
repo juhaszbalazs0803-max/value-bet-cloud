@@ -68,7 +68,7 @@ class SmarketsReference(_CachedReference):
     def __init__(self, http, cfg):
         super().__init__()
         from .smarkets import SmarketsRefClient, DOMAIN
-        self._client = SmarketsRefClient(http)
+        self._client = SmarketsRefClient(http, cfg)
         self._domain = DOMAIN
         self.ttl = cfg.get("smarkets", {}).get("cache_ttl_sec", 60)
         self.name = "smarkets"

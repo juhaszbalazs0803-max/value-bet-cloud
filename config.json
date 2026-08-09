@@ -34,7 +34,9 @@
   },
   "smarkets": {
     "_comment": "Kulcs NEM kell (publikus tőzsde-API). cache_ttl_sec: sportonkénti gyorsítótár mp-ben.",
-    "cache_ttl_sec": 60
+    "cache_ttl_sec": 60,
+    "max_spread_pp": 2.0,
+    "_max_spread_pp_comment": "Legfeljebb ekkora bid-offer spread (SZÁZALÉKPONT) mellett fogadjuk el a könyv közepét fair árnak; fölötte nincs ár. A 2026-08-09-i tenisz-mérés mediánja 10,8pp volt -> 2.0 mellett a tenisz gyakorlatilag kiesik a Smarketsről, a foci ~8%-a marad. Ez SZÁNDÉKOS: kevés valódi jel jobb, mint sok zaj. null = kapu ki."
   },
   "kambi": {
     "_comment": "Kulcs NEM kell (Unibet publikus feed). SOFT book -> a multi-ban tartalék a sharp Smarkets mögött.",

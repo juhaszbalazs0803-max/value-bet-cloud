@@ -18,6 +18,10 @@ from .pinnacle import RefEvent
 
 API = "https://api.smarkets.com/v3"
 
+# Legfeljebb ekkora bid-offer spread (SZÁZALÉKPONT) mellett fogadjuk el a közepet
+# fair árnak. Configból: smarkets.max_spread_pp (None = kapu ki, régi viselkedés).
+DEFAULT_MAX_SPREAD_PP = 2.0
+
 # vegas.hu sportId -> (Smarkets type_domain, URL-slug)
 DOMAIN = {
     66: ("football", "football"),
@@ -45,20 +49,31 @@ def _norm(s):
     return "".join(c for c in (s or "").lower() if c.isalnum())
 
 
-def _mid_odds(quote):
+def _mid_odds(quote, max_spread_pp=DEFAULT_MAX_SPREAD_PP):
     """A legjobb bid és offer közepéből fair decimál odds. A Smarkets a bideket
-    csökkenő, az offereket növekvő sorrendben adja -> az első elem a legjobb."""
+    csökkenő, az offereket növekvő sorrendben adja -> az első elem a legjobb.
+
+    SPREAD-KAPU: a közép csak akkor fair ár, ha a könyv szoros. 2026-08-09-i
+    tenisz-mérés: a bid-offer spread MEDIÁNJA 10,8 százalékpont, a kimenetek
+    74%-ánál 5pp fölött (a legrosszabb: bid 36,8% / offer 78,7%). Egy 10,8pp
+    széles könyv közepe ±5,4pp bizonytalanságú, miközben 1,70-es oddson egy
+    3%-os edge mindössze 1,8pp valószínűség -> a mérési zaj a jel többszöröse,
+    és épp a legszélesebb (leglikvidebb-ellenes) könyveken gyárt hamis value-t.
+    Ezért `max_spread_pp` fölött NEM adunk árat (None) — jobb kihagyni, mint
+    zajt fair vonalnak hazudni. Egyoldalú könyv (csak bid vagy csak offer) sem
+    ér: ott a spread nem is mérhető.
+    """
     bids = quote.get("bids") or []
     offers = quote.get("offers") or []
-    ps = []
-    if bids and bids[0].get("price"):
-        ps.append(bids[0]["price"] / 10000.0)
-    if offers and offers[0].get("price"):
-        ps.append(offers[0]["price"] / 10000.0)
-    ps = [p for p in ps if 0 < p < 1]
-    if not ps:
+    bid = (bids[0].get("price") / 10000.0) if bids and bids[0].get("price") else None
+    off = (offers[0].get("price") / 10000.0) if offers and offers[0].get("price") else None
+    if bid is None or off is None:
         return None, 0.0
-    prob = sum(ps) / len(ps)
+    if not (0 < bid < 1) or not (0 < off < 1):
+        return None, 0.0
+    if max_spread_pp is not None and (off - bid) * 100.0 > max_spread_pp:
+        return None, 0.0
+    prob = (bid + off) / 2.0
     liq = 0.0
     if offers and offers[0].get("quantity"):
         liq = offers[0]["quantity"] / 10000.0  # tájékoztató likviditás
@@ -66,8 +81,10 @@ def _mid_odds(quote):
 
 
 class SmarketsRefClient:
-    def __init__(self, http):
+    def __init__(self, http, cfg=None):
         self.http = http
+        scfg = (cfg or {}).get("smarkets", {})
+        self.max_spread_pp = scfg.get("max_spread_pp", DEFAULT_MAX_SPREAD_PP)
 
     def _get(self, path):
         return self.http.get_json(API + path)
@@ -155,9 +172,9 @@ class SmarketsRefClient:
                 q = quotes.get(cid)
                 if not q:
                     continue
-                odds, liq = _mid_odds(q)
+                odds, liq = _mid_odds(q, self.max_spread_pp)
                 if not odds:
-                    continue
+                    continue  # hiányzó ár VAGY túl széles könyv -> nincs fair ár
                 slot = by_market.setdefault(mid, {"ml": {}, "liq": []})
                 slot["ml"][side] = round(odds, 4)
                 if side in ("home", "away"):
