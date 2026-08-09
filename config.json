@@ -15,8 +15,9 @@
   },
   "reference": {
     "provider": "multi",
-    "_provider_comment": "'multi' = több kulcs nélküli forrás (sources, prioritás sorrendben) -> több tipp + tartalék, ha egy kiesik. 'smarkets'=sharp tőzsde, 'kambi'=Unibet soft. A felhő mindkettőt eléri.",
+    "_provider_comment": "'multi' = több forrás PRIORITÁS sorrendben. A LISTA ELSŐ ELEME a fair vonal — ide CSAK éles (sharp) forrás kerülhet. 'pinnacle'=éles iroda (2026-08-09-én újra él, a 07-21-i 503 átmeneti volt), 'smarkets'=tőzsde (csak szoros könyvvel, lásd smarkets.max_spread_pp), 'kambi'=Unibet SOFT -> tiltott, lásd allow_soft.",
     "sources": [
+      "pinnacle",
       "smarkets",
       "kambi"
     ],
