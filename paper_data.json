@@ -19059,11 +19059,11 @@
       "fair_pct": 67.1,
       "start": "2026-08-07T23:30:00+00:00",
       "start_ts": 1786145400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1786404737.1043692,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.4897,
       "clv_pct": 3.44,
@@ -20646,7 +20646,6 @@
     }
   ],
   "papered": {
-    "heroesdemoca|indiosdesanfranciscodemacoris|ml:home|20260627": 1782514776.582597,
     "hikarusato|priskamadelynnugroho|ah:1.5:home|20260627": 1782518697.219516,
     "constantinbittounkouzmine|keshavchopra|ml:away|20260627": 1782535919.889082,
     "marcmajdandzic|jessedejager|ah:-1.5:away|20260627": 1782535919.889082,
@@ -21297,7 +21296,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786401320.78758,
+      "ts": 1786404736.409792,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
