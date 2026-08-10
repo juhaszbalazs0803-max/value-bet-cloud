@@ -20643,8 +20643,6 @@
     }
   ],
   "papered": {
-    "jacksatterfield|lorenzoclaverie|ml:away|20260626": 1782490483.416207,
-    "jacksatterfield|lorenzoclaverie|ah:1.5:home|20260626": 1782490483.416207,
     "fbkkarlstad|hammarbytalangff|ml:away|20260626": 1782491563.417774,
     "ayumimiyamoto|gaeuljang|ah:-1.5:away|20260627": 1782506738.722896,
     "heroesdemoca|indiosdesanfranciscodemacoris|ml:home|20260627": 1782514776.582597,
@@ -21298,7 +21296,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786378112.075623,
+      "ts": 1786378742.023924,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
