@@ -20674,7 +20674,7 @@
       "close_fair_odds": 1.5965,
       "clv_pct": null,
       "close_fair_p": 0.6263520652009861,
-      "close_ts": 1786479018.506808,
+      "close_ts": 1786479198.510899,
       "close_provisional": true
     },
     {
@@ -20854,7 +20854,7 @@
       "close_fair_odds": 1.8152,
       "clv_pct": null,
       "close_fair_p": 0.550912364623364,
-      "close_ts": 1786479018.506808,
+      "close_ts": 1786479288.45821,
       "close_provisional": true
     }
   ],
@@ -21502,18 +21502,23 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786479018.506808,
+      "ts": 1786479648.526614,
       "ok": false,
-      "vegas_events": 1200,
-      "ref_events": 862,
+      "vegas_events": 0,
+      "ref_events": 0,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
       },
-      "ref_gap": {},
+      "ref_gap": {
+        "70": "0 referencia-esemény 24 vegas meccs mellett"
+      },
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0)"
+        "az ELSŐDLEGES fair-forrás kiesett 3 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
+        "MINDEN sport lekérése elhasalt (?)"
       ],
       "settle_err": null
     },
