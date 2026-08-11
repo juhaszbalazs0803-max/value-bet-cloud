@@ -20674,7 +20674,7 @@
       "close_fair_odds": 1.5965,
       "clv_pct": null,
       "close_fair_p": 0.6263520652009861,
-      "close_ts": 1786477819.94403,
+      "close_ts": 1786478388.457196,
       "close_provisional": true
     },
     {
@@ -21471,13 +21471,15 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786477819.94403,
+      "ts": 1786478388.457196,
       "ok": true,
-      "vegas_events": 1218,
-      "ref_events": 860,
+      "vegas_events": 1195,
+      "ref_events": 856,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
-      "ref_gap": {},
+      "ref_gap": {
+        "70": "0 referencia-esemény 24 vegas meccs mellett"
+      },
       "sports_err": {},
       "problems": [],
       "settle_err": null
