@@ -20646,6 +20646,66 @@
       "close_fair_p": 0.559993630404204,
       "close_ts": 1786307685.377747,
       "close_provisional": true
+    },
+    {
+      "id": 683,
+      "ts": 1786465354.455615,
+      "key": "67:17326095:ml:away",
+      "content_key": "camarne|ialarreborges|ml:away|20260811",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "CA Marne - IA Larre Borges",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — IA Larre Borges",
+      "odds": 1.645,
+      "stake": 1200,
+      "value_pct": 3.04,
+      "fair_pct": 62.6,
+      "start": "2026-08-11T23:15:00+00:00",
+      "start_ts": 1786490100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5965,
+      "clv_pct": null,
+      "close_fair_p": 0.6263520652009861,
+      "close_ts": 1786465804.435145,
+      "close_provisional": true
+    },
+    {
+      "id": 684,
+      "ts": 1786465354.455615,
+      "key": "67:17326095:ah:2.5:away",
+      "content_key": "camarne|ialarreborges|ah:2.5:away|20260811",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:2.5:away",
+      "event": "CA Marne - IA Larre Borges",
+      "market": "ah",
+      "market_name": "Hendikep -2.5",
+      "tip": "Hendikep IA Larre Borges (-2.5)",
+      "odds": 1.833,
+      "stake": 1000,
+      "value_pct": 3.33,
+      "fair_pct": 56.4,
+      "start": "2026-08-11T23:15:00+00:00",
+      "start_ts": 1786490100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7744,
+      "clv_pct": null,
+      "close_fair_p": 0.5635815208763296,
+      "close_ts": 1786465804.435145,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -21279,33 +21339,27 @@
     "lucijaciricbagaric|kseniazaytseva|ml:home|20260810": 1786299206.586455,
     "cezar2001cretu|marvinmoeller|ml:away|20260810": 1786299566.629231,
     "michaelmmoh|edasbutvilas|ml:home|20260810": 1786299656.578087,
-    "vaquerosdebayamon|aguadasanteros|ah:-10.5:away|20260810": 1786303855.226521
+    "vaquerosdebayamon|aguadasanteros|ah:-10.5:away|20260810": 1786303855.226521,
+    "camarne|ialarreborges|ml:away|20260811": 1786465354.455615,
+    "camarne|ialarreborges|ah:2.5:away|20260811": 1786465354.455615
   },
   "last_report_date": "2026-08-11",
-  "next_id": 683,
+  "next_id": 685,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786465174.431303,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1786465804.435145,
+      "ok": true,
+      "vegas_events": 1279,
+      "ref_events": 985,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786464095.072646,
-    "alert_active": true
+    "alert_active": false
   }
 }
