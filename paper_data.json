@@ -19390,11 +19390,11 @@
       "fair_pct": 59.9,
       "start": "2026-08-08T10:00:00+00:00",
       "start_ts": 1786183200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1786442892.769208,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.6705,
       "clv_pct": 10.51,
@@ -20646,8 +20646,6 @@
     }
   ],
   "papered": {
-    "kacperszymkowiak|alanwazny|ah:1.5:home|20260627": 1782554759.74314,
-    "torontotempon|phoenixmercuryn|ah:-5.0:home|20260627": 1782554759.74314,
     "seattlestormn|atlantadreamn|ah:9.5:home|20260628": 1782562266.912133,
     "alexandravagramov|alexisnguyen|ah:-1.5:away|20260627": 1782570486.738727,
     "sportivohuracanfc|rentistas|ou:2.5:over|20260627": 1782572736.74204,
@@ -21288,7 +21286,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786442261.964489,
+      "ts": 1786442891.955045,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
@@ -21307,7 +21305,7 @@
       ],
       "settle_err": null
     },
-    "last_alert_ts": 1786420026.496055,
+    "last_alert_ts": 1786442442.7846825,
     "alert_active": true
   }
 }
