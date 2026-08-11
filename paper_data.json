@@ -20674,7 +20674,7 @@
       "close_fair_odds": 1.5965,
       "clv_pct": null,
       "close_fair_p": 0.6263520652009861,
-      "close_ts": 1786478388.457196,
+      "close_ts": 1786479018.506808,
       "close_provisional": true
     },
     {
@@ -20825,6 +20825,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5892255892255892,
       "close_ts": 1786468109.119742,
+      "close_provisional": true
+    },
+    {
+      "id": 689,
+      "ts": 1786478478.451426,
+      "key": "66:17211072:ou:2.5:under",
+      "content_key": "clublaunion|aucas|ou:2.5:under|20260812",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "Club La Union - Aucas",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 1.9,
+      "stake": 1300,
+      "value_pct": 4.67,
+      "fair_pct": 55.1,
+      "start": "2026-08-12T20:00:00+00:00",
+      "start_ts": 1786564800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8152,
+      "clv_pct": null,
+      "close_fair_p": 0.550912364623364,
+      "close_ts": 1786479018.506808,
       "close_provisional": true
     }
   ],
@@ -21464,24 +21494,27 @@
     "freserosdeirapuato|correcaminosuatvictoria|ou:179.5:under|20260812": 1786466704.439466,
     "timpladoshotshots|phoenixfuelmasters|ah:-7.5:away|20260812": 1786467749.0589,
     "unionistasdesalamancacf|cdcoria|ml:home|20260811": 1786467839.106466,
-    "timpladoshotshots|phoenixfuelmasters|ah:-8.5:away|20260812": 1786468109.119742
+    "timpladoshotshots|phoenixfuelmasters|ah:-8.5:away|20260812": 1786468109.119742,
+    "clublaunion|aucas|ou:2.5:under|20260812": 1786478478.451426
   },
   "last_report_date": "2026-08-11",
-  "next_id": 689,
+  "next_id": 690,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786478388.457196,
-      "ok": true,
-      "vegas_events": 1195,
-      "ref_events": 856,
+      "ts": 1786479018.506808,
+      "ok": false,
+      "vegas_events": 1200,
+      "ref_events": 862,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
-      "ref_gap": {
-        "70": "0 referencia-esemény 24 vegas meccs mellett"
+      "ref_down": {
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
       },
+      "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1786464095.072646,
