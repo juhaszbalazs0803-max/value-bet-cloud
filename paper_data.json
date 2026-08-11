@@ -20859,7 +20859,6 @@
     }
   ],
   "papered": {
-    "metrosdesantiago|canerosdeleste|ah:-3.5:home|20260628": 1782598996.330446,
     "milipoljicak|alejosanchezquilez|ah:-1.5:away|20260628": 1782604808.406607,
     "pieterdelange|marcmajdandzic|ah:-1.5:away|20260628": 1782620545.609728,
     "josydaems|valentinaivanov|ah:-1.5:away|20260628": 1782620545.609728,
@@ -21501,7 +21500,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786486830.664461,
+      "ts": 1786487460.657539,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
