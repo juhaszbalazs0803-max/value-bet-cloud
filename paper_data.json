@@ -20674,7 +20674,7 @@
       "close_fair_odds": 1.5965,
       "clv_pct": null,
       "close_fair_p": 0.6263520652009861,
-      "close_ts": 1786468739.093893,
+      "close_ts": 1786468829.07702,
       "close_provisional": true
     },
     {
@@ -20794,7 +20794,7 @@
       "close_fair_odds": 2.2055,
       "clv_pct": -9.32,
       "close_fair_p": 0.4534130915107808,
-      "close_ts": 1786468739.093893,
+      "close_ts": 1786468829.07702,
       "close_provisional": false
     },
     {
@@ -21472,15 +21472,23 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786468739.093893,
-      "ok": true,
-      "vegas_events": 1287,
-      "ref_events": 961,
+      "ts": 1786469369.072789,
+      "ok": false,
+      "vegas_events": 0,
+      "ref_events": 0,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
+        "MINDEN sport lekérése elhasalt (?)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1786464095.072646,
