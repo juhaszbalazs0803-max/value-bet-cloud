@@ -20884,7 +20884,7 @@
       "close_fair_odds": 1.8276,
       "clv_pct": null,
       "close_fair_p": 0.5471566008868605,
-      "close_ts": 1786566066.842345,
+      "close_ts": 1786566696.848075,
       "close_provisional": true
     },
     {
@@ -20914,7 +20914,7 @@
       "close_fair_odds": 1.4795,
       "clv_pct": null,
       "close_fair_p": 0.6759048403507921,
-      "close_ts": 1786566066.842345,
+      "close_ts": 1786566696.848075,
       "close_provisional": true
     },
     {
@@ -20974,7 +20974,7 @@
       "close_fair_odds": 1.8773,
       "clv_pct": null,
       "close_fair_p": 0.5326761011289552,
-      "close_ts": 1786566066.842345,
+      "close_ts": 1786566696.848075,
       "close_provisional": true
     }
   ],
@@ -21611,14 +21611,14 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786566066.842345,
+      "ts": 1786566696.848075,
       "ok": true,
-      "vegas_events": 1339,
-      "ref_events": 918,
+      "vegas_events": 1343,
+      "ref_events": 916,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {
-        "70": "0 referencia-esemény 27 vegas meccs mellett"
+        "70": "0 referencia-esemény 26 vegas meccs mellett"
       },
       "sports_err": {},
       "problems": [],
