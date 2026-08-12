@@ -20884,7 +20884,7 @@
       "close_fair_odds": 1.8276,
       "clv_pct": null,
       "close_fair_p": 0.5471566008868605,
-      "close_ts": 1786565436.792542,
+      "close_ts": 1786566066.842345,
       "close_provisional": true
     },
     {
@@ -20911,10 +20911,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4591,
+      "close_fair_odds": 1.4795,
       "clv_pct": null,
-      "close_fair_p": 0.6853731343283582,
-      "close_ts": 1786565436.792542,
+      "close_fair_p": 0.6759048403507921,
+      "close_ts": 1786566066.842345,
       "close_provisional": true
     },
     {
@@ -20945,6 +20945,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5233507110298331,
       "close_ts": 1786562997.252972,
+      "close_provisional": true
+    },
+    {
+      "id": 693,
+      "ts": 1786565976.84881,
+      "key": "68:17367792:ml:away",
+      "content_key": "chengyiyiyuan|sunamjeong|ml:away|20260813",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Chengyiyi Yuan - Sunam Jeong",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Sunam Jeong",
+      "odds": 1.95,
+      "stake": 1000,
+      "value_pct": 3.87,
+      "fair_pct": 53.3,
+      "start": "2026-08-13T02:00:00+00:00",
+      "start_ts": 1786586400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8773,
+      "clv_pct": null,
+      "close_fair_p": 0.5326761011289552,
+      "close_ts": 1786566066.842345,
       "close_provisional": true
     }
   ],
@@ -21573,17 +21603,18 @@
     "clublaunion|aucas|ou:2.5:under|20260812": 1786478478.451426,
     "portlandfiren|minnesotalynxn|ah:13.5:home|20260813": 1786561107.231587,
     "solesdemexicali|abejasdeleon|ml:home|20260813": 1786561917.235722,
-    "solesdemexicali|abejasdeleon|ah:-1.5:home|20260813": 1786561917.235722
+    "solesdemexicali|abejasdeleon|ah:-1.5:home|20260813": 1786561917.235722,
+    "chengyiyiyuan|sunamjeong|ml:away|20260813": 1786565976.84881
   },
   "last_report_date": "2026-08-12",
-  "next_id": 693,
+  "next_id": 694,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786565436.792542,
+      "ts": 1786566066.842345,
       "ok": true,
-      "vegas_events": 1336,
-      "ref_events": 914,
+      "vegas_events": 1339,
+      "ref_events": 918,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {
