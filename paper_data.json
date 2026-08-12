@@ -21488,12 +21488,12 @@
     "timpladoshotshots|phoenixfuelmasters|ah:-8.5:away|20260812": 1786468109.119742,
     "clublaunion|aucas|ou:2.5:under|20260812": 1786478478.451426
   },
-  "last_report_date": "2026-08-11",
+  "last_report_date": "2026-08-12",
   "next_id": 690,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786525015.114403,
+      "ts": 1786525645.079065,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
