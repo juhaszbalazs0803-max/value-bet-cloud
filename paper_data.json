@@ -20235,11 +20235,11 @@
       "fair_pct": 68.7,
       "start": "2026-08-09T19:00:00+00:00",
       "start_ts": 1786302000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1786561742.1197991,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.5198,
       "clv_pct": 0.67,
@@ -20854,7 +20854,7 @@
       "close_fair_odds": 1.8179,
       "clv_pct": null,
       "close_fair_p": 0.5500814440973056,
-      "close_ts": 1786561107.231587,
+      "close_ts": 1786561737.201029,
       "close_provisional": true
     },
     {
@@ -20881,10 +20881,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8547,
+      "close_fair_odds": 1.8185,
       "clv_pct": null,
-      "close_fair_p": 0.5391748280891852,
-      "close_ts": 1786561107.231587,
+      "close_fair_p": 0.5498923559774856,
+      "close_ts": 1786561737.201029,
       "close_provisional": true
     }
   ],
@@ -21518,10 +21518,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786561107.231587,
+      "ts": 1786561737.201029,
       "ok": true,
-      "vegas_events": 1351,
-      "ref_events": 933,
+      "vegas_events": 1344,
+      "ref_events": 925,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
