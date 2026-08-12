@@ -20884,7 +20884,7 @@
       "close_fair_odds": 1.8276,
       "clv_pct": null,
       "close_fair_p": 0.5471566008868605,
-      "close_ts": 1786567326.795256,
+      "close_ts": 1786567956.868719,
       "close_provisional": true
     },
     {
@@ -20911,10 +20911,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4825,
+      "close_fair_odds": 1.4851,
       "clv_pct": null,
-      "close_fair_p": 0.6745444398612088,
-      "close_ts": 1786567326.795256,
+      "close_fair_p": 0.6733761182419291,
+      "close_ts": 1786567956.868719,
       "close_provisional": true
     },
     {
@@ -20974,7 +20974,7 @@
       "close_fair_odds": 1.8745,
       "clv_pct": null,
       "close_fair_p": 0.5334805003679175,
-      "close_ts": 1786567326.795256,
+      "close_ts": 1786567956.868719,
       "close_provisional": true
     },
     {
@@ -21004,7 +21004,37 @@
       "close_fair_odds": 1.7889,
       "clv_pct": null,
       "close_fair_p": 0.5590111014880719,
-      "close_ts": 1786567326.795256,
+      "close_ts": 1786567956.868719,
+      "close_provisional": true
+    },
+    {
+      "id": 695,
+      "ts": 1786567776.797104,
+      "key": "66:17226054:ou:3.5:over",
+      "content_key": "cdfas|verdes|ou:3.5:over|20260813",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "CD FAS - Verdes",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.31,
+      "fair_pct": 56.9,
+      "start": "2026-08-13T03:00:00+00:00",
+      "start_ts": 1786590000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7576,
+      "clv_pct": null,
+      "close_fair_p": 0.5689486358464104,
+      "close_ts": 1786567956.868719,
       "close_provisional": true
     }
   ],
@@ -21635,21 +21665,22 @@
     "solesdemexicali|abejasdeleon|ml:home|20260813": 1786561917.235722,
     "solesdemexicali|abejasdeleon|ah:-1.5:home|20260813": 1786561917.235722,
     "chengyiyiyuan|sunamjeong|ml:away|20260813": 1786565976.84881,
-    "thasapornnaklo|ruienzhang|ml:away|20260813": 1786566786.872253
+    "thasapornnaklo|ruienzhang|ml:away|20260813": 1786566786.872253,
+    "cdfas|verdes|ou:3.5:over|20260813": 1786567776.797104
   },
   "last_report_date": "2026-08-12",
-  "next_id": 695,
+  "next_id": 696,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786567326.795256,
+      "ts": 1786567956.868719,
       "ok": true,
-      "vegas_events": 1345,
-      "ref_events": 914,
+      "vegas_events": 1349,
+      "ref_events": 917,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {
-        "70": "0 referencia-esemény 26 vegas meccs mellett"
+        "70": "0 referencia-esemény 27 vegas meccs mellett"
       },
       "sports_err": {},
       "problems": [],
