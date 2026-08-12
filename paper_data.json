@@ -20851,10 +20851,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8152,
+      "close_fair_odds": 1.8179,
       "clv_pct": null,
-      "close_fair_p": 0.550912364623364,
-      "close_ts": 1786479288.45821,
+      "close_fair_p": 0.5500814440973056,
+      "close_ts": 1786561107.231587,
+      "close_provisional": true
+    },
+    {
+      "id": 690,
+      "ts": 1786561107.231587,
+      "key": "67:16232705:ah:13.5:home",
+      "content_key": "portlandfiren|minnesotalynxn|ah:13.5:home|20260813",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:13.5:home",
+      "event": "Portland Fire (N) - Minnesota Lynx (N)",
+      "market": "ah",
+      "market_name": "Hendikep +13.5",
+      "tip": "Hendikep Portland Fire (N) (+13.5)",
+      "odds": 1.926,
+      "stake": 1000,
+      "value_pct": 3.85,
+      "fair_pct": 53.9,
+      "start": "2026-08-13T02:00:00+00:00",
+      "start_ts": 1786586400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8547,
+      "clv_pct": null,
+      "close_fair_p": 0.5391748280891852,
+      "close_ts": 1786561107.231587,
       "close_provisional": true
     }
   ],
@@ -21480,33 +21510,26 @@
     "timpladoshotshots|phoenixfuelmasters|ah:-7.5:away|20260812": 1786467749.0589,
     "unionistasdesalamancacf|cdcoria|ml:home|20260811": 1786467839.106466,
     "timpladoshotshots|phoenixfuelmasters|ah:-8.5:away|20260812": 1786468109.119742,
-    "clublaunion|aucas|ou:2.5:under|20260812": 1786478478.451426
+    "clublaunion|aucas|ou:2.5:under|20260812": 1786478478.451426,
+    "portlandfiren|minnesotalynxn|ah:13.5:home|20260813": 1786561107.231587
   },
   "last_report_date": "2026-08-12",
-  "next_id": 690,
+  "next_id": 691,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786560498.345043,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1786561107.231587,
+      "ok": true,
+      "vegas_events": 1351,
+      "ref_events": 933,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786551019.3336575,
-    "alert_active": true
+    "alert_active": false
   }
 }
