@@ -21039,6 +21039,36 @@
       "close_fair_p": 0.5689486358464104,
       "close_ts": 1786567956.868719,
       "close_provisional": true
+    },
+    {
+      "id": 696,
+      "ts": 1786619164.435457,
+      "key": "67:16241420:ah:-8.5:home",
+      "content_key": "newyorklibertyn|losangelessparksn|ah:-8.5:home|20260814",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-8.5:home",
+      "event": "New York Liberty (N) - Los Angeles Sparks (N)",
+      "market": "ah",
+      "market_name": "Hendikep -8.5",
+      "tip": "Hendikep New York Liberty (N) (-8.5)",
+      "odds": 1.909,
+      "stake": 1500,
+      "value_pct": 5.33,
+      "fair_pct": 55.2,
+      "start": "2026-08-14T00:00:00+00:00",
+      "start_ts": 1786665600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8125,
+      "clv_pct": null,
+      "close_fair_p": 0.5517349580315352,
+      "close_ts": 1786619164.435457,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -21667,33 +21697,26 @@
     "solesdemexicali|abejasdeleon|ah:-1.5:home|20260813": 1786561917.235722,
     "chengyiyiyuan|sunamjeong|ml:away|20260813": 1786565976.84881,
     "thasapornnaklo|ruienzhang|ml:away|20260813": 1786566786.872253,
-    "cdfas|verdes|ou:3.5:over|20260813": 1786567776.797104
+    "cdfas|verdes|ou:3.5:over|20260813": 1786567776.797104,
+    "newyorklibertyn|losangelessparksn|ah:-8.5:home|20260814": 1786619164.435457
   },
   "last_report_date": "2026-08-13",
-  "next_id": 696,
+  "next_id": 697,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786618458.254811,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1786619164.435457,
+      "ok": true,
+      "vegas_events": 1432,
+      "ref_events": 1121,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786615955.855937,
-    "alert_active": true
+    "alert_active": false
   }
 }
