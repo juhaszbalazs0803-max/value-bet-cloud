@@ -21070,7 +21070,7 @@
       "close_fair_odds": 2.0443,
       "clv_pct": null,
       "close_fair_p": 0.48916797488226055,
-      "close_ts": 1786642568.615555,
+      "close_ts": 1786643198.628316,
       "close_provisional": true
     },
     {
@@ -21097,10 +21097,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6423,
+      "close_fair_odds": 1.7254,
+      "clv_pct": -1.47,
+      "close_fair_p": 0.5795714361673845,
+      "close_ts": 1786643198.628316,
+      "close_provisional": false
+    },
+    {
+      "id": 698,
+      "ts": 1786642658.625735,
+      "key": "66:16239562:ou:3.5:over",
+      "content_key": "aegir|vlsungur|ou:3.5:over|20260813",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Aegir - Völsungur",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.833,
+      "stake": 1700,
+      "value_pct": 5.54,
+      "fair_pct": 57.6,
+      "start": "2026-08-13T18:00:00+00:00",
+      "start_ts": 1786644000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7371,
       "clv_pct": null,
-      "close_fair_p": 0.608891921683901,
-      "close_ts": 1786642388.626201,
+      "close_fair_p": 0.5756667023669273,
+      "close_ts": 1786642838.627272,
       "close_provisional": true
     }
   ],
@@ -21732,22 +21762,27 @@
     "thasapornnaklo|ruienzhang|ml:away|20260813": 1786566786.872253,
     "cdfas|verdes|ou:3.5:over|20260813": 1786567776.797104,
     "newyorklibertyn|losangelessparksn|ah:-8.5:home|20260814": 1786619164.435457,
-    "iksleipner|lindff|ou:3.5:under|20260813": 1786642208.579914
+    "iksleipner|lindff|ou:3.5:under|20260813": 1786642208.579914,
+    "aegir|vlsungur|ou:3.5:over|20260813": 1786642658.625735
   },
   "last_report_date": "2026-08-13",
-  "next_id": 698,
+  "next_id": 699,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786642568.615555,
-      "ok": true,
-      "vegas_events": 1440,
-      "ref_events": 1036,
+      "ts": 1786643198.628316,
+      "ok": false,
+      "vegas_events": 1326,
+      "ref_events": 975,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1786637611.5648224,
