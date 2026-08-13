@@ -21039,7 +21039,6 @@
     }
   ],
   "papered": {
-    "cosmerollandderavel|maratsharipov|ah:-1.5:away|20260629": 1782712101.109312,
     "alvaroguillenmeza|francoroncadelli|ah:-1.5:away|20260629": 1782730424.897332,
     "clubatleticoolimpia|cdalbatros|ou:169.5:over|20260629": 1782756198.561955,
     "clubatleticoolimpia|cdalbatros|ah:-8.5:home|20260629": 1782768356.658748,
@@ -21673,7 +21672,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786597310.486333,
+      "ts": 1786601673.353863,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
