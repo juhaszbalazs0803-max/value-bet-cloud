@@ -20477,11 +20477,11 @@
       "fair_pct": 62.7,
       "start": "2026-08-10T17:30:00+00:00",
       "start_ts": 1786383000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1786642573.1676984,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.8249,
       "clv_pct": 3.24,
@@ -21067,10 +21067,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8062,
+      "close_fair_odds": 2.0443,
       "clv_pct": null,
-      "close_fair_p": 0.5536404470907761,
-      "close_ts": 1786622314.422732,
+      "close_fair_p": 0.48916797488226055,
+      "close_ts": 1786642568.615555,
+      "close_provisional": true
+    },
+    {
+      "id": 697,
+      "ts": 1786642208.579914,
+      "key": "66:17346247:ou:3.5:under",
+      "content_key": "iksleipner|lindff|ou:3.5:under|20260813",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "IK Sleipner - Lindö FF",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.7,
+      "stake": 1300,
+      "value_pct": 3.51,
+      "fair_pct": 60.9,
+      "start": "2026-08-13T18:00:00+00:00",
+      "start_ts": 1786644000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6423,
+      "clv_pct": null,
+      "close_fair_p": 0.608891921683901,
+      "close_ts": 1786642388.626201,
       "close_provisional": true
     }
   ],
@@ -21701,31 +21731,26 @@
     "chengyiyiyuan|sunamjeong|ml:away|20260813": 1786565976.84881,
     "thasapornnaklo|ruienzhang|ml:away|20260813": 1786566786.872253,
     "cdfas|verdes|ou:3.5:over|20260813": 1786567776.797104,
-    "newyorklibertyn|losangelessparksn|ah:-8.5:home|20260814": 1786619164.435457
+    "newyorklibertyn|losangelessparksn|ah:-8.5:home|20260814": 1786619164.435457,
+    "iksleipner|lindff|ou:3.5:under|20260813": 1786642208.579914
   },
   "last_report_date": "2026-08-13",
-  "next_id": 697,
+  "next_id": 698,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786641938.555566,
-      "ok": false,
-      "vegas_events": 1243,
-      "ref_events": 941,
+      "ts": 1786642568.615555,
+      "ok": true,
+      "vegas_events": 1440,
+      "ref_events": 1036,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 3 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0; [67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786637611.5648224,
-    "alert_active": true
+    "alert_active": false
   }
 }
