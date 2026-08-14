@@ -21172,7 +21172,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": null,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1786739243.678094,
+      "close_ts": 1786739873.660758,
       "close_provisional": true
     },
     {
@@ -21202,7 +21202,7 @@
       "close_fair_odds": 1.7814,
       "clv_pct": null,
       "close_fair_p": 0.5613472333600642,
-      "close_ts": 1786739243.678094,
+      "close_ts": 1786739873.660758,
       "close_provisional": true
     },
     {
@@ -21232,7 +21232,7 @@
       "close_fair_odds": 1.7518,
       "clv_pct": null,
       "close_fair_p": 0.570853933933829,
-      "close_ts": 1786739243.678094,
+      "close_ts": 1786739873.660758,
       "close_provisional": true
     },
     {
@@ -21412,7 +21412,7 @@
       "close_fair_odds": 1.9108,
       "clv_pct": null,
       "close_fair_p": 0.5233507110298331,
-      "close_ts": 1786739243.678094,
+      "close_ts": 1786739873.660758,
       "close_provisional": true
     },
     {
@@ -21502,7 +21502,7 @@
       "close_fair_odds": 1.8703,
       "clv_pct": null,
       "close_fair_p": 0.5346592883684872,
-      "close_ts": 1786739243.678094,
+      "close_ts": 1786739873.660758,
       "close_provisional": true
     },
     {
@@ -21532,7 +21532,7 @@
       "close_fair_odds": 1.8001,
       "clv_pct": null,
       "close_fair_p": 0.5555181932076098,
-      "close_ts": 1786739243.678094,
+      "close_ts": 1786739873.660758,
       "close_provisional": true
     },
     {
@@ -21562,7 +21562,67 @@
       "close_fair_odds": 1.8673,
       "clv_pct": null,
       "close_fair_p": 0.5355391182162835,
-      "close_ts": 1786739243.678094,
+      "close_ts": 1786739873.660758,
+      "close_provisional": true
+    },
+    {
+      "id": 713,
+      "ts": 1786739873.660758,
+      "key": "67:17364118:ml:home",
+      "content_key": "csdeportivosayago|urupandepando|ml:home|20260814",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "CS Deportivo Sayago - Urupan de Pando",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — CS Deportivo Sayago",
+      "odds": 1.69,
+      "stake": 3500,
+      "value_pct": 9.77,
+      "fair_pct": 65.0,
+      "start": "2026-08-14T23:15:00+00:00",
+      "start_ts": 1786749300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5393,
+      "clv_pct": null,
+      "close_fair_p": 0.6496371837615219,
+      "close_ts": 1786739873.660758,
+      "close_provisional": true
+    },
+    {
+      "id": 714,
+      "ts": 1786739873.660758,
+      "key": "67:17364118:ah:-2.5:home",
+      "content_key": "csdeportivosayago|urupandepando|ah:-2.5:home|20260814",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-2.5:home",
+      "event": "CS Deportivo Sayago - Urupan de Pando",
+      "market": "ah",
+      "market_name": "Hendikep -2.5",
+      "tip": "Hendikep CS Deportivo Sayago (-2.5)",
+      "odds": 1.87,
+      "stake": 1700,
+      "value_pct": 5.93,
+      "fair_pct": 56.7,
+      "start": "2026-08-14T23:15:00+00:00",
+      "start_ts": 1786749300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7649,
+      "clv_pct": null,
+      "close_fair_p": 0.5666022399322195,
+      "close_ts": 1786739873.660758,
       "close_provisional": true
     }
   ],
@@ -22205,14 +22265,16 @@
     "arges|fcfarulconstanta|ou:2.5:under|20260814": 1786731802.826757,
     "ymirkopavogur|kffjallabyggd|ou:3.5:over|20260815": 1786733676.713252,
     "adelaideblueeagles|easternunited|ml:home|20260815": 1786734354.341915,
-    "rangers|magallanes|ou:2.5:over|20260815": 1786734534.28256
+    "rangers|magallanes|ou:2.5:over|20260815": 1786734534.28256,
+    "csdeportivosayago|urupandepando|ml:home|20260814": 1786739873.660758,
+    "csdeportivosayago|urupandepando|ah:-2.5:home|20260814": 1786739873.660758
   },
   "last_report_date": "2026-08-14",
-  "next_id": 713,
+  "next_id": 715,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786739243.678094,
+      "ts": 1786739873.660758,
       "ok": true,
       "vegas_events": 1602,
       "ref_events": 1205,
