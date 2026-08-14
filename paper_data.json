@@ -21163,7 +21163,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": null,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1786728627.327128,
+      "close_ts": 1786729257.325757,
       "close_provisional": true
     },
     {
@@ -21193,7 +21193,7 @@
       "close_fair_odds": 1.7814,
       "clv_pct": null,
       "close_fair_p": 0.5613472333600642,
-      "close_ts": 1786728627.327128,
+      "close_ts": 1786729257.325757,
       "close_provisional": true
     },
     {
@@ -21223,7 +21223,7 @@
       "close_fair_odds": 1.7518,
       "clv_pct": null,
       "close_fair_p": 0.570853933933829,
-      "close_ts": 1786728627.327128,
+      "close_ts": 1786729257.325757,
       "close_provisional": true
     },
     {
@@ -21253,7 +21253,7 @@
       "close_fair_odds": 1.7212,
       "clv_pct": null,
       "close_fair_p": 0.5809906291834002,
-      "close_ts": 1786728627.327128,
+      "close_ts": 1786729257.325757,
       "close_provisional": true
     },
     {
@@ -21280,10 +21280,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8126,
+      "close_fair_odds": 1.8648,
       "clv_pct": null,
-      "close_fair_p": 0.551697247380235,
-      "close_ts": 1786728627.327128,
+      "close_fair_p": 0.536263078853964,
+      "close_ts": 1786729257.325757,
       "close_provisional": true
     },
     {
@@ -21340,10 +21340,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6504,
+      "close_fair_odds": 1.8985,
       "clv_pct": null,
-      "close_fair_p": 0.605910616084219,
-      "close_ts": 1786728627.327128,
+      "close_fair_p": 0.5267222577494478,
+      "close_ts": 1786729257.325757,
       "close_provisional": true
     }
   ],
@@ -21986,9 +21986,9 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786728627.327128,
+      "ts": 1786729257.325757,
       "ok": true,
-      "vegas_events": 1636,
+      "vegas_events": 1643,
       "ref_events": 1316,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
