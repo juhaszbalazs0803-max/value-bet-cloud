@@ -21163,7 +21163,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": null,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1786730362.846781,
+      "close_ts": 1786731082.829037,
       "close_provisional": true
     },
     {
@@ -21193,7 +21193,7 @@
       "close_fair_odds": 1.7814,
       "clv_pct": null,
       "close_fair_p": 0.5613472333600642,
-      "close_ts": 1786730362.846781,
+      "close_ts": 1786731082.829037,
       "close_provisional": true
     },
     {
@@ -21223,7 +21223,7 @@
       "close_fair_odds": 1.7518,
       "clv_pct": null,
       "close_fair_p": 0.570853933933829,
-      "close_ts": 1786730362.846781,
+      "close_ts": 1786731082.829037,
       "close_provisional": true
     },
     {
@@ -21253,7 +21253,7 @@
       "close_fair_odds": 1.7212,
       "clv_pct": null,
       "close_fair_p": 0.5809906291834002,
-      "close_ts": 1786730452.893029,
+      "close_ts": 1786730542.876375,
       "close_provisional": true
     },
     {
@@ -21280,11 +21280,11 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8648,
-      "clv_pct": null,
-      "close_fair_p": 0.536263078853964,
-      "close_ts": 1786730362.846781,
-      "close_provisional": true
+      "close_fair_odds": 1.8901,
+      "clv_pct": -1.22,
+      "close_fair_p": 0.5290651239155258,
+      "close_ts": 1786731082.829037,
+      "close_provisional": false
     },
     {
       "id": 704,
@@ -21345,6 +21345,36 @@
       "close_fair_p": 0.5291459638621399,
       "close_ts": 1786730362.846781,
       "close_provisional": false
+    },
+    {
+      "id": 706,
+      "ts": 1786731082.829037,
+      "key": "66:17357067:ou:3.5:under",
+      "content_key": "hapoelhaifafc|hapoelbershevafc|ou:3.5:under|20260815",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "Hapoel Haifa FC - Hapoel Beèr Sheva FC",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.556,
+      "stake": 1700,
+      "value_pct": 3.86,
+      "fair_pct": 66.8,
+      "start": "2026-08-15T17:30:00+00:00",
+      "start_ts": 1786815000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4978,
+      "clv_pct": null,
+      "close_fair_p": 0.6676681689200467,
+      "close_ts": 1786731082.829037,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -21979,26 +22009,23 @@
     "olimpiakings|felixperezcardozo|ah:-9.5:home|20260814": 1786723493.55635,
     "fccska1948|chernomorevarna|ml:home|20260814": 1786727187.304132,
     "cougarsn|warwicksenatorsn|ah:-8.5:away|20260815": 1786728087.34529,
-    "jeunessecanach|koeppchenwormeldange|ml:home|20260814": 1786728627.327128
+    "jeunessecanach|koeppchenwormeldange|ml:home|20260814": 1786728627.327128,
+    "hapoelhaifafc|hapoelbershevafc|ou:3.5:under|20260815": 1786731082.829037
   },
   "last_report_date": "2026-08-14",
-  "next_id": 706,
+  "next_id": 707,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786730452.893029,
-      "ok": false,
-      "vegas_events": 205,
-      "ref_events": 102,
+      "ts": 1786731082.829037,
+      "ok": true,
+      "vegas_events": 1619,
+      "ref_events": 1259,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786702633.3932233,
