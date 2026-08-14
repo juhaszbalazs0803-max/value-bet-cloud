@@ -21163,7 +21163,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": null,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1786731082.829037,
+      "close_ts": 1786731622.85212,
       "close_provisional": true
     },
     {
@@ -21193,7 +21193,7 @@
       "close_fair_odds": 1.7814,
       "clv_pct": null,
       "close_fair_p": 0.5613472333600642,
-      "close_ts": 1786731082.829037,
+      "close_ts": 1786731622.85212,
       "close_provisional": true
     },
     {
@@ -21223,7 +21223,7 @@
       "close_fair_odds": 1.7518,
       "clv_pct": null,
       "close_fair_p": 0.570853933933829,
-      "close_ts": 1786731082.829037,
+      "close_ts": 1786731622.85212,
       "close_provisional": true
     },
     {
@@ -21283,7 +21283,7 @@
       "close_fair_odds": 1.8901,
       "clv_pct": -1.22,
       "close_fair_p": 0.5290651239155258,
-      "close_ts": 1786731082.829037,
+      "close_ts": 1786731262.905876,
       "close_provisional": false
     },
     {
@@ -21374,6 +21374,36 @@
       "clv_pct": null,
       "close_fair_p": 0.6676681689200467,
       "close_ts": 1786731082.829037,
+      "close_provisional": true
+    },
+    {
+      "id": 707,
+      "ts": 1786731262.905876,
+      "key": "67:17355665:ah:-7.5:away",
+      "content_key": "cougarsn|warwicksenatorsn|ah:-7.5:away|20260815",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-7.5:away",
+      "event": "Cougars (N) - Warwick Senators (N)",
+      "market": "ah",
+      "market_name": "Hendikep +7.5",
+      "tip": "Hendikep Warwick Senators (N) (+7.5)",
+      "odds": 1.8,
+      "stake": 1200,
+      "value_pct": 3.9,
+      "fair_pct": 57.7,
+      "start": "2026-08-15T08:30:00+00:00",
+      "start_ts": 1786782600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9108,
+      "clv_pct": null,
+      "close_fair_p": 0.5233507110298331,
+      "close_ts": 1786731712.878098,
       "close_provisional": true
     }
   ],
@@ -22010,22 +22040,27 @@
     "fccska1948|chernomorevarna|ml:home|20260814": 1786727187.304132,
     "cougarsn|warwicksenatorsn|ah:-8.5:away|20260815": 1786728087.34529,
     "jeunessecanach|koeppchenwormeldange|ml:home|20260814": 1786728627.327128,
-    "hapoelhaifafc|hapoelbershevafc|ou:3.5:under|20260815": 1786731082.829037
+    "hapoelhaifafc|hapoelbershevafc|ou:3.5:under|20260815": 1786731082.829037,
+    "cougarsn|warwicksenatorsn|ah:-7.5:away|20260815": 1786731262.905876
   },
   "last_report_date": "2026-08-14",
-  "next_id": 707,
+  "next_id": 708,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786731082.829037,
-      "ok": true,
-      "vegas_events": 1619,
-      "ref_events": 1259,
+      "ts": 1786731712.878098,
+      "ok": false,
+      "vegas_events": 207,
+      "ref_events": 101,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1786702633.3932233,
