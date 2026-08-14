@@ -21172,7 +21172,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": null,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1786735344.303745,
+      "close_ts": 1786735974.304969,
       "close_provisional": true
     },
     {
@@ -21202,7 +21202,7 @@
       "close_fair_odds": 1.7814,
       "clv_pct": null,
       "close_fair_p": 0.5613472333600642,
-      "close_ts": 1786735344.303745,
+      "close_ts": 1786735974.304969,
       "close_provisional": true
     },
     {
@@ -21232,7 +21232,7 @@
       "close_fair_odds": 1.7518,
       "clv_pct": null,
       "close_fair_p": 0.570853933933829,
-      "close_ts": 1786735344.303745,
+      "close_ts": 1786735974.304969,
       "close_provisional": true
     },
     {
@@ -21412,7 +21412,7 @@
       "close_fair_odds": 1.9108,
       "clv_pct": null,
       "close_fair_p": 0.5233507110298331,
-      "close_ts": 1786735344.303745,
+      "close_ts": 1786735974.304969,
       "close_provisional": true
     },
     {
@@ -21502,7 +21502,7 @@
       "close_fair_odds": 1.8703,
       "clv_pct": null,
       "close_fair_p": 0.5346592883684872,
-      "close_ts": 1786735344.303745,
+      "close_ts": 1786735974.304969,
       "close_provisional": true
     },
     {
@@ -21529,10 +21529,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7808,
+      "close_fair_odds": 1.8001,
       "clv_pct": null,
-      "close_fair_p": 0.5615387254998809,
-      "close_ts": 1786735344.303745,
+      "close_fair_p": 0.5555181932076098,
+      "close_ts": 1786735974.304969,
       "close_provisional": true
     },
     {
@@ -21562,7 +21562,7 @@
       "close_fair_odds": 1.8673,
       "clv_pct": null,
       "close_fair_p": 0.5355391182162835,
-      "close_ts": 1786735344.303745,
+      "close_ts": 1786735974.304969,
       "close_provisional": true
     }
   ],
@@ -22212,10 +22212,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786735344.303745,
+      "ts": 1786735974.304969,
       "ok": true,
-      "vegas_events": 1585,
-      "ref_events": 1201,
+      "vegas_events": 1588,
+      "ref_events": 1215,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
