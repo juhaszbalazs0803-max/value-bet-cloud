@@ -18402,11 +18402,14 @@
       "fair_pct": 52.4,
       "start": "2026-08-06T23:00:00+00:00",
       "start_ts": 1786057200.0,
-      "status": "void",
-      "settled_ts": 1786316992.3330705,
+      "status": "lost",
+      "settled_ts": 1786734043.4587831,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        84,
+        86
+      ],
+      "settle_source": "sportsdb",
       "needs_manual": false,
       "close_fair_odds": 1.91,
       "clv_pct": 4.71,
@@ -19059,11 +19062,14 @@
       "fair_pct": 67.1,
       "start": "2026-08-07T23:30:00+00:00",
       "start_ts": 1786145400.0,
-      "status": "void",
-      "settled_ts": 1786404737.1043692,
+      "status": "lost",
+      "settled_ts": 1786734043.4587831,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        79,
+        74
+      ],
+      "settle_source": "sportsdb",
       "needs_manual": false,
       "close_fair_odds": 1.4897,
       "clv_pct": 3.44,
@@ -19419,11 +19425,14 @@
       "fair_pct": 73.2,
       "start": "2026-08-08T19:30:00+00:00",
       "start_ts": 1786217400.0,
-      "status": "void",
-      "settled_ts": 1786477193.930232,
+      "status": "won",
+      "settled_ts": 1786734043.4587831,
       "source": "auto",
-      "final_score": null,
-      "settle_source": "auto-void",
+      "final_score": [
+        86,
+        90
+      ],
+      "settle_source": "sportsdb",
       "needs_manual": false,
       "close_fair_odds": 1.3662,
       "clv_pct": 5.04,
@@ -21163,7 +21172,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": null,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1786733406.698349,
+      "close_ts": 1786734036.699242,
       "close_provisional": true
     },
     {
@@ -21193,7 +21202,7 @@
       "close_fair_odds": 1.7814,
       "clv_pct": null,
       "close_fair_p": 0.5613472333600642,
-      "close_ts": 1786733406.698349,
+      "close_ts": 1786734036.699242,
       "close_provisional": true
     },
     {
@@ -21223,7 +21232,7 @@
       "close_fair_odds": 1.7518,
       "clv_pct": null,
       "close_fair_p": 0.570853933933829,
-      "close_ts": 1786733406.698349,
+      "close_ts": 1786734036.699242,
       "close_provisional": true
     },
     {
@@ -21403,7 +21412,7 @@
       "close_fair_odds": 1.9108,
       "clv_pct": null,
       "close_fair_p": 0.5233507110298331,
-      "close_ts": 1786732972.901481,
+      "close_ts": 1786734036.699242,
       "close_provisional": true
     },
     {
@@ -21433,7 +21442,7 @@
       "close_fair_odds": 1.6243,
       "clv_pct": 2.63,
       "close_fair_p": 0.6156361936139616,
-      "close_ts": 1786733406.698349,
+      "close_ts": 1786733946.715591,
       "close_provisional": false
     },
     {
@@ -21465,6 +21474,36 @@
       "close_fair_p": 0.6182762458266353,
       "close_ts": 1786732162.863191,
       "close_provisional": false
+    },
+    {
+      "id": 710,
+      "ts": 1786733676.713252,
+      "key": "66:17346301:ou:3.5:over",
+      "content_key": "ymirkopavogur|kffjallabyggd|ou:3.5:over|20260815",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Ymir Kopavogur - KF Fjallabyggd",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 2.0,
+      "stake": 1700,
+      "value_pct": 6.93,
+      "fair_pct": 53.5,
+      "start": "2026-08-15T16:00:00+00:00",
+      "start_ts": 1786809600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8703,
+      "clv_pct": null,
+      "close_fair_p": 0.5346592883684872,
+      "close_ts": 1786734036.699242,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -22103,27 +22142,23 @@
     "hapoelhaifafc|hapoelbershevafc|ou:3.5:under|20260815": 1786731082.829037,
     "cougarsn|warwicksenatorsn|ah:-7.5:away|20260815": 1786731262.905876,
     "ruchchorzow|lechiagdansk|ml:home|20260814": 1786731802.826757,
-    "arges|fcfarulconstanta|ou:2.5:under|20260814": 1786731802.826757
+    "arges|fcfarulconstanta|ou:2.5:under|20260814": 1786731802.826757,
+    "ymirkopavogur|kffjallabyggd|ou:3.5:over|20260815": 1786733676.713252
   },
   "last_report_date": "2026-08-14",
-  "next_id": 710,
+  "next_id": 711,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786733406.698349,
-      "ok": false,
-      "vegas_events": 1482,
-      "ref_events": 1185,
+      "ts": 1786734036.699242,
+      "ok": true,
+      "vegas_events": 1585,
+      "ref_events": 1228,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 2 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0; [70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786702633.3932233,
