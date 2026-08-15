@@ -21562,7 +21562,7 @@
       "close_fair_odds": 1.9914,
       "clv_pct": null,
       "close_fair_p": 0.5021606474085326,
-      "close_ts": 1786813345.38939,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -21652,7 +21652,7 @@
       "close_fair_odds": 1.9132,
       "clv_pct": null,
       "close_fair_p": 0.5226845076311938,
-      "close_ts": 1786813255.411662,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -21682,7 +21682,7 @@
       "close_fair_odds": 1.976,
       "clv_pct": null,
       "close_fair_p": 0.5060688696396107,
-      "close_ts": 1786813255.411662,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -21712,7 +21712,7 @@
       "close_fair_odds": 1.7053,
       "clv_pct": null,
       "close_fair_p": 0.5864091065884788,
-      "close_ts": 1786813255.411662,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -21742,7 +21742,7 @@
       "close_fair_odds": 1.8401,
       "clv_pct": null,
       "close_fair_p": 0.5434339591881097,
-      "close_ts": 1786813255.411662,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0276,
       "clv_pct": null,
       "close_fair_p": 0.4932000457483357,
-      "close_ts": 1786813345.38939,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7484,
       "clv_pct": null,
       "close_fair_p": 0.5719470040996147,
-      "close_ts": 1786813345.38939,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -22282,7 +22282,7 @@
       "close_fair_odds": 1.7775,
       "clv_pct": null,
       "close_fair_p": 0.5625841184387618,
-      "close_ts": 1786813255.411662,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.7426,
       "clv_pct": null,
       "close_fair_p": 0.5738500844811576,
-      "close_ts": 1786813345.38939,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -22612,7 +22612,7 @@
       "close_fair_odds": 1.83,
       "clv_pct": null,
       "close_fair_p": 0.5464480874316939,
-      "close_ts": 1786813345.38939,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -22642,7 +22642,7 @@
       "close_fair_odds": 2.0775,
       "clv_pct": null,
       "close_fair_p": 0.48133723156723507,
-      "close_ts": 1786813345.38939,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     },
     {
@@ -22673,6 +22673,36 @@
       "clv_pct": null,
       "close_fair_p": 0.6252422167678594,
       "close_ts": 1786811905.385328,
+      "close_provisional": true
+    },
+    {
+      "id": 750,
+      "ts": 1786813795.334616,
+      "key": "67:17373227:ou:170.5:under",
+      "content_key": "minerosdezacatecas|astrosdejalisco|ou:170.5:under|20260816",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:170.5:under",
+      "event": "Mineros de Zacatecas - Astros de Jalisco",
+      "market": "ou",
+      "market_name": "O/U 170.5",
+      "tip": "Kevesebb mint 170.5",
+      "odds": 1.833,
+      "stake": 1100,
+      "value_pct": 3.79,
+      "fair_pct": 56.6,
+      "start": "2026-08-16T01:05:00+00:00",
+      "start_ts": 1786842300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7665,
+      "clv_pct": null,
+      "close_fair_p": 0.5660934188286428,
+      "close_ts": 1786813975.548135,
       "close_provisional": true
     }
   ],
@@ -23349,26 +23379,23 @@
     "connecticutsunn|newyorklibertyn|ou:169.5:over|20260815": 1786810093.869651,
     "zamoracfii|atleticoelvigia|ou:2.5:over|20260815": 1786810825.404645,
     "atertbissen|fcprogresniederkorn|ml:home|20260816": 1786810915.388656,
-    "aguilas|lorcadeportiva|ou:2.5:under|20260815": 1786811545.33092
+    "aguilas|lorcadeportiva|ou:2.5:under|20260815": 1786811545.33092,
+    "minerosdezacatecas|astrosdejalisco|ou:170.5:under|20260816": 1786813795.334616
   },
   "last_report_date": "2026-08-15",
-  "next_id": 750,
+  "next_id": 751,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786813345.38939,
-      "ok": false,
-      "vegas_events": 1313,
-      "ref_events": 929,
+      "ts": 1786813975.548135,
+      "ok": true,
+      "vegas_events": 1389,
+      "ref_events": 954,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786792935.3433938,
