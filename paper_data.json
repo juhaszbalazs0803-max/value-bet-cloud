@@ -21499,11 +21499,11 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8701,
-      "clv_pct": null,
-      "close_fair_p": 0.5347310461668785,
-      "close_ts": 1786808293.893717,
-      "close_provisional": true
+      "close_fair_odds": 1.8673,
+      "clv_pct": 7.11,
+      "close_fair_p": 0.5355391182162835,
+      "close_ts": 1786808923.879167,
+      "close_provisional": false
     },
     {
       "id": 711,
@@ -21562,7 +21562,7 @@
       "close_fair_odds": 1.9916,
       "clv_pct": null,
       "close_fair_p": 0.5020998969861856,
-      "close_ts": 1786808293.893717,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
     },
     {
@@ -21649,10 +21649,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8975,
+      "close_fair_odds": 1.9212,
       "clv_pct": null,
-      "close_fair_p": 0.5270023480302635,
-      "close_ts": 1786808293.893717,
+      "close_fair_p": 0.5205053094104725,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
     },
     {
@@ -21682,7 +21682,7 @@
       "close_fair_odds": 1.976,
       "clv_pct": null,
       "close_fair_p": 0.5060688696396107,
-      "close_ts": 1786808293.893717,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
     },
     {
@@ -21712,7 +21712,7 @@
       "close_fair_odds": 1.7099,
       "clv_pct": null,
       "close_fair_p": 0.5848264128874475,
-      "close_ts": 1786808293.893717,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
     },
     {
@@ -21742,7 +21742,7 @@
       "close_fair_odds": 1.8466,
       "clv_pct": null,
       "close_fair_p": 0.5415238095238095,
-      "close_ts": 1786808293.893717,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
     },
     {
@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0605,
       "clv_pct": null,
       "close_fair_p": 0.4853278955262921,
-      "close_ts": 1786808293.893717,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7484,
       "clv_pct": null,
       "close_fair_p": 0.5719470040996147,
-      "close_ts": 1786808293.893717,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
     },
     {
@@ -22282,7 +22282,7 @@
       "close_fair_odds": 1.7775,
       "clv_pct": null,
       "close_fair_p": 0.5625841184387618,
-      "close_ts": 1786808293.893717,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
     },
     {
@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.7426,
       "clv_pct": null,
       "close_fair_p": 0.5738500844811576,
-      "close_ts": 1786808293.893717,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
     },
     {
@@ -22519,11 +22519,41 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9233,
+      "close_fair_odds": 1.8343,
       "clv_pct": null,
-      "close_fair_p": 0.5199440721785469,
-      "close_ts": 1786808293.893717,
+      "close_fair_p": 0.5451733808612692,
+      "close_ts": 1786808923.879167,
       "close_provisional": true
+    },
+    {
+      "id": 745,
+      "ts": 1786808473.844972,
+      "key": "66:17390864:ml:home",
+      "content_key": "montpellierhscn|toulousefcn|ml:home|20260815",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Montpellier HSC  (N) - Toulouse FC (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Montpellier HSC  (N)",
+      "odds": 1.818,
+      "stake": 1100,
+      "value_pct": 3.72,
+      "fair_pct": 57.0,
+      "start": "2026-08-15T16:00:00+00:00",
+      "start_ts": 1786809600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9744,
+      "clv_pct": -7.92,
+      "close_fair_p": 0.50649414437886,
+      "close_ts": 1786808923.879167,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -23194,26 +23224,23 @@
     "fjolnirreykjavikn|einherji|ml:home|20260815": 1786797126.986051,
     "fuerzaregia|freserosdeirapuato|ou:172.5:over|20260815": 1786797126.986051,
     "clubatleticoyalen|clublagomarn|ah:7.5:home|20260815": 1786798656.922679,
-    "connecticutsunn|newyorklibertyn|ah:8.5:home|20260815": 1786807393.91853
+    "connecticutsunn|newyorklibertyn|ah:8.5:home|20260815": 1786807393.91853,
+    "montpellierhscn|toulousefcn|ml:home|20260815": 1786808473.844972
   },
   "last_report_date": "2026-08-15",
-  "next_id": 745,
+  "next_id": 746,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786808293.893717,
-      "ok": false,
-      "vegas_events": 1384,
-      "ref_events": 1038,
+      "ts": 1786808923.879167,
+      "ok": true,
+      "vegas_events": 1412,
+      "ref_events": 1030,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786792935.3433938,
