@@ -21172,7 +21172,7 @@
       "close_fair_odds": 2.0252,
       "clv_pct": null,
       "close_fair_p": 0.493768561731014,
-      "close_ts": 1786769359.205003,
+      "close_ts": 1786769989.178253,
       "close_provisional": true
     },
     {
@@ -21232,7 +21232,7 @@
       "close_fair_odds": 1.7518,
       "clv_pct": null,
       "close_fair_p": 0.570853933933829,
-      "close_ts": 1786769359.205003,
+      "close_ts": 1786769989.178253,
       "close_provisional": true
     },
     {
@@ -21412,7 +21412,7 @@
       "close_fair_odds": 1.9081,
       "clv_pct": null,
       "close_fair_p": 0.5240868891442008,
-      "close_ts": 1786769359.205003,
+      "close_ts": 1786769989.178253,
       "close_provisional": true
     },
     {
@@ -21502,7 +21502,7 @@
       "close_fair_odds": 1.8703,
       "clv_pct": null,
       "close_fair_p": 0.5346592883684872,
-      "close_ts": 1786769359.205003,
+      "close_ts": 1786769989.178253,
       "close_provisional": true
     },
     {
@@ -21532,7 +21532,7 @@
       "close_fair_odds": 1.7282,
       "clv_pct": null,
       "close_fair_p": 0.5786450408339098,
-      "close_ts": 1786769359.205003,
+      "close_ts": 1786769989.178253,
       "close_provisional": true
     },
     {
@@ -21562,7 +21562,7 @@
       "close_fair_odds": 1.9916,
       "clv_pct": null,
       "close_fair_p": 0.5020998969861856,
-      "close_ts": 1786769359.205003,
+      "close_ts": 1786769989.178253,
       "close_provisional": true
     },
     {
@@ -21652,7 +21652,37 @@
       "close_fair_odds": 1.8277,
       "clv_pct": null,
       "close_fair_p": 0.5471347417471661,
-      "close_ts": 1786769359.205003,
+      "close_ts": 1786769989.178253,
+      "close_provisional": true
+    },
+    {
+      "id": 716,
+      "ts": 1786769899.177851,
+      "key": "67:17373379:ah:-15.5:away",
+      "content_key": "mogidascruzes|baurubasketsp|ah:-15.5:away|20260815",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-15.5:away",
+      "event": "Mogi das Cruzes - Bauru Basket SP",
+      "market": "ah",
+      "market_name": "Hendikep +15.5",
+      "tip": "Hendikep Bauru Basket SP (+15.5)",
+      "odds": 1.833,
+      "stake": 2100,
+      "value_pct": 7.17,
+      "fair_pct": 58.5,
+      "start": "2026-08-15T21:00:00+00:00",
+      "start_ts": 1786827600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7107,
+      "clv_pct": null,
+      "close_fair_p": 0.5845653769529202,
+      "close_ts": 1786769899.177851,
       "close_provisional": true
     }
   ],
@@ -22298,17 +22328,18 @@
     "rangers|magallanes|ou:2.5:over|20260815": 1786734534.28256,
     "csdeportivosayago|urupandepando|ml:home|20260814": 1786739873.660758,
     "csdeportivosayago|urupandepando|ah:-2.5:home|20260814": 1786739873.660758,
-    "lasvegasacesn|minnesotalynxn|ah:2.5:home|20260816": 1786768819.120648
+    "lasvegasacesn|minnesotalynxn|ah:2.5:home|20260816": 1786768819.120648,
+    "mogidascruzes|baurubasketsp|ah:-15.5:away|20260815": 1786769899.177851
   },
   "last_report_date": "2026-08-14",
-  "next_id": 716,
+  "next_id": 717,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786769359.205003,
+      "ts": 1786769989.178253,
       "ok": true,
-      "vegas_events": 1681,
-      "ref_events": 1425,
+      "vegas_events": 1685,
+      "ref_events": 1430,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
