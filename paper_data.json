@@ -21562,7 +21562,7 @@
       "close_fair_odds": 1.9916,
       "clv_pct": null,
       "close_fair_p": 0.5020998969861856,
-      "close_ts": 1786811365.337213,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -21652,7 +21652,7 @@
       "close_fair_odds": 1.9479,
       "clv_pct": null,
       "close_fair_p": 0.513376192451265,
-      "close_ts": 1786811455.37614,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -21682,7 +21682,7 @@
       "close_fair_odds": 1.976,
       "clv_pct": null,
       "close_fair_p": 0.5060688696396107,
-      "close_ts": 1786811455.37614,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -21712,7 +21712,7 @@
       "close_fair_odds": 1.7053,
       "clv_pct": null,
       "close_fair_p": 0.5864091065884788,
-      "close_ts": 1786811455.37614,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -21742,7 +21742,7 @@
       "close_fair_odds": 1.8401,
       "clv_pct": null,
       "close_fair_p": 0.5434339591881097,
-      "close_ts": 1786811455.37614,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0605,
       "clv_pct": null,
       "close_fair_p": 0.4853278955262921,
-      "close_ts": 1786811365.337213,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7484,
       "clv_pct": null,
       "close_fair_p": 0.5719470040996147,
-      "close_ts": 1786811365.337213,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -22282,7 +22282,7 @@
       "close_fair_odds": 1.7775,
       "clv_pct": null,
       "close_fair_p": 0.5625841184387618,
-      "close_ts": 1786811455.37614,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.7426,
       "clv_pct": null,
       "close_fair_p": 0.5738500844811576,
-      "close_ts": 1786811365.337213,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -22609,10 +22609,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6186,
+      "close_fair_odds": 1.83,
       "clv_pct": null,
-      "close_fair_p": 0.6178105208737236,
-      "close_ts": 1786811365.337213,
+      "close_fair_p": 0.5464480874316939,
+      "close_ts": 1786812085.330678,
       "close_provisional": true
     },
     {
@@ -22639,10 +22639,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6649,
+      "close_fair_odds": 2.0775,
       "clv_pct": null,
-      "close_fair_p": 0.600626310062631,
-      "close_ts": 1786811365.337213,
+      "close_fair_p": 0.48133723156723507,
+      "close_ts": 1786812085.330678,
+      "close_provisional": true
+    },
+    {
+      "id": 749,
+      "ts": 1786811545.33092,
+      "key": "66:17360456:ou:2.5:under",
+      "content_key": "aguilas|lorcadeportiva|ou:2.5:under|20260815",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "Aguilas - Lorca Deportiva",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 1.667,
+      "stake": 1600,
+      "value_pct": 4.21,
+      "fair_pct": 62.5,
+      "start": "2026-08-15T18:00:00+00:00",
+      "start_ts": 1786816800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5994,
+      "clv_pct": null,
+      "close_fair_p": 0.6252422167678594,
+      "close_ts": 1786811905.385328,
       "close_provisional": true
     }
   ],
@@ -23318,26 +23348,23 @@
     "montpellierhscn|toulousefcn|ml:home|20260815": 1786808473.844972,
     "connecticutsunn|newyorklibertyn|ou:169.5:over|20260815": 1786810093.869651,
     "zamoracfii|atleticoelvigia|ou:2.5:over|20260815": 1786810825.404645,
-    "atertbissen|fcprogresniederkorn|ml:home|20260816": 1786810915.388656
+    "atertbissen|fcprogresniederkorn|ml:home|20260816": 1786810915.388656,
+    "aguilas|lorcadeportiva|ou:2.5:under|20260815": 1786811545.33092
   },
   "last_report_date": "2026-08-15",
-  "next_id": 749,
+  "next_id": 750,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786811455.37614,
-      "ok": false,
-      "vegas_events": 210,
-      "ref_events": 84,
+      "ts": 1786812085.330678,
+      "ok": true,
+      "vegas_events": 1403,
+      "ref_events": 988,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786792935.3433938,
