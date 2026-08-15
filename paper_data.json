@@ -21562,7 +21562,7 @@
       "close_fair_odds": 1.9916,
       "clv_pct": null,
       "close_fair_p": 0.5020998969861856,
-      "close_ts": 1786810183.895223,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -21649,10 +21649,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9736,
+      "close_fair_odds": 1.9824,
       "clv_pct": null,
-      "close_fair_p": 0.5066825837593751,
-      "close_ts": 1786810183.895223,
+      "close_fair_p": 0.5044516547696302,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -21682,7 +21682,7 @@
       "close_fair_odds": 1.976,
       "clv_pct": null,
       "close_fair_p": 0.5060688696396107,
-      "close_ts": 1786810183.895223,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -21709,10 +21709,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7099,
+      "close_fair_odds": 1.7053,
       "clv_pct": null,
-      "close_fair_p": 0.5848264128874475,
-      "close_ts": 1786810183.895223,
+      "close_fair_p": 0.5864091065884788,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -21739,10 +21739,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8466,
+      "close_fair_odds": 1.8401,
       "clv_pct": null,
-      "close_fair_p": 0.5415238095238095,
-      "close_ts": 1786810183.895223,
+      "close_fair_p": 0.5434339591881097,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0605,
       "clv_pct": null,
       "close_fair_p": 0.4853278955262921,
-      "close_ts": 1786810183.895223,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7484,
       "clv_pct": null,
       "close_fair_p": 0.5719470040996147,
-      "close_ts": 1786810183.895223,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -22282,7 +22282,7 @@
       "close_fair_odds": 1.7775,
       "clv_pct": null,
       "close_fair_p": 0.5625841184387618,
-      "close_ts": 1786810183.895223,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.7426,
       "clv_pct": null,
       "close_fair_p": 0.5738500844811576,
-      "close_ts": 1786810183.895223,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -22519,10 +22519,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8343,
+      "close_fair_odds": 1.8478,
       "clv_pct": null,
-      "close_fair_p": 0.5451733808612692,
-      "close_ts": 1786809013.911198,
+      "close_fair_p": 0.541187490243014,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     },
     {
@@ -22583,6 +22583,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5444028581150051,
       "close_ts": 1786810183.895223,
+      "close_provisional": true
+    },
+    {
+      "id": 747,
+      "ts": 1786810825.404645,
+      "key": "66:17372338:ou:2.5:over",
+      "content_key": "zamoracfii|atleticoelvigia|ou:2.5:over|20260815",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:over",
+      "event": "Zamora CF II - Atletico El Vigia",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Több mint 2.5",
+      "odds": 1.8,
+      "stake": 3500,
+      "value_pct": 11.21,
+      "fair_pct": 61.8,
+      "start": "2026-08-15T19:30:00+00:00",
+      "start_ts": 1786822200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6186,
+      "clv_pct": null,
+      "close_fair_p": 0.6178105208737236,
+      "close_ts": 1786810825.404645,
       "close_provisional": true
     }
   ],
@@ -23256,17 +23286,18 @@
     "clubatleticoyalen|clublagomarn|ah:7.5:home|20260815": 1786798656.922679,
     "connecticutsunn|newyorklibertyn|ah:8.5:home|20260815": 1786807393.91853,
     "montpellierhscn|toulousefcn|ml:home|20260815": 1786808473.844972,
-    "connecticutsunn|newyorklibertyn|ou:169.5:over|20260815": 1786810093.869651
+    "connecticutsunn|newyorklibertyn|ou:169.5:over|20260815": 1786810093.869651,
+    "zamoracfii|atleticoelvigia|ou:2.5:over|20260815": 1786810825.404645
   },
   "last_report_date": "2026-08-15",
-  "next_id": 747,
+  "next_id": 748,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786810183.895223,
+      "ts": 1786810825.404645,
       "ok": true,
-      "vegas_events": 1392,
-      "ref_events": 956,
+      "vegas_events": 1399,
+      "ref_events": 1015,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
