@@ -21172,7 +21172,7 @@
       "close_fair_odds": 1.95,
       "clv_pct": null,
       "close_fair_p": 0.5128312889075675,
-      "close_ts": 1786775632.102072,
+      "close_ts": 1786776262.092305,
       "close_provisional": true
     },
     {
@@ -21232,7 +21232,7 @@
       "close_fair_odds": 1.7518,
       "clv_pct": null,
       "close_fair_p": 0.570853933933829,
-      "close_ts": 1786775632.102072,
+      "close_ts": 1786776262.092305,
       "close_provisional": true
     },
     {
@@ -21412,7 +21412,7 @@
       "close_fair_odds": 1.9081,
       "clv_pct": null,
       "close_fair_p": 0.5240868891442008,
-      "close_ts": 1786775632.102072,
+      "close_ts": 1786776262.092305,
       "close_provisional": true
     },
     {
@@ -21502,7 +21502,7 @@
       "close_fair_odds": 1.8703,
       "clv_pct": null,
       "close_fair_p": 0.5346592883684872,
-      "close_ts": 1786775632.102072,
+      "close_ts": 1786776262.092305,
       "close_provisional": true
     },
     {
@@ -21532,7 +21532,7 @@
       "close_fair_odds": 1.5749,
       "clv_pct": null,
       "close_fair_p": 0.6349423692183825,
-      "close_ts": 1786775632.102072,
+      "close_ts": 1786776262.092305,
       "close_provisional": true
     },
     {
@@ -21562,7 +21562,7 @@
       "close_fair_odds": 1.9916,
       "clv_pct": null,
       "close_fair_p": 0.5020998969861856,
-      "close_ts": 1786775632.102072,
+      "close_ts": 1786776262.092305,
       "close_provisional": true
     },
     {
@@ -21649,10 +21649,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8504,
+      "close_fair_odds": 1.8409,
       "clv_pct": null,
-      "close_fair_p": 0.5404129174427451,
-      "close_ts": 1786775632.102072,
+      "close_fair_p": 0.5432072847508331,
+      "close_ts": 1786776262.092305,
       "close_provisional": true
     },
     {
@@ -21709,10 +21709,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.571,
+      "close_fair_odds": 1.5642,
       "clv_pct": null,
-      "close_fair_p": 0.6365534450272444,
-      "close_ts": 1786775632.102072,
+      "close_fair_p": 0.6392856236840103,
+      "close_ts": 1786776262.092305,
       "close_provisional": true
     },
     {
@@ -21739,10 +21739,70 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6984,
+      "close_fair_odds": 1.7089,
       "clv_pct": null,
-      "close_fair_p": 0.5887838017850006,
-      "close_ts": 1786775632.102072,
+      "close_fair_p": 0.5851703406813628,
+      "close_ts": 1786776262.092305,
+      "close_provisional": true
+    },
+    {
+      "id": 719,
+      "ts": 1786776262.092305,
+      "key": "66:17355410:ou:3.5:over",
+      "content_key": "budapesthonvdfcn|szekszrdiwfcn|ou:3.5:over|20260815",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Budapest Honvéd FC (N) - Szekszárdi WFC (N)",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.7,
+      "stake": 1800,
+      "value_pct": 5.04,
+      "fair_pct": 61.8,
+      "start": "2026-08-15T14:00:00+00:00",
+      "start_ts": 1786802400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6184,
+      "clv_pct": null,
+      "close_fair_p": 0.6179089752576785,
+      "close_ts": 1786776262.092305,
+      "close_provisional": true
+    },
+    {
+      "id": 720,
+      "ts": 1786776262.092305,
+      "key": "66:17377262:ou:2.5:over",
+      "content_key": "mallorcab|atleticobaleares|ou:2.5:over|20260815",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:over",
+      "event": "Mallorca B - Atletico Baleares",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Több mint 2.5",
+      "odds": 1.96,
+      "stake": 1400,
+      "value_pct": 5.49,
+      "fair_pct": 53.8,
+      "start": "2026-08-15T08:00:00+00:00",
+      "start_ts": 1786780800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.858,
+      "clv_pct": null,
+      "close_fair_p": 0.5382102500937183,
+      "close_ts": 1786776262.092305,
       "close_provisional": true
     }
   ],
@@ -22391,17 +22451,19 @@
     "lasvegasacesn|minnesotalynxn|ah:2.5:home|20260816": 1786768819.120648,
     "mogidascruzes|baurubasketsp|ah:-15.5:away|20260815": 1786769899.177851,
     "lobosplateadosdelabuap|doradosdechihuahua|ml:away|20260815": 1786775632.102072,
-    "lobosplateadosdelabuap|doradosdechihuahua|ah:2.5:away|20260815": 1786775632.102072
+    "lobosplateadosdelabuap|doradosdechihuahua|ah:2.5:away|20260815": 1786775632.102072,
+    "budapesthonvdfcn|szekszrdiwfcn|ou:3.5:over|20260815": 1786776262.092305,
+    "mallorcab|atleticobaleares|ou:2.5:over|20260815": 1786776262.092305
   },
   "last_report_date": "2026-08-14",
-  "next_id": 719,
+  "next_id": 721,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786775632.102072,
+      "ts": 1786776262.092305,
       "ok": true,
       "vegas_events": 1704,
-      "ref_events": 1481,
+      "ref_events": 1482,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
