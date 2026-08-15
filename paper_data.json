@@ -21502,7 +21502,7 @@
       "close_fair_odds": 1.8703,
       "clv_pct": null,
       "close_fair_p": 0.5346592883684872,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -21562,7 +21562,7 @@
       "close_fair_odds": 1.9916,
       "clv_pct": null,
       "close_fair_p": 0.5020998969861856,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -21682,7 +21682,7 @@
       "close_fair_odds": 1.976,
       "clv_pct": null,
       "close_fair_p": 0.5060688696396107,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -21712,7 +21712,7 @@
       "close_fair_odds": 1.7085,
       "clv_pct": null,
       "close_fair_p": 0.585308750365818,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -21742,7 +21742,7 @@
       "close_fair_odds": 1.8466,
       "clv_pct": null,
       "close_fair_p": 0.5415238095238095,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0605,
       "clv_pct": null,
       "close_fair_p": 0.4853278955262921,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7484,
       "clv_pct": null,
       "close_fair_p": 0.5719470040996147,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -22162,7 +22162,7 @@
       "close_fair_odds": 2.0201,
       "clv_pct": null,
       "close_fair_p": 0.4950172739573296,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -22192,7 +22192,7 @@
       "close_fair_odds": 2.1774,
       "clv_pct": null,
       "close_fair_p": 0.45926012189290255,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -22279,10 +22279,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7576,
+      "close_fair_odds": 1.7986,
       "clv_pct": null,
-      "close_fair_p": 0.5689595018920588,
-      "close_ts": 1786792205.652581,
+      "close_fair_p": 0.5559753859440787,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     },
     {
@@ -22402,12 +22402,71 @@
       "close_fair_odds": 1.6993,
       "clv_pct": null,
       "close_fair_p": 0.5884913068820128,
-      "close_ts": 1786795813.753263,
+      "close_ts": 1786797126.986051,
+      "close_provisional": true
+    },
+    {
+      "id": 741,
+      "ts": 1786797126.986051,
+      "key": "66:17392703:ml:home",
+      "content_key": "fjolnirreykjavikn|einherji|ml:home|20260815",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Fjolnir Reykjavik (N) - Einherji",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Fjolnir Reykjavik (N)",
+      "odds": 1.857,
+      "stake": 900,
+      "value_pct": 3.09,
+      "fair_pct": 55.5,
+      "start": "2026-08-15T14:00:00+00:00",
+      "start_ts": 1786802400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8015,
+      "clv_pct": null,
+      "close_fair_p": 0.5550978898573641,
+      "close_ts": 1786797126.986051,
+      "close_provisional": true
+    },
+    {
+      "id": 742,
+      "ts": 1786797126.986051,
+      "key": "67:17345703:ou:172.5:over",
+      "content_key": "fuerzaregia|freserosdeirapuato|ou:172.5:over|20260815",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:172.5:over",
+      "event": "Fuerza Regia - Freseros de Irapuato",
+      "market": "ou",
+      "market_name": "O/U 172.5",
+      "tip": "Több mint 172.5",
+      "odds": 1.833,
+      "stake": 900,
+      "value_pct": 3.14,
+      "fair_pct": 56.3,
+      "start": "2026-08-15T22:15:00+00:00",
+      "start_ts": 1786832100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7775,
+      "clv_pct": null,
+      "close_fair_p": 0.5625841184387618,
+      "close_ts": 1786797126.986051,
       "close_provisional": true
     }
   ],
   "papered": {
-    "gonzalezmgonzalezs|kokkinakistkovacevica|ml:home|20260701": 1782908559.201532,
     "christiefsilvae|birrellkgibsont|ml:away|20260702": 1782909459.198304,
     "melicharmartineznroutliffee|kostyukmrusee|ml:away|20260702": 1782909459.198304,
     "uganda|angola|ah:24.5:home|20260702": 1782977362.312326,
@@ -23073,17 +23132,19 @@
     "rockinghamflames|geraldtonbuccaneers|ou:186.5:under|20260815": 1786792025.677246,
     "araratarmenia|fcvan|ou:2.5:over|20260815": 1786794553.758515,
     "araratarmenia|fcvan|ou:3.5:over|20260815": 1786794823.758196,
-    "sandviken|jerv|ml:away|20260816": 1786795453.757739
+    "sandviken|jerv|ml:away|20260816": 1786795453.757739,
+    "fjolnirreykjavikn|einherji|ml:home|20260815": 1786797126.986051,
+    "fuerzaregia|freserosdeirapuato|ou:172.5:over|20260815": 1786797126.986051
   },
   "last_report_date": "2026-08-15",
-  "next_id": 741,
+  "next_id": 743,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786795813.753263,
+      "ts": 1786797126.986051,
       "ok": true,
-      "vegas_events": 1597,
-      "ref_events": 1385,
+      "vegas_events": 1599,
+      "ref_events": 1395,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
