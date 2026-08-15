@@ -21230,10 +21230,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.756,
-      "clv_pct": null,
+      "clv_pct": 3.53,
       "close_fair_p": 0.5694665035958086,
-      "close_ts": 1786790405.649857,
-      "close_provisional": true
+      "close_ts": 1786790945.649326,
+      "close_provisional": false
     },
     {
       "id": 702,
@@ -21502,7 +21502,7 @@
       "close_fair_odds": 1.8703,
       "clv_pct": null,
       "close_fair_p": 0.5346592883684872,
-      "close_ts": 1786790405.649857,
+      "close_ts": 1786790945.649326,
       "close_provisional": true
     },
     {
@@ -21562,7 +21562,7 @@
       "close_fair_odds": 1.9916,
       "clv_pct": null,
       "close_fair_p": 0.5020998969861856,
-      "close_ts": 1786790405.649857,
+      "close_ts": 1786790945.649326,
       "close_provisional": true
     },
     {
@@ -21712,7 +21712,7 @@
       "close_fair_odds": 1.7085,
       "clv_pct": null,
       "close_fair_p": 0.585308750365818,
-      "close_ts": 1786790405.649857,
+      "close_ts": 1786791035.625802,
       "close_provisional": true
     },
     {
@@ -21742,7 +21742,7 @@
       "close_fair_odds": 1.8466,
       "clv_pct": null,
       "close_fair_p": 0.5415238095238095,
-      "close_ts": 1786790405.649857,
+      "close_ts": 1786791035.625802,
       "close_provisional": true
     },
     {
@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0605,
       "clv_pct": null,
       "close_fair_p": 0.4853278955262921,
-      "close_ts": 1786790405.649857,
+      "close_ts": 1786790945.649326,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7484,
       "clv_pct": null,
       "close_fair_p": 0.5719470040996147,
-      "close_ts": 1786790405.649857,
+      "close_ts": 1786790945.649326,
       "close_provisional": true
     },
     {
@@ -22162,7 +22162,7 @@
       "close_fair_odds": 2.0201,
       "clv_pct": null,
       "close_fair_p": 0.4950172739573296,
-      "close_ts": 1786790405.649857,
+      "close_ts": 1786790945.649326,
       "close_provisional": true
     },
     {
@@ -22192,7 +22192,7 @@
       "close_fair_odds": 2.2183,
       "clv_pct": null,
       "close_fair_p": 0.45078796300663965,
-      "close_ts": 1786790405.649857,
+      "close_ts": 1786790945.649326,
       "close_provisional": true
     },
     {
@@ -22220,10 +22220,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.7629,
-      "clv_pct": null,
+      "clv_pct": 3.98,
       "close_fair_p": 0.5672347975697618,
-      "close_ts": 1786790405.649857,
-      "close_provisional": true
+      "close_ts": 1786790945.649326,
+      "close_provisional": false
     },
     {
       "id": 735,
@@ -22249,10 +22249,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.2911,
+      "close_fair_odds": 1.5622,
+      "clv_pct": -12.69,
+      "close_fair_p": 0.6401190919240789,
+      "close_ts": 1786791035.625802,
+      "close_provisional": false
+    },
+    {
+      "id": 736,
+      "ts": 1786790495.625235,
+      "key": "67:17345542:ou:162.5:under",
+      "content_key": "sutherlandsharks|northsbears|ou:162.5:under|20260816",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:162.5:under",
+      "event": "Sutherland Sharks - Norths Bears",
+      "market": "ou",
+      "market_name": "O/U 162.5",
+      "tip": "Kevesebb mint 162.5",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.31,
+      "fair_pct": 56.9,
+      "start": "2026-08-16T05:30:00+00:00",
+      "start_ts": 1786858200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7576,
       "clv_pct": null,
-      "close_fair_p": 0.7745430958830936,
-      "close_ts": 1786790405.649857,
+      "close_fair_p": 0.5689595018920588,
+      "close_ts": 1786791035.625802,
       "close_provisional": true
     }
   ],
@@ -22918,22 +22948,28 @@
     "fzesabonysc|kisvrdamastergoodii|ml:away|20260815": 1786787194.43772,
     "termlfrdfctiszajvros|tiszafredivse|ml:away|20260815": 1786787194.43772,
     "notodden|brattvag|ou:2.5:over|20260815": 1786787374.459076,
-    "dongbupromy|chinesetaipei|ml:home|20260815": 1786790405.649857
+    "dongbupromy|chinesetaipei|ml:home|20260815": 1786790405.649857,
+    "sutherlandsharks|northsbears|ou:162.5:under|20260816": 1786790495.625235
   },
   "last_report_date": "2026-08-15",
-  "next_id": 736,
+  "next_id": 737,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786790405.649857,
-      "ok": true,
-      "vegas_events": 1630,
-      "ref_events": 1444,
+      "ts": 1786791035.625802,
+      "ok": false,
+      "vegas_events": 198,
+      "ref_events": 112,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 2 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0; [70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1786765143.2121177,
