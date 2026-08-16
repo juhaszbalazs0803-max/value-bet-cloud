@@ -22069,10 +22069,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.0276,
+      "close_fair_odds": 2.0185,
       "clv_pct": null,
-      "close_fair_p": 0.4932000457483357,
-      "close_ts": 1786825105.260239,
+      "close_fair_p": 0.49540942718002834,
+      "close_ts": 1786862150.90321,
       "close_provisional": true
     },
     {
@@ -22099,10 +22099,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7484,
+      "close_fair_odds": 1.7316,
       "clv_pct": null,
-      "close_fair_p": 0.5719470040996147,
-      "close_ts": 1786825105.260239,
+      "close_fair_p": 0.5775025294101586,
+      "close_ts": 1786862150.90321,
       "close_provisional": true
     },
     {
@@ -22399,10 +22399,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7426,
+      "close_fair_odds": 1.72,
       "clv_pct": null,
-      "close_fair_p": 0.5738500844811576,
-      "close_ts": 1786825105.260239,
+      "close_fair_p": 0.5813947136864397,
+      "close_ts": 1786862150.90321,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0775,
       "clv_pct": null,
       "close_fair_p": 0.48133723156723507,
-      "close_ts": 1786825105.260239,
+      "close_ts": 1786862150.90321,
       "close_provisional": true
     },
     {
@@ -22739,6 +22739,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5689486358464104,
       "close_ts": 1786820864.461637,
+      "close_provisional": true
+    },
+    {
+      "id": 752,
+      "ts": 1786862150.90321,
+      "key": "67:17384783:ml:away",
+      "content_key": "chinesetaipei|stronggroupph|ml:away|20260816",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Chinese Taipei - Strong Group Ph",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Strong Group Ph",
+      "odds": 1.667,
+      "stake": 1900,
+      "value_pct": 4.95,
+      "fair_pct": 63.0,
+      "start": "2026-08-16T11:00:00+00:00",
+      "start_ts": 1786878000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5881,
+      "clv_pct": null,
+      "close_fair_p": 0.6296723696753801,
+      "close_ts": 1786862150.90321,
       "close_provisional": true
     }
   ],
@@ -23417,33 +23447,26 @@
     "atertbissen|fcprogresniederkorn|ml:home|20260816": 1786810915.388656,
     "aguilas|lorcadeportiva|ou:2.5:under|20260815": 1786811545.33092,
     "minerosdezacatecas|astrosdejalisco|ou:170.5:under|20260816": 1786813795.334616,
-    "lobosplateadosdelabuap|doradosdechihuahua|ah:1.5:away|20260815": 1786818292.605261
+    "lobosplateadosdelabuap|doradosdechihuahua|ah:1.5:away|20260815": 1786818292.605261,
+    "chinesetaipei|stronggroupph|ml:away|20260816": 1786862150.90321
   },
   "last_report_date": "2026-08-15",
-  "next_id": 752,
+  "next_id": 753,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786858751.337578,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1786862150.90321,
+      "ok": true,
+      "vegas_events": 1317,
+      "ref_events": 1015,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786849223.534463,
-    "alert_active": true
+    "alert_active": false
   }
 }
