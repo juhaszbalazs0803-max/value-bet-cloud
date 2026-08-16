@@ -23128,10 +23128,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6464,
+      "close_fair_odds": 1.7235,
       "clv_pct": null,
-      "close_fair_p": 0.6073963966272842,
-      "close_ts": 1786908132.402879,
+      "close_fair_p": 0.5802252946864954,
+      "close_ts": 1786908813.065278,
       "close_provisional": true
     },
     {
@@ -23248,10 +23248,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.1102,
+      "close_fair_odds": 2.0286,
       "clv_pct": null,
-      "close_fair_p": 0.47387950134806867,
-      "close_ts": 1786908132.402879,
+      "close_fair_p": 0.4929551055394836,
+      "close_ts": 1786908813.065278,
       "close_provisional": true
     },
     {
@@ -23278,10 +23278,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.004,
+      "close_fair_odds": 1.9304,
       "clv_pct": null,
-      "close_fair_p": 0.49899509606881587,
-      "close_ts": 1786908132.402879,
+      "close_fair_p": 0.5180206715578642,
+      "close_ts": 1786908813.065278,
       "close_provisional": true
     },
     {
@@ -23401,7 +23401,7 @@
       "close_fair_odds": 1.387,
       "clv_pct": 3.03,
       "close_fair_p": 0.7209714141158614,
-      "close_ts": 1786908132.402879,
+      "close_ts": 1786908813.065278,
       "close_provisional": false
     }
   ],
@@ -24105,14 +24105,14 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786908132.402879,
+      "ts": 1786908813.065278,
       "ok": true,
-      "vegas_events": 1004,
-      "ref_events": 718,
+      "vegas_events": 1003,
+      "ref_events": 747,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {
-        "70": "0 referencia-esemény 24 vegas meccs mellett"
+        "70": "0 referencia-esemény 23 vegas meccs mellett"
       },
       "sports_err": {},
       "problems": [],
