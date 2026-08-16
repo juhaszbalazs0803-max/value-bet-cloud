@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.6568,
       "clv_pct": null,
       "close_fair_p": 0.6035792913683137,
-      "close_ts": 1786875293.018236,
+      "close_ts": 1786875621.304263,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0436,
       "clv_pct": null,
       "close_fair_p": 0.4893327368134256,
-      "close_ts": 1786875293.018236,
+      "close_ts": 1786875621.304263,
       "close_provisional": true
     },
     {
@@ -22765,10 +22765,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5055,
+      "close_fair_odds": 1.5079,
       "clv_pct": null,
-      "close_fair_p": 0.6642119702548551,
-      "close_ts": 1786875383.016169,
+      "close_fair_p": 0.6631619562071959,
+      "close_ts": 1786875621.304263,
       "close_provisional": true
     },
     {
@@ -22798,7 +22798,7 @@
       "close_fair_odds": 1.9669,
       "clv_pct": null,
       "close_fair_p": 0.5084213305174234,
-      "close_ts": 1786875293.018236,
+      "close_ts": 1786875621.304263,
       "close_provisional": true
     },
     {
@@ -22828,7 +22828,7 @@
       "close_fair_odds": 1.7184,
       "clv_pct": null,
       "close_fair_p": 0.5819514344200829,
-      "close_ts": 1786875293.018236,
+      "close_ts": 1786875621.304263,
       "close_provisional": true
     },
     {
@@ -22855,10 +22855,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.2029,
+      "close_fair_odds": 2.1935,
       "clv_pct": null,
-      "close_fair_p": 0.45394491502850143,
-      "close_ts": 1786875383.016169,
+      "close_fair_p": 0.45588392190333943,
+      "close_ts": 1786875621.304263,
       "close_provisional": true
     },
     {
@@ -22889,6 +22889,36 @@
       "clv_pct": null,
       "close_fair_p": 0.6449346282215364,
       "close_ts": 1786869379.369266,
+      "close_provisional": true
+    },
+    {
+      "id": 757,
+      "ts": 1786875621.304263,
+      "key": "67:17345705:ou:160.5:over",
+      "content_key": "lobosplateadosdelabuap|doradosdechihuahua|ou:160.5:over|20260816",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:160.5:over",
+      "event": "Lobos Plateados de la Buap - Dorados de Chihuahua",
+      "market": "ou",
+      "market_name": "O/U 160.5",
+      "tip": "Több mint 160.5",
+      "odds": 1.87,
+      "stake": 1500,
+      "value_pct": 5.18,
+      "fair_pct": 56.3,
+      "start": "2026-08-16T23:00:00+00:00",
+      "start_ts": 1786921200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7775,
+      "clv_pct": null,
+      "close_fair_p": 0.5625841184387618,
+      "close_ts": 1786875621.304263,
       "close_provisional": true
     }
   ],
@@ -23571,27 +23601,23 @@
     "lanmi|luizafullana|ml:away|20260816": 1786862241.626078,
     "bentintacnaheroica|sporthuancayoreserve|ml:home|20260816": 1786862960.904935,
     "chinesetaipei|stronggroupph|ah:4.5:home|20260816": 1786863860.926744,
-    "gimnasiayesgrimadechivilcoy|sanmartinformosa|ou:2.5:under|20260816": 1786865030.922672
+    "gimnasiayesgrimadechivilcoy|sanmartinformosa|ou:2.5:under|20260816": 1786865030.922672,
+    "lobosplateadosdelabuap|doradosdechihuahua|ou:160.5:over|20260816": 1786875621.304263
   },
   "last_report_date": "2026-08-16",
-  "next_id": 757,
+  "next_id": 758,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786875383.016169,
-      "ok": false,
-      "vegas_events": 96,
-      "ref_events": 33,
+      "ts": 1786875621.304263,
+      "ok": true,
+      "vegas_events": 1335,
+      "ref_events": 1023,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 2 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1786849223.534463,
