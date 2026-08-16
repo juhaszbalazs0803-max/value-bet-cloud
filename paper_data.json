@@ -23131,7 +23131,7 @@
       "close_fair_odds": 1.6251,
       "clv_pct": null,
       "close_fair_p": 0.6153376729048007,
-      "close_ts": 1786912154.62193,
+      "close_ts": 1786912784.673963,
       "close_provisional": true
     },
     {
@@ -23251,7 +23251,7 @@
       "close_fair_odds": 2.0623,
       "clv_pct": null,
       "close_fair_p": 0.48490197651715744,
-      "close_ts": 1786912154.62193,
+      "close_ts": 1786912784.673963,
       "close_provisional": true
     },
     {
@@ -23278,10 +23278,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9304,
+      "close_fair_odds": 1.9608,
       "clv_pct": null,
-      "close_fair_p": 0.5180206715578642,
-      "close_ts": 1786910694.98878,
+      "close_fair_p": 0.5099938293134441,
+      "close_ts": 1786912784.673963,
       "close_provisional": true
     },
     {
@@ -23458,10 +23458,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9357,
+      "close_fair_odds": 1.9781,
       "clv_pct": null,
-      "close_fair_p": 0.5166138829759618,
-      "close_ts": 1786912154.62193,
+      "close_fair_p": 0.505527664334209,
+      "close_ts": 1786912784.673963,
       "close_provisional": true
     },
     {
@@ -23491,7 +23491,7 @@
       "close_fair_odds": 1.9659,
       "clv_pct": null,
       "close_fair_p": 0.5086635606972726,
-      "close_ts": 1786912154.62193,
+      "close_ts": 1786912244.684015,
       "close_provisional": true
     }
   ],
@@ -24198,14 +24198,14 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786912154.62193,
+      "ts": 1786912784.673963,
       "ok": true,
-      "vegas_events": 1013,
-      "ref_events": 729,
+      "vegas_events": 1009,
+      "ref_events": 724,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {
-        "70": "0 referencia-esemény 23 vegas meccs mellett"
+        "70": "0 referencia-esemény 24 vegas meccs mellett"
       },
       "sports_err": {},
       "problems": [],
