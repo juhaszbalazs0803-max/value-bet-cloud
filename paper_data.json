@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0185,
       "clv_pct": null,
       "close_fair_p": 0.49540942718002834,
-      "close_ts": 1786862150.90321,
+      "close_ts": 1786862780.955637,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7316,
       "clv_pct": null,
       "close_fair_p": 0.5775025294101586,
-      "close_ts": 1786862150.90321,
+      "close_ts": 1786862780.955637,
       "close_provisional": true
     },
     {
@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.72,
       "clv_pct": null,
       "close_fair_p": 0.5813947136864397,
-      "close_ts": 1786862150.90321,
+      "close_ts": 1786862780.955637,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0775,
       "clv_pct": null,
       "close_fair_p": 0.48133723156723507,
-      "close_ts": 1786862150.90321,
+      "close_ts": 1786862780.955637,
       "close_provisional": true
     },
     {
@@ -22768,7 +22768,37 @@
       "close_fair_odds": 1.5881,
       "clv_pct": null,
       "close_fair_p": 0.6296723696753801,
-      "close_ts": 1786862150.90321,
+      "close_ts": 1786862780.955637,
+      "close_provisional": true
+    },
+    {
+      "id": 753,
+      "ts": 1786862241.626078,
+      "key": "68:17401687:ml:away",
+      "content_key": "lanmi|luizafullana|ml:away|20260816",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Lan Mi - Luiza Fullana",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Luiza Fullana",
+      "odds": 2.0,
+      "stake": 1300,
+      "value_pct": 5.12,
+      "fair_pct": 52.6,
+      "start": "2026-08-16T15:00:00+00:00",
+      "start_ts": 1786892400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9025,
+      "clv_pct": null,
+      "close_fair_p": 0.5256117628324221,
+      "close_ts": 1786862780.955637,
       "close_provisional": true
     }
   ],
@@ -23448,17 +23478,18 @@
     "aguilas|lorcadeportiva|ou:2.5:under|20260815": 1786811545.33092,
     "minerosdezacatecas|astrosdejalisco|ou:170.5:under|20260816": 1786813795.334616,
     "lobosplateadosdelabuap|doradosdechihuahua|ah:1.5:away|20260815": 1786818292.605261,
-    "chinesetaipei|stronggroupph|ml:away|20260816": 1786862150.90321
+    "chinesetaipei|stronggroupph|ml:away|20260816": 1786862150.90321,
+    "lanmi|luizafullana|ml:away|20260816": 1786862241.626078
   },
   "last_report_date": "2026-08-15",
-  "next_id": 753,
+  "next_id": 754,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786862150.90321,
+      "ts": 1786862780.955637,
       "ok": true,
-      "vegas_events": 1317,
-      "ref_events": 1015,
+      "vegas_events": 1328,
+      "ref_events": 1017,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
