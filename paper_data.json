@@ -23128,10 +23128,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7235,
+      "close_fair_odds": 1.6251,
       "clv_pct": null,
-      "close_fair_p": 0.5802252946864954,
-      "close_ts": 1786908813.065278,
+      "close_fair_p": 0.6153376729048007,
+      "close_ts": 1786909433.25703,
       "close_provisional": true
     },
     {
@@ -23251,7 +23251,7 @@
       "close_fair_odds": 2.0286,
       "clv_pct": null,
       "close_fair_p": 0.4929551055394836,
-      "close_ts": 1786908813.065278,
+      "close_ts": 1786909433.25703,
       "close_provisional": true
     },
     {
@@ -23281,7 +23281,7 @@
       "close_fair_odds": 1.9304,
       "clv_pct": null,
       "close_fair_p": 0.5180206715578642,
-      "close_ts": 1786908813.065278,
+      "close_ts": 1786909433.25703,
       "close_provisional": true
     },
     {
@@ -23403,6 +23403,36 @@
       "close_fair_p": 0.7209714141158614,
       "close_ts": 1786908813.065278,
       "close_provisional": false
+    },
+    {
+      "id": 774,
+      "ts": 1786909343.234584,
+      "key": "67:17345702:ou:171.5:over",
+      "content_key": "abejasdeleon|panterasdeaguascalientes|ou:171.5:over|20260817",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:171.5:over",
+      "event": "Abejas de Leon - Panteras de Aguascalientes",
+      "market": "ou",
+      "market_name": "O/U 171.5",
+      "tip": "Több mint 171.5",
+      "odds": 1.833,
+      "stake": 1000,
+      "value_pct": 3.42,
+      "fair_pct": 56.4,
+      "start": "2026-08-17T00:00:00+00:00",
+      "start_ts": 1786924800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7727,
+      "clv_pct": null,
+      "close_fair_p": 0.5641079713201181,
+      "close_ts": 1786909433.25703,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -24098,17 +24128,18 @@
     "bomjesusgo|gremioanapolis|ml:home|20260816": 1786896013.353671,
     "seattlestormn|chicagoskyn|ou:176.0:over|20260816": 1786901872.090403,
     "abejasdeleon|panterasdeaguascalientes|ah:-2.5:away|20260817": 1786901872.090403,
-    "liatausonc|danilinaakrunica|ml:away|20260816": 1786908132.402879
+    "liatausonc|danilinaakrunica|ml:away|20260816": 1786908132.402879,
+    "abejasdeleon|panterasdeaguascalientes|ou:171.5:over|20260817": 1786909343.234584
   },
   "last_report_date": "2026-08-16",
-  "next_id": 774,
+  "next_id": 775,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786908813.065278,
+      "ts": 1786909433.25703,
       "ok": true,
-      "vegas_events": 1003,
-      "ref_events": 747,
+      "vegas_events": 1008,
+      "ref_events": 736,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {
