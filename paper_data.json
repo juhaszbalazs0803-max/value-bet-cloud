@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0185,
       "clv_pct": null,
       "close_fair_p": 0.49540942718002834,
-      "close_ts": 1786864670.902306,
+      "close_ts": 1786865300.920296,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7316,
       "clv_pct": null,
       "close_fair_p": 0.5775025294101586,
-      "close_ts": 1786864670.902306,
+      "close_ts": 1786865300.920296,
       "close_provisional": true
     },
     {
@@ -22399,10 +22399,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.72,
+      "close_fair_odds": 1.6705,
       "clv_pct": null,
-      "close_fair_p": 0.5813947136864397,
-      "close_ts": 1786864670.902306,
+      "close_fair_p": 0.5986080503797458,
+      "close_ts": 1786865300.920296,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0775,
       "clv_pct": null,
       "close_fair_p": 0.48133723156723507,
-      "close_ts": 1786864670.902306,
+      "close_ts": 1786865300.920296,
       "close_provisional": true
     },
     {
@@ -22765,10 +22765,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7964,
+      "close_fair_odds": 1.6804,
       "clv_pct": null,
-      "close_fair_p": 0.5566841674801467,
-      "close_ts": 1786864670.902306,
+      "close_fair_p": 0.5950840879689521,
+      "close_ts": 1786865300.920296,
       "close_provisional": true
     },
     {
@@ -22798,7 +22798,7 @@
       "close_fair_odds": 1.9025,
       "clv_pct": null,
       "close_fair_p": 0.5256117628324221,
-      "close_ts": 1786864670.902306,
+      "close_ts": 1786865300.920296,
       "close_provisional": true
     },
     {
@@ -22828,7 +22828,7 @@
       "close_fair_odds": 1.7184,
       "clv_pct": null,
       "close_fair_p": 0.5819514344200829,
-      "close_ts": 1786864670.902306,
+      "close_ts": 1786865300.920296,
       "close_provisional": true
     },
     {
@@ -22855,10 +22855,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7471,
+      "close_fair_odds": 1.8265,
       "clv_pct": null,
-      "close_fair_p": 0.5723932367914325,
-      "close_ts": 1786864670.902306,
+      "close_fair_p": 0.547484243136417,
+      "close_ts": 1786865300.920296,
+      "close_provisional": true
+    },
+    {
+      "id": 756,
+      "ts": 1786865030.922672,
+      "key": "66:17334724:ou:2.5:under",
+      "content_key": "gimnasiayesgrimadechivilcoy|sanmartinformosa|ou:2.5:under|20260816",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "Gimnasia y Esgrima de Chivilcoy - San Martin Formosa",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 1.556,
+      "stake": 1600,
+      "value_pct": 3.61,
+      "fair_pct": 66.6,
+      "start": "2026-08-16T18:00:00+00:00",
+      "start_ts": 1786903200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5015,
+      "clv_pct": null,
+      "close_fair_p": 0.6660161014881679,
+      "close_ts": 1786865300.920296,
       "close_provisional": true
     }
   ],
@@ -23541,17 +23571,18 @@
     "chinesetaipei|stronggroupph|ml:away|20260816": 1786862150.90321,
     "lanmi|luizafullana|ml:away|20260816": 1786862241.626078,
     "bentintacnaheroica|sporthuancayoreserve|ml:home|20260816": 1786862960.904935,
-    "chinesetaipei|stronggroupph|ah:4.5:home|20260816": 1786863860.926744
+    "chinesetaipei|stronggroupph|ah:4.5:home|20260816": 1786863860.926744,
+    "gimnasiayesgrimadechivilcoy|sanmartinformosa|ou:2.5:under|20260816": 1786865030.922672
   },
   "last_report_date": "2026-08-15",
-  "next_id": 756,
+  "next_id": 757,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786864670.902306,
+      "ts": 1786865300.920296,
       "ok": true,
-      "vegas_events": 1333,
-      "ref_events": 1033,
+      "vegas_events": 1334,
+      "ref_events": 1039,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
