@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0439,
       "clv_pct": -9.68,
       "close_fair_p": 0.4892588010347543,
-      "close_ts": 1786868749.330601,
+      "close_ts": 1786868929.372236,
       "close_provisional": false
     },
     {
@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.6962,
       "clv_pct": null,
       "close_fair_p": 0.5895644536708052,
-      "close_ts": 1786868749.330601,
+      "close_ts": 1786869379.369266,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0775,
       "clv_pct": null,
       "close_fair_p": 0.48133723156723507,
-      "close_ts": 1786868749.330601,
+      "close_ts": 1786869379.369266,
       "close_provisional": true
     },
     {
@@ -22768,7 +22768,7 @@
       "close_fair_odds": 1.6862,
       "clv_pct": null,
       "close_fair_p": 0.5930491531568861,
-      "close_ts": 1786868749.330601,
+      "close_ts": 1786869379.369266,
       "close_provisional": true
     },
     {
@@ -22798,7 +22798,7 @@
       "close_fair_odds": 1.964,
       "clv_pct": null,
       "close_fair_p": 0.5091748013015416,
-      "close_ts": 1786868749.330601,
+      "close_ts": 1786869379.369266,
       "close_provisional": true
     },
     {
@@ -22828,7 +22828,7 @@
       "close_fair_odds": 1.7184,
       "clv_pct": null,
       "close_fair_p": 0.5819514344200829,
-      "close_ts": 1786868749.330601,
+      "close_ts": 1786869379.369266,
       "close_provisional": true
     },
     {
@@ -22858,7 +22858,7 @@
       "close_fair_odds": 1.8202,
       "clv_pct": null,
       "close_fair_p": 0.5493772835160146,
-      "close_ts": 1786868749.330601,
+      "close_ts": 1786869379.369266,
       "close_provisional": true
     },
     {
@@ -22888,7 +22888,7 @@
       "close_fair_odds": 1.5505,
       "clv_pct": null,
       "close_fair_p": 0.6449346282215364,
-      "close_ts": 1786868749.330601,
+      "close_ts": 1786869379.369266,
       "close_provisional": true
     }
   ],
@@ -23578,10 +23578,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786868749.330601,
+      "ts": 1786869379.369266,
       "ok": true,
-      "vegas_events": 1326,
-      "ref_events": 1023,
+      "vegas_events": 1322,
+      "ref_events": 1019,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
