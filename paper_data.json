@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.6613,
       "clv_pct": null,
       "close_fair_p": 0.6019421852525144,
-      "close_ts": 1786873492.966005,
+      "close_ts": 1786874123.015545,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0775,
       "clv_pct": null,
       "close_fair_p": 0.48133723156723507,
-      "close_ts": 1786873492.966005,
+      "close_ts": 1786874123.015545,
       "close_provisional": true
     },
     {
@@ -22765,10 +22765,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.514,
+      "close_fair_odds": 1.5055,
       "clv_pct": null,
-      "close_fair_p": 0.6605051775863737,
-      "close_ts": 1786873492.966005,
+      "close_fair_p": 0.6642119702548551,
+      "close_ts": 1786874123.015545,
       "close_provisional": true
     },
     {
@@ -22798,7 +22798,7 @@
       "close_fair_odds": 1.9669,
       "clv_pct": null,
       "close_fair_p": 0.5084213305174234,
-      "close_ts": 1786873492.966005,
+      "close_ts": 1786874123.015545,
       "close_provisional": true
     },
     {
@@ -22828,7 +22828,7 @@
       "close_fair_odds": 1.7184,
       "clv_pct": null,
       "close_fair_p": 0.5819514344200829,
-      "close_ts": 1786873492.966005,
+      "close_ts": 1786874123.015545,
       "close_provisional": true
     },
     {
@@ -22855,10 +22855,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.1806,
+      "close_fair_odds": 2.2029,
       "clv_pct": null,
-      "close_fair_p": 0.4585800394729824,
-      "close_ts": 1786873492.966005,
+      "close_fair_p": 0.45394491502850143,
+      "close_ts": 1786874123.015545,
       "close_provisional": true
     },
     {
@@ -23578,10 +23578,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786873492.966005,
+      "ts": 1786874123.015545,
       "ok": true,
-      "vegas_events": 1338,
-      "ref_events": 1039,
+      "vegas_events": 1341,
+      "ref_events": 1048,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
