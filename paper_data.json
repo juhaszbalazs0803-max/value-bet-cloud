@@ -22828,7 +22828,7 @@
       "close_fair_odds": 1.7184,
       "clv_pct": null,
       "close_fair_p": 0.5819514344200829,
-      "close_ts": 1786890060.171989,
+      "close_ts": 1786893493.495124,
       "close_provisional": true
     },
     {
@@ -23098,7 +23098,7 @@
       "close_fair_odds": 1.64,
       "clv_pct": null,
       "close_fair_p": 0.609771986970684,
-      "close_ts": 1786890060.171989,
+      "close_ts": 1786893493.495124,
       "close_provisional": true
     },
     {
@@ -23128,7 +23128,7 @@
       "close_fair_odds": 1.6629,
       "clv_pct": null,
       "close_fair_p": 0.6013497544707335,
-      "close_ts": 1786890060.171989,
+      "close_ts": 1786893493.495124,
       "close_provisional": true
     },
     {
@@ -23158,7 +23158,7 @@
       "close_fair_odds": 1.7702,
       "clv_pct": null,
       "close_fair_p": 0.5648953997513378,
-      "close_ts": 1786890060.171989,
+      "close_ts": 1786893493.495124,
       "close_provisional": true
     },
     {
@@ -23190,10 +23190,39 @@
       "close_fair_p": 0.5914857187329753,
       "close_ts": 1786890060.171989,
       "close_provisional": false
+    },
+    {
+      "id": 767,
+      "ts": 1786893493.495124,
+      "key": "67:17345705:ou:165.5:under",
+      "content_key": "lobosplateadosdelabuap|doradosdechihuahua|ou:165.5:under|20260816",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:165.5:under",
+      "event": "Lobos Plateados de la Buap - Dorados de Chihuahua",
+      "market": "ou",
+      "market_name": "O/U 165.5",
+      "tip": "Kevesebb mint 165.5",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.21,
+      "fair_pct": 56.8,
+      "start": "2026-08-16T23:00:00+00:00",
+      "start_ts": 1786921200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7593,
+      "clv_pct": null,
+      "close_fair_p": 0.5683950882084831,
+      "close_ts": 1786893493.495124,
+      "close_provisional": true
     }
   ],
   "papered": {
-    "connecticutsunn|dallaswingsn|ah:8.5:home|20260703": 1783005216.882621,
     "tianhuizhang|hanyiliu|ml:away|20260703": 1783046710.623668,
     "canterburyrams|manawatujets|ah:-7.5:away|20260703": 1783062641.516124,
     "amandaanisimova|madisonkeys|ml:away|20260704": 1783074256.549138,
@@ -23879,17 +23908,18 @@
     "pumasunam|queretaro|ou:2.5:over|20260816": 1786888170.182143,
     "minerosdezacatecas|astrosdejalisco|ml:away|20260817": 1786888260.191059,
     "minerosdezacatecas|astrosdejalisco|ah:1.5:away|20260817": 1786888260.191059,
-    "basel|fcbarcelona|ou:3.5:over|20260816": 1786889610.354629
+    "basel|fcbarcelona|ou:3.5:over|20260816": 1786889610.354629,
+    "lobosplateadosdelabuap|doradosdechihuahua|ou:165.5:under|20260816": 1786893493.495124
   },
   "last_report_date": "2026-08-16",
-  "next_id": 767,
+  "next_id": 768,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786890060.171989,
+      "ts": 1786893493.495124,
       "ok": true,
-      "vegas_events": 1230,
-      "ref_events": 974,
+      "vegas_events": 1172,
+      "ref_events": 909,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
