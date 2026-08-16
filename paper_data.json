@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0185,
       "clv_pct": null,
       "close_fair_p": 0.49540942718002834,
-      "close_ts": 1786862780.955637,
+      "close_ts": 1786863411.06822,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7316,
       "clv_pct": null,
       "close_fair_p": 0.5775025294101586,
-      "close_ts": 1786862780.955637,
+      "close_ts": 1786863411.06822,
       "close_provisional": true
     },
     {
@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.72,
       "clv_pct": null,
       "close_fair_p": 0.5813947136864397,
-      "close_ts": 1786862780.955637,
+      "close_ts": 1786863411.06822,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0775,
       "clv_pct": null,
       "close_fair_p": 0.48133723156723507,
-      "close_ts": 1786862780.955637,
+      "close_ts": 1786863411.06822,
       "close_provisional": true
     },
     {
@@ -22765,10 +22765,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5881,
+      "close_fair_odds": 1.6862,
       "clv_pct": null,
-      "close_fair_p": 0.6296723696753801,
-      "close_ts": 1786862780.955637,
+      "close_fair_p": 0.5930491531568861,
+      "close_ts": 1786863411.06822,
       "close_provisional": true
     },
     {
@@ -22798,7 +22798,37 @@
       "close_fair_odds": 1.9025,
       "clv_pct": null,
       "close_fair_p": 0.5256117628324221,
-      "close_ts": 1786862780.955637,
+      "close_ts": 1786863411.06822,
+      "close_provisional": true
+    },
+    {
+      "id": 754,
+      "ts": 1786862960.904935,
+      "key": "66:17366305:ml:home",
+      "content_key": "bentintacnaheroica|sporthuancayoreserve|ml:home|20260816",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Bentin Tacna Heroica - Sport Huancayo Reserve",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Bentin Tacna Heroica",
+      "odds": 1.714,
+      "stake": 2000,
+      "value_pct": 5.6,
+      "fair_pct": 61.6,
+      "start": "2026-08-16T18:15:00+00:00",
+      "start_ts": 1786904100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6234,
+      "clv_pct": null,
+      "close_fair_p": 0.6159967178808983,
+      "close_ts": 1786863411.06822,
       "close_provisional": true
     }
   ],
@@ -23479,17 +23509,18 @@
     "minerosdezacatecas|astrosdejalisco|ou:170.5:under|20260816": 1786813795.334616,
     "lobosplateadosdelabuap|doradosdechihuahua|ah:1.5:away|20260815": 1786818292.605261,
     "chinesetaipei|stronggroupph|ml:away|20260816": 1786862150.90321,
-    "lanmi|luizafullana|ml:away|20260816": 1786862241.626078
+    "lanmi|luizafullana|ml:away|20260816": 1786862241.626078,
+    "bentintacnaheroica|sporthuancayoreserve|ml:home|20260816": 1786862960.904935
   },
   "last_report_date": "2026-08-15",
-  "next_id": 754,
+  "next_id": 755,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786862780.955637,
+      "ts": 1786863411.06822,
       "ok": true,
-      "vegas_events": 1328,
-      "ref_events": 1017,
+      "vegas_events": 1329,
+      "ref_events": 1022,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
