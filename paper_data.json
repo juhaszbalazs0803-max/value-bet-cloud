@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.6548,
       "clv_pct": null,
       "close_fair_p": 0.6042975881196462,
-      "close_ts": 1786878141.301519,
+      "close_ts": 1786878771.305115,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0436,
       "clv_pct": null,
       "close_fair_p": 0.4893327368134256,
-      "close_ts": 1786878141.301519,
+      "close_ts": 1786878771.305115,
       "close_provisional": true
     },
     {
@@ -22795,10 +22795,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.1016,
+      "close_fair_odds": 2.1046,
       "clv_pct": null,
-      "close_fair_p": 0.47582047094769003,
-      "close_ts": 1786878141.301519,
+      "close_fair_p": 0.47515471185732566,
+      "close_ts": 1786878771.305115,
       "close_provisional": true
     },
     {
@@ -22828,7 +22828,7 @@
       "close_fair_odds": 1.7184,
       "clv_pct": null,
       "close_fair_p": 0.5819514344200829,
-      "close_ts": 1786878141.301519,
+      "close_ts": 1786878771.305115,
       "close_provisional": true
     },
     {
@@ -22949,6 +22949,66 @@
       "clv_pct": null,
       "close_fair_p": 0.592410877394436,
       "close_ts": 1786877061.233135,
+      "close_provisional": true
+    },
+    {
+      "id": 759,
+      "ts": 1786878321.30348,
+      "key": "67:17345704:ou:170.5:over",
+      "content_key": "correcaminosuatvictoria|elcalordecancun|ou:170.5:over|20260817",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:170.5:over",
+      "event": "Correcaminos UAT Victoria - El Calor de Cancun",
+      "market": "ou",
+      "market_name": "O/U 170.5",
+      "tip": "Több mint 170.5",
+      "odds": 1.833,
+      "stake": 900,
+      "value_pct": 3.04,
+      "fair_pct": 56.2,
+      "start": "2026-08-17T00:15:00+00:00",
+      "start_ts": 1786925700.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7794,
+      "clv_pct": null,
+      "close_fair_p": 0.5619941380515744,
+      "close_ts": 1786878501.236073,
+      "close_provisional": true
+    },
+    {
+      "id": 760,
+      "ts": 1786878591.303231,
+      "key": "66:17345555:ou:2.5:under",
+      "content_key": "fkbuducnostbanovici|radnikhadzici|ou:2.5:under|20260816",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "FK Buducnost Banovici - Radnik Hadzici",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 1.8,
+      "stake": 1200,
+      "value_pct": 3.74,
+      "fair_pct": 57.6,
+      "start": "2026-08-16T15:00:00+00:00",
+      "start_ts": 1786892400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7351,
+      "clv_pct": null,
+      "close_fair_p": 0.5763306066078827,
+      "close_ts": 1786878771.305115,
       "close_provisional": true
     }
   ],
@@ -23632,25 +23692,31 @@
     "chinesetaipei|stronggroupph|ah:4.5:home|20260816": 1786863860.926744,
     "gimnasiayesgrimadechivilcoy|sanmartinformosa|ou:2.5:under|20260816": 1786865030.922672,
     "lobosplateadosdelabuap|doradosdechihuahua|ou:160.5:over|20260816": 1786875621.304263,
-    "chinesetaipei|stronggroupph|ah:4.5:away|20260816": 1786876521.231726
+    "chinesetaipei|stronggroupph|ah:4.5:away|20260816": 1786876521.231726,
+    "correcaminosuatvictoria|elcalordecancun|ou:170.5:over|20260817": 1786878321.30348,
+    "fkbuducnostbanovici|radnikhadzici|ou:2.5:under|20260816": 1786878591.303231
   },
   "last_report_date": "2026-08-16",
-  "next_id": 759,
+  "next_id": 761,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786878141.301519,
-      "ok": true,
-      "vegas_events": 1311,
-      "ref_events": 1013,
+      "ts": 1786878771.305115,
+      "ok": false,
+      "vegas_events": 1300,
+      "ref_events": 1007,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
-    "last_alert_ts": 1786849223.534463,
-    "alert_active": false
+    "last_alert_ts": 1786878503.2732313,
+    "alert_active": true
   }
 }
