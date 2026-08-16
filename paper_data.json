@@ -22072,7 +22072,7 @@
       "close_fair_odds": 2.0185,
       "clv_pct": null,
       "close_fair_p": 0.49540942718002834,
-      "close_ts": 1786863411.06822,
+      "close_ts": 1786864040.907006,
       "close_provisional": true
     },
     {
@@ -22102,7 +22102,7 @@
       "close_fair_odds": 1.7316,
       "clv_pct": null,
       "close_fair_p": 0.5775025294101586,
-      "close_ts": 1786863411.06822,
+      "close_ts": 1786864040.907006,
       "close_provisional": true
     },
     {
@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.72,
       "clv_pct": null,
       "close_fair_p": 0.5813947136864397,
-      "close_ts": 1786863411.06822,
+      "close_ts": 1786864040.907006,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0775,
       "clv_pct": null,
       "close_fair_p": 0.48133723156723507,
-      "close_ts": 1786863411.06822,
+      "close_ts": 1786864040.907006,
       "close_provisional": true
     },
     {
@@ -22765,10 +22765,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6862,
+      "close_fair_odds": 1.7964,
       "clv_pct": null,
-      "close_fair_p": 0.5930491531568861,
-      "close_ts": 1786863411.06822,
+      "close_fair_p": 0.5566841674801467,
+      "close_ts": 1786864040.907006,
       "close_provisional": true
     },
     {
@@ -22798,7 +22798,7 @@
       "close_fair_odds": 1.9025,
       "clv_pct": null,
       "close_fair_p": 0.5256117628324221,
-      "close_ts": 1786863411.06822,
+      "close_ts": 1786864040.907006,
       "close_provisional": true
     },
     {
@@ -22825,10 +22825,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6234,
+      "close_fair_odds": 1.7184,
       "clv_pct": null,
-      "close_fair_p": 0.6159967178808983,
-      "close_ts": 1786863411.06822,
+      "close_fair_p": 0.5819514344200829,
+      "close_ts": 1786864040.907006,
+      "close_provisional": true
+    },
+    {
+      "id": 755,
+      "ts": 1786863860.926744,
+      "key": "67:17384783:ah:4.5:home",
+      "content_key": "chinesetaipei|stronggroupph|ah:4.5:home|20260816",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:4.5:home",
+      "event": "Chinese Taipei - Strong Group Ph",
+      "market": "ah",
+      "market_name": "Hendikep +4.5",
+      "tip": "Hendikep Chinese Taipei (+4.5)",
+      "odds": 1.833,
+      "stake": 1500,
+      "value_pct": 4.94,
+      "fair_pct": 57.2,
+      "start": "2026-08-16T11:00:00+00:00",
+      "start_ts": 1786878000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7471,
+      "clv_pct": null,
+      "close_fair_p": 0.5723932367914325,
+      "close_ts": 1786864040.907006,
       "close_provisional": true
     }
   ],
@@ -23510,17 +23540,18 @@
     "lobosplateadosdelabuap|doradosdechihuahua|ah:1.5:away|20260815": 1786818292.605261,
     "chinesetaipei|stronggroupph|ml:away|20260816": 1786862150.90321,
     "lanmi|luizafullana|ml:away|20260816": 1786862241.626078,
-    "bentintacnaheroica|sporthuancayoreserve|ml:home|20260816": 1786862960.904935
+    "bentintacnaheroica|sporthuancayoreserve|ml:home|20260816": 1786862960.904935,
+    "chinesetaipei|stronggroupph|ah:4.5:home|20260816": 1786863860.926744
   },
   "last_report_date": "2026-08-15",
-  "next_id": 755,
+  "next_id": 756,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786863411.06822,
+      "ts": 1786864040.907006,
       "ok": true,
-      "vegas_events": 1329,
-      "ref_events": 1022,
+      "vegas_events": 1325,
+      "ref_events": 1013,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
