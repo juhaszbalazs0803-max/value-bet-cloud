@@ -22831,7 +22831,7 @@
       "close_fair_odds": 1.7077,
       "clv_pct": null,
       "close_fair_p": 0.5855916035441804,
-      "close_ts": 1786900612.336587,
+      "close_ts": 1786901242.150619,
       "close_provisional": true
     },
     {
@@ -22888,10 +22888,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6021,
+      "close_fair_odds": 1.6449,
       "clv_pct": null,
-      "close_fair_p": 0.6241972771641409,
-      "close_ts": 1786889700.19646,
+      "close_fair_p": 0.6079420514810503,
+      "close_ts": 1786901242.150619,
       "close_provisional": true
     },
     {
@@ -23098,10 +23098,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6388,
+      "close_fair_odds": 1.8306,
       "clv_pct": null,
-      "close_fair_p": 0.6101975385251835,
-      "close_ts": 1786900612.336587,
+      "close_fair_p": 0.5462659006975791,
+      "close_ts": 1786901242.150619,
       "close_provisional": true
     },
     {
@@ -23131,7 +23131,7 @@
       "close_fair_odds": 1.6466,
       "clv_pct": null,
       "close_fair_p": 0.6073298429319371,
-      "close_ts": 1786900612.336587,
+      "close_ts": 1786901242.150619,
       "close_provisional": true
     },
     {
@@ -23251,7 +23251,7 @@
       "close_fair_odds": 1.9307,
       "clv_pct": null,
       "close_fair_p": 0.5179422904008065,
-      "close_ts": 1786900612.336587,
+      "close_ts": 1786901242.150619,
       "close_provisional": true
     },
     {
@@ -23281,7 +23281,7 @@
       "close_fair_odds": 1.8443,
       "clv_pct": null,
       "close_fair_p": 0.5422024847428073,
-      "close_ts": 1786900612.336587,
+      "close_ts": 1786901242.150619,
       "close_provisional": true
     },
     {
@@ -23311,7 +23311,7 @@
       "close_fair_odds": 1.7902,
       "clv_pct": null,
       "close_fair_p": 0.5585973951522702,
-      "close_ts": 1786900612.336587,
+      "close_ts": 1786901242.150619,
       "close_provisional": true
     }
   ],
@@ -24012,13 +24012,15 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786900612.336587,
+      "ts": 1786901242.150619,
       "ok": true,
-      "vegas_events": 1094,
-      "ref_events": 811,
+      "vegas_events": 1076,
+      "ref_events": 822,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
-      "ref_gap": {},
+      "ref_gap": {
+        "70": "0 referencia-esemény 21 vegas meccs mellett"
+      },
       "sports_err": {},
       "problems": [],
       "settle_err": null
