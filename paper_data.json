@@ -23131,7 +23131,7 @@
       "close_fair_odds": 1.6251,
       "clv_pct": null,
       "close_fair_p": 0.6153376729048007,
-      "close_ts": 1786909433.25703,
+      "close_ts": 1786910037.328606,
       "close_provisional": true
     },
     {
@@ -23251,7 +23251,7 @@
       "close_fair_odds": 2.0286,
       "clv_pct": null,
       "close_fair_p": 0.4929551055394836,
-      "close_ts": 1786909433.25703,
+      "close_ts": 1786910037.328606,
       "close_provisional": true
     },
     {
@@ -23281,7 +23281,7 @@
       "close_fair_odds": 1.9304,
       "clv_pct": null,
       "close_fair_p": 0.5180206715578642,
-      "close_ts": 1786909433.25703,
+      "close_ts": 1786910037.328606,
       "close_provisional": true
     },
     {
@@ -24136,10 +24136,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786909433.25703,
+      "ts": 1786910037.328606,
       "ok": true,
-      "vegas_events": 1008,
-      "ref_events": 736,
+      "vegas_events": 1013,
+      "ref_events": 743,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {
