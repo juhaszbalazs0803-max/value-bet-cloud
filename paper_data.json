@@ -22399,10 +22399,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6962,
+      "close_fair_odds": 1.6796,
       "clv_pct": null,
-      "close_fair_p": 0.5895644536708052,
-      "close_ts": 1786870639.440101,
+      "close_fair_p": 0.5953687967329689,
+      "close_ts": 1786871269.334099,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0775,
       "clv_pct": null,
       "close_fair_p": 0.48133723156723507,
-      "close_ts": 1786870639.440101,
+      "close_ts": 1786871269.334099,
       "close_provisional": true
     },
     {
@@ -22765,10 +22765,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5585,
+      "close_fair_odds": 1.5768,
       "clv_pct": null,
-      "close_fair_p": 0.6416608859379644,
-      "close_ts": 1786870639.440101,
+      "close_fair_p": 0.6341914059574044,
+      "close_ts": 1786871269.334099,
       "close_provisional": true
     },
     {
@@ -22795,10 +22795,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.964,
+      "close_fair_odds": 1.9669,
       "clv_pct": null,
-      "close_fair_p": 0.5091748013015416,
-      "close_ts": 1786870639.440101,
+      "close_fair_p": 0.5084213305174234,
+      "close_ts": 1786871269.334099,
       "close_provisional": true
     },
     {
@@ -22828,7 +22828,7 @@
       "close_fair_odds": 1.7184,
       "clv_pct": null,
       "close_fair_p": 0.5819514344200829,
-      "close_ts": 1786870639.440101,
+      "close_ts": 1786871269.334099,
       "close_provisional": true
     },
     {
@@ -22855,10 +22855,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.0246,
+      "close_fair_odds": 1.992,
       "clv_pct": null,
-      "close_fair_p": 0.49393113036038927,
-      "close_ts": 1786870639.440101,
+      "close_fair_p": 0.5020190944829246,
+      "close_ts": 1786871269.334099,
       "close_provisional": true
     },
     {
@@ -23573,15 +23573,15 @@
     "chinesetaipei|stronggroupph|ah:4.5:home|20260816": 1786863860.926744,
     "gimnasiayesgrimadechivilcoy|sanmartinformosa|ou:2.5:under|20260816": 1786865030.922672
   },
-  "last_report_date": "2026-08-15",
+  "last_report_date": "2026-08-16",
   "next_id": 757,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786870639.440101,
+      "ts": 1786871269.334099,
       "ok": true,
-      "vegas_events": 1321,
-      "ref_events": 1025,
+      "vegas_events": 1316,
+      "ref_events": 1013,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
