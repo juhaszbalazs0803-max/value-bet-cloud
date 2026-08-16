@@ -22828,10 +22828,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7077,
+      "close_fair_odds": 1.7364,
       "clv_pct": null,
-      "close_fair_p": 0.5855916035441804,
-      "close_ts": 1786901242.150619,
+      "close_fair_p": 0.5758966290368441,
+      "close_ts": 1786901872.090403,
       "close_provisional": true
     },
     {
@@ -22891,7 +22891,7 @@
       "close_fair_odds": 1.6449,
       "clv_pct": null,
       "close_fair_p": 0.6079420514810503,
-      "close_ts": 1786901242.150619,
+      "close_ts": 1786901872.090403,
       "close_provisional": true
     },
     {
@@ -23101,7 +23101,7 @@
       "close_fair_odds": 1.8306,
       "clv_pct": null,
       "close_fair_p": 0.5462659006975791,
-      "close_ts": 1786901242.150619,
+      "close_ts": 1786901872.090403,
       "close_provisional": true
     },
     {
@@ -23131,7 +23131,7 @@
       "close_fair_odds": 1.6466,
       "clv_pct": null,
       "close_fair_p": 0.6073298429319371,
-      "close_ts": 1786901242.150619,
+      "close_ts": 1786901872.090403,
       "close_provisional": true
     },
     {
@@ -23251,7 +23251,7 @@
       "close_fair_odds": 1.9307,
       "clv_pct": null,
       "close_fair_p": 0.5179422904008065,
-      "close_ts": 1786901242.150619,
+      "close_ts": 1786901872.090403,
       "close_provisional": true
     },
     {
@@ -23281,7 +23281,7 @@
       "close_fair_odds": 1.8443,
       "clv_pct": null,
       "close_fair_p": 0.5422024847428073,
-      "close_ts": 1786901242.150619,
+      "close_ts": 1786901872.090403,
       "close_provisional": true
     },
     {
@@ -23311,7 +23311,67 @@
       "close_fair_odds": 1.7902,
       "clv_pct": null,
       "close_fair_p": 0.5585973951522702,
-      "close_ts": 1786901242.150619,
+      "close_ts": 1786901872.090403,
+      "close_provisional": true
+    },
+    {
+      "id": 771,
+      "ts": 1786901872.090403,
+      "key": "67:16270127:ou:176.0:over",
+      "content_key": "seattlestormn|chicagoskyn|ou:176.0:over|20260816",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:176.0:over",
+      "event": "Seattle Storm (N) - Chicago Sky (N)",
+      "market": "ou",
+      "market_name": "O/U 176",
+      "tip": "Több mint 176",
+      "odds": 1.926,
+      "stake": 1100,
+      "value_pct": 4.08,
+      "fair_pct": 54.0,
+      "start": "2026-08-16T21:00:00+00:00",
+      "start_ts": 1786914000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8504,
+      "clv_pct": null,
+      "close_fair_p": 0.5404129174427451,
+      "close_ts": 1786901872.090403,
+      "close_provisional": true
+    },
+    {
+      "id": 772,
+      "ts": 1786901872.090403,
+      "key": "67:17345702:ah:-2.5:away",
+      "content_key": "abejasdeleon|panterasdeaguascalientes|ah:-2.5:away|20260817",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-2.5:away",
+      "event": "Abejas de Leon - Panteras de Aguascalientes",
+      "market": "ah",
+      "market_name": "Hendikep +2.5",
+      "tip": "Hendikep Panteras de Aguascalientes (+2.5)",
+      "odds": 1.8,
+      "stake": 1300,
+      "value_pct": 4.29,
+      "fair_pct": 57.9,
+      "start": "2026-08-17T00:00:00+00:00",
+      "start_ts": 1786924800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.726,
+      "clv_pct": null,
+      "close_fair_p": 0.5793680596534521,
+      "close_ts": 1786901872.090403,
       "close_provisional": true
     }
   ],
@@ -24005,24 +24065,28 @@
     "lobosplateadosdelabuap|doradosdechihuahua|ou:165.5:under|20260816": 1786893493.495124,
     "aguadasanteros|vaquerosdebayamon|ml:home|20260817": 1786895563.352277,
     "aguadasanteros|vaquerosdebayamon|ah:1.5:home|20260817": 1786895563.352277,
-    "bomjesusgo|gremioanapolis|ml:home|20260816": 1786896013.353671
+    "bomjesusgo|gremioanapolis|ml:home|20260816": 1786896013.353671,
+    "seattlestormn|chicagoskyn|ou:176.0:over|20260816": 1786901872.090403,
+    "abejasdeleon|panterasdeaguascalientes|ah:-2.5:away|20260817": 1786901872.090403
   },
   "last_report_date": "2026-08-16",
-  "next_id": 771,
+  "next_id": 773,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786901242.150619,
-      "ok": true,
-      "vegas_events": 1076,
-      "ref_events": 822,
+      "ts": 1786901872.090403,
+      "ok": false,
+      "vegas_events": 1074,
+      "ref_events": 816,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
-      "ref_gap": {
-        "70": "0 referencia-esemény 21 vegas meccs mellett"
+      "ref_down": {
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
       },
+      "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1786878503.2732313,
