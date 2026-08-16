@@ -22402,7 +22402,7 @@
       "close_fair_odds": 1.6548,
       "clv_pct": null,
       "close_fair_p": 0.6042975881196462,
-      "close_ts": 1786876251.299269,
+      "close_ts": 1786876881.300551,
       "close_provisional": true
     },
     {
@@ -22648,7 +22648,7 @@
       "close_fair_odds": 2.0436,
       "clv_pct": null,
       "close_fair_p": 0.4893327368134256,
-      "close_ts": 1786876251.299269,
+      "close_ts": 1786876881.300551,
       "close_provisional": true
     },
     {
@@ -22765,10 +22765,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5079,
+      "close_fair_odds": 1.3821,
       "clv_pct": null,
-      "close_fair_p": 0.6631619562071959,
-      "close_ts": 1786876251.299269,
+      "close_fair_p": 0.7235198261814232,
+      "close_ts": 1786876881.300551,
       "close_provisional": true
     },
     {
@@ -22798,7 +22798,7 @@
       "close_fair_odds": 2.1016,
       "clv_pct": null,
       "close_fair_p": 0.47582047094769003,
-      "close_ts": 1786876251.299269,
+      "close_ts": 1786876881.300551,
       "close_provisional": true
     },
     {
@@ -22828,7 +22828,7 @@
       "close_fair_odds": 1.7184,
       "clv_pct": null,
       "close_fair_p": 0.5819514344200829,
-      "close_ts": 1786876251.299269,
+      "close_ts": 1786876881.300551,
       "close_provisional": true
     },
     {
@@ -22855,10 +22855,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.1935,
+      "close_fair_odds": 2.4535,
       "clv_pct": null,
-      "close_fair_p": 0.45588392190333943,
-      "close_ts": 1786876251.299269,
+      "close_fair_p": 0.407589122605564,
+      "close_ts": 1786876881.300551,
       "close_provisional": true
     },
     {
@@ -22920,10 +22920,39 @@
       "close_fair_p": 0.5625841184387618,
       "close_ts": 1786875981.231521,
       "close_provisional": true
+    },
+    {
+      "id": 758,
+      "ts": 1786876521.231726,
+      "key": "67:17384783:ah:4.5:away",
+      "content_key": "chinesetaipei|stronggroupph|ah:4.5:away|20260816",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:4.5:away",
+      "event": "Chinese Taipei - Strong Group Ph",
+      "market": "ah",
+      "market_name": "Hendikep -4.5",
+      "tip": "Hendikep Strong Group Ph (-4.5)",
+      "odds": 1.833,
+      "stake": 2600,
+      "value_pct": 8.61,
+      "fair_pct": 59.2,
+      "start": "2026-08-16T11:00:00+00:00",
+      "start_ts": 1786878000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.688,
+      "clv_pct": null,
+      "close_fair_p": 0.592410877394436,
+      "close_ts": 1786876881.300551,
+      "close_provisional": true
     }
   ],
   "papered": {
-    "darthlumsdenm|sutjiadiatjenj|ml:away|20260702": 1782988571.449143,
     "washingtonmysticsn|atlantadreamn|ah:7.5:home|20260702": 1782998764.056832,
     "connecticutsunn|dallaswingsn|ah:8.5:home|20260703": 1783005216.882621,
     "tianhuizhang|hanyiliu|ml:away|20260703": 1783046710.623668,
@@ -23602,17 +23631,18 @@
     "bentintacnaheroica|sporthuancayoreserve|ml:home|20260816": 1786862960.904935,
     "chinesetaipei|stronggroupph|ah:4.5:home|20260816": 1786863860.926744,
     "gimnasiayesgrimadechivilcoy|sanmartinformosa|ou:2.5:under|20260816": 1786865030.922672,
-    "lobosplateadosdelabuap|doradosdechihuahua|ou:160.5:over|20260816": 1786875621.304263
+    "lobosplateadosdelabuap|doradosdechihuahua|ou:160.5:over|20260816": 1786875621.304263,
+    "chinesetaipei|stronggroupph|ah:4.5:away|20260816": 1786876521.231726
   },
   "last_report_date": "2026-08-16",
-  "next_id": 758,
+  "next_id": 759,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786876251.299269,
+      "ts": 1786876881.300551,
       "ok": true,
-      "vegas_events": 1328,
-      "ref_events": 1031,
+      "vegas_events": 1329,
+      "ref_events": 1023,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
