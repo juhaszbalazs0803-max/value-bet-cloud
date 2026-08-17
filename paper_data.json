@@ -23499,7 +23499,6 @@
     }
   ],
   "papered": {
-    "tianhuizhang|hanyiliu|ml:away|20260703": 1783046710.623668,
     "canterburyrams|manawatujets|ah:-7.5:away|20260703": 1783062641.516124,
     "amandaanisimova|madisonkeys|ml:away|20260704": 1783074256.549138,
     "lasvegasacesn|chicagoskyn|ah:-6.5:home|20260704": 1783093971.380389,
@@ -24201,7 +24200,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1786931897.241977,
+      "ts": 1786935405.851001,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
