@@ -23523,6 +23523,36 @@
       "close_fair_p": 0.5086635606972726,
       "close_ts": 1786912244.684015,
       "close_provisional": true
+    },
+    {
+      "id": 777,
+      "ts": 1787080290.49173,
+      "key": "67:16288259:ou:191.0:under",
+      "content_key": "torontotempon|indianafevern|ou:191.0:under|20260818",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:191.0:under",
+      "event": "Toronto Tempo (N) - Indiana Fever (N)",
+      "market": "ou",
+      "market_name": "O/U 191",
+      "tip": "Kevesebb mint 191",
+      "odds": 1.885,
+      "stake": 1100,
+      "value_pct": 4.0,
+      "fair_pct": 55.2,
+      "start": "2026-08-18T23:00:00+00:00",
+      "start_ts": 1787094000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8125,
+      "clv_pct": null,
+      "close_fair_p": 0.5517349580315352,
+      "close_ts": 1787080560.488077,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -24212,26 +24242,23 @@
     "liatausonc|danilinaakrunica|ml:away|20260816": 1786908132.402879,
     "abejasdeleon|panterasdeaguascalientes|ou:171.5:over|20260817": 1786909343.234584,
     "atlantadreamn|indianafevern|ml:home|20260816": 1786910605.001227,
-    "atlantadreamn|indianafevern|ah:-1.0:home|20260816": 1786910605.001227
+    "atlantadreamn|indianafevern|ah:-1.0:home|20260816": 1786910605.001227,
+    "torontotempon|indianafevern|ou:191.0:under|20260818": 1787080290.49173
   },
   "last_report_date": "2026-08-18",
-  "next_id": 777,
+  "next_id": 778,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787079930.485069,
-      "ok": false,
-      "vegas_events": 405,
-      "ref_events": 155,
+      "ts": 1787080560.488077,
+      "ok": true,
+      "vegas_events": 1486,
+      "ref_events": 929,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787067165.2377274,
