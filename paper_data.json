@@ -23548,15 +23548,14 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8125,
+      "close_fair_odds": 1.8188,
       "clv_pct": null,
-      "close_fair_p": 0.5517349580315352,
-      "close_ts": 1787080560.488077,
+      "close_fair_p": 0.5498245797769283,
+      "close_ts": 1787081190.481159,
       "close_provisional": true
     }
   ],
   "papered": {
-    "seattlestormn|portlandfiren|ou:172.0:under|20260705": 1783192813.267439,
     "ialarreborges|clubtrouville|ah:10.5:home|20260704": 1783201192.612601,
     "ialarreborges|clubtrouville|ah:9.5:home|20260704": 1783202228.090915,
     "lasvegasacesn|indianafevern|ah:-4.0:away|20260705": 1783226495.19285,
@@ -24250,10 +24249,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787080560.488077,
+      "ts": 1787081190.481159,
       "ok": true,
-      "vegas_events": 1486,
-      "ref_events": 929,
+      "vegas_events": 1492,
+      "ref_events": 933,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
