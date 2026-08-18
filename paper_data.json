@@ -22006,11 +22006,11 @@
       "fair_pct": 74.3,
       "start": "2026-08-15T09:00:00+00:00",
       "start_ts": 1786784400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1787043875.045173,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.5956,
       "clv_pct": -11.19,
@@ -22036,11 +22036,11 @@
       "fair_pct": 55.2,
       "start": "2026-08-15T09:00:00+00:00",
       "start_ts": 1786784400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1787043875.045173,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 2.0453,
       "clv_pct": -8.57,
@@ -24216,12 +24216,12 @@
     "atlantadreamn|indianafevern|ml:home|20260816": 1786910605.001227,
     "atlantadreamn|indianafevern|ah:-1.0:home|20260816": 1786910605.001227
   },
-  "last_report_date": "2026-08-17",
+  "last_report_date": "2026-08-18",
   "next_id": 777,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787043244.386728,
+      "ts": 1787043874.387394,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
@@ -24240,7 +24240,7 @@
       ],
       "settle_err": null
     },
-    "last_alert_ts": 1787021743.6249392,
+    "last_alert_ts": 1787043425.0002844,
     "alert_active": true
   }
 }
