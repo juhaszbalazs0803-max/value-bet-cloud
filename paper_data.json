@@ -22156,11 +22156,11 @@
       "fair_pct": 57.5,
       "start": "2026-08-15T15:30:00+00:00",
       "start_ts": 1786807800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1787067615.1995344,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 2.1344,
       "clv_pct": -14.12,
@@ -22186,11 +22186,11 @@
       "fair_pct": 51.9,
       "start": "2026-08-15T15:30:00+00:00",
       "start_ts": 1786807800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1787067615.1995344,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 2.15,
       "clv_pct": -6.98,
@@ -24220,7 +24220,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787066984.511852,
+      "ts": 1787067614.496568,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
@@ -24239,7 +24239,7 @@
       ],
       "settle_err": null
     },
-    "last_alert_ts": 1787043425.0002844,
+    "last_alert_ts": 1787067165.2377274,
     "alert_active": true
   }
 }
