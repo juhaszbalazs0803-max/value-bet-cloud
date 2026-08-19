@@ -23584,7 +23584,7 @@
       "close_fair_odds": 1.9253,
       "clv_pct": null,
       "close_fair_p": 0.5194072734044534,
-      "close_ts": 1787157511.452936,
+      "close_ts": 1787158051.453565,
       "close_provisional": true
     },
     {
@@ -23641,10 +23641,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.726,
+      "close_fair_odds": 1.8314,
       "clv_pct": null,
-      "close_fair_p": 0.5793680596534521,
-      "close_ts": 1787153738.568182,
+      "close_fair_p": 0.5460324359566434,
+      "close_ts": 1787158141.511228,
       "close_provisional": true
     },
     {
@@ -23704,7 +23704,7 @@
       "close_fair_odds": 1.7794,
       "clv_pct": null,
       "close_fair_p": 0.5619941380515744,
-      "close_ts": 1787157511.452936,
+      "close_ts": 1787158141.511228,
       "close_provisional": true
     },
     {
@@ -23731,10 +23731,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3622,
+      "close_fair_odds": 1.3825,
       "clv_pct": null,
-      "close_fair_p": 0.7341062920475225,
-      "close_ts": 1787157421.497864,
+      "close_fair_p": 0.723346262710976,
+      "close_ts": 1787158141.511228,
       "close_provisional": true
     },
     {
@@ -23762,10 +23762,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.742,
-      "clv_pct": null,
+      "clv_pct": 5.22,
       "close_fair_p": 0.5740498034076016,
-      "close_ts": 1787157511.452936,
-      "close_provisional": true
+      "close_ts": 1787158051.453565,
+      "close_provisional": false
     },
     {
       "id": 785,
@@ -23794,7 +23794,7 @@
       "close_fair_odds": 1.6566,
       "clv_pct": null,
       "close_fair_p": 0.6036428533935226,
-      "close_ts": 1787157511.452936,
+      "close_ts": 1787158141.511228,
       "close_provisional": true
     },
     {
@@ -23829,7 +23829,6 @@
     }
   ],
   "papered": {
-    "jiangxxuy|siegemundlzvonarevav|ml:away|20260706": 1783269903.779977,
     "chicagoredstarsn|utahroyalsfcn|ou:2.5:over|20260705": 1783285031.940962,
     "leyreromerogormaz|darjasemenistaja|ml:away|20260706": 1783307966.652514,
     "oleksandraoliynykova|moyukauchijima|ml:home|20260706": 1783322043.500797,
@@ -24525,18 +24524,18 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787157511.452936,
+      "ts": 1787158141.511228,
       "ok": false,
-      "vegas_events": 1272,
-      "ref_events": 904,
+      "vegas_events": 302,
+      "ref_events": 103,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)"
       ],
       "settle_err": null
     },
