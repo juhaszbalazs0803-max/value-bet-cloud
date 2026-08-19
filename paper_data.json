@@ -23584,7 +23584,7 @@
       "close_fair_odds": 1.9253,
       "clv_pct": null,
       "close_fair_p": 0.5194072734044534,
-      "close_ts": 1787158771.533387,
+      "close_ts": 1787159401.539672,
       "close_provisional": true
     },
     {
@@ -23704,7 +23704,7 @@
       "close_fair_odds": 1.7794,
       "clv_pct": null,
       "close_fair_p": 0.5619941380515744,
-      "close_ts": 1787158771.533387,
+      "close_ts": 1787159401.539672,
       "close_provisional": true
     },
     {
@@ -23731,10 +23731,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3825,
+      "close_fair_odds": 1.4491,
       "clv_pct": null,
-      "close_fair_p": 0.723346262710976,
-      "close_ts": 1787158771.533387,
+      "close_fair_p": 0.6901032914342049,
+      "close_ts": 1787159401.539672,
       "close_provisional": true
     },
     {
@@ -23791,10 +23791,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6566,
+      "close_fair_odds": 1.6712,
       "clv_pct": null,
-      "close_fair_p": 0.6036428533935226,
-      "close_ts": 1787158771.533387,
+      "close_fair_p": 0.5983762125685365,
+      "close_ts": 1787159401.539672,
       "close_provisional": true
     },
     {
@@ -23821,10 +23821,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8622,
+      "close_fair_odds": 1.8874,
       "clv_pct": null,
-      "close_fair_p": 0.5370007084082612,
-      "close_ts": 1787158771.533387,
+      "close_fair_p": 0.5298255179934569,
+      "close_ts": 1787159401.539672,
       "close_provisional": true
     },
     {
@@ -24555,10 +24555,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787158771.533387,
+      "ts": 1787159401.539672,
       "ok": true,
-      "vegas_events": 1454,
-      "ref_events": 970,
+      "vegas_events": 1442,
+      "ref_events": 954,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
