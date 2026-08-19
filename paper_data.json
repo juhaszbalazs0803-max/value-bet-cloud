@@ -23584,7 +23584,7 @@
       "close_fair_odds": 1.9253,
       "clv_pct": null,
       "close_fair_p": 0.5194072734044534,
-      "close_ts": 1787158051.453565,
+      "close_ts": 1787158771.533387,
       "close_provisional": true
     },
     {
@@ -23644,7 +23644,7 @@
       "close_fair_odds": 1.8314,
       "clv_pct": null,
       "close_fair_p": 0.5460324359566434,
-      "close_ts": 1787158141.511228,
+      "close_ts": 1787158501.536741,
       "close_provisional": true
     },
     {
@@ -23704,7 +23704,7 @@
       "close_fair_odds": 1.7794,
       "clv_pct": null,
       "close_fair_p": 0.5619941380515744,
-      "close_ts": 1787158141.511228,
+      "close_ts": 1787158771.533387,
       "close_provisional": true
     },
     {
@@ -23734,7 +23734,7 @@
       "close_fair_odds": 1.3825,
       "clv_pct": null,
       "close_fair_p": 0.723346262710976,
-      "close_ts": 1787158141.511228,
+      "close_ts": 1787158771.533387,
       "close_provisional": true
     },
     {
@@ -23794,7 +23794,7 @@
       "close_fair_odds": 1.6566,
       "clv_pct": null,
       "close_fair_p": 0.6036428533935226,
-      "close_ts": 1787158141.511228,
+      "close_ts": 1787158771.533387,
       "close_provisional": true
     },
     {
@@ -23824,7 +23824,37 @@
       "close_fair_odds": 1.8622,
       "clv_pct": null,
       "close_fair_p": 0.5370007084082612,
-      "close_ts": 1787157511.452936,
+      "close_ts": 1787158771.533387,
+      "close_provisional": true
+    },
+    {
+      "id": 787,
+      "ts": 1787158411.454406,
+      "key": "67:16297577:ah:-13.0:away",
+      "content_key": "washingtonmysticsn|torontotempon|ah:-13.0:away|20260819",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-13.0:away",
+      "event": "Washington Mystics (N) - Toronto Tempo (N)",
+      "market": "ah",
+      "market_name": "Hendikep +13",
+      "tip": "Hendikep Toronto Tempo (N) (+13)",
+      "odds": 1.885,
+      "stake": 1500,
+      "value_pct": 5.23,
+      "fair_pct": 55.8,
+      "start": "2026-08-19T23:30:00+00:00",
+      "start_ts": 1787182200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7913,
+      "clv_pct": null,
+      "close_fair_p": 0.5582549364209656,
+      "close_ts": 1787158411.454406,
       "close_provisional": true
     }
   ],
@@ -24517,29 +24547,26 @@
     "doumbiasreboulf|schnaitterjwallnerm|ml:home|20260819": 1787155763.297222,
     "mitteldeutscherbc|basketballlowenbraunschweig|ou:166.5:under|20260819": 1787156329.062647,
     "freserosdeirapuato|elcalordecancun|ml:home|20260820": 1787156329.062647,
-    "freserosdeirapuato|elcalordecancun|ah:-2.5:home|20260820": 1787156329.062647
+    "freserosdeirapuato|elcalordecancun|ah:-2.5:home|20260820": 1787156329.062647,
+    "washingtonmysticsn|torontotempon|ah:-13.0:away|20260819": 1787158411.454406
   },
   "last_report_date": "2026-08-19",
-  "next_id": 787,
+  "next_id": 788,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787158141.511228,
-      "ok": false,
-      "vegas_events": 302,
-      "ref_events": 103,
+      "ts": 1787158771.533387,
+      "ok": true,
+      "vegas_events": 1454,
+      "ref_events": 970,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
-    "last_alert_ts": 1787132107.995908,
+    "last_alert_ts": 1787158327.0541973,
     "alert_active": false
   }
 }
