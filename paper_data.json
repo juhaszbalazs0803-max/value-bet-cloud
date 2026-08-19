@@ -23582,10 +23582,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.8701,
-      "clv_pct": null,
+      "clv_pct": 6.95,
       "close_fair_p": 0.5347310461668785,
-      "close_ts": 1787165514.720889,
-      "close_provisional": true
+      "close_ts": 1787166144.687554,
+      "close_provisional": false
     },
     {
       "id": 779,
@@ -23644,7 +23644,7 @@
       "close_fair_odds": 1.9206,
       "clv_pct": null,
       "close_fair_p": 0.5206589031008809,
-      "close_ts": 1787165514.720889,
+      "close_ts": 1787166144.687554,
       "close_provisional": true
     },
     {
@@ -23734,7 +23734,7 @@
       "close_fair_odds": 1.4779,
       "clv_pct": null,
       "close_fair_p": 0.6766365429606863,
-      "close_ts": 1787165514.720889,
+      "close_ts": 1787166144.687554,
       "close_provisional": true
     },
     {
@@ -23794,7 +23794,7 @@
       "close_fair_odds": 1.6331,
       "clv_pct": null,
       "close_fair_p": 0.6123299807181197,
-      "close_ts": 1787165514.720889,
+      "close_ts": 1787166144.687554,
       "close_provisional": true
     },
     {
@@ -23855,6 +23855,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5582549364209656,
       "close_ts": 1787158411.454406,
+      "close_provisional": true
+    },
+    {
+      "id": 788,
+      "ts": 1787166054.722456,
+      "key": "68:17444889:ml:away",
+      "content_key": "blubaker|andreademarchi|ml:away|20260819",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Blu Baker - Andrea de Marchi",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Andrea de Marchi",
+      "odds": 1.385,
+      "stake": 2600,
+      "value_pct": 4.04,
+      "fair_pct": 75.1,
+      "start": "2026-08-19T22:00:00+00:00",
+      "start_ts": 1787176800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3309,
+      "clv_pct": null,
+      "close_fair_p": 0.7513812154696132,
+      "close_ts": 1787166144.687554,
       "close_provisional": true
     }
   ],
@@ -24548,17 +24578,18 @@
     "mitteldeutscherbc|basketballlowenbraunschweig|ou:166.5:under|20260819": 1787156329.062647,
     "freserosdeirapuato|elcalordecancun|ml:home|20260820": 1787156329.062647,
     "freserosdeirapuato|elcalordecancun|ah:-2.5:home|20260820": 1787156329.062647,
-    "washingtonmysticsn|torontotempon|ah:-13.0:away|20260819": 1787158411.454406
+    "washingtonmysticsn|torontotempon|ah:-13.0:away|20260819": 1787158411.454406,
+    "blubaker|andreademarchi|ml:away|20260819": 1787166054.722456
   },
   "last_report_date": "2026-08-19",
-  "next_id": 788,
+  "next_id": 789,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787165514.720889,
+      "ts": 1787166144.687554,
       "ok": true,
-      "vegas_events": 1415,
-      "ref_events": 895,
+      "vegas_events": 1406,
+      "ref_events": 902,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
