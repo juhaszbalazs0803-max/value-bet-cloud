@@ -23581,10 +23581,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9253,
+      "close_fair_odds": 1.9233,
       "clv_pct": null,
-      "close_fair_p": 0.5194072734044534,
-      "close_ts": 1787160220.262801,
+      "close_fair_p": 0.5199440721785469,
+      "close_ts": 1787160760.215723,
       "close_provisional": true
     },
     {
@@ -23704,7 +23704,7 @@
       "close_fair_odds": 1.7738,
       "clv_pct": null,
       "close_fair_p": 0.5637583892617449,
-      "close_ts": 1787160220.262801,
+      "close_ts": 1787160760.215723,
       "close_provisional": true
     },
     {
@@ -23734,7 +23734,7 @@
       "close_fair_odds": 1.4491,
       "clv_pct": null,
       "close_fair_p": 0.6901032914342049,
-      "close_ts": 1787160031.456212,
+      "close_ts": 1787160850.212874,
       "close_provisional": true
     },
     {
@@ -23794,7 +23794,7 @@
       "close_fair_odds": 1.5912,
       "clv_pct": null,
       "close_fair_p": 0.6284629591627334,
-      "close_ts": 1787160220.262801,
+      "close_ts": 1787160760.215723,
       "close_provisional": true
     },
     {
@@ -23824,7 +23824,7 @@
       "close_fair_odds": 1.744,
       "clv_pct": null,
       "close_fair_p": 0.5733821470873264,
-      "close_ts": 1787160220.262801,
+      "close_ts": 1787160760.215723,
       "close_provisional": true
     },
     {
@@ -24555,18 +24555,20 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787160220.262801,
+      "ts": 1787160850.212874,
       "ok": false,
-      "vegas_events": 1264,
-      "ref_events": 887,
+      "vegas_events": 186,
+      "ref_events": 65,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
+        "az ELSŐDLEGES fair-forrás kiesett 3 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0)"
       ],
       "settle_err": null
     },
