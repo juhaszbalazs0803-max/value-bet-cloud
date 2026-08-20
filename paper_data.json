@@ -24490,7 +24490,7 @@
       "close_fair_odds": 1.6766,
       "clv_pct": null,
       "close_fair_p": 0.5964477052598243,
-      "close_ts": 1787263596.394216,
+      "close_ts": 1787263956.398202,
       "close_provisional": true
     },
     {
@@ -24550,7 +24550,7 @@
       "close_fair_odds": 1.9924,
       "clv_pct": null,
       "close_fair_p": 0.5018954373142063,
-      "close_ts": 1787263596.394216,
+      "close_ts": 1787263956.398202,
       "close_provisional": true
     },
     {
@@ -24640,7 +24640,7 @@
       "close_fair_odds": 2.078,
       "clv_pct": null,
       "close_fair_p": 0.48123788991076066,
-      "close_ts": 1787263596.394216,
+      "close_ts": 1787263956.398202,
       "close_provisional": true
     },
     {
@@ -24700,7 +24700,7 @@
       "close_fair_odds": 1.8874,
       "clv_pct": null,
       "close_fair_p": 0.5298255179934569,
-      "close_ts": 1787263596.394216,
+      "close_ts": 1787263956.398202,
       "close_provisional": true
     },
     {
@@ -24730,7 +24730,7 @@
       "close_fair_odds": 1.9888,
       "clv_pct": null,
       "close_fair_p": 0.5028142076502732,
-      "close_ts": 1787263596.394216,
+      "close_ts": 1787263956.398202,
       "close_provisional": true
     },
     {
@@ -24760,7 +24760,7 @@
       "close_fair_odds": 1.7401,
       "clv_pct": null,
       "close_fair_p": 0.5746671938842758,
-      "close_ts": 1787263596.394216,
+      "close_ts": 1787263956.398202,
       "close_provisional": true
     },
     {
@@ -24790,7 +24790,7 @@
       "close_fair_odds": 1.4571,
       "clv_pct": null,
       "close_fair_p": 0.6862861908733469,
-      "close_ts": 1787263596.394216,
+      "close_ts": 1787263956.398202,
       "close_provisional": true
     },
     {
@@ -24820,7 +24820,7 @@
       "close_fair_odds": 1.8477,
       "clv_pct": null,
       "close_fair_p": 0.5412079972676878,
-      "close_ts": 1787263596.394216,
+      "close_ts": 1787263866.412065,
       "close_provisional": true
     },
     {
@@ -24850,12 +24850,11 @@
       "close_fair_odds": 1.841,
       "clv_pct": null,
       "close_fair_p": 0.5431957583948435,
-      "close_ts": 1787263596.394216,
+      "close_ts": 1787263956.398202,
       "close_provisional": true
     }
   ],
   "papered": {
-    "clubatleticoolimpia|camarne|ah:-17.5:away|20260706": 1783375927.063685,
     "washingtonmysticsn|goldenstatevalkyriesn|ah:7.0:home|20260706": 1783377367.002452,
     "washingtonmysticsn|goldenstatevalkyriesn|ah:7.5:home|20260706": 1783377637.035587,
     "sacramentokings|milwaukeebucks|ah:-3.5:away|20260707": 1783378627.008212,
@@ -25578,18 +25577,24 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787263596.394216,
-      "ok": true,
-      "vegas_events": 1437,
-      "ref_events": 995,
+      "ts": 1787264226.411822,
+      "ok": false,
+      "vegas_events": 1180,
+      "ref_events": 883,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 3 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0; [67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
-    "last_alert_ts": 1787201679.125938,
-    "alert_active": false
+    "last_alert_ts": 1787264273.566427,
+    "alert_active": true
   }
 }
