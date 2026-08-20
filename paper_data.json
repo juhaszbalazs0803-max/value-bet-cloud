@@ -24037,10 +24037,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8577,
+      "close_fair_odds": 1.7959,
       "clv_pct": null,
-      "close_fair_p": 0.5382975506371471,
-      "close_ts": 1787245408.94767,
+      "close_fair_p": 0.5568240749359356,
+      "close_ts": 1787246038.929606,
       "close_provisional": true
     },
     {
@@ -24070,7 +24070,7 @@
       "close_fair_odds": 2.1228,
       "clv_pct": null,
       "close_fair_p": 0.4710673860150217,
-      "close_ts": 1787245318.93771,
+      "close_ts": 1787246038.929606,
       "close_provisional": true
     },
     {
@@ -24097,10 +24097,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9806,
+      "close_fair_odds": 1.8916,
       "clv_pct": null,
-      "close_fair_p": 0.5049015636393097,
-      "close_ts": 1787245408.94767,
+      "close_fair_p": 0.5286615580406704,
+      "close_ts": 1787246038.929606,
       "close_provisional": true
     },
     {
@@ -24190,7 +24190,7 @@
       "close_fair_odds": 1.686,
       "clv_pct": null,
       "close_fair_p": 0.5931159947874138,
-      "close_ts": 1787245408.94767,
+      "close_ts": 1787246038.929606,
       "close_provisional": true
     },
     {
@@ -24460,7 +24460,37 @@
       "close_fair_odds": 1.7738,
       "clv_pct": null,
       "close_fair_p": 0.5637583892617449,
-      "close_ts": 1787245318.93771,
+      "close_ts": 1787246038.929606,
+      "close_provisional": true
+    },
+    {
+      "id": 808,
+      "ts": 1787245948.935748,
+      "key": "67:17408658:ml:away",
+      "content_key": "santoandreapaba|veracruzcampinas|ml:away|20260820",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Santo Andre/Apaba - Vera Cruz Campinas",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Vera Cruz Campinas",
+      "odds": 1.667,
+      "stake": 4900,
+      "value_pct": 13.01,
+      "fair_pct": 67.8,
+      "start": "2026-08-20T22:30:00+00:00",
+      "start_ts": 1787265000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4748,
+      "clv_pct": null,
+      "close_fair_p": 0.6780413235366636,
+      "close_ts": 1787246038.929606,
       "close_provisional": true
     }
   ],
@@ -25168,26 +25198,23 @@
     "bulgria|angola|ah:-7.5:away|20260820": 1787240514.306325,
     "bulgria|angola|ah:-6.5:away|20260820": 1787241414.306809,
     "solesdemexicali|minerosdezacatecas|ah:-3.5:away|20260821": 1787242764.32107,
-    "diablosrojosdelmexico|lobosplateadosdelabuap|ou:164.5:under|20260821": 1787245048.930236
+    "diablosrojosdelmexico|lobosplateadosdelabuap|ou:164.5:under|20260821": 1787245048.930236,
+    "santoandreapaba|veracruzcampinas|ml:away|20260820": 1787245948.935748
   },
   "last_report_date": "2026-08-20",
-  "next_id": 808,
+  "next_id": 809,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787245408.94767,
-      "ok": false,
-      "vegas_events": 1317,
-      "ref_events": 1011,
+      "ts": 1787246038.929606,
+      "ok": true,
+      "vegas_events": 1418,
+      "ref_events": 1044,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787201679.125938,
