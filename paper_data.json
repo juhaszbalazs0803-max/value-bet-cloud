@@ -24007,12 +24007,11 @@
       "close_fair_odds": 1.7324,
       "clv_pct": null,
       "close_fair_p": 0.5772276961902972,
-      "close_ts": 1787211487.107525,
+      "close_ts": 1787212117.097119,
       "close_provisional": true
     }
   ],
   "papered": {
-    "minnesotalynxn|connecticutsunn|ah:-13.5:home|20260707": 1783323753.508391,
     "clubatleticoolimpia|camarne|ah:-17.5:away|20260706": 1783375927.063685,
     "washingtonmysticsn|goldenstatevalkyriesn|ah:7.0:home|20260706": 1783377367.002452,
     "washingtonmysticsn|goldenstatevalkyriesn|ah:7.5:home|20260706": 1783377637.035587,
@@ -24708,10 +24707,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787211487.107525,
+      "ts": 1787212117.097119,
       "ok": true,
       "vegas_events": 1407,
-      "ref_events": 1136,
+      "ref_events": 1137,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
