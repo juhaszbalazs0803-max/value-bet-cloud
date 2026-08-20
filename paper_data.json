@@ -24490,7 +24490,7 @@
       "close_fair_odds": 1.6821,
       "clv_pct": null,
       "close_fair_p": 0.5944831959416614,
-      "close_ts": 1787260004.063608,
+      "close_ts": 1787260634.061936,
       "close_provisional": true
     },
     {
@@ -24547,10 +24547,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7324,
+      "close_fair_odds": 1.9924,
       "clv_pct": null,
-      "close_fair_p": 0.5772276961902972,
-      "close_ts": 1787260004.063608,
+      "close_fair_p": 0.5018954373142063,
+      "close_ts": 1787260634.061936,
       "close_provisional": true
     },
     {
@@ -24637,10 +24637,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.1269,
+      "close_fair_odds": 2.078,
       "clv_pct": null,
-      "close_fair_p": 0.47017448200654305,
-      "close_ts": 1787260004.063608,
+      "close_fair_p": 0.48123788991076066,
+      "close_ts": 1787260634.061936,
       "close_provisional": true
     },
     {
@@ -24697,10 +24697,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8901,
+      "close_fair_odds": 1.8874,
       "clv_pct": null,
-      "close_fair_p": 0.5290610622600931,
-      "close_ts": 1787260004.063608,
+      "close_fair_p": 0.5298255179934569,
+      "close_ts": 1787260634.061936,
       "close_provisional": true
     },
     {
@@ -24727,10 +24727,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9924,
+      "close_fair_odds": 1.9888,
       "clv_pct": null,
-      "close_fair_p": 0.5018954373142063,
-      "close_ts": 1787260004.063608,
+      "close_fair_p": 0.5028142076502732,
+      "close_ts": 1787260634.061936,
       "close_provisional": true
     },
     {
@@ -24757,10 +24757,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7648,
+      "close_fair_odds": 1.7334,
       "clv_pct": null,
-      "close_fair_p": 0.5666333881978359,
-      "close_ts": 1787260004.063608,
+      "close_fair_p": 0.5769078791391165,
+      "close_ts": 1787260634.061936,
       "close_provisional": true
     },
     {
@@ -24787,10 +24787,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5747,
+      "close_fair_odds": 1.4571,
       "clv_pct": null,
-      "close_fair_p": 0.6350420811017597,
-      "close_ts": 1787260004.063608,
+      "close_fair_p": 0.6862861908733469,
+      "close_ts": 1787260634.061936,
       "close_provisional": true
     }
   ],
@@ -25516,19 +25516,15 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787260004.063608,
-      "ok": false,
-      "vegas_events": 253,
-      "ref_events": 102,
+      "ts": 1787260634.061936,
+      "ok": true,
+      "vegas_events": 1426,
+      "ref_events": 988,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787201679.125938,
