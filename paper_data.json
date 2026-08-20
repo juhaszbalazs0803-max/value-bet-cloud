@@ -24037,7 +24037,7 @@
       "close_fair_odds": 1.7778,
       "clv_pct": null,
       "close_fair_p": 0.5624891525584185,
-      "close_ts": 1787222874.04195,
+      "close_ts": 1787223504.089767,
       "close_provisional": true
     },
     {
@@ -24068,6 +24068,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5444028581150051,
       "close_ts": 1787221974.049088,
+      "close_provisional": true
+    },
+    {
+      "id": 795,
+      "ts": 1787222964.050843,
+      "key": "66:17419800:ou:4.5:over",
+      "content_key": "alafoss|vaengirjupiters|ou:4.5:over|20260820",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:4.5:over",
+      "event": "Alafoss - Vaengir Jupiters",
+      "market": "ou",
+      "market_name": "O/U 4.5",
+      "tip": "Több mint 4.5",
+      "odds": 2.0,
+      "stake": 900,
+      "value_pct": 3.55,
+      "fair_pct": 51.8,
+      "start": "2026-08-20T19:15:00+00:00",
+      "start_ts": 1787253300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9314,
+      "clv_pct": null,
+      "close_fair_p": 0.5177707280352726,
+      "close_ts": 1787223504.089767,
       "close_provisional": true
     }
   ],
@@ -24762,26 +24792,23 @@
     "stronggroupph|chinesetaipei|ah:-22.5:home|20260820": 1787203789.095238,
     "capiatabulls|felixperezcardozo|ah:10.5:away|20260820": 1787208024.922733,
     "cdejuventuditaliana|delfin|ml:away|20260820": 1787214637.105885,
-    "lasvegasacesn|connecticutsunn|ah:-14.5:home|20260821": 1787221614.041273
+    "lasvegasacesn|connecticutsunn|ah:-14.5:home|20260821": 1787221614.041273,
+    "alafoss|vaengirjupiters|ou:4.5:over|20260820": 1787222964.050843
   },
   "last_report_date": "2026-08-20",
-  "next_id": 795,
+  "next_id": 796,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787222874.04195,
-      "ok": false,
-      "vegas_events": 1413,
-      "ref_events": 1092,
+      "ts": 1787223504.089767,
+      "ok": true,
+      "vegas_events": 1470,
+      "ref_events": 1124,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787201679.125938,
