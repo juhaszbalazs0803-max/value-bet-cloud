@@ -24487,10 +24487,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7794,
+      "close_fair_odds": 1.6821,
       "clv_pct": null,
-      "close_fair_p": 0.5619941380515744,
-      "close_ts": 1787258024.044436,
+      "close_fair_p": 0.5944831959416614,
+      "close_ts": 1787258744.090472,
       "close_provisional": true
     },
     {
@@ -24670,7 +24670,7 @@
       "close_fair_odds": 1.7907,
       "clv_pct": null,
       "close_fair_p": 0.5584320529155032,
-      "close_ts": 1787258024.044436,
+      "close_ts": 1787258204.056847,
       "close_provisional": true
     },
     {
@@ -24700,7 +24700,7 @@
       "close_fair_odds": 1.8901,
       "clv_pct": null,
       "close_fair_p": 0.5290610622600931,
-      "close_ts": 1787258024.044436,
+      "close_ts": 1787258744.090472,
       "close_provisional": true
     },
     {
@@ -24730,7 +24730,7 @@
       "close_fair_odds": 1.9924,
       "clv_pct": null,
       "close_fair_p": 0.5018954373142063,
-      "close_ts": 1787258024.044436,
+      "close_ts": 1787258744.090472,
       "close_provisional": true
     },
     {
@@ -24760,7 +24760,37 @@
       "close_fair_odds": 1.7648,
       "clv_pct": null,
       "close_fair_p": 0.5666333881978359,
-      "close_ts": 1787258024.044436,
+      "close_ts": 1787258744.090472,
+      "close_provisional": true
+    },
+    {
+      "id": 818,
+      "ts": 1787258294.06165,
+      "key": "67:17446681:ml:home",
+      "content_key": "rockinghamflames|canberragunners|ml:home|20260821",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Rockingham Flames - Canberra Gunners",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Rockingham Flames",
+      "odds": 1.667,
+      "stake": 2700,
+      "value_pct": 7.28,
+      "fair_pct": 64.4,
+      "start": "2026-08-21T10:30:00+00:00",
+      "start_ts": 1787308200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5535,
+      "clv_pct": null,
+      "close_fair_p": 0.6436955698599015,
+      "close_ts": 1787258744.090472,
       "close_provisional": true
     }
   ],
@@ -25478,26 +25508,23 @@
     "rockinghamflames|canberragunners|ah:-5.5:away|20260821": 1787252332.50597,
     "bankstownbruinsn|warwicksenatorsn|ah:1.5:away|20260821": 1787252332.50597,
     "waverleyfalconsn|mackaymeteorettesn|ou:156.5:under|20260821": 1787257484.04306,
-    "freserosdeirapuato|elcalordecancun|ah:-4.5:away|20260821": 1787257754.069934
+    "freserosdeirapuato|elcalordecancun|ah:-4.5:away|20260821": 1787257754.069934,
+    "rockinghamflames|canberragunners|ml:home|20260821": 1787258294.06165
   },
   "last_report_date": "2026-08-20",
-  "next_id": 818,
+  "next_id": 819,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787258114.045071,
-      "ok": false,
-      "vegas_events": 1318,
-      "ref_events": 944,
+      "ts": 1787258744.090472,
+      "ok": true,
+      "vegas_events": 1420,
+      "ref_events": 983,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787201679.125938,
