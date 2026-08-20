@@ -24040,7 +24040,7 @@
       "close_fair_odds": 1.7858,
       "clv_pct": null,
       "close_fair_p": 0.559986965097423,
-      "close_ts": 1787251522.474577,
+      "close_ts": 1787252152.447834,
       "close_provisional": true
     },
     {
@@ -24070,7 +24070,7 @@
       "close_fair_odds": 2.1228,
       "clv_pct": null,
       "close_fair_p": 0.4710673860150217,
-      "close_ts": 1787251522.474577,
+      "close_ts": 1787252152.447834,
       "close_provisional": true
     },
     {
@@ -24100,7 +24100,7 @@
       "close_fair_odds": 1.8554,
       "clv_pct": null,
       "close_fair_p": 0.5389606907277309,
-      "close_ts": 1787251522.474577,
+      "close_ts": 1787252152.447834,
       "close_provisional": true
     },
     {
@@ -24490,7 +24490,7 @@
       "close_fair_odds": 1.6766,
       "clv_pct": null,
       "close_fair_p": 0.5964477052598243,
-      "close_ts": 1787251522.474577,
+      "close_ts": 1787252152.447834,
       "close_provisional": true
     },
     {
@@ -24550,7 +24550,7 @@
       "close_fair_odds": 1.7016,
       "clv_pct": null,
       "close_fair_p": 0.587685321223454,
-      "close_ts": 1787251522.474577,
+      "close_ts": 1787251972.598576,
       "close_provisional": true
     },
     {
@@ -24580,7 +24580,67 @@
       "close_fair_odds": 1.7668,
       "clv_pct": null,
       "close_fair_p": 0.565987833906374,
-      "close_ts": 1787251522.474577,
+      "close_ts": 1787252152.447834,
+      "close_provisional": true
+    },
+    {
+      "id": 812,
+      "ts": 1787251792.518531,
+      "key": "68:17450311:ml:away",
+      "content_key": "bouzkovamnoskoval|routliffeesutjiadia|ml:away|20260820",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Bouzkova M / Noskova L - Routliffe E / Sutjiadi A",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Routliffe E / Sutjiadi A",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.32,
+      "fair_pct": 54.1,
+      "start": "2026-08-20T20:15:00+00:00",
+      "start_ts": 1787256900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8478,
+      "clv_pct": null,
+      "close_fair_p": 0.541187490243014,
+      "close_ts": 1787252152.447834,
+      "close_provisional": true
+    },
+    {
+      "id": 813,
+      "ts": 1787251882.496682,
+      "key": "67:17439868:ah:2.5:home",
+      "content_key": "waverleyfalconsn|mackaymeteorettesn|ah:2.5:home|20260821",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:2.5:home",
+      "event": "Waverley Falcons (N) - Mackay Meteorettes (N)",
+      "market": "ah",
+      "market_name": "Hendikep +2.5",
+      "tip": "Hendikep Waverley Falcons (N) (+2.5)",
+      "odds": 1.909,
+      "stake": 1300,
+      "value_pct": 4.85,
+      "fair_pct": 54.9,
+      "start": "2026-08-21T07:00:00+00:00",
+      "start_ts": 1787295600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8207,
+      "clv_pct": null,
+      "close_fair_p": 0.5492264607520596,
+      "close_ts": 1787252152.447834,
       "close_provisional": true
     }
   ],
@@ -25292,17 +25352,19 @@
     "santoandreapaba|veracruzcampinas|ml:away|20260820": 1787245948.935748,
     "capiatabulls|felixperezcardozo|ah:12.5:away|20260820": 1787250892.519397,
     "rockinghamflames|canberragunners|ah:-6.5:away|20260821": 1787251432.447483,
-    "capiatabulls|felixperezcardozo|ah:14.5:away|20260820": 1787251432.447483
+    "capiatabulls|felixperezcardozo|ah:14.5:away|20260820": 1787251432.447483,
+    "bouzkovamnoskoval|routliffeesutjiadia|ml:away|20260820": 1787251792.518531,
+    "waverleyfalconsn|mackaymeteorettesn|ah:2.5:home|20260821": 1787251882.496682
   },
   "last_report_date": "2026-08-20",
-  "next_id": 812,
+  "next_id": 814,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787251522.474577,
+      "ts": 1787252152.447834,
       "ok": true,
-      "vegas_events": 1411,
-      "ref_events": 1003,
+      "vegas_events": 1415,
+      "ref_events": 998,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
