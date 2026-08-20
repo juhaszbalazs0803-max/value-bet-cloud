@@ -24487,10 +24487,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6821,
+      "close_fair_odds": 1.6427,
       "clv_pct": null,
-      "close_fair_p": 0.5944831959416614,
-      "close_ts": 1787261076.380143,
+      "close_fair_p": 0.6087524493794905,
+      "close_ts": 1787261706.364156,
       "close_provisional": true
     },
     {
@@ -24550,7 +24550,7 @@
       "close_fair_odds": 1.9924,
       "clv_pct": null,
       "close_fair_p": 0.5018954373142063,
-      "close_ts": 1787261076.380143,
+      "close_ts": 1787261706.364156,
       "close_provisional": true
     },
     {
@@ -24640,7 +24640,7 @@
       "close_fair_odds": 2.078,
       "clv_pct": null,
       "close_fair_p": 0.48123788991076066,
-      "close_ts": 1787261076.380143,
+      "close_ts": 1787261706.364156,
       "close_provisional": true
     },
     {
@@ -24700,7 +24700,7 @@
       "close_fair_odds": 1.8874,
       "clv_pct": null,
       "close_fair_p": 0.5298255179934569,
-      "close_ts": 1787261076.380143,
+      "close_ts": 1787261706.364156,
       "close_provisional": true
     },
     {
@@ -24730,7 +24730,7 @@
       "close_fair_odds": 1.9888,
       "clv_pct": null,
       "close_fair_p": 0.5028142076502732,
-      "close_ts": 1787261076.380143,
+      "close_ts": 1787261706.364156,
       "close_provisional": true
     },
     {
@@ -24760,7 +24760,7 @@
       "close_fair_odds": 1.7334,
       "clv_pct": null,
       "close_fair_p": 0.5769078791391165,
-      "close_ts": 1787261076.380143,
+      "close_ts": 1787261706.364156,
       "close_provisional": true
     },
     {
@@ -24790,7 +24790,67 @@
       "close_fair_odds": 1.4571,
       "clv_pct": null,
       "close_fair_p": 0.6862861908733469,
-      "close_ts": 1787261076.380143,
+      "close_ts": 1787261706.364156,
+      "close_provisional": true
+    },
+    {
+      "id": 819,
+      "ts": 1787261346.378716,
+      "key": "67:16308312:ou:167.5:over",
+      "content_key": "lasvegasacesn|connecticutsunn|ou:167.5:over|20260821",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:167.5:over",
+      "event": "Las Vegas Aces (N) - Connecticut Sun (N)",
+      "market": "ou",
+      "market_name": "O/U 167.5",
+      "tip": "Több mint 167.5",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.32,
+      "fair_pct": 54.1,
+      "start": "2026-08-21T02:00:00+00:00",
+      "start_ts": 1787277600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8477,
+      "clv_pct": null,
+      "close_fair_p": 0.5412079972676878,
+      "close_ts": 1787261706.364156,
+      "close_provisional": true
+    },
+    {
+      "id": 820,
+      "ts": 1787261346.378716,
+      "key": "67:16308312:ah:-15.0:away",
+      "content_key": "lasvegasacesn|connecticutsunn|ah:-15.0:away|20260821",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-15.0:away",
+      "event": "Las Vegas Aces (N) - Connecticut Sun (N)",
+      "market": "ah",
+      "market_name": "Hendikep +15",
+      "tip": "Hendikep Connecticut Sun (N) (+15)",
+      "odds": 1.909,
+      "stake": 1000,
+      "value_pct": 3.7,
+      "fair_pct": 54.3,
+      "start": "2026-08-21T02:00:00+00:00",
+      "start_ts": 1787277600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.841,
+      "clv_pct": null,
+      "close_fair_p": 0.5431957583948435,
+      "close_ts": 1787261706.364156,
       "close_provisional": true
     }
   ],
@@ -25509,14 +25569,16 @@
     "bankstownbruinsn|warwicksenatorsn|ah:1.5:away|20260821": 1787252332.50597,
     "waverleyfalconsn|mackaymeteorettesn|ou:156.5:under|20260821": 1787257484.04306,
     "freserosdeirapuato|elcalordecancun|ah:-4.5:away|20260821": 1787257754.069934,
-    "rockinghamflames|canberragunners|ml:home|20260821": 1787258294.06165
+    "rockinghamflames|canberragunners|ml:home|20260821": 1787258294.06165,
+    "lasvegasacesn|connecticutsunn|ou:167.5:over|20260821": 1787261346.378716,
+    "lasvegasacesn|connecticutsunn|ah:-15.0:away|20260821": 1787261346.378716
   },
   "last_report_date": "2026-08-20",
-  "next_id": 819,
+  "next_id": 821,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787261076.380143,
+      "ts": 1787261706.364156,
       "ok": true,
       "vegas_events": 1436,
       "ref_events": 993,
