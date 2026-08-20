@@ -24034,10 +24034,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7744,
+      "close_fair_odds": 1.7366,
       "clv_pct": null,
-      "close_fair_p": 0.5635866194422213,
-      "close_ts": 1787227437.836643,
+      "close_fair_p": 0.575824359059326,
+      "close_ts": 1787228067.883944,
       "close_provisional": true
     },
     {
@@ -24097,7 +24097,7 @@
       "close_fair_odds": 1.9806,
       "clv_pct": null,
       "close_fair_p": 0.5049015636393097,
-      "close_ts": 1787227437.836643,
+      "close_ts": 1787228067.883944,
       "close_provisional": true
     },
     {
@@ -24184,10 +24184,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8533,
+      "close_fair_odds": 1.9506,
       "clv_pct": null,
-      "close_fair_p": 0.5395792529013349,
-      "close_ts": 1787227437.836643,
+      "close_fair_p": 0.512661019390618,
+      "close_ts": 1787228067.883944,
       "close_provisional": true
     }
   ],
@@ -24893,18 +24893,19 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787227527.844541,
+      "ts": 1787228158.010381,
       "ok": false,
-      "vegas_events": 282,
-      "ref_events": 135,
+      "vegas_events": 141,
+      "ref_events": 56,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
+        "az ELSŐDLEGES fair-forrás kiesett 2 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
       ],
       "settle_err": null
     },
