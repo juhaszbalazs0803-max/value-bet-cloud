@@ -24037,7 +24037,7 @@
       "close_fair_odds": 1.7744,
       "clv_pct": null,
       "close_fair_p": 0.5635866194422213,
-      "close_ts": 1787226267.822661,
+      "close_ts": 1787226897.8312,
       "close_provisional": true
     },
     {
@@ -24094,10 +24094,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9314,
+      "close_fair_odds": 1.9806,
       "clv_pct": null,
-      "close_fair_p": 0.5177707280352726,
-      "close_ts": 1787226267.822661,
+      "close_fair_p": 0.5049015636393097,
+      "close_ts": 1787226897.8312,
       "close_provisional": true
     },
     {
@@ -24158,6 +24158,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5733821470873264,
       "close_ts": 1787225817.840756,
+      "close_provisional": true
+    },
+    {
+      "id": 798,
+      "ts": 1787226627.844572,
+      "key": "66:17417580:ml:home",
+      "content_key": "midleton|castleview|ml:home|20260820",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Midleton - Castleview",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Midleton",
+      "odds": 1.96,
+      "stake": 1500,
+      "value_pct": 5.76,
+      "fair_pct": 54.0,
+      "start": "2026-08-20T18:30:00+00:00",
+      "start_ts": 1787250600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8533,
+      "clv_pct": null,
+      "close_fair_p": 0.5395792529013349,
+      "close_ts": 1787226897.8312,
       "close_provisional": true
     }
   ],
@@ -24855,22 +24885,27 @@
     "lasvegasacesn|connecticutsunn|ah:-14.5:home|20260821": 1787221614.041273,
     "alafoss|vaengirjupiters|ou:4.5:over|20260820": 1787222964.050843,
     "lasvegasacesn|connecticutsunn|ou:167.0:over|20260821": 1787223864.045509,
-    "rockinghamflames|canberragunners|ah:-10.5:away|20260821": 1787225187.8452
+    "rockinghamflames|canberragunners|ah:-10.5:away|20260821": 1787225187.8452,
+    "midleton|castleview|ml:home|20260820": 1787226627.844572
   },
   "last_report_date": "2026-08-20",
-  "next_id": 798,
+  "next_id": 799,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787226267.822661,
-      "ok": true,
-      "vegas_events": 1472,
-      "ref_events": 1116,
+      "ts": 1787226897.8312,
+      "ok": false,
+      "vegas_events": 1321,
+      "ref_events": 1035,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1787201679.125938,
