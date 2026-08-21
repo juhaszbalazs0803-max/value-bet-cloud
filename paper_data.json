@@ -25036,7 +25036,7 @@
       "close_fair_odds": 1.7204,
       "clv_pct": null,
       "close_fair_p": 0.5812724582540689,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25093,10 +25093,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7418,
+      "close_fair_odds": 1.7367,
       "clv_pct": null,
-      "close_fair_p": 0.5741044499708979,
-      "close_ts": 1787332333.717786,
+      "close_fair_p": 0.5757903911676924,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25246,7 +25246,7 @@
       "close_fair_odds": 1.9177,
       "clv_pct": null,
       "close_fair_p": 0.5214695438404807,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25366,7 +25366,7 @@
       "close_fair_odds": 1.965,
       "clv_pct": null,
       "close_fair_p": 0.5088989207139892,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25396,7 +25396,7 @@
       "close_fair_odds": 2.0578,
       "clv_pct": null,
       "close_fair_p": 0.48594754738933377,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25514,10 +25514,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.7471,
-      "clv_pct": null,
+      "clv_pct": 3.03,
       "close_fair_p": 0.5723932367914325,
-      "close_ts": 1787332333.717786,
-      "close_provisional": true
+      "close_ts": 1787332963.720654,
+      "close_provisional": false
     },
     {
       "id": 843,
@@ -25546,7 +25546,7 @@
       "close_fair_odds": 1.5353,
       "clv_pct": null,
       "close_fair_p": 0.6513425888622169,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25576,7 +25576,7 @@
       "close_fair_odds": 1.5247,
       "clv_pct": null,
       "close_fair_p": 0.6558625686543256,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25606,7 +25606,7 @@
       "close_fair_odds": 1.7071,
       "clv_pct": null,
       "close_fair_p": 0.5857917929521645,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25636,7 +25636,7 @@
       "close_fair_odds": 1.4641,
       "clv_pct": null,
       "close_fair_p": 0.6830273690265064,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25696,7 +25696,7 @@
       "close_fair_odds": 2.0583,
       "clv_pct": null,
       "close_fair_p": 0.48584365282854186,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25726,7 +25726,7 @@
       "close_fair_odds": 1.7943,
       "clv_pct": null,
       "close_fair_p": 0.5573352221292497,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25816,7 +25816,7 @@
       "close_fair_odds": 1.9628,
       "clv_pct": null,
       "close_fair_p": 0.5094833224329627,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25846,7 +25846,7 @@
       "close_fair_odds": 1.8466,
       "clv_pct": null,
       "close_fair_p": 0.5415238095238095,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25876,7 +25876,7 @@
       "close_fair_odds": 1.9142,
       "clv_pct": null,
       "close_fair_p": 0.5224197733643401,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25906,7 +25906,7 @@
       "close_fair_odds": 1.86,
       "clv_pct": null,
       "close_fair_p": 0.5376231879218443,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -25996,7 +25996,7 @@
       "close_fair_odds": 2.0402,
       "clv_pct": null,
       "close_fair_p": 0.4901416796853957,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -26056,7 +26056,7 @@
       "close_fair_odds": 1.7197,
       "clv_pct": null,
       "close_fair_p": 0.581488825767726,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -26086,7 +26086,7 @@
       "close_fair_odds": 1.7794,
       "clv_pct": null,
       "close_fair_p": 0.5619941380515744,
-      "close_ts": 1787332333.717786,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     },
     {
@@ -26113,15 +26113,44 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.844,
+      "close_fair_odds": 1.8761,
       "clv_pct": null,
-      "close_fair_p": 0.5423062960290539,
-      "close_ts": 1787332333.717786,
+      "close_fair_p": 0.5330230480709658,
+      "close_ts": 1787332963.720654,
+      "close_provisional": true
+    },
+    {
+      "id": 863,
+      "ts": 1787332873.732109,
+      "key": "67:16316731:ou:163.0:over",
+      "content_key": "chicagoskyn|goldenstatevalkyriesn|ou:163.0:over|20260821",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:163.0:over",
+      "event": "Chicago Sky (N) - Golden State Valkyries (N)",
+      "market": "ou",
+      "market_name": "O/U 163",
+      "tip": "Több mint 163",
+      "odds": 1.926,
+      "stake": 800,
+      "value_pct": 3.06,
+      "fair_pct": 53.5,
+      "start": "2026-08-21T23:30:00+00:00",
+      "start_ts": 1787355000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8688,
+      "clv_pct": null,
+      "close_fair_p": 0.5351010302691477,
+      "close_ts": 1787332963.720654,
       "close_provisional": true
     }
   ],
   "papered": {
-    "clubtrouville|cdalbatros|ah:-15.5:home|20260707": 1783444776.217336,
     "olivolmundial|colonfc|ah:-8.5:home|20260707": 1783461932.418986,
     "utahjazz|oklahomacitythunder|ah:-3.5:away|20260708": 1783465127.683958,
     "csdeportivosayago|ialarreborges|ml:home|20260707": 1783465577.64412,
@@ -26871,17 +26900,18 @@
     "sanjose|olimpiakings|ah:2.5:home|20260822": 1787330263.839281,
     "diablosrojosdelmexico|lobosplateadosdelabuap|ah:-5.5:home|20260822": 1787331073.682063,
     "sanjose|olimpiakings|ou:159.5:over|20260822": 1787331073.682063,
-    "mornar|buducnost|ml:home|20260821": 1787331973.718935
+    "mornar|buducnost|ml:home|20260821": 1787331973.718935,
+    "chicagoskyn|goldenstatevalkyriesn|ou:163.0:over|20260821": 1787332873.732109
   },
   "last_report_date": "2026-08-21",
-  "next_id": 863,
+  "next_id": 864,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787332333.717786,
+      "ts": 1787332963.720654,
       "ok": true,
-      "vegas_events": 1628,
-      "ref_events": 1210,
+      "vegas_events": 1629,
+      "ref_events": 1219,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
