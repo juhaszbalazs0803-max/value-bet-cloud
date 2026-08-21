@@ -25036,7 +25036,7 @@
       "close_fair_odds": 1.7223,
       "clv_pct": null,
       "close_fair_p": 0.5806056409300344,
-      "close_ts": 1787321630.521188,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25063,10 +25063,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.732,
+      "close_fair_odds": 1.7275,
       "clv_pct": null,
-      "close_fair_p": 0.5773732119635892,
-      "close_ts": 1787321630.521188,
+      "close_fair_p": 0.5788674779387173,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25096,7 +25096,7 @@
       "close_fair_odds": 1.7505,
       "clv_pct": null,
       "close_fair_p": 0.5712607778756573,
-      "close_ts": 1787321630.521188,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25246,7 +25246,7 @@
       "close_fair_odds": 1.7043,
       "clv_pct": null,
       "close_fair_p": 0.5867448993199093,
-      "close_ts": 1787321630.521188,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25273,10 +25273,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5247,
+      "close_fair_odds": 1.4653,
       "clv_pct": null,
-      "close_fair_p": 0.6558676748318116,
-      "close_ts": 1787321630.521188,
+      "close_fair_p": 0.6824493685302203,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25396,7 +25396,7 @@
       "close_fair_odds": 1.8999,
       "clv_pct": null,
       "close_fair_p": 0.5263437910317678,
-      "close_ts": 1787321630.521188,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25456,7 +25456,7 @@
       "close_fair_odds": 1.7389,
       "clv_pct": null,
       "close_fair_p": 0.5750610891748734,
-      "close_ts": 1787321630.521188,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25516,7 +25516,7 @@
       "close_fair_odds": 1.7487,
       "clv_pct": null,
       "close_fair_p": 0.5718389276025321,
-      "close_ts": 1787321630.521188,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25546,7 +25546,7 @@
       "close_fair_odds": 1.5353,
       "clv_pct": null,
       "close_fair_p": 0.6513425888622169,
-      "close_ts": 1787321630.521188,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25576,7 +25576,7 @@
       "close_fair_odds": 1.5247,
       "clv_pct": null,
       "close_fair_p": 0.6558625686543256,
-      "close_ts": 1787321630.521188,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25606,7 +25606,7 @@
       "close_fair_odds": 1.7071,
       "clv_pct": null,
       "close_fair_p": 0.5857917929521645,
-      "close_ts": 1787321630.521188,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25633,10 +25633,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.379,
+      "close_fair_odds": 1.4235,
       "clv_pct": null,
-      "close_fair_p": 0.7251840681273839,
-      "close_ts": 1787321630.521188,
+      "close_fair_p": 0.7024783808221085,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     },
     {
@@ -25693,10 +25693,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.878,
+      "close_fair_odds": 2.0708,
       "clv_pct": null,
-      "close_fair_p": 0.5324678866555759,
-      "close_ts": 1787321630.521188,
+      "close_fair_p": 0.48290307663012433,
+      "close_ts": 1787322260.52536,
+      "close_provisional": true
+    },
+    {
+      "id": 849,
+      "ts": 1787321990.454748,
+      "key": "66:17185670:ml:away",
+      "content_key": "whitehawk|chathamtown|ml:away|20260822",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Whitehawk - Chatham Town",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Chatham Town",
+      "odds": 1.909,
+      "stake": 1800,
+      "value_pct": 6.4,
+      "fair_pct": 55.7,
+      "start": "2026-08-22T14:00:00+00:00",
+      "start_ts": 1787407200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7943,
+      "clv_pct": null,
+      "close_fair_p": 0.5573352221292497,
+      "close_ts": 1787322260.52536,
       "close_provisional": true
     }
   ],
@@ -26438,17 +26468,18 @@
     "guilsfieldfc|ruthintown|ml:home|20260822": 1787320100.521152,
     "aguadasanteros|vaquerosdebayamon|ml:away|20260822": 1787320550.520715,
     "aguadasanteros|vaquerosdebayamon|ou:170.5:under|20260822": 1787320820.503804,
-    "aguadasanteros|vaquerosdebayamon|ah:6.5:away|20260822": 1787320820.503804
+    "aguadasanteros|vaquerosdebayamon|ah:6.5:away|20260822": 1787320820.503804,
+    "whitehawk|chathamtown|ml:away|20260822": 1787321990.454748
   },
   "last_report_date": "2026-08-21",
-  "next_id": 849,
+  "next_id": 850,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787321630.521188,
+      "ts": 1787322260.52536,
       "ok": true,
-      "vegas_events": 1668,
-      "ref_events": 1229,
+      "vegas_events": 1688,
+      "ref_events": 1285,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
