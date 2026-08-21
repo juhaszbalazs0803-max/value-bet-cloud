@@ -24340,7 +24340,7 @@
       "close_fair_odds": 1.9644,
       "clv_pct": null,
       "close_fair_p": 0.5090514701944191,
-      "close_ts": 1787296970.41698,
+      "close_ts": 1787297600.481911,
       "close_provisional": true
     },
     {
@@ -24550,7 +24550,7 @@
       "close_fair_odds": 1.949,
       "clv_pct": null,
       "close_fair_p": 0.5130716330844772,
-      "close_ts": 1787296970.41698,
+      "close_ts": 1787297150.4191,
       "close_provisional": true
     },
     {
@@ -24700,10 +24700,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.988,
+      "close_fair_odds": 2.2192,
       "clv_pct": null,
-      "close_fair_p": 0.5030145502291058,
-      "close_ts": 1787296970.41698,
+      "close_fair_p": 0.4506227164839854,
+      "close_ts": 1787297600.481911,
       "close_provisional": true
     },
     {
@@ -24790,10 +24790,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4804,
+      "close_fair_odds": 1.4062,
       "clv_pct": null,
-      "close_fair_p": 0.6755155250059255,
-      "close_ts": 1787296970.41698,
+      "close_fair_p": 0.7111170556633005,
+      "close_ts": 1787297600.481911,
       "close_provisional": true
     },
     {
@@ -24913,7 +24913,7 @@
       "close_fair_odds": 1.878,
       "clv_pct": null,
       "close_fair_p": 0.5324678866555759,
-      "close_ts": 1787296970.41698,
+      "close_ts": 1787297150.4191,
       "close_provisional": true
     },
     {
@@ -24943,7 +24943,7 @@
       "close_fair_odds": 1.7161,
       "clv_pct": null,
       "close_fair_p": 0.5827257729764249,
-      "close_ts": 1787296970.41698,
+      "close_ts": 1787297600.481911,
       "close_provisional": true
     },
     {
@@ -25003,7 +25003,7 @@
       "close_fair_odds": 1.3702,
       "clv_pct": null,
       "close_fair_p": 0.729836458742531,
-      "close_ts": 1787296970.41698,
+      "close_ts": 1787297600.481911,
       "close_provisional": true
     },
     {
@@ -25033,7 +25033,37 @@
       "close_fair_odds": 1.7223,
       "clv_pct": null,
       "close_fair_p": 0.5806056409300344,
-      "close_ts": 1787296970.41698,
+      "close_ts": 1787297600.481911,
+      "close_provisional": true
+    },
+    {
+      "id": 827,
+      "ts": 1787297600.481911,
+      "key": "66:16314406:ou:3.5:over",
+      "content_key": "levadiatallinn|narvatrans|ou:3.5:over|20260821",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Levadia Tallinn - Narva Trans",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.833,
+      "stake": 1700,
+      "value_pct": 5.75,
+      "fair_pct": 57.7,
+      "start": "2026-08-21T16:00:00+00:00",
+      "start_ts": 1787328000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7337,
+      "clv_pct": null,
+      "close_fair_p": 0.5767881732443035,
+      "close_ts": 1787297600.481911,
       "close_provisional": true
     }
   ],
@@ -25754,17 +25784,18 @@
     "essendonroyalssc|keilorparksc|ou:3.5:over|20260821": 1787292947.180702,
     "waverleyfalconsn|mackaymeteorettesn|ah:3.5:home|20260821": 1787293037.174127,
     "davidwallechner|gabrielemarianoce|ml:away|20260821": 1787294810.47901,
-    "douglashallafc|ringmahonrangers|ou:3.5:under|20260821": 1787296700.483535
+    "douglashallafc|ringmahonrangers|ou:3.5:under|20260821": 1787296700.483535,
+    "levadiatallinn|narvatrans|ou:3.5:over|20260821": 1787297600.481911
   },
   "last_report_date": "2026-08-20",
-  "next_id": 827,
+  "next_id": 828,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787296970.41698,
+      "ts": 1787297600.481911,
       "ok": true,
-      "vegas_events": 1560,
-      "ref_events": 1146,
+      "vegas_events": 1561,
+      "ref_events": 1142,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
