@@ -24277,10 +24277,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7508,
+      "close_fair_odds": 1.8703,
       "clv_pct": null,
-      "close_fair_p": 0.5711668507691893,
-      "close_ts": 1787235022.121177,
+      "close_fair_p": 0.5346592883684872,
+      "close_ts": 1787301139.534745,
       "close_provisional": true
     },
     {
@@ -24340,7 +24340,7 @@
       "close_fair_odds": 2.004,
       "clv_pct": null,
       "close_fair_p": 0.49899509606881587,
-      "close_ts": 1787300509.551342,
+      "close_ts": 1787301139.534745,
       "close_provisional": true
     },
     {
@@ -24793,7 +24793,7 @@
       "close_fair_odds": 1.4062,
       "clv_pct": null,
       "close_fair_p": 0.7111170556633005,
-      "close_ts": 1787300509.551342,
+      "close_ts": 1787301139.534745,
       "close_provisional": true
     },
     {
@@ -24943,7 +24943,7 @@
       "close_fair_odds": 1.7161,
       "clv_pct": null,
       "close_fair_p": 0.5827257729764249,
-      "close_ts": 1787300509.551342,
+      "close_ts": 1787301139.534745,
       "close_provisional": true
     },
     {
@@ -25003,7 +25003,7 @@
       "close_fair_odds": 1.4002,
       "clv_pct": -5.73,
       "close_fair_p": 0.714178801291509,
-      "close_ts": 1787300509.551342,
+      "close_ts": 1787300959.559827,
       "close_provisional": false
     },
     {
@@ -25033,7 +25033,7 @@
       "close_fair_odds": 1.7223,
       "clv_pct": null,
       "close_fair_p": 0.5806056409300344,
-      "close_ts": 1787300509.551342,
+      "close_ts": 1787301139.534745,
       "close_provisional": true
     },
     {
@@ -25063,7 +25063,37 @@
       "close_fair_odds": 1.7337,
       "clv_pct": null,
       "close_fair_p": 0.5767881732443035,
-      "close_ts": 1787300509.551342,
+      "close_ts": 1787301139.534745,
+      "close_provisional": true
+    },
+    {
+      "id": 828,
+      "ts": 1787300959.559827,
+      "key": "66:17437752:ou:3.5:over",
+      "content_key": "fcbarcelonan|brightonn|ou:3.5:over|20260821",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "FC Barcelona (N) - Brighton (N)",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.9,
+      "stake": 2200,
+      "value_pct": 7.89,
+      "fair_pct": 56.8,
+      "start": "2026-08-21T18:00:00+00:00",
+      "start_ts": 1787335200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7611,
+      "clv_pct": null,
+      "close_fair_p": 0.5678317932235168,
+      "close_ts": 1787301139.534745,
       "close_provisional": true
     }
   ],
@@ -25784,17 +25814,18 @@
     "waverleyfalconsn|mackaymeteorettesn|ah:3.5:home|20260821": 1787293037.174127,
     "davidwallechner|gabrielemarianoce|ml:away|20260821": 1787294810.47901,
     "douglashallafc|ringmahonrangers|ou:3.5:under|20260821": 1787296700.483535,
-    "levadiatallinn|narvatrans|ou:3.5:over|20260821": 1787297600.481911
+    "levadiatallinn|narvatrans|ou:3.5:over|20260821": 1787297600.481911,
+    "fcbarcelonan|brightonn|ou:3.5:over|20260821": 1787300959.559827
   },
   "last_report_date": "2026-08-20",
-  "next_id": 828,
+  "next_id": 829,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787300509.551342,
+      "ts": 1787301139.534745,
       "ok": true,
-      "vegas_events": 1574,
-      "ref_events": 1153,
+      "vegas_events": 1578,
+      "ref_events": 1156,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
