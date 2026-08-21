@@ -25036,7 +25036,7 @@
       "close_fair_odds": 1.7223,
       "clv_pct": null,
       "close_fair_p": 0.5806056409300344,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25066,7 +25066,7 @@
       "close_fair_odds": 1.7155,
       "clv_pct": 6.85,
       "close_fair_p": 0.5829317581221826,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787327933.858067,
       "close_provisional": false
     },
     {
@@ -25096,7 +25096,7 @@
       "close_fair_odds": 1.7505,
       "clv_pct": null,
       "close_fair_p": 0.5712607778756573,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25276,7 +25276,7 @@
       "close_fair_odds": 1.3746,
       "clv_pct": 9.12,
       "close_fair_p": 0.7274801070317939,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787327933.858067,
       "close_provisional": false
     },
     {
@@ -25393,10 +25393,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.0662,
+      "close_fair_odds": 2.0578,
       "clv_pct": null,
-      "close_fair_p": 0.4839803105124985,
-      "close_ts": 1787327573.859766,
+      "close_fair_p": 0.48594754738933377,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25453,10 +25453,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7286,
+      "close_fair_odds": 1.6777,
       "clv_pct": null,
-      "close_fair_p": 0.5784892983550806,
-      "close_ts": 1787327573.859766,
+      "close_fair_p": 0.596065154047792,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25516,7 +25516,7 @@
       "close_fair_odds": 1.7471,
       "clv_pct": null,
       "close_fair_p": 0.5723932367914325,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25546,7 +25546,7 @@
       "close_fair_odds": 1.5353,
       "clv_pct": null,
       "close_fair_p": 0.6513425888622169,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25576,7 +25576,7 @@
       "close_fair_odds": 1.5247,
       "clv_pct": null,
       "close_fair_p": 0.6558625686543256,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25606,7 +25606,7 @@
       "close_fair_odds": 1.7071,
       "clv_pct": null,
       "close_fair_p": 0.5857917929521645,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25636,7 +25636,7 @@
       "close_fair_odds": 1.4451,
       "clv_pct": null,
       "close_fair_p": 0.6920170051960322,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25696,7 +25696,7 @@
       "close_fair_odds": 1.9924,
       "clv_pct": null,
       "close_fair_p": 0.5018954373142063,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25726,7 +25726,7 @@
       "close_fair_odds": 1.7943,
       "clv_pct": null,
       "close_fair_p": 0.5573352221292497,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25786,7 +25786,7 @@
       "close_fair_odds": 1.833,
       "clv_pct": null,
       "close_fair_p": 0.5455566549889016,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25816,7 +25816,7 @@
       "close_fair_odds": 1.9067,
       "clv_pct": null,
       "close_fair_p": 0.5244540057731061,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25846,7 +25846,7 @@
       "close_fair_odds": 1.8005,
       "clv_pct": null,
       "close_fair_p": 0.5554050392847466,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25876,7 +25876,7 @@
       "close_fair_odds": 1.9142,
       "clv_pct": null,
       "close_fair_p": 0.5224197733643401,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25906,7 +25906,7 @@
       "close_fair_odds": 1.86,
       "clv_pct": null,
       "close_fair_p": 0.5376231879218443,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
       "close_provisional": true
     },
     {
@@ -25936,7 +25936,37 @@
       "close_fair_odds": 1.7985,
       "clv_pct": null,
       "close_fair_p": 0.5560226748759121,
-      "close_ts": 1787327573.859766,
+      "close_ts": 1787328203.840308,
+      "close_provisional": true
+    },
+    {
+      "id": 857,
+      "ts": 1787327843.846691,
+      "key": "67:17440965:ah:-2.5:home",
+      "content_key": "solesdemexicali|minerosdezacatecas|ah:-2.5:home|20260822",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-2.5:home",
+      "event": "Soles de Mexicali - Mineros de Zacatecas",
+      "market": "ah",
+      "market_name": "Hendikep -2.5",
+      "tip": "Hendikep Soles de Mexicali (-2.5)",
+      "odds": 1.833,
+      "stake": 2300,
+      "value_pct": 7.66,
+      "fair_pct": 58.7,
+      "start": "2026-08-22T03:00:00+00:00",
+      "start_ts": 1787367600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7029,
+      "clv_pct": null,
+      "close_fair_p": 0.5872304078582106,
+      "close_ts": 1787328113.797418,
       "close_provisional": true
     }
   ],
@@ -26685,17 +26715,18 @@
     "sanjose|olimpiakings|ah:1.5:home|20260822": 1787326313.837396,
     "pyeongchangunited|jincheonhrfc|ml:away|20260822": 1787326403.843398,
     "sekhukhuneunited|orlandopirates|ml:away|20260822": 1787326493.854666,
-    "solesdemexicali|minerosdezacatecas|ah:-3.5:home|20260822": 1787327483.844688
+    "solesdemexicali|minerosdezacatecas|ah:-3.5:home|20260822": 1787327483.844688,
+    "solesdemexicali|minerosdezacatecas|ah:-2.5:home|20260822": 1787327843.846691
   },
   "last_report_date": "2026-08-21",
-  "next_id": 857,
+  "next_id": 858,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787327573.859766,
+      "ts": 1787328203.840308,
       "ok": true,
-      "vegas_events": 1704,
-      "ref_events": 1291,
+      "vegas_events": 1666,
+      "ref_events": 1256,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
