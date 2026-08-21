@@ -24340,7 +24340,7 @@
       "close_fair_odds": 1.9532,
       "clv_pct": null,
       "close_fair_p": 0.5119877708646213,
-      "close_ts": 1787294450.480474,
+      "close_ts": 1787295080.481337,
       "close_provisional": true
     },
     {
@@ -24550,7 +24550,7 @@
       "close_fair_odds": 1.949,
       "clv_pct": null,
       "close_fair_p": 0.5130716330844772,
-      "close_ts": 1787294450.480474,
+      "close_ts": 1787295080.481337,
       "close_provisional": true
     },
     {
@@ -24640,11 +24640,11 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.949,
-      "clv_pct": null,
-      "close_fair_p": 0.5130716330844772,
-      "close_ts": 1787294450.480474,
-      "close_provisional": true
+      "close_fair_odds": 2.0,
+      "clv_pct": -4.55,
+      "close_fair_p": 0.5,
+      "close_ts": 1787295080.481337,
+      "close_provisional": false
     },
     {
       "id": 814,
@@ -24703,7 +24703,7 @@
       "close_fair_odds": 2.004,
       "clv_pct": null,
       "close_fair_p": 0.49899509606881587,
-      "close_ts": 1787294450.480474,
+      "close_ts": 1787295080.481337,
       "close_provisional": true
     },
     {
@@ -24730,11 +24730,11 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.992,
-      "clv_pct": null,
-      "close_fair_p": 0.5020190944829246,
-      "close_ts": 1787294450.480474,
-      "close_provisional": true
+      "close_fair_odds": 2.0758,
+      "clv_pct": -11.7,
+      "close_fair_p": 0.4817461798981306,
+      "close_ts": 1787295080.481337,
+      "close_provisional": false
     },
     {
       "id": 817,
@@ -24790,10 +24790,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4808,
+      "close_fair_odds": 1.4804,
       "clv_pct": null,
-      "close_fair_p": 0.6752914415695195,
-      "close_ts": 1787294450.480474,
+      "close_fair_p": 0.6755155250059255,
+      "close_ts": 1787295080.481337,
       "close_provisional": true
     },
     {
@@ -24913,7 +24913,7 @@
       "close_fair_odds": 1.8466,
       "clv_pct": null,
       "close_fair_p": 0.5415238095238095,
-      "close_ts": 1787294450.480474,
+      "close_ts": 1787295080.481337,
       "close_provisional": true
     },
     {
@@ -24943,7 +24943,7 @@
       "close_fair_odds": 1.7161,
       "clv_pct": null,
       "close_fair_p": 0.5827257729764249,
-      "close_ts": 1787294450.480474,
+      "close_ts": 1787295080.481337,
       "close_provisional": true
     },
     {
@@ -24974,6 +24974,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5617977528089888,
       "close_ts": 1787293037.174127,
+      "close_provisional": true
+    },
+    {
+      "id": 825,
+      "ts": 1787294810.47901,
+      "key": "68:17456663:ml:away",
+      "content_key": "davidwallechner|gabrielemarianoce|ml:away|20260821",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "David Wallechner - Gabriele Maria Noce",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Gabriele Maria Noce",
+      "odds": 1.32,
+      "stake": 2900,
+      "value_pct": 3.76,
+      "fair_pct": 78.6,
+      "start": "2026-08-21T08:30:00+00:00",
+      "start_ts": 1787301000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.2722,
+      "clv_pct": null,
+      "close_fair_p": 0.7860277400821275,
+      "close_ts": 1787295080.481337,
       "close_provisional": true
     }
   ],
@@ -25692,17 +25722,18 @@
     "bankstownbruinsn|warwicksenatorsn|ah:-2.5:away|20260821": 1787291057.230103,
     "gaziantep|haremspor|ah:-6.5:home|20260821": 1787292137.173657,
     "essendonroyalssc|keilorparksc|ou:3.5:over|20260821": 1787292947.180702,
-    "waverleyfalconsn|mackaymeteorettesn|ah:3.5:home|20260821": 1787293037.174127
+    "waverleyfalconsn|mackaymeteorettesn|ah:3.5:home|20260821": 1787293037.174127,
+    "davidwallechner|gabrielemarianoce|ml:away|20260821": 1787294810.47901
   },
   "last_report_date": "2026-08-20",
-  "next_id": 825,
+  "next_id": 826,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787294450.480474,
+      "ts": 1787295080.481337,
       "ok": true,
-      "vegas_events": 1547,
-      "ref_events": 1121,
+      "vegas_events": 1549,
+      "ref_events": 1126,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
