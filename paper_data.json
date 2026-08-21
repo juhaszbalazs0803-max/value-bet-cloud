@@ -25036,7 +25036,7 @@
       "close_fair_odds": 1.7204,
       "clv_pct": 6.54,
       "close_fair_p": 0.5812724582540689,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": false
     },
     {
@@ -25246,7 +25246,7 @@
       "close_fair_odds": 1.956,
       "clv_pct": null,
       "close_fair_p": 0.5112387202625103,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25546,7 +25546,7 @@
       "close_fair_odds": 1.5353,
       "clv_pct": null,
       "close_fair_p": 0.6513425888622169,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25576,7 +25576,7 @@
       "close_fair_odds": 1.5247,
       "clv_pct": null,
       "close_fair_p": 0.6558625686543256,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25606,7 +25606,7 @@
       "close_fair_odds": 1.7071,
       "clv_pct": null,
       "close_fair_p": 0.5857917929521645,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25636,7 +25636,7 @@
       "close_fair_odds": 1.472,
       "clv_pct": null,
       "close_fair_p": 0.6793380067933801,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25696,7 +25696,7 @@
       "close_fair_odds": 2.0909,
       "clv_pct": null,
       "close_fair_p": 0.47825850340136056,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25726,7 +25726,7 @@
       "close_fair_odds": 1.7943,
       "clv_pct": null,
       "close_fair_p": 0.5573352221292497,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25816,7 +25816,7 @@
       "close_fair_odds": 1.9628,
       "clv_pct": null,
       "close_fair_p": 0.5094833224329627,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25876,7 +25876,7 @@
       "close_fair_odds": 1.9142,
       "clv_pct": null,
       "close_fair_p": 0.5224197733643401,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25906,7 +25906,7 @@
       "close_fair_odds": 1.86,
       "clv_pct": null,
       "close_fair_p": 0.5376231879218443,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -25996,7 +25996,7 @@
       "close_fair_odds": 2.0402,
       "clv_pct": null,
       "close_fair_p": 0.4901416796853957,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -26146,7 +26146,7 @@
       "close_fair_odds": 1.8688,
       "clv_pct": null,
       "close_fair_p": 0.5351010302691477,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337690.388085,
       "close_provisional": true
     },
     {
@@ -26206,7 +26206,7 @@
       "close_fair_odds": 1.8214,
       "clv_pct": null,
       "close_fair_p": 0.5490217186532821,
-      "close_ts": 1787337150.39443,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     },
     {
@@ -26233,10 +26233,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9281,
+      "close_fair_odds": 2.0329,
       "clv_pct": null,
-      "close_fair_p": 0.5186491799746855,
-      "close_ts": 1787337150.39443,
+      "close_fair_p": 0.491900994333369,
+      "close_ts": 1787337780.45726,
+      "close_provisional": true
+    },
+    {
+      "id": 867,
+      "ts": 1787337510.397462,
+      "key": "66:17434639:ou:2.5:under",
+      "content_key": "caracas|carabobo|ou:2.5:under|20260821",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "Caracas - Carabobo",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 1.75,
+      "stake": 1400,
+      "value_pct": 4.13,
+      "fair_pct": 59.5,
+      "start": "2026-08-21T23:00:00+00:00",
+      "start_ts": 1787353200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6807,
+      "clv_pct": null,
+      "close_fair_p": 0.5950061059578559,
+      "close_ts": 1787337780.45726,
       "close_provisional": true
     }
   ],
@@ -26994,17 +27024,18 @@
     "chicagoskyn|goldenstatevalkyriesn|ou:163.0:over|20260821": 1787332873.732109,
     "fcwil|sckriens|ou:2.5:over|20260822": 1787334753.832306,
     "queanbeyancityfc|oconnorknightsfc|ou:3.5:over|20260822": 1787335653.803961,
-    "ballymenaallstarsn|lisburnn|ou:3.5:under|20260821": 1787335653.803961
+    "ballymenaallstarsn|lisburnn|ou:3.5:under|20260821": 1787335653.803961,
+    "caracas|carabobo|ou:2.5:under|20260821": 1787337510.397462
   },
   "last_report_date": "2026-08-21",
-  "next_id": 867,
+  "next_id": 868,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787337150.39443,
+      "ts": 1787337780.45726,
       "ok": true,
-      "vegas_events": 1573,
-      "ref_events": 1174,
+      "vegas_events": 1582,
+      "ref_events": 1151,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
