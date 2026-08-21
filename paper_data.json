@@ -24790,10 +24790,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3334,
+      "close_fair_odds": 1.2858,
       "clv_pct": null,
-      "close_fair_p": 0.7499438053006926,
-      "close_ts": 1787302681.14111,
+      "close_fair_p": 0.7777547052271911,
+      "close_ts": 1787303311.085405,
       "close_provisional": true
     },
     {
@@ -24940,10 +24940,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.714,
+      "close_fair_odds": 1.7125,
       "clv_pct": null,
-      "close_fair_p": 0.5834213305174234,
-      "close_ts": 1787302681.14111,
+      "close_fair_p": 0.5839300340846039,
+      "close_ts": 1787303311.085405,
       "close_provisional": true
     },
     {
@@ -25033,7 +25033,7 @@
       "close_fair_odds": 1.7223,
       "clv_pct": null,
       "close_fair_p": 0.5806056409300344,
-      "close_ts": 1787302681.14111,
+      "close_ts": 1787303311.085405,
       "close_provisional": true
     },
     {
@@ -25063,7 +25063,7 @@
       "close_fair_odds": 1.7337,
       "clv_pct": null,
       "close_fair_p": 0.5767881732443035,
-      "close_ts": 1787302681.14111,
+      "close_ts": 1787303311.085405,
       "close_provisional": true
     },
     {
@@ -25090,10 +25090,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7757,
+      "close_fair_odds": 1.7002,
       "clv_pct": null,
-      "close_fair_p": 0.5631687629059509,
-      "close_ts": 1787302681.14111,
+      "close_fair_p": 0.5881566635476541,
+      "close_ts": 1787303311.085405,
       "close_provisional": true
     },
     {
@@ -25848,15 +25848,15 @@
     "fcbarcelonan|brightonn|ou:3.5:over|20260821": 1787300959.559827,
     "forestvilleeagles|goldcoastrollers|ah:-4.5:away|20260821": 1787301421.157381
   },
-  "last_report_date": "2026-08-20",
+  "last_report_date": "2026-08-21",
   "next_id": 830,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787302681.14111,
+      "ts": 1787303311.085405,
       "ok": true,
-      "vegas_events": 1569,
-      "ref_events": 1173,
+      "vegas_events": 1560,
+      "ref_events": 1169,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
