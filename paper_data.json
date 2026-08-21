@@ -25036,7 +25036,7 @@
       "close_fair_odds": 1.7223,
       "clv_pct": null,
       "close_fair_p": 0.5806056409300344,
-      "close_ts": 1787314548.170904,
+      "close_ts": 1787316033.064088,
       "close_provisional": true
     },
     {
@@ -25066,7 +25066,7 @@
       "close_fair_odds": 1.7337,
       "clv_pct": null,
       "close_fair_p": 0.5767881732443035,
-      "close_ts": 1787314548.170904,
+      "close_ts": 1787316033.064088,
       "close_provisional": true
     },
     {
@@ -25096,7 +25096,7 @@
       "close_fair_odds": 1.7505,
       "clv_pct": null,
       "close_fair_p": 0.5712607778756573,
-      "close_ts": 1787314548.170904,
+      "close_ts": 1787316033.064088,
       "close_provisional": true
     },
     {
@@ -25243,10 +25243,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7089,
+      "close_fair_odds": 1.7212,
       "clv_pct": null,
-      "close_fair_p": 0.5851703406813628,
-      "close_ts": 1787314548.170904,
+      "close_fair_p": 0.5809906291834002,
+      "close_ts": 1787316033.064088,
       "close_provisional": true
     },
     {
@@ -25273,10 +25273,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4518,
+      "close_fair_odds": 1.6326,
       "clv_pct": null,
-      "close_fair_p": 0.6887772550016094,
-      "close_ts": 1787314548.170904,
+      "close_fair_p": 0.6125089081849865,
+      "close_ts": 1787316033.064088,
       "close_provisional": true
     },
     {
@@ -25307,6 +25307,66 @@
       "clv_pct": null,
       "close_fair_p": 0.5728578344360173,
       "close_ts": 1787314548.170904,
+      "close_provisional": true
+    },
+    {
+      "id": 836,
+      "ts": 1787316033.064088,
+      "key": "67:16316731:ou:161.5:over",
+      "content_key": "chicagoskyn|goldenstatevalkyriesn|ou:161.5:over|20260821",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:161.5:over",
+      "event": "Chicago Sky (N) - Golden State Valkyries (N)",
+      "market": "ou",
+      "market_name": "O/U 161.5",
+      "tip": "Több mint 161.5",
+      "odds": 1.926,
+      "stake": 900,
+      "value_pct": 3.45,
+      "fair_pct": 53.7,
+      "start": "2026-08-21T23:30:00+00:00",
+      "start_ts": 1787355000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8617,
+      "clv_pct": null,
+      "close_fair_p": 0.5371340441939001,
+      "close_ts": 1787316033.064088,
+      "close_provisional": true
+    },
+    {
+      "id": 837,
+      "ts": 1787316033.064088,
+      "key": "67:16317899:ah:3.5:home",
+      "content_key": "torontotempon|portlandfiren|ah:3.5:home|20260822",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:3.5:home",
+      "event": "Toronto Tempo (N) - Portland Fire (N)",
+      "market": "ah",
+      "market_name": "Hendikep +3.5",
+      "tip": "Hendikep Toronto Tempo (N) (+3.5)",
+      "odds": 1.909,
+      "stake": 1200,
+      "value_pct": 4.23,
+      "fair_pct": 54.6,
+      "start": "2026-08-22T02:00:00+00:00",
+      "start_ts": 1787364000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8316,
+      "clv_pct": null,
+      "close_fair_p": 0.5459792527883941,
+      "close_ts": 1787316033.064088,
       "close_provisional": true
     }
   ],
@@ -26035,22 +26095,28 @@
     "washingtonmysticsn|minnesotalynxn|ah:3.0:away|20260821": 1787311938.154936,
     "solesdemexicali|minerosdezacatecas|ah:-6.5:away|20260822": 1787313918.163453,
     "jjkjyvaskyla2|keupa|ml:away|20260821": 1787314278.20673,
-    "jjkjyvaskyla2|keupa|ou:4.5:over|20260821": 1787314278.20673
+    "jjkjyvaskyla2|keupa|ou:4.5:over|20260821": 1787314278.20673,
+    "chicagoskyn|goldenstatevalkyriesn|ou:161.5:over|20260821": 1787316033.064088,
+    "torontotempon|portlandfiren|ah:3.5:home|20260822": 1787316033.064088
   },
   "last_report_date": "2026-08-21",
-  "next_id": 836,
+  "next_id": 838,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787314548.170904,
-      "ok": true,
-      "vegas_events": 1615,
-      "ref_events": 1171,
+      "ts": 1787316033.064088,
+      "ok": false,
+      "vegas_events": 1552,
+      "ref_events": 1154,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1787285925.693796,
