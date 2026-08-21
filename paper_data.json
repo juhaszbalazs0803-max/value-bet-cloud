@@ -24340,7 +24340,7 @@
       "close_fair_odds": 1.9532,
       "clv_pct": null,
       "close_fair_p": 0.5119877708646213,
-      "close_ts": 1787292317.235678,
+      "close_ts": 1787292947.180702,
       "close_provisional": true
     },
     {
@@ -24550,7 +24550,7 @@
       "close_fair_odds": 2.0576,
       "clv_pct": null,
       "close_fair_p": 0.48600686253484887,
-      "close_ts": 1787292317.235678,
+      "close_ts": 1787292947.180702,
       "close_provisional": true
     },
     {
@@ -24703,7 +24703,7 @@
       "close_fair_odds": 2.004,
       "clv_pct": null,
       "close_fair_p": 0.49899509606881587,
-      "close_ts": 1787292317.235678,
+      "close_ts": 1787292947.180702,
       "close_provisional": true
     },
     {
@@ -24733,7 +24733,7 @@
       "close_fair_odds": 2.0,
       "clv_pct": null,
       "close_fair_p": 0.5,
-      "close_ts": 1787292317.235678,
+      "close_ts": 1787292947.180702,
       "close_provisional": true
     },
     {
@@ -24793,7 +24793,7 @@
       "close_fair_odds": 1.4512,
       "clv_pct": null,
       "close_fair_p": 0.6890791396951347,
-      "close_ts": 1787292317.235678,
+      "close_ts": 1787292947.180702,
       "close_provisional": true
     },
     {
@@ -24913,7 +24913,37 @@
       "close_fair_odds": 1.8466,
       "clv_pct": null,
       "close_fair_p": 0.5415238095238095,
-      "close_ts": 1787292317.235678,
+      "close_ts": 1787292947.180702,
+      "close_provisional": true
+    },
+    {
+      "id": 823,
+      "ts": 1787292947.180702,
+      "key": "66:17163639:ou:3.5:over",
+      "content_key": "essendonroyalssc|keilorparksc|ou:3.5:over|20260821",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Essendon Royals SC - Keilor Park SC",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.8,
+      "stake": 1500,
+      "value_pct": 4.89,
+      "fair_pct": 58.3,
+      "start": "2026-08-21T10:30:00+00:00",
+      "start_ts": 1787308200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7161,
+      "clv_pct": null,
+      "close_fair_p": 0.5827257729764249,
+      "close_ts": 1787292947.180702,
       "close_provisional": true
     }
   ],
@@ -25630,17 +25660,18 @@
     "lasvegasacesn|connecticutsunn|ou:167.5:over|20260821": 1787261346.378716,
     "lasvegasacesn|connecticutsunn|ah:-15.0:away|20260821": 1787261346.378716,
     "bankstownbruinsn|warwicksenatorsn|ah:-2.5:away|20260821": 1787291057.230103,
-    "gaziantep|haremspor|ah:-6.5:home|20260821": 1787292137.173657
+    "gaziantep|haremspor|ah:-6.5:home|20260821": 1787292137.173657,
+    "essendonroyalssc|keilorparksc|ou:3.5:over|20260821": 1787292947.180702
   },
   "last_report_date": "2026-08-20",
-  "next_id": 823,
+  "next_id": 824,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787292317.235678,
+      "ts": 1787292947.180702,
       "ok": true,
-      "vegas_events": 1548,
-      "ref_events": 1114,
+      "vegas_events": 1549,
+      "ref_events": 1120,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
