@@ -24337,10 +24337,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7985,
+      "close_fair_odds": 1.9522,
       "clv_pct": null,
-      "close_fair_p": 0.5560226748759121,
-      "close_ts": 1787241234.35438,
+      "close_fair_p": 0.5122523604213283,
+      "close_ts": 1787291057.230103,
       "close_provisional": true
     },
     {
@@ -24547,10 +24547,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9924,
+      "close_fair_odds": 2.0539,
       "clv_pct": null,
-      "close_fair_p": 0.5018954373142063,
-      "close_ts": 1787263956.398202,
+      "close_fair_p": 0.48687951016837955,
+      "close_ts": 1787291057.230103,
       "close_provisional": true
     },
     {
@@ -24730,10 +24730,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9888,
+      "close_fair_odds": 2.0,
       "clv_pct": null,
-      "close_fair_p": 0.5028142076502732,
-      "close_ts": 1787263956.398202,
+      "close_fair_p": 0.5,
+      "close_ts": 1787291057.230103,
       "close_provisional": true
     },
     {
@@ -24790,10 +24790,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4571,
+      "close_fair_odds": 1.4545,
       "clv_pct": null,
-      "close_fair_p": 0.6862861908733469,
-      "close_ts": 1787263956.398202,
+      "close_fair_p": 0.6875223028428691,
+      "close_ts": 1787291057.230103,
       "close_provisional": true
     },
     {
@@ -24855,10 +24855,39 @@
       "close_fair_p": 0.5431957583948435,
       "close_ts": 1787263956.398202,
       "close_provisional": true
+    },
+    {
+      "id": 821,
+      "ts": 1787291057.230103,
+      "key": "67:17439877:ah:-2.5:away",
+      "content_key": "bankstownbruinsn|warwicksenatorsn|ah:-2.5:away|20260821",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-2.5:away",
+      "event": "Bankstown Bruins (N) - Warwick Senators (N)",
+      "market": "ah",
+      "market_name": "Hendikep +2.5",
+      "tip": "Hendikep Warwick Senators (N) (+2.5)",
+      "odds": 1.833,
+      "stake": 2200,
+      "value_pct": 7.47,
+      "fair_pct": 58.6,
+      "start": "2026-08-21T08:30:00+00:00",
+      "start_ts": 1787301000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.706,
+      "clv_pct": null,
+      "close_fair_p": 0.5861726068979954,
+      "close_ts": 1787291057.230103,
+      "close_provisional": true
     }
   ],
   "papered": {
-    "phoenixmercuryn|chicagoskyn|ah:-2.5:home|20260708": 1783399835.852424,
     "phoenixmercuryn|chicagoskyn|ml:home|20260708": 1783412486.281354,
     "newyorklibertyn|dallaswingsn|ah:-4.5:home|20260708": 1783434473.490114,
     "clubtrouville|cdalbatros|ah:-15.5:home|20260707": 1783444776.217336,
@@ -25569,33 +25598,26 @@
     "freserosdeirapuato|elcalordecancun|ah:-4.5:away|20260821": 1787257754.069934,
     "rockinghamflames|canberragunners|ml:home|20260821": 1787258294.06165,
     "lasvegasacesn|connecticutsunn|ou:167.5:over|20260821": 1787261346.378716,
-    "lasvegasacesn|connecticutsunn|ah:-15.0:away|20260821": 1787261346.378716
+    "lasvegasacesn|connecticutsunn|ah:-15.0:away|20260821": 1787261346.378716,
+    "bankstownbruinsn|warwicksenatorsn|ah:-2.5:away|20260821": 1787291057.230103
   },
   "last_report_date": "2026-08-20",
-  "next_id": 821,
+  "next_id": 822,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787287634.867907,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1787291057.230103,
+      "ok": true,
+      "vegas_events": 1536,
+      "ref_events": 1103,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787285925.693796,
-    "alert_active": true
+    "alert_active": false
   }
 }
