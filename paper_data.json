@@ -25036,7 +25036,7 @@
       "close_fair_odds": 1.7223,
       "clv_pct": null,
       "close_fair_p": 0.5806056409300344,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25066,7 +25066,7 @@
       "close_fair_odds": 1.7275,
       "clv_pct": null,
       "close_fair_p": 0.5788674779387173,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25096,7 +25096,7 @@
       "close_fair_odds": 1.7505,
       "clv_pct": null,
       "close_fair_p": 0.5712607778756573,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25246,7 +25246,7 @@
       "close_fair_odds": 1.7043,
       "clv_pct": null,
       "close_fair_p": 0.5867448993199093,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25276,7 +25276,7 @@
       "close_fair_odds": 1.4653,
       "clv_pct": null,
       "close_fair_p": 0.6824493685302203,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25396,7 +25396,7 @@
       "close_fair_odds": 1.8999,
       "clv_pct": null,
       "close_fair_p": 0.5263437910317678,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25456,7 +25456,7 @@
       "close_fair_odds": 1.7389,
       "clv_pct": null,
       "close_fair_p": 0.5750610891748734,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25516,7 +25516,7 @@
       "close_fair_odds": 1.7487,
       "clv_pct": null,
       "close_fair_p": 0.5718389276025321,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25546,7 +25546,7 @@
       "close_fair_odds": 1.5353,
       "clv_pct": null,
       "close_fair_p": 0.6513425888622169,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25576,7 +25576,7 @@
       "close_fair_odds": 1.5247,
       "clv_pct": null,
       "close_fair_p": 0.6558625686543256,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25606,7 +25606,7 @@
       "close_fair_odds": 1.7071,
       "clv_pct": null,
       "close_fair_p": 0.5857917929521645,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25636,7 +25636,7 @@
       "close_fair_odds": 1.4235,
       "clv_pct": null,
       "close_fair_p": 0.7024783808221085,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     },
     {
@@ -25696,7 +25696,7 @@
       "close_fair_odds": 2.0708,
       "clv_pct": null,
       "close_fair_p": 0.48290307663012433,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322800.455777,
       "close_provisional": true
     },
     {
@@ -25726,12 +25726,41 @@
       "close_fair_odds": 1.7943,
       "clv_pct": null,
       "close_fair_p": 0.5573352221292497,
-      "close_ts": 1787322260.52536,
+      "close_ts": 1787322890.480061,
+      "close_provisional": true
+    },
+    {
+      "id": 850,
+      "ts": 1787322890.480061,
+      "key": "67:17434947:ah:8.5:home",
+      "content_key": "aguadasanteros|vaquerosdebayamon|ah:8.5:home|20260822",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:8.5:home",
+      "event": "Aguada Santeros - Vaqueros de Bayamon",
+      "market": "ah",
+      "market_name": "Hendikep +8.5",
+      "tip": "Hendikep Aguada Santeros (+8.5)",
+      "odds": 1.833,
+      "stake": 2600,
+      "value_pct": 8.68,
+      "fair_pct": 59.3,
+      "start": "2026-08-22T00:00:00+00:00",
+      "start_ts": 1787356800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.687,
+      "clv_pct": null,
+      "close_fair_p": 0.5927855604880512,
+      "close_ts": 1787322890.480061,
       "close_provisional": true
     }
   ],
   "papered": {
-    "newyorklibertyn|dallaswingsn|ah:-4.5:home|20260708": 1783434473.490114,
     "clubtrouville|cdalbatros|ah:-15.5:home|20260707": 1783444776.217336,
     "olivolmundial|colonfc|ah:-8.5:home|20260707": 1783461932.418986,
     "utahjazz|oklahomacitythunder|ah:-3.5:away|20260708": 1783465127.683958,
@@ -26469,22 +26498,27 @@
     "aguadasanteros|vaquerosdebayamon|ml:away|20260822": 1787320550.520715,
     "aguadasanteros|vaquerosdebayamon|ou:170.5:under|20260822": 1787320820.503804,
     "aguadasanteros|vaquerosdebayamon|ah:6.5:away|20260822": 1787320820.503804,
-    "whitehawk|chathamtown|ml:away|20260822": 1787321990.454748
+    "whitehawk|chathamtown|ml:away|20260822": 1787321990.454748,
+    "aguadasanteros|vaquerosdebayamon|ah:8.5:home|20260822": 1787322890.480061
   },
   "last_report_date": "2026-08-21",
-  "next_id": 850,
+  "next_id": 851,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787322260.52536,
-      "ok": true,
-      "vegas_events": 1688,
-      "ref_events": 1285,
+      "ts": 1787322890.480061,
+      "ok": false,
+      "vegas_events": 1649,
+      "ref_events": 1257,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1787285925.693796,
