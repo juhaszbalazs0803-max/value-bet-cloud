@@ -24277,10 +24277,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8703,
+      "close_fair_odds": 2.0246,
       "clv_pct": null,
-      "close_fair_p": 0.5346592883684872,
-      "close_ts": 1787301139.534745,
+      "close_fair_p": 0.49393113036038927,
+      "close_ts": 1787301421.157381,
       "close_provisional": true
     },
     {
@@ -24790,10 +24790,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4062,
+      "close_fair_odds": 1.362,
       "clv_pct": null,
-      "close_fair_p": 0.7111170556633005,
-      "close_ts": 1787301139.534745,
+      "close_fair_p": 0.7342175066312998,
+      "close_ts": 1787301421.157381,
       "close_provisional": true
     },
     {
@@ -24940,10 +24940,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7161,
+      "close_fair_odds": 1.714,
       "clv_pct": null,
-      "close_fair_p": 0.5827257729764249,
-      "close_ts": 1787301139.534745,
+      "close_fair_p": 0.5834213305174234,
+      "close_ts": 1787301421.157381,
       "close_provisional": true
     },
     {
@@ -25033,7 +25033,7 @@
       "close_fair_odds": 1.7223,
       "clv_pct": null,
       "close_fair_p": 0.5806056409300344,
-      "close_ts": 1787301139.534745,
+      "close_ts": 1787301421.157381,
       "close_provisional": true
     },
     {
@@ -25063,7 +25063,7 @@
       "close_fair_odds": 1.7337,
       "clv_pct": null,
       "close_fair_p": 0.5767881732443035,
-      "close_ts": 1787301139.534745,
+      "close_ts": 1787301421.157381,
       "close_provisional": true
     },
     {
@@ -25090,10 +25090,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7611,
+      "close_fair_odds": 1.7757,
       "clv_pct": null,
-      "close_fair_p": 0.5678317932235168,
-      "close_ts": 1787301139.534745,
+      "close_fair_p": 0.5631687629059509,
+      "close_ts": 1787301421.157381,
+      "close_provisional": true
+    },
+    {
+      "id": 829,
+      "ts": 1787301421.157381,
+      "key": "67:17446678:ah:-4.5:away",
+      "content_key": "forestvilleeagles|goldcoastrollers|ah:-4.5:away|20260821",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-4.5:away",
+      "event": "Forestville Eagles - Gold Coast Rollers",
+      "market": "ah",
+      "market_name": "Hendikep +4.5",
+      "tip": "Hendikep Gold Coast Rollers (+4.5)",
+      "odds": 1.833,
+      "stake": 1400,
+      "value_pct": 4.63,
+      "fair_pct": 57.1,
+      "start": "2026-08-21T11:00:00+00:00",
+      "start_ts": 1787310000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7523,
+      "clv_pct": null,
+      "close_fair_p": 0.5706737120211361,
+      "close_ts": 1787301421.157381,
       "close_provisional": true
     }
   ],
@@ -25815,17 +25845,18 @@
     "davidwallechner|gabrielemarianoce|ml:away|20260821": 1787294810.47901,
     "douglashallafc|ringmahonrangers|ou:3.5:under|20260821": 1787296700.483535,
     "levadiatallinn|narvatrans|ou:3.5:over|20260821": 1787297600.481911,
-    "fcbarcelonan|brightonn|ou:3.5:over|20260821": 1787300959.559827
+    "fcbarcelonan|brightonn|ou:3.5:over|20260821": 1787300959.559827,
+    "forestvilleeagles|goldcoastrollers|ah:-4.5:away|20260821": 1787301421.157381
   },
   "last_report_date": "2026-08-20",
-  "next_id": 829,
+  "next_id": 830,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787301139.534745,
+      "ts": 1787301421.157381,
       "ok": true,
       "vegas_events": 1578,
-      "ref_events": 1156,
+      "ref_events": 1157,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
