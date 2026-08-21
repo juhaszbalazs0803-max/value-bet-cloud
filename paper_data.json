@@ -25036,7 +25036,7 @@
       "close_fair_odds": 1.7223,
       "clv_pct": null,
       "close_fair_p": 0.5806056409300344,
-      "close_ts": 1787313288.213867,
+      "close_ts": 1787313918.163453,
       "close_provisional": true
     },
     {
@@ -25066,7 +25066,7 @@
       "close_fair_odds": 1.7337,
       "clv_pct": null,
       "close_fair_p": 0.5767881732443035,
-      "close_ts": 1787313288.213867,
+      "close_ts": 1787313918.163453,
       "close_provisional": true
     },
     {
@@ -25096,7 +25096,7 @@
       "close_fair_odds": 1.7505,
       "clv_pct": null,
       "close_fair_p": 0.5712607778756573,
-      "close_ts": 1787313288.213867,
+      "close_ts": 1787313918.163453,
       "close_provisional": true
     },
     {
@@ -25186,7 +25186,7 @@
       "close_fair_odds": 1.9751,
       "clv_pct": null,
       "close_fair_p": 0.5063110641668868,
-      "close_ts": 1787313288.213867,
+      "close_ts": 1787313648.216607,
       "close_provisional": true
     },
     {
@@ -25213,10 +25213,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.0174,
+      "close_fair_odds": 2.009,
       "clv_pct": null,
-      "close_fair_p": 0.4956792709751754,
-      "close_ts": 1787313288.213867,
+      "close_fair_p": 0.49776739356178606,
+      "close_ts": 1787313918.163453,
+      "close_provisional": true
+    },
+    {
+      "id": 833,
+      "ts": 1787313918.163453,
+      "key": "67:17440965:ah:-6.5:away",
+      "content_key": "solesdemexicali|minerosdezacatecas|ah:-6.5:away|20260822",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-6.5:away",
+      "event": "Soles de Mexicali - Mineros de Zacatecas",
+      "market": "ah",
+      "market_name": "Hendikep +6.5",
+      "tip": "Hendikep Mineros de Zacatecas (+6.5)",
+      "odds": 1.833,
+      "stake": 2200,
+      "value_pct": 7.29,
+      "fair_pct": 58.5,
+      "start": "2026-08-22T03:00:00+00:00",
+      "start_ts": 1787367600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7089,
+      "clv_pct": null,
+      "close_fair_p": 0.5851703406813628,
+      "close_ts": 1787313918.163453,
       "close_provisional": true
     }
   ],
@@ -25942,26 +25972,23 @@
     "forestvilleeagles|goldcoastrollers|ah:-4.5:away|20260821": 1787301421.157381,
     "washingtonmysticsn|minnesotalynxn|ah:4.5:home|20260821": 1787304121.076773,
     "washingtonmysticsn|minnesotalynxn|ou:162.5:over|20260821": 1787307516.580329,
-    "washingtonmysticsn|minnesotalynxn|ah:3.0:away|20260821": 1787311938.154936
+    "washingtonmysticsn|minnesotalynxn|ah:3.0:away|20260821": 1787311938.154936,
+    "solesdemexicali|minerosdezacatecas|ah:-6.5:away|20260822": 1787313918.163453
   },
   "last_report_date": "2026-08-21",
-  "next_id": 833,
+  "next_id": 834,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787313288.213867,
-      "ok": false,
-      "vegas_events": 1513,
-      "ref_events": 1128,
+      "ts": 1787313918.163453,
+      "ok": true,
+      "vegas_events": 1604,
+      "ref_events": 1174,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787285925.693796,
