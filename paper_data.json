@@ -25546,10 +25546,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5353,
+      "close_fair_odds": 1.5252,
       "clv_pct": null,
-      "close_fair_p": 0.6513425888622169,
-      "close_ts": 1787398751.11962,
+      "close_fair_p": 0.6556634686678623,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -25576,10 +25576,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5563,
+      "close_fair_odds": 1.5448,
       "clv_pct": null,
-      "close_fair_p": 0.6425668424706914,
-      "close_ts": 1787398751.11962,
+      "close_fair_p": 0.647343232312437,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -25606,10 +25606,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7076,
+      "close_fair_odds": 1.6996,
       "clv_pct": null,
-      "close_fair_p": 0.5856083387881799,
-      "close_ts": 1787398751.11962,
+      "close_fair_p": 0.5883828984124984,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -25729,7 +25729,7 @@
       "close_fair_odds": 1.7943,
       "clv_pct": null,
       "close_fair_p": 0.5573352221292497,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -25909,7 +25909,7 @@
       "close_fair_odds": 1.8013,
       "clv_pct": null,
       "close_fair_p": 0.5551635836280979,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -26299,7 +26299,7 @@
       "close_fair_odds": 1.4436,
       "clv_pct": null,
       "close_fair_p": 0.6926933778768486,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -26419,7 +26419,7 @@
       "close_fair_odds": 2.0707,
       "clv_pct": null,
       "close_fair_p": 0.4829182959456679,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -26689,7 +26689,7 @@
       "close_fair_odds": 1.9923,
       "clv_pct": null,
       "close_fair_p": 0.5019289284938057,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -26749,7 +26749,7 @@
       "close_fair_odds": 1.8354,
       "clv_pct": null,
       "close_fair_p": 0.5448426900272422,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -26779,7 +26779,7 @@
       "close_fair_odds": 1.7221,
       "clv_pct": null,
       "close_fair_p": 0.5806862173198282,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -26839,7 +26839,7 @@
       "close_fair_odds": 1.3287,
       "clv_pct": null,
       "close_fair_p": 0.752592191718516,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -26899,7 +26899,7 @@
       "close_fair_odds": 2.0389,
       "clv_pct": null,
       "close_fair_p": 0.49045223483551503,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399291.181266,
       "close_provisional": true
     },
     {
@@ -26929,7 +26929,7 @@
       "close_fair_odds": 1.976,
       "clv_pct": null,
       "close_fair_p": 0.5060688696396107,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -26959,7 +26959,7 @@
       "close_fair_odds": 1.6457,
       "clv_pct": null,
       "close_fair_p": 0.6076560892990253,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -26989,7 +26989,7 @@
       "close_fair_odds": 1.7523,
       "clv_pct": null,
       "close_fair_p": 0.5706737120211361,
-      "close_ts": 1787398751.11962,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     },
     {
@@ -27046,11 +27046,11 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7143,
-      "clv_pct": null,
-      "close_fair_p": 0.5833377525587315,
-      "close_ts": 1787398751.11962,
-      "close_provisional": true
+      "close_fair_odds": 1.7351,
+      "clv_pct": 3.74,
+      "close_fair_p": 0.5763461234801832,
+      "close_ts": 1787399381.190274,
+      "close_provisional": false
     },
     {
       "id": 894,
@@ -27076,10 +27076,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7873,
+      "close_fair_odds": 2.093,
       "clv_pct": null,
-      "close_fair_p": 0.5595019335728586,
-      "close_ts": 1787398751.11962,
+      "close_fair_p": 0.4777814716312057,
+      "close_ts": 1787399381.190274,
+      "close_provisional": true
+    },
+    {
+      "id": 895,
+      "ts": 1787398841.144434,
+      "key": "66:17455171:ou:2.5:over",
+      "content_key": "anorthosis|karmiotissa|ou:2.5:over|20260822",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:over",
+      "event": "Anorthosis - Karmiotissa",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Több mint 2.5",
+      "odds": 1.875,
+      "stake": 1500,
+      "value_pct": 5.25,
+      "fair_pct": 56.1,
+      "start": "2026-08-22T16:00:00+00:00",
+      "start_ts": 1787414400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7814,
+      "clv_pct": null,
+      "close_fair_p": 0.5613472333600642,
+      "close_ts": 1787399381.190274,
       "close_provisional": true
     }
   ],
@@ -27858,22 +27888,27 @@
     "sunnerstaaif|angbyif|ou:3.5:under|20260822": 1787396062.506036,
     "nigrian|belgiumn|ah:9.5:away|20260822": 1787397142.477389,
     "fkvilniusbfa|fcneptunasklaipeda|ou:2.5:over|20260822": 1787397941.14136,
-    "namuwongoblazersbc|cityoilers|ml:home|20260822": 1787398391.141985
+    "namuwongoblazersbc|cityoilers|ml:home|20260822": 1787398391.141985,
+    "anorthosis|karmiotissa|ou:2.5:over|20260822": 1787398841.144434
   },
   "last_report_date": "2026-08-22",
-  "next_id": 895,
+  "next_id": 896,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787398751.11962,
-      "ok": true,
-      "vegas_events": 1521,
-      "ref_events": 1292,
+      "ts": 1787399381.190274,
+      "ok": false,
+      "vegas_events": 1459,
+      "ref_events": 1251,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1787368603.6085756,
