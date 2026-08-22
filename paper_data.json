@@ -26809,7 +26809,7 @@
       "close_fair_odds": 1.9722,
       "clv_pct": null,
       "close_fair_p": 0.5070448944605165,
-      "close_ts": 1787428315.659809,
+      "close_ts": 1787428945.601985,
       "close_provisional": true
     },
     {
@@ -26839,7 +26839,7 @@
       "close_fair_odds": 1.3345,
       "clv_pct": null,
       "close_fair_p": 0.7493596516324659,
-      "close_ts": 1787428315.659809,
+      "close_ts": 1787428945.601985,
       "close_provisional": true
     },
     {
@@ -27379,10 +27379,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7099,
+      "close_fair_odds": 1.9775,
       "clv_pct": null,
-      "close_fair_p": 0.5848264128874475,
-      "close_ts": 1787428315.659809,
+      "close_fair_p": 0.5056847615671947,
+      "close_ts": 1787428945.601985,
       "close_provisional": true
     },
     {
@@ -27409,10 +27409,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.763,
+      "close_fair_odds": 2.0699,
       "clv_pct": null,
-      "close_fair_p": 0.5671996542783059,
-      "close_ts": 1787428315.659809,
+      "close_fair_p": 0.4831107834302723,
+      "close_ts": 1787428945.601985,
       "close_provisional": true
     }
   ],
@@ -28209,19 +28209,15 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787428315.659809,
-      "ok": false,
-      "vegas_events": 1200,
-      "ref_events": 818,
+      "ts": 1787428945.601985,
+      "ok": true,
+      "vegas_events": 1247,
+      "ref_events": 835,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787412095.3944628,
