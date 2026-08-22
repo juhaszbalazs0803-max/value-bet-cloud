@@ -25549,7 +25549,7 @@
       "close_fair_odds": 1.5252,
       "clv_pct": 3.0,
       "close_fair_p": 0.6556634686678623,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": false
     },
     {
@@ -25576,10 +25576,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5345,
-      "clv_pct": 1.4,
-      "close_fair_p": 0.651680309587405,
-      "close_ts": 1787405136.786487,
+      "close_fair_odds": 1.5191,
+      "clv_pct": 2.43,
+      "close_fair_p": 0.658267664935533,
+      "close_ts": 1787405345.067895,
       "close_provisional": false
     },
     {
@@ -25609,7 +25609,7 @@
       "close_fair_odds": 1.6996,
       "clv_pct": 4.61,
       "close_fair_p": 0.5883828984124984,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": false
     },
     {
@@ -25729,7 +25729,7 @@
       "close_fair_odds": 1.6733,
       "clv_pct": null,
       "close_fair_p": 0.5976048661115041,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -26299,7 +26299,7 @@
       "close_fair_odds": 1.4436,
       "clv_pct": null,
       "close_fair_p": 0.6926933778768486,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -26419,7 +26419,7 @@
       "close_fair_odds": 2.1096,
       "clv_pct": null,
       "close_fair_p": 0.4740218088518281,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -26689,7 +26689,7 @@
       "close_fair_odds": 1.9923,
       "clv_pct": null,
       "close_fair_p": 0.5019289284938057,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -26779,7 +26779,7 @@
       "close_fair_odds": 1.7202,
       "clv_pct": null,
       "close_fair_p": 0.5813188836573112,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -26839,7 +26839,7 @@
       "close_fair_odds": 1.3287,
       "clv_pct": null,
       "close_fair_p": 0.752592191718516,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -26899,7 +26899,7 @@
       "close_fair_odds": 2.0353,
       "clv_pct": null,
       "close_fair_p": 0.49133643930272725,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -26926,10 +26926,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9456,
+      "close_fair_odds": 2.2464,
       "clv_pct": null,
-      "close_fair_p": 0.513992977307269,
-      "close_ts": 1787405136.786487,
+      "close_fair_p": 0.44516367671536894,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -26956,10 +26956,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6356,
+      "close_fair_odds": 1.6647,
       "clv_pct": null,
-      "close_fair_p": 0.6113874838008444,
-      "close_ts": 1787405136.786487,
+      "close_fair_p": 0.6007065591762041,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -27109,7 +27109,7 @@
       "close_fair_odds": 1.793,
       "clv_pct": null,
       "close_fair_p": 0.5577304660267068,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -27136,10 +27136,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7707,
+      "close_fair_odds": 1.6995,
       "clv_pct": null,
-      "close_fair_p": 0.5647642187254154,
-      "close_ts": 1787405136.786487,
+      "close_fair_p": 0.5884007877496885,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -27229,7 +27229,7 @@
       "close_fair_odds": 1.9414,
       "clv_pct": null,
       "close_fair_p": 0.5150980234828425,
-      "close_ts": 1787405136.786487,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     },
     {
@@ -27260,6 +27260,36 @@
       "clv_pct": null,
       "close_fair_p": 0.6461714342520566,
       "close_ts": 1787404147.208143,
+      "close_provisional": true
+    },
+    {
+      "id": 901,
+      "ts": 1787405345.067895,
+      "key": "67:16327677:ah:5.5:away",
+      "content_key": "phoenixmercuryn|atlantadreamn|ah:5.5:away|20260823",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:5.5:away",
+      "event": "Phoenix Mercury (N) - Atlanta Dream (N)",
+      "market": "ah",
+      "market_name": "Hendikep -5.5",
+      "tip": "Hendikep Atlanta Dream (N) (-5.5)",
+      "odds": 1.885,
+      "stake": 1300,
+      "value_pct": 4.59,
+      "fair_pct": 55.5,
+      "start": "2026-08-23T02:00:00+00:00",
+      "start_ts": 1787450400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8023,
+      "clv_pct": null,
+      "close_fair_p": 0.5548363232846311,
+      "close_ts": 1787405345.067895,
       "close_provisional": true
     }
   ],
@@ -28044,17 +28074,18 @@
     "losangelessparksn|connecticutsunn|ou:168.0:over|20260823": 1787400011.145917,
     "cfsantomera|cdcieza|ou:3.5:under|20260822": 1787402886.827817,
     "pelister|fkapbrerastrumica|ou:2.5:under|20260822": 1787402886.827817,
-    "rohdaraalte|treffers|ou:2.5:over|20260823": 1787403516.782381
+    "rohdaraalte|treffers|ou:2.5:over|20260823": 1787403516.782381,
+    "phoenixmercuryn|atlantadreamn|ah:5.5:away|20260823": 1787405345.067895
   },
   "last_report_date": "2026-08-22",
-  "next_id": 901,
+  "next_id": 902,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787405136.786487,
+      "ts": 1787405345.067895,
       "ok": true,
-      "vegas_events": 1476,
-      "ref_events": 1263,
+      "vegas_events": 1473,
+      "ref_events": 1255,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
