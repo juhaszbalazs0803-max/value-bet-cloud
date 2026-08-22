@@ -25357,11 +25357,14 @@
       "fair_pct": 54.6,
       "start": "2026-08-22T02:00:00+00:00",
       "start_ts": 1787364000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1787370311.7666318,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        25,
+        30
+      ],
+      "settle_source": "sportsdb",
       "needs_manual": false,
       "close_fair_odds": 1.965,
       "clv_pct": null,
