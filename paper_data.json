@@ -25549,7 +25549,7 @@
       "close_fair_odds": 1.5252,
       "clv_pct": null,
       "close_fair_p": 0.6556634686678623,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -25579,7 +25579,7 @@
       "close_fair_odds": 1.5345,
       "clv_pct": null,
       "close_fair_p": 0.651680309587405,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -25609,7 +25609,7 @@
       "close_fair_odds": 1.6996,
       "clv_pct": null,
       "close_fair_p": 0.5883828984124984,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -25729,7 +25729,7 @@
       "close_fair_odds": 1.6733,
       "clv_pct": null,
       "close_fair_p": 0.5976048661115041,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -25907,10 +25907,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.7651,
-      "clv_pct": null,
+      "clv_pct": 11.04,
       "close_fair_p": 0.5665304321711356,
-      "close_ts": 1787402616.794485,
-      "close_provisional": true
+      "close_ts": 1787403246.782494,
+      "close_provisional": false
     },
     {
       "id": 856,
@@ -26299,7 +26299,7 @@
       "close_fair_odds": 1.4436,
       "clv_pct": null,
       "close_fair_p": 0.6926933778768486,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -26419,7 +26419,7 @@
       "close_fair_odds": 2.1042,
       "clv_pct": null,
       "close_fair_p": 0.4752411575562701,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -26689,7 +26689,7 @@
       "close_fair_odds": 1.9923,
       "clv_pct": null,
       "close_fair_p": 0.5019289284938057,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -26779,7 +26779,7 @@
       "close_fair_odds": 1.7202,
       "clv_pct": null,
       "close_fair_p": 0.5813188836573112,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -26839,7 +26839,7 @@
       "close_fair_odds": 1.3287,
       "clv_pct": null,
       "close_fair_p": 0.752592191718516,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -26899,7 +26899,7 @@
       "close_fair_odds": 2.0353,
       "clv_pct": null,
       "close_fair_p": 0.49133643930272725,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -26929,7 +26929,7 @@
       "close_fair_odds": 1.9911,
       "clv_pct": null,
       "close_fair_p": 0.502232606438214,
-      "close_ts": 1787402526.781951,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -26959,7 +26959,7 @@
       "close_fair_odds": 1.6356,
       "clv_pct": null,
       "close_fair_p": 0.6113874838008444,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -26987,10 +26987,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.7523,
-      "clv_pct": null,
+      "clv_pct": 4.61,
       "close_fair_p": 0.5706737120211361,
-      "close_ts": 1787402616.794485,
-      "close_provisional": true
+      "close_ts": 1787403246.782494,
+      "close_provisional": false
     },
     {
       "id": 892,
@@ -27077,10 +27077,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 2.093,
-      "clv_pct": null,
+      "clv_pct": -6.74,
       "close_fair_p": 0.4777814716312057,
-      "close_ts": 1787402526.781951,
-      "close_provisional": true
+      "close_ts": 1787403246.782494,
+      "close_provisional": false
     },
     {
       "id": 895,
@@ -27109,7 +27109,7 @@
       "close_fair_odds": 1.7814,
       "clv_pct": null,
       "close_fair_p": 0.5613472333600642,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -27139,7 +27139,7 @@
       "close_fair_odds": 1.7707,
       "clv_pct": null,
       "close_fair_p": 0.5647642187254154,
-      "close_ts": 1787402616.794485,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     },
     {
@@ -27170,6 +27170,66 @@
       "clv_pct": null,
       "close_fair_p": 0.5432072847508331,
       "close_ts": 1787402076.790026,
+      "close_provisional": true
+    },
+    {
+      "id": 898,
+      "ts": 1787402886.827817,
+      "key": "66:17444492:ou:3.5:under",
+      "content_key": "cfsantomera|cdcieza|ou:3.5:under|20260822",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "CF Santomera - CD Cieza",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.6,
+      "stake": 2700,
+      "value_pct": 6.54,
+      "fair_pct": 66.6,
+      "start": "2026-08-22T17:30:00+00:00",
+      "start_ts": 1787419800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5018,
+      "clv_pct": null,
+      "close_fair_p": 0.6658506731946144,
+      "close_ts": 1787402886.827817,
+      "close_provisional": true
+    },
+    {
+      "id": 899,
+      "ts": 1787402886.827817,
+      "key": "66:17392154:ou:2.5:under",
+      "content_key": "pelister|fkapbrerastrumica|ou:2.5:under|20260822",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "Pelister - FK AP Brera Strumica",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 2.0,
+      "stake": 800,
+      "value_pct": 3.02,
+      "fair_pct": 51.5,
+      "start": "2026-08-22T14:30:00+00:00",
+      "start_ts": 1787409000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9414,
+      "clv_pct": null,
+      "close_fair_p": 0.5150980234828425,
+      "close_ts": 1787403246.782494,
       "close_provisional": true
     }
   ],
@@ -27951,26 +28011,24 @@
     "namuwongoblazersbc|cityoilers|ml:home|20260822": 1787398391.141985,
     "anorthosis|karmiotissa|ou:2.5:over|20260822": 1787398841.144434,
     "estrellaroja|juticalpafc|ml:home|20260822": 1787399831.171247,
-    "losangelessparksn|connecticutsunn|ou:168.0:over|20260823": 1787400011.145917
+    "losangelessparksn|connecticutsunn|ou:168.0:over|20260823": 1787400011.145917,
+    "cfsantomera|cdcieza|ou:3.5:under|20260822": 1787402886.827817,
+    "pelister|fkapbrerastrumica|ou:2.5:under|20260822": 1787402886.827817
   },
   "last_report_date": "2026-08-22",
-  "next_id": 898,
+  "next_id": 900,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787402616.794485,
-      "ok": false,
-      "vegas_events": 1402,
-      "ref_events": 1248,
+      "ts": 1787403246.782494,
+      "ok": true,
+      "vegas_events": 1488,
+      "ref_events": 1283,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787368603.6085756,
