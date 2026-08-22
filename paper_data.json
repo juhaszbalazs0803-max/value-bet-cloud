@@ -25549,7 +25549,7 @@
       "close_fair_odds": 1.5353,
       "clv_pct": null,
       "close_fair_p": 0.6513425888622169,
-      "close_ts": 1787381035.464793,
+      "close_ts": 1787381755.429385,
       "close_provisional": true
     },
     {
@@ -25576,10 +25576,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6585,
+      "close_fair_odds": 1.6293,
       "clv_pct": null,
-      "close_fair_p": 0.6029661186333239,
-      "close_ts": 1787381035.464793,
+      "close_fair_p": 0.6137664520877022,
+      "close_ts": 1787381755.429385,
       "close_provisional": true
     },
     {
@@ -25609,7 +25609,7 @@
       "close_fair_odds": 1.6869,
       "clv_pct": null,
       "close_fair_p": 0.5927992413367408,
-      "close_ts": 1787381035.464793,
+      "close_ts": 1787381755.429385,
       "close_provisional": true
     },
     {
@@ -25729,7 +25729,7 @@
       "close_fair_odds": 1.7943,
       "clv_pct": null,
       "close_fair_p": 0.5573352221292497,
-      "close_ts": 1787381035.464793,
+      "close_ts": 1787381755.429385,
       "close_provisional": true
     },
     {
@@ -25879,7 +25879,7 @@
       "close_fair_odds": 1.9054,
       "clv_pct": null,
       "close_fair_p": 0.5248304811131107,
-      "close_ts": 1787381035.464793,
+      "close_ts": 1787381755.429385,
       "close_provisional": true
     },
     {
@@ -25909,7 +25909,7 @@
       "close_fair_odds": 1.86,
       "clv_pct": null,
       "close_fair_p": 0.5376231879218443,
-      "close_ts": 1787381035.464793,
+      "close_ts": 1787381755.429385,
       "close_provisional": true
     },
     {
@@ -26299,7 +26299,7 @@
       "close_fair_odds": 1.4436,
       "clv_pct": null,
       "close_fair_p": 0.6926933778768486,
-      "close_ts": 1787381035.464793,
+      "close_ts": 1787381755.429385,
       "close_provisional": true
     },
     {
@@ -26419,7 +26419,7 @@
       "close_fair_odds": 1.7864,
       "clv_pct": null,
       "close_fair_p": 0.5597925172688288,
-      "close_ts": 1787381035.464793,
+      "close_ts": 1787381755.429385,
       "close_provisional": true
     },
     {
@@ -26479,8 +26479,128 @@
       "close_fair_odds": 1.7523,
       "clv_pct": null,
       "close_fair_p": 0.5706737120211361,
-      "close_ts": 1787381125.464951,
+      "close_ts": 1787381755.429385,
       "close_provisional": true
+    },
+    {
+      "id": 875,
+      "ts": 1787381305.466461,
+      "key": "66:17175359:ou:3.5:over",
+      "content_key": "gwelupcroatiasc|floreatathena|ou:3.5:over|20260822",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Gwelup Croatia SC - Floreat Athena",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.85,
+      "stake": 1500,
+      "value_pct": 5.14,
+      "fair_pct": 56.8,
+      "start": "2026-08-22T07:00:00+00:00",
+      "start_ts": 1787382000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7595,
+      "clv_pct": 5.14,
+      "close_fair_p": 0.5683470353432551,
+      "close_ts": 1787381755.429385,
+      "close_provisional": false
+    },
+    {
+      "id": 876,
+      "ts": 1787381305.466461,
+      "key": "66:17175360:ou:3.5:over",
+      "content_key": "joondalupcity|uwanedlandsfc|ou:3.5:over|20260822",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Joondalup City - Uwa Nedlands FC",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 2.0,
+      "stake": 800,
+      "value_pct": 3.24,
+      "fair_pct": 51.6,
+      "start": "2026-08-22T07:00:00+00:00",
+      "start_ts": 1787382000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9371,
+      "clv_pct": 3.25,
+      "close_fair_p": 0.516223716511901,
+      "close_ts": 1787381755.429385,
+      "close_provisional": false
+    },
+    {
+      "id": 877,
+      "ts": 1787381305.466461,
+      "key": "66:17175361:ou:3.5:over",
+      "content_key": "subiacoafc|cockburncity|ou:3.5:over|20260822",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Subiaco AFC - Cockburn City",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.9,
+      "stake": 2100,
+      "value_pct": 7.65,
+      "fair_pct": 56.7,
+      "start": "2026-08-22T07:00:00+00:00",
+      "start_ts": 1787382000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7649,
+      "clv_pct": 7.65,
+      "close_fair_p": 0.5666022399322195,
+      "close_ts": 1787381755.429385,
+      "close_provisional": false
+    },
+    {
+      "id": 878,
+      "ts": 1787381665.413805,
+      "key": "66:17163642:ou:3.5:under",
+      "content_key": "kingstoncity|malverncityfc|ou:3.5:under|20260822",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "Kingston City - Malvern City FC",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.95,
+      "stake": 1900,
+      "value_pct": 7.27,
+      "fair_pct": 55.0,
+      "start": "2026-08-22T07:00:00+00:00",
+      "start_ts": 1787382000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8179,
+      "clv_pct": 7.27,
+      "close_fair_p": 0.5500814440973056,
+      "close_ts": 1787381755.429385,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -27239,25 +27359,29 @@
     "washingtonmysticsn|minnesotalynxn|ah:2.5:home|20260821": 1787349240.165161,
     "fluminense|remo|ou:2.5:over|20260822": 1787380495.41548,
     "eif|fcktpkotka|ml:away|20260822": 1787380495.41548,
-    "olivolmundial|camarne|ah:-5.5:away|20260823": 1787380495.41548
+    "olivolmundial|camarne|ah:-5.5:away|20260823": 1787380495.41548,
+    "gwelupcroatiasc|floreatathena|ou:3.5:over|20260822": 1787381305.466461,
+    "joondalupcity|uwanedlandsfc|ou:3.5:over|20260822": 1787381305.466461,
+    "subiacoafc|cockburncity|ou:3.5:over|20260822": 1787381305.466461,
+    "kingstoncity|malverncityfc|ou:3.5:under|20260822": 1787381665.413805
   },
   "last_report_date": "2026-08-21",
-  "next_id": 875,
+  "next_id": 879,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787381125.464951,
+      "ts": 1787381755.429385,
       "ok": false,
-      "vegas_events": 205,
-      "ref_events": 105,
+      "vegas_events": 1597,
+      "ref_events": 1356,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
       ],
       "settle_err": null
     },
