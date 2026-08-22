@@ -25549,7 +25549,7 @@
       "close_fair_odds": 1.5353,
       "clv_pct": null,
       "close_fair_p": 0.6513425888622169,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -25579,7 +25579,7 @@
       "close_fair_odds": 1.5867,
       "clv_pct": null,
       "close_fair_p": 0.6302391071085517,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -25609,7 +25609,7 @@
       "close_fair_odds": 1.7076,
       "clv_pct": null,
       "close_fair_p": 0.5856083387881799,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -25729,7 +25729,7 @@
       "close_fair_odds": 1.7943,
       "clv_pct": null,
       "close_fair_p": 0.5573352221292497,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -25909,7 +25909,7 @@
       "close_fair_odds": 1.8399,
       "clv_pct": null,
       "close_fair_p": 0.5434991690478596,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -26299,7 +26299,7 @@
       "close_fair_odds": 1.4436,
       "clv_pct": null,
       "close_fair_p": 0.6926933778768486,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -26419,7 +26419,7 @@
       "close_fair_odds": 2.061,
       "clv_pct": null,
       "close_fair_p": 0.4851994851994852,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -26689,7 +26689,7 @@
       "close_fair_odds": 1.9923,
       "clv_pct": null,
       "close_fair_p": 0.5019289284938057,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -26749,7 +26749,7 @@
       "close_fair_odds": 1.8365,
       "clv_pct": null,
       "close_fair_p": 0.5445184246704585,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -26779,7 +26779,7 @@
       "close_fair_odds": 1.7011,
       "clv_pct": null,
       "close_fair_p": 0.5878441282085384,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -26839,7 +26839,7 @@
       "close_fair_odds": 1.3287,
       "clv_pct": null,
       "close_fair_p": 0.752592191718516,
-      "close_ts": 1787392512.558313,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     },
     {
@@ -26896,10 +26896,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9664,
+      "close_fair_odds": 2.0,
       "clv_pct": null,
-      "close_fair_p": 0.5085431891067768,
-      "close_ts": 1787392512.558313,
+      "close_fair_p": 0.5,
+      "close_ts": 1787393142.563642,
+      "close_provisional": true
+    },
+    {
+      "id": 889,
+      "ts": 1787392692.529399,
+      "key": "67:16327677:ah:5.5:home",
+      "content_key": "phoenixmercuryn|atlantadreamn|ah:5.5:home|20260823",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:5.5:home",
+      "event": "Phoenix Mercury (N) - Atlanta Dream (N)",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep Phoenix Mercury (N) (+5.5)",
+      "odds": 1.926,
+      "stake": 1200,
+      "value_pct": 4.37,
+      "fair_pct": 54.2,
+      "start": "2026-08-23T02:00:00+00:00",
+      "start_ts": 1787450400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8454,
+      "clv_pct": null,
+      "close_fair_p": 0.5418902406630186,
+      "close_ts": 1787393142.563642,
       "close_provisional": true
     }
   ],
@@ -27672,17 +27702,18 @@
     "ialarreborges|cdalbatros|ah:-9.5:away|20260823": 1787388194.349596,
     "sigmaolomoucb|aposblansko|ml:home|20260823": 1787388644.387698,
     "humecitybroncos|pakenham|ou:175.5:over|20260822": 1787388914.364013,
-    "nyshrogervasseline|luzomatosr|ml:home|20260822": 1787389454.342689
+    "nyshrogervasseline|luzomatosr|ml:home|20260822": 1787389454.342689,
+    "phoenixmercuryn|atlantadreamn|ah:5.5:home|20260823": 1787392692.529399
   },
   "last_report_date": "2026-08-22",
-  "next_id": 889,
+  "next_id": 890,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787392512.558313,
+      "ts": 1787393142.563642,
       "ok": true,
-      "vegas_events": 1577,
-      "ref_events": 1348,
+      "vegas_events": 1555,
+      "ref_events": 1315,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
