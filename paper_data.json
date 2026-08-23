@@ -27469,10 +27469,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.714,
+      "close_fair_odds": 1.6876,
       "clv_pct": null,
-      "close_fair_p": 0.5834156065295261,
-      "close_ts": 1787494955.760641,
+      "close_fair_p": 0.5925749298334256,
+      "close_ts": 1787498411.198025,
       "close_provisional": true
     },
     {
@@ -27502,7 +27502,7 @@
       "close_fair_odds": 1.7711,
       "clv_pct": null,
       "close_fair_p": 0.5646109038884063,
-      "close_ts": 1787494955.760641,
+      "close_ts": 1787498411.198025,
       "close_provisional": true
     },
     {
@@ -27709,10 +27709,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8357,
+      "close_fair_odds": 1.8802,
       "clv_pct": null,
-      "close_fair_p": 0.5447511776625701,
-      "close_ts": 1787487050.666328,
+      "close_fair_p": 0.5318585944115156,
+      "close_ts": 1787498411.198025,
       "close_provisional": true
     },
     {
@@ -27802,12 +27802,11 @@
       "close_fair_odds": 1.8185,
       "clv_pct": null,
       "close_fair_p": 0.5498923559774856,
-      "close_ts": 1787494955.760641,
+      "close_ts": 1787498411.198025,
       "close_provisional": true
     }
   ],
   "papered": {
-    "philadelphia76ers|detroitpistons|ml:away|20260709": 1783609535.364969,
     "atlantadreamn|seattlestormn|ah:-9.5:home|20260710": 1783611065.396976,
     "dallasmavericks|goldenstatewarriors|ah:4.5:away|20260709": 1783634912.854121,
     "catabare|verdirrojobbc|ah:-1.5:home|20260709": 1783638553.495537,
@@ -28609,19 +28608,15 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787494955.760641,
-      "ok": false,
-      "vegas_events": 1157,
-      "ref_events": 890,
+      "ts": 1787498411.198025,
+      "ok": true,
+      "vegas_events": 1177,
+      "ref_events": 858,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787484262.6732626,
