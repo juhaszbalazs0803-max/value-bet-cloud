@@ -27472,7 +27472,7 @@
       "close_fair_odds": 1.714,
       "clv_pct": null,
       "close_fair_p": 0.5834156065295261,
-      "close_ts": 1787488442.517803,
+      "close_ts": 1787489072.514596,
       "close_provisional": true
     },
     {
@@ -27502,7 +27502,7 @@
       "close_fair_odds": 1.7655,
       "clv_pct": null,
       "close_fair_p": 0.5664276784119613,
-      "close_ts": 1787488442.517803,
+      "close_ts": 1787489072.514596,
       "close_provisional": true
     },
     {
@@ -27592,7 +27592,7 @@
       "close_fair_odds": 1.841,
       "clv_pct": null,
       "close_fair_p": 0.5431957583948435,
-      "close_ts": 1787488442.517803,
+      "close_ts": 1787489072.514596,
       "close_provisional": true
     },
     {
@@ -27717,7 +27717,6 @@
     }
   ],
   "papered": {
-    "atlantadreamn|seattlestormn|ou:168.5:under|20260710": 1783600470.861357,
     "philadelphia76ers|detroitpistons|ml:away|20260709": 1783609535.364969,
     "atlantadreamn|seattlestormn|ah:-9.5:home|20260710": 1783611065.396976,
     "dallasmavericks|goldenstatewarriors|ah:4.5:away|20260709": 1783634912.854121,
@@ -28517,10 +28516,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787488442.517803,
+      "ts": 1787489072.514596,
       "ok": true,
-      "vegas_events": 1235,
-      "ref_events": 957,
+      "vegas_events": 1236,
+      "ref_events": 953,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
