@@ -27472,7 +27472,7 @@
       "close_fair_odds": 1.714,
       "clv_pct": null,
       "close_fair_p": 0.5834156065295261,
-      "close_ts": 1787493605.721997,
+      "close_ts": 1787494325.726756,
       "close_provisional": true
     },
     {
@@ -27502,7 +27502,7 @@
       "close_fair_odds": 1.7711,
       "clv_pct": null,
       "close_fair_p": 0.5646109038884063,
-      "close_ts": 1787493605.721997,
+      "close_ts": 1787494325.726756,
       "close_provisional": true
     },
     {
@@ -27592,7 +27592,7 @@
       "close_fair_odds": 1.8342,
       "clv_pct": null,
       "close_fair_p": 0.5451854928736468,
-      "close_ts": 1787493605.721997,
+      "close_ts": 1787494325.726756,
       "close_provisional": true
     },
     {
@@ -27713,6 +27713,66 @@
       "clv_pct": null,
       "close_fair_p": 0.5447511776625701,
       "close_ts": 1787487050.666328,
+      "close_provisional": true
+    },
+    {
+      "id": 916,
+      "ts": 1787494145.716006,
+      "key": "67:16335249:ou:172.5:over",
+      "content_key": "dallaswingsn|seattlestormn|ou:172.5:over|20260823",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:172.5:over",
+      "event": "Dallas Wings (N) - Seattle Storm (N)",
+      "market": "ou",
+      "market_name": "O/U 172.5",
+      "tip": "Több mint 172.5",
+      "odds": 1.926,
+      "stake": 1000,
+      "value_pct": 3.84,
+      "fair_pct": 53.9,
+      "start": "2026-08-23T20:00:00+00:00",
+      "start_ts": 1787515200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8548,
+      "clv_pct": null,
+      "close_fair_p": 0.5391336679680238,
+      "close_ts": 1787494325.726756,
+      "close_provisional": true
+    },
+    {
+      "id": 917,
+      "ts": 1787494325.726756,
+      "key": "66:17401337:ou:3.5:under",
+      "content_key": "snyfczmbbuilding|tiszafredivse|ou:3.5:under|20260823",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "Sényő FC-ZMB Building - Tiszafüredi VSE",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.85,
+      "stake": 1000,
+      "value_pct": 3.38,
+      "fair_pct": 55.9,
+      "start": "2026-08-23T14:30:00+00:00",
+      "start_ts": 1787495400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7895,
+      "clv_pct": null,
+      "close_fair_p": 0.5588227467468533,
+      "close_ts": 1787494325.726756,
       "close_provisional": true
     }
   ],
@@ -28509,26 +28569,24 @@
     "dallaswingsn|seattlestormn|ah:-9.0:away|20260823": 1787485070.647039,
     "scpaderborn07ii|bonnersc|ml:home|20260823": 1787485430.59867,
     "dallaswingsn|seattlestormn|ah:-9.5:away|20260823": 1787485430.59867,
-    "dallaswingsn|seattlestormn|ah:-8.5:away|20260823": 1787486870.648098
+    "dallaswingsn|seattlestormn|ah:-8.5:away|20260823": 1787486870.648098,
+    "dallaswingsn|seattlestormn|ou:172.5:over|20260823": 1787494145.716006,
+    "snyfczmbbuilding|tiszafredivse|ou:3.5:under|20260823": 1787494325.726756
   },
   "last_report_date": "2026-08-23",
-  "next_id": 916,
+  "next_id": 918,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787493695.716435,
-      "ok": false,
-      "vegas_events": 218,
-      "ref_events": 83,
+      "ts": 1787494325.726756,
+      "ok": true,
+      "vegas_events": 1172,
+      "ref_events": 892,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787484262.6732626,
