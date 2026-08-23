@@ -27472,7 +27472,7 @@
       "close_fair_odds": 1.7603,
       "clv_pct": null,
       "close_fair_p": 0.5680738535468618,
-      "close_ts": 1787506731.908034,
+      "close_ts": 1787507361.896466,
       "close_provisional": true
     },
     {
@@ -27502,7 +27502,7 @@
       "close_fair_odds": 1.7415,
       "clv_pct": null,
       "close_fair_p": 0.5742307594582922,
-      "close_ts": 1787506731.908034,
+      "close_ts": 1787507361.896466,
       "close_provisional": true
     },
     {
@@ -27712,7 +27712,7 @@
       "close_fair_odds": 1.9089,
       "clv_pct": null,
       "close_fair_p": 0.5238599090043382,
-      "close_ts": 1787506731.908034,
+      "close_ts": 1787507361.896466,
       "close_provisional": true
     },
     {
@@ -27954,6 +27954,36 @@
       "close_fair_p": 0.7141328464078591,
       "close_ts": 1787504388.411512,
       "close_provisional": false
+    },
+    {
+      "id": 924,
+      "ts": 1787507271.893078,
+      "key": "67:16335736:ah:5.5:home",
+      "content_key": "portlandfiren|washingtonmysticsn|ah:5.5:home|20260823",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:5.5:home",
+      "event": "Portland Fire (N) - Washington Mystics (N)",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep Portland Fire (N) (+5.5)",
+      "odds": 1.909,
+      "stake": 1900,
+      "value_pct": 6.94,
+      "fair_pct": 56.0,
+      "start": "2026-08-23T23:00:00+00:00",
+      "start_ts": 1787526000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7852,
+      "clv_pct": null,
+      "close_fair_p": 0.5601654320341334,
+      "close_ts": 1787507361.896466,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -28755,26 +28785,23 @@
     "dallaswingsn|seattlestormn|ou:173.5:over|20260823": 1787501201.212304,
     "dallaswingsn|seattlestormn|ou:174.5:over|20260823": 1787501471.223211,
     "venezia|lecce|ou:2.5:under|20260823": 1787502138.406182,
-    "alahly|enppi|ml:home|20260823": 1787503848.387623
+    "alahly|enppi|ml:home|20260823": 1787503848.387623,
+    "portlandfiren|washingtonmysticsn|ah:5.5:home|20260823": 1787507271.893078
   },
   "last_report_date": "2026-08-23",
-  "next_id": 924,
+  "next_id": 925,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787506731.908034,
-      "ok": false,
-      "vegas_events": 1076,
-      "ref_events": 778,
+      "ts": 1787507361.896466,
+      "ok": true,
+      "vegas_events": 1110,
+      "ref_events": 777,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787484262.6732626,
