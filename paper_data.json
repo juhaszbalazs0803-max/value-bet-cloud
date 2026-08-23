@@ -27469,10 +27469,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6659,
+      "close_fair_odds": 1.6817,
       "clv_pct": null,
-      "close_fair_p": 0.6002637234607822,
-      "close_ts": 1787473567.671295,
+      "close_fair_p": 0.5946437933174546,
+      "close_ts": 1787477057.863455,
       "close_provisional": true
     },
     {
@@ -27502,7 +27502,7 @@
       "close_fair_odds": 1.8122,
       "clv_pct": null,
       "close_fair_p": 0.5518055591201909,
-      "close_ts": 1787473567.671295,
+      "close_ts": 1787477057.863455,
       "close_provisional": true
     }
   ],
@@ -28296,15 +28296,15 @@
     "realtomayapo|alwaysready|ml:away|20260823": 1787465826.244882,
     "vitoria|bahia|ou:2.5:under|20260823": 1787470417.876072
   },
-  "last_report_date": "2026-08-22",
+  "last_report_date": "2026-08-23",
   "next_id": 909,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787473567.671295,
+      "ts": 1787477057.863455,
       "ok": true,
-      "vegas_events": 1266,
-      "ref_events": 991,
+      "vegas_events": 1257,
+      "ref_events": 980,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
