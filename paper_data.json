@@ -27469,10 +27469,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6876,
+      "close_fair_odds": 1.7613,
       "clv_pct": null,
-      "close_fair_p": 0.5925749298334256,
-      "close_ts": 1787499041.246463,
+      "close_fair_p": 0.5677538006936578,
+      "close_ts": 1787499671.24968,
       "close_provisional": true
     },
     {
@@ -27502,7 +27502,7 @@
       "close_fair_odds": 1.7711,
       "clv_pct": null,
       "close_fair_p": 0.5646109038884063,
-      "close_ts": 1787499041.246463,
+      "close_ts": 1787499671.24968,
       "close_provisional": true
     },
     {
@@ -27712,7 +27712,7 @@
       "close_fair_odds": 1.8758,
       "clv_pct": null,
       "close_fair_p": 0.5330940567929906,
-      "close_ts": 1787499041.246463,
+      "close_ts": 1787499671.24968,
       "close_provisional": true
     },
     {
@@ -27802,12 +27802,11 @@
       "close_fair_odds": 1.8185,
       "clv_pct": null,
       "close_fair_p": 0.5498923559774856,
-      "close_ts": 1787499041.246463,
+      "close_ts": 1787499671.24968,
       "close_provisional": true
     }
   ],
   "papered": {
-    "atlantadreamn|seattlestormn|ah:-9.5:home|20260710": 1783611065.396976,
     "dallasmavericks|goldenstatewarriors|ah:4.5:away|20260709": 1783634912.854121,
     "catabare|verdirrojobbc|ah:-1.5:home|20260709": 1783638553.495537,
     "whai|wellingtonsaints|ah:9.5:home|20260710": 1783651732.191337,
@@ -28608,10 +28607,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787499041.246463,
+      "ts": 1787499671.24968,
       "ok": true,
-      "vegas_events": 1161,
-      "ref_events": 875,
+      "vegas_events": 1164,
+      "ref_events": 859,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
