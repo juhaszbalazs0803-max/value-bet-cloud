@@ -27472,7 +27472,7 @@
       "close_fair_odds": 1.714,
       "clv_pct": null,
       "close_fair_p": 0.5834156065295261,
-      "close_ts": 1787486420.672886,
+      "close_ts": 1787486960.658314,
       "close_provisional": true
     },
     {
@@ -27502,7 +27502,7 @@
       "close_fair_odds": 1.7655,
       "clv_pct": null,
       "close_fair_p": 0.5664276784119613,
-      "close_ts": 1787486420.672886,
+      "close_ts": 1787486960.658314,
       "close_provisional": true
     },
     {
@@ -27592,7 +27592,7 @@
       "close_fair_odds": 1.841,
       "clv_pct": null,
       "close_fair_p": 0.5431957583948435,
-      "close_ts": 1787486420.672886,
+      "close_ts": 1787486960.658314,
       "close_provisional": true
     },
     {
@@ -27622,7 +27622,7 @@
       "close_fair_odds": 1.8023,
       "clv_pct": null,
       "close_fair_p": 0.5548363232846311,
-      "close_ts": 1787486420.672886,
+      "close_ts": 1787486690.591165,
       "close_provisional": true
     },
     {
@@ -27684,10 +27684,39 @@
       "close_fair_p": 0.5717432925070156,
       "close_ts": 1787486150.612963,
       "close_provisional": true
+    },
+    {
+      "id": 915,
+      "ts": 1787486870.648098,
+      "key": "67:16335249:ah:-8.5:away",
+      "content_key": "dallaswingsn|seattlestormn|ah:-8.5:away|20260823",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-8.5:away",
+      "event": "Dallas Wings (N) - Seattle Storm (N)",
+      "market": "ah",
+      "market_name": "Hendikep +8.5",
+      "tip": "Hendikep Seattle Storm (N) (+8.5)",
+      "odds": 1.909,
+      "stake": 1100,
+      "value_pct": 4.0,
+      "fair_pct": 54.5,
+      "start": "2026-08-23T20:00:00+00:00",
+      "start_ts": 1787515200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8357,
+      "clv_pct": null,
+      "close_fair_p": 0.5447511776625701,
+      "close_ts": 1787487050.666328,
+      "close_provisional": true
     }
   ],
   "papered": {
-    "atlantadreamn|seattlestormn|ah:-11.0:away|20260710": 1783598670.875216,
     "atlantadreamn|seattlestormn|ou:168.5:under|20260710": 1783600470.861357,
     "philadelphia76ers|detroitpistons|ml:away|20260709": 1783609535.364969,
     "atlantadreamn|seattlestormn|ah:-9.5:home|20260710": 1783611065.396976,
@@ -28480,22 +28509,27 @@
     "fkteplice|zbrojovkabrno|ou:2.5:under|20260823": 1787480882.993131,
     "dallaswingsn|seattlestormn|ah:-9.0:away|20260823": 1787485070.647039,
     "scpaderborn07ii|bonnersc|ml:home|20260823": 1787485430.59867,
-    "dallaswingsn|seattlestormn|ah:-9.5:away|20260823": 1787485430.59867
+    "dallaswingsn|seattlestormn|ah:-9.5:away|20260823": 1787485430.59867,
+    "dallaswingsn|seattlestormn|ah:-8.5:away|20260823": 1787486870.648098
   },
   "last_report_date": "2026-08-23",
-  "next_id": 915,
+  "next_id": 916,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787486420.672886,
-      "ok": true,
-      "vegas_events": 1198,
-      "ref_events": 960,
+      "ts": 1787487050.666328,
+      "ok": false,
+      "vegas_events": 240,
+      "ref_events": 89,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1787484262.6732626,
