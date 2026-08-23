@@ -27472,7 +27472,7 @@
       "close_fair_odds": 1.7603,
       "clv_pct": null,
       "close_fair_p": 0.5680738535468618,
-      "close_ts": 1787502048.44561,
+      "close_ts": 1787502678.38883,
       "close_provisional": true
     },
     {
@@ -27502,7 +27502,7 @@
       "close_fair_odds": 1.7711,
       "clv_pct": null,
       "close_fair_p": 0.5646109038884063,
-      "close_ts": 1787502048.44561,
+      "close_ts": 1787502678.38883,
       "close_provisional": true
     },
     {
@@ -27802,7 +27802,7 @@
       "close_fair_odds": 1.8185,
       "clv_pct": null,
       "close_fair_p": 0.5498923559774856,
-      "close_ts": 1787502048.44561,
+      "close_ts": 1787502678.38883,
       "close_provisional": true
     },
     {
@@ -27889,11 +27889,41 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8387,
+      "close_fair_odds": 1.8688,
       "clv_pct": null,
-      "close_fair_p": 0.5438531331246352,
-      "close_ts": 1787502048.44561,
+      "close_fair_p": 0.5351010302691477,
+      "close_ts": 1787502498.387153,
       "close_provisional": true
+    },
+    {
+      "id": 922,
+      "ts": 1787502138.406182,
+      "key": "66:16804667:ou:2.5:under",
+      "content_key": "venezia|lecce|ou:2.5:under|20260823",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "Venezia - Lecce",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 2.0,
+      "stake": 1300,
+      "value_pct": 5.24,
+      "fair_pct": 52.6,
+      "start": "2026-08-23T16:30:00+00:00",
+      "start_ts": 1787502600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9003,
+      "clv_pct": 5.25,
+      "close_fair_p": 0.5262216772677345,
+      "close_ts": 1787502588.437628,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -28693,17 +28723,18 @@
     "iaakranes|fhhafnarfjrdur|ou:3.5:under|20260823": 1787494685.709989,
     "parnujkvaprus|floratallinn|ou:3.5:over|20260823": 1787500211.240749,
     "dallaswingsn|seattlestormn|ou:173.5:over|20260823": 1787501201.212304,
-    "dallaswingsn|seattlestormn|ou:174.5:over|20260823": 1787501471.223211
+    "dallaswingsn|seattlestormn|ou:174.5:over|20260823": 1787501471.223211,
+    "venezia|lecce|ou:2.5:under|20260823": 1787502138.406182
   },
   "last_report_date": "2026-08-23",
-  "next_id": 922,
+  "next_id": 923,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787502048.44561,
+      "ts": 1787502678.38883,
       "ok": true,
-      "vegas_events": 1119,
-      "ref_events": 812,
+      "vegas_events": 1109,
+      "ref_events": 810,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
