@@ -27472,7 +27472,7 @@
       "close_fair_odds": 1.7603,
       "clv_pct": null,
       "close_fair_p": 0.5680738535468618,
-      "close_ts": 1787503308.445995,
+      "close_ts": 1787503938.407821,
       "close_provisional": true
     },
     {
@@ -27499,10 +27499,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7711,
+      "close_fair_odds": 1.7488,
       "clv_pct": null,
-      "close_fair_p": 0.5646109038884063,
-      "close_ts": 1787503308.445995,
+      "close_fair_p": 0.5718061450100383,
+      "close_ts": 1787503938.407821,
       "close_provisional": true
     },
     {
@@ -27799,11 +27799,11 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8185,
-      "clv_pct": null,
-      "close_fair_p": 0.5498923559774856,
-      "close_ts": 1787503308.445995,
-      "close_provisional": true
+      "close_fair_odds": 1.7997,
+      "clv_pct": 5.57,
+      "close_fair_p": 0.5556417015557967,
+      "close_ts": 1787503938.407821,
+      "close_provisional": false
     },
     {
       "id": 919,
@@ -27892,7 +27892,7 @@
       "close_fair_odds": 1.8688,
       "clv_pct": null,
       "close_fair_p": 0.5351010302691477,
-      "close_ts": 1787502498.387153,
+      "close_ts": 1787503938.407821,
       "close_provisional": true
     },
     {
@@ -27923,6 +27923,36 @@
       "clv_pct": 5.25,
       "close_fair_p": 0.5262216772677345,
       "close_ts": 1787502588.437628,
+      "close_provisional": false
+    },
+    {
+      "id": 923,
+      "ts": 1787503848.387623,
+      "key": "66:17401289:ml:home",
+      "content_key": "alahly|enppi|ml:home|20260823",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Al Ahly - Enppi",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Al Ahly",
+      "odds": 1.444,
+      "stake": 1800,
+      "value_pct": 3.16,
+      "fair_pct": 71.4,
+      "start": "2026-08-23T17:00:00+00:00",
+      "start_ts": 1787504400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4003,
+      "clv_pct": 3.12,
+      "close_fair_p": 0.7141328464078591,
+      "close_ts": 1787503938.407821,
       "close_provisional": false
     }
   ],
@@ -28724,17 +28754,18 @@
     "parnujkvaprus|floratallinn|ou:3.5:over|20260823": 1787500211.240749,
     "dallaswingsn|seattlestormn|ou:173.5:over|20260823": 1787501201.212304,
     "dallaswingsn|seattlestormn|ou:174.5:over|20260823": 1787501471.223211,
-    "venezia|lecce|ou:2.5:under|20260823": 1787502138.406182
+    "venezia|lecce|ou:2.5:under|20260823": 1787502138.406182,
+    "alahly|enppi|ml:home|20260823": 1787503848.387623
   },
   "last_report_date": "2026-08-23",
-  "next_id": 923,
+  "next_id": 924,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787503308.445995,
+      "ts": 1787503938.407821,
       "ok": true,
-      "vegas_events": 1109,
-      "ref_events": 798,
+      "vegas_events": 1108,
+      "ref_events": 800,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
