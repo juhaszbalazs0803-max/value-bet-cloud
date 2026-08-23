@@ -27472,7 +27472,7 @@
       "close_fair_odds": 1.7613,
       "clv_pct": null,
       "close_fair_p": 0.5677538006936578,
-      "close_ts": 1787499671.24968,
+      "close_ts": 1787500301.239019,
       "close_provisional": true
     },
     {
@@ -27502,7 +27502,7 @@
       "close_fair_odds": 1.7711,
       "clv_pct": null,
       "close_fair_p": 0.5646109038884063,
-      "close_ts": 1787499671.24968,
+      "close_ts": 1787500301.239019,
       "close_provisional": true
     },
     {
@@ -27712,7 +27712,7 @@
       "close_fair_odds": 1.8758,
       "clv_pct": null,
       "close_fair_p": 0.5330940567929906,
-      "close_ts": 1787499671.24968,
+      "close_ts": 1787500301.239019,
       "close_provisional": true
     },
     {
@@ -27802,8 +27802,38 @@
       "close_fair_odds": 1.8185,
       "clv_pct": null,
       "close_fair_p": 0.5498923559774856,
-      "close_ts": 1787499671.24968,
+      "close_ts": 1787500301.239019,
       "close_provisional": true
+    },
+    {
+      "id": 919,
+      "ts": 1787500211.240749,
+      "key": "66:16332373:ou:3.5:over",
+      "content_key": "parnujkvaprus|floratallinn|ou:3.5:over|20260823",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Parnu JK Vaprus - Flora Tallinn",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 2.0,
+      "stake": 1700,
+      "value_pct": 6.77,
+      "fair_pct": 53.4,
+      "start": "2026-08-23T16:00:00+00:00",
+      "start_ts": 1787500800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8731,
+      "clv_pct": 6.77,
+      "close_fair_p": 0.5338637077357898,
+      "close_ts": 1787500301.239019,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -28600,17 +28630,18 @@
     "dallaswingsn|seattlestormn|ah:-8.5:away|20260823": 1787486870.648098,
     "dallaswingsn|seattlestormn|ou:172.5:over|20260823": 1787494145.716006,
     "snyfczmbbuilding|tiszafredivse|ou:3.5:under|20260823": 1787494325.726756,
-    "iaakranes|fhhafnarfjrdur|ou:3.5:under|20260823": 1787494685.709989
+    "iaakranes|fhhafnarfjrdur|ou:3.5:under|20260823": 1787494685.709989,
+    "parnujkvaprus|floratallinn|ou:3.5:over|20260823": 1787500211.240749
   },
   "last_report_date": "2026-08-23",
-  "next_id": 919,
+  "next_id": 920,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787499671.24968,
+      "ts": 1787500301.239019,
       "ok": true,
       "vegas_events": 1164,
-      "ref_events": 859,
+      "ref_events": 860,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
