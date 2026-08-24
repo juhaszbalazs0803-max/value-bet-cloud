@@ -28122,7 +28122,6 @@
     }
   ],
   "papered": {
-    "maxwiskandt|antonmatusevich|ml:home|20260710": 1783665789.220051,
     "losangelessparksn|chicagoskyn|ou:179.5:under|20260711": 1783678992.604354,
     "torontotempon|dallaswingsn|ah:6.5:away|20260710": 1783689288.399867,
     "connecticutsunn|goldenstatevalkyriesn|ah:7.5:home|20260710": 1783690188.34647,
@@ -28926,7 +28925,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787553657.103563,
+      "ts": 1787554359.554556,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
