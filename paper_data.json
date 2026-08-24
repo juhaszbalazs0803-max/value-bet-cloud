@@ -25525,11 +25525,11 @@
       "fair_pct": 57.9,
       "start": "2026-08-21T17:30:00+00:00",
       "start_ts": 1787333400.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1787593145.7980762,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7471,
       "clv_pct": 3.03,
@@ -28144,10 +28144,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3492,
+      "close_fair_odds": 1.3274,
       "clv_pct": null,
-      "close_fair_p": 0.7411582947095912,
-      "close_ts": 1787592511.910352,
+      "close_fair_p": 0.7533566900909293,
+      "close_ts": 1787592961.894038,
       "close_provisional": true
     },
     {
@@ -28207,7 +28207,7 @@
       "close_fair_odds": 1.8563,
       "clv_pct": null,
       "close_fair_p": 0.5386926344141717,
-      "close_ts": 1787592511.910352,
+      "close_ts": 1787593051.908584,
       "close_provisional": true
     },
     {
@@ -28267,7 +28267,37 @@
       "close_fair_odds": 1.8846,
       "clv_pct": null,
       "close_fair_p": 0.5306165764618487,
-      "close_ts": 1787592511.910352,
+      "close_ts": 1787593141.883522,
+      "close_provisional": true
+    },
+    {
+      "id": 933,
+      "ts": 1787592691.894144,
+      "key": "67:17479258:ah:8.5:home",
+      "content_key": "pressiserlohnkangaroos|etbminersessen|ah:8.5:home|20260825",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:8.5:home",
+      "event": "Press Iserlohn Kangaroos - Etb Miners Essen",
+      "market": "ah",
+      "market_name": "Hendikep +8.5",
+      "tip": "Hendikep Press Iserlohn Kangaroos (+8.5)",
+      "odds": 1.833,
+      "stake": 1600,
+      "value_pct": 5.43,
+      "fair_pct": 57.5,
+      "start": "2026-08-25T17:00:00+00:00",
+      "start_ts": 1787677200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.739,
+      "clv_pct": null,
+      "close_fair_p": 0.5750523996345462,
+      "close_ts": 1787592691.894144,
       "close_provisional": true
     }
   ],
@@ -29069,26 +29099,23 @@
     "kkstudentskicentarpodgorica|kbpeja|ah:-6.5:home|20260824": 1787587450.274785,
     "joeljosefschwarzler|gustavoheide|ml:home|20260824": 1787589577.096873,
     "kkstudentskicentarpodgorica|kbpeja|ah:-5.5:home|20260824": 1787591017.141053,
-    "ignaciopariscaromera|sergiperezcontri|ml:home|20260825": 1787592187.132394
+    "ignaciopariscaromera|sergiperezcontri|ml:home|20260825": 1787592187.132394,
+    "pressiserlohnkangaroos|etbminersessen|ah:8.5:home|20260825": 1787592691.894144
   },
   "last_report_date": "2026-08-24",
-  "next_id": 933,
+  "next_id": 934,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787592511.910352,
-      "ok": false,
-      "vegas_events": 314,
-      "ref_events": 167,
+      "ts": 1787593141.883522,
+      "ok": true,
+      "vegas_events": 1310,
+      "ref_events": 923,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787586575.958201,
