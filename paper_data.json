@@ -28147,7 +28147,7 @@
       "close_fair_odds": 1.3492,
       "clv_pct": null,
       "close_fair_p": 0.7411582947095912,
-      "close_ts": 1787591737.126397,
+      "close_ts": 1787592367.133759,
       "close_provisional": true
     },
     {
@@ -28204,10 +28204,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8931,
+      "close_fair_odds": 1.8563,
       "clv_pct": null,
-      "close_fair_p": 0.5282331511839709,
-      "close_ts": 1787591737.126397,
+      "close_fair_p": 0.5386926344141717,
+      "close_ts": 1787592367.133759,
       "close_provisional": true
     },
     {
@@ -28238,6 +28238,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5840448378817243,
       "close_ts": 1787591647.126784,
+      "close_provisional": true
+    },
+    {
+      "id": 932,
+      "ts": 1787592187.132394,
+      "key": "68:17494844:ml:home",
+      "content_key": "ignaciopariscaromera|sergiperezcontri|ml:home|20260825",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Ignacio Parisca Romera - Sergi Perez Contri",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Ignacio Parisca Romera",
+      "odds": 1.636,
+      "stake": 1600,
+      "value_pct": 4.09,
+      "fair_pct": 63.6,
+      "start": "2026-08-25T10:00:00+00:00",
+      "start_ts": 1787652000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8846,
+      "clv_pct": null,
+      "close_fair_p": 0.5306165764618487,
+      "close_ts": 1787592367.133759,
       "close_provisional": true
     }
   ],
@@ -29038,17 +29068,18 @@
     "kkstudentskicentarpodgorica|kbpeja|ml:home|20260824": 1787587090.265822,
     "kkstudentskicentarpodgorica|kbpeja|ah:-6.5:home|20260824": 1787587450.274785,
     "joeljosefschwarzler|gustavoheide|ml:home|20260824": 1787589577.096873,
-    "kkstudentskicentarpodgorica|kbpeja|ah:-5.5:home|20260824": 1787591017.141053
+    "kkstudentskicentarpodgorica|kbpeja|ah:-5.5:home|20260824": 1787591017.141053,
+    "ignaciopariscaromera|sergiperezcontri|ml:home|20260825": 1787592187.132394
   },
   "last_report_date": "2026-08-24",
-  "next_id": 932,
+  "next_id": 933,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787591737.126397,
+      "ts": 1787592367.133759,
       "ok": true,
-      "vegas_events": 1311,
-      "ref_events": 916,
+      "vegas_events": 1313,
+      "ref_events": 919,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
