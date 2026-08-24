@@ -28926,17 +28926,23 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787551767.043553,
-      "ok": true,
-      "vegas_events": 1114,
-      "ref_events": 733,
+      "ts": 1787552397.047958,
+      "ok": false,
+      "vegas_events": 0,
+      "ref_events": 0,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
-      "ref_gap": {
-        "70": "0 referencia-esemény 29 vegas meccs mellett"
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0",
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
       },
+      "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
+        "MINDEN sport lekérése elhasalt (?)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1787540602.4237432,
