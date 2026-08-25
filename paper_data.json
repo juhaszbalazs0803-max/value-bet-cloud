@@ -28362,7 +28362,6 @@
     }
   ],
   "papered": {
-    "minnesotalynxn|newyorklibertyn|ah:-5.5:away|20260711": 1783743063.707235,
     "qianhuitang|elinanepliy|ml:away|20260711": 1783753808.197064,
     "philadelphia76ers|indianapacers|ou:180.5:over|20260711": 1783777146.518471,
     "atlantadreamn|portlandfiren|ou:173.5:under|20260711": 1783778046.53884,
@@ -29165,7 +29164,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787629691.957001,
+      "ts": 1787633115.042891,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
