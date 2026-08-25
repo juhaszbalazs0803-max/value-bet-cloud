@@ -28362,6 +28362,66 @@
       "close_fair_p": 0.604221635883905,
       "close_ts": 1787603578.777968,
       "close_provisional": true
+    },
+    {
+      "id": 936,
+      "ts": 1787676656.013457,
+      "key": "67:17442027:ml:away",
+      "content_key": "lobosplateadosdelabuap|fuerzaregia|ml:away|20260826",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Lobos Plateados de la Buap - Fuerza Regia",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Fuerza Regia",
+      "odds": 1.741,
+      "stake": 1500,
+      "value_pct": 4.35,
+      "fair_pct": 59.9,
+      "start": "2026-08-26T02:00:00+00:00",
+      "start_ts": 1787709600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6682,
+      "clv_pct": null,
+      "close_fair_p": 0.5994321169418445,
+      "close_ts": 1787676926.017509,
+      "close_provisional": true
+    },
+    {
+      "id": 937,
+      "ts": 1787676656.013457,
+      "key": "67:17442027:ah:1.5:away",
+      "content_key": "lobosplateadosdelabuap|fuerzaregia|ah:1.5:away|20260826",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:1.5:away",
+      "event": "Lobos Plateados de la Buap - Fuerza Regia",
+      "market": "ah",
+      "market_name": "Hendikep -1.5",
+      "tip": "Hendikep Fuerza Regia (-1.5)",
+      "odds": 1.833,
+      "stake": 1500,
+      "value_pct": 5.03,
+      "fair_pct": 57.3,
+      "start": "2026-08-26T02:00:00+00:00",
+      "start_ts": 1787709600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7456,
+      "clv_pct": null,
+      "close_fair_p": 0.5728578344360173,
+      "close_ts": 1787676926.017509,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -29153,33 +29213,27 @@
     "ignaciopariscaromera|sergiperezcontri|ml:home|20260825": 1787592187.132394,
     "pressiserlohnkangaroos|etbminersessen|ah:8.5:home|20260825": 1787592691.894144,
     "pressiserlohnkangaroos|etbminersessen|ah:5.5:home|20260825": 1787603308.754976,
-    "pressiserlohnkangaroos|etbminersessen|ah:6.5:home|20260825": 1787603398.757177
+    "pressiserlohnkangaroos|etbminersessen|ah:6.5:home|20260825": 1787603398.757177,
+    "lobosplateadosdelabuap|fuerzaregia|ml:away|20260826": 1787676656.013457,
+    "lobosplateadosdelabuap|fuerzaregia|ah:1.5:away|20260826": 1787676656.013457
   },
   "last_report_date": "2026-08-25",
-  "next_id": 936,
+  "next_id": 938,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787676296.053577,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1787676926.017509,
+      "ok": true,
+      "vegas_events": 1602,
+      "ref_events": 1162,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
-    "last_alert_ts": 1787654920.0628624,
-    "alert_active": true
+    "last_alert_ts": 1787676570.2953732,
+    "alert_active": false
   }
 }
