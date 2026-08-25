@@ -28365,7 +28365,6 @@
     }
   ],
   "papered": {
-    "philadelphia76ers|indianapacers|ou:180.5:over|20260711": 1783777146.518471,
     "atlantadreamn|portlandfiren|ou:173.5:under|20260711": 1783778046.53884,
     "keeganrice|jaydylanharafriend|ml:away|20260711": 1783781472.570085,
     "brooklynnets|atlantahawks|ml:away|20260712": 1783781652.518364,
@@ -29166,7 +29165,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787664855.08963,
+      "ts": 1787665633.965049,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
