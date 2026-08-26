@@ -29238,10 +29238,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787771869.419777,
+      "ts": 1787772499.437609,
       "ok": true,
-      "vegas_events": 1524,
-      "ref_events": 920,
+      "vegas_events": 1516,
+      "ref_events": 930,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
