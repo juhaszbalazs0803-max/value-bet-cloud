@@ -28425,8 +28425,6 @@
     }
   ],
   "papered": {
-    "roadwarriors|terrafirmadyip|ah:-16.0:away|20260712": 1783845789.16096,
-    "roadwarriors|terrafirmadyip|ah:-17.0:away|20260712": 1783845879.082813,
     "lasvegasacesn|indianafevern|ah:-6.0:away|20260713": 1783854970.221756,
     "milwaukeebucks|sanantoniospurs|ah:-3.5:away|20260713": 1783857453.021681,
     "lasvegasacesn|indianafevern|ah:-5.5:away|20260713": 1783862259.841793,
@@ -29213,7 +29211,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787733549.188983,
+      "ts": 1787734179.24557,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
