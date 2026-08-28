@@ -28480,7 +28480,7 @@
       "close_fair_odds": 1.7649,
       "clv_pct": null,
       "close_fair_p": 0.5666022399322195,
-      "close_ts": 1787909988.395853,
+      "close_ts": 1787910618.447404,
       "close_provisional": true
     },
     {
@@ -28510,7 +28510,7 @@
       "close_fair_odds": 1.2929,
       "clv_pct": null,
       "close_fair_p": 0.7734437879115055,
-      "close_ts": 1787909988.395853,
+      "close_ts": 1787910618.447404,
       "close_provisional": true
     },
     {
@@ -28540,7 +28540,7 @@
       "close_fair_odds": 1.9888,
       "clv_pct": null,
       "close_fair_p": 0.5028142076502732,
-      "close_ts": 1787909988.395853,
+      "close_ts": 1787910618.447404,
       "close_provisional": true
     },
     {
@@ -28570,7 +28570,37 @@
       "close_fair_odds": 1.8062,
       "clv_pct": null,
       "close_fair_p": 0.5536404470907761,
-      "close_ts": 1787909988.395853,
+      "close_ts": 1787910618.447404,
+      "close_provisional": true
+    },
+    {
+      "id": 943,
+      "ts": 1787910348.45043,
+      "key": "67:17513695:ah:-10.5:away",
+      "content_key": "belgiumn|japnn|ah:-10.5:away|20260828",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-10.5:away",
+      "event": "Belgium (N) - Japán (N)",
+      "market": "ah",
+      "market_name": "Hendikep +10.5",
+      "tip": "Hendikep Japán (N) (+10.5)",
+      "odds": 1.8,
+      "stake": 1000,
+      "value_pct": 3.21,
+      "fair_pct": 57.3,
+      "start": "2026-08-28T18:30:00+00:00",
+      "start_ts": 1787941800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.744,
+      "clv_pct": null,
+      "close_fair_p": 0.5733821470873264,
+      "close_ts": 1787910348.45043,
       "close_provisional": true
     }
   ],
@@ -29345,22 +29375,27 @@
     "georgia|montenegr|ah:-8.5:home|20260828": 1787909358.496213,
     "panterasdeaguascalientes|correcaminosuatvictoria|ml:home|20260829": 1787909358.496213,
     "belgiumn|japnn|ah:-8.5:away|20260828": 1787909628.448725,
-    "losangelessparksn|washingtonmysticsn|ah:4.5:away|20260829": 1787909808.436762
+    "losangelessparksn|washingtonmysticsn|ah:4.5:away|20260829": 1787909808.436762,
+    "belgiumn|japnn|ah:-10.5:away|20260828": 1787910348.45043
   },
   "last_report_date": "2026-08-28",
-  "next_id": 943,
+  "next_id": 944,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787909988.395853,
-      "ok": true,
-      "vegas_events": 1768,
-      "ref_events": 1332,
+      "ts": 1787910618.447404,
+      "ok": false,
+      "vegas_events": 1573,
+      "ref_events": 1216,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1787873845.940778,
