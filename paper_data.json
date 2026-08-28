@@ -28477,10 +28477,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7523,
+      "close_fair_odds": 1.7649,
       "clv_pct": null,
-      "close_fair_p": 0.5706737120211361,
-      "close_ts": 1787909358.496213,
+      "close_fair_p": 0.5666022399322195,
+      "close_ts": 1787909988.395853,
       "close_provisional": true
     },
     {
@@ -28510,7 +28510,67 @@
       "close_fair_odds": 1.2929,
       "clv_pct": null,
       "close_fair_p": 0.7734437879115055,
-      "close_ts": 1787909358.496213,
+      "close_ts": 1787909988.395853,
+      "close_provisional": true
+    },
+    {
+      "id": 941,
+      "ts": 1787909628.448725,
+      "key": "67:17513695:ah:-8.5:away",
+      "content_key": "belgiumn|japnn|ah:-8.5:away|20260828",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-8.5:away",
+      "event": "Belgium (N) - Japán (N)",
+      "market": "ah",
+      "market_name": "Hendikep +8.5",
+      "tip": "Hendikep Japán (N) (+8.5)",
+      "odds": 1.833,
+      "stake": 1700,
+      "value_pct": 5.53,
+      "fair_pct": 57.6,
+      "start": "2026-08-28T18:30:00+00:00",
+      "start_ts": 1787941800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9888,
+      "clv_pct": null,
+      "close_fair_p": 0.5028142076502732,
+      "close_ts": 1787909988.395853,
+      "close_provisional": true
+    },
+    {
+      "id": 942,
+      "ts": 1787909808.436762,
+      "key": "67:16382775:ah:4.5:away",
+      "content_key": "losangelessparksn|washingtonmysticsn|ah:4.5:away|20260829",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:4.5:away",
+      "event": "Los Angeles Sparks (N) - Washington Mystics (N)",
+      "market": "ah",
+      "market_name": "Hendikep -4.5",
+      "tip": "Hendikep Washington Mystics (N) (-4.5)",
+      "odds": 1.885,
+      "stake": 1200,
+      "value_pct": 4.36,
+      "fair_pct": 55.4,
+      "start": "2026-08-29T02:00:00+00:00",
+      "start_ts": 1787968800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8062,
+      "clv_pct": null,
+      "close_fair_p": 0.5536404470907761,
+      "close_ts": 1787909988.395853,
       "close_provisional": true
     }
   ],
@@ -29283,29 +29343,27 @@
     "lobosplateadosdelabuap|fuerzaregia|ah:1.5:away|20260826": 1787676656.013457,
     "ndadriamiren|bilje|ou:3.5:over|20260826": 1787760919.416903,
     "georgia|montenegr|ah:-8.5:home|20260828": 1787909358.496213,
-    "panterasdeaguascalientes|correcaminosuatvictoria|ml:home|20260829": 1787909358.496213
+    "panterasdeaguascalientes|correcaminosuatvictoria|ml:home|20260829": 1787909358.496213,
+    "belgiumn|japnn|ah:-8.5:away|20260828": 1787909628.448725,
+    "losangelessparksn|washingtonmysticsn|ah:4.5:away|20260829": 1787909808.436762
   },
   "last_report_date": "2026-08-28",
-  "next_id": 941,
+  "next_id": 943,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1787909358.496213,
-      "ok": false,
-      "vegas_events": 1575,
-      "ref_events": 1216,
+      "ts": 1787909988.395853,
+      "ok": true,
+      "vegas_events": 1768,
+      "ref_events": 1332,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1787873845.940778,
-    "alert_active": true
+    "alert_active": false
   }
 }
