@@ -28876,7 +28876,7 @@
       "close_fair_odds": 1.7377,
       "clv_pct": null,
       "close_fair_p": 0.5754678417961934,
-      "close_ts": 1788019812.356359,
+      "close_ts": 1788020352.39647,
       "close_provisional": true
     },
     {
@@ -28966,7 +28966,7 @@
       "close_fair_odds": 1.7902,
       "clv_pct": null,
       "close_fair_p": 0.5585873258625602,
-      "close_ts": 1788019812.356359,
+      "close_ts": 1788020352.39647,
       "close_provisional": true
     },
     {
@@ -28996,7 +28996,37 @@
       "close_fair_odds": 1.4807,
       "clv_pct": null,
       "close_fair_p": 0.6753346631738326,
-      "close_ts": 1788019812.356359,
+      "close_ts": 1788020352.39647,
+      "close_provisional": true
+    },
+    {
+      "id": 957,
+      "ts": 1788020352.39647,
+      "key": "67:16388565:ou:179.5:over",
+      "content_key": "newyorklibertyn|chicagoskyn|ou:179.5:over|20260829",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:179.5:over",
+      "event": "New York Liberty (N) - Chicago Sky (N)",
+      "market": "ou",
+      "market_name": "O/U 179.5",
+      "tip": "Több mint 179.5",
+      "odds": 1.926,
+      "stake": 1000,
+      "value_pct": 3.7,
+      "fair_pct": 53.8,
+      "start": "2026-08-29T17:00:00+00:00",
+      "start_ts": 1788022800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8574,
+      "clv_pct": null,
+      "close_fair_p": 0.538396890429667,
+      "close_ts": 1788020442.428162,
       "close_provisional": true
     }
   ],
@@ -29775,22 +29805,27 @@
     "drcongo|mali|ou:149.5:over|20260829": 1788017292.450913,
     "alkar|zabok|ah:-2.5:away|20260829": 1788017472.395584,
     "acmilann|calciocomo1907n|ml:home|20260829": 1788019632.418278,
-    "atlntico|cibao|ou:3.5:under|20260829": 1788019632.418278
+    "atlntico|cibao|ou:3.5:under|20260829": 1788019632.418278,
+    "newyorklibertyn|chicagoskyn|ou:179.5:over|20260829": 1788020352.39647
   },
   "last_report_date": "2026-08-29",
-  "next_id": 957,
+  "next_id": 958,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788019812.356359,
-      "ok": true,
-      "vegas_events": 1511,
-      "ref_events": 1002,
+      "ts": 1788020442.428162,
+      "ok": false,
+      "vegas_events": 319,
+      "ref_events": 186,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1788001046.9845507,
