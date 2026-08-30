@@ -29299,7 +29299,7 @@
       "close_fair_odds": 1.6341,
       "clv_pct": null,
       "close_fair_p": 0.6119472944117494,
-      "close_ts": 1788112415.239013,
+      "close_ts": 1788113045.210433,
       "close_provisional": true
     },
     {
@@ -29389,7 +29389,7 @@
       "close_fair_odds": 1.7562,
       "clv_pct": null,
       "close_fair_p": 0.5694043558121227,
-      "close_ts": 1788112415.239013,
+      "close_ts": 1788113045.210433,
       "close_provisional": true
     }
   ],
@@ -30178,10 +30178,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788112415.239013,
+      "ts": 1788113045.210433,
       "ok": true,
-      "vegas_events": 1180,
-      "ref_events": 779,
+      "vegas_events": 1148,
+      "ref_events": 785,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
