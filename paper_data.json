@@ -29149,13 +29149,41 @@
       "close_fair_odds": 1.7577,
       "clv_pct": null,
       "close_fair_p": 0.5689171699741157,
-      "close_ts": 1788093319.919723,
+      "close_ts": 1788093949.953608,
+      "close_provisional": true
+    },
+    {
+      "id": 962,
+      "ts": 1788093679.954315,
+      "key": "67:17547273:ah:-5.5:away",
+      "content_key": "polpharmastarogardgdanski|skkkotwicakolobrzeg|ah:-5.5:away|20260830",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-5.5:away",
+      "event": "Polpharma Starogard Gdanski - SKK Kotwica Kolobrzeg",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep SKK Kotwica Kolobrzeg (+5.5)",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.52,
+      "fair_pct": 57.0,
+      "start": "2026-08-30T16:30:00+00:00",
+      "start_ts": 1788107400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7541,
+      "clv_pct": null,
+      "close_fair_p": 0.5700863047322442,
+      "close_ts": 1788093949.953608,
       "close_provisional": true
     }
   ],
   "papered": {
-    "dallaswingsn|newyorklibertyn|ml:home|20260717": 1784205431.761018,
-    "dallaswingsn|newyorklibertyn|ah:-1.0:home|20260717": 1784205431.761018,
     "newyorkknicks|goldenstatewarriors|ou:172.5:over|20260716": 1784219006.811009,
     "washingtonmysticsn|portlandfiren|ah:-7.0:away|20260716": 1784242442.347786,
     "francescajones|nomanohaakugue|ml:home|20260717": 1784243735.980922,
@@ -29926,26 +29954,23 @@
     "doradosdechihuahua|minerosdezacatecas|ah:2.5:home|20260830": 1788031715.509035,
     "clublagomarn|defensorsportingn|ou:128.5:under|20260830": 1788071396.046434,
     "gimnasiaconcepcion|independientedechivilcoy|ou:2.5:under|20260830": 1788073016.166453,
-    "fuerzaregia|abejasdeleon|ah:-7.5:away|20260830": 1788093319.919723
+    "fuerzaregia|abejasdeleon|ah:-7.5:away|20260830": 1788093319.919723,
+    "polpharmastarogardgdanski|skkkotwicakolobrzeg|ah:-5.5:away|20260830": 1788093679.954315
   },
   "last_report_date": "2026-08-30",
-  "next_id": 962,
+  "next_id": 963,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788093319.919723,
-      "ok": false,
-      "vegas_events": 1223,
-      "ref_events": 908,
+      "ts": 1788093949.953608,
+      "ok": true,
+      "vegas_events": 1416,
+      "ref_events": 1048,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1788042170.804349,
