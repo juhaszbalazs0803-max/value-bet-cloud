@@ -29299,7 +29299,7 @@
       "close_fair_odds": 1.6337,
       "clv_pct": null,
       "close_fair_p": 0.612119975515201,
-      "close_ts": 1788123205.000305,
+      "close_ts": 1788123835.101033,
       "close_provisional": true
     },
     {
@@ -29390,6 +29390,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5694043558121227,
       "close_ts": 1788113045.210433,
+      "close_provisional": true
+    },
+    {
+      "id": 970,
+      "ts": 1788123655.058803,
+      "key": "66:17543785:ou:3.5:over",
+      "content_key": "sportivo2demayo|rubionuwomen|ou:3.5:over|20260830",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Sportivo 2 de Mayo - Rubio Nu Women",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.75,
+      "stake": 1400,
+      "value_pct": 4.09,
+      "fair_pct": 59.5,
+      "start": "2026-08-30T22:30:00+00:00",
+      "start_ts": 1788129000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6812,
+      "clv_pct": null,
+      "close_fair_p": 0.5948013835027774,
+      "close_ts": 1788123835.101033,
       "close_provisional": true
     }
   ],
@@ -30171,26 +30201,23 @@
     "freserosdeirapuato|astrosdejalisco|ml:away|20260831": 1788094579.929829,
     "freserosdeirapuato|astrosdejalisco|ah:2.5:away|20260831": 1788094579.929829,
     "medipolisscjena|slaskwroclaw|ou:164.5:over|20260830": 1788095929.918003,
-    "clubatleticoaguadan|malvinn|ou:134.5:over|20260830": 1788096379.955685
+    "clubatleticoaguadan|malvinn|ou:134.5:over|20260830": 1788096379.955685,
+    "sportivo2demayo|rubionuwomen|ou:3.5:over|20260830": 1788123655.058803
   },
   "last_report_date": "2026-08-30",
-  "next_id": 970,
+  "next_id": 971,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788123205.000305,
-      "ok": false,
-      "vegas_events": 947,
-      "ref_events": 601,
+      "ts": 1788123835.101033,
+      "ok": true,
+      "vegas_events": 1124,
+      "ref_events": 726,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1788122666.7283902,
