@@ -28471,11 +28471,11 @@
       "fair_pct": 57.1,
       "start": "2026-08-28T15:30:00+00:00",
       "start_ts": 1787931000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1788198705.206412,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7975,
       "clv_pct": null,
@@ -29424,12 +29424,6 @@
     }
   ],
   "papered": {
-    "chicagoskyn|losangelessparksn|ou:185.5:under|20260717": 1784292566.622425,
-    "torontotempon|atlantadreamn|ah:9.0:away|20260717": 1784299300.595159,
-    "newyorkknicks|dallasmavericks|ml:away|20260718": 1784299480.540863,
-    "torontotempon|atlantadreamn|ah:8.5:away|20260717": 1784300380.598094,
-    "floratallinn|nommeunited|ml:home|20260717": 1784301640.546262,
-    "indianafevern|seattlestormn|ah:-9.0:home|20260717": 1784302360.602637,
     "nicaraguawomen|salvadorn|ou:139.5:over|20260717": 1784314131.887814,
     "indianafevern|seattlestormn|ah:-8.5:home|20260717": 1784319550.783343,
     "federicocina|danielmichalski|ml:home|20260718": 1784352181.687811,
@@ -30199,22 +30193,18 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788175322.081043,
+      "ts": 1788198702.652088,
       "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "vegas_events": 393,
+      "ref_events": 166,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
       ],
       "settle_err": null
     },
