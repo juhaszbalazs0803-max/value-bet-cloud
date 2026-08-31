@@ -29424,9 +29424,6 @@
     }
   ],
   "papered": {
-    "phoenixmercuryn|connecticutsunn|ou:163.5:over|20260718": 1784269717.744622,
-    "torontotempon|atlantadreamn|ah:8.0:home|20260717": 1784269807.753748,
-    "macaublackbears|convergefiberxers|ah:14.5:home|20260717": 1784278265.357876,
     "foshannanshifc|nantongzhiyunfc|ml:away|20260717": 1784284349.392635,
     "blackwaterbossing|timpladoshotshots|ah:6.5:home|20260717": 1784286959.404665,
     "anastasiazakharova|tatianaprozorova|ml:away|20260717": 1784287229.3767,
@@ -30200,12 +30197,12 @@
     "clubatleticoaguadan|malvinn|ou:134.5:over|20260830": 1788096379.955685,
     "sportivo2demayo|rubionuwomen|ou:3.5:over|20260830": 1788123655.058803
   },
-  "last_report_date": "2026-08-30",
+  "last_report_date": "2026-08-31",
   "next_id": 971,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788150453.288633,
+      "ts": 1788172219.851151,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
