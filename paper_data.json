@@ -29578,7 +29578,7 @@
       "close_fair_odds": 1.5199,
       "clv_pct": null,
       "close_fair_p": 0.657941280509374,
-      "close_ts": 1788269749.337345,
+      "close_ts": 1788270379.274645,
       "close_provisional": true
     },
     {
@@ -29608,7 +29608,7 @@
       "close_fair_odds": 1.8832,
       "clv_pct": null,
       "close_fair_p": 0.5310190250020012,
-      "close_ts": 1788269749.337345,
+      "close_ts": 1788270379.274645,
       "close_provisional": true
     },
     {
@@ -29643,7 +29643,6 @@
     }
   ],
   "papered": {
-    "memphisgrizzlies|houstonrockets|ou:187.5:under|20260718": 1784382016.279222,
     "orlandomagic|bostonceltics|ou:187.5:over|20260718": 1784386187.701129,
     "thorakureyri|vikingurreykjavik|ou:4.5:under|20260718": 1784388437.735543,
     "milwaukeebucks|philadelphia76ers|ml:home|20260718": 1784389247.746498,
@@ -30409,18 +30408,22 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788269749.337345,
-      "ok": true,
-      "vegas_events": 1666,
-      "ref_events": 1180,
+      "ts": 1788270379.274645,
+      "ok": false,
+      "vegas_events": 433,
+      "ref_events": 314,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
-    "last_alert_ts": 1788247042.7537055,
-    "alert_active": false
+    "last_alert_ts": 1788270203.6334674,
+    "alert_active": true
   }
 }
