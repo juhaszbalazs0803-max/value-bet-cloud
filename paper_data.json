@@ -28960,11 +28960,11 @@
       "fair_pct": 55.9,
       "start": "2026-08-29T18:30:00+00:00",
       "start_ts": 1788028200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1788294750.3370152,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7902,
       "clv_pct": null,
@@ -28990,11 +28990,11 @@
       "fair_pct": 67.5,
       "start": "2026-08-29T20:00:00+00:00",
       "start_ts": 1788033600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1788294750.3370152,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.4807,
       "clv_pct": null,
@@ -29605,10 +29605,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8832,
+      "close_fair_odds": 1.8934,
       "clv_pct": null,
-      "close_fair_p": 0.5310190250020012,
-      "close_ts": 1788271009.273053,
+      "close_fair_p": 0.5281630040537657,
+      "close_ts": 1788294743.767443,
       "close_provisional": true
     },
     {
@@ -29643,8 +29643,6 @@
     }
   ],
   "papered": {
-    "orlandomagic|bostonceltics|ou:185.5:over|20260718": 1784403737.307894,
-    "atlantadreamn|chicagoskyn|ah:-9.5:home|20260719": 1784406487.764484,
     "milwaukeebucks|philadelphia76ers|ah:-6.5:away|20260718": 1784407747.747245,
     "canterburyrams|aucklandtuatara|ah:-1.5:away|20260719": 1784415577.226422,
     "canterburyrams|aucklandtuatara|ml:away|20260719": 1784416477.235677,
@@ -30405,23 +30403,15 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788287249.414965,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1788294743.767443,
+      "ok": true,
+      "vegas_events": 1684,
+      "ref_events": 1105,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1788270203.6334674,
