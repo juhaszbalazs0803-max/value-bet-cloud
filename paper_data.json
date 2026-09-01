@@ -29523,8 +29523,6 @@
     }
   ],
   "papered": {
-    "federicocina|danielmichalski|ml:home|20260718": 1784352181.687811,
-    "sandrokopp|pierrehuguesherbert|ml:home|20260718": 1784352181.687811,
     "indianafevern|newyorklibertyn|ml:away|20260719": 1784360750.498315,
     "indianafevern|newyorklibertyn|ah:1.0:away|20260719": 1784360750.498315,
     "goldenstatevalkyriesn|washingtonmysticsn|ou:147.5:over|20260719": 1784362100.548912,
@@ -30293,7 +30291,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788229790.140218,
+      "ts": 1788246861.959392,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
