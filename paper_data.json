@@ -30475,12 +30475,12 @@
     "shandongheroes|liaoningflyingleopards|ah:-4.5:home|20260903": 1788361408.403374,
     "shandongheroes|liaoningflyingleopards|ah:-9.5:away|20260903": 1788376244.843267
   },
-  "last_report_date": "2026-09-02",
+  "last_report_date": "2026-09-03",
   "next_id": 981,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788424735.866688,
+      "ts": 1788438912.716105,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
