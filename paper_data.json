@@ -29761,7 +29761,7 @@
       "close_fair_odds": 1.7523,
       "clv_pct": null,
       "close_fair_p": 0.5706783838816847,
-      "close_ts": 1788466173.524965,
+      "close_ts": 1788466803.524499,
       "close_provisional": true
     },
     {
@@ -29826,7 +29826,6 @@
     }
   ],
   "papered": {
-    "seattlestormn|minnesotalynxn|ou:173.5:over|20260721": 1784578489.302232,
     "csdeportivosayago|castockolmo|ah:-3.5:away|20260721": 1784583969.234729,
     "meralcobolts|blackwaterbossing|ou:209.5:over|20260721": 1784622439.476865,
     "barnettamurraysharans|bartunkovanikolasalkovadominika|ml:away|20260721": 1784639484.77866,
@@ -30567,15 +30566,20 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788466173.524965,
-      "ok": true,
-      "vegas_events": 1770,
-      "ref_events": 1214,
+      "ts": 1788466803.524499,
+      "ok": false,
+      "vegas_events": 1478,
+      "ref_events": 1092,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 2 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0; [70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1788439093.4437928,
