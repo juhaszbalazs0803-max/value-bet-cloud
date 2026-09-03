@@ -29736,7 +29736,6 @@
     }
   ],
   "papered": {
-    "seattlestormn|minnesotalynxn|ah:10.5:home|20260721": 1784562800.939485,
     "dallaswingsn|newyorklibertyn|ml:away|20260721": 1784570376.397294,
     "goldenstatevalkyriesn|washingtonmysticsn|ou:145.5:over|20260721": 1784570376.397294,
     "dallaswingsn|newyorklibertyn|ah:4.5:away|20260721": 1784570466.44941,
@@ -30480,7 +30479,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788442062.705801,
+      "ts": 1788454513.29957,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
