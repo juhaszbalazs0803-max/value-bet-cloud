@@ -29733,6 +29733,36 @@
       "close_fair_p": 0.5872304078582106,
       "close_ts": 1788376604.85738,
       "close_provisional": true
+    },
+    {
+      "id": 981,
+      "ts": 1788457123.257707,
+      "key": "67:17591603:ou:159.5:over",
+      "content_key": "shandongheroes|fujiansturgeons|ou:159.5:over|20260904",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:159.5:over",
+      "event": "Shandong Heroes - Fujian Sturgeons",
+      "market": "ou",
+      "market_name": "O/U 159.5",
+      "tip": "Több mint 159.5",
+      "odds": 1.833,
+      "stake": 1400,
+      "value_pct": 4.63,
+      "fair_pct": 57.1,
+      "start": "2026-09-04T03:00:00+00:00",
+      "start_ts": 1788490800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7523,
+      "clv_pct": null,
+      "close_fair_p": 0.5706783838816847,
+      "close_ts": 1788457573.282081,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -30472,33 +30502,30 @@
     "urupandepando|montevideobasket|ah:1.5:home|20260902": 1788267859.275364,
     "clubatleticocordonwomen|clubatleticoyalen|ou:120.5:over|20260902": 1788361048.331359,
     "shandongheroes|liaoningflyingleopards|ah:-4.5:home|20260903": 1788361408.403374,
-    "shandongheroes|liaoningflyingleopards|ah:-9.5:away|20260903": 1788376244.843267
+    "shandongheroes|liaoningflyingleopards|ah:-9.5:away|20260903": 1788376244.843267,
+    "shandongheroes|fujiansturgeons|ou:159.5:over|20260904": 1788457123.257707
   },
   "last_report_date": "2026-09-03",
-  "next_id": 981,
+  "next_id": 982,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788457033.299054,
+      "ts": 1788457663.258093,
       "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "vegas_events": 1654,
+      "ref_events": 1187,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0)"
       ],
       "settle_err": null
     },
     "last_alert_ts": 1788439093.4437928,
-    "alert_active": true
+    "alert_active": false
   }
 }
