@@ -29826,13 +29826,6 @@
     }
   ],
   "papered": {
-    "barnettamurraysharans|bartunkovanikolasalkovadominika|ml:away|20260721": 1784639484.77866,
-    "gonzalezsreyesvarelama|ferreirasilvafpereirat|ml:home|20260721": 1784640024.773671,
-    "martosgornesswalkows|jecanapavelb|ml:home|20260721": 1784640024.773671,
-    "frantzenchaaser|nouzapoberleitnern|ml:away|20260721": 1784641104.774737,
-    "ariasbzeballosf|azkaraardaerelyanki|ml:away|20260722": 1784641734.775203,
-    "orlandopirates|alittihadclub|ml:away|20260721": 1784642834.033739,
-    "whai|otagonuggets|ml:home|20260722": 1784643104.287148,
     "jakupovicdradisicn|cavallereimersysaldenl|ml:home|20260722": 1784648589.459571,
     "adrianoetzbach|pieterdelange|ml:home|20260722": 1784649939.271375,
     "justinschlageter|patrickzahraj|ml:away|20260722": 1784650029.247518,
@@ -30564,7 +30557,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788521223.171233,
+      "ts": 1788533200.333733,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
