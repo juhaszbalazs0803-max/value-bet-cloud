@@ -29826,8 +29826,6 @@
     }
   ],
   "papered": {
-    "dilettacherubini|violaturini|ml:home|20260722": 1784661451.400493,
-    "janhrazdil|tomaslanik|ml:away|20260722": 1784662621.421684,
     "clementlemire|conorgannon|ml:away|20260722": 1784689448.727529,
     "novaiguacu|americarj|ml:home|20260722": 1784700254.93076,
     "georgiapedone|dariaegorova|ml:home|20260722": 1784700884.893699,
@@ -30549,21 +30547,21 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788548233.730163,
+      "ts": 1788556418.408619,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0",
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0",
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
+        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)",
         "MINDEN sport lekérése elhasalt (?)"
       ],
       "settle_err": null
