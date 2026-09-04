@@ -29539,11 +29539,11 @@
       "fair_pct": 64.5,
       "start": "2026-09-01T18:00:00+00:00",
       "start_ts": 1788285600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1788545084.4332683,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.5505,
       "clv_pct": null,
@@ -29826,14 +29826,6 @@
     }
   ],
   "papered": {
-    "jakupovicdradisicn|cavallereimersysaldenl|ml:home|20260722": 1784648589.459571,
-    "adrianoetzbach|pieterdelange|ml:home|20260722": 1784649939.271375,
-    "justinschlageter|patrickzahraj|ml:away|20260722": 1784650029.247518,
-    "yizhou|lukapavlovic|ml:home|20260722": 1784650569.316985,
-    "annasiskova|anetakucmova|ml:home|20260722": 1784654139.790208,
-    "florentbax|paulinchauspe|ml:away|20260722": 1784654859.799531,
-    "akirasantillan|mertalkaya|ml:away|20260722": 1784655489.801484,
-    "albacete|alkholood|ml:home|20260721": 1784656389.79132,
     "dilettacherubini|violaturini|ml:home|20260722": 1784661451.400493,
     "janhrazdil|tomaslanik|ml:away|20260722": 1784662621.421684,
     "clementlemire|conorgannon|ml:away|20260722": 1784689448.727529,
@@ -30557,7 +30549,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788536353.294716,
+      "ts": 1788545083.72663,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
