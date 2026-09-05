@@ -29881,7 +29881,7 @@
       "close_fair_odds": 1.8847,
       "clv_pct": null,
       "close_fair_p": 0.5305777001201267,
-      "close_ts": 1788628083.336404,
+      "close_ts": 1788628713.331968,
       "close_provisional": true
     },
     {
@@ -29971,7 +29971,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": null,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1788628083.336404,
+      "close_ts": 1788628713.331968,
       "close_provisional": true
     },
     {
@@ -30336,8 +30336,6 @@
     }
   ],
   "papered": {
-    "haroldmayot|mikabrunold|ml:home|20260723": 1784740527.508992,
-    "lachlanmcfadzean|danieljovanovski|ml:away|20260723": 1784740527.508992,
     "alejandromorocanas|ivanmarrerocurbelo|ml:home|20260723": 1784742147.445083,
     "portuguesa|americano|ml:home|20260723": 1784754856.460236,
     "augustholmgren|liamdraxl|ml:away|20260723": 1784757008.193055,
@@ -31059,10 +31057,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788628083.336404,
+      "ts": 1788628713.331968,
       "ok": true,
-      "vegas_events": 1661,
-      "ref_events": 1167,
+      "vegas_events": 1666,
+      "ref_events": 1166,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
