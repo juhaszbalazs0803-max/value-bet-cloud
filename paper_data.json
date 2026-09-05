@@ -29851,7 +29851,7 @@
       "close_fair_odds": 1.8803,
       "clv_pct": null,
       "close_fair_p": 0.5318278995189739,
-      "close_ts": 1788609412.842699,
+      "close_ts": 1788610132.81723,
       "close_provisional": true
     },
     {
@@ -29881,7 +29881,7 @@
       "close_fair_odds": 1.8927,
       "clv_pct": null,
       "close_fair_p": 0.5283535825976254,
-      "close_ts": 1788609412.842699,
+      "close_ts": 1788610132.81723,
       "close_provisional": true
     },
     {
@@ -29911,7 +29911,7 @@
       "close_fair_odds": 1.7414,
       "clv_pct": null,
       "close_fair_p": 0.5742641163313973,
-      "close_ts": 1788609412.842699,
+      "close_ts": 1788610132.81723,
       "close_provisional": true
     },
     {
@@ -29941,7 +29941,7 @@
       "close_fair_odds": 1.9416,
       "clv_pct": null,
       "close_fair_p": 0.515045002835095,
-      "close_ts": 1788609412.842699,
+      "close_ts": 1788610132.81723,
       "close_provisional": true
     },
     {
@@ -29971,7 +29971,7 @@
       "close_fair_odds": 1.8903,
       "clv_pct": null,
       "close_fair_p": 0.5290199039861913,
-      "close_ts": 1788609412.842699,
+      "close_ts": 1788610132.81723,
       "close_provisional": true
     },
     {
@@ -30001,7 +30001,7 @@
       "close_fair_odds": 1.5632,
       "clv_pct": null,
       "close_fair_p": 0.6397081851684723,
-      "close_ts": 1788609412.842699,
+      "close_ts": 1788610132.81723,
       "close_provisional": true
     },
     {
@@ -30028,10 +30028,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7649,
-      "clv_pct": 4.82,
-      "close_fair_p": 0.5666022399322195,
-      "close_ts": 1788609412.842699,
+      "close_fair_odds": 1.7541,
+      "clv_pct": 5.47,
+      "close_fair_p": 0.5700863047322442,
+      "close_ts": 1788609592.825048,
       "close_provisional": false
     },
     {
@@ -30061,7 +30061,7 @@
       "close_fair_odds": 1.8149,
       "clv_pct": null,
       "close_fair_p": 0.5510088323474597,
-      "close_ts": 1788609412.842699,
+      "close_ts": 1788610132.81723,
       "close_provisional": true
     },
     {
@@ -30118,10 +30118,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.1929,
+      "close_fair_odds": 2.3994,
       "clv_pct": null,
-      "close_fair_p": 0.4560069284689708,
-      "close_ts": 1788609502.919081,
+      "close_fair_p": 0.4167776298268975,
+      "close_ts": 1788610132.81723,
       "close_provisional": true
     },
     {
@@ -30148,10 +30148,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9378,
+      "close_fair_odds": 2.078,
       "clv_pct": null,
-      "close_fair_p": 0.5160437283607318,
-      "close_ts": 1788609502.919081,
+      "close_fair_p": 0.48123788991076066,
+      "close_ts": 1788610132.81723,
       "close_provisional": true
     },
     {
@@ -30183,6 +30183,36 @@
       "close_fair_p": 0.5944831959416614,
       "close_ts": 1788609232.838915,
       "close_provisional": false
+    },
+    {
+      "id": 996,
+      "ts": 1788609592.825048,
+      "key": "66:17602124:ou:3.5:under",
+      "content_key": "uniontarija|ciudadnuevasantacruz|ou:3.5:under|20260905",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "Union Tarija - Ciudad Nueva Santa Cruz",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.667,
+      "stake": 1800,
+      "value_pct": 4.8,
+      "fair_pct": 62.9,
+      "start": "2026-09-05T19:30:00+00:00",
+      "start_ts": 1788636600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5904,
+      "clv_pct": null,
+      "close_fair_p": 0.6287855456318653,
+      "close_ts": 1788610132.81723,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -30902,26 +30932,23 @@
     "krka|kkdinamozagreb|ou:159.5:under|20260905": 1788608242.880533,
     "bcsiauliai|riga|ml:away|20260905": 1788608602.830743,
     "bcsiauliai|riga|ah:-2.5:away|20260905": 1788608602.830743,
-    "qingdaoeagles|shandongheroes|ml:home|20260905": 1788608782.912953
+    "qingdaoeagles|shandongheroes|ml:home|20260905": 1788608782.912953,
+    "uniontarija|ciudadnuevasantacruz|ou:3.5:under|20260905": 1788609592.825048
   },
   "last_report_date": "2026-09-05",
-  "next_id": 996,
+  "next_id": 997,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788609502.919081,
-      "ok": false,
-      "vegas_events": 298,
-      "ref_events": 162,
+      "ts": 1788610132.81723,
+      "ok": true,
+      "vegas_events": 1885,
+      "ref_events": 1623,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1788608524.1249561,
