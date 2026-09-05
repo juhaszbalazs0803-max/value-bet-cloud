@@ -29851,7 +29851,7 @@
       "close_fair_odds": 1.8803,
       "clv_pct": null,
       "close_fair_p": 0.5318278995189739,
-      "close_ts": 1788595593.852195,
+      "close_ts": 1788596152.277451,
       "close_provisional": true
     },
     {
@@ -29881,7 +29881,7 @@
       "close_fair_odds": 1.7796,
       "clv_pct": null,
       "close_fair_p": 0.5619384093248394,
-      "close_ts": 1788595593.852195,
+      "close_ts": 1788596152.277451,
       "close_provisional": true
     },
     {
@@ -29911,7 +29911,7 @@
       "close_fair_odds": 1.7414,
       "clv_pct": null,
       "close_fair_p": 0.5742641163313973,
-      "close_ts": 1788595593.852195,
+      "close_ts": 1788596152.277451,
       "close_provisional": true
     },
     {
@@ -29941,7 +29941,7 @@
       "close_fair_odds": 1.9486,
       "clv_pct": null,
       "close_fair_p": 0.5131885011360293,
-      "close_ts": 1788595593.852195,
+      "close_ts": 1788596152.277451,
       "close_provisional": true
     },
     {
@@ -29971,7 +29971,7 @@
       "close_fair_odds": 1.747,
       "clv_pct": null,
       "close_fair_p": 0.572412879289784,
-      "close_ts": 1788595593.852195,
+      "close_ts": 1788596152.277451,
       "close_provisional": true
     },
     {
@@ -30001,7 +30001,7 @@
       "close_fair_odds": 1.5731,
       "clv_pct": null,
       "close_fair_p": 0.6356837315503102,
-      "close_ts": 1788595593.852195,
+      "close_ts": 1788596152.277451,
       "close_provisional": true
     },
     {
@@ -30031,7 +30031,7 @@
       "close_fair_odds": 1.7872,
       "clv_pct": null,
       "close_fair_p": 0.5595416577425573,
-      "close_ts": 1788595593.852195,
+      "close_ts": 1788596152.277451,
       "close_provisional": true
     }
   ],
@@ -30759,10 +30759,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788595593.852195,
+      "ts": 1788596152.277451,
       "ok": true,
-      "vegas_events": 2013,
-      "ref_events": 1664,
+      "vegas_events": 2011,
+      "ref_events": 1668,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
