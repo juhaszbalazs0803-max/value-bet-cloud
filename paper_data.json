@@ -29971,7 +29971,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": null,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1788631233.335633,
+      "close_ts": 1788638106.866395,
       "close_provisional": true
     },
     {
@@ -30358,10 +30358,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6417,
+      "close_fair_odds": 1.6993,
       "clv_pct": null,
-      "close_fair_p": 0.609123553664051,
-      "close_ts": 1788631233.335633,
+      "close_fair_p": 0.588469184890656,
+      "close_ts": 1788638106.866395,
       "close_provisional": true
     },
     {
@@ -30478,10 +30478,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4642,
+      "close_fair_odds": 1.584,
       "clv_pct": null,
-      "close_fair_p": 0.6829865361077111,
-      "close_ts": 1788631233.335633,
+      "close_fair_p": 0.6313263070019827,
+      "close_ts": 1788638106.866395,
       "close_provisional": true
     },
     {
@@ -30513,6 +30513,36 @@
       "close_fair_p": 0.540931365985593,
       "close_ts": 1788631143.309269,
       "close_provisional": false
+    },
+    {
+      "id": 1007,
+      "ts": 1788638106.866395,
+      "key": "67:16461895:ah:26.5:home",
+      "content_key": "puertoricon|belgiumn|ah:26.5:home|20260906",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:26.5:home",
+      "event": "Puerto Rico (N) - Belgium (N)",
+      "market": "ah",
+      "market_name": "Hendikep +26.5",
+      "tip": "Hendikep Puerto Rico (N) (+26.5)",
+      "odds": 1.833,
+      "stake": 1100,
+      "value_pct": 3.73,
+      "fair_pct": 56.6,
+      "start": "2026-09-06T15:45:00+00:00",
+      "start_ts": 1788709500.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7675,
+      "clv_pct": null,
+      "close_fair_p": 0.5657560438984782,
+      "close_ts": 1788638106.866395,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -31235,17 +31265,18 @@
     "malaga|caja87baloncesto|ou:164.5:under|20260905": 1788630693.339031,
     "sagaballooners|altirichiba|ah:-5.5:home|20260906": 1788630693.339031,
     "nottinghamhoods|derbytrailblazers|ml:home|20260906": 1788630873.3617,
-    "borac|graficar|ou:2.5:over|20260905": 1788631053.349212
+    "borac|graficar|ou:2.5:over|20260905": 1788631053.349212,
+    "puertoricon|belgiumn|ah:26.5:home|20260906": 1788638106.866395
   },
   "last_report_date": "2026-09-05",
-  "next_id": 1007,
+  "next_id": 1008,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788631233.335633,
+      "ts": 1788638106.866395,
       "ok": true,
-      "vegas_events": 1620,
-      "ref_events": 1169,
+      "vegas_events": 1606,
+      "ref_events": 1066,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
