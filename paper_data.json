@@ -29851,7 +29851,7 @@
       "close_fair_odds": 1.8803,
       "clv_pct": null,
       "close_fair_p": 0.5318278995189739,
-      "close_ts": 1788594946.120411,
+      "close_ts": 1788595593.852195,
       "close_provisional": true
     },
     {
@@ -29881,7 +29881,7 @@
       "close_fair_odds": 1.7796,
       "clv_pct": null,
       "close_fair_p": 0.5619384093248394,
-      "close_ts": 1788594946.120411,
+      "close_ts": 1788595593.852195,
       "close_provisional": true
     },
     {
@@ -29911,7 +29911,7 @@
       "close_fair_odds": 1.7414,
       "clv_pct": null,
       "close_fair_p": 0.5742641163313973,
-      "close_ts": 1788594946.120411,
+      "close_ts": 1788595593.852195,
       "close_provisional": true
     },
     {
@@ -29941,7 +29941,7 @@
       "close_fair_odds": 1.9486,
       "clv_pct": null,
       "close_fair_p": 0.5131885011360293,
-      "close_ts": 1788594946.120411,
+      "close_ts": 1788595593.852195,
       "close_provisional": true
     },
     {
@@ -29971,7 +29971,7 @@
       "close_fair_odds": 1.747,
       "clv_pct": null,
       "close_fair_p": 0.572412879289784,
-      "close_ts": 1788594946.120411,
+      "close_ts": 1788595593.852195,
       "close_provisional": true
     },
     {
@@ -30001,7 +30001,37 @@
       "close_fair_odds": 1.5731,
       "clv_pct": null,
       "close_fair_p": 0.6356837315503102,
-      "close_ts": 1788594946.120411,
+      "close_ts": 1788595593.852195,
+      "close_provisional": true
+    },
+    {
+      "id": 990,
+      "ts": 1788595593.852195,
+      "key": "66:17519836:ou:3.5:over",
+      "content_key": "ufvthalgau|anif|ou:3.5:over|20260905",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "UFV Thalgau - Anif",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.85,
+      "stake": 1000,
+      "value_pct": 3.52,
+      "fair_pct": 56.0,
+      "start": "2026-09-05T12:00:00+00:00",
+      "start_ts": 1788609600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7872,
+      "clv_pct": null,
+      "close_fair_p": 0.5595416577425573,
+      "close_ts": 1788595593.852195,
       "close_provisional": true
     }
   ],
@@ -30721,17 +30751,18 @@
     "elchen|rcdespanyolbn|ml:home|20260905": 1788593047.930886,
     "redlionsfc|masters|ml:home|20260905": 1788593047.930886,
     "corpuschristifc|forwardmadisonfc|ou:2.5:over|20260906": 1788593047.930886,
-    "universityofwesterncapen|richmondn|ml:home|20260905": 1788593137.958081
+    "universityofwesterncapen|richmondn|ml:home|20260905": 1788593137.958081,
+    "ufvthalgau|anif|ou:3.5:over|20260905": 1788595593.852195
   },
   "last_report_date": "2026-09-04",
-  "next_id": 990,
+  "next_id": 991,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788594946.120411,
+      "ts": 1788595593.852195,
       "ok": true,
-      "vegas_events": 2029,
-      "ref_events": 1683,
+      "vegas_events": 2013,
+      "ref_events": 1664,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
