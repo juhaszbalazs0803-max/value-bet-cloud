@@ -30906,6 +30906,36 @@
       "close_fair_p": 0.562423727914257,
       "close_ts": 1788707832.339878,
       "close_provisional": true
+    },
+    {
+      "id": 1020,
+      "ts": 1788726907.891752,
+      "key": "66:17588824:ou:3.5:under",
+      "content_key": "ponce|sanjuanlalagunafc|ou:3.5:under|20260907",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "Ponce - San Juan La Laguna FC",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.95,
+      "stake": 1000,
+      "value_pct": 3.62,
+      "fair_pct": 53.1,
+      "start": "2026-09-07T00:30:00+00:00",
+      "start_ts": 1788741000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8819,
+      "clv_pct": null,
+      "close_fair_p": 0.531370211843745,
+      "close_ts": 1788727266.91492,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -31619,26 +31649,23 @@
     "adlermannheim|skelleftea|ml:away|20260906": 1788698677.956928,
     "basketbrno|mbkhandlova|ah:-10.5:away|20260906": 1788706482.323598,
     "antofagasta|recoleta|ml:home|20260906": 1788707382.399142,
-    "manresa|forcalleidace|ah:-1.5:home|20260906": 1788707652.393782
+    "manresa|forcalleidace|ah:-1.5:home|20260906": 1788707652.393782,
+    "ponce|sanjuanlalagunafc|ou:3.5:under|20260907": 1788726907.891752
   },
   "last_report_date": "2026-09-06",
-  "next_id": 1020,
+  "next_id": 1021,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788726636.908071,
-      "ok": false,
-      "vegas_events": 1197,
-      "ref_events": 848,
+      "ts": 1788727266.91492,
+      "ok": true,
+      "vegas_events": 1289,
+      "ref_events": 871,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1788716778.7907526,
