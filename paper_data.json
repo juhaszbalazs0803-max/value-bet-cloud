@@ -30481,7 +30481,7 @@
       "close_fair_odds": 1.5832,
       "clv_pct": null,
       "close_fair_p": 0.6316327835315176,
-      "close_ts": 1788683390.732571,
+      "close_ts": 1788695797.963779,
       "close_provisional": true
     },
     {
@@ -30598,10 +30598,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9197,
+      "close_fair_odds": 1.7086,
       "clv_pct": null,
-      "close_fair_p": 0.5209138988943643,
-      "close_ts": 1788683390.732571,
+      "close_fair_p": 0.5852865863384684,
+      "close_ts": 1788695797.963779,
       "close_provisional": true
     },
     {
@@ -30622,11 +30622,14 @@
       "fair_pct": 52.4,
       "start": "2026-09-06T08:10:00+00:00",
       "start_ts": 1788682200.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "lost",
+      "settled_ts": 1788695807.5523028,
       "source": "auto",
-      "final_score": null,
-      "settle_source": null,
+      "final_score": [
+        1,
+        0
+      ],
+      "settle_source": "tennisexplorer",
       "needs_manual": false,
       "close_fair_odds": 1.9077,
       "clv_pct": 4.84,
@@ -30666,9 +30669,6 @@
     }
   ],
   "papered": {
-    "darthlumsdenm|bartunkovanikolasalkovadominika|ml:home|20260723": 1784802835.476745,
-    "augustholmgren|liamdraxl|ml:home|20260723": 1784804386.907867,
-    "francescacurmi|martinatrevisan|ml:away|20260723": 1784804836.923588,
     "gauthieronclin|tomgentzsch|ml:away|20260724": 1784810092.537696,
     "moeranibouzige|matthulme|ml:home|20260724": 1784810452.539422,
     "yayiyang|chiayitsao|ml:away|20260724": 1784810812.57751,
@@ -31384,15 +31384,15 @@
     "maximejanvier|thomasfancutt|ml:away|20260906": 1788681410.727269,
     "wanchaisports|wingyeeft|ml:home|20260906": 1788682670.730358
   },
-  "last_report_date": "2026-09-05",
+  "last_report_date": "2026-09-06",
   "next_id": 1012,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788683390.732571,
+      "ts": 1788695797.963779,
       "ok": true,
-      "vegas_events": 1590,
-      "ref_events": 1359,
+      "vegas_events": 1534,
+      "ref_events": 1274,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
