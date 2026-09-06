@@ -30481,7 +30481,7 @@
       "close_fair_odds": 1.584,
       "clv_pct": null,
       "close_fair_p": 0.6313263070019827,
-      "close_ts": 1788680870.725275,
+      "close_ts": 1788681500.783595,
       "close_provisional": true
     },
     {
@@ -30601,8 +30601,38 @@
       "close_fair_odds": 1.8518,
       "clv_pct": null,
       "close_fair_p": 0.5400086229493638,
-      "close_ts": 1788680870.725275,
+      "close_ts": 1788681500.783595,
       "close_provisional": true
+    },
+    {
+      "id": 1010,
+      "ts": 1788681410.727269,
+      "key": "68:17614889:ml:away",
+      "content_key": "maximejanvier|thomasfancutt|ml:away|20260906",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Maxime Janvier - Thomas Fancutt",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Thomas Fancutt",
+      "odds": 2.0,
+      "stake": 1200,
+      "value_pct": 4.84,
+      "fair_pct": 52.4,
+      "start": "2026-09-06T08:10:00+00:00",
+      "start_ts": 1788682200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9077,
+      "clv_pct": 4.84,
+      "close_fair_p": 0.52417952905231,
+      "close_ts": 1788681500.783595,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -31320,17 +31350,18 @@
     "borac|graficar|ou:2.5:over|20260905": 1788631053.349212,
     "puertoricon|belgiumn|ah:26.5:home|20260906": 1788638106.866395,
     "fctokushima|rvelhotakamatsu|ou:3.5:over|20260906": 1788639006.856814,
-    "atleticoclubpueblonuevo|cfjaraiz|ml:away|20260906": 1788680870.725275
+    "atleticoclubpueblonuevo|cfjaraiz|ml:away|20260906": 1788680870.725275,
+    "maximejanvier|thomasfancutt|ml:away|20260906": 1788681410.727269
   },
   "last_report_date": "2026-09-05",
-  "next_id": 1010,
+  "next_id": 1011,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788680870.725275,
+      "ts": 1788681500.783595,
       "ok": true,
-      "vegas_events": 1593,
-      "ref_events": 1365,
+      "vegas_events": 1597,
+      "ref_events": 1366,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
