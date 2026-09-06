@@ -30598,10 +30598,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6835,
+      "close_fair_odds": 1.6537,
       "clv_pct": null,
-      "close_fair_p": 0.5940038929641005,
-      "close_ts": 1788708372.388765,
+      "close_fair_p": 0.6047133110442563,
+      "close_ts": 1788709030.188883,
       "close_provisional": true
     },
     {
@@ -30694,7 +30694,7 @@
       "close_fair_odds": 1.7711,
       "clv_pct": null,
       "close_fair_p": 0.5646109038884063,
-      "close_ts": 1788708372.388765,
+      "close_ts": 1788709030.188883,
       "close_provisional": true
     },
     {
@@ -30871,10 +30871,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7837,
-      "clv_pct": -4.69,
-      "close_fair_p": 0.5606348176182264,
-      "close_ts": 1788708372.388765,
+      "close_fair_odds": 1.6944,
+      "clv_pct": 0.33,
+      "close_fair_p": 0.5901871245343667,
+      "close_ts": 1788708580.265012,
       "close_provisional": false
     },
     {
@@ -30909,7 +30909,6 @@
     }
   ],
   "papered": {
-    "abbagnatoatonam|mcadoorasheedanagyadrienn|ml:away|20260723": 1784820665.647055,
     "rionoguchi|charlesbroom|ml:home|20260724": 1784821385.668893,
     "michaelzheng|adamwalton|ml:home|20260724": 1784821385.668893,
     "lillitagger|sarabejlek|ml:away|20260724": 1784827735.291994,
@@ -31634,10 +31633,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788708372.388765,
+      "ts": 1788709030.188883,
       "ok": true,
-      "vegas_events": 1346,
-      "ref_events": 996,
+      "vegas_events": 1329,
+      "ref_events": 969,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
