@@ -30948,7 +30948,6 @@
     }
   ],
   "papered": {
-    "groningen|volendam|ml:home|20260724": 1784881428.777631,
     "jincheonhrfc|geojecitizen|ml:home|20260725": 1784883678.770622,
     "montrealalliance|ottawablackjacks|ml:away|20260724": 1784890914.549967,
     "deportivorecoletatar|sanlorenzoreserve|ml:home|20260724": 1784892084.534972,
@@ -31660,7 +31659,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788768959.7165,
+      "ts": 1788769589.703761,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
