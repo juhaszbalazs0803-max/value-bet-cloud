@@ -30948,7 +30948,6 @@
     }
   ],
   "papered": {
-    "charlesbroom|tobysamuel|ml:away|20260725": 1784931193.479817,
     "renatazarazua|carolinedolehide|ml:home|20260725": 1784931823.436851,
     "omiyaardijaventusn|bayernmnchenn|ml:away|20260725": 1784960130.952995,
     "nacao|hercilioluz|ml:away|20260725": 1784960130.952995,
@@ -31645,7 +31644,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788818704.174232,
+      "ts": 1788819334.129043,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
