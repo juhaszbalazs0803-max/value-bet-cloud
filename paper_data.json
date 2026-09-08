@@ -30202,11 +30202,11 @@
       "fair_pct": 62.9,
       "start": "2026-09-05T19:30:00+00:00",
       "start_ts": 1788636600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1788900162.017614,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.8087,
       "clv_pct": null,
@@ -30973,7 +30973,7 @@
       "close_fair_odds": 1.4785,
       "clv_pct": null,
       "close_fair_p": 0.6763690642783841,
-      "close_ts": 1788892651.277538,
+      "close_ts": 1788900154.918354,
       "close_provisional": true
     },
     {
@@ -31030,16 +31030,14 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7029,
+      "close_fair_odds": 1.8942,
       "clv_pct": null,
-      "close_fair_p": 0.5872304078582106,
-      "close_ts": 1788892651.277538,
+      "close_fair_p": 0.5279301405375905,
+      "close_ts": 1788900154.918354,
       "close_provisional": true
     }
   ],
   "papered": {
-    "miakupres|valeriasavinykh|ml:away|20260725": 1785004988.719351,
-    "nicolasmejia|alexhernandez|ml:home|20260726": 1785006928.229856,
     "barangayginebrasanmiguel|rainorshineelastopainters|ml:home|20260726": 1785022511.209214,
     "manuelmazza|nielsvisker|ml:away|20260726": 1785024636.106291,
     "ferroviario|goiatuba|ml:home|20260726": 1785034408.081491,
@@ -31710,10 +31708,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788892651.277538,
+      "ts": 1788900154.918354,
       "ok": true,
-      "vegas_events": 1682,
-      "ref_events": 1187,
+      "vegas_events": 1627,
+      "ref_events": 1128,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
