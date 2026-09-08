@@ -30948,7 +30948,6 @@
     }
   ],
   "papered": {
-    "fionaferro|luciabronzetti|ml:home|20260725": 1784971480.397299,
     "hpsn|tampereenilvesn|ml:home|20260725": 1784975768.815485,
     "leama|katieswan|ml:away|20260725": 1784975768.815485,
     "terrafirmadyip|tropanggiga|ml:away|20260725": 1784976488.8486,
@@ -31632,7 +31631,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788859059.174686,
+      "ts": 1788859689.229044,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
