@@ -30973,7 +30973,7 @@
       "close_fair_odds": 1.4785,
       "clv_pct": null,
       "close_fair_p": 0.6763690642783841,
-      "close_ts": 1788891481.303264,
+      "close_ts": 1788892651.277538,
       "close_provisional": true
     },
     {
@@ -31001,9 +31001,39 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.7716,
-      "clv_pct": null,
+      "clv_pct": 3.47,
       "close_fair_p": 0.564449305082375,
-      "close_ts": 1788892021.296238,
+      "close_ts": 1788892651.277538,
+      "close_provisional": false
+    },
+    {
+      "id": 1023,
+      "ts": 1788892561.326796,
+      "key": "67:17632198:ah:-5.5:away",
+      "content_key": "levangahokkaido|gunmacranethunders|ah:-5.5:away|20260909",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-5.5:away",
+      "event": "Levanga Hokkaido - Gunma Crane Thunders",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep Gunma Crane Thunders (+5.5)",
+      "odds": 1.8,
+      "stake": 1800,
+      "value_pct": 5.7,
+      "fair_pct": 58.7,
+      "start": "2026-09-09T11:00:00+00:00",
+      "start_ts": 1788951600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7029,
+      "clv_pct": null,
+      "close_fair_p": 0.5872304078582106,
+      "close_ts": 1788892651.277538,
       "close_provisional": true
     }
   ],
@@ -31672,26 +31702,23 @@
     "manresa|forcalleidace|ah:-1.5:home|20260906": 1788707652.393782,
     "ponce|sanjuanlalagunafc|ou:3.5:under|20260907": 1788726907.891752,
     "ingridvojcinakova|annahertel|ml:away|20260909": 1788891277.347531,
-    "peterhead|clachnacuddin|ml:home|20260908": 1788891841.308876
+    "peterhead|clachnacuddin|ml:home|20260908": 1788891841.308876,
+    "levangahokkaido|gunmacranethunders|ah:-5.5:away|20260909": 1788892561.326796
   },
   "last_report_date": "2026-09-08",
-  "next_id": 1023,
+  "next_id": 1024,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788892021.296238,
-      "ok": false,
-      "vegas_events": 1357,
-      "ref_events": 989,
+      "ts": 1788892651.277538,
+      "ok": true,
+      "vegas_events": 1682,
+      "ref_events": 1187,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1788873707.5057118,
