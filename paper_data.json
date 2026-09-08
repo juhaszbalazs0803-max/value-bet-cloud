@@ -30945,6 +30945,36 @@
       "close_fair_p": 0.531370211843745,
       "close_ts": 1788727896.964156,
       "close_provisional": true
+    },
+    {
+      "id": 1021,
+      "ts": 1788891277.347531,
+      "key": "68:17643760:ml:away",
+      "content_key": "ingridvojcinakova|annahertel|ml:away|20260909",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Ingrid Vojcinakova - Anna Hertel",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Anna Hertel",
+      "odds": 1.538,
+      "stake": 1900,
+      "value_pct": 4.06,
+      "fair_pct": 67.6,
+      "start": "2026-09-09T10:00:00+00:00",
+      "start_ts": 1788948000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4785,
+      "clv_pct": null,
+      "close_fair_p": 0.6763690642783841,
+      "close_ts": 1788891367.345313,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -31610,16 +31640,17 @@
     "basketbrno|mbkhandlova|ah:-10.5:away|20260906": 1788706482.323598,
     "antofagasta|recoleta|ml:home|20260906": 1788707382.399142,
     "manresa|forcalleidace|ah:-1.5:home|20260906": 1788707652.393782,
-    "ponce|sanjuanlalagunafc|ou:3.5:under|20260907": 1788726907.891752
+    "ponce|sanjuanlalagunafc|ou:3.5:under|20260907": 1788726907.891752,
+    "ingridvojcinakova|annahertel|ml:away|20260909": 1788891277.347531
   },
   "last_report_date": "2026-09-08",
-  "next_id": 1021,
+  "next_id": 1022,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788890737.34851,
+      "ts": 1788891367.345313,
       "ok": true,
-      "vegas_events": 1661,
+      "vegas_events": 1670,
       "ref_events": 1186,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
