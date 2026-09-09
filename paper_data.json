@@ -31093,10 +31093,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7089,
+      "close_fair_odds": 1.7702,
       "clv_pct": null,
-      "close_fair_p": 0.5851703406813628,
-      "close_ts": 1788976391.031043,
+      "close_fair_p": 0.5648953997513378,
+      "close_ts": 1788976931.072466,
       "close_provisional": true
     },
     {
@@ -31123,15 +31123,14 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6784,
+      "close_fair_odds": 1.9858,
       "clv_pct": null,
-      "close_fair_p": 0.5958130692492699,
-      "close_ts": 1788976391.031043,
+      "close_fair_p": 0.5035729080364539,
+      "close_ts": 1788977021.033082,
       "close_provisional": true
     }
   ],
   "papered": {
-    "ssafcba|fluminensedefeira|ml:away|20260726": 1785088786.40715,
     "gabiadrianboitan|gabrieldebru|ml:away|20260727": 1785099332.350966,
     "emmasiyudong|valeriasavinykh|ml:away|20260727": 1785099332.350966,
     "fuerzaregia|solesdemexicali|ml:away|20260726": 1785103569.853596,
@@ -31790,10 +31789,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788976391.031043,
+      "ts": 1788977021.033082,
       "ok": true,
-      "vegas_events": 1699,
-      "ref_events": 1145,
+      "vegas_events": 1685,
+      "ref_events": 1141,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
