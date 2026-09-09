@@ -31694,12 +31694,12 @@
     "peterhead|clachnacuddin|ml:home|20260908": 1788891841.308876,
     "levangahokkaido|gunmacranethunders|ah:-5.5:away|20260909": 1788892561.326796
   },
-  "last_report_date": "2026-09-08",
+  "last_report_date": "2026-09-09",
   "next_id": 1024,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1788944227.746784,
+      "ts": 1788944857.649499,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
@@ -31718,7 +31718,7 @@
       ],
       "settle_err": null
     },
-    "last_alert_ts": 1788923217.0825787,
+    "last_alert_ts": 1788944884.5762055,
     "alert_active": true
   }
 }
