@@ -31191,9 +31191,6 @@
     }
   ],
   "papered": {
-    "galatasaraysk|venezia|ml:home|20260727": 1785159437.403112,
-    "ergikirkin|paulinchauspe|ml:away|20260728": 1785159797.35595,
-    "leonesdeponce|aguadasanteros|ml:home|20260728": 1785162407.383229,
     "ngounoueclerviesmithalana|liatausonc|ml:away|20260727": 1785168919.628165,
     "cristinabucsa|polinakudermetova|ml:home|20260728": 1785171529.543831,
     "mariacarle|emmalene|ml:home|20260728": 1785183614.672204,
@@ -31840,7 +31837,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789039682.403909,
+      "ts": 1789051700.618552,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
