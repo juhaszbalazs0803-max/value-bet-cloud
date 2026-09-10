@@ -31191,7 +31191,6 @@
     }
   ],
   "papered": {
-    "realmadrid|cdleganes|ml:home|20260728": 1785191757.902852,
     "danesweeny|duncanchan|ml:home|20260728": 1785208226.103685,
     "jeremyzhang|haydenjones|ml:away|20260729": 1785218547.135651,
     "barrycharlesgenovanthony|seybothwildttorresjb|ml:home|20260729": 1785227385.592738,
@@ -31832,7 +31831,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789078549.332557,
+      "ts": 1789083740.340339,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
