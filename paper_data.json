@@ -31191,7 +31191,6 @@
     }
   ],
   "papered": {
-    "gabiadrianboitan|gabrieldebru|ml:home|20260727": 1785121824.010816,
     "katievolynets|viktorijagolubic|ml:home|20260727": 1785135353.916452,
     "bolellisvavassoria|cashrerlera|ml:home|20260727": 1785149628.867084,
     "makskasnikowski|fredericoferreirasilva|ml:home|20260728": 1785150618.8734,
@@ -31845,7 +31844,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789004530.669086,
+      "ts": 1789018522.243401,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
