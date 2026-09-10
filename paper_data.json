@@ -31191,8 +31191,6 @@
     }
   ],
   "papered": {
-    "ngounoueclerviesmithalana|liatausonc|ml:away|20260727": 1785168919.628165,
-    "cristinabucsa|polinakudermetova|ml:home|20260728": 1785171529.543831,
     "mariacarle|emmalene|ml:home|20260728": 1785183614.672204,
     "carmengallardoguevara|matildejorge|ml:away|20260728": 1785183614.672204,
     "throtturreykjavikn|vikingurreykjavikn|ml:home|20260728": 1785184784.693487,
@@ -31837,7 +31835,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789054850.635598,
+      "ts": 1789063469.918935,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
