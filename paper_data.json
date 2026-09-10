@@ -31191,7 +31191,6 @@
     }
   ],
   "papered": {
-    "makskasnikowski|fredericoferreirasilva|ml:home|20260728": 1785150618.8734,
     "yutakawahashi|samryanziegann|ml:home|20260728": 1785151428.943146,
     "galatasaraysk|venezia|ml:home|20260727": 1785159437.403112,
     "ergikirkin|paulinchauspe|ml:away|20260728": 1785159797.35595,
@@ -31842,7 +31841,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789038422.407694,
+      "ts": 1789039052.40285,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
