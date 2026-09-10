@@ -31191,9 +31191,6 @@
     }
   ],
   "papered": {
-    "mariacarle|emmalene|ml:home|20260728": 1785183614.672204,
-    "carmengallardoguevara|matildejorge|ml:away|20260728": 1785183614.672204,
-    "throtturreykjavikn|vikingurreykjavikn|ml:home|20260728": 1785184784.693487,
     "realmadrid|cdleganes|ml:home|20260728": 1785191757.902852,
     "danesweeny|duncanchan|ml:home|20260728": 1785208226.103685,
     "jeremyzhang|haydenjones|ml:away|20260729": 1785218547.135651,
@@ -31835,7 +31832,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789066619.92031,
+      "ts": 1789075391.378939,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
@@ -31843,8 +31840,8 @@
       "ref_down": {
         "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
         "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
