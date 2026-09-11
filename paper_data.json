@@ -31191,7 +31191,6 @@
     }
   ],
   "papered": {
-    "jeremyzhang|haydenjones|ml:away|20260729": 1785218547.135651,
     "barrycharlesgenovanthony|seybothwildttorresjb|ml:home|20260729": 1785227385.592738,
     "haukarn|iaakranesn|ml:home|20260728": 1785237307.476297,
     "yuhsiouhsu|michaelmmoh|ml:home|20260728": 1785237757.470602,
@@ -31830,7 +31829,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789098654.434626,
+      "ts": 1789113050.110574,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
