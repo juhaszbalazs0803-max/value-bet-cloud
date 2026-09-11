@@ -31191,14 +31191,6 @@
     }
   ],
   "papered": {
-    "fulham|alahlisaudifc|ml:home|20260728": 1785247238.486165,
-    "oxfordunited|crawleytown|ml:home|20260728": 1785247238.486165,
-    "polonahercog|laurapigossi|ml:home|20260729": 1785247238.486165,
-    "augustholmgren|hugogrenier|ml:home|20260728": 1785247418.479922,
-    "yassinesmiej|gilbertoravasio|ml:home|20260729": 1785249308.454719,
-    "rigafc|vardar|ml:home|20260728": 1785255398.581269,
-    "natsuhoarakawa|riannaalame|ml:away|20260729": 1785255675.512075,
-    "miedlerlucaspolmansmarc|andreozzigguinardm|ml:home|20260728": 1785256575.556446,
     "hayatomatsuoka|jameskenttrotter|ml:away|20260728": 1785257835.616581,
     "kyrgiosntiafoef|cabralftracyj|ml:away|20260728": 1785262360.920462,
     "ilkestontownfc|basfordunited|ml:home|20260728": 1785262900.908504,
@@ -31825,7 +31817,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789133306.331832,
+      "ts": 1789145653.213732,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
