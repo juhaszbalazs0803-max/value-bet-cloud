@@ -31306,7 +31306,7 @@
       "close_fair_odds": 1.9628,
       "clv_pct": null,
       "close_fair_p": 0.5094833224329627,
-      "close_ts": 1789233332.712597,
+      "close_ts": 1789233782.667807,
       "close_provisional": true
     },
     {
@@ -31393,10 +31393,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7013,
+      "close_fair_odds": 1.9449,
       "clv_pct": null,
-      "close_fair_p": 0.5877742946708464,
-      "close_ts": 1789233242.718718,
+      "close_fair_p": 0.5141766339171295,
+      "close_ts": 1789233962.665566,
       "close_provisional": true
     },
     {
@@ -31426,7 +31426,67 @@
       "close_fair_odds": 1.7594,
       "clv_pct": null,
       "close_fair_p": 0.5683654778579894,
-      "close_ts": 1789233332.712597,
+      "close_ts": 1789233422.770865,
+      "close_provisional": true
+    },
+    {
+      "id": 1037,
+      "ts": 1789233512.761105,
+      "key": "67:17688533:ml:away",
+      "content_key": "yokohamabcorsairs|dongbupromy|ml:away|20260913",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Yokohama B-Corsairs - Dongbu Promy",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Dongbu Promy",
+      "odds": 1.455,
+      "stake": 1700,
+      "value_pct": 3.07,
+      "fair_pct": 70.9,
+      "start": "2026-09-13T06:00:00+00:00",
+      "start_ts": 1789279200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4152,
+      "clv_pct": null,
+      "close_fair_p": 0.7066080511888048,
+      "close_ts": 1789233962.665566,
+      "close_provisional": true
+    },
+    {
+      "id": 1038,
+      "ts": 1789233512.761105,
+      "key": "67:17688533:ou:153.5:over",
+      "content_key": "yokohamabcorsairs|dongbupromy|ou:153.5:over|20260913",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:153.5:over",
+      "event": "Yokohama B-Corsairs - Dongbu Promy",
+      "market": "ou",
+      "market_name": "O/U 153.5",
+      "tip": "Több mint 153.5",
+      "odds": 1.833,
+      "stake": 1700,
+      "value_pct": 5.75,
+      "fair_pct": 57.7,
+      "start": "2026-09-13T06:00:00+00:00",
+      "start_ts": 1789279200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 2.0466,
+      "clv_pct": null,
+      "close_fair_p": 0.4886267672777793,
+      "close_ts": 1789233962.665566,
       "close_provisional": true
     }
   ],
@@ -32027,25 +32087,27 @@
     "dinamosassari|brindisi|ou:150.5:over|20260912": 1789232522.873519,
     "kkbosnaroyalsarajevo|turktelekom|ou:150.5:over|20260912": 1789232612.724472,
     "ayacucho|sporthuancayoreserve|ou:2.5:under|20260912": 1789232972.746675,
-    "yokohamabcorsairs|dongbupromy|ah:8.5:home|20260913": 1789233242.718718
+    "yokohamabcorsairs|dongbupromy|ah:8.5:home|20260913": 1789233242.718718,
+    "yokohamabcorsairs|dongbupromy|ml:away|20260913": 1789233512.761105,
+    "yokohamabcorsairs|dongbupromy|ou:153.5:over|20260913": 1789233512.761105
   },
   "last_report_date": "2026-09-12",
-  "next_id": 1037,
+  "next_id": 1039,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789233332.712597,
+      "ts": 1789233962.665566,
       "ok": false,
-      "vegas_events": 293,
-      "ref_events": 140,
+      "vegas_events": 1643,
+      "ref_events": 1242,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
       ],
       "settle_err": null
     },
