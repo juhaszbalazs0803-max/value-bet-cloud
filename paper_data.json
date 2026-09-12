@@ -31456,7 +31456,7 @@
       "close_fair_odds": 1.4211,
       "clv_pct": null,
       "close_fair_p": 0.7036874146431795,
-      "close_ts": 1789239997.328664,
+      "close_ts": 1789240627.324634,
       "close_provisional": true
     },
     {
@@ -31518,6 +31518,36 @@
       "close_fair_p": 0.5706737120211361,
       "close_ts": 1789239547.319499,
       "close_provisional": false
+    },
+    {
+      "id": 1040,
+      "ts": 1789240177.314577,
+      "key": "67:17616204:ml:away",
+      "content_key": "solgironesbisbal|cbbenicarlo|ml:away|20260913",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Sol Girones Bisbal - Cb Benicarlo",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Cb Benicarlo",
+      "odds": 1.952,
+      "stake": 1600,
+      "value_pct": 6.17,
+      "fair_pct": 54.4,
+      "start": "2026-09-13T16:10:00+00:00",
+      "start_ts": 1789315800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.839,
+      "clv_pct": null,
+      "close_fair_p": 0.5437715546971996,
+      "close_ts": 1789240627.324634,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -32118,17 +32148,18 @@
     "yokohamabcorsairs|dongbupromy|ah:8.5:home|20260913": 1789233242.718718,
     "yokohamabcorsairs|dongbupromy|ml:away|20260913": 1789233512.761105,
     "yokohamabcorsairs|dongbupromy|ou:153.5:over|20260913": 1789233512.761105,
-    "scaligerabasketverona|trento|ah:7.5:home|20260912": 1789239547.319499
+    "scaligerabasketverona|trento|ah:7.5:home|20260912": 1789239547.319499,
+    "solgironesbisbal|cbbenicarlo|ml:away|20260913": 1789240177.314577
   },
   "last_report_date": "2026-09-12",
-  "next_id": 1040,
+  "next_id": 1041,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789239997.328664,
+      "ts": 1789240627.324634,
       "ok": true,
-      "vegas_events": 1686,
-      "ref_events": 1147,
+      "vegas_events": 1696,
+      "ref_events": 1137,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
