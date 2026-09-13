@@ -31636,7 +31636,7 @@
       "close_fair_odds": 1.8149,
       "clv_pct": null,
       "close_fair_p": 0.5509983754850171,
-      "close_ts": 1789320323.271457,
+      "close_ts": 1789320953.369635,
       "close_provisional": true
     }
   ],
@@ -32220,19 +32220,15 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789320323.271457,
-      "ok": false,
-      "vegas_events": 1128,
-      "ref_events": 915,
+      "ts": 1789320953.369635,
+      "ok": true,
+      "vegas_events": 1330,
+      "ref_events": 948,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1789309157.7790132,
