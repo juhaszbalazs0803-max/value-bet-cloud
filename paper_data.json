@@ -31671,8 +31671,6 @@
     }
   ],
   "papered": {
-    "herediano|marathon|ml:home|20260731": 1785446571.994419,
-    "inglismjonese|arseneaultacrossk|ml:away|20260730": 1785448552.024827,
     "dunedincityroyalsfc|wanakaafc|ml:home|20260801": 1785465341.304654,
     "brunokuzuhara|jackanthrop|ml:home|20260731": 1785465341.304654,
     "murkelalejandrodellienvelasco|jackloge|ml:away|20260731": 1785465521.233599,
@@ -32247,7 +32245,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789333834.644606,
+      "ts": 1789339893.146687,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
