@@ -31636,7 +31636,7 @@
       "close_fair_odds": 1.7947,
       "clv_pct": -5.28,
       "close_fair_p": 0.5571951500465029,
-      "close_ts": 1789322213.275602,
+      "close_ts": 1789322393.278179,
       "close_provisional": false
     },
     {
@@ -31663,15 +31663,14 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7401,
+      "close_fair_odds": 1.7384,
       "clv_pct": null,
-      "close_fair_p": 0.5746671938842758,
-      "close_ts": 1789322213.275602,
+      "close_fair_p": 0.5752282442345243,
+      "close_ts": 1789322843.279244,
       "close_provisional": true
     }
   ],
   "papered": {
-    "azkaraardamackinlayjames|ozdemirsmturkermn|ml:home|20260730": 1785434218.786195,
     "vflwolfsburg|telstar|ml:home|20260731": 1785439295.146,
     "tomzeuch|niklasguttau|ml:home|20260731": 1785439745.117923,
     "elche|cordoba|ml:home|20260731": 1785445582.020327,
@@ -32251,10 +32250,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789322213.275602,
+      "ts": 1789322843.279244,
       "ok": true,
-      "vegas_events": 1338,
-      "ref_events": 952,
+      "vegas_events": 1314,
+      "ref_events": 914,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
