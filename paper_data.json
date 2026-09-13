@@ -31608,11 +31608,39 @@
       "close_fair_p": 0.5631514823338297,
       "close_ts": 1789309156.538568,
       "close_provisional": true
+    },
+    {
+      "id": 1043,
+      "ts": 1789319873.293961,
+      "key": "66:17695107:ml:home",
+      "content_key": "fcsantacruz|lajeadense|ml:home|20260913",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "FC Santa Cruz - Lajeadense",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — FC Santa Cruz",
+      "odds": 1.7,
+      "stake": 1800,
+      "value_pct": 5.04,
+      "fair_pct": 61.8,
+      "start": "2026-09-13T18:00:00+00:00",
+      "start_ts": 1789322400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8149,
+      "clv_pct": null,
+      "close_fair_p": 0.5509983754850171,
+      "close_ts": 1789320323.271457,
+      "close_provisional": true
     }
   ],
   "papered": {
-    "niksaarsic|lorenzocomino|ml:away|20260731": 1785432235.018598,
-    "orianagniewkowska|klarakajabova|ml:home|20260731": 1785432235.018598,
     "azkaraardamackinlayjames|ozdemirsmturkermn|ml:home|20260730": 1785434218.786195,
     "vflwolfsburg|telstar|ml:home|20260731": 1785439295.146,
     "tomzeuch|niklasguttau|ml:home|20260731": 1785439745.117923,
@@ -32184,22 +32212,27 @@
     "scaligerabasketverona|trento|ah:7.5:home|20260912": 1789239547.319499,
     "solgironesbisbal|cbbenicarlo|ml:away|20260913": 1789240177.314577,
     "mlpacademicsheidelberg|oldenburg|ah:9.5:home|20260913": 1789306726.511474,
-    "leonasdeponcewomen|monarcasdejuanadiaz|ah:-2.5:away|20260913": 1789306726.511474
+    "leonasdeponcewomen|monarcasdejuanadiaz|ah:-2.5:away|20260913": 1789306726.511474,
+    "fcsantacruz|lajeadense|ml:home|20260913": 1789319873.293961
   },
   "last_report_date": "2026-09-13",
-  "next_id": 1043,
+  "next_id": 1044,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789319693.29304,
-      "ok": true,
-      "vegas_events": 1330,
-      "ref_events": 957,
+      "ts": 1789320323.271457,
+      "ok": false,
+      "vegas_events": 1128,
+      "ref_events": 915,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1789309157.7790132,
