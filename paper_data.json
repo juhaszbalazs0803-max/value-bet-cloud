@@ -31731,10 +31731,6 @@
     }
   ],
   "papered": {
-    "adelaidevictory|salisburyunited|ml:home|20260801": 1785554421.930481,
-    "naomiosaka|alexandraeala|ml:home|20260801": 1785554421.930481,
-    "mayucrossley|pipercharney|ml:home|20260801": 1785554421.930481,
-    "brandonnakashima|taylorfritz|ml:away|20260801": 1785556311.899485,
     "forestgreenrovers|swindon|ml:home|20260801": 1785565599.57232,
     "magicunited|olympicfc|ml:away|20260802": 1785565599.57232,
     "clarencezebrasfc|ulverstonefc|ml:home|20260802": 1785565599.57232,
@@ -32276,7 +32272,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789434516.675747,
+      "ts": 1789451263.420269,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
