@@ -31731,7 +31731,6 @@
     }
   ],
   "papered": {
-    "vilanovan|cearan|ml:home|20260801": 1785602428.085876,
     "sanmartinformosa|soldeamerica|ml:home|20260802": 1785613057.680343,
     "realpotosi|sanjos|ml:home|20260802": 1785617865.101164,
     "kaitlinquevedo|laurasamson|ml:home|20260802": 1785625292.255412,
@@ -32259,7 +32258,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789490083.11844,
+      "ts": 1789490713.116761,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
