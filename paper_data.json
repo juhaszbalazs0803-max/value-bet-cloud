@@ -31756,7 +31756,7 @@
       "close_fair_odds": 1.8233,
       "clv_pct": null,
       "close_fair_p": 0.5484606009220497,
-      "close_ts": 1789504751.90967,
+      "close_ts": 1789505471.941499,
       "close_provisional": true
     },
     {
@@ -32381,22 +32381,24 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789504841.932972,
+      "ts": 1789505471.941499,
       "ok": false,
-      "vegas_events": 1558,
-      "ref_events": 1080,
+      "vegas_events": 138,
+      "ref_events": 48,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
+        "az ELSŐDLEGES fair-forrás kiesett 3 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
       ],
       "settle_err": null
     },
-    "last_alert_ts": 1789473070.0737953,
-    "alert_active": false
+    "last_alert_ts": 1789505025.8228173,
+    "alert_active": true
   }
 }
