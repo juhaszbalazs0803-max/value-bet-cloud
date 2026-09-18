@@ -32092,7 +32092,7 @@
       "close_fair_odds": 1.7089,
       "clv_pct": null,
       "close_fair_p": 0.5851703406813628,
-      "close_ts": 1789764263.180204,
+      "close_ts": 1789764893.130381,
       "close_provisional": true
     },
     {
@@ -32122,7 +32122,7 @@
       "close_fair_odds": 1.8297,
       "clv_pct": null,
       "close_fair_p": 0.5465350737557042,
-      "close_ts": 1789764263.180204,
+      "close_ts": 1789764893.130381,
       "close_provisional": true
     },
     {
@@ -32152,7 +32152,37 @@
       "close_fair_odds": 1.6126,
       "clv_pct": null,
       "close_fair_p": 0.6201139682639093,
-      "close_ts": 1789764263.180204,
+      "close_ts": 1789764893.130381,
+      "close_provisional": true
+    },
+    {
+      "id": 1061,
+      "ts": 1789764533.112163,
+      "key": "67:17244188:ah:2.5:home",
+      "content_key": "valencia|barcelona|ah:2.5:home|20260919",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:2.5:home",
+      "event": "Valencia - Barcelona",
+      "market": "ah",
+      "market_name": "Hendikep +2.5",
+      "tip": "Hendikep Valencia (+2.5)",
+      "odds": 1.889,
+      "stake": 1700,
+      "value_pct": 5.94,
+      "fair_pct": 56.1,
+      "start": "2026-09-19T19:00:00+00:00",
+      "start_ts": 1789844400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.783,
+      "clv_pct": null,
+      "close_fair_p": 0.5608407369552114,
+      "close_ts": 1789764893.130381,
       "close_provisional": true
     }
   ],
@@ -32641,17 +32671,18 @@
     "saintvallierbasketdrome|bcorchies|ah:-4.5:home|20260918": 1789674042.867896,
     "eneabasketpoznan|azspolitechnikaopolska|ah:-7.5:away|20260919": 1789763003.154072,
     "ganaderasdehatillo|cangrejerasdesanturce|ml:home|20260919": 1789763003.154072,
-    "fkcechievykan|kolin|ml:home|20260919": 1789763723.151338
+    "fkcechievykan|kolin|ml:home|20260919": 1789763723.151338,
+    "valencia|barcelona|ah:2.5:home|20260919": 1789764533.112163
   },
   "last_report_date": "2026-09-18",
-  "next_id": 1061,
+  "next_id": 1062,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789764263.180204,
+      "ts": 1789764893.130381,
       "ok": true,
-      "vegas_events": 1947,
-      "ref_events": 1379,
+      "vegas_events": 1961,
+      "ref_events": 1384,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
