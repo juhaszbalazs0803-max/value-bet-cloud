@@ -32067,7 +32067,6 @@
     }
   ],
   "papered": {
-    "paulsonavliegenj|prashanthnvsramanathanr|ml:home|20260805": 1785850466.591332,
     "bassfjansj|martosgornesswalkows|ml:away|20260805": 1785851481.690019,
     "valentinvacherot|marianonavone|ml:home|20260805": 1785857198.309018,
     "linaglushko|vaidehichaudhari|ml:home|20260805": 1785857198.309018,
@@ -32570,7 +32569,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789738390.646282,
+      "ts": 1789739020.691282,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
