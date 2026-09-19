@@ -32152,7 +32152,7 @@
       "close_fair_odds": 1.6194,
       "clv_pct": null,
       "close_fair_p": 0.6175289409299637,
-      "close_ts": 1789801262.414005,
+      "close_ts": 1789801896.742543,
       "close_provisional": true
     },
     {
@@ -32212,7 +32212,7 @@
       "close_fair_odds": 1.8347,
       "clv_pct": null,
       "close_fair_p": 0.5450542369240683,
-      "close_ts": 1789801262.414005,
+      "close_ts": 1789801896.742543,
       "close_provisional": true
     },
     {
@@ -32242,7 +32242,7 @@
       "close_fair_odds": 2.0709,
       "clv_pct": null,
       "close_fair_p": 0.482879367031087,
-      "close_ts": 1789801262.414005,
+      "close_ts": 1789801896.742543,
       "close_provisional": true
     },
     {
@@ -32272,7 +32272,7 @@
       "close_fair_odds": 1.862,
       "clv_pct": null,
       "close_fair_p": 0.5370627248688716,
-      "close_ts": 1789801262.414005,
+      "close_ts": 1789801896.742543,
       "close_provisional": true
     },
     {
@@ -32299,10 +32299,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7043,
+      "close_fair_odds": 1.739,
       "clv_pct": null,
-      "close_fair_p": 0.5867448993199093,
-      "close_ts": 1789801262.414005,
+      "close_fair_p": 0.5750523996345462,
+      "close_ts": 1789801806.788929,
       "close_provisional": true
     },
     {
@@ -32332,7 +32332,7 @@
       "close_fair_odds": 1.7577,
       "clv_pct": null,
       "close_fair_p": 0.5689171699741157,
-      "close_ts": 1789801262.414005,
+      "close_ts": 1789801896.742543,
       "close_provisional": true
     },
     {
@@ -32362,7 +32362,7 @@
       "close_fair_odds": 1.7889,
       "clv_pct": null,
       "close_fair_p": 0.5590111014880719,
-      "close_ts": 1789801262.414005,
+      "close_ts": 1789801896.742543,
       "close_provisional": true
     },
     {
@@ -32392,7 +32392,7 @@
       "close_fair_odds": 1.8901,
       "clv_pct": null,
       "close_fair_p": 0.5290710564238997,
-      "close_ts": 1789801262.414005,
+      "close_ts": 1789801896.742543,
       "close_provisional": true
     },
     {
@@ -32422,7 +32422,7 @@
       "close_fair_odds": 1.4912,
       "clv_pct": null,
       "close_fair_p": 0.6705845058401814,
-      "close_ts": 1789801262.414005,
+      "close_ts": 1789801896.742543,
       "close_provisional": true
     },
     {
@@ -32452,7 +32452,67 @@
       "close_fair_odds": 1.7702,
       "clv_pct": null,
       "close_fair_p": 0.5648953997513378,
-      "close_ts": 1789801262.414005,
+      "close_ts": 1789801896.742543,
+      "close_provisional": true
+    },
+    {
+      "id": 1071,
+      "ts": 1789801536.737461,
+      "key": "67:17698825:ml:away",
+      "content_key": "ogmormanspor|goztepesk|ml:away|20260919",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "OGM Ormanspor - Goztepe SK",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Goztepe SK",
+      "odds": 1.714,
+      "stake": 1700,
+      "value_pct": 4.97,
+      "fair_pct": 61.2,
+      "start": "2026-09-19T11:00:00+00:00",
+      "start_ts": 1789815600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9307,
+      "clv_pct": null,
+      "close_fair_p": 0.5179422904008065,
+      "close_ts": 1789801896.742543,
+      "close_provisional": true
+    },
+    {
+      "id": 1072,
+      "ts": 1789801536.737461,
+      "key": "67:17698825:ah:1.5:away",
+      "content_key": "ogmormanspor|goztepesk|ah:1.5:away|20260919",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:1.5:away",
+      "event": "OGM Ormanspor - Goztepe SK",
+      "market": "ah",
+      "market_name": "Hendikep -1.5",
+      "tip": "Hendikep Goztepe SK (-1.5)",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.41,
+      "fair_pct": 56.9,
+      "start": "2026-09-19T11:00:00+00:00",
+      "start_ts": 1789815600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 2.0267,
+      "clv_pct": null,
+      "close_fair_p": 0.4934174587566918,
+      "close_ts": 1789801896.742543,
       "close_provisional": true
     }
   ],
@@ -32948,17 +33008,19 @@
     "roanne|asvellyonvilleurbanne|ah:11.5:home|20260919": 1789801262.414005,
     "bristolhurricanes|gloucestercitykings|ml:away|20260919": 1789801262.414005,
     "astrosdejalisco|doradosdechihuahua|ml:home|20260920": 1789801262.414005,
-    "astrosdejalisco|doradosdechihuahua|ah:-3.5:home|20260920": 1789801262.414005
+    "astrosdejalisco|doradosdechihuahua|ah:-3.5:home|20260920": 1789801262.414005,
+    "ogmormanspor|goztepesk|ml:away|20260919": 1789801536.737461,
+    "ogmormanspor|goztepesk|ah:1.5:away|20260919": 1789801536.737461
   },
   "last_report_date": "2026-09-18",
-  "next_id": 1071,
+  "next_id": 1073,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789801262.414005,
+      "ts": 1789801896.742543,
       "ok": true,
-      "vegas_events": 2047,
-      "ref_events": 1769,
+      "vegas_events": 2052,
+      "ref_events": 1763,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
