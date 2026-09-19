@@ -32242,7 +32242,7 @@
       "close_fair_odds": 1.8688,
       "clv_pct": null,
       "close_fair_p": 0.5351010302691477,
-      "close_ts": 1789831874.1925,
+      "close_ts": 1789832504.231919,
       "close_provisional": true
     },
     {
@@ -32332,7 +32332,7 @@
       "close_fair_odds": 1.8703,
       "clv_pct": null,
       "close_fair_p": 0.5346592883684872,
-      "close_ts": 1789831874.1925,
+      "close_ts": 1789832504.231919,
       "close_provisional": true
     },
     {
@@ -32392,7 +32392,7 @@
       "close_fair_odds": 2.1621,
       "clv_pct": null,
       "close_fair_p": 0.4625196764913424,
-      "close_ts": 1789831874.1925,
+      "close_ts": 1789832504.231919,
       "close_provisional": true
     },
     {
@@ -32419,10 +32419,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4171,
+      "close_fair_odds": 1.4168,
       "clv_pct": null,
-      "close_fair_p": 0.70568700705687,
-      "close_ts": 1789831874.1925,
+      "close_fair_p": 0.7058009456810057,
+      "close_ts": 1789832504.231919,
       "close_provisional": true
     },
     {
@@ -32779,10 +32779,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7804,
+      "close_fair_odds": 1.9525,
       "clv_pct": null,
-      "close_fair_p": 0.5616644252828098,
-      "close_ts": 1789831874.1925,
+      "close_fair_p": 0.5121534269993054,
+      "close_ts": 1789832504.231919,
       "close_provisional": true
     },
     {
@@ -32962,7 +32962,67 @@
       "close_fair_odds": 1.866,
       "clv_pct": null,
       "close_fair_p": 0.5358999653398032,
-      "close_ts": 1789831874.1925,
+      "close_ts": 1789832504.231919,
+      "close_provisional": true
+    },
+    {
+      "id": 1088,
+      "ts": 1789832414.179306,
+      "key": "67:17750089:ah:-5.5:away",
+      "content_key": "slezawroclawn|azsumcslublinn|ah:-5.5:away|20260919",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-5.5:away",
+      "event": "Sleza Wroclaw (N) - AZS UMCS Lublin (N)",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep AZS UMCS Lublin (N) (+5.5)",
+      "odds": 1.8,
+      "stake": 1800,
+      "value_pct": 5.61,
+      "fair_pct": 58.7,
+      "start": "2026-09-19T16:00:00+00:00",
+      "start_ts": 1789833600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8803,
+      "clv_pct": null,
+      "close_fair_p": 0.5318278995189739,
+      "close_ts": 1789832504.231919,
+      "close_provisional": true
+    },
+    {
+      "id": 1089,
+      "ts": 1789832504.231919,
+      "key": "66:17692780:ml:away",
+      "content_key": "saintmalon|fleuryn|ml:away|20260919",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Saint Malo (N) - Fleury (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Fleury (N)",
+      "odds": 1.615,
+      "stake": 1800,
+      "value_pct": 4.5,
+      "fair_pct": 64.7,
+      "start": "2026-09-19T16:00:00+00:00",
+      "start_ts": 1789833600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5459,
+      "clv_pct": null,
+      "close_fair_p": 0.6468702941380229,
+      "close_ts": 1789832504.231919,
       "close_provisional": true
     }
   ],
@@ -33463,26 +33523,24 @@
     "panathinaikosbc|paok|ah:-11.5:away|20260919": 1789821782.037091,
     "roanne|asvellyonvilleurbanne|ou:168.0:under|20260919": 1789821782.037091,
     "dallaswingsn|phoenixmercuryn|ah:-9.5:home|20260919": 1789831244.198612,
-    "poprad|nitra|ml:away|20260920": 1789831244.198612
+    "poprad|nitra|ml:away|20260920": 1789831244.198612,
+    "slezawroclawn|azsumcslublinn|ah:-5.5:away|20260919": 1789832414.179306,
+    "saintmalon|fleuryn|ml:away|20260919": 1789832504.231919
   },
   "last_report_date": "2026-09-19",
-  "next_id": 1088,
+  "next_id": 1090,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789831874.1925,
-      "ok": false,
-      "vegas_events": 1679,
-      "ref_events": 1360,
+      "ts": 1789832504.231919,
+      "ok": true,
+      "vegas_events": 1786,
+      "ref_events": 1394,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1789765613.9467347,
