@@ -32422,7 +32422,7 @@
       "close_fair_odds": 1.4171,
       "clv_pct": null,
       "close_fair_p": 0.70568700705687,
-      "close_ts": 1789843432.640745,
+      "close_ts": 1789844152.633865,
       "close_provisional": true
     },
     {
@@ -32962,7 +32962,7 @@
       "close_fair_odds": 1.866,
       "clv_pct": null,
       "close_fair_p": 0.5358999653398032,
-      "close_ts": 1789843522.636473,
+      "close_ts": 1789844152.633865,
       "close_provisional": true
     },
     {
@@ -33143,6 +33143,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5659576062981174,
       "close_ts": 1789834394.228555,
+      "close_provisional": true
+    },
+    {
+      "id": 1094,
+      "ts": 1789843612.732769,
+      "key": "67:17750687:ml:away",
+      "content_key": "brujosizalco|salvadorenosbc|ml:away|20260920",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Brujos Izalco - Salvadorenos BC",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Salvadorenos BC",
+      "odds": 1.5,
+      "stake": 3100,
+      "value_pct": 6.12,
+      "fair_pct": 70.7,
+      "start": "2026-09-20T01:00:00+00:00",
+      "start_ts": 1789866000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4135,
+      "clv_pct": null,
+      "close_fair_p": 0.7074861910917851,
+      "close_ts": 1789844152.633865,
       "close_provisional": true
     }
   ],
@@ -33641,27 +33671,23 @@
     "kecskemtite|szegedcsandgrosicsakadmia|ml:home|20260919": 1789833404.20113,
     "tjsokolpeckyn|bkhavirovn|ml:home|20260919": 1789833584.234494,
     "rostockseawolves|phoenixhagen|ml:home|20260919": 1789833854.248516,
-    "ucraiova|fcsb|ml:home|20260919": 1789834214.231266
+    "ucraiova|fcsb|ml:home|20260919": 1789834214.231266,
+    "brujosizalco|salvadorenosbc|ml:away|20260920": 1789843612.732769
   },
   "last_report_date": "2026-09-19",
-  "next_id": 1094,
+  "next_id": 1095,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789843522.636473,
-      "ok": false,
-      "vegas_events": 206,
-      "ref_events": 163,
+      "ts": 1789844152.633865,
+      "ok": true,
+      "vegas_events": 1594,
+      "ref_events": 1135,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 2 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0; [67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1789842624.7858124,
