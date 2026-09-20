@@ -32962,7 +32962,7 @@
       "close_fair_odds": 2.1286,
       "clv_pct": -8.3,
       "close_fair_p": 0.4698015185826562,
-      "close_ts": 1789912588.570315,
+      "close_ts": 1789912768.541026,
       "close_provisional": false
     },
     {
@@ -33262,7 +33262,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": 3.49,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1789912588.570315,
+      "close_ts": 1789912768.541026,
       "close_provisional": false
     },
     {
@@ -33442,7 +33442,7 @@
       "close_fair_odds": 1.8766,
       "clv_pct": null,
       "close_fair_p": 0.5328859789725339,
-      "close_ts": 1789912588.570315,
+      "close_ts": 1789913218.594532,
       "close_provisional": true
     },
     {
@@ -33472,7 +33472,7 @@
       "close_fair_odds": 2.1167,
       "clv_pct": null,
       "close_fair_p": 0.4724284344610327,
-      "close_ts": 1789912588.570315,
+      "close_ts": 1789913218.594532,
       "close_provisional": true
     },
     {
@@ -33502,14 +33502,41 @@
       "close_fair_odds": 1.7566,
       "clv_pct": null,
       "close_fair_p": 0.5692797827335876,
-      "close_ts": 1789912588.570315,
+      "close_ts": 1789913218.594532,
+      "close_provisional": true
+    },
+    {
+      "id": 1106,
+      "ts": 1789913128.590052,
+      "key": "67:17767462:ah:-6.5:home",
+      "content_key": "bcberoesz|cskasofia|ah:-6.5:home|20260920",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-6.5:home",
+      "event": "BC Beroe SZ - CSKA Sofia",
+      "market": "ah",
+      "market_name": "Hendikep -6.5",
+      "tip": "Hendikep BC Beroe SZ (-6.5)",
+      "odds": 1.833,
+      "stake": 2600,
+      "value_pct": 8.61,
+      "fair_pct": 59.2,
+      "start": "2026-09-20T15:00:00+00:00",
+      "start_ts": 1789916400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.688,
+      "clv_pct": null,
+      "close_fair_p": 0.592410877394436,
+      "close_ts": 1789913218.594532,
       "close_provisional": true
     }
   ],
   "papered": {
-    "iliasimakin|florentbax|ml:home|20260807": 1786024906.707501,
-    "chentingzhu|jiayiwang|ml:home|20260807": 1786024906.707501,
-    "sebastiansec|johnhallquistlithen|ml:away|20260807": 1786025176.717011,
     "karamokonaimasaldenlara|falkowskaweronikasmithalana|ml:away|20260806": 1786027156.712017,
     "micheleribecai|andreaguerrieri|ml:away|20260807": 1786027966.756284,
     "mathyserhard|ivanmarrerocurbelo|ml:home|20260807": 1786063810.584193,
@@ -33996,17 +34023,18 @@
     "igokea|zenit|ah:12.5:home|20260920": 1789897790.828341,
     "darussafaka|balikesirbelediyespor|ml:away|20260920": 1789898150.73198,
     "darussafaka|balikesirbelediyespor|ah:2.5:away|20260920": 1789898150.73198,
-    "trygglade|levanger|ou:3.5:under|20260920": 1789912588.570315
+    "trygglade|levanger|ou:3.5:under|20260920": 1789912588.570315,
+    "bcberoesz|cskasofia|ah:-6.5:home|20260920": 1789913128.590052
   },
   "last_report_date": "2026-09-20",
-  "next_id": 1106,
+  "next_id": 1107,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789912588.570315,
+      "ts": 1789913218.594532,
       "ok": true,
-      "vegas_events": 1239,
-      "ref_events": 946,
+      "vegas_events": 1156,
+      "ref_events": 942,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
