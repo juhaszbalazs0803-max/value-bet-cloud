@@ -32960,10 +32960,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 2.1286,
-      "clv_pct": null,
+      "clv_pct": -8.3,
       "close_fair_p": 0.4698015185826562,
-      "close_ts": 1789898150.73198,
-      "close_provisional": true
+      "close_ts": 1789912588.570315,
+      "close_provisional": false
     },
     {
       "id": 1088,
@@ -33260,10 +33260,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.8861,
-      "clv_pct": null,
+      "clv_pct": 3.49,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1789898150.73198,
-      "close_provisional": true
+      "close_ts": 1789912588.570315,
+      "close_provisional": false
     },
     {
       "id": 1098,
@@ -33439,10 +33439,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5291,
+      "close_fair_odds": 1.8766,
       "clv_pct": null,
-      "close_fair_p": 0.6539939435580324,
-      "close_ts": 1789898150.73198,
+      "close_fair_p": 0.5328859789725339,
+      "close_ts": 1789912588.570315,
       "close_provisional": true
     },
     {
@@ -33469,15 +33469,44 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6971,
+      "close_fair_odds": 2.1167,
       "clv_pct": null,
-      "close_fair_p": 0.5892255892255892,
-      "close_ts": 1789898150.73198,
+      "close_fair_p": 0.4724284344610327,
+      "close_ts": 1789912588.570315,
+      "close_provisional": true
+    },
+    {
+      "id": 1105,
+      "ts": 1789912588.570315,
+      "key": "66:16594412:ou:3.5:under",
+      "content_key": "trygglade|levanger|ou:3.5:under|20260920",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "Trygg-Lade - Levanger",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.37,
+      "fair_pct": 56.9,
+      "start": "2026-09-20T16:00:00+00:00",
+      "start_ts": 1789920000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7566,
+      "clv_pct": null,
+      "close_fair_p": 0.5692797827335876,
+      "close_ts": 1789912588.570315,
       "close_provisional": true
     }
   ],
   "papered": {
-    "cavese|juvestabia|ml:away|20260806": 1786015260.076061,
     "iliasimakin|florentbax|ml:home|20260807": 1786024906.707501,
     "chentingzhu|jiayiwang|ml:home|20260807": 1786024906.707501,
     "sebastiansec|johnhallquistlithen|ml:away|20260807": 1786025176.717011,
@@ -33966,26 +33995,23 @@
     "baerumsverkdefenders|ammerudbasket|ah:4.5:home|20260920": 1789897610.725043,
     "igokea|zenit|ah:12.5:home|20260920": 1789897790.828341,
     "darussafaka|balikesirbelediyespor|ml:away|20260920": 1789898150.73198,
-    "darussafaka|balikesirbelediyespor|ah:2.5:away|20260920": 1789898150.73198
+    "darussafaka|balikesirbelediyespor|ah:2.5:away|20260920": 1789898150.73198,
+    "trygglade|levanger|ou:3.5:under|20260920": 1789912588.570315
   },
   "last_report_date": "2026-09-20",
-  "next_id": 1105,
+  "next_id": 1106,
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789898150.73198,
-      "ok": false,
-      "vegas_events": 1380,
-      "ref_events": 1185,
+      "ts": 1789912588.570315,
+      "ok": true,
+      "vegas_events": 1239,
+      "ref_events": 946,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1789897887.2712908,
