@@ -32962,7 +32962,7 @@
       "close_fair_odds": 2.1286,
       "clv_pct": null,
       "close_fair_p": 0.4698015185826562,
-      "close_ts": 1789895630.730895,
+      "close_ts": 1789896260.739507,
       "close_provisional": true
     },
     {
@@ -33232,7 +33232,7 @@
       "close_fair_odds": 1.78,
       "clv_pct": null,
       "close_fair_p": 0.5617977528089888,
-      "close_ts": 1789895630.730895,
+      "close_ts": 1789896260.739507,
       "close_provisional": true
     },
     {
@@ -33262,7 +33262,7 @@
       "close_fair_odds": 1.8861,
       "clv_pct": null,
       "close_fair_p": 0.5301984814173438,
-      "close_ts": 1789895630.730895,
+      "close_ts": 1789896260.739507,
       "close_provisional": true
     },
     {
@@ -33319,16 +33319,14 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.821,
-      "clv_pct": null,
-      "close_fair_p": 0.5491384207536452,
-      "close_ts": 1789895630.730895,
-      "close_provisional": true
+      "close_fair_odds": 2.0826,
+      "clv_pct": -8.34,
+      "close_fair_p": 0.48016337644656226,
+      "close_ts": 1789896260.739507,
+      "close_provisional": false
     }
   ],
   "papered": {
-    "elnacional|9deoctubrefc|ml:away|20260806": 1786007631.659832,
-    "jecanapavelb|bassfjansj|ml:home|20260806": 1786007991.639118,
     "reisakamoto|michaelmmoh|ml:home|20260806": 1786008261.64889,
     "cavese|juvestabia|ml:away|20260806": 1786015260.076061,
     "iliasimakin|florentbax|ml:home|20260807": 1786024906.707501,
@@ -33821,10 +33819,10 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789895630.730895,
+      "ts": 1789896260.739507,
       "ok": true,
-      "vegas_events": 1569,
-      "ref_events": 1265,
+      "vegas_events": 1571,
+      "ref_events": 1264,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
