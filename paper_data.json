@@ -33717,7 +33717,6 @@
     }
   ],
   "papered": {
-    "mathyserhard|ivanmarrerocurbelo|ml:home|20260807": 1786063810.584193,
     "mirraandreeva|leylahanniefernandez|ml:home|20260807": 1786083266.151163,
     "alexanderdonski|daniilglinka|ml:away|20260807": 1786086695.332058,
     "paulsonavliegenj|bassfjansj|ml:home|20260807": 1786087325.328282,
@@ -34215,7 +34214,7 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789948229.830904,
+      "ts": 1789951893.735377,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
