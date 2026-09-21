@@ -34208,18 +34208,24 @@
   "tg_offset": 363415792,
   "health": {
     "last_scan": {
-      "ts": 1789992552.99767,
-      "ok": true,
-      "vegas_events": 1104,
-      "ref_events": 728,
+      "ts": 1789993182.954079,
+      "ok": false,
+      "vegas_events": 675,
+      "ref_events": 566,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0",
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 3 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0; [67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
-    "last_alert_ts": 1789970191.5573618,
-    "alert_active": false
+    "last_alert_ts": 1789993005.8359923,
+    "alert_active": true
   }
 }
