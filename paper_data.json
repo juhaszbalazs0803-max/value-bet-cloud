@@ -33832,7 +33832,7 @@
       "close_fair_odds": 1.8007,
       "clv_pct": null,
       "close_fair_p": 0.5553458780395751,
-      "close_ts": 1790105608.097226,
+      "close_ts": 1790106238.055667,
       "close_provisional": true
     },
     {
@@ -33862,12 +33862,11 @@
       "close_fair_odds": 1.7523,
       "clv_pct": null,
       "close_fair_p": 0.5706737120211361,
-      "close_ts": 1790105608.097226,
+      "close_ts": 1790105878.099145,
       "close_provisional": true
     }
   ],
   "papered": {
-    "maximechazal|vincentdullinger|ml:home|20260809": 1786217821.479268,
     "fortaleza|ccutadeportivo|ml:home|20260808": 1786222999.407534,
     "jirilehecka|rafaeljodar|ml:away|20260808": 1786226954.502699,
     "portlandfiren|seattlestormn|ml:home|20260809": 1786228301.229251,
@@ -34336,9 +34335,9 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790105608.097226,
+      "ts": 1790106238.055667,
       "ok": true,
-      "vegas_events": 1535,
+      "vegas_events": 1542,
       "ref_events": 973,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
