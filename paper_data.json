@@ -33832,7 +33832,7 @@
       "close_fair_odds": 1.8007,
       "clv_pct": null,
       "close_fair_p": 0.5553458780395751,
-      "close_ts": 1790106238.055667,
+      "close_ts": 1790106868.093589,
       "close_provisional": true
     },
     {
@@ -33863,6 +33863,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5706737120211361,
       "close_ts": 1790105878.099145,
+      "close_provisional": true
+    },
+    {
+      "id": 1118,
+      "ts": 1790106688.038301,
+      "key": "67:17747098:ah:-7.5:away",
+      "content_key": "vilniauskibirkstis|azspoznann|ah:-7.5:away|20260923",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-7.5:away",
+      "event": "Vilniaus Kibirkstis - AZS Poznan (N)",
+      "market": "ah",
+      "market_name": "Hendikep +7.5",
+      "tip": "Hendikep AZS Poznan (N) (+7.5)",
+      "odds": 1.833,
+      "stake": 3500,
+      "value_pct": 11.75,
+      "fair_pct": 61.0,
+      "start": "2026-09-23T16:00:00+00:00",
+      "start_ts": 1790179200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6407,
+      "clv_pct": null,
+      "close_fair_p": 0.6095083299471759,
+      "close_ts": 1790106868.093589,
       "close_provisional": true
     }
   ],
@@ -34328,16 +34358,17 @@
     "phoenixmercuryn|dallaswingsn|ou:173.0:over|20260922": 1790014933.280816,
     "solesdemexicali|panterasdeaguascalientes|ou:166.5:over|20260922": 1790016373.277077,
     "maccabipetahtikvaelitzur|elitzurnetanya|ou:167.5:under|20260923": 1790105608.097226,
-    "cangrejerasdesanturce|gigantesdecarolina|ah:-1.5:home|20260923": 1790105608.097226
+    "cangrejerasdesanturce|gigantesdecarolina|ah:-1.5:home|20260923": 1790105608.097226,
+    "vilniauskibirkstis|azspoznann|ah:-7.5:away|20260923": 1790106688.038301
   },
   "last_report_date": "2026-09-22",
-  "next_id": 1118,
+  "next_id": 1119,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790106238.055667,
+      "ts": 1790106868.093589,
       "ok": true,
-      "vegas_events": 1542,
+      "vegas_events": 1545,
       "ref_events": 973,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
