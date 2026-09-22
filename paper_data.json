@@ -33927,9 +33927,6 @@
     }
   ],
   "papered": {
-    "fortaleza|ccutadeportivo|ml:home|20260808": 1786222999.407534,
-    "jirilehecka|rafaeljodar|ml:away|20260808": 1786226954.502699,
-    "portlandfiren|seattlestormn|ml:home|20260809": 1786228301.229251,
     "herrestadsaif|iktord|ml:home|20260809": 1786231788.37316,
     "ericvanshelboim|dominikrecek|ml:home|20260809": 1786238811.194654,
     "juancruzmartinmanzano|danielerapagnetta|ml:home|20260809": 1786238811.194654,
@@ -34397,15 +34394,23 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790108758.068746,
-      "ok": true,
-      "vegas_events": 1570,
-      "ref_events": 983,
+      "ts": 1790116991.114779,
+      "ok": false,
+      "vegas_events": 0,
+      "ref_events": 0,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
+        "MINDEN sport lekérése elhasalt (?)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1790090876.9815009,
