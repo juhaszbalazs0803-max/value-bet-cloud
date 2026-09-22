@@ -33807,7 +33807,6 @@
     }
   ],
   "papered": {
-    "fraservalleybandits|winnipegseabears|ml:home|20260808": 1786188589.554477,
     "elgincityfc|forfarathleticfc|ml:home|20260808": 1786196571.443638,
     "southlandsharks|wellingtonsaints|ml:home|20260809": 1786204472.714704,
     "vandermeerschenmartin|theopapamalamis|ml:away|20260809": 1786204742.70795,
@@ -34282,7 +34281,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790076533.578936,
+      "ts": 1790077163.584937,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
