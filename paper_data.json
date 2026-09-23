@@ -34012,13 +34012,11 @@
       "close_fair_odds": 1.772,
       "clv_pct": null,
       "close_fair_p": 0.5643310382071014,
-      "close_ts": 1790187300.796352,
+      "close_ts": 1790187930.820455,
       "close_provisional": true
     }
   ],
   "papered": {
-    "cezar2001cretu|marvinmoeller|ml:away|20260810": 1786299566.629231,
-    "michaelmmoh|edasbutvilas|ml:home|20260810": 1786299656.578087,
     "vaquerosdebayamon|aguadasanteros|ah:-10.5:away|20260810": 1786303855.226521,
     "camarne|ialarreborges|ml:away|20260811": 1786465354.455615,
     "camarne|ialarreborges|ah:2.5:away|20260811": 1786465354.455615,
@@ -34466,15 +34464,19 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790187300.796352,
-      "ok": true,
-      "vegas_events": 1591,
-      "ref_events": 1015,
+      "ts": 1790187930.820455,
+      "ok": false,
+      "vegas_events": 1334,
+      "ref_events": 912,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1790169821.2579935,
