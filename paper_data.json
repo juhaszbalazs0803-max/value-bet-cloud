@@ -33927,8 +33927,6 @@
     }
   ],
   "papered": {
-    "ericvanshelboim|dominikrecek|ml:home|20260809": 1786238811.194654,
-    "juancruzmartinmanzano|danielerapagnetta|ml:home|20260809": 1786238811.194654,
     "niklasguttau|nikolaibarsukov|ml:home|20260809": 1786247212.11232,
     "hyeonchung|taiseiichikawa|ml:home|20260809": 1786249282.166879,
     "fkjablonec|1fcslovacko|ml:home|20260809": 1786251717.27064,
@@ -34393,7 +34391,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790126776.480431,
+      "ts": 1790127406.476674,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
