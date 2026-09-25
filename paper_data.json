@@ -34026,7 +34026,6 @@
     }
   ],
   "papered": {
-    "clublaunion|aucas|ou:2.5:under|20260812": 1786478478.451426,
     "portlandfiren|minnesotalynxn|ah:13.5:home|20260813": 1786561107.231587,
     "solesdemexicali|abejasdeleon|ml:home|20260813": 1786561917.235722,
     "solesdemexicali|abejasdeleon|ah:-1.5:home|20260813": 1786561917.235722,
@@ -34466,7 +34465,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790356993.341153,
+      "ts": 1790367251.755984,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
