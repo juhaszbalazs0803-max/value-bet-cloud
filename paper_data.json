@@ -34561,7 +34561,7 @@
       "close_fair_odds": 1.769,
       "clv_pct": null,
       "close_fair_p": 0.5652947130402227,
-      "close_ts": 1790448590.311203,
+      "close_ts": 1790449220.312094,
       "close_provisional": true
     },
     {
@@ -34651,7 +34651,7 @@
       "close_fair_odds": 1.566,
       "clv_pct": null,
       "close_fair_p": 0.6385886445521183,
-      "close_ts": 1790448590.311203,
+      "close_ts": 1790449220.312094,
       "close_provisional": true
     },
     {
@@ -34711,7 +34711,7 @@
       "close_fair_odds": 1.7784,
       "clv_pct": null,
       "close_fair_p": 0.5623168510256342,
-      "close_ts": 1790448590.311203,
+      "close_ts": 1790448950.275373,
       "close_provisional": true
     },
     {
@@ -34741,12 +34741,11 @@
       "close_fair_odds": 1.5688,
       "clv_pct": null,
       "close_fair_p": 0.6374385674663033,
-      "close_ts": 1790448590.311203,
+      "close_ts": 1790449220.312094,
       "close_provisional": true
     }
   ],
   "papered": {
-    "portlandfiren|minnesotalynxn|ah:13.5:home|20260813": 1786561107.231587,
     "solesdemexicali|abejasdeleon|ml:home|20260813": 1786561917.235722,
     "solesdemexicali|abejasdeleon|ah:-1.5:home|20260813": 1786561917.235722,
     "chengyiyiyuan|sunamjeong|ml:away|20260813": 1786565976.84881,
@@ -35209,10 +35208,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790448590.311203,
+      "ts": 1790449220.312094,
       "ok": true,
-      "vegas_events": 1777,
-      "ref_events": 1186,
+      "vegas_events": 1768,
+      "ref_events": 1172,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
