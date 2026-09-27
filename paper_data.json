@@ -35105,10 +35105,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.8503,
-      "clv_pct": null,
+      "clv_pct": 5.93,
       "close_fair_p": 0.5404446315441004,
-      "close_ts": 1790530724.105675,
-      "close_provisional": true
+      "close_ts": 1790531377.160136,
+      "close_provisional": false
     },
     {
       "id": 1159,
@@ -35137,7 +35137,7 @@
       "close_fair_odds": 1.5869,
       "clv_pct": null,
       "close_fair_p": 0.6301538461538462,
-      "close_ts": 1790530724.105675,
+      "close_ts": 1790531377.160136,
       "close_provisional": true
     },
     {
@@ -35164,11 +35164,11 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4173,
-      "clv_pct": null,
-      "close_fair_p": 0.7055697697303681,
-      "close_ts": 1790530724.105675,
-      "close_provisional": true
+      "close_fair_odds": 1.3945,
+      "clv_pct": 5.49,
+      "close_fair_p": 0.7170790431198186,
+      "close_ts": 1790531377.160136,
+      "close_provisional": false
     },
     {
       "id": 1161,
@@ -35194,10 +35194,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4851,
+      "close_fair_odds": 1.9555,
       "clv_pct": null,
-      "close_fair_p": 0.6733761182419291,
-      "close_ts": 1790530724.105675,
+      "close_fair_p": 0.5113732327222207,
+      "close_ts": 1790531377.160136,
       "close_provisional": true
     },
     {
@@ -35229,6 +35229,36 @@
       "close_fair_p": 0.5643310382071014,
       "close_ts": 1790530634.186205,
       "close_provisional": true
+    },
+    {
+      "id": 1163,
+      "ts": 1790530927.173349,
+      "key": "67:17825580:ou:173.0:over",
+      "content_key": "minnesotalynxn|newyorklibertyn|ou:173.0:over|20260927",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:173.0:over",
+      "event": "Minnesota Lynx (N) - New York Liberty (N)",
+      "market": "ou",
+      "market_name": "O/U 173",
+      "tip": "Több mint 173",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.32,
+      "fair_pct": 54.1,
+      "start": "2026-09-27T18:00:00+00:00",
+      "start_ts": 1790532000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8477,
+      "clv_pct": 3.32,
+      "close_fair_p": 0.5412079972676878,
+      "close_ts": 1790531377.160136,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -35695,17 +35725,18 @@
     "francoagamenone|johnsperle|ml:home|20260928": 1790530184.106018,
     "dconcepcin|curicounido|ml:home|20260927": 1790530364.167608,
     "maccabihaifan|maccabikarmieln|ml:home|20260928": 1790530634.186205,
-    "maccabihaifan|maccabikarmieln|ah:-3.5:home|20260928": 1790530634.186205
+    "maccabihaifan|maccabikarmieln|ah:-3.5:home|20260928": 1790530634.186205,
+    "minnesotalynxn|newyorklibertyn|ou:173.0:over|20260927": 1790530927.173349
   },
   "last_report_date": "2026-09-27",
-  "next_id": 1163,
+  "next_id": 1164,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790530724.105675,
+      "ts": 1790531377.160136,
       "ok": true,
-      "vegas_events": 1245,
-      "ref_events": 850,
+      "vegas_events": 1244,
+      "ref_events": 834,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
