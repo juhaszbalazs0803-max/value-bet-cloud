@@ -35107,7 +35107,7 @@
       "close_fair_odds": 1.8503,
       "clv_pct": 5.93,
       "close_fair_p": 0.5404446315441004,
-      "close_ts": 1790531377.160136,
+      "close_ts": 1790531924.149422,
       "close_provisional": false
     },
     {
@@ -35137,7 +35137,7 @@
       "close_fair_odds": 1.5869,
       "clv_pct": null,
       "close_fair_p": 0.6301538461538462,
-      "close_ts": 1790531377.160136,
+      "close_ts": 1790532014.165716,
       "close_provisional": true
     },
     {
@@ -35167,7 +35167,7 @@
       "close_fair_odds": 1.3945,
       "clv_pct": 5.49,
       "close_fair_p": 0.7170790431198186,
-      "close_ts": 1790531377.160136,
+      "close_ts": 1790531924.149422,
       "close_provisional": false
     },
     {
@@ -35194,10 +35194,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9555,
+      "close_fair_odds": 2.5348,
       "clv_pct": null,
-      "close_fair_p": 0.5113732327222207,
-      "close_ts": 1790531377.160136,
+      "close_fair_p": 0.39451128410788705,
+      "close_ts": 1790532014.165716,
       "close_provisional": true
     },
     {
@@ -35259,6 +35259,36 @@
       "close_fair_p": 0.5412079972676878,
       "close_ts": 1790531377.160136,
       "close_provisional": false
+    },
+    {
+      "id": 1164,
+      "ts": 1790531654.150214,
+      "key": "67:17835534:ah:-2.5:away",
+      "content_key": "defensoresdemaronas|clubatleticocader|ah:-2.5:away|20260927",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-2.5:away",
+      "event": "Defensores de Maronas - Club Atletico Cader",
+      "market": "ah",
+      "market_name": "Hendikep +2.5",
+      "tip": "Hendikep Club Atletico Cader (+2.5)",
+      "odds": 1.8,
+      "stake": 1500,
+      "value_pct": 4.96,
+      "fair_pct": 58.3,
+      "start": "2026-09-27T22:45:00+00:00",
+      "start_ts": 1790549100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9262,
+      "clv_pct": null,
+      "close_fair_p": 0.5191537105305337,
+      "close_ts": 1790532014.165716,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -35726,17 +35756,18 @@
     "dconcepcin|curicounido|ml:home|20260927": 1790530364.167608,
     "maccabihaifan|maccabikarmieln|ml:home|20260928": 1790530634.186205,
     "maccabihaifan|maccabikarmieln|ah:-3.5:home|20260928": 1790530634.186205,
-    "minnesotalynxn|newyorklibertyn|ou:173.0:over|20260927": 1790530927.173349
+    "minnesotalynxn|newyorklibertyn|ou:173.0:over|20260927": 1790530927.173349,
+    "defensoresdemaronas|clubatleticocader|ah:-2.5:away|20260927": 1790531654.150214
   },
   "last_report_date": "2026-09-27",
-  "next_id": 1164,
+  "next_id": 1165,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790531377.160136,
+      "ts": 1790532014.165716,
       "ok": true,
-      "vegas_events": 1244,
-      "ref_events": 834,
+      "vegas_events": 1218,
+      "ref_events": 837,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
