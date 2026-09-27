@@ -34651,7 +34651,7 @@
       "close_fair_odds": 1.6907,
       "clv_pct": null,
       "close_fair_p": 0.5914857187329753,
-      "close_ts": 1790515465.84703,
+      "close_ts": 1790516185.764923,
       "close_provisional": true
     },
     {
@@ -34804,7 +34804,7 @@
       "close_fair_odds": 2.0537,
       "clv_pct": null,
       "close_fair_p": 0.4869283669155227,
-      "close_ts": 1790515465.84703,
+      "close_ts": 1790516185.764923,
       "close_provisional": true
     },
     {
@@ -34864,7 +34864,7 @@
       "close_fair_odds": 1.9037,
       "clv_pct": null,
       "close_fair_p": 0.5252791769942166,
-      "close_ts": 1790515465.84703,
+      "close_ts": 1790516185.764923,
       "close_provisional": true
     },
     {
@@ -34894,7 +34894,7 @@
       "close_fair_odds": 1.439,
       "clv_pct": null,
       "close_fair_p": 0.6949114548307554,
-      "close_ts": 1790515555.775374,
+      "close_ts": 1790516185.764923,
       "close_provisional": true
     },
     {
@@ -35074,7 +35074,7 @@
       "close_fair_odds": 1.8066,
       "clv_pct": null,
       "close_fair_p": 0.5535154984339561,
-      "close_ts": 1790515465.84703,
+      "close_ts": 1790516185.764923,
       "close_provisional": true
     }
   ],
@@ -35546,19 +35546,15 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790515555.775374,
-      "ok": false,
-      "vegas_events": 1264,
-      "ref_events": 973,
+      "ts": 1790516185.764923,
+      "ok": true,
+      "vegas_events": 1449,
+      "ref_events": 1093,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1790459511.875188,
