@@ -34561,7 +34561,7 @@
       "close_fair_odds": 1.769,
       "clv_pct": null,
       "close_fair_p": 0.5652947130402227,
-      "close_ts": 1790491382.108104,
+      "close_ts": 1790492013.520243,
       "close_provisional": true
     },
     {
@@ -34651,7 +34651,7 @@
       "close_fair_odds": 2.0081,
       "clv_pct": null,
       "close_fair_p": 0.49798090551707536,
-      "close_ts": 1790491382.108104,
+      "close_ts": 1790492013.520243,
       "close_provisional": true
     },
     {
@@ -34774,7 +34774,7 @@
       "close_fair_odds": 1.8001,
       "clv_pct": null,
       "close_fair_p": 0.555526576600073,
-      "close_ts": 1790491022.138569,
+      "close_ts": 1790492013.520243,
       "close_provisional": true
     },
     {
@@ -34804,7 +34804,7 @@
       "close_fair_odds": 1.7541,
       "clv_pct": null,
       "close_fair_p": 0.5700863047322442,
-      "close_ts": 1790491382.108104,
+      "close_ts": 1790492013.520243,
       "close_provisional": true
     },
     {
@@ -34834,7 +34834,7 @@
       "close_fair_odds": 2.0343,
       "clv_pct": null,
       "close_fair_p": 0.4915786694825766,
-      "close_ts": 1790491382.108104,
+      "close_ts": 1790492013.520243,
       "close_provisional": true
     },
     {
@@ -34864,7 +34864,37 @@
       "close_fair_odds": 1.7701,
       "clv_pct": null,
       "close_fair_p": 0.5649261560810266,
-      "close_ts": 1790491382.108104,
+      "close_ts": 1790492013.520243,
+      "close_provisional": true
+    },
+    {
+      "id": 1151,
+      "ts": 1790491833.482723,
+      "key": "68:17855026:ml:away",
+      "content_key": "ryancolby|shunsukemitsui|ml:away|20260927",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Ryan Colby - Shunsuke Mitsui",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Shunsuke Mitsui",
+      "odds": 1.471,
+      "stake": 2000,
+      "value_pct": 3.69,
+      "fair_pct": 70.5,
+      "start": "2026-09-27T14:00:00+00:00",
+      "start_ts": 1790517600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4182,
+      "clv_pct": null,
+      "close_fair_p": 0.7051070840197694,
+      "close_ts": 1790492013.520243,
       "close_provisional": true
     }
   ],
@@ -35323,16 +35353,17 @@
     "atlantadreamn|washingtonmysticsn|ah:-5.5:home|20260927": 1790489490.115975,
     "alula|alarabiqat|ah:-9.5:away|20260927": 1790489490.115975,
     "criacaoshinjuku|okinawasv|ou:2.5:under|20260927": 1790490480.066025,
-    "nyonbasket|geneveelitebasket|ou:154.5:over|20260927": 1790491202.143395
+    "nyonbasket|geneveelitebasket|ou:154.5:over|20260927": 1790491202.143395,
+    "ryancolby|shunsukemitsui|ml:away|20260927": 1790491833.482723
   },
   "last_report_date": "2026-09-26",
-  "next_id": 1151,
+  "next_id": 1152,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790491382.108104,
+      "ts": 1790492013.520243,
       "ok": true,
-      "vegas_events": 1692,
+      "vegas_events": 1703,
       "ref_events": 1270,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
