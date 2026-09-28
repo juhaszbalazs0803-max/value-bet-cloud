@@ -35292,20 +35292,39 @@
       "close_fair_p": 0.5191537105305337,
       "close_ts": 1790542599.579451,
       "close_provisional": true
+    },
+    {
+      "id": 1165,
+      "ts": 1790619939.831724,
+      "key": "67:17835582:ah:2.5:away",
+      "content_key": "sagesse|alula|ah:2.5:away|20260929",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:2.5:away",
+      "event": "Sagesse - AL Ula",
+      "market": "ah",
+      "market_name": "Hendikep -2.5",
+      "tip": "Hendikep AL Ula (-2.5)",
+      "odds": 1.87,
+      "stake": 1100,
+      "value_pct": 3.89,
+      "fair_pct": 55.6,
+      "start": "2026-09-29T17:45:00+00:00",
+      "start_ts": 1790703900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7996,
+      "clv_pct": null,
+      "close_fair_p": 0.5556884953869878,
+      "close_ts": 1790619939.831724,
+      "close_provisional": true
     }
   ],
   "papered": {
-    "olympickingsway|sorrento|ou:3.5:over|20260815": 1786723403.552119,
-    "melvilleunitedafc|aucklandfcreserves|ou:3.5:under|20260815": 1786723403.552119,
-    "aikn|vittsjogikn|ml:home|20260815": 1786723403.552119,
-    "olimpiakings|felixperezcardozo|ah:-9.5:home|20260814": 1786723493.55635,
-    "fccska1948|chernomorevarna|ml:home|20260814": 1786727187.304132,
-    "cougarsn|warwicksenatorsn|ah:-8.5:away|20260815": 1786728087.34529,
-    "jeunessecanach|koeppchenwormeldange|ml:home|20260814": 1786728627.327128,
-    "hapoelhaifafc|hapoelbershevafc|ou:3.5:under|20260815": 1786731082.829037,
-    "cougarsn|warwicksenatorsn|ah:-7.5:away|20260815": 1786731262.905876,
-    "ruchchorzow|lechiagdansk|ml:home|20260814": 1786731802.826757,
-    "arges|fcfarulconstanta|ou:2.5:under|20260814": 1786731802.826757,
     "ymirkopavogur|kffjallabyggd|ou:3.5:over|20260815": 1786733676.713252,
     "adelaideblueeagles|easternunited|ml:home|20260815": 1786734354.341915,
     "rangers|magallanes|ou:2.5:over|20260815": 1786734534.28256,
@@ -35760,33 +35779,26 @@
     "maccabihaifan|maccabikarmieln|ml:home|20260928": 1790530634.186205,
     "maccabihaifan|maccabikarmieln|ah:-3.5:home|20260928": 1790530634.186205,
     "minnesotalynxn|newyorklibertyn|ou:173.0:over|20260927": 1790530927.173349,
-    "defensoresdemaronas|clubatleticocader|ah:-2.5:away|20260927": 1790531654.150214
+    "defensoresdemaronas|clubatleticocader|ah:-2.5:away|20260927": 1790531654.150214,
+    "sagesse|alula|ah:2.5:away|20260929": 1790619939.831724
   },
   "last_report_date": "2026-09-28",
-  "next_id": 1165,
+  "next_id": 1166,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790594704.932302,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1790619939.831724,
+      "ok": true,
+      "vegas_events": 1466,
+      "ref_events": 919,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1790591735.5785267,
-    "alert_active": true
+    "alert_active": false
   }
 }
