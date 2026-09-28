@@ -35320,12 +35320,11 @@
       "close_fair_odds": 1.7996,
       "clv_pct": null,
       "close_fair_p": 0.5556884953869878,
-      "close_ts": 1790622459.951487,
+      "close_ts": 1790623089.884047,
       "close_provisional": true
     }
   ],
   "papered": {
-    "rangers|magallanes|ou:2.5:over|20260815": 1786734534.28256,
     "csdeportivosayago|urupandepando|ml:home|20260814": 1786739873.660758,
     "csdeportivosayago|urupandepando|ah:-2.5:home|20260814": 1786739873.660758,
     "lasvegasacesn|minnesotalynxn|ah:2.5:home|20260816": 1786768819.120648,
@@ -35785,10 +35784,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790622459.951487,
+      "ts": 1790623089.884047,
       "ok": true,
-      "vegas_events": 1458,
-      "ref_events": 915,
+      "vegas_events": 1460,
+      "ref_events": 917,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
