@@ -35325,8 +35325,6 @@
     }
   ],
   "papered": {
-    "araratarmenia|fcvan|ou:2.5:over|20260815": 1786794553.758515,
-    "araratarmenia|fcvan|ou:3.5:over|20260815": 1786794823.758196,
     "sandviken|jerv|ml:away|20260816": 1786795453.757739,
     "fjolnirreykjavikn|einherji|ml:home|20260815": 1786797126.986051,
     "fuerzaregia|freserosdeirapuato|ou:172.5:over|20260815": 1786797126.986051,
@@ -35759,7 +35757,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790682387.633006,
+      "ts": 1790683017.638872,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
