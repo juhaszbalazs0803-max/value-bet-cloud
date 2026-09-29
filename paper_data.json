@@ -34462,11 +34462,11 @@
       "fair_pct": 56.0,
       "start": "2026-09-26T18:00:00+00:00",
       "start_ts": 1790445600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1790705302.463783,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7871,
       "clv_pct": null,
@@ -35322,6 +35322,36 @@
       "close_fair_p": 0.5556884953869878,
       "close_ts": 1790623089.884047,
       "close_provisional": true
+    },
+    {
+      "id": 1166,
+      "ts": 1790705120.428901,
+      "key": "67:17855830:ah:-5.5:away",
+      "content_key": "ceplorient|vitreaurore|ah:-5.5:away|20260929",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-5.5:away",
+      "event": "CEP Lorient - Vitre Aurore",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep Vitre Aurore (+5.5)",
+      "odds": 1.833,
+      "stake": 1000,
+      "value_pct": 3.44,
+      "fair_pct": 56.4,
+      "start": "2026-09-29T18:30:00+00:00",
+      "start_ts": 1790706600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7724,
+      "clv_pct": null,
+      "close_fair_p": 0.5642085187539733,
+      "close_ts": 1790705300.460366,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -35739,33 +35769,30 @@
     "maccabihaifan|maccabikarmieln|ah:-3.5:home|20260928": 1790530634.186205,
     "minnesotalynxn|newyorklibertyn|ou:173.0:over|20260927": 1790530927.173349,
     "defensoresdemaronas|clubatleticocader|ah:-2.5:away|20260927": 1790531654.150214,
-    "sagesse|alula|ah:2.5:away|20260929": 1790619939.831724
+    "sagesse|alula|ah:2.5:away|20260929": 1790619939.831724,
+    "ceplorient|vitreaurore|ah:-5.5:away|20260929": 1790705120.428901
   },
   "last_report_date": "2026-09-29",
-  "next_id": 1166,
+  "next_id": 1167,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790704670.589646,
+      "ts": 1790705300.460366,
       "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "vegas_events": 670,
+      "ref_events": 364,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
       ],
       "settle_err": null
     },
     "last_alert_ts": 1790703591.0723627,
-    "alert_active": true
+    "alert_active": false
   }
 }
