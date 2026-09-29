@@ -35325,7 +35325,6 @@
     }
   ],
   "papered": {
-    "mogidascruzes|baurubasketsp|ah:-15.5:away|20260815": 1786769899.177851,
     "lobosplateadosdelabuap|doradosdechihuahua|ml:away|20260815": 1786775632.102072,
     "lobosplateadosdelabuap|doradosdechihuahua|ah:2.5:away|20260815": 1786775632.102072,
     "budapesthonvdfcn|szekszrdiwfcn|ou:3.5:over|20260815": 1786776262.092305,
@@ -35781,7 +35780,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790657644.905583,
+      "ts": 1790658274.908081,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
