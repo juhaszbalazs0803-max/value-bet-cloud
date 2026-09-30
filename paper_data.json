@@ -35380,7 +35380,7 @@
       "close_fair_odds": 1.7869,
       "clv_pct": null,
       "close_fair_p": 0.5596153323734753,
-      "close_ts": 1790798350.402697,
+      "close_ts": 1790798980.415368,
       "close_provisional": true
     },
     {
@@ -35410,13 +35410,11 @@
       "close_fair_odds": 1.8122,
       "clv_pct": null,
       "close_fair_p": 0.5518055591201909,
-      "close_ts": 1790798350.402697,
+      "close_ts": 1790798980.415368,
       "close_provisional": true
     }
   ],
   "papered": {
-    "atlantadreamn|indianafevern|ml:home|20260816": 1786910605.001227,
-    "atlantadreamn|indianafevern|ah:-1.0:home|20260816": 1786910605.001227,
     "torontotempon|indianafevern|ou:191.0:under|20260818": 1787080290.49173,
     "kvvesturbaer|augnablik|ou:4.5:over|20260819": 1787153450.135472,
     "damacfc|altaawoun|ml:away|20260819": 1787153450.135472,
@@ -35815,10 +35813,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790798350.402697,
+      "ts": 1790798980.415368,
       "ok": true,
-      "vegas_events": 1681,
-      "ref_events": 1104,
+      "vegas_events": 1685,
+      "ref_events": 1099,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
