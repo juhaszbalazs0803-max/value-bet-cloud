@@ -36039,12 +36039,12 @@
     "bern|servette|ml:home|20261002": 1790878594.23658,
     "bcorchies|payssalonaisbasket13|ah:-4.5:away|20261002": 1790878977.729724
   },
-  "last_report_date": "2026-10-01",
+  "last_report_date": "2026-10-02",
   "next_id": 1175,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790931319.970729,
+      "ts": 1790931949.924489,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
