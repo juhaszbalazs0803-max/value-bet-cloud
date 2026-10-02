@@ -35515,7 +35515,7 @@
       "close_fair_odds": 2.0502,
       "clv_pct": null,
       "close_fair_p": 0.48774763957867157,
-      "close_ts": 1790956430.036081,
+      "close_ts": 1790957063.321402,
       "close_provisional": true
     },
     {
@@ -35602,10 +35602,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6955,
+      "close_fair_odds": 1.6033,
       "clv_pct": null,
-      "close_fair_p": 0.5898055167153935,
-      "close_ts": 1790956430.036081,
+      "close_fair_p": 0.6237211251633261,
+      "close_ts": 1790957063.321402,
       "close_provisional": true
     },
     {
@@ -35635,7 +35635,7 @@
       "close_fair_odds": 2.0623,
       "clv_pct": null,
       "close_fair_p": 0.48490197651715744,
-      "close_ts": 1790956430.036081,
+      "close_ts": 1790957063.321402,
       "close_provisional": true
     },
     {
@@ -35695,7 +35695,7 @@
       "close_fair_odds": 1.7595,
       "clv_pct": 4.18,
       "close_fair_p": 0.5683470353432551,
-      "close_ts": 1790956430.036081,
+      "close_ts": 1790956703.344724,
       "close_provisional": false
     },
     {
@@ -35722,10 +35722,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6098,
+      "close_fair_odds": 1.772,
       "clv_pct": null,
-      "close_fair_p": 0.6212140739786055,
-      "close_ts": 1790956430.036081,
+      "close_fair_p": 0.5643371044959747,
+      "close_ts": 1790957063.321402,
       "close_provisional": true
     },
     {
@@ -35752,10 +35752,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9355,
+      "close_fair_odds": 2.1736,
       "clv_pct": null,
-      "close_fair_p": 0.5166662175635256,
-      "close_ts": 1790956430.036081,
+      "close_fair_p": 0.46007235030505916,
+      "close_ts": 1790957063.321402,
       "close_provisional": true
     },
     {
@@ -35785,7 +35785,37 @@
       "close_fair_odds": 1.7087,
       "clv_pct": null,
       "close_fair_p": 0.585256968641115,
-      "close_ts": 1790956430.036081,
+      "close_ts": 1790957063.321402,
+      "close_provisional": true
+    },
+    {
+      "id": 1180,
+      "ts": 1790956973.29113,
+      "key": "67:17840165:ah:12.5:away",
+      "content_key": "bbcnorddragonz|kapfenbergbulls|ah:12.5:away|20261002",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:12.5:away",
+      "event": "BBC Nord Dragonz - Kapfenberg Bulls",
+      "market": "ah",
+      "market_name": "Hendikep -12.5",
+      "tip": "Hendikep Kapfenberg Bulls (-12.5)",
+      "odds": 1.833,
+      "stake": 1400,
+      "value_pct": 4.74,
+      "fair_pct": 57.1,
+      "start": "2026-10-02T16:30:00+00:00",
+      "start_ts": 1790958600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7505,
+      "clv_pct": null,
+      "close_fair_p": 0.5712623310676788,
+      "close_ts": 1790957063.321402,
       "close_provisional": true
     }
   ],
@@ -36192,17 +36222,18 @@
     "split|kvarner2010|ah:-14.5:away|20261002": 1790955980.068755,
     "realpotosi|clubaurora|ou:3.5:under|20261003": 1790956340.079864,
     "consultantsdesamparados|carmelita|ou:2.5:under|20261002": 1790956340.079864,
-    "fenerbahcekoleji|cobasketbol|ah:-9.5:away|20261003": 1790956430.036081
+    "fenerbahcekoleji|cobasketbol|ah:-9.5:away|20261003": 1790956430.036081,
+    "bbcnorddragonz|kapfenbergbulls|ah:12.5:away|20261002": 1790956973.29113
   },
   "last_report_date": "2026-10-02",
-  "next_id": 1180,
+  "next_id": 1181,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1790956430.036081,
+      "ts": 1790957063.321402,
       "ok": true,
-      "vegas_events": 2255,
-      "ref_events": 1756,
+      "vegas_events": 2235,
+      "ref_events": 1742,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
