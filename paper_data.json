@@ -35785,7 +35785,7 @@
       "close_fair_odds": 1.7329,
       "clv_pct": null,
       "close_fair_p": 0.5770703424133027,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009694.232596,
       "close_provisional": true
     },
     {
@@ -35845,7 +35845,7 @@
       "close_fair_odds": 1.6731,
       "clv_pct": null,
       "close_fair_p": 0.5976999899122365,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009694.232596,
       "close_provisional": true
     },
     {
@@ -35875,7 +35875,7 @@
       "close_fair_odds": 1.842,
       "clv_pct": null,
       "close_fair_p": 0.5428968763371844,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009694.232596,
       "close_provisional": true
     },
     {
@@ -35905,7 +35905,7 @@
       "close_fair_odds": 1.7907,
       "clv_pct": null,
       "close_fair_p": 0.5584320529155032,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009694.232596,
       "close_provisional": true
     },
     {
@@ -35965,7 +35965,7 @@
       "close_fair_odds": 1.9801,
       "clv_pct": null,
       "close_fair_p": 0.5050234427327528,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009244.194534,
       "close_provisional": true
     },
     {
@@ -35992,10 +35992,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8343,
+      "close_fair_odds": 1.7978,
       "clv_pct": null,
-      "close_fair_p": 0.5451733808612692,
-      "close_ts": 1791009154.181038,
+      "close_fair_p": 0.5562374324289036,
+      "close_ts": 1791009694.232596,
       "close_provisional": true
     },
     {
@@ -36025,7 +36025,7 @@
       "close_fair_odds": 2.0,
       "clv_pct": null,
       "close_fair_p": 0.5,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009694.232596,
       "close_provisional": true
     },
     {
@@ -36055,7 +36055,7 @@
       "close_fair_odds": 1.7452,
       "clv_pct": null,
       "close_fair_p": 0.572987721691678,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009694.232596,
       "close_provisional": true
     },
     {
@@ -36085,7 +36085,7 @@
       "close_fair_odds": 1.6589,
       "clv_pct": null,
       "close_fair_p": 0.602803034108605,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009694.232596,
       "close_provisional": true
     },
     {
@@ -36145,7 +36145,7 @@
       "close_fair_odds": 1.7324,
       "clv_pct": null,
       "close_fair_p": 0.5772276961902972,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009334.195383,
       "close_provisional": true
     },
     {
@@ -36175,7 +36175,7 @@
       "close_fair_odds": 1.5022,
       "clv_pct": null,
       "close_fair_p": 0.6657022229565368,
-      "close_ts": 1791009154.181038,
+      "close_ts": 1791009694.232596,
       "close_provisional": true
     }
   ],
@@ -36601,15 +36601,20 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791009154.181038,
-      "ok": true,
-      "vegas_events": 2213,
-      "ref_events": 1986,
+      "ts": 1791009784.247725,
+      "ok": false,
+      "vegas_events": 275,
+      "ref_events": 262,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 2 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1790986331.3927937,
