@@ -35785,7 +35785,7 @@
       "close_fair_odds": 1.739,
       "clv_pct": null,
       "close_fair_p": 0.5750523996345462,
-      "close_ts": 1791027101.961684,
+      "close_ts": 1791027731.906936,
       "close_provisional": true
     },
     {
@@ -35845,7 +35845,7 @@
       "close_fair_odds": 1.6987,
       "clv_pct": null,
       "close_fair_p": 0.5886681383370125,
-      "close_ts": 1791027101.961684,
+      "close_ts": 1791027731.906936,
       "close_provisional": true
     },
     {
@@ -35905,7 +35905,7 @@
       "close_fair_odds": 1.8265,
       "clv_pct": null,
       "close_fair_p": 0.547484243136417,
-      "close_ts": 1791027101.961684,
+      "close_ts": 1791027731.906936,
       "close_provisional": true
     },
     {
@@ -36025,7 +36025,7 @@
       "close_fair_odds": 1.9833,
       "clv_pct": null,
       "close_fair_p": 0.5042125557932546,
-      "close_ts": 1791027101.961684,
+      "close_ts": 1791027731.906936,
       "close_provisional": true
     },
     {
@@ -36085,7 +36085,7 @@
       "close_fair_odds": 1.6631,
       "clv_pct": null,
       "close_fair_p": 0.6012881151252893,
-      "close_ts": 1791027101.961684,
+      "close_ts": 1791027731.906936,
       "close_provisional": true
     },
     {
@@ -36175,7 +36175,7 @@
       "close_fair_odds": 1.5022,
       "clv_pct": null,
       "close_fair_p": 0.6657022229565368,
-      "close_ts": 1791027101.961684,
+      "close_ts": 1791027731.906936,
       "close_provisional": true
     },
     {
@@ -36205,7 +36205,7 @@
       "close_fair_odds": 1.7234,
       "clv_pct": null,
       "close_fair_p": 0.5802352446964923,
-      "close_ts": 1791027101.961684,
+      "close_ts": 1791027731.906936,
       "close_provisional": true
     },
     {
@@ -36235,7 +36235,7 @@
       "close_fair_odds": 1.7646,
       "clv_pct": null,
       "close_fair_p": 0.5667102597635716,
-      "close_ts": 1791027101.961684,
+      "close_ts": 1791027731.906936,
       "close_provisional": true
     },
     {
@@ -36265,7 +36265,67 @@
       "close_fair_odds": 1.7456,
       "clv_pct": null,
       "close_fair_p": 0.5728578344360173,
-      "close_ts": 1791027101.961684,
+      "close_ts": 1791027731.906936,
+      "close_provisional": true
+    },
+    {
+      "id": 1196,
+      "ts": 1791027551.93123,
+      "key": "67:17854143:ml:away",
+      "content_key": "aomoriwats|iwatebigbulls|ml:away|20261004",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:away",
+      "event": "Aomori Wats - Iwate Big Bulls",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Iwate Big Bulls",
+      "odds": 1.546,
+      "stake": 1500,
+      "value_pct": 3.26,
+      "fair_pct": 66.8,
+      "start": "2026-10-04T06:05:00+00:00",
+      "start_ts": 1791093900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4967,
+      "clv_pct": null,
+      "close_fair_p": 0.6681514476614699,
+      "close_ts": 1791027731.906936,
+      "close_provisional": true
+    },
+    {
+      "id": 1197,
+      "ts": 1791027731.906936,
+      "key": "67:17719413:ah:-9.5:away",
+      "content_key": "promitheas|peristeri|ah:-9.5:away|20261003",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-9.5:away",
+      "event": "Promitheas - Peristeri",
+      "market": "ah",
+      "market_name": "Hendikep +9.5",
+      "tip": "Hendikep Peristeri (+9.5)",
+      "odds": 1.909,
+      "stake": 2400,
+      "value_pct": 8.74,
+      "fair_pct": 57.0,
+      "start": "2026-10-03T14:00:00+00:00",
+      "start_ts": 1791036000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7556,
+      "clv_pct": null,
+      "close_fair_p": 0.5696087823317711,
+      "close_ts": 1791027731.906936,
       "close_provisional": true
     }
   ],
@@ -36687,17 +36747,19 @@
     "knockbredafc|banbridgetown|ml:home|20261003": 1791008974.226262,
     "kkdinamozagreb|kkdubrovnik|ah:-7.5:away|20261003": 1791027101.961684,
     "strasbourg|boulazacbasketdordogne|ou:167.5:under|20261003": 1791027101.961684,
-    "kahramanmarasgenclikspor|keciorenbelediyesibaglum|ah:-10.5:away|20261003": 1791027101.961684
+    "kahramanmarasgenclikspor|keciorenbelediyesibaglum|ah:-10.5:away|20261003": 1791027101.961684,
+    "aomoriwats|iwatebigbulls|ml:away|20261004": 1791027551.93123,
+    "promitheas|peristeri|ah:-9.5:away|20261003": 1791027731.906936
   },
   "last_report_date": "2026-10-03",
-  "next_id": 1196,
+  "next_id": 1198,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791027101.961684,
+      "ts": 1791027731.906936,
       "ok": true,
-      "vegas_events": 2222,
-      "ref_events": 1980,
+      "vegas_events": 2223,
+      "ref_events": 1986,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
