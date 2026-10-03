@@ -35785,7 +35785,7 @@
       "close_fair_odds": 1.739,
       "clv_pct": null,
       "close_fair_p": 0.5750523996345462,
-      "close_ts": 1791028366.62052,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -35845,7 +35845,7 @@
       "close_fair_odds": 1.6987,
       "clv_pct": null,
       "close_fair_p": 0.5886681383370125,
-      "close_ts": 1791028366.62052,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -35905,7 +35905,7 @@
       "close_fair_odds": 1.8265,
       "clv_pct": null,
       "close_fair_p": 0.547484243136417,
-      "close_ts": 1791028366.62052,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -36025,7 +36025,7 @@
       "close_fair_odds": 1.9833,
       "clv_pct": null,
       "close_fair_p": 0.5042125557932546,
-      "close_ts": 1791028366.62052,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -36085,7 +36085,7 @@
       "close_fair_odds": 1.6631,
       "clv_pct": null,
       "close_fair_p": 0.6012881151252893,
-      "close_ts": 1791028366.62052,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -36175,7 +36175,7 @@
       "close_fair_odds": 1.5022,
       "clv_pct": null,
       "close_fair_p": 0.6657022229565368,
-      "close_ts": 1791028366.62052,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -36205,7 +36205,7 @@
       "close_fair_odds": 1.7234,
       "clv_pct": null,
       "close_fair_p": 0.5802352446964923,
-      "close_ts": 1791028366.62052,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -36235,7 +36235,7 @@
       "close_fair_odds": 1.7646,
       "clv_pct": null,
       "close_fair_p": 0.5667102597635716,
-      "close_ts": 1791028366.62052,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -36265,7 +36265,7 @@
       "close_fair_odds": 1.7456,
       "clv_pct": null,
       "close_fair_p": 0.5728578344360173,
-      "close_ts": 1791028366.62052,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -36292,10 +36292,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4967,
+      "close_fair_odds": 1.4908,
       "clv_pct": null,
-      "close_fair_p": 0.6681514476614699,
-      "close_ts": 1791028366.62052,
+      "close_fair_p": 0.6707807888382078,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     },
     {
@@ -36322,10 +36322,70 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7556,
+      "close_fair_odds": 1.8062,
       "clv_pct": null,
-      "close_fair_p": 0.5696087823317711,
-      "close_ts": 1791027731.906936,
+      "close_fair_p": 0.5536404470907761,
+      "close_ts": 1791029000.829726,
+      "close_provisional": true
+    },
+    {
+      "id": 1198,
+      "ts": 1791028730.827669,
+      "key": "67:17844506:ah:7.5:away",
+      "content_key": "sastoulousemetropolen|flammescarolobasketn|ah:7.5:away|20261003",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:7.5:away",
+      "event": "SAS Toulouse Metropole (N) - Flammes Carolo Basket (N)",
+      "market": "ah",
+      "market_name": "Hendikep -7.5",
+      "tip": "Hendikep Flammes Carolo Basket (N) (-7.5)",
+      "odds": 1.833,
+      "stake": 2000,
+      "value_pct": 6.61,
+      "fair_pct": 58.1,
+      "start": "2026-10-03T18:00:00+00:00",
+      "start_ts": 1791050400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7197,
+      "clv_pct": null,
+      "close_fair_p": 0.581488825767726,
+      "close_ts": 1791029000.829726,
+      "close_provisional": true
+    },
+    {
+      "id": 1199,
+      "ts": 1791028820.797525,
+      "key": "67:17854143:ah:3.5:away",
+      "content_key": "aomoriwats|iwatebigbulls|ah:3.5:away|20261004",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:3.5:away",
+      "event": "Aomori Wats - Iwate Big Bulls",
+      "market": "ah",
+      "market_name": "Hendikep -3.5",
+      "tip": "Hendikep Iwate Big Bulls (-3.5)",
+      "odds": 1.833,
+      "stake": 2200,
+      "value_pct": 7.37,
+      "fair_pct": 58.6,
+      "start": "2026-10-04T06:05:00+00:00",
+      "start_ts": 1791093900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7075,
+      "clv_pct": null,
+      "close_fair_p": 0.5856397914159647,
+      "close_ts": 1791029000.829726,
       "close_provisional": true
     }
   ],
@@ -36749,17 +36809,19 @@
     "strasbourg|boulazacbasketdordogne|ou:167.5:under|20261003": 1791027101.961684,
     "kahramanmarasgenclikspor|keciorenbelediyesibaglum|ah:-10.5:away|20261003": 1791027101.961684,
     "aomoriwats|iwatebigbulls|ml:away|20261004": 1791027551.93123,
-    "promitheas|peristeri|ah:-9.5:away|20261003": 1791027731.906936
+    "promitheas|peristeri|ah:-9.5:away|20261003": 1791027731.906936,
+    "sastoulousemetropolen|flammescarolobasketn|ah:7.5:away|20261003": 1791028730.827669,
+    "aomoriwats|iwatebigbulls|ah:3.5:away|20261004": 1791028820.797525
   },
   "last_report_date": "2026-10-03",
-  "next_id": 1198,
+  "next_id": 1200,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791028366.62052,
+      "ts": 1791029000.829726,
       "ok": true,
-      "vegas_events": 2228,
-      "ref_events": 1988,
+      "vegas_events": 2175,
+      "ref_events": 1950,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
