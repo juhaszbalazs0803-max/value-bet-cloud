@@ -36025,7 +36025,7 @@
       "close_fair_odds": 1.9916,
       "clv_pct": null,
       "close_fair_p": 0.5020998969861856,
-      "close_ts": 1791042141.170343,
+      "close_ts": 1791042771.16307,
       "close_provisional": true
     },
     {
@@ -36295,7 +36295,7 @@
       "close_fair_odds": 1.4908,
       "clv_pct": null,
       "close_fair_p": 0.6707807888382078,
-      "close_ts": 1791042141.170343,
+      "close_ts": 1791042771.16307,
       "close_provisional": true
     },
     {
@@ -36505,7 +36505,7 @@
       "close_fair_odds": 1.771,
       "clv_pct": null,
       "close_fair_p": 0.5646620251082726,
-      "close_ts": 1791042141.170343,
+      "close_ts": 1791042771.16307,
       "close_provisional": true
     },
     {
@@ -36533,14 +36533,43 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.5463,
-      "clv_pct": null,
+      "clv_pct": 3.86,
       "close_fair_p": 0.6467123452338022,
-      "close_ts": 1791042141.170343,
-      "close_provisional": true
+      "close_ts": 1791042681.139441,
+      "close_provisional": false
+    },
+    {
+      "id": 1205,
+      "ts": 1791042591.149974,
+      "key": "67:17844023:ah:5.5:home",
+      "content_key": "estudiantesn|gironan|ah:5.5:home|20261003",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:5.5:home",
+      "event": "Estudiantes (N) - Girona (N)",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep Estudiantes (N) (+5.5)",
+      "odds": 1.909,
+      "stake": 2200,
+      "value_pct": 7.83,
+      "fair_pct": 56.5,
+      "start": "2026-10-03T16:00:00+00:00",
+      "start_ts": 1791043200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7704,
+      "clv_pct": 7.83,
+      "close_fair_p": 0.5648369132856006,
+      "close_ts": 1791042771.16307,
+      "close_provisional": false
     }
   ],
   "papered": {
-    "freserosdeirapuato|elcalordecancun|ou:169.5:over|20260820": 1787154555.782257,
     "doumbiasreboulf|schnaitterjwallnerm|ml:home|20260819": 1787155763.297222,
     "mitteldeutscherbc|basketballlowenbraunschweig|ou:166.5:under|20260819": 1787156329.062647,
     "freserosdeirapuato|elcalordecancun|ml:home|20260820": 1787156329.062647,
@@ -36962,22 +36991,27 @@
     "tps|jyp|ml:home|20261003": 1791029218.421036,
     "balkanbotevgrad|chernomoreig|ah:-11.5:away|20261003": 1791029578.378118,
     "darussafaka|finalgenclik|ou:158.5:under|20261004": 1791042141.170343,
-    "linkopings|ifbjorkloven|ml:home|20261003": 1791042141.170343
+    "linkopings|ifbjorkloven|ml:home|20261003": 1791042141.170343,
+    "estudiantesn|gironan|ah:5.5:home|20261003": 1791042591.149974
   },
   "last_report_date": "2026-10-03",
-  "next_id": 1205,
+  "next_id": 1206,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791042141.170343,
-      "ok": true,
-      "vegas_events": 2001,
-      "ref_events": 1693,
+      "ts": 1791042771.16307,
+      "ok": false,
+      "vegas_events": 1857,
+      "ref_events": 1528,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1790986331.3927937,
