@@ -36685,7 +36685,7 @@
       "close_fair_odds": 1.8934,
       "clv_pct": null,
       "close_fair_p": 0.5281630040537657,
-      "close_ts": 1791106209.749034,
+      "close_ts": 1791106839.788797,
       "close_provisional": true
     },
     {
@@ -36745,7 +36745,7 @@
       "close_fair_odds": 1.5953,
       "clv_pct": null,
       "close_fair_p": 0.6268464996788697,
-      "close_ts": 1791106209.749034,
+      "close_ts": 1791106839.788797,
       "close_provisional": true
     },
     {
@@ -36802,10 +36802,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6935,
+      "close_fair_odds": 1.6921,
       "clv_pct": null,
-      "close_fair_p": 0.5905094799279738,
-      "close_ts": 1791106209.749034,
+      "close_fair_p": 0.5909797822706065,
+      "close_ts": 1791106839.788797,
       "close_provisional": true
     },
     {
@@ -36835,7 +36835,7 @@
       "close_fair_odds": 1.7668,
       "clv_pct": null,
       "close_fair_p": 0.565987833906374,
-      "close_ts": 1791106209.749034,
+      "close_ts": 1791106839.788797,
       "close_provisional": true
     },
     {
@@ -36865,7 +36865,7 @@
       "close_fair_odds": 1.7541,
       "clv_pct": null,
       "close_fair_p": 0.5700863047322442,
-      "close_ts": 1791106209.749034,
+      "close_ts": 1791106839.788797,
       "close_provisional": true
     },
     {
@@ -36896,6 +36896,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5694699341466047,
       "close_ts": 1791105669.786801,
+      "close_provisional": true
+    },
+    {
+      "id": 1217,
+      "ts": 1791106389.757857,
+      "key": "67:17869106:ah:12.5:home",
+      "content_key": "cayirovabelediyesi|bahcesehirkoleji|ah:12.5:home|20261004",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:12.5:home",
+      "event": "Cayirova Belediyesi - Bahcesehir Koleji",
+      "market": "ah",
+      "market_name": "Hendikep +12.5",
+      "tip": "Hendikep Cayirova Belediyesi (+12.5)",
+      "odds": 1.8,
+      "stake": 1200,
+      "value_pct": 3.9,
+      "fair_pct": 57.7,
+      "start": "2026-10-04T10:00:00+00:00",
+      "start_ts": 1791108000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7324,
+      "clv_pct": null,
+      "close_fair_p": 0.5772276961902972,
+      "close_ts": 1791106569.804005,
       "close_provisional": true
     }
   ],
@@ -37322,17 +37352,18 @@
     "arisn|kronosagioudimitrioun|ml:away|20261004": 1791105579.797702,
     "bggottingen|sbbbasketswolmirstedt|ah:-7.5:away|20261004": 1791105579.797702,
     "giessen46ers|vflstarsbochum|ah:-11.5:away|20261004": 1791105579.797702,
-    "darussafaka|finalgenclik|ah:1.5:away|20261004": 1791105579.797702
+    "darussafaka|finalgenclik|ah:1.5:away|20261004": 1791105579.797702,
+    "cayirovabelediyesi|bahcesehirkoleji|ah:12.5:home|20261004": 1791106389.757857
   },
   "last_report_date": "2026-10-04",
-  "next_id": 1217,
+  "next_id": 1218,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791106209.749034,
+      "ts": 1791106839.788797,
       "ok": true,
-      "vegas_events": 1790,
-      "ref_events": 1555,
+      "vegas_events": 1787,
+      "ref_events": 1546,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
