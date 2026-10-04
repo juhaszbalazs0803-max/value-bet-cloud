@@ -36685,7 +36685,7 @@
       "close_fair_odds": 1.8934,
       "clv_pct": null,
       "close_fair_p": 0.5281630040537657,
-      "close_ts": 1791107469.786424,
+      "close_ts": 1791108099.775554,
       "close_provisional": true
     },
     {
@@ -36745,7 +36745,7 @@
       "close_fair_odds": 1.5953,
       "clv_pct": 17.22,
       "close_fair_p": 0.6268464996788697,
-      "close_ts": 1791107469.786424,
+      "close_ts": 1791107919.743833,
       "close_provisional": false
     },
     {
@@ -36805,7 +36805,7 @@
       "close_fair_odds": 1.6921,
       "clv_pct": 8.33,
       "close_fair_p": 0.5909797822706065,
-      "close_ts": 1791107469.786424,
+      "close_ts": 1791107919.743833,
       "close_provisional": false
     },
     {
@@ -36835,7 +36835,7 @@
       "close_fair_odds": 1.7471,
       "clv_pct": null,
       "close_fair_p": 0.5723932367914325,
-      "close_ts": 1791107469.786424,
+      "close_ts": 1791108099.775554,
       "close_provisional": true
     },
     {
@@ -36865,7 +36865,7 @@
       "close_fair_odds": 1.7541,
       "clv_pct": null,
       "close_fair_p": 0.5700863047322442,
-      "close_ts": 1791107469.786424,
+      "close_ts": 1791108099.775554,
       "close_provisional": true
     },
     {
@@ -36926,6 +36926,66 @@
       "clv_pct": null,
       "close_fair_p": 0.5772276961902972,
       "close_ts": 1791106569.804005,
+      "close_provisional": true
+    },
+    {
+      "id": 1218,
+      "ts": 1791107739.931575,
+      "key": "67:17853468:ml:home",
+      "content_key": "proteasvoulasn|pasgianninan|ml:home|20261004",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Proteas Voulas (N) - PAS Giannina (N)",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Proteas Voulas (N)",
+      "odds": 1.364,
+      "stake": 2200,
+      "value_pct": 3.11,
+      "fair_pct": 75.6,
+      "start": "2026-10-04T13:00:00+00:00",
+      "start_ts": 1791118800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3226,
+      "clv_pct": null,
+      "close_fair_p": 0.756113256113256,
+      "close_ts": 1791108099.775554,
+      "close_provisional": true
+    },
+    {
+      "id": 1219,
+      "ts": 1791107829.790415,
+      "key": "67:17853473:ah:2.5:home",
+      "content_key": "mkspruszkown|jeleniagoran|ah:2.5:home|20261004",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:2.5:home",
+      "event": "MKS Pruszkow (N) - Jelenia Gora (N)",
+      "market": "ah",
+      "market_name": "Hendikep +2.5",
+      "tip": "Hendikep MKS Pruszkow (N) (+2.5)",
+      "odds": 1.909,
+      "stake": 900,
+      "value_pct": 3.36,
+      "fair_pct": 54.1,
+      "start": "2026-10-04T13:00:00+00:00",
+      "start_ts": 1791118800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.847,
+      "clv_pct": null,
+      "close_fair_p": 0.5414199605270176,
+      "close_ts": 1791108099.775554,
       "close_provisional": true
     }
   ],
@@ -37353,17 +37413,19 @@
     "bggottingen|sbbbasketswolmirstedt|ah:-7.5:away|20261004": 1791105579.797702,
     "giessen46ers|vflstarsbochum|ah:-11.5:away|20261004": 1791105579.797702,
     "darussafaka|finalgenclik|ah:1.5:away|20261004": 1791105579.797702,
-    "cayirovabelediyesi|bahcesehirkoleji|ah:12.5:home|20261004": 1791106389.757857
+    "cayirovabelediyesi|bahcesehirkoleji|ah:12.5:home|20261004": 1791106389.757857,
+    "proteasvoulasn|pasgianninan|ml:home|20261004": 1791107739.931575,
+    "mkspruszkown|jeleniagoran|ah:2.5:home|20261004": 1791107829.790415
   },
   "last_report_date": "2026-10-04",
-  "next_id": 1218,
+  "next_id": 1220,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791107469.786424,
+      "ts": 1791108099.775554,
       "ok": true,
-      "vegas_events": 1799,
-      "ref_events": 1543,
+      "vegas_events": 1743,
+      "ref_events": 1503,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
