@@ -36685,7 +36685,7 @@
       "close_fair_odds": 1.8934,
       "clv_pct": null,
       "close_fair_p": 0.5281630040537657,
-      "close_ts": 1791106839.788797,
+      "close_ts": 1791107469.786424,
       "close_provisional": true
     },
     {
@@ -36743,10 +36743,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.5953,
-      "clv_pct": null,
+      "clv_pct": 17.22,
       "close_fair_p": 0.6268464996788697,
-      "close_ts": 1791106839.788797,
-      "close_provisional": true
+      "close_ts": 1791107469.786424,
+      "close_provisional": false
     },
     {
       "id": 1212,
@@ -36803,10 +36803,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.6921,
-      "clv_pct": null,
+      "clv_pct": 8.33,
       "close_fair_p": 0.5909797822706065,
-      "close_ts": 1791106839.788797,
-      "close_provisional": true
+      "close_ts": 1791107469.786424,
+      "close_provisional": false
     },
     {
       "id": 1214,
@@ -36832,10 +36832,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7668,
+      "close_fair_odds": 1.7471,
       "clv_pct": null,
-      "close_fair_p": 0.565987833906374,
-      "close_ts": 1791106839.788797,
+      "close_fair_p": 0.5723932367914325,
+      "close_ts": 1791107469.786424,
       "close_provisional": true
     },
     {
@@ -36865,7 +36865,7 @@
       "close_fair_odds": 1.7541,
       "clv_pct": null,
       "close_fair_p": 0.5700863047322442,
-      "close_ts": 1791106839.788797,
+      "close_ts": 1791107469.786424,
       "close_provisional": true
     },
     {
@@ -37360,10 +37360,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791106839.788797,
+      "ts": 1791107469.786424,
       "ok": true,
-      "vegas_events": 1787,
-      "ref_events": 1546,
+      "vegas_events": 1799,
+      "ref_events": 1543,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
