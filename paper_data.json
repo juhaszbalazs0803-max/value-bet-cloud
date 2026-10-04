@@ -37105,12 +37105,11 @@
       "close_fair_odds": 1.8018,
       "clv_pct": 3.79,
       "close_fair_p": 0.5550096927530075,
-      "close_ts": 1791129059.419038,
+      "close_ts": 1791129513.505016,
       "close_provisional": false
     }
   ],
   "papered": {
-    "bulgria|angola|ah:-6.5:away|20260820": 1787241414.306809,
     "solesdemexicali|minerosdezacatecas|ah:-3.5:away|20260821": 1787242764.32107,
     "diablosrojosdelmexico|lobosplateadosdelabuap|ou:164.5:under|20260821": 1787245048.930236,
     "santoandreapaba|veracruzcampinas|ml:away|20260820": 1787245948.935748,
@@ -37535,10 +37534,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791129059.419038,
+      "ts": 1791129693.551818,
       "ok": true,
-      "vegas_events": 1378,
-      "ref_events": 1183,
+      "vegas_events": 1342,
+      "ref_events": 1172,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
