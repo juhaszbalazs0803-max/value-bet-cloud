@@ -37047,6 +37047,36 @@
       "close_fair_p": 0.6119043204153531,
       "close_ts": 1791108459.779727,
       "close_provisional": false
+    },
+    {
+      "id": 1222,
+      "ts": 1791127348.605828,
+      "key": "67:17840128:ah:5.5:home",
+      "content_key": "dukesklosterneuburg|swansgmunden|ah:5.5:home|20261004",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:5.5:home",
+      "event": "Dukes Klosterneuburg - Swans Gmunden",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep Dukes Klosterneuburg (+5.5)",
+      "odds": 1.833,
+      "stake": 1200,
+      "value_pct": 3.88,
+      "fair_pct": 56.7,
+      "start": "2026-10-04T15:30:00+00:00",
+      "start_ts": 1791127800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7649,
+      "clv_pct": 3.86,
+      "close_fair_p": 0.5666022399322195,
+      "close_ts": 1791127708.605761,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -37469,26 +37499,23 @@
     "proteasvoulasn|pasgianninan|ml:home|20261004": 1791107739.931575,
     "mkspruszkown|jeleniagoran|ah:2.5:home|20261004": 1791107829.790415,
     "orangeacademy|mlpacademicsheidelberg|ah:12.5:home|20261004": 1791108189.759527,
-    "twenten|utrechtn|ou:3.5:over|20261004": 1791108279.760527
+    "twenten|utrechtn|ou:3.5:over|20261004": 1791108279.760527,
+    "dukesklosterneuburg|swansgmunden|ah:5.5:home|20261004": 1791127348.605828
   },
   "last_report_date": "2026-10-04",
-  "next_id": 1222,
+  "next_id": 1223,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791127168.649929,
-      "ok": false,
-      "vegas_events": 375,
-      "ref_events": 255,
+      "ts": 1791127798.620135,
+      "ok": true,
+      "vegas_events": 1372,
+      "ref_events": 1193,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1791080737.2752914,
