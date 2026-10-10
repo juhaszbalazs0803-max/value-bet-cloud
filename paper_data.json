@@ -37624,7 +37624,7 @@
       "close_fair_odds": 1.811,
       "clv_pct": null,
       "close_fair_p": 0.5521696098348701,
-      "close_ts": 1791645797.928039,
+      "close_ts": 1791646459.30277,
       "close_provisional": true
     },
     {
@@ -37924,7 +37924,7 @@
       "close_fair_odds": 1.3238,
       "clv_pct": null,
       "close_fair_p": 0.7554239439173264,
-      "close_ts": 1791645797.928039,
+      "close_ts": 1791646459.30277,
       "close_provisional": true
     },
     {
@@ -37954,7 +37954,7 @@
       "close_fair_odds": 1.886,
       "clv_pct": null,
       "close_fair_p": 0.5302120957010564,
-      "close_ts": 1791645797.928039,
+      "close_ts": 1791646459.30277,
       "close_provisional": true
     },
     {
@@ -37984,8 +37984,38 @@
       "close_fair_odds": 1.8762,
       "clv_pct": null,
       "close_fair_p": 0.532998902649318,
-      "close_ts": 1791645797.928039,
+      "close_ts": 1791646459.30277,
       "close_provisional": true
+    },
+    {
+      "id": 1253,
+      "ts": 1791645919.327675,
+      "key": "67:17979666:ah:-13.5:away",
+      "content_key": "hoops|shaabhadramout|ah:-13.5:away|20261010",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-13.5:away",
+      "event": "Hoops - Shaab Hadramout",
+      "market": "ah",
+      "market_name": "Hendikep +13.5",
+      "tip": "Hendikep Shaab Hadramout (+13.5)",
+      "odds": 1.833,
+      "stake": 1700,
+      "value_pct": 5.67,
+      "fair_pct": 57.6,
+      "start": "2026-10-10T15:30:00+00:00",
+      "start_ts": 1791646200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7351,
+      "clv_pct": 5.64,
+      "close_fair_p": 0.5763461234801832,
+      "close_ts": 1791646099.323335,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -38303,26 +38333,23 @@
     "wetterbygdenstars|malbas|ah:-16.5:away|20261010": 1791621952.054421,
     "minyor2015|shumen|ml:home|20261010": 1791644531.68804,
     "uniaosportivan|cabmadeiran|ml:away|20261010": 1791644531.68804,
-    "servette|davos|ml:away|20261010": 1791644531.68804
+    "servette|davos|ml:away|20261010": 1791644531.68804,
+    "hoops|shaabhadramout|ah:-13.5:away|20261010": 1791645919.327675
   },
   "last_report_date": "2026-10-10",
-  "next_id": 1253,
+  "next_id": 1254,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791645797.928039,
-      "ok": false,
-      "vegas_events": 574,
-      "ref_events": 557,
+      "ts": 1791646459.30277,
+      "ok": true,
+      "vegas_events": 1954,
+      "ref_events": 1781,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1791621607.6557374,
