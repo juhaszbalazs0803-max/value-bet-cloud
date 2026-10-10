@@ -37621,10 +37621,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8463,
+      "close_fair_odds": 1.811,
       "clv_pct": null,
-      "close_fair_p": 0.5416154268819173,
-      "close_ts": 1791644531.68804,
+      "close_fair_p": 0.5521696098348701,
+      "close_ts": 1791645071.611762,
       "close_provisional": true
     },
     {
@@ -37924,7 +37924,7 @@
       "close_fair_odds": 1.3238,
       "clv_pct": null,
       "close_fair_p": 0.7554239439173264,
-      "close_ts": 1791644531.68804,
+      "close_ts": 1791645071.611762,
       "close_provisional": true
     },
     {
@@ -37954,7 +37954,7 @@
       "close_fair_odds": 1.8837,
       "clv_pct": null,
       "close_fair_p": 0.5308710338335456,
-      "close_ts": 1791644531.68804,
+      "close_ts": 1791645071.611762,
       "close_provisional": true
     },
     {
@@ -37984,7 +37984,7 @@
       "close_fair_odds": 1.7795,
       "clv_pct": null,
       "close_fair_p": 0.5619570541076999,
-      "close_ts": 1791644531.68804,
+      "close_ts": 1791645161.683944,
       "close_provisional": true
     }
   ],
@@ -38310,15 +38310,19 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791644531.68804,
-      "ok": true,
-      "vegas_events": 1962,
-      "ref_events": 1821,
+      "ts": 1791645161.683944,
+      "ok": false,
+      "vegas_events": 1628,
+      "ref_events": 1446,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1791621607.6557374,
