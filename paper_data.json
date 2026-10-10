@@ -37321,7 +37321,7 @@
       "close_fair_odds": 1.7275,
       "clv_pct": null,
       "close_fair_p": 0.5788712011577425,
-      "close_ts": 1791622132.128695,
+      "close_ts": 1791622651.822577,
       "close_provisional": true
     },
     {
@@ -37351,7 +37351,7 @@
       "close_fair_odds": 1.8202,
       "clv_pct": null,
       "close_fair_p": 0.5493772835160146,
-      "close_ts": 1791622132.128695,
+      "close_ts": 1791622651.822577,
       "close_provisional": true
     },
     {
@@ -37594,7 +37594,7 @@
       "close_fair_odds": 1.7576,
       "clv_pct": null,
       "close_fair_p": 0.5689595018920588,
-      "close_ts": 1791622132.128695,
+      "close_ts": 1791622651.822577,
       "close_provisional": true
     },
     {
@@ -37654,7 +37654,7 @@
       "close_fair_odds": 1.6527,
       "clv_pct": null,
       "close_fair_p": 0.6050690765555209,
-      "close_ts": 1791622132.128695,
+      "close_ts": 1791622651.822577,
       "close_provisional": true
     },
     {
@@ -37684,7 +37684,7 @@
       "close_fair_odds": 2.0246,
       "clv_pct": null,
       "close_fair_p": 0.49393113036038927,
-      "close_ts": 1791622132.128695,
+      "close_ts": 1791622651.822577,
       "close_provisional": true
     },
     {
@@ -37714,7 +37714,7 @@
       "close_fair_odds": 1.8104,
       "clv_pct": null,
       "close_fair_p": 0.5523773930071488,
-      "close_ts": 1791622132.128695,
+      "close_ts": 1791622651.822577,
       "close_provisional": true
     },
     {
@@ -37801,10 +37801,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.85,
+      "close_fair_odds": 1.8075,
       "clv_pct": null,
-      "close_fair_p": 0.5405327491813741,
-      "close_ts": 1791622132.128695,
+      "close_fair_p": 0.5532500343388809,
+      "close_ts": 1791622651.822577,
       "close_provisional": true
     },
     {
@@ -37834,7 +37834,7 @@
       "close_fair_odds": 1.7744,
       "clv_pct": null,
       "close_fair_p": 0.5635815208763296,
-      "close_ts": 1791622132.128695,
+      "close_ts": 1791622651.822577,
       "close_provisional": true
     },
     {
@@ -37894,7 +37894,7 @@
       "close_fair_odds": 2.046,
       "clv_pct": null,
       "close_fair_p": 0.48876127973748984,
-      "close_ts": 1791622132.128695,
+      "close_ts": 1791622651.822577,
       "close_provisional": true
     }
   ],
@@ -38212,15 +38212,15 @@
     "mkspruszkown|contimaxmosirbochnian|ah:22.5:away|20261010": 1791621592.065448,
     "wetterbygdenstars|malbas|ah:-16.5:away|20261010": 1791621952.054421
   },
-  "last_report_date": "2026-10-09",
+  "last_report_date": "2026-10-10",
   "next_id": 1250,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791622132.128695,
+      "ts": 1791622651.822577,
       "ok": true,
-      "vegas_events": 2329,
-      "ref_events": 2192,
+      "vegas_events": 2331,
+      "ref_events": 2193,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
