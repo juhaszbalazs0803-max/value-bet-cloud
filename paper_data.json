@@ -38170,7 +38170,7 @@
       "close_fair_odds": 1.7716,
       "clv_pct": null,
       "close_fair_p": 0.5644766347913499,
-      "close_ts": 1791716871.041563,
+      "close_ts": 1791717501.054042,
       "close_provisional": true
     },
     {
@@ -38230,7 +38230,7 @@
       "close_fair_odds": 1.5046,
       "clv_pct": null,
       "close_fair_p": 0.6646481057528987,
-      "close_ts": 1791716871.041563,
+      "close_ts": 1791717501.054042,
       "close_provisional": true
     },
     {
@@ -38290,7 +38290,7 @@
       "close_fair_odds": 1.8597,
       "clv_pct": null,
       "close_fair_p": 0.5377211378179276,
-      "close_ts": 1791716871.041563,
+      "close_ts": 1791717501.054042,
       "close_provisional": true
     },
     {
@@ -38350,7 +38350,7 @@
       "close_fair_odds": 1.7374,
       "clv_pct": null,
       "close_fair_p": 0.5755782678859601,
-      "close_ts": 1791716871.041563,
+      "close_ts": 1791717501.054042,
       "close_provisional": true
     },
     {
@@ -38380,7 +38380,7 @@
       "close_fair_odds": 1.336,
       "clv_pct": null,
       "close_fair_p": 0.7485124366602889,
-      "close_ts": 1791716871.041563,
+      "close_ts": 1791717501.054042,
       "close_provisional": true
     },
     {
@@ -38410,7 +38410,7 @@
       "close_fair_odds": 1.6759,
       "clv_pct": null,
       "close_fair_p": 0.596690357483823,
-      "close_ts": 1791716871.041563,
+      "close_ts": 1791717501.054042,
       "close_provisional": true
     },
     {
@@ -38440,7 +38440,7 @@
       "close_fair_odds": 1.6857,
       "clv_pct": null,
       "close_fair_p": 0.5932271022319172,
-      "close_ts": 1791716871.041563,
+      "close_ts": 1791717501.054042,
       "close_provisional": true
     },
     {
@@ -38501,6 +38501,66 @@
       "clv_pct": null,
       "close_fair_p": 0.5882814338379481,
       "close_ts": 1791715341.02984,
+      "close_provisional": true
+    },
+    {
+      "id": 1270,
+      "ts": 1791716961.058056,
+      "key": "67:17933564:ml:home",
+      "content_key": "lasko|sentjur|ml:home|20261011",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Lasko - Sentjur",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Lasko",
+      "odds": 1.455,
+      "stake": 2200,
+      "value_pct": 4.06,
+      "fair_pct": 71.5,
+      "start": "2026-10-11T16:00:00+00:00",
+      "start_ts": 1791734400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5196,
+      "clv_pct": null,
+      "close_fair_p": 0.6580544898256521,
+      "close_ts": 1791717501.054042,
+      "close_provisional": true
+    },
+    {
+      "id": 1271,
+      "ts": 1791716961.058056,
+      "key": "67:17933564:ah:-4.5:home",
+      "content_key": "lasko|sentjur|ah:-4.5:home|20261011",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-4.5:home",
+      "event": "Lasko - Sentjur",
+      "market": "ah",
+      "market_name": "Hendikep -4.5",
+      "tip": "Hendikep Lasko (-4.5)",
+      "odds": 1.833,
+      "stake": 1700,
+      "value_pct": 5.53,
+      "fair_pct": 57.6,
+      "start": "2026-10-11T16:00:00+00:00",
+      "start_ts": 1791734400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9644,
+      "clv_pct": null,
+      "close_fair_p": 0.5090514701944191,
+      "close_ts": 1791717501.054042,
       "close_provisional": true
     }
   ],
@@ -38835,16 +38895,18 @@
     "rokiskiswomen|kaunoaisteslsmun|ah:-5.5:home|20261011": 1791714981.00769,
     "okkbeograd|spdradnickikragujevac|ah:-6.5:away|20261011": 1791714981.00769,
     "wislakrakown|skkpoloniawarszawan|ah:-11.5:away|20261011": 1791715071.002787,
-    "guangdongsoutherntigers|tianjinpioneers|ah:-4.5:away|20261011": 1791715341.02984
+    "guangdongsoutherntigers|tianjinpioneers|ah:-4.5:away|20261011": 1791715341.02984,
+    "lasko|sentjur|ml:home|20261011": 1791716961.058056,
+    "lasko|sentjur|ah:-4.5:home|20261011": 1791716961.058056
   },
   "last_report_date": "2026-10-11",
-  "next_id": 1270,
+  "next_id": 1272,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791716871.041563,
+      "ts": 1791717501.054042,
       "ok": true,
-      "vegas_events": 1715,
+      "vegas_events": 1716,
       "ref_events": 1495,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
