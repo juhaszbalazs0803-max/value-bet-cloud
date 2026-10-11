@@ -38170,7 +38170,7 @@
       "close_fair_odds": 1.7716,
       "clv_pct": null,
       "close_fair_p": 0.5644766347913499,
-      "close_ts": 1791714981.00769,
+      "close_ts": 1791715611.052881,
       "close_provisional": true
     },
     {
@@ -38230,7 +38230,7 @@
       "close_fair_odds": 1.5046,
       "clv_pct": null,
       "close_fair_p": 0.6646481057528987,
-      "close_ts": 1791714981.00769,
+      "close_ts": 1791715611.052881,
       "close_provisional": true
     },
     {
@@ -38290,7 +38290,7 @@
       "close_fair_odds": 1.8597,
       "clv_pct": null,
       "close_fair_p": 0.5377211378179276,
-      "close_ts": 1791714981.00769,
+      "close_ts": 1791715611.052881,
       "close_provisional": true
     },
     {
@@ -38320,7 +38320,7 @@
       "close_fair_odds": 1.7456,
       "clv_pct": null,
       "close_fair_p": 0.5728578344360173,
-      "close_ts": 1791714981.00769,
+      "close_ts": 1791715521.050971,
       "close_provisional": true
     },
     {
@@ -38350,7 +38350,7 @@
       "close_fair_odds": 1.7374,
       "clv_pct": null,
       "close_fair_p": 0.5755782678859601,
-      "close_ts": 1791714981.00769,
+      "close_ts": 1791715611.052881,
       "close_provisional": true
     },
     {
@@ -38380,7 +38380,7 @@
       "close_fair_odds": 1.336,
       "clv_pct": null,
       "close_fair_p": 0.7485124366602889,
-      "close_ts": 1791714981.00769,
+      "close_ts": 1791715611.052881,
       "close_provisional": true
     },
     {
@@ -38410,7 +38410,7 @@
       "close_fair_odds": 1.6759,
       "clv_pct": null,
       "close_fair_p": 0.596690357483823,
-      "close_ts": 1791714981.00769,
+      "close_ts": 1791715611.052881,
       "close_provisional": true
     },
     {
@@ -38437,10 +38437,70 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6814,
+      "close_fair_odds": 1.6857,
       "clv_pct": null,
-      "close_fair_p": 0.5947481613254387,
-      "close_ts": 1791714981.00769,
+      "close_fair_p": 0.5932271022319172,
+      "close_ts": 1791715611.052881,
+      "close_provisional": true
+    },
+    {
+      "id": 1268,
+      "ts": 1791715071.002787,
+      "key": "67:17972909:ah:-11.5:away",
+      "content_key": "wislakrakown|skkpoloniawarszawan|ah:-11.5:away|20261011",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-11.5:away",
+      "event": "Wisla Krakow  (N) - Skk Polonia Warszawa (N)",
+      "market": "ah",
+      "market_name": "Hendikep +11.5",
+      "tip": "Hendikep Skk Polonia Warszawa (N) (+11.5)",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.52,
+      "fair_pct": 57.0,
+      "start": "2026-10-11T15:00:00+00:00",
+      "start_ts": 1791730800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9722,
+      "clv_pct": null,
+      "close_fair_p": 0.5070448944605165,
+      "close_ts": 1791715611.052881,
+      "close_provisional": true
+    },
+    {
+      "id": 1269,
+      "ts": 1791715341.02984,
+      "key": "67:17994686:ah:-4.5:away",
+      "content_key": "guangdongsoutherntigers|tianjinpioneers|ah:-4.5:away|20261011",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-4.5:away",
+      "event": "Guangdong Southern Tigers - Tianjin Pioneers",
+      "market": "ah",
+      "market_name": "Hendikep +4.5",
+      "tip": "Hendikep Tianjin Pioneers (+4.5)",
+      "odds": 1.833,
+      "stake": 2400,
+      "value_pct": 7.86,
+      "fair_pct": 58.8,
+      "start": "2026-10-11T11:30:00+00:00",
+      "start_ts": 1791718200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6999,
+      "clv_pct": null,
+      "close_fair_p": 0.5882814338379481,
+      "close_ts": 1791715341.02984,
       "close_provisional": true
     }
   ],
@@ -38773,17 +38833,19 @@
     "nottinghamhoods|essexrebels|ah:-9.5:home|20261011": 1791714981.00769,
     "rokiskiswomen|kaunoaisteslsmun|ml:home|20261011": 1791714981.00769,
     "rokiskiswomen|kaunoaisteslsmun|ah:-5.5:home|20261011": 1791714981.00769,
-    "okkbeograd|spdradnickikragujevac|ah:-6.5:away|20261011": 1791714981.00769
+    "okkbeograd|spdradnickikragujevac|ah:-6.5:away|20261011": 1791714981.00769,
+    "wislakrakown|skkpoloniawarszawan|ah:-11.5:away|20261011": 1791715071.002787,
+    "guangdongsoutherntigers|tianjinpioneers|ah:-4.5:away|20261011": 1791715341.02984
   },
   "last_report_date": "2026-10-11",
-  "next_id": 1268,
+  "next_id": 1270,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791714981.00769,
+      "ts": 1791715611.052881,
       "ok": true,
-      "vegas_events": 1751,
-      "ref_events": 1537,
+      "vegas_events": 1753,
+      "ref_events": 1529,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
