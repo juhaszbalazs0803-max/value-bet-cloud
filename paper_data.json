@@ -38839,7 +38839,7 @@
       "close_fair_odds": 2.0153,
       "clv_pct": null,
       "close_fair_p": 0.4962096422338569,
-      "close_ts": 1791924398.346852,
+      "close_ts": 1791925030.243652,
       "close_provisional": true
     },
     {
@@ -38869,7 +38869,7 @@
       "close_fair_odds": 1.9108,
       "clv_pct": null,
       "close_fair_p": 0.5233507110298331,
-      "close_ts": 1791924398.346852,
+      "close_ts": 1791925030.243652,
       "close_provisional": true
     },
     {
@@ -38926,10 +38926,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7508,
+      "close_fair_odds": 1.9924,
       "clv_pct": null,
-      "close_fair_p": 0.5711668507691893,
-      "close_ts": 1791924398.346852,
+      "close_fair_p": 0.5018954373142063,
+      "close_ts": 1791924850.261354,
       "close_provisional": true
     },
     {
@@ -38959,7 +38959,37 @@
       "close_fair_odds": 1.7794,
       "clv_pct": null,
       "close_fair_p": 0.5619941380515744,
-      "close_ts": 1791924398.346852,
+      "close_ts": 1791924490.221789,
+      "close_provisional": true
+    },
+    {
+      "id": 1285,
+      "ts": 1791924940.280101,
+      "key": "67:17970624:ah:-4.5:home",
+      "content_key": "kagoshimarebnise|aomoriwats|ah:-4.5:home|20261014",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-4.5:home",
+      "event": "Kagoshima Rebnise - Aomori Wats",
+      "market": "ah",
+      "market_name": "Hendikep -4.5",
+      "tip": "Hendikep Kagoshima Rebnise (-4.5)",
+      "odds": 1.8,
+      "stake": 1100,
+      "value_pct": 3.51,
+      "fair_pct": 57.5,
+      "start": "2026-10-14T10:05:00+00:00",
+      "start_ts": 1791972300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.739,
+      "clv_pct": null,
+      "close_fair_p": 0.5750523996345462,
+      "close_ts": 1791925030.243652,
       "close_provisional": true
     }
   ],
@@ -39289,17 +39319,18 @@
     "donargroningen|spiroucharleroi|ah:1.5:home|20261014": 1791921864.326473,
     "fukuiblowwinds|yamagatawyverns|ah:-11.5:away|20261014": 1791921864.326473,
     "kagoshimarebnise|aomoriwats|ah:-6.5:away|20261014": 1791924218.308345,
-    "kagoshimarebnise|aomoriwats|ou:169.5:over|20261014": 1791924308.319116
+    "kagoshimarebnise|aomoriwats|ou:169.5:over|20261014": 1791924308.319116,
+    "kagoshimarebnise|aomoriwats|ah:-4.5:home|20261014": 1791924940.280101
   },
   "last_report_date": "2026-10-13",
-  "next_id": 1285,
+  "next_id": 1286,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791924398.346852,
+      "ts": 1791925030.243652,
       "ok": true,
-      "vegas_events": 1859,
-      "ref_events": 1244,
+      "vegas_events": 1861,
+      "ref_events": 1240,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
