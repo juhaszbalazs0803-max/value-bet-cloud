@@ -38839,7 +38839,7 @@
       "close_fair_odds": 2.0466,
       "clv_pct": null,
       "close_fair_p": 0.4886267672777793,
-      "close_ts": 1791976186.786756,
+      "close_ts": 1791976816.788921,
       "close_provisional": true
     },
     {
@@ -38869,7 +38869,7 @@
       "close_fair_odds": 1.9277,
       "clv_pct": null,
       "close_fair_p": 0.5187621100892394,
-      "close_ts": 1791976186.786756,
+      "close_ts": 1791976816.788921,
       "close_provisional": true
     },
     {
@@ -38990,6 +38990,36 @@
       "clv_pct": null,
       "close_fair_p": 0.5750523996345462,
       "close_ts": 1791925030.243652,
+      "close_provisional": true
+    },
+    {
+      "id": 1286,
+      "ts": 1791976366.831745,
+      "key": "67:18006745:ah:-4.5:away",
+      "content_key": "kkprimorjehn1945|kkcedevitazagrebjunior|ah:-4.5:away|20261014",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-4.5:away",
+      "event": "Kk Primorje Hn 1945 - Kk Cedevita Zagreb Junior",
+      "market": "ah",
+      "market_name": "Hendikep +4.5",
+      "tip": "Hendikep Kk Cedevita Zagreb Junior (+4.5)",
+      "odds": 1.909,
+      "stake": 1300,
+      "value_pct": 4.75,
+      "fair_pct": 54.9,
+      "start": "2026-10-14T16:00:00+00:00",
+      "start_ts": 1791993600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8225,
+      "clv_pct": null,
+      "close_fair_p": 0.5486895376092051,
+      "close_ts": 1791976816.788921,
       "close_provisional": true
     }
   ],
@@ -39318,17 +39348,18 @@
     "fukuiblowwinds|yamagatawyverns|ah:-11.5:away|20261014": 1791921864.326473,
     "kagoshimarebnise|aomoriwats|ah:-6.5:away|20261014": 1791924218.308345,
     "kagoshimarebnise|aomoriwats|ou:169.5:over|20261014": 1791924308.319116,
-    "kagoshimarebnise|aomoriwats|ah:-4.5:home|20261014": 1791924940.280101
+    "kagoshimarebnise|aomoriwats|ah:-4.5:home|20261014": 1791924940.280101,
+    "kkprimorjehn1945|kkcedevitazagrebjunior|ah:-4.5:away|20261014": 1791976366.831745
   },
   "last_report_date": "2026-10-14",
-  "next_id": 1286,
+  "next_id": 1287,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791976186.786756,
+      "ts": 1791976816.788921,
       "ok": true,
-      "vegas_events": 1894,
-      "ref_events": 1392,
+      "vegas_events": 1898,
+      "ref_events": 1396,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
