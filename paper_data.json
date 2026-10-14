@@ -38047,11 +38047,11 @@
       "fair_pct": 55.6,
       "start": "2026-10-11T07:05:00+00:00",
       "start_ts": 1791702300.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1791976193.095776,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.7454,
       "clv_pct": null,
@@ -38836,10 +38836,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.0153,
+      "close_fair_odds": 2.0466,
       "clv_pct": null,
-      "close_fair_p": 0.4962096422338569,
-      "close_ts": 1791925030.243652,
+      "close_fair_p": 0.4886267672777793,
+      "close_ts": 1791976186.786756,
       "close_provisional": true
     },
     {
@@ -38866,10 +38866,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9108,
+      "close_fair_odds": 1.9277,
       "clv_pct": null,
-      "close_fair_p": 0.5233507110298331,
-      "close_ts": 1791925030.243652,
+      "close_fair_p": 0.5187621100892394,
+      "close_ts": 1791976186.786756,
       "close_provisional": true
     },
     {
@@ -38994,7 +38994,6 @@
     }
   ],
   "papered": {
-    "gimnasiaconcepcion|independientedechivilcoy|ou:2.5:under|20260830": 1788073016.166453,
     "fuerzaregia|abejasdeleon|ah:-7.5:away|20260830": 1788093319.919723,
     "polpharmastarogardgdanski|skkkotwicakolobrzeg|ah:-5.5:away|20260830": 1788093679.954315,
     "cambridgeunitedwomen|dulwichhamletn|ml:home|20260830": 1788094219.899326,
@@ -39321,31 +39320,23 @@
     "kagoshimarebnise|aomoriwats|ou:169.5:over|20261014": 1791924308.319116,
     "kagoshimarebnise|aomoriwats|ah:-4.5:home|20261014": 1791924940.280101
   },
-  "last_report_date": "2026-10-13",
+  "last_report_date": "2026-10-14",
   "next_id": 1286,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1791959995.482109,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1791976186.786756,
+      "ok": true,
+      "vegas_events": 1894,
+      "ref_events": 1392,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1791958286.2852848,
-    "alert_active": true
+    "alert_active": false
   }
 }
