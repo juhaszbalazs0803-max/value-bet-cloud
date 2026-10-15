@@ -39121,7 +39121,7 @@
       "close_fair_odds": 1.4522,
       "clv_pct": null,
       "close_fair_p": 0.688590763385967,
-      "close_ts": 1792056102.72245,
+      "close_ts": 1792056765.885958,
       "close_provisional": true
     },
     {
@@ -39151,7 +39151,7 @@
       "close_fair_odds": 1.7794,
       "clv_pct": null,
       "close_fair_p": 0.5619941380515744,
-      "close_ts": 1792056102.72245,
+      "close_ts": 1792056765.885958,
       "close_provisional": true
     },
     {
@@ -39181,7 +39181,7 @@
       "close_fair_odds": 1.7757,
       "clv_pct": null,
       "close_fair_p": 0.5631514823338297,
-      "close_ts": 1792056102.72245,
+      "close_ts": 1792056765.885958,
       "close_provisional": true
     },
     {
@@ -39211,7 +39211,37 @@
       "close_fair_odds": 2.0663,
       "clv_pct": null,
       "close_fair_p": 0.4839562716392683,
-      "close_ts": 1792056102.72245,
+      "close_ts": 1792056765.885958,
+      "close_provisional": true
+    },
+    {
+      "id": 1293,
+      "ts": 1792056585.905447,
+      "key": "67:18020681:ml:home",
+      "content_key": "diablosrojosdelmexico|minerosdezacatecas|ml:home|20261016",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Diablos Rojos Del Mexico - Mineros de Zacatecas",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Diablos Rojos Del Mexico",
+      "odds": 1.909,
+      "stake": 2400,
+      "value_pct": 8.84,
+      "fair_pct": 57.0,
+      "start": "2026-10-16T02:15:00+00:00",
+      "start_ts": 1792116900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.754,
+      "clv_pct": null,
+      "close_fair_p": 0.5701132196675677,
+      "close_ts": 1792056765.885958,
       "close_provisional": true
     }
   ],
@@ -39537,17 +39567,18 @@
     "aanekoskenhuima|lappeenrannannmky|ml:home|20261015": 1792054199.017894,
     "keflavik|umfsindri|ou:189.5:under|20261015": 1792054288.987102,
     "keflavik|umfsindri|ah:-13.5:away|20261015": 1792054288.987102,
-    "bczalgiriskaunasii|atletaskaunas|ah:-15.5:away|20261015": 1792054649.023634
+    "bczalgiriskaunasii|atletaskaunas|ah:-15.5:away|20261015": 1792054649.023634,
+    "diablosrojosdelmexico|minerosdezacatecas|ml:home|20261016": 1792056585.905447
   },
   "last_report_date": "2026-10-15",
-  "next_id": 1293,
+  "next_id": 1294,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792056102.72245,
+      "ts": 1792056765.885958,
       "ok": true,
-      "vegas_events": 1939,
-      "ref_events": 1581,
+      "vegas_events": 1942,
+      "ref_events": 1585,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
