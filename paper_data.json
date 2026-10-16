@@ -39481,7 +39481,7 @@
       "close_fair_odds": 1.8443,
       "clv_pct": null,
       "close_fair_p": 0.5422128114739172,
-      "close_ts": 1792180166.227936,
+      "close_ts": 1792180796.241712,
       "close_provisional": true
     },
     {
@@ -39661,7 +39661,7 @@
       "close_fair_odds": 1.8085,
       "clv_pct": null,
       "close_fair_p": 0.5529539381432389,
-      "close_ts": 1792180166.227936,
+      "close_ts": 1792180796.241712,
       "close_provisional": true
     },
     {
@@ -39778,10 +39778,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7179,
+      "close_fair_odds": 1.7082,
       "clv_pct": null,
-      "close_fair_p": 0.5820929816947076,
-      "close_ts": 1792180166.227936,
+      "close_fair_p": 0.5854055842602256,
+      "close_ts": 1792180796.241712,
       "close_provisional": true
     },
     {
@@ -39931,7 +39931,7 @@
       "close_fair_odds": 1.7506,
       "clv_pct": null,
       "close_fair_p": 0.5712293499249088,
-      "close_ts": 1792180166.227936,
+      "close_ts": 1792180796.241712,
       "close_provisional": true
     },
     {
@@ -39961,7 +39961,7 @@
       "close_fair_odds": 1.7154,
       "clv_pct": null,
       "close_fair_p": 0.582952576020167,
-      "close_ts": 1792180166.227936,
+      "close_ts": 1792180796.241712,
       "close_provisional": true
     },
     {
@@ -40021,7 +40021,7 @@
       "close_fair_odds": 1.8537,
       "clv_pct": null,
       "close_fair_p": 0.5394711392335111,
-      "close_ts": 1792180166.227936,
+      "close_ts": 1792180796.241712,
       "close_provisional": true
     },
     {
@@ -40048,10 +40048,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4135,
+      "close_fair_odds": 1.4977,
       "clv_pct": null,
-      "close_fair_p": 0.7074861910917851,
-      "close_ts": 1792180166.227936,
+      "close_fair_p": 0.6676836129935733,
+      "close_ts": 1792180796.241712,
       "close_provisional": true
     },
     {
@@ -40078,10 +40078,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.546,
+      "close_fair_odds": 1.6865,
       "clv_pct": null,
-      "close_fair_p": 0.6468338509715341,
-      "close_ts": 1792180166.227936,
+      "close_fair_p": 0.5929599482507681,
+      "close_ts": 1792180796.241712,
+      "close_provisional": true
+    },
+    {
+      "id": 1322,
+      "ts": 1792180256.25538,
+      "key": "67:18042453:ah:4.5:away",
+      "content_key": "sichuanbluewhales|tianjinpioneers|ah:4.5:away|20261017",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:4.5:away",
+      "event": "Sichuan Blue Whales - Tianjin Pioneers",
+      "market": "ah",
+      "market_name": "Hendikep -4.5",
+      "tip": "Hendikep Tianjin Pioneers (-4.5)",
+      "odds": 1.833,
+      "stake": 1100,
+      "value_pct": 3.78,
+      "fair_pct": 56.6,
+      "start": "2026-10-17T11:35:00+00:00",
+      "start_ts": 1792236900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 2.019,
+      "clv_pct": null,
+      "close_fair_p": 0.4952875290260894,
+      "close_ts": 1792180796.241712,
       "close_provisional": true
     }
   ],
@@ -40429,22 +40459,27 @@
     "gigantesdecarolina|monarcasdejuanadiaz|ou:147.5:under|20261017": 1792178235.984872,
     "alqazeresextremadura|ardoibalonceston|ml:away|20261017": 1792178685.953464,
     "solgironesbisbal|abcastello|ml:away|20261017": 1792178685.953464,
-    "molinabasket|cbpenashuesca|ml:away|20261017": 1792178685.953464
+    "molinabasket|cbpenashuesca|ml:away|20261017": 1792178685.953464,
+    "sichuanbluewhales|tianjinpioneers|ah:4.5:away|20261017": 1792180256.25538
   },
   "last_report_date": "2026-10-16",
-  "next_id": 1322,
+  "next_id": 1323,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792180166.227936,
-      "ok": true,
-      "vegas_events": 2387,
-      "ref_events": 1912,
+      "ts": 1792180796.241712,
+      "ok": false,
+      "vegas_events": 2277,
+      "ref_events": 1727,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1792179628.792988,
