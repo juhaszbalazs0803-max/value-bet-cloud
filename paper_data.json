@@ -40054,7 +40054,7 @@
       "close_fair_odds": 1.7799,
       "clv_pct": null,
       "close_fair_p": 0.5618285463714098,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40084,7 +40084,7 @@
       "close_fair_odds": 1.6853,
       "clv_pct": null,
       "close_fair_p": 0.5933757686913367,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40144,7 +40144,7 @@
       "close_fair_odds": 1.7499,
       "clv_pct": null,
       "close_fair_p": 0.5714499513606546,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40171,10 +40171,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9769,
+      "close_fair_odds": 1.9763,
       "clv_pct": null,
-      "close_fair_p": 0.5058441558441558,
-      "close_ts": 1792232320.993412,
+      "close_fair_p": 0.5059995168174376,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40204,7 +40204,7 @@
       "close_fair_odds": 1.7694,
       "clv_pct": null,
       "close_fair_p": 0.5651758755064646,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40324,7 +40324,7 @@
       "close_fair_odds": 1.3922,
       "clv_pct": null,
       "close_fair_p": 0.7182816492851717,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40414,7 +40414,7 @@
       "close_fair_odds": 1.7576,
       "clv_pct": null,
       "close_fair_p": 0.5689606124085138,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40444,7 +40444,7 @@
       "close_fair_odds": 1.4521,
       "clv_pct": null,
       "close_fair_p": 0.6886350961421887,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40501,10 +40501,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.0885,
+      "close_fair_odds": 2.3224,
       "clv_pct": null,
-      "close_fair_p": 0.4788179706895172,
-      "close_ts": 1792232320.993412,
+      "close_fair_p": 0.43059564418787716,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40534,7 +40534,7 @@
       "close_fair_odds": 2.0748,
       "clv_pct": null,
       "close_fair_p": 0.48197932844213565,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232590.950086,
       "close_provisional": true
     },
     {
@@ -40564,7 +40564,7 @@
       "close_fair_odds": 1.6433,
       "clv_pct": null,
       "close_fair_p": 0.6085454217271344,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     },
     {
@@ -40594,7 +40594,67 @@
       "close_fair_odds": 1.6902,
       "clv_pct": null,
       "close_fair_p": 0.5916424945612763,
-      "close_ts": 1792232320.993412,
+      "close_ts": 1792232951.032209,
+      "close_provisional": true
+    },
+    {
+      "id": 1339,
+      "ts": 1792232590.950086,
+      "key": "67:18073654:ou:166.5:under",
+      "content_key": "rostockseawolvesacademy|scristwedel|ou:166.5:under|20261017",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:166.5:under",
+      "event": "Rostock Seawolves Academy - SC Rist Wedel",
+      "market": "ou",
+      "market_name": "O/U 166.5",
+      "tip": "Kevesebb mint 166.5",
+      "odds": 1.87,
+      "stake": 1100,
+      "value_pct": 3.83,
+      "fair_pct": 55.5,
+      "start": "2026-10-17T16:30:00+00:00",
+      "start_ts": 1792254600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 2.0546,
+      "clv_pct": null,
+      "close_fair_p": 0.4867116871800458,
+      "close_ts": 1792232951.032209,
+      "close_provisional": true
+    },
+    {
+      "id": 1340,
+      "ts": 1792232680.994214,
+      "key": "66:17962135:ou:2.5:under",
+      "content_key": "lokomotivgornaoryahovitsa|fkseptemvrisofia|ou:2.5:under|20261017",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "Lokomotiv Gorna Oryahovitsa - FK Septemvri Sofia",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 2.0,
+      "stake": 900,
+      "value_pct": 3.42,
+      "fair_pct": 51.7,
+      "start": "2026-10-17T12:00:00+00:00",
+      "start_ts": 1792238400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9338,
+      "clv_pct": null,
+      "close_fair_p": 0.5171206329689129,
+      "close_ts": 1792232951.032209,
       "close_provisional": true
     }
   ],
@@ -40959,17 +41019,19 @@
     "sichuanbluewhales|tianjinpioneers|ml:away|20261017": 1792231690.994477,
     "sichuanbluewhales|tianjinpioneers|ah:-1.5:away|20261017": 1792231690.994477,
     "cdegues|huarte|ou:2.5:over|20261017": 1792231781.049222,
-    "chernomoretsburgas|botevplovdiv|ml:away|20261018": 1792232320.993412
+    "chernomoretsburgas|botevplovdiv|ml:away|20261018": 1792232320.993412,
+    "rostockseawolvesacademy|scristwedel|ou:166.5:under|20261017": 1792232590.950086,
+    "lokomotivgornaoryahovitsa|fkseptemvrisofia|ou:2.5:under|20261017": 1792232680.994214
   },
   "last_report_date": "2026-10-17",
-  "next_id": 1339,
+  "next_id": 1341,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792232320.993412,
+      "ts": 1792232951.032209,
       "ok": true,
-      "vegas_events": 2479,
-      "ref_events": 2209,
+      "vegas_events": 2495,
+      "ref_events": 2228,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
