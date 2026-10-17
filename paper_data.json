@@ -40591,10 +40591,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6654,
+      "close_fair_odds": 1.6127,
       "clv_pct": null,
-      "close_fair_p": 0.6004582301390393,
-      "close_ts": 1792262251.265428,
+      "close_fair_p": 0.6200840397957541,
+      "close_ts": 1792267556.47966,
       "close_provisional": true
     },
     {
@@ -40834,7 +40834,7 @@
       "close_fair_odds": 1.7306,
       "clv_pct": null,
       "close_fair_p": 0.5778416255246005,
-      "close_ts": 1792262251.265428,
+      "close_ts": 1792267556.47966,
       "close_provisional": true
     },
     {
@@ -40861,10 +40861,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.1479,
+      "close_fair_odds": 2.4354,
       "clv_pct": null,
-      "close_fair_p": 0.46557385824483905,
-      "close_ts": 1792262251.265428,
+      "close_fair_p": 0.410615067442011,
+      "close_ts": 1792267556.47966,
       "close_provisional": true
     },
     {
@@ -40984,7 +40984,7 @@
       "close_fair_odds": 1.8446,
       "clv_pct": null,
       "close_fair_p": 0.5421179893942772,
-      "close_ts": 1792262251.265428,
+      "close_ts": 1792267556.47966,
       "close_provisional": true
     },
     {
@@ -41041,10 +41041,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5319,
+      "close_fair_odds": 1.6921,
       "clv_pct": null,
-      "close_fair_p": 0.6527798151679624,
-      "close_ts": 1792262251.265428,
+      "close_fair_p": 0.5909797822706065,
+      "close_ts": 1792267556.47966,
       "close_provisional": true
     },
     {
@@ -41074,7 +41074,7 @@
       "close_fair_odds": 2.0076,
       "clv_pct": null,
       "close_fair_p": 0.49810456268579384,
-      "close_ts": 1792262251.265428,
+      "close_ts": 1792267556.47966,
       "close_provisional": true
     },
     {
@@ -41254,7 +41254,7 @@
       "close_fair_odds": 1.941,
       "clv_pct": null,
       "close_fair_p": 0.5151871601840234,
-      "close_ts": 1792262251.265428,
+      "close_ts": 1792267556.47966,
       "close_provisional": true
     },
     {
@@ -41406,10 +41406,39 @@
       "close_fair_p": 0.5967940056504115,
       "close_ts": 1792262251.265428,
       "close_provisional": false
+    },
+    {
+      "id": 1366,
+      "ts": 1792267556.47966,
+      "key": "70:18001524:ml:away",
+      "content_key": "rockfordicehogs|grandrapidsgriffins|ml:away|20261018",
+      "sport": "Jégkorong",
+      "sport_id": 70,
+      "subkey": "ml:away",
+      "event": "Rockford IceHogs - Grand Rapids Griffins",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Grand Rapids Griffins",
+      "odds": 1.952,
+      "stake": 1800,
+      "value_pct": 6.98,
+      "fair_pct": 54.8,
+      "start": "2026-10-18T00:00:00+00:00",
+      "start_ts": 1792281600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.825,
+      "clv_pct": null,
+      "close_fair_p": 0.5479523203573377,
+      "close_ts": 1792267556.47966,
+      "close_provisional": true
     }
   ],
   "papered": {
-    "shandongheroes|liaoningflyingleopards|ah:-9.5:away|20260903": 1788376244.843267,
     "shandongheroes|fujiansturgeons|ou:159.5:over|20260904": 1788457123.257707,
     "ihhafnarfjrdur|kfr|ml:away|20260903": 1788464463.580755,
     "khhlidarendi|augnablik|ou:3.5:over|20260904": 1788464553.523055,
@@ -41794,17 +41823,18 @@
     "thamesvalleycavaliers|loughboroughriders|ml:home|20261017": 1792261711.316975,
     "thamesvalleycavaliers|loughboroughriders|ah:-8.5:home|20261017": 1792261711.316975,
     "goldenstatevalkyriesn|atlantadreamn|ou:154.5:under|20261017": 1792261801.321129,
-    "asroma|genoa|ml:home|20261017": 1792262251.265428
+    "asroma|genoa|ml:home|20261017": 1792262251.265428,
+    "rockfordicehogs|grandrapidsgriffins|ml:away|20261018": 1792267556.47966
   },
   "last_report_date": "2026-10-17",
-  "next_id": 1366,
+  "next_id": 1367,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792262251.265428,
+      "ts": 1792267556.47966,
       "ok": true,
-      "vegas_events": 2022,
-      "ref_events": 1547,
+      "vegas_events": 2032,
+      "ref_events": 1486,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
