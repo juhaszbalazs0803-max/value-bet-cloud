@@ -40054,7 +40054,7 @@
       "close_fair_odds": 1.7794,
       "clv_pct": null,
       "close_fair_p": 0.5619941380515744,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40084,7 +40084,7 @@
       "close_fair_odds": 1.6834,
       "clv_pct": null,
       "close_fair_p": 0.5940437216179111,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40144,7 +40144,7 @@
       "close_fair_odds": 1.7499,
       "clv_pct": null,
       "close_fair_p": 0.5714499513606546,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40204,7 +40204,7 @@
       "close_fair_odds": 1.7694,
       "clv_pct": null,
       "close_fair_p": 0.5651758755064646,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40324,7 +40324,7 @@
       "close_fair_odds": 1.7603,
       "clv_pct": null,
       "close_fair_p": 0.5680887092369039,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40444,7 +40444,7 @@
       "close_fair_odds": 1.4497,
       "clv_pct": null,
       "close_fair_p": 0.689802304081923,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40594,7 +40594,7 @@
       "close_fair_odds": 1.6902,
       "clv_pct": null,
       "close_fair_p": 0.5916424945612763,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40624,7 +40624,7 @@
       "close_fair_odds": 2.0537,
       "clv_pct": null,
       "close_fair_p": 0.4869283669155227,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40834,7 +40834,7 @@
       "close_fair_odds": 1.8245,
       "clv_pct": null,
       "close_fair_p": 0.5481033136642672,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40864,7 +40864,7 @@
       "close_fair_odds": 2.103,
       "clv_pct": null,
       "close_fair_p": 0.47551825309304036,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -40984,7 +40984,7 @@
       "close_fair_odds": 1.8446,
       "clv_pct": null,
       "close_fair_p": 0.5421179893942772,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -41014,7 +41014,7 @@
       "close_fair_odds": 1.7744,
       "clv_pct": null,
       "close_fair_p": 0.5635815208763296,
-      "close_ts": 1792246446.18772,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -41041,10 +41041,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4777,
+      "close_fair_odds": 1.5319,
       "clv_pct": null,
-      "close_fair_p": 0.6767148569670871,
-      "close_ts": 1792246446.18772,
+      "close_fair_p": 0.6527798151679624,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     },
     {
@@ -41071,10 +41071,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7647,
+      "close_fair_odds": 2.0076,
       "clv_pct": null,
-      "close_fair_p": 0.5666711427420438,
-      "close_ts": 1792246446.18772,
+      "close_fair_p": 0.49810456268579384,
+      "close_ts": 1792247076.245009,
       "close_provisional": true
     }
   ],
@@ -41462,10 +41462,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792246446.18772,
+      "ts": 1792247076.245009,
       "ok": true,
-      "vegas_events": 2132,
-      "ref_events": 1862,
+      "vegas_events": 2182,
+      "ref_events": 1859,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
