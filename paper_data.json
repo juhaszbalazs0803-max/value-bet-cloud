@@ -40594,7 +40594,7 @@
       "close_fair_odds": 1.6127,
       "clv_pct": null,
       "close_fair_p": 0.6200840397957541,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     },
     {
@@ -40834,7 +40834,7 @@
       "close_fair_odds": 1.7306,
       "clv_pct": null,
       "close_fair_p": 0.5778416255246005,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     },
     {
@@ -40864,7 +40864,7 @@
       "close_fair_odds": 2.4327,
       "clv_pct": null,
       "close_fair_p": 0.41106358919175245,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     },
     {
@@ -40984,7 +40984,7 @@
       "close_fair_odds": 1.8446,
       "clv_pct": null,
       "close_fair_p": 0.5421179893942772,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     },
     {
@@ -41044,7 +41044,7 @@
       "close_fair_odds": 1.7472,
       "clv_pct": null,
       "close_fair_p": 0.5723437212843604,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     },
     {
@@ -41074,7 +41074,7 @@
       "close_fair_odds": 2.0076,
       "clv_pct": null,
       "close_fair_p": 0.49810456268579384,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     },
     {
@@ -41254,7 +41254,7 @@
       "close_fair_odds": 1.941,
       "clv_pct": null,
       "close_fair_p": 0.5151871601840234,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     },
     {
@@ -41434,7 +41434,7 @@
       "close_fair_odds": 1.825,
       "clv_pct": null,
       "close_fair_p": 0.5479523203573377,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     },
     {
@@ -41464,7 +41464,7 @@
       "close_fair_odds": 1.8454,
       "clv_pct": null,
       "close_fair_p": 0.5418902406630186,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     },
     {
@@ -41494,7 +41494,37 @@
       "close_fair_odds": 1.7541,
       "clv_pct": null,
       "close_fair_p": 0.5700863047322442,
-      "close_ts": 1792270235.385769,
+      "close_ts": 1792270650.839699,
+      "close_provisional": true
+    },
+    {
+      "id": 1369,
+      "ts": 1792270560.841862,
+      "key": "66:17929179:ml:home",
+      "content_key": "frstenfeld|ufcfehring|ml:home|20261018",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Fürstenfeld - UFC Fehring",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Fürstenfeld",
+      "odds": 1.857,
+      "stake": 1900,
+      "value_pct": 6.63,
+      "fair_pct": 57.4,
+      "start": "2026-10-18T08:30:00+00:00",
+      "start_ts": 1792312200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7417,
+      "clv_pct": null,
+      "close_fair_p": 0.574153102298937,
+      "close_ts": 1792270650.839699,
       "close_provisional": true
     }
   ],
@@ -41886,17 +41916,18 @@
     "asroma|genoa|ml:home|20261017": 1792262251.265428,
     "rockfordicehogs|grandrapidsgriffins|ml:away|20261018": 1792267556.47966,
     "split|zadar|ml:home|20261018": 1792267739.383893,
-    "split|zadar|ah:1.5:home|20261018": 1792268332.294457
+    "split|zadar|ah:1.5:home|20261018": 1792268332.294457,
+    "frstenfeld|ufcfehring|ml:home|20261018": 1792270560.841862
   },
   "last_report_date": "2026-10-17",
-  "next_id": 1369,
+  "next_id": 1370,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792270235.385769,
+      "ts": 1792270650.839699,
       "ok": true,
-      "vegas_events": 2067,
-      "ref_events": 1487,
+      "vegas_events": 2068,
+      "ref_events": 1506,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
