@@ -40594,7 +40594,7 @@
       "close_fair_odds": 1.6127,
       "clv_pct": null,
       "close_fair_p": 0.6200840397957541,
-      "close_ts": 1792268189.433436,
+      "close_ts": 1792268872.273691,
       "close_provisional": true
     },
     {
@@ -40834,7 +40834,7 @@
       "close_fair_odds": 1.7306,
       "clv_pct": null,
       "close_fair_p": 0.5778416255246005,
-      "close_ts": 1792268189.433436,
+      "close_ts": 1792268872.273691,
       "close_provisional": true
     },
     {
@@ -40861,10 +40861,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.4354,
+      "close_fair_odds": 2.4327,
       "clv_pct": null,
-      "close_fair_p": 0.410615067442011,
-      "close_ts": 1792268189.433436,
+      "close_fair_p": 0.41106358919175245,
+      "close_ts": 1792268872.273691,
       "close_provisional": true
     },
     {
@@ -40984,7 +40984,7 @@
       "close_fair_odds": 1.8446,
       "clv_pct": null,
       "close_fair_p": 0.5421179893942772,
-      "close_ts": 1792268189.433436,
+      "close_ts": 1792268872.273691,
       "close_provisional": true
     },
     {
@@ -41041,10 +41041,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6921,
+      "close_fair_odds": 1.7472,
       "clv_pct": null,
-      "close_fair_p": 0.5909797822706065,
-      "close_ts": 1792268189.433436,
+      "close_fair_p": 0.5723437212843604,
+      "close_ts": 1792268872.273691,
       "close_provisional": true
     },
     {
@@ -41074,7 +41074,7 @@
       "close_fair_odds": 2.0076,
       "clv_pct": null,
       "close_fair_p": 0.49810456268579384,
-      "close_ts": 1792268189.433436,
+      "close_ts": 1792268872.273691,
       "close_provisional": true
     },
     {
@@ -41254,7 +41254,7 @@
       "close_fair_odds": 1.941,
       "clv_pct": null,
       "close_fair_p": 0.5151871601840234,
-      "close_ts": 1792268189.433436,
+      "close_ts": 1792268872.273691,
       "close_provisional": true
     },
     {
@@ -41434,7 +41434,7 @@
       "close_fair_odds": 1.825,
       "clv_pct": null,
       "close_fair_p": 0.5479523203573377,
-      "close_ts": 1792268189.433436,
+      "close_ts": 1792268872.273691,
       "close_provisional": true
     },
     {
@@ -41461,10 +41461,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6122,
+      "close_fair_odds": 1.8688,
       "clv_pct": null,
-      "close_fair_p": 0.6202531645569621,
-      "close_ts": 1792268189.433436,
+      "close_fair_p": 0.5351010302691477,
+      "close_ts": 1792268872.273691,
+      "close_provisional": true
+    },
+    {
+      "id": 1368,
+      "ts": 1792268332.294457,
+      "key": "67:18006076:ah:1.5:home",
+      "content_key": "split|zadar|ah:1.5:home|20261018",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:1.5:home",
+      "event": "Split - Zadar",
+      "market": "ah",
+      "market_name": "Hendikep +1.5",
+      "tip": "Hendikep Split (+1.5)",
+      "odds": 1.833,
+      "stake": 1100,
+      "value_pct": 3.77,
+      "fair_pct": 56.6,
+      "start": "2026-10-18T17:00:00+00:00",
+      "start_ts": 1792342800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7668,
+      "clv_pct": null,
+      "close_fair_p": 0.565987833906374,
+      "close_ts": 1792268872.273691,
       "close_provisional": true
     }
   ],
@@ -41855,17 +41885,18 @@
     "goldenstatevalkyriesn|atlantadreamn|ou:154.5:under|20261017": 1792261801.321129,
     "asroma|genoa|ml:home|20261017": 1792262251.265428,
     "rockfordicehogs|grandrapidsgriffins|ml:away|20261018": 1792267556.47966,
-    "split|zadar|ml:home|20261018": 1792267739.383893
+    "split|zadar|ml:home|20261018": 1792267739.383893,
+    "split|zadar|ah:1.5:home|20261018": 1792268332.294457
   },
   "last_report_date": "2026-10-17",
-  "next_id": 1368,
+  "next_id": 1369,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792268189.433436,
+      "ts": 1792268872.273691,
       "ok": true,
-      "vegas_events": 2049,
-      "ref_events": 1480,
+      "vegas_events": 2062,
+      "ref_events": 1489,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
