@@ -39202,11 +39202,11 @@
       "fair_pct": 56.9,
       "start": "2026-10-15T15:05:00+00:00",
       "start_ts": 1792076700.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1792336229.8781123,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 2.0502,
       "clv_pct": null,
@@ -41467,7 +41467,7 @@
       "close_fair_odds": 1.9371,
       "clv_pct": null,
       "close_fair_p": 0.516223716511901,
-      "close_ts": 1792335599.635108,
+      "close_ts": 1792336140.140581,
       "close_provisional": true
     },
     {
@@ -41587,7 +41587,7 @@
       "close_fair_odds": 1.7527,
       "clv_pct": null,
       "close_fair_p": 0.5705327542340213,
-      "close_ts": 1792335599.635108,
+      "close_ts": 1792336140.140581,
       "close_provisional": true
     },
     {
@@ -41737,7 +41737,7 @@
       "close_fair_odds": 1.7668,
       "clv_pct": null,
       "close_fair_p": 0.565987833906374,
-      "close_ts": 1792335599.635108,
+      "close_ts": 1792336140.140581,
       "close_provisional": true
     },
     {
@@ -41767,7 +41767,7 @@
       "close_fair_odds": 2.0153,
       "clv_pct": null,
       "close_fair_p": 0.4962096422338569,
-      "close_ts": 1792335599.635108,
+      "close_ts": 1792336140.140581,
       "close_provisional": true
     },
     {
@@ -41794,10 +41794,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.5576,
+      "close_fair_odds": 1.5726,
       "clv_pct": null,
-      "close_fair_p": 0.641998069435326,
-      "close_ts": 1792335599.635108,
+      "close_fair_p": 0.6358904412300166,
+      "close_ts": 1792336140.140581,
+      "close_provisional": true
+    },
+    {
+      "id": 1379,
+      "ts": 1792336050.199937,
+      "key": "67:17986883:ah:3.5:home",
+      "content_key": "graz|oberwartgunners|ah:3.5:home|20261018",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:3.5:home",
+      "event": "Graz - Oberwart Gunners",
+      "market": "ah",
+      "market_name": "Hendikep +3.5",
+      "tip": "Hendikep Graz (+3.5)",
+      "odds": 1.833,
+      "stake": 2500,
+      "value_pct": 8.24,
+      "fair_pct": 59.0,
+      "start": "2026-10-18T16:00:00+00:00",
+      "start_ts": 1792339200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6939,
+      "clv_pct": null,
+      "close_fair_p": 0.590355780784703,
+      "close_ts": 1792336140.140581,
       "close_provisional": true
     }
   ],
@@ -42199,17 +42229,18 @@
     "nanjingmonkeykings|guangdongsoutherntigers|ou:181.5:over|20261018": 1792321027.990508,
     "cdcolegiolosleonesdequilpue|sanjose|ah:-3.5:home|20261018": 1792333031.636838,
     "tokyounited|yamagatawyverns|ah:-14.5:away|20261019": 1792333031.636838,
-    "nottinghamforest|arsenal|ml:away|20261018": 1792335149.673465
+    "nottinghamforest|arsenal|ml:away|20261018": 1792335149.673465,
+    "graz|oberwartgunners|ah:3.5:home|20261018": 1792336050.199937
   },
   "last_report_date": "2026-10-18",
-  "next_id": 1379,
+  "next_id": 1380,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792335599.635108,
+      "ts": 1792336140.140581,
       "ok": true,
-      "vegas_events": 1409,
-      "ref_events": 1267,
+      "vegas_events": 1404,
+      "ref_events": 1201,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
