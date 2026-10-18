@@ -41467,7 +41467,7 @@
       "close_fair_odds": 1.9371,
       "clv_pct": null,
       "close_fair_p": 0.516223716511901,
-      "close_ts": 1792334958.320319,
+      "close_ts": 1792335599.635108,
       "close_provisional": true
     },
     {
@@ -41557,7 +41557,7 @@
       "close_fair_odds": 1.8354,
       "clv_pct": -0.13,
       "close_fair_p": 0.5448426900272422,
-      "close_ts": 1792334958.320319,
+      "close_ts": 1792335509.628008,
       "close_provisional": false
     },
     {
@@ -41587,7 +41587,7 @@
       "close_fair_odds": 1.7527,
       "clv_pct": null,
       "close_fair_p": 0.5705327542340213,
-      "close_ts": 1792334958.320319,
+      "close_ts": 1792335599.635108,
       "close_provisional": true
     },
     {
@@ -41737,7 +41737,7 @@
       "close_fair_odds": 1.7668,
       "clv_pct": null,
       "close_fair_p": 0.565987833906374,
-      "close_ts": 1792334958.320319,
+      "close_ts": 1792335599.635108,
       "close_provisional": true
     },
     {
@@ -41764,10 +41764,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7702,
+      "close_fair_odds": 2.0153,
       "clv_pct": null,
-      "close_fair_p": 0.5648953997513378,
-      "close_ts": 1792334958.320319,
+      "close_fair_p": 0.4962096422338569,
+      "close_ts": 1792335599.635108,
+      "close_provisional": true
+    },
+    {
+      "id": 1378,
+      "ts": 1792335149.673465,
+      "key": "66:17668727:ml:away",
+      "content_key": "nottinghamforest|arsenal|ml:away|20261018",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:away",
+      "event": "Nottingham Forest - Arsenal",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Arsenal",
+      "odds": 1.61,
+      "stake": 1400,
+      "value_pct": 3.36,
+      "fair_pct": 64.2,
+      "start": "2026-10-18T15:30:00+00:00",
+      "start_ts": 1792337400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5576,
+      "clv_pct": null,
+      "close_fair_p": 0.641998069435326,
+      "close_ts": 1792335599.635108,
       "close_provisional": true
     }
   ],
@@ -42168,17 +42198,18 @@
     "emlakkonutgelisimn|galatasarayn|ah:2.5:home|20261018": 1792319588.01397,
     "nanjingmonkeykings|guangdongsoutherntigers|ou:181.5:over|20261018": 1792321027.990508,
     "cdcolegiolosleonesdequilpue|sanjose|ah:-3.5:home|20261018": 1792333031.636838,
-    "tokyounited|yamagatawyverns|ah:-14.5:away|20261019": 1792333031.636838
+    "tokyounited|yamagatawyverns|ah:-14.5:away|20261019": 1792333031.636838,
+    "nottinghamforest|arsenal|ml:away|20261018": 1792335149.673465
   },
   "last_report_date": "2026-10-18",
-  "next_id": 1378,
+  "next_id": 1379,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792334958.320319,
+      "ts": 1792335599.635108,
       "ok": true,
-      "vegas_events": 1497,
-      "ref_events": 1262,
+      "vegas_events": 1409,
+      "ref_events": 1267,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
