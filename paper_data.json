@@ -39532,11 +39532,11 @@
       "fair_pct": 56.2,
       "start": "2026-10-16T19:30:00+00:00",
       "start_ts": 1792179000.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1792438258.897943,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.8034,
       "clv_pct": null,
@@ -42037,7 +42037,7 @@
       "close_fair_odds": 1.5994,
       "clv_pct": null,
       "close_fair_p": 0.6252251325065611,
-      "close_ts": 1792437624.09979,
+      "close_ts": 1792438254.006472,
       "close_provisional": true
     },
     {
@@ -42067,7 +42067,7 @@
       "close_fair_odds": 1.7648,
       "clv_pct": null,
       "close_fair_p": 0.5666333881978359,
-      "close_ts": 1792437624.09979,
+      "close_ts": 1792438254.006472,
       "close_provisional": true
     },
     {
@@ -42124,10 +42124,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8146,
+      "close_fair_odds": 2.0873,
       "clv_pct": null,
-      "close_fair_p": 0.5510913237050712,
-      "close_ts": 1792436904.022525,
+      "close_fair_p": 0.47909295593438406,
+      "close_ts": 1792438254.006472,
       "close_provisional": true
     },
     {
@@ -42154,10 +42154,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6814,
+      "close_fair_odds": 2.2152,
       "clv_pct": null,
-      "close_fair_p": 0.5947481613254387,
-      "close_ts": 1792437624.09979,
+      "close_fair_p": 0.4514298128886837,
+      "close_ts": 1792438254.006472,
       "close_provisional": true
     }
   ],
@@ -42575,10 +42575,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792437624.09979,
+      "ts": 1792438254.006472,
       "ok": true,
-      "vegas_events": 1604,
-      "ref_events": 1203,
+      "vegas_events": 1600,
+      "ref_events": 1229,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
