@@ -42490,7 +42490,7 @@
       "close_fair_odds": 1.9012,
       "clv_pct": null,
       "close_fair_p": 0.5259781911481719,
-      "close_ts": 1792689536.652938,
+      "close_ts": 1792690164.548596,
       "close_provisional": true
     },
     {
@@ -42520,7 +42520,7 @@
       "close_fair_odds": 1.6622,
       "clv_pct": null,
       "close_fair_p": 0.6016197454685692,
-      "close_ts": 1792689536.652938,
+      "close_ts": 1792690164.548596,
       "close_provisional": true
     },
     {
@@ -42550,7 +42550,7 @@
       "close_fair_odds": 1.6565,
       "clv_pct": null,
       "close_fair_p": 0.6036967107224486,
-      "close_ts": 1792689536.652938,
+      "close_ts": 1792690164.548596,
       "close_provisional": true
     },
     {
@@ -42580,7 +42580,37 @@
       "close_fair_odds": 1.7794,
       "clv_pct": null,
       "close_fair_p": 0.5619941380515744,
-      "close_ts": 1792689536.652938,
+      "close_ts": 1792690164.548596,
+      "close_provisional": true
+    },
+    {
+      "id": 1405,
+      "ts": 1792689714.513208,
+      "key": "66:17843747:ou:3.5:over",
+      "content_key": "vaxjodffn|hckenfcn|ou:3.5:over|20261023",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:over",
+      "event": "Vaxjo DFF (N) - Häcken FC (N)",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Több mint 3.5",
+      "odds": 1.9,
+      "stake": 1100,
+      "value_pct": 4.12,
+      "fair_pct": 54.8,
+      "start": "2026-10-23T17:00:00+00:00",
+      "start_ts": 1792774800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8249,
+      "clv_pct": null,
+      "close_fair_p": 0.5479743569281516,
+      "close_ts": 1792690164.548596,
       "close_provisional": true
     }
   ],
@@ -42968,17 +42998,18 @@
     "newjerseydevils|anaheimducks|ou:6.5:over|20261022": 1792687733.765423,
     "liptovskymikulas|zvolen|ml:home|20261023": 1792687733.765423,
     "besiktasjk|crystalpalace|ou:3.5:under|20261022": 1792688453.810987,
-    "hbamarsky|helsinginnmky|ou:164.5:over|20261023": 1792688994.675391
+    "hbamarsky|helsinginnmky|ou:164.5:over|20261023": 1792688994.675391,
+    "vaxjodffn|hckenfcn|ou:3.5:over|20261023": 1792689714.513208
   },
   "last_report_date": "2026-10-22",
-  "next_id": 1405,
+  "next_id": 1406,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792689536.652938,
+      "ts": 1792690164.548596,
       "ok": true,
-      "vegas_events": 2128,
-      "ref_events": 1739,
+      "vegas_events": 2138,
+      "ref_events": 1744,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
