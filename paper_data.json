@@ -41908,11 +41908,11 @@
       "fair_pct": 52.0,
       "start": "2026-10-19T16:00:00+00:00",
       "start_ts": 1792425600.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1792687014.4569445,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 2.0496,
       "clv_pct": null,
@@ -42851,7 +42851,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792670474.476728,
+      "ts": 1792687013.735874,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
