@@ -42520,7 +42520,7 @@
       "close_fair_odds": 1.6705,
       "clv_pct": null,
       "close_fair_p": 0.5986169883372897,
-      "close_ts": 1792747499.567963,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -42610,7 +42610,7 @@
       "close_fair_odds": 1.7578,
       "clv_pct": null,
       "close_fair_p": 0.5688851431430905,
-      "close_ts": 1792747589.57885,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -42760,7 +42760,7 @@
       "close_fair_odds": 1.7814,
       "clv_pct": null,
       "close_fair_p": 0.5613472333600642,
-      "close_ts": 1792747589.57885,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -42787,10 +42787,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8186,
+      "close_fair_odds": 1.9031,
       "clv_pct": null,
-      "close_fair_p": 0.5498599655695162,
-      "close_ts": 1792747589.57885,
+      "close_fair_p": 0.5254575104185542,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -42850,7 +42850,7 @@
       "close_fair_odds": 1.9338,
       "clv_pct": null,
       "close_fair_p": 0.5171206329689129,
-      "close_ts": 1792747589.57885,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -42880,7 +42880,7 @@
       "close_fair_odds": 1.8614,
       "clv_pct": null,
       "close_fair_p": 0.5372260015117158,
-      "close_ts": 1792747589.57885,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -42910,7 +42910,7 @@
       "close_fair_odds": 1.2172,
       "clv_pct": null,
       "close_fair_p": 0.8215667361032725,
-      "close_ts": 1792747589.57885,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -42940,7 +42940,7 @@
       "close_fair_odds": 1.6087,
       "clv_pct": null,
       "close_fair_p": 0.6216045483259633,
-      "close_ts": 1792747589.57885,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -42970,7 +42970,7 @@
       "close_fair_odds": 1.691,
       "clv_pct": null,
       "close_fair_p": 0.5913753585250686,
-      "close_ts": 1792747589.57885,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -43000,7 +43000,7 @@
       "close_fair_odds": 1.7322,
       "clv_pct": null,
       "close_fair_p": 0.5772864946025007,
-      "close_ts": 1792747589.57885,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     },
     {
@@ -43031,6 +43031,96 @@
       "clv_pct": null,
       "close_fair_p": 0.53988427361025,
       "close_ts": 1792746959.555574,
+      "close_provisional": true
+    },
+    {
+      "id": 1420,
+      "ts": 1792747679.572847,
+      "key": "66:18062947:ou:2.5:over",
+      "content_key": "hapoelurbanikarmiel|hapoelnofhagalilfc|ou:2.5:over|20261023",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:over",
+      "event": "Hapoel Urbani Karmiel - Hapoel Nof Hagalil FC",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Több mint 2.5",
+      "odds": 1.85,
+      "stake": 1100,
+      "value_pct": 3.72,
+      "fair_pct": 56.1,
+      "start": "2026-10-23T10:25:00+00:00",
+      "start_ts": 1792751100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7837,
+      "clv_pct": null,
+      "close_fair_p": 0.560633436071846,
+      "close_ts": 1792748219.595797,
+      "close_provisional": true
+    },
+    {
+      "id": 1421,
+      "ts": 1792747679.572847,
+      "key": "66:18071448:ou:2.5:under",
+      "content_key": "gfkdubocica|smederevo|ou:2.5:under|20261023",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "Gfk Dubocica - Smederevo",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 1.7,
+      "stake": 1700,
+      "value_pct": 4.66,
+      "fair_pct": 61.6,
+      "start": "2026-10-23T14:00:00+00:00",
+      "start_ts": 1792764000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6243,
+      "clv_pct": null,
+      "close_fair_p": 0.6156598610818775,
+      "close_ts": 1792748219.595797,
+      "close_provisional": true
+    },
+    {
+      "id": 1422,
+      "ts": 1792747679.572847,
+      "key": "67:18059405:ml:home",
+      "content_key": "bcolympiakospiraeus|fenerbahce|ml:home|20261023",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "BC Olympiakos Piraeus - Fenerbahce",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — BC Olympiakos Piraeus",
+      "odds": 1.87,
+      "stake": 1300,
+      "value_pct": 4.38,
+      "fair_pct": 55.8,
+      "start": "2026-10-23T18:15:00+00:00",
+      "start_ts": 1792779300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8122,
+      "clv_pct": null,
+      "close_fair_p": 0.5518055591201909,
+      "close_ts": 1792748219.595797,
       "close_provisional": true
     }
   ],
@@ -43433,29 +43523,32 @@
     "bokelj|decictuzi|ou:2.5:under|20261023": 1792746509.575206,
     "alittihadjeddahn|alulafc|ml:home|20261023": 1792746509.575206,
     "holywelltown|penybont|ou:3.5:under|20261023": 1792746509.575206,
-    "miamiheat|detroitpistons|ou:237.5:under|20261024": 1792746599.591066
+    "miamiheat|detroitpistons|ou:237.5:under|20261024": 1792746599.591066,
+    "hapoelurbanikarmiel|hapoelnofhagalilfc|ou:2.5:over|20261023": 1792747679.572847,
+    "gfkdubocica|smederevo|ou:2.5:under|20261023": 1792747679.572847,
+    "bcolympiakospiraeus|fenerbahce|ml:home|20261023": 1792747679.572847
   },
   "last_report_date": "2026-10-23",
-  "next_id": 1420,
+  "next_id": 1423,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792747589.57885,
+      "ts": 1792748219.595797,
       "ok": false,
-      "vegas_events": 2157,
-      "ref_events": 1675,
+      "vegas_events": 2217,
+      "ref_events": 1824,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0)"
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)"
       ],
       "settle_err": null
     },
-    "last_alert_ts": 1792725869.124689,
+    "last_alert_ts": 1792747952.6745815,
     "alert_active": false
   }
 }
