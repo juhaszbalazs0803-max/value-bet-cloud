@@ -43330,7 +43330,7 @@
       "close_fair_odds": 1.5718,
       "clv_pct": null,
       "close_fair_p": 0.6362087514269509,
-      "close_ts": 1792783525.034584,
+      "close_ts": 1792784174.163128,
       "close_provisional": true
     },
     {
@@ -43540,7 +43540,7 @@
       "close_fair_odds": 1.8633,
       "clv_pct": null,
       "close_fair_p": 0.5366726296958855,
-      "close_ts": 1792783525.034584,
+      "close_ts": 1792784174.163128,
       "close_provisional": true
     },
     {
@@ -43570,7 +43570,7 @@
       "close_fair_odds": 1.9187,
       "clv_pct": null,
       "close_fair_p": 0.521182029310483,
-      "close_ts": 1792783525.034584,
+      "close_ts": 1792784174.163128,
       "close_provisional": true
     },
     {
@@ -43630,7 +43630,7 @@
       "close_fair_odds": 1.4294,
       "clv_pct": null,
       "close_fair_p": 0.6995942353435007,
-      "close_ts": 1792783525.034584,
+      "close_ts": 1792784174.163128,
       "close_provisional": true
     },
     {
@@ -43720,7 +43720,37 @@
       "close_fair_odds": 1.3709,
       "clv_pct": null,
       "close_fair_p": 0.729441548132415,
-      "close_ts": 1792783525.034584,
+      "close_ts": 1792784174.163128,
+      "close_provisional": true
+    },
+    {
+      "id": 1443,
+      "ts": 1792783994.220603,
+      "key": "67:18071426:ou:195.5:under",
+      "content_key": "shanghaisharks|fujiansturgeons|ou:195.5:under|20261024",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:195.5:under",
+      "event": "Shanghai Sharks - Fujian Sturgeons",
+      "market": "ou",
+      "market_name": "O/U 195.5",
+      "tip": "Kevesebb mint 195.5",
+      "odds": 1.87,
+      "stake": 1400,
+      "value_pct": 4.96,
+      "fair_pct": 56.1,
+      "start": "2026-10-24T11:35:00+00:00",
+      "start_ts": 1792841700.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7813,
+      "clv_pct": null,
+      "close_fair_p": 0.5613903140025249,
+      "close_ts": 1792784174.163128,
       "close_provisional": true
     }
   ],
@@ -44143,17 +44173,18 @@
     "nacionalnatacao|simecq|ml:home|20261023": 1792781565.72083,
     "jlbourgbasket|gravelines|ah:-10.5:home|20261024": 1792781925.685248,
     "chalon|strasbourg|ah:-8.5:away|20261024": 1792781925.685248,
-    "geelongsupercatsn|southsideflyersn|ml:home|20261024": 1792782846.867089
+    "geelongsupercatsn|southsideflyersn|ml:home|20261024": 1792782846.867089,
+    "shanghaisharks|fujiansturgeons|ou:195.5:under|20261024": 1792783994.220603
   },
   "last_report_date": "2026-10-23",
-  "next_id": 1443,
+  "next_id": 1444,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792783525.034584,
+      "ts": 1792784174.163128,
       "ok": true,
-      "vegas_events": 2409,
-      "ref_events": 1915,
+      "vegas_events": 2388,
+      "ref_events": 1902,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
