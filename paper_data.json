@@ -42520,7 +42520,7 @@
       "close_fair_odds": 1.6761,
       "clv_pct": null,
       "close_fair_p": 0.5966217263288394,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768898.504883,
       "close_provisional": true
     },
     {
@@ -42610,7 +42610,7 @@
       "close_fair_odds": 1.6997,
       "clv_pct": null,
       "close_fair_p": 0.5883271723850679,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768808.502147,
       "close_provisional": true
     },
     {
@@ -42760,7 +42760,7 @@
       "close_fair_odds": 1.7899,
       "clv_pct": null,
       "close_fair_p": 0.558688802393624,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768808.502147,
       "close_provisional": true
     },
     {
@@ -42790,7 +42790,7 @@
       "close_fair_odds": 1.911,
       "clv_pct": null,
       "close_fair_p": 0.5232753931041628,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768898.504883,
       "close_provisional": true
     },
     {
@@ -42970,7 +42970,7 @@
       "close_fair_odds": 1.8547,
       "clv_pct": null,
       "close_fair_p": 0.5391590032704877,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768808.502147,
       "close_provisional": true
     },
     {
@@ -43000,7 +43000,7 @@
       "close_fair_odds": 1.7625,
       "clv_pct": null,
       "close_fair_p": 0.5673685032402468,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768808.502147,
       "close_provisional": true
     },
     {
@@ -43117,10 +43117,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8552,
+      "close_fair_odds": 1.931,
       "clv_pct": null,
-      "close_fair_p": 0.5390209934492185,
-      "close_ts": 1792768251.73835,
+      "close_fair_p": 0.5178529815385412,
+      "close_ts": 1792768898.504883,
       "close_provisional": true
     },
     {
@@ -43180,7 +43180,7 @@
       "close_fair_odds": 2.3738,
       "clv_pct": null,
       "close_fair_p": 0.42126514131897713,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768808.502147,
       "close_provisional": true
     },
     {
@@ -43330,7 +43330,7 @@
       "close_fair_odds": 1.5718,
       "clv_pct": null,
       "close_fair_p": 0.6362087514269509,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768808.502147,
       "close_provisional": true
     },
     {
@@ -43360,7 +43360,7 @@
       "close_fair_odds": 1.6892,
       "clv_pct": null,
       "close_fair_p": 0.5919925221997195,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768808.502147,
       "close_provisional": true
     },
     {
@@ -43390,7 +43390,7 @@
       "close_fair_odds": 1.9924,
       "clv_pct": null,
       "close_fair_p": 0.5018954373142063,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768898.504883,
       "close_provisional": true
     },
     {
@@ -43420,7 +43420,7 @@
       "close_fair_odds": 1.949,
       "clv_pct": null,
       "close_fair_p": 0.5130716330844772,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768898.504883,
       "close_provisional": true
     },
     {
@@ -43450,7 +43450,7 @@
       "close_fair_odds": 1.7326,
       "clv_pct": null,
       "close_fair_p": 0.5771708322597269,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768898.504883,
       "close_provisional": true
     },
     {
@@ -43480,7 +43480,37 @@
       "close_fair_odds": 1.6468,
       "clv_pct": null,
       "close_fair_p": 0.6072517449038729,
-      "close_ts": 1792768251.73835,
+      "close_ts": 1792768808.502147,
+      "close_provisional": true
+    },
+    {
+      "id": 1435,
+      "ts": 1792768628.567419,
+      "key": "67:18059405:ou:169.5:under",
+      "content_key": "bcolympiakospiraeus|fenerbahce|ou:169.5:under|20261023",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:169.5:under",
+      "event": "BC Olympiakos Piraeus - Fenerbahce",
+      "market": "ou",
+      "market_name": "O/U 169.5",
+      "tip": "Kevesebb mint 169.5",
+      "odds": 1.87,
+      "stake": 1500,
+      "value_pct": 5.08,
+      "fair_pct": 56.2,
+      "start": "2026-10-23T18:15:00+00:00",
+      "start_ts": 1792779300.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7734,
+      "clv_pct": null,
+      "close_fair_p": 0.5638905899163094,
+      "close_ts": 1792768898.504883,
       "close_provisional": true
     }
   ],
@@ -43898,22 +43928,27 @@
     "kretingoskretinga|bczalgiriskaunasii|ou:181.5:under|20261024": 1792766631.802515,
     "kortrijkspurs|limburgunited|ah:-4.5:away|20261023": 1792766811.788736,
     "levalloisbasketball|orleansloiretbasket|ah:4.5:home|20261023": 1792767621.777154,
-    "fkimtnovibeograd|zeleznicarpancevo|ou:2.5:under|20261023": 1792768161.754536
+    "fkimtnovibeograd|zeleznicarpancevo|ou:2.5:under|20261023": 1792768161.754536,
+    "bcolympiakospiraeus|fenerbahce|ou:169.5:under|20261023": 1792768628.567419
   },
   "last_report_date": "2026-10-23",
-  "next_id": 1435,
+  "next_id": 1436,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792768251.73835,
-      "ok": true,
-      "vegas_events": 2559,
-      "ref_events": 1981,
+      "ts": 1792768898.504883,
+      "ok": false,
+      "vegas_events": 737,
+      "ref_events": 626,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1792747952.6745815,
