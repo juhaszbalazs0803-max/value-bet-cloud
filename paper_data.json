@@ -43178,10 +43178,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 2.1655,
-      "clv_pct": null,
+      "clv_pct": -7.64,
       "close_fair_p": 0.46178974990628185,
-      "close_ts": 1792781565.72083,
-      "close_provisional": true
+      "close_ts": 1792782015.716852,
+      "close_provisional": false
     },
     {
       "id": 1425,
@@ -43330,7 +43330,7 @@
       "close_fair_odds": 1.5718,
       "clv_pct": null,
       "close_fair_p": 0.6362087514269509,
-      "close_ts": 1792781565.72083,
+      "close_ts": 1792782015.716852,
       "close_provisional": true
     },
     {
@@ -43540,7 +43540,7 @@
       "close_fair_odds": 1.8633,
       "clv_pct": null,
       "close_fair_p": 0.5366726296958855,
-      "close_ts": 1792781565.72083,
+      "close_ts": 1792782015.716852,
       "close_provisional": true
     },
     {
@@ -43570,7 +43570,7 @@
       "close_fair_odds": 1.9187,
       "clv_pct": null,
       "close_fair_p": 0.521182029310483,
-      "close_ts": 1792781565.72083,
+      "close_ts": 1792782015.716852,
       "close_provisional": true
     },
     {
@@ -43600,7 +43600,7 @@
       "close_fair_odds": 1.8115,
       "clv_pct": null,
       "close_fair_p": 0.552021449976342,
-      "close_ts": 1792781565.72083,
+      "close_ts": 1792782195.8944,
       "close_provisional": true
     },
     {
@@ -43630,7 +43630,67 @@
       "close_fair_odds": 1.4294,
       "clv_pct": null,
       "close_fair_p": 0.6995942353435007,
-      "close_ts": 1792781565.72083,
+      "close_ts": 1792782195.8944,
+      "close_provisional": true
+    },
+    {
+      "id": 1440,
+      "ts": 1792781925.685248,
+      "key": "67:18070536:ah:-10.5:home",
+      "content_key": "jlbourgbasket|gravelines|ah:-10.5:home|20261024",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-10.5:home",
+      "event": "JL Bourg Basket - Gravelines",
+      "market": "ah",
+      "market_name": "Hendikep -10.5",
+      "tip": "Hendikep JL Bourg Basket (-10.5)",
+      "odds": 1.8,
+      "stake": 1100,
+      "value_pct": 3.38,
+      "fair_pct": 57.4,
+      "start": "2026-10-24T16:00:00+00:00",
+      "start_ts": 1792857600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7411,
+      "clv_pct": null,
+      "close_fair_p": 0.5743557901272897,
+      "close_ts": 1792782195.8944,
+      "close_provisional": true
+    },
+    {
+      "id": 1441,
+      "ts": 1792781925.685248,
+      "key": "67:18070614:ah:-8.5:away",
+      "content_key": "chalon|strasbourg|ah:-8.5:away|20261024",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-8.5:away",
+      "event": "Chalon - Strasbourg",
+      "market": "ah",
+      "market_name": "Hendikep +8.5",
+      "tip": "Hendikep Strasbourg (+8.5)",
+      "odds": 1.87,
+      "stake": 1200,
+      "value_pct": 3.99,
+      "fair_pct": 55.6,
+      "start": "2026-10-24T16:30:00+00:00",
+      "start_ts": 1792859400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7978,
+      "clv_pct": null,
+      "close_fair_p": 0.5562374324289036,
+      "close_ts": 1792782195.8944,
       "close_provisional": true
     }
   ],
@@ -44050,22 +44110,29 @@
     "cfsantomera|sanjaviermarmenorcf|ou:2.5:over|20261024": 1792769193.815765,
     "beijinginstituteoftechnologyfc|xiamenfeilu|ou:2.5:over|20261024": 1792781565.72083,
     "semelbournephoenix|adelaide36ers|ah:-1.5:home|20261024": 1792781565.72083,
-    "nacionalnatacao|simecq|ml:home|20261023": 1792781565.72083
+    "nacionalnatacao|simecq|ml:home|20261023": 1792781565.72083,
+    "jlbourgbasket|gravelines|ah:-10.5:home|20261024": 1792781925.685248,
+    "chalon|strasbourg|ah:-8.5:away|20261024": 1792781925.685248
   },
   "last_report_date": "2026-10-23",
-  "next_id": 1440,
+  "next_id": 1442,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792781565.72083,
-      "ok": true,
-      "vegas_events": 2401,
-      "ref_events": 1891,
+      "ts": 1792782195.8944,
+      "ok": false,
+      "vegas_events": 559,
+      "ref_events": 567,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0",
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 2 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1792747952.6745815,
