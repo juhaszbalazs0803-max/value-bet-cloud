@@ -42451,11 +42451,11 @@
       "fair_pct": 55.2,
       "start": "2026-10-21T20:00:00+00:00",
       "start_ts": 1792612800.0,
-      "status": "pending",
-      "settled_ts": null,
+      "status": "void",
+      "settled_ts": 1792872724.4101954,
       "source": "auto",
       "final_score": null,
-      "settle_source": null,
+      "settle_source": "auto-void",
       "needs_manual": false,
       "close_fair_odds": 1.814,
       "clv_pct": null,
@@ -44029,10 +44029,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8937,
+      "close_fair_odds": 1.7106,
       "clv_pct": null,
-      "close_fair_p": 0.5280667476369013,
-      "close_ts": 1792867245.675816,
+      "close_fair_p": 0.5845977967158595,
+      "close_ts": 1792872716.289146,
       "close_provisional": true
     },
     {
@@ -44059,10 +44059,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.763,
+      "close_fair_odds": 1.7648,
       "clv_pct": null,
-      "close_fair_p": 0.5671996542783059,
-      "close_ts": 1792867245.675816,
+      "close_fair_p": 0.5666333881978359,
+      "close_ts": 1792872716.289146,
       "close_provisional": true
     },
     {
@@ -44089,10 +44089,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4451,
+      "close_fair_odds": 1.4475,
       "clv_pct": null,
-      "close_fair_p": 0.6920170051960322,
-      "close_ts": 1792867245.675816,
+      "close_fair_p": 0.690846286701209,
+      "close_ts": 1792872716.289146,
       "close_provisional": true
     },
     {
@@ -44179,10 +44179,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.4989,
+      "close_fair_odds": 1.8383,
       "clv_pct": null,
-      "close_fair_p": 0.6671408599249468,
-      "close_ts": 1792867245.675816,
+      "close_fair_p": 0.5439930715310293,
+      "close_ts": 1792872716.289146,
       "close_provisional": true
     },
     {
@@ -44392,7 +44392,7 @@
       "close_fair_odds": 1.5448,
       "clv_pct": null,
       "close_fair_p": 0.6473208791749736,
-      "close_ts": 1792867245.675816,
+      "close_ts": 1792872716.289146,
       "close_provisional": true
     },
     {
@@ -44692,7 +44692,7 @@
       "close_fair_odds": 1.9788,
       "clv_pct": null,
       "close_fair_p": 0.5053458857507845,
-      "close_ts": 1792867245.675816,
+      "close_ts": 1792872716.289146,
       "close_provisional": true
     },
     {
@@ -44809,10 +44809,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8402,
+      "close_fair_odds": 1.8111,
       "clv_pct": null,
-      "close_fair_p": 0.5434225366553882,
-      "close_ts": 1792867245.675816,
+      "close_fair_p": 0.5521613538178379,
+      "close_ts": 1792872716.289146,
       "close_provisional": true
     },
     {
@@ -44994,6 +44994,36 @@
       "close_fair_p": 0.5780044461880476,
       "close_ts": 1792866525.711242,
       "close_provisional": false
+    },
+    {
+      "id": 1485,
+      "ts": 1792872716.289146,
+      "key": "70:18071295:ml:home",
+      "content_key": "wilkesbarrescranton|hartfordwolfpack|ml:home|20261024",
+      "sport": "Jégkorong",
+      "sport_id": 70,
+      "subkey": "ml:home",
+      "event": "Wilkes-Barre/Scranton - Hartford Wolf Pack",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Wilkes-Barre/Scranton",
+      "odds": 1.87,
+      "stake": 1200,
+      "value_pct": 4.16,
+      "fair_pct": 55.7,
+      "start": "2026-10-24T22:05:00+00:00",
+      "start_ts": 1792879500.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.795,
+      "clv_pct": null,
+      "close_fair_p": 0.5571102819237147,
+      "close_ts": 1792872716.289146,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -45452,17 +45482,18 @@
     "leuvenbears|zorgenzekerheidleiden|ml:home|20261024": 1792865535.821041,
     "leuvenbears|zorgenzekerheidleiden|ah:1.5:home|20261024": 1792865535.821041,
     "derbytrailblazers|essexrebels|ah:-9.5:away|20261024": 1792865805.730519,
-    "leuvenbears|zorgenzekerheidleiden|ml:away|20261024": 1792866075.723838
+    "leuvenbears|zorgenzekerheidleiden|ml:away|20261024": 1792866075.723838,
+    "wilkesbarrescranton|hartfordwolfpack|ml:home|20261024": 1792872716.289146
   },
   "last_report_date": "2026-10-24",
-  "next_id": 1485,
+  "next_id": 1486,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792867245.675816,
+      "ts": 1792872716.289146,
       "ok": true,
-      "vegas_events": 1996,
-      "ref_events": 1479,
+      "vegas_events": 1983,
+      "ref_events": 1412,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
