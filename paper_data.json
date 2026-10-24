@@ -43342,7 +43342,7 @@
       "close_fair_odds": 1.5512,
       "clv_pct": null,
       "close_fair_p": 0.6446514040038235,
-      "close_ts": 1792839501.816611,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     },
     {
@@ -43552,7 +43552,7 @@
       "close_fair_odds": 1.8186,
       "clv_pct": null,
       "close_fair_p": 0.5498884284348103,
-      "close_ts": 1792839501.816611,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     },
     {
@@ -43789,10 +43789,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7146,
+      "close_fair_odds": 1.7196,
       "clv_pct": null,
-      "close_fair_p": 0.5832223032253199,
-      "close_ts": 1792839501.816611,
+      "close_fair_p": 0.5815270749943358,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     },
     {
@@ -43822,7 +43822,7 @@
       "close_fair_odds": 1.4402,
       "clv_pct": null,
       "close_fair_p": 0.694362716252795,
-      "close_ts": 1792839501.816611,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     },
     {
@@ -43852,7 +43852,7 @@
       "close_fair_odds": 1.7136,
       "clv_pct": null,
       "close_fair_p": 0.5835742584859193,
-      "close_ts": 1792839501.816611,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     },
     {
@@ -43912,7 +43912,7 @@
       "close_fair_odds": 1.7672,
       "clv_pct": null,
       "close_fair_p": 0.5658788229720483,
-      "close_ts": 1792839501.816611,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     },
     {
@@ -44032,7 +44032,7 @@
       "close_fair_odds": 1.8617,
       "clv_pct": null,
       "close_fair_p": 0.5371340441939001,
-      "close_ts": 1792839501.816611,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     },
     {
@@ -44062,7 +44062,7 @@
       "close_fair_odds": 1.763,
       "clv_pct": null,
       "close_fair_p": 0.5671996542783059,
-      "close_ts": 1792839501.816611,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     },
     {
@@ -44092,7 +44092,7 @@
       "close_fair_odds": 1.4337,
       "clv_pct": null,
       "close_fair_p": 0.6975002340604812,
-      "close_ts": 1792839501.816611,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     },
     {
@@ -44122,7 +44122,67 @@
       "close_fair_odds": 1.6802,
       "clv_pct": null,
       "close_fair_p": 0.5951748326070784,
-      "close_ts": 1792839501.816611,
+      "close_ts": 1792840131.771355,
+      "close_provisional": true
+    },
+    {
+      "id": 1456,
+      "ts": 1792839681.81548,
+      "key": "67:18070276:ou:194.5:under",
+      "content_key": "melbourneunited|sydneykings|ou:194.5:under|20261025",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:194.5:under",
+      "event": "Melbourne United - Sydney Kings",
+      "market": "ou",
+      "market_name": "O/U 194.5",
+      "tip": "Kevesebb mint 194.5",
+      "odds": 1.87,
+      "stake": 2800,
+      "value_pct": 9.68,
+      "fair_pct": 58.7,
+      "start": "2026-10-25T06:00:00+00:00",
+      "start_ts": 1792908000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7046,
+      "clv_pct": null,
+      "close_fair_p": 0.5866530037146152,
+      "close_ts": 1792840131.771355,
+      "close_provisional": true
+    },
+    {
+      "id": 1457,
+      "ts": 1792839681.81548,
+      "key": "67:18092623:ml:home",
+      "content_key": "kagoshimarebnise|kanazawasamuraiorchestra|ml:home|20261025",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Kagoshima Rebnise - Kanazawa Samurai Orchestra",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Kagoshima Rebnise",
+      "odds": 1.645,
+      "stake": 3800,
+      "value_pct": 9.75,
+      "fair_pct": 66.7,
+      "start": "2026-10-25T04:05:00+00:00",
+      "start_ts": 1792901100.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.4989,
+      "clv_pct": null,
+      "close_fair_p": 0.6671408599249468,
+      "close_ts": 1792840131.771355,
       "close_provisional": true
     }
   ],
@@ -44558,17 +44618,19 @@
     "sacramentorepublicfc|oaklandrootssc|ou:2.5:over|20261025": 1792838961.808577,
     "yamagatawyverns|koshigayaalphas|ah:19.5:home|20261025": 1792839141.78728,
     "tryhoopokayama|tokushimagambarous|ml:away|20261025": 1792839321.769581,
-    "tryhoopokayama|tokushimagambarous|ah:3.5:away|20261025": 1792839321.769581
+    "tryhoopokayama|tokushimagambarous|ah:3.5:away|20261025": 1792839321.769581,
+    "melbourneunited|sydneykings|ou:194.5:under|20261025": 1792839681.81548,
+    "kagoshimarebnise|kanazawasamuraiorchestra|ml:home|20261025": 1792839681.81548
   },
   "last_report_date": "2026-10-24",
-  "next_id": 1456,
+  "next_id": 1458,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792839501.816611,
+      "ts": 1792840131.771355,
       "ok": true,
-      "vegas_events": 2460,
-      "ref_events": 2191,
+      "vegas_events": 2405,
+      "ref_events": 2140,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
