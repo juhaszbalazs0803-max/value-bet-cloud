@@ -43552,7 +43552,7 @@
       "close_fair_odds": 1.9833,
       "clv_pct": -1.68,
       "close_fair_p": 0.5042125557932546,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792853961.433401,
       "close_provisional": false
     },
     {
@@ -43822,7 +43822,7 @@
       "close_fair_odds": 1.4298,
       "clv_pct": null,
       "close_fair_p": 0.699396286593006,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -43852,7 +43852,7 @@
       "close_fair_odds": 1.7419,
       "clv_pct": null,
       "close_fair_p": 0.5740921180839017,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -43912,7 +43912,7 @@
       "close_fair_odds": 1.7652,
       "clv_pct": 3.84,
       "close_fair_p": 0.5665050590219224,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792853961.433401,
       "close_provisional": false
     },
     {
@@ -44032,7 +44032,7 @@
       "close_fair_odds": 1.8617,
       "clv_pct": null,
       "close_fair_p": 0.5371340441939001,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44062,7 +44062,7 @@
       "close_fair_odds": 1.763,
       "clv_pct": null,
       "close_fair_p": 0.5671996542783059,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44092,7 +44092,7 @@
       "close_fair_odds": 1.4337,
       "clv_pct": null,
       "close_fair_p": 0.6975002340604812,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44182,7 +44182,7 @@
       "close_fair_odds": 1.4989,
       "clv_pct": null,
       "close_fair_p": 0.6671408599249468,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44212,7 +44212,7 @@
       "close_fair_odds": 1.9775,
       "clv_pct": null,
       "close_fair_p": 0.5056847615671947,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44242,7 +44242,7 @@
       "close_fair_odds": 1.8334,
       "clv_pct": null,
       "close_fair_p": 0.5454495868219379,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44272,7 +44272,7 @@
       "close_fair_odds": 1.8833,
       "clv_pct": null,
       "close_fair_p": 0.5309763394071253,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44302,7 +44302,7 @@
       "close_fair_odds": 1.4594,
       "clv_pct": null,
       "close_fair_p": 0.6852095022084278,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44332,7 +44332,7 @@
       "close_fair_odds": 1.7975,
       "clv_pct": null,
       "close_fair_p": 0.5563393403785237,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44362,7 +44362,7 @@
       "close_fair_odds": 2.0734,
       "clv_pct": null,
       "close_fair_p": 0.482290840467139,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44392,7 +44392,7 @@
       "close_fair_odds": 1.5448,
       "clv_pct": null,
       "close_fair_p": 0.6473208791749736,
-      "close_ts": 1792853676.16032,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44452,7 +44452,7 @@
       "close_fair_odds": 1.5562,
       "clv_pct": 7.12,
       "close_fair_p": 0.6426012523685057,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792853961.433401,
       "close_provisional": false
     },
     {
@@ -44482,7 +44482,7 @@
       "close_fair_odds": 1.8214,
       "clv_pct": null,
       "close_fair_p": 0.5490217186532821,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44569,10 +44569,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.0,
+      "close_fair_odds": 2.0623,
       "clv_pct": null,
-      "close_fair_p": 0.5,
-      "close_ts": 1792853856.160114,
+      "close_fair_p": 0.48490197651715744,
+      "close_ts": 1792854411.431539,
       "close_provisional": true
     },
     {
@@ -44632,8 +44632,98 @@
       "close_fair_odds": 1.7649,
       "clv_pct": 3.86,
       "close_fair_p": 0.5666022399322195,
-      "close_ts": 1792853856.160114,
+      "close_ts": 1792853961.433401,
       "close_provisional": false
+    },
+    {
+      "id": 1473,
+      "ts": 1792853961.433401,
+      "key": "67:18120012:ml:home",
+      "content_key": "cdefranciscofrancon|remaxevoraandreresende|ml:home|20261024",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Cde Francisco Franco (N) - Remax Evora/Andre Resende",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Cde Francisco Franco (N)",
+      "odds": 1.364,
+      "stake": 3100,
+      "value_pct": 4.48,
+      "fair_pct": 76.6,
+      "start": "2026-10-24T15:00:00+00:00",
+      "start_ts": 1792854000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3052,
+      "clv_pct": 4.51,
+      "close_fair_p": 0.766175939668659,
+      "close_ts": 1792853961.433401,
+      "close_provisional": false
+    },
+    {
+      "id": 1474,
+      "ts": 1792854051.432674,
+      "key": "67:18098960:ah:5.5:home",
+      "content_key": "darussafaka|buyukcekmecebasketbol|ah:5.5:home|20261025",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:5.5:home",
+      "event": "Darussafaka - Buyukcekmece Basketbol",
+      "market": "ah",
+      "market_name": "Hendikep +5.5",
+      "tip": "Hendikep Darussafaka (+5.5)",
+      "odds": 1.833,
+      "stake": 1800,
+      "value_pct": 6.18,
+      "fair_pct": 57.9,
+      "start": "2026-10-25T15:00:00+00:00",
+      "start_ts": 1792940400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9788,
+      "clv_pct": null,
+      "close_fair_p": 0.5053458857507845,
+      "close_ts": 1792854411.431539,
+      "close_provisional": true
+    },
+    {
+      "id": 1475,
+      "ts": 1792854411.431539,
+      "key": "67:18071430:ah:19.5:home",
+      "content_key": "portesdusoleilbbctroistorrents|badenbasket54|ah:19.5:home|20261024",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:19.5:home",
+      "event": "Portes Du Soleil Bbc Troistorrents - Baden Basket 54",
+      "market": "ah",
+      "market_name": "Hendikep +19.5",
+      "tip": "Hendikep Portes Du Soleil Bbc Troistorrents (+19.5)",
+      "odds": 1.909,
+      "stake": 2000,
+      "value_pct": 7.37,
+      "fair_pct": 56.2,
+      "start": "2026-10-24T15:30:00+00:00",
+      "start_ts": 1792855800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.778,
+      "clv_pct": null,
+      "close_fair_p": 0.562423727914257,
+      "close_ts": 1792854411.431539,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -45085,26 +45175,25 @@
     "kolubara|kknis1996|ou:168.5:under|20261024": 1792852823.136504,
     "svfellbachflashers|basketballlowenerfurt|ah:-8.5:away|20261024": 1792852913.158824,
     "dallasmavericks|sanantoniospurs|ou:230.5:over|20261025": 1792853183.143517,
-    "alkhor|alwakrah|ah:6.5:away|20261024": 1792853766.158807
+    "alkhor|alwakrah|ah:6.5:away|20261024": 1792853766.158807,
+    "cdefranciscofrancon|remaxevoraandreresende|ml:home|20261024": 1792853961.433401,
+    "darussafaka|buyukcekmecebasketbol|ah:5.5:home|20261025": 1792854051.432674,
+    "portesdusoleilbbctroistorrents|badenbasket54|ah:19.5:home|20261024": 1792854411.431539
   },
   "last_report_date": "2026-10-24",
-  "next_id": 1473,
+  "next_id": 1476,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792853856.160114,
-      "ok": false,
-      "vegas_events": 1995,
-      "ref_events": 1648,
+      "ts": 1792854411.431539,
+      "ok": true,
+      "vegas_events": 2095,
+      "ref_events": 1822,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1792819505.1889338,
