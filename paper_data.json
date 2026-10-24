@@ -43342,7 +43342,7 @@
       "close_fair_odds": 1.5512,
       "clv_pct": null,
       "close_fair_p": 0.6446514040038235,
-      "close_ts": 1792837611.801416,
+      "close_ts": 1792838241.782656,
       "close_provisional": true
     },
     {
@@ -43552,7 +43552,7 @@
       "close_fair_odds": 1.8186,
       "clv_pct": null,
       "close_fair_p": 0.5498884284348103,
-      "close_ts": 1792837611.801416,
+      "close_ts": 1792838241.782656,
       "close_provisional": true
     },
     {
@@ -43789,10 +43789,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6983,
+      "close_fair_odds": 1.6953,
       "clv_pct": null,
-      "close_fair_p": 0.5888248559258331,
-      "close_ts": 1792837611.801416,
+      "close_fair_p": 0.5898525368657835,
+      "close_ts": 1792838241.782656,
       "close_provisional": true
     },
     {
@@ -43822,7 +43822,7 @@
       "close_fair_odds": 1.4402,
       "clv_pct": null,
       "close_fair_p": 0.694362716252795,
-      "close_ts": 1792837611.801416,
+      "close_ts": 1792838241.782656,
       "close_provisional": true
     },
     {
@@ -43852,7 +43852,7 @@
       "close_fair_odds": 1.7136,
       "clv_pct": null,
       "close_fair_p": 0.5835742584859193,
-      "close_ts": 1792837611.801416,
+      "close_ts": 1792838241.782656,
       "close_provisional": true
     },
     {
@@ -43912,7 +43912,7 @@
       "close_fair_odds": 1.7672,
       "clv_pct": null,
       "close_fair_p": 0.5658788229720483,
-      "close_ts": 1792837611.801416,
+      "close_ts": 1792838241.782656,
       "close_provisional": true
     },
     {
@@ -43942,8 +43942,68 @@
       "close_fair_odds": 1.5752,
       "clv_pct": 3.16,
       "close_fair_p": 0.6348449151297848,
-      "close_ts": 1792837611.801416,
+      "close_ts": 1792837791.807952,
       "close_provisional": false
+    },
+    {
+      "id": 1450,
+      "ts": 1792837791.807952,
+      "key": "67:18089089:ah:11.5:away",
+      "content_key": "cskasofia|chernomoreig|ah:11.5:away|20261024",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:11.5:away",
+      "event": "CSKA Sofia - Cherno More IG",
+      "market": "ah",
+      "market_name": "Hendikep -11.5",
+      "tip": "Hendikep Cherno More IG (-11.5)",
+      "odds": 1.833,
+      "stake": 2700,
+      "value_pct": 9.04,
+      "fair_pct": 59.5,
+      "start": "2026-10-24T16:00:00+00:00",
+      "start_ts": 1792857600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6814,
+      "clv_pct": null,
+      "close_fair_p": 0.5947481613254387,
+      "close_ts": 1792837791.807952,
+      "close_provisional": true
+    },
+    {
+      "id": 1451,
+      "ts": 1792837971.733392,
+      "key": "66:18087349:ou:3.5:under",
+      "content_key": "sollentunaunited|vasalundsif|ou:3.5:under|20261024",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "Sollentuna United - Vasalunds IF",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.667,
+      "stake": 1200,
+      "value_pct": 3.31,
+      "fair_pct": 62.0,
+      "start": "2026-10-24T14:00:00+00:00",
+      "start_ts": 1792850400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.6133,
+      "clv_pct": null,
+      "close_fair_p": 0.6198608475648324,
+      "close_ts": 1792838241.782656,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -44372,17 +44432,19 @@
     "thunderbasketmatelica|romasanraffaelewomen|ah:-16.5:home|20261024": 1792836981.760124,
     "unibasketsmunster|scristwedel|ah:-7.5:home|20261024": 1792836981.760124,
     "csovoluntari|csphoenixgalati|ou:175.5:over|20261024": 1792836981.760124,
-    "acmilann|ternanan|ml:home|20261024": 1792837071.730082
+    "acmilann|ternanan|ml:home|20261024": 1792837071.730082,
+    "cskasofia|chernomoreig|ah:11.5:away|20261024": 1792837791.807952,
+    "sollentunaunited|vasalundsif|ou:3.5:under|20261024": 1792837971.733392
   },
   "last_report_date": "2026-10-24",
-  "next_id": 1450,
+  "next_id": 1452,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792837611.801416,
+      "ts": 1792838241.782656,
       "ok": true,
-      "vegas_events": 2425,
-      "ref_events": 2196,
+      "vegas_events": 2450,
+      "ref_events": 2189,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
