@@ -44032,7 +44032,7 @@
       "close_fair_odds": 1.7106,
       "clv_pct": null,
       "close_fair_p": 0.5845977967158595,
-      "close_ts": 1792873796.18286,
+      "close_ts": 1792875300.655526,
       "close_provisional": true
     },
     {
@@ -44062,7 +44062,7 @@
       "close_fair_odds": 1.7648,
       "clv_pct": null,
       "close_fair_p": 0.5666333881978359,
-      "close_ts": 1792873976.193389,
+      "close_ts": 1792875210.713902,
       "close_provisional": true
     },
     {
@@ -44092,7 +44092,7 @@
       "close_fair_odds": 1.4475,
       "clv_pct": null,
       "close_fair_p": 0.690846286701209,
-      "close_ts": 1792873976.193389,
+      "close_ts": 1792875210.713902,
       "close_provisional": true
     },
     {
@@ -44182,7 +44182,7 @@
       "close_fair_odds": 1.8383,
       "clv_pct": null,
       "close_fair_p": 0.5439930715310293,
-      "close_ts": 1792873976.193389,
+      "close_ts": 1792875210.713902,
       "close_provisional": true
     },
     {
@@ -44392,7 +44392,7 @@
       "close_fair_odds": 1.5448,
       "clv_pct": null,
       "close_fair_p": 0.6473208791749736,
-      "close_ts": 1792873706.241555,
+      "close_ts": 1792875300.655526,
       "close_provisional": true
     },
     {
@@ -44692,7 +44692,7 @@
       "close_fair_odds": 1.9788,
       "clv_pct": null,
       "close_fair_p": 0.5053458857507845,
-      "close_ts": 1792873976.193389,
+      "close_ts": 1792875210.713902,
       "close_provisional": true
     },
     {
@@ -44812,7 +44812,7 @@
       "close_fair_odds": 1.8137,
       "clv_pct": null,
       "close_fair_p": 0.5513579742699612,
-      "close_ts": 1792873796.18286,
+      "close_ts": 1792875300.655526,
       "close_provisional": true
     },
     {
@@ -45022,7 +45022,37 @@
       "close_fair_odds": 1.795,
       "clv_pct": null,
       "close_fair_p": 0.5571102819237147,
-      "close_ts": 1792873706.241555,
+      "close_ts": 1792875300.655526,
+      "close_provisional": true
+    },
+    {
+      "id": 1486,
+      "ts": 1792875300.655526,
+      "key": "66:18080222:ou:2.5:over",
+      "content_key": "elpasolocomotivefc|newmexicounited|ou:2.5:over|20261025",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:over",
+      "event": "El Paso Locomotive FC - New Mexico United",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Több mint 2.5",
+      "odds": 1.667,
+      "stake": 1700,
+      "value_pct": 4.55,
+      "fair_pct": 62.7,
+      "start": "2026-10-25T01:00:00+00:00",
+      "start_ts": 1792890000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5942,
+      "clv_pct": null,
+      "close_fair_p": 0.6272896070657901,
+      "close_ts": 1792875300.655526,
       "close_provisional": true
     }
   ],
@@ -45483,29 +45513,27 @@
     "leuvenbears|zorgenzekerheidleiden|ah:1.5:home|20261024": 1792865535.821041,
     "derbytrailblazers|essexrebels|ah:-9.5:away|20261024": 1792865805.730519,
     "leuvenbears|zorgenzekerheidleiden|ml:away|20261024": 1792866075.723838,
-    "wilkesbarrescranton|hartfordwolfpack|ml:home|20261024": 1792872716.289146
+    "wilkesbarrescranton|hartfordwolfpack|ml:home|20261024": 1792872716.289146,
+    "elpasolocomotivefc|newmexicounited|ou:2.5:over|20261025": 1792875300.655526
   },
   "last_report_date": "2026-10-24",
-  "next_id": 1486,
+  "next_id": 1487,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792874615.952968,
+      "ts": 1792875300.655526,
       "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "vegas_events": 1560,
+      "ref_events": 1113,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
         "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
+        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
+        "az ELSŐDLEGES fair-forrás kiesett 2 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0; [67] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0)"
       ],
       "settle_err": null
     },
