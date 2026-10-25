@@ -45203,10 +45203,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.992,
-      "clv_pct": null,
+      "clv_pct": -7.98,
       "close_fair_p": 0.5020190944829246,
-      "close_ts": 1792928079.578325,
-      "close_provisional": true
+      "close_ts": 1792939653.283486,
+      "close_provisional": false
     },
     {
       "id": 1492,
@@ -45262,10 +45262,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7727,
+      "close_fair_odds": 2.1745,
       "clv_pct": null,
-      "close_fair_p": 0.5641208204397952,
-      "close_ts": 1792928079.578325,
+      "close_fair_p": 0.45987243859411037,
+      "close_ts": 1792939653.283486,
       "close_provisional": true
     },
     {
@@ -45386,6 +45386,36 @@
       "clv_pct": null,
       "close_fair_p": 0.562423727914257,
       "close_ts": 1792928079.578325,
+      "close_provisional": true
+    },
+    {
+      "id": 1498,
+      "ts": 1792939653.283486,
+      "key": "67:18146635:ou:140.5:under",
+      "content_key": "gigantesdecarolina|explosivasdemoca|ou:140.5:under|20261025",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ou:140.5:under",
+      "event": "Gigantes de Carolina - Explosivas de Moca",
+      "market": "ou",
+      "market_name": "O/U 140.5",
+      "tip": "Kevesebb mint 140.5",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.21,
+      "fair_pct": 56.8,
+      "start": "2026-10-25T23:00:00+00:00",
+      "start_ts": 1792969200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7593,
+      "clv_pct": null,
+      "close_fair_p": 0.5683950882084831,
+      "close_ts": 1792939653.283486,
       "close_provisional": true
     }
   ],
@@ -45858,22 +45888,27 @@
     "fcbarcelona|realmadrid|ml:home|20261025": 1792926850.154521,
     "shenzhenleopards|beijingroyalfighters|ah:-4.5:home|20261025": 1792927719.570383,
     "beijingducks|guangzhouloonglions|ou:182.5:under|20261025": 1792928079.578325,
-    "tureberg|trelleborgbasket|ah:-2.5:away|20261025": 1792928079.578325
+    "tureberg|trelleborgbasket|ah:-2.5:away|20261025": 1792928079.578325,
+    "gigantesdecarolina|explosivasdemoca|ou:140.5:under|20261025": 1792939653.283486
   },
   "last_report_date": "2026-10-25",
-  "next_id": 1498,
+  "next_id": 1499,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792928079.578325,
-      "ok": true,
-      "vegas_events": 1809,
-      "ref_events": 1467,
+      "ts": 1792939653.283486,
+      "ok": false,
+      "vegas_events": 486,
+      "ref_events": 417,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1792906966.6614156,
