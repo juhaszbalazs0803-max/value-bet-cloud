@@ -45292,10 +45292,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6359,
+      "close_fair_odds": 1.6453,
       "clv_pct": null,
-      "close_fair_p": 0.6112734359498297,
-      "close_ts": 1792952232.200151,
+      "close_fair_p": 0.6077861682276489,
+      "close_ts": 1792952862.218962,
       "close_provisional": true
     },
     {
@@ -45415,7 +45415,7 @@
       "close_fair_odds": 1.7617,
       "clv_pct": null,
       "close_fair_p": 0.5676442762535479,
-      "close_ts": 1792952232.200151,
+      "close_ts": 1792952862.218962,
       "close_provisional": true
     },
     {
@@ -45537,6 +45537,36 @@
       "close_fair_p": 0.6634839025584527,
       "close_ts": 1792942762.969079,
       "close_provisional": true
+    },
+    {
+      "id": 1503,
+      "ts": 1792952322.189607,
+      "key": "67:18101012:ah:-9.5:away",
+      "content_key": "mksdabrowagornicza|treflsopot|ah:-9.5:away|20261025",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-9.5:away",
+      "event": "MKS Dabrowa Gornicza - Trefl Sopot",
+      "market": "ah",
+      "market_name": "Hendikep +9.5",
+      "tip": "Hendikep Trefl Sopot (+9.5)",
+      "odds": 1.833,
+      "stake": 1500,
+      "value_pct": 4.87,
+      "fair_pct": 57.2,
+      "start": "2026-10-25T18:30:00+00:00",
+      "start_ts": 1792953000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7482,
+      "clv_pct": 4.85,
+      "close_fair_p": 0.5720053835800807,
+      "close_ts": 1792952862.218962,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -46013,17 +46043,18 @@
     "gdnazarenos|fcoliveiradohospital|ml:away|20261025": 1792939752.360553,
     "olimpiamilano|virtus|ah:-3.5:away|20261025": 1792940389.692084,
     "alarabiqat|alrayyan|ou:166.5:over|20261025": 1792940389.692084,
-    "ittihadkhemisset|mouloudiaoujda|ou:2.5:under|20261025": 1792941568.956042
+    "ittihadkhemisset|mouloudiaoujda|ou:2.5:under|20261025": 1792941568.956042,
+    "mksdabrowagornicza|treflsopot|ah:-9.5:away|20261025": 1792952322.189607
   },
   "last_report_date": "2026-10-25",
-  "next_id": 1503,
+  "next_id": 1504,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792952232.200151,
+      "ts": 1792952862.218962,
       "ok": true,
-      "vegas_events": 1315,
-      "ref_events": 1016,
+      "vegas_events": 1326,
+      "ref_events": 1035,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
