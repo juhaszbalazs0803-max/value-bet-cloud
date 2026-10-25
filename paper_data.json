@@ -45172,10 +45172,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.1785,
+      "close_fair_odds": 2.2297,
       "clv_pct": null,
-      "close_fair_p": 0.4590413604539545,
-      "close_ts": 1792940929.707555,
+      "close_fair_p": 0.4484870674729653,
+      "close_ts": 1792941568.956042,
       "close_provisional": true
     },
     {
@@ -45265,7 +45265,7 @@
       "close_fair_odds": 2.1745,
       "clv_pct": null,
       "close_fair_p": 0.45987243859411037,
-      "close_ts": 1792940929.707555,
+      "close_ts": 1792941568.956042,
       "close_provisional": true
     },
     {
@@ -45292,10 +45292,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6424,
+      "close_fair_odds": 1.6388,
       "clv_pct": null,
-      "close_fair_p": 0.6088545359695462,
-      "close_ts": 1792940929.707555,
+      "close_fair_p": 0.6101947082735418,
+      "close_ts": 1792941568.956042,
       "close_provisional": true
     },
     {
@@ -45415,7 +45415,7 @@
       "close_fair_odds": 1.7593,
       "clv_pct": null,
       "close_fair_p": 0.5683950882084831,
-      "close_ts": 1792940929.707555,
+      "close_ts": 1792941568.956042,
       "close_provisional": true
     },
     {
@@ -45507,6 +45507,36 @@
       "close_fair_p": 0.5840634125990822,
       "close_ts": 1792940389.692084,
       "close_provisional": false
+    },
+    {
+      "id": 1502,
+      "ts": 1792941568.956042,
+      "key": "66:18098073:ou:2.5:under",
+      "content_key": "ittihadkhemisset|mouloudiaoujda|ou:2.5:under|20261025",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:under",
+      "event": "Ittihad Khemisset - Mouloudia Oujda",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Kevesebb mint 2.5",
+      "odds": 1.556,
+      "stake": 1500,
+      "value_pct": 3.21,
+      "fair_pct": 66.3,
+      "start": "2026-10-25T17:00:00+00:00",
+      "start_ts": 1792947600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5072,
+      "clv_pct": null,
+      "close_fair_p": 0.6634839025584527,
+      "close_ts": 1792941568.956042,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -45982,17 +46012,18 @@
     "gigantesdecarolina|explosivasdemoca|ou:140.5:under|20261025": 1792939653.283486,
     "gdnazarenos|fcoliveiradohospital|ml:away|20261025": 1792939752.360553,
     "olimpiamilano|virtus|ah:-3.5:away|20261025": 1792940389.692084,
-    "alarabiqat|alrayyan|ou:166.5:over|20261025": 1792940389.692084
+    "alarabiqat|alrayyan|ou:166.5:over|20261025": 1792940389.692084,
+    "ittihadkhemisset|mouloudiaoujda|ou:2.5:under|20261025": 1792941568.956042
   },
   "last_report_date": "2026-10-25",
-  "next_id": 1502,
+  "next_id": 1503,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792940929.707555,
+      "ts": 1792941568.956042,
       "ok": true,
-      "vegas_events": 1444,
-      "ref_events": 1173,
+      "vegas_events": 1446,
+      "ref_events": 1174,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
