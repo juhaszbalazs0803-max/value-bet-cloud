@@ -45595,7 +45595,7 @@
       "close_fair_odds": 1.7527,
       "clv_pct": null,
       "close_fair_p": 0.5705327542340213,
-      "close_ts": 1792963491.46974,
+      "close_ts": 1792964121.448118,
       "close_provisional": true
     },
     {
@@ -45657,6 +45657,36 @@
       "close_fair_p": 0.7091246672482832,
       "close_ts": 1792954752.200883,
       "close_provisional": false
+    },
+    {
+      "id": 1507,
+      "ts": 1792964121.448118,
+      "key": "68:18158823:ml:home",
+      "content_key": "michaelgeerts|nielsmcdonald|ml:home|20261026",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:home",
+      "event": "Michael Geerts - Niels Mcdonald",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Michael Geerts",
+      "odds": 1.857,
+      "stake": 900,
+      "value_pct": 3.19,
+      "fair_pct": 55.6,
+      "start": "2026-10-26T10:00:00+00:00",
+      "start_ts": 1793008800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7997,
+      "clv_pct": null,
+      "close_fair_p": 0.5556417015557967,
+      "close_ts": 1792964121.448118,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -46137,26 +46167,23 @@
     "mksdabrowagornicza|treflsopot|ah:-9.5:away|20261025": 1792952322.189607,
     "kokimatsuda|beibitzhukayev|ml:away|20261026": 1792953402.206002,
     "capitolmontevideo|clubatleticocader|ou:159.5:over|20261025": 1792953852.191741,
-    "kkhercegovac|kkboraczemun|ml:home|20261025": 1792954752.200883
+    "kkhercegovac|kkboraczemun|ml:home|20261025": 1792954752.200883,
+    "michaelgeerts|nielsmcdonald|ml:home|20261026": 1792964121.448118
   },
   "last_report_date": "2026-10-25",
-  "next_id": 1507,
+  "next_id": 1508,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1792963491.46974,
-      "ok": false,
-      "vegas_events": 1311,
-      "ref_events": 920,
+      "ts": 1792964121.448118,
+      "ok": true,
+      "vegas_events": 1379,
+      "ref_events": 1043,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/markets/straight?primaryOnly=false&brandId=0)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1792906966.6614156,
