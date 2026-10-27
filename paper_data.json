@@ -45751,7 +45751,7 @@
       "close_fair_odds": 1.6768,
       "clv_pct": null,
       "close_fair_p": 0.5963734049697784,
-      "close_ts": 1793111996.881514,
+      "close_ts": 1793112552.10918,
       "close_provisional": true
     },
     {
@@ -45778,10 +45778,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8439,
+      "close_fair_odds": 1.8398,
       "clv_pct": null,
-      "close_fair_p": 0.5423423900103177,
-      "close_ts": 1793111996.881514,
+      "close_fair_p": 0.5435499617404154,
+      "close_ts": 1793112552.10918,
       "close_provisional": true
     },
     {
@@ -45811,7 +45811,7 @@
       "close_fair_odds": 1.6646,
       "clv_pct": null,
       "close_fair_p": 0.6007464594304411,
-      "close_ts": 1793111996.881514,
+      "close_ts": 1793112552.10918,
       "close_provisional": true
     },
     {
@@ -45841,7 +45841,37 @@
       "close_fair_odds": 2.0369,
       "clv_pct": null,
       "close_fair_p": 0.49094852980558085,
-      "close_ts": 1793111996.881514,
+      "close_ts": 1793112552.10918,
+      "close_provisional": true
+    },
+    {
+      "id": 1513,
+      "ts": 1793112102.072217,
+      "key": "66:18101872:ou:2.5:over",
+      "content_key": "juanpabloii|sporthuancayo|ou:2.5:over|20261027",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:over",
+      "event": "Juan Pablo II - Sport Huancayo",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Több mint 2.5",
+      "odds": 2.0,
+      "stake": 800,
+      "value_pct": 3.37,
+      "fair_pct": 51.7,
+      "start": "2026-10-27T20:00:00+00:00",
+      "start_ts": 1793131200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.9215,
+      "clv_pct": null,
+      "close_fair_p": 0.520418064373042,
+      "close_ts": 1793112552.10918,
       "close_provisional": true
     }
   ],
@@ -46325,17 +46355,18 @@
     "ballymacashrangers|lisburndistilleryfc|ou:3.5:under|20261027": 1793109389.541019,
     "sestaoriver|rcdespanyol|ou:2.5:over|20261027": 1793109479.474842,
     "nakajimakazuki|maximuszavierwong|ml:home|20261028": 1793110152.316437,
-    "alrayyan|alsadd|ah:3.5:home|20261027": 1793110152.316437
+    "alrayyan|alsadd|ah:3.5:home|20261027": 1793110152.316437,
+    "juanpabloii|sporthuancayo|ou:2.5:over|20261027": 1793112102.072217
   },
   "last_report_date": "2026-10-27",
-  "next_id": 1513,
+  "next_id": 1514,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793111996.881514,
+      "ts": 1793112552.10918,
       "ok": true,
-      "vegas_events": 2004,
-      "ref_events": 1525,
+      "vegas_events": 2016,
+      "ref_events": 1537,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
