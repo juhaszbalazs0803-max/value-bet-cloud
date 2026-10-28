@@ -45879,7 +45879,6 @@
     }
   ],
   "papered": {
-    "fcsantacruz|lajeadense|ml:home|20260913": 1789319873.293961,
     "bayernmnchen|hapoeltelaviv|ah:6.5:home|20260913": 1789321763.276707,
     "promitheas|vienna|ou:166.0:over|20260915": 1789408700.330677,
     "ryukyugoldenkingsokinawa|ibarakirobots|ou:158.5:over|20260915": 1789409600.325175,
@@ -46356,7 +46355,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793207340.685326,
+      "ts": 1793207979.49998,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
