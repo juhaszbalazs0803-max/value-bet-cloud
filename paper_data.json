@@ -46380,12 +46380,12 @@
     "juanpabloii|sporthuancayo|ou:2.5:over|20261027": 1793112102.072217,
     "municipal|comunicaciones|ml:home|20261029": 1793223065.492269
   },
-  "last_report_date": "2026-10-28",
+  "last_report_date": "2026-10-29",
   "next_id": 1515,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793263985.968492,
+      "ts": 1793286319.43779,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
