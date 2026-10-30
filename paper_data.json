@@ -45934,7 +45934,7 @@
       "close_fair_odds": 2.1142,
       "clv_pct": null,
       "close_fair_p": 0.47299765196973653,
-      "close_ts": 1793388652.010849,
+      "close_ts": 1793389339.270099,
       "close_provisional": true
     },
     {
@@ -46084,7 +46084,7 @@
       "close_fair_odds": 1.7472,
       "clv_pct": null,
       "close_fair_p": 0.5723437212843604,
-      "close_ts": 1793388652.010849,
+      "close_ts": 1793389339.270099,
       "close_provisional": true
     },
     {
@@ -46111,10 +46111,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.1178,
-      "clv_pct": -5.56,
-      "close_fair_p": 0.47219561506134183,
-      "close_ts": 1793388652.010849,
+      "close_fair_odds": 2.0442,
+      "clv_pct": -2.16,
+      "close_fair_p": 0.4891801528783971,
+      "close_ts": 1793389339.270099,
       "close_provisional": false
     },
     {
@@ -46144,7 +46144,7 @@
       "close_fair_odds": 1.4756,
       "clv_pct": null,
       "close_fair_p": 0.6776859504132232,
-      "close_ts": 1793388652.010849,
+      "close_ts": 1793389339.270099,
       "close_provisional": true
     },
     {
@@ -46174,7 +46174,7 @@
       "close_fair_odds": 1.7593,
       "clv_pct": null,
       "close_fair_p": 0.5683950882084831,
-      "close_ts": 1793388652.010849,
+      "close_ts": 1793389339.270099,
       "close_provisional": true
     },
     {
@@ -46204,7 +46204,7 @@
       "close_fair_odds": 1.8698,
       "clv_pct": null,
       "close_fair_p": 0.5348149354173451,
-      "close_ts": 1793388652.010849,
+      "close_ts": 1793389339.270099,
       "close_provisional": true
     },
     {
@@ -46234,7 +46234,7 @@
       "close_fair_odds": 1.9522,
       "clv_pct": null,
       "close_fair_p": 0.5122523604213283,
-      "close_ts": 1793388652.010849,
+      "close_ts": 1793389339.270099,
       "close_provisional": true
     },
     {
@@ -46321,10 +46321,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7976,
-      "clv_pct": 7.53,
-      "close_fair_p": 0.5562838911997212,
-      "close_ts": 1793388652.010849,
+      "close_fair_odds": 1.8335,
+      "clv_pct": 5.43,
+      "close_fair_p": 0.5453925263624358,
+      "close_ts": 1793389339.270099,
       "close_provisional": false
     },
     {
@@ -46381,10 +46381,40 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.734,
+      "close_fair_odds": 1.9418,
       "clv_pct": null,
-      "close_fair_p": 0.5767167381974249,
-      "close_ts": 1793388652.010849,
+      "close_fair_p": 0.5149991803726571,
+      "close_ts": 1793389339.270099,
+      "close_provisional": true
+    },
+    {
+      "id": 1531,
+      "ts": 1793389339.270099,
+      "key": "66:18086318:ou:3.5:under",
+      "content_key": "cdtrealoruro|nacionalpotos|ou:3.5:under|20261031",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:3.5:under",
+      "event": "Cdt Real Oruro - Nacional Potosí",
+      "market": "ou",
+      "market_name": "O/U 3.5",
+      "tip": "Kevesebb mint 3.5",
+      "odds": 1.833,
+      "stake": 1000,
+      "value_pct": 3.21,
+      "fair_pct": 56.3,
+      "start": "2026-10-31T19:00:00+00:00",
+      "start_ts": 1793473200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7763,
+      "clv_pct": null,
+      "close_fair_p": 0.5629559150015858,
+      "close_ts": 1793389339.270099,
       "close_provisional": true
     }
   ],
@@ -46872,17 +46902,18 @@
     "unionomahasc|chattanoogaredwolvessc|ou:3.5:under|20261030": 1793387458.037507,
     "tolkarovers|inchicoreathleticfc|ml:away|20261030": 1793388381.929377,
     "pontypriddtown|llanellitownafc|ou:4.5:under|20261030": 1793388381.929377,
-    "thamesvalleycavaliers|essexrebels|ah:-7.5:away|20261031": 1793388652.010849
+    "thamesvalleycavaliers|essexrebels|ah:-7.5:away|20261031": 1793388652.010849,
+    "cdtrealoruro|nacionalpotos|ou:3.5:under|20261031": 1793389339.270099
   },
   "last_report_date": "2026-10-30",
-  "next_id": 1531,
+  "next_id": 1532,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793388652.010849,
+      "ts": 1793389339.270099,
       "ok": true,
-      "vegas_events": 2257,
-      "ref_events": 1921,
+      "vegas_events": 2263,
+      "ref_events": 1912,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
