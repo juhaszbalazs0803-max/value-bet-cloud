@@ -46084,7 +46084,7 @@
       "close_fair_odds": 1.6925,
       "clv_pct": null,
       "close_fair_p": 0.5908496732026143,
-      "close_ts": 1793458820.363963,
+      "close_ts": 1793459450.401814,
       "close_provisional": true
     },
     {
@@ -46204,7 +46204,7 @@
       "close_fair_odds": 1.5592,
       "clv_pct": null,
       "close_fair_p": 0.6413431061806657,
-      "close_ts": 1793458820.363963,
+      "close_ts": 1793459450.401814,
       "close_provisional": true
     },
     {
@@ -46384,7 +46384,7 @@
       "close_fair_odds": 2.2727,
       "clv_pct": null,
       "close_fair_p": 0.4400063695957961,
-      "close_ts": 1793458820.363963,
+      "close_ts": 1793459450.401814,
       "close_provisional": true
     },
     {
@@ -46627,7 +46627,7 @@
       "close_fair_odds": 1.8191,
       "clv_pct": null,
       "close_fair_p": 0.5497307200781895,
-      "close_ts": 1793458820.363963,
+      "close_ts": 1793459450.401814,
       "close_provisional": true
     },
     {
@@ -46654,10 +46654,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8122,
+      "close_fair_odds": 1.8506,
       "clv_pct": null,
-      "close_fair_p": 0.5518277675587451,
-      "close_ts": 1793458820.363963,
+      "close_fair_p": 0.5403720253559182,
+      "close_ts": 1793459450.401814,
       "close_provisional": true
     },
     {
@@ -46807,7 +46807,7 @@
       "close_fair_odds": 1.8368,
       "clv_pct": null,
       "close_fair_p": 0.5444249387738673,
-      "close_ts": 1793458820.363963,
+      "close_ts": 1793459450.401814,
       "close_provisional": true
     },
     {
@@ -46867,7 +46867,7 @@
       "close_fair_odds": 1.871,
       "clv_pct": null,
       "close_fair_p": 0.5344751904153249,
-      "close_ts": 1793458820.363963,
+      "close_ts": 1793459450.401814,
       "close_provisional": true
     },
     {
@@ -46897,7 +46897,7 @@
       "close_fair_odds": 1.6158,
       "clv_pct": null,
       "close_fair_p": 0.6188966391883323,
-      "close_ts": 1793458820.363963,
+      "close_ts": 1793459450.401814,
       "close_provisional": true
     },
     {
@@ -46927,7 +46927,67 @@
       "close_fair_odds": 1.8387,
       "clv_pct": null,
       "close_fair_p": 0.5438531331246352,
-      "close_ts": 1793458820.363963,
+      "close_ts": 1793459450.401814,
+      "close_provisional": true
+    },
+    {
+      "id": 1549,
+      "ts": 1793459000.348416,
+      "key": "68:18223248:ml:away",
+      "content_key": "fitriadimrifqi|maximejanvier|ml:away|20261101",
+      "sport": "Tenisz",
+      "sport_id": 68,
+      "subkey": "ml:away",
+      "event": "Fitriadi M Rifqi - Maxime Janvier",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Maxime Janvier",
+      "odds": 1.6,
+      "stake": 2100,
+      "value_pct": 4.97,
+      "fair_pct": 65.6,
+      "start": "2026-11-01T03:30:00+00:00",
+      "start_ts": 1793503800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.5242,
+      "clv_pct": null,
+      "close_fair_p": 0.6560922855082914,
+      "close_ts": 1793459450.401814,
+      "close_provisional": true
+    },
+    {
+      "id": 1550,
+      "ts": 1793459360.404218,
+      "key": "67:18203676:ah:-9.5:away",
+      "content_key": "clubnacional|jorgeguzman|ah:-9.5:away|20261031",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-9.5:away",
+      "event": "Club Nacional - Jorge Guzman",
+      "market": "ah",
+      "market_name": "Hendikep +9.5",
+      "tip": "Hendikep Jorge Guzman (+9.5)",
+      "odds": 1.952,
+      "stake": 1500,
+      "value_pct": 5.73,
+      "fair_pct": 54.2,
+      "start": "2026-10-31T19:10:00+00:00",
+      "start_ts": 1793473800.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8466,
+      "clv_pct": null,
+      "close_fair_p": 0.5415238095238095,
+      "close_ts": 1793459450.401814,
       "close_provisional": true
     }
   ],
@@ -47425,17 +47485,19 @@
     "vikosfalconbc|aek|ah:6.5:home|20261031": 1793437439.486114,
     "birminghamn|tottenhamn|ml:away|20261101": 1793458820.363963,
     "sloga|velez|ou:2.5:under|20261101": 1793458820.363963,
-    "vasteras|sodertalje|ml:away|20261101": 1793458820.363963
+    "vasteras|sodertalje|ml:away|20261101": 1793458820.363963,
+    "fitriadimrifqi|maximejanvier|ml:away|20261101": 1793459000.348416,
+    "clubnacional|jorgeguzman|ah:-9.5:away|20261031": 1793459360.404218
   },
   "last_report_date": "2026-10-31",
-  "next_id": 1549,
+  "next_id": 1551,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793458820.363963,
+      "ts": 1793459450.401814,
       "ok": true,
-      "vegas_events": 2067,
-      "ref_events": 1987,
+      "vegas_events": 2074,
+      "ref_events": 1802,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
