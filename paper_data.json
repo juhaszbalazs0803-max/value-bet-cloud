@@ -46084,7 +46084,7 @@
       "close_fair_odds": 1.6907,
       "clv_pct": null,
       "close_fair_p": 0.5914857187329753,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46204,7 +46204,7 @@
       "close_fair_odds": 1.5592,
       "clv_pct": null,
       "close_fair_p": 0.6413431061806657,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46384,7 +46384,7 @@
       "close_fair_odds": 2.2727,
       "clv_pct": null,
       "close_fair_p": 0.4400063695957961,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46414,7 +46414,7 @@
       "close_fair_odds": 1.7301,
       "clv_pct": null,
       "close_fair_p": 0.5779887053583265,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46627,7 +46627,7 @@
       "close_fair_odds": 1.775,
       "clv_pct": null,
       "close_fair_p": 0.5633658334028846,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46654,10 +46654,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8478,
+      "close_fair_odds": 1.8506,
       "clv_pct": null,
-      "close_fair_p": 0.541187490243014,
-      "close_ts": 1793460710.355661,
+      "close_fair_p": 0.5403720253559182,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46807,7 +46807,7 @@
       "close_fair_odds": 1.8368,
       "clv_pct": null,
       "close_fair_p": 0.5444249387738673,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46867,7 +46867,7 @@
       "close_fair_odds": 1.871,
       "clv_pct": null,
       "close_fair_p": 0.5344751904153249,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46897,7 +46897,7 @@
       "close_fair_odds": 1.6158,
       "clv_pct": null,
       "close_fair_p": 0.6188966391883323,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46927,7 +46927,7 @@
       "close_fair_odds": 1.8387,
       "clv_pct": null,
       "close_fair_p": 0.5438531331246352,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -46957,7 +46957,7 @@
       "close_fair_odds": 1.5242,
       "clv_pct": null,
       "close_fair_p": 0.6560922855082914,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -47017,7 +47017,7 @@
       "close_fair_odds": 1.7275,
       "clv_pct": null,
       "close_fair_p": 0.5788712011577425,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793460890.399709,
       "close_provisional": true
     },
     {
@@ -47047,7 +47047,7 @@
       "close_fair_odds": 2.056,
       "clv_pct": null,
       "close_fair_p": 0.4863757697491872,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     },
     {
@@ -47077,7 +47077,37 @@
       "close_fair_odds": 1.3308,
       "clv_pct": null,
       "close_fair_p": 0.7514402604992902,
-      "close_ts": 1793460710.355661,
+      "close_ts": 1793461340.3746,
+      "close_provisional": true
+    },
+    {
+      "id": 1554,
+      "ts": 1793461340.3746,
+      "key": "67:18155901:ah:-25.5:home",
+      "content_key": "shanghaisharks|nanjingmonkeykings|ah:-25.5:home|20261101",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-25.5:home",
+      "event": "Shanghai Sharks - Nanjing Monkey Kings",
+      "market": "ah",
+      "market_name": "Hendikep -25.5",
+      "tip": "Hendikep Shanghai Sharks (-25.5)",
+      "odds": 1.833,
+      "stake": 1300,
+      "value_pct": 4.42,
+      "fair_pct": 57.0,
+      "start": "2026-11-01T11:35:00+00:00",
+      "start_ts": 1793532900.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7558,
+      "clv_pct": null,
+      "close_fair_p": 0.5695250376101441,
+      "close_ts": 1793461340.3746,
       "close_provisional": true
     }
   ],
@@ -47580,17 +47610,18 @@
     "clubnacional|jorgeguzman|ah:-9.5:away|20261031": 1793459360.404218,
     "clubnacional|jorgeguzman|ah:-12.5:away|20261031": 1793459720.36089,
     "adelaide36ers|brisbanebullets|ou:188.5:under|20261101": 1793460260.366956,
-    "sclusitania|abcsantoandre|ml:home|20261031": 1793460260.366956
+    "sclusitania|abcsantoandre|ml:home|20261031": 1793460260.366956,
+    "shanghaisharks|nanjingmonkeykings|ah:-25.5:home|20261101": 1793461340.3746
   },
   "last_report_date": "2026-10-31",
-  "next_id": 1554,
+  "next_id": 1555,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793460710.355661,
+      "ts": 1793461340.3746,
       "ok": true,
-      "vegas_events": 2085,
-      "ref_events": 1811,
+      "vegas_events": 2115,
+      "ref_events": 1790,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
