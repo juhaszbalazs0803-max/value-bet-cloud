@@ -46657,7 +46657,7 @@
       "close_fair_odds": 1.8437,
       "clv_pct": null,
       "close_fair_p": 0.5423781595474126,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -46805,10 +46805,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.7844,
-      "clv_pct": null,
+      "clv_pct": 6.48,
       "close_fair_p": 0.5604046833572993,
-      "close_ts": 1793476400.670801,
-      "close_provisional": true
+      "close_ts": 1793477034.97563,
+      "close_provisional": false
     },
     {
       "id": 1545,
@@ -46867,7 +46867,7 @@
       "close_fair_odds": 1.8671,
       "clv_pct": null,
       "close_fair_p": 0.5355807728509363,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -46897,7 +46897,7 @@
       "close_fair_odds": 1.6133,
       "clv_pct": null,
       "close_fair_p": 0.6198608475648324,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -46927,7 +46927,7 @@
       "close_fair_odds": 1.9603,
       "clv_pct": null,
       "close_fair_p": 0.5101271911073109,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -46957,7 +46957,7 @@
       "close_fair_odds": 1.5242,
       "clv_pct": null,
       "close_fair_p": 0.6560922855082914,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793476944.93356,
       "close_provisional": true
     },
     {
@@ -47047,7 +47047,7 @@
       "close_fair_odds": 2.056,
       "clv_pct": null,
       "close_fair_p": 0.4863757697491872,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -47197,7 +47197,7 @@
       "close_fair_odds": 1.7352,
       "clv_pct": null,
       "close_fair_p": 0.5762984199230426,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -47227,7 +47227,7 @@
       "close_fair_odds": 1.4784,
       "clv_pct": null,
       "close_fair_p": 0.6763983860970141,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -47257,7 +47257,7 @@
       "close_fair_odds": 1.6575,
       "clv_pct": null,
       "close_fair_p": 0.6033299671146327,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -47287,7 +47287,7 @@
       "close_fair_odds": 1.7472,
       "clv_pct": null,
       "close_fair_p": 0.5723479702439016,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -47317,7 +47317,7 @@
       "close_fair_odds": 1.8383,
       "clv_pct": null,
       "close_fair_p": 0.5439930715310293,
-      "close_ts": 1793476400.670801,
+      "close_ts": 1793477034.97563,
       "close_provisional": true
     },
     {
@@ -47409,6 +47409,36 @@
       "close_fair_p": 0.5866946045049765,
       "close_ts": 1793474957.173307,
       "close_provisional": false
+    },
+    {
+      "id": 1565,
+      "ts": 1793476944.93356,
+      "key": "67:18187655:ah:8.5:home",
+      "content_key": "dynamic|vojvodina|ah:8.5:home|20261101",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:8.5:home",
+      "event": "Dynamic - Vojvodina",
+      "market": "ah",
+      "market_name": "Hendikep +8.5",
+      "tip": "Hendikep Dynamic (+8.5)",
+      "odds": 1.833,
+      "stake": 900,
+      "value_pct": 3.14,
+      "fair_pct": 56.3,
+      "start": "2026-11-01T17:00:00+00:00",
+      "start_ts": 1793552400.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7775,
+      "clv_pct": null,
+      "close_fair_p": 0.5625726881778595,
+      "close_ts": 1793477034.97563,
+      "close_provisional": true
     }
   ],
   "papered": {
@@ -47921,22 +47951,27 @@
     "puertomonttbasquetbol|cdespanolosorno|ml:home|20261031": 1793473873.395639,
     "thamesvalleycavaliers|essexrebels|ml:home|20261031": 1793474597.124477,
     "thamesvalleycavaliers|essexrebels|ah:-6.5:home|20261031": 1793474597.124477,
-    "thamesvalleycavaliers|essexrebels|ah:-5.5:home|20261031": 1793474957.173307
+    "thamesvalleycavaliers|essexrebels|ah:-5.5:home|20261031": 1793474957.173307,
+    "dynamic|vojvodina|ah:8.5:home|20261101": 1793476944.93356
   },
   "last_report_date": "2026-10-31",
-  "next_id": 1565,
+  "next_id": 1566,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793476400.670801,
-      "ok": true,
-      "vegas_events": 1925,
-      "ref_events": 1417,
+      "ts": 1793477034.97563,
+      "ok": false,
+      "vegas_events": 1787,
+      "ref_events": 1369,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {},
+      "ref_down": {
+        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0"
+      },
       "ref_gap": {},
       "sports_err": {},
-      "problems": [],
+      "problems": [
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&brandId=0)"
+      ],
       "settle_err": null
     },
     "last_alert_ts": 1793400724.849712,
