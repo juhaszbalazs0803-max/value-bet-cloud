@@ -46084,7 +46084,7 @@
       "close_fair_odds": 1.7472,
       "clv_pct": null,
       "close_fair_p": 0.5723437212843604,
-      "close_ts": 1793403090.894949,
+      "close_ts": 1793434289.512951,
       "close_provisional": true
     },
     {
@@ -46174,7 +46174,7 @@
       "close_fair_odds": 1.7593,
       "clv_pct": null,
       "close_fair_p": 0.5683950882084831,
-      "close_ts": 1793403270.918263,
+      "close_ts": 1793434289.512951,
       "close_provisional": true
     },
     {
@@ -46201,10 +46201,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7099,
+      "close_fair_odds": 1.5239,
       "clv_pct": null,
-      "close_fair_p": 0.5848264128874475,
-      "close_ts": 1793403270.918263,
+      "close_fair_p": 0.6562103850264721,
+      "close_ts": 1793434289.512951,
       "close_provisional": true
     },
     {
@@ -46384,7 +46384,7 @@
       "close_fair_odds": 1.9418,
       "clv_pct": null,
       "close_fair_p": 0.5149991803726571,
-      "close_ts": 1793403270.918263,
+      "close_ts": 1793434289.512951,
       "close_provisional": true
     },
     {
@@ -46474,10 +46474,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7577,
+      "close_fair_odds": 1.763,
       "clv_pct": null,
-      "close_fair_p": 0.5689171699741157,
-      "close_ts": 1793403270.918263,
+      "close_fair_p": 0.5671996542783059,
+      "close_ts": 1793434289.512951,
       "close_provisional": true
     },
     {
@@ -46504,10 +46504,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.3874,
+      "close_fair_odds": 1.4055,
       "clv_pct": null,
-      "close_fair_p": 0.7207610520425294,
-      "close_ts": 1793403270.918263,
+      "close_fair_p": 0.7114678585273527,
+      "close_ts": 1793434289.512951,
       "close_provisional": true
     },
     {
@@ -46534,10 +46534,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.9135,
+      "close_fair_odds": 1.9414,
       "clv_pct": null,
-      "close_fair_p": 0.5226160382939817,
-      "close_ts": 1793403090.894949,
+      "close_fair_p": 0.5150980234828425,
+      "close_ts": 1793434289.512951,
       "close_provisional": true
     },
     {
@@ -46564,10 +46564,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.8388,
+      "close_fair_odds": 1.8818,
       "clv_pct": null,
-      "close_fair_p": 0.5438294206332114,
-      "close_ts": 1793403090.894949,
+      "close_fair_p": 0.5314084847183835,
+      "close_ts": 1793434289.512951,
       "close_provisional": true
     },
     {
@@ -46598,6 +46598,66 @@
       "clv_pct": null,
       "close_fair_p": 0.47362120099039534,
       "close_ts": 1793402354.954715,
+      "close_provisional": true
+    },
+    {
+      "id": 1538,
+      "ts": 1793434289.512951,
+      "key": "66:18117233:ml:home",
+      "content_key": "goytacaz|campogrande|ml:home|20261031",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Goytacaz - Campo Grande",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Goytacaz",
+      "odds": 1.923,
+      "stake": 1500,
+      "value_pct": 5.72,
+      "fair_pct": 55.0,
+      "start": "2026-10-31T18:00:00+00:00",
+      "start_ts": 1793469600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8191,
+      "clv_pct": null,
+      "close_fair_p": 0.5497307200781895,
+      "close_ts": 1793434289.512951,
+      "close_provisional": true
+    },
+    {
+      "id": 1539,
+      "ts": 1793434289.512951,
+      "key": "66:17668142:ou:2.5:over",
+      "content_key": "llaneros|junior|ou:2.5:over|20261031",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ou:2.5:over",
+      "event": "Llaneros - Junior",
+      "market": "ou",
+      "market_name": "O/U 2.5",
+      "tip": "Több mint 2.5",
+      "odds": 1.889,
+      "stake": 900,
+      "value_pct": 3.06,
+      "fair_pct": 54.6,
+      "start": "2026-10-31T23:00:00+00:00",
+      "start_ts": 1793487600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8329,
+      "clv_pct": null,
+      "close_fair_p": 0.5455921894170778,
+      "close_ts": 1793434289.512951,
       "close_provisional": true
     }
   ],
@@ -47088,30 +47148,24 @@
     "acssepsisicn|csrapidbucurestin|ml:home|20261031": 1793400542.916827,
     "brandysnadlabem|fkmeteorprgaviii|ou:3.5:under|20261031": 1793400812.879209,
     "spartabrno|fckurim|ou:3.5:under|20261031": 1793400812.879209,
-    "gifuswoops|fukuiblowwinds|ah:5.5:away|20261031": 1793401269.280975
+    "gifuswoops|fukuiblowwinds|ah:5.5:away|20261031": 1793401269.280975,
+    "goytacaz|campogrande|ml:home|20261031": 1793434289.512951,
+    "llaneros|junior|ou:2.5:over|20261031": 1793434289.512951
   },
   "last_report_date": "2026-10-30",
-  "next_id": 1538,
+  "next_id": 1540,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793415138.468873,
-      "ok": false,
-      "vegas_events": 0,
-      "ref_events": 0,
+      "ts": 1793434289.512951,
+      "ok": true,
+      "vegas_events": 2342,
+      "ref_events": 2199,
       "ref_name": "multi(pinnacle,smarkets)",
-      "ref_down": {
-        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0",
-        "68": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0",
-        "67": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/4/matchups?withSpecials=false&brandId=0",
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
-      },
+      "ref_down": {},
       "ref_gap": {},
       "sports_err": {},
-      "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 4 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0; [68] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0)",
-        "MINDEN sport lekérése elhasalt (?)"
-      ],
+      "problems": [],
       "settle_err": null
     },
     "last_alert_ts": 1793400724.849712,
