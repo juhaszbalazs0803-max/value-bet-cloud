@@ -46657,7 +46657,7 @@
       "close_fair_odds": 1.8437,
       "clv_pct": null,
       "close_fair_p": 0.5423781595474126,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -46807,7 +46807,7 @@
       "close_fair_odds": 1.7844,
       "clv_pct": null,
       "close_fair_p": 0.5604046833572993,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -46867,7 +46867,7 @@
       "close_fair_odds": 1.8671,
       "clv_pct": null,
       "close_fair_p": 0.5355807728509363,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -46897,7 +46897,7 @@
       "close_fair_odds": 1.6133,
       "clv_pct": null,
       "close_fair_p": 0.6198608475648324,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -46927,7 +46927,7 @@
       "close_fair_odds": 1.8387,
       "clv_pct": null,
       "close_fair_p": 0.5438531331246352,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -46957,7 +46957,7 @@
       "close_fair_odds": 1.5242,
       "clv_pct": null,
       "close_fair_p": 0.6560922855082914,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -47047,7 +47047,7 @@
       "close_fair_odds": 2.056,
       "clv_pct": null,
       "close_fair_p": 0.4863757697491872,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -47197,7 +47197,7 @@
       "close_fair_odds": 1.7352,
       "clv_pct": null,
       "close_fair_p": 0.5762984199230426,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -47227,7 +47227,7 @@
       "close_fair_odds": 1.4784,
       "clv_pct": null,
       "close_fair_p": 0.6763983860970141,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -47257,7 +47257,7 @@
       "close_fair_odds": 1.6575,
       "clv_pct": null,
       "close_fair_p": 0.6033299671146327,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -47287,7 +47287,7 @@
       "close_fair_odds": 1.7472,
       "clv_pct": null,
       "close_fair_p": 0.5723479702439016,
-      "close_ts": 1793474507.191037,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
     },
     {
@@ -47314,11 +47314,101 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.7053,
+      "close_fair_odds": 1.821,
       "clv_pct": null,
-      "close_fair_p": 0.5864091065884788,
-      "close_ts": 1793474507.191037,
+      "close_fair_p": 0.5491384207536452,
+      "close_ts": 1793475137.124911,
       "close_provisional": true
+    },
+    {
+      "id": 1562,
+      "ts": 1793474597.124477,
+      "key": "67:18203674:ml:home",
+      "content_key": "thamesvalleycavaliers|essexrebels|ml:home|20261031",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ml:home",
+      "event": "Thames Valley Cavaliers - Essex Rebels",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Thames Valley Cavaliers",
+      "odds": 1.385,
+      "stake": 4100,
+      "value_pct": 6.35,
+      "fair_pct": 76.8,
+      "start": "2026-10-31T19:30:00+00:00",
+      "start_ts": 1793475000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.3021,
+      "clv_pct": 6.37,
+      "close_fair_p": 0.7680192879780677,
+      "close_ts": 1793474957.173307,
+      "close_provisional": false
+    },
+    {
+      "id": 1563,
+      "ts": 1793474597.124477,
+      "key": "67:18203674:ah:-6.5:home",
+      "content_key": "thamesvalleycavaliers|essexrebels|ah:-6.5:home|20261031",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-6.5:home",
+      "event": "Thames Valley Cavaliers - Essex Rebels",
+      "market": "ah",
+      "market_name": "Hendikep -6.5",
+      "tip": "Hendikep Thames Valley Cavaliers (-6.5)",
+      "odds": 1.909,
+      "stake": 1700,
+      "value_pct": 6.09,
+      "fair_pct": 55.6,
+      "start": "2026-10-31T19:30:00+00:00",
+      "start_ts": 1793475000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7996,
+      "clv_pct": 6.08,
+      "close_fair_p": 0.5556884953869878,
+      "close_ts": 1793474867.177229,
+      "close_provisional": false
+    },
+    {
+      "id": 1564,
+      "ts": 1793474957.173307,
+      "key": "67:18203674:ah:-5.5:home",
+      "content_key": "thamesvalleycavaliers|essexrebels|ah:-5.5:home|20261031",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:-5.5:home",
+      "event": "Thames Valley Cavaliers - Essex Rebels",
+      "market": "ah",
+      "market_name": "Hendikep -5.5",
+      "tip": "Hendikep Thames Valley Cavaliers (-5.5)",
+      "odds": 1.833,
+      "stake": 2300,
+      "value_pct": 7.56,
+      "fair_pct": 58.7,
+      "start": "2026-10-31T19:30:00+00:00",
+      "start_ts": 1793475000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7045,
+      "clv_pct": 7.54,
+      "close_fair_p": 0.5866946045049765,
+      "close_ts": 1793474957.173307,
+      "close_provisional": false
     }
   ],
   "papered": {
@@ -47828,17 +47918,20 @@
     "jerez|atleticoclubpueblonuevo|ml:home|20261101": 1793461880.369445,
     "jerez|atleticoclubpueblonuevo|ou:2.5:over|20261101": 1793461880.369445,
     "ueporreres|cdcardassar|ml:home|20261101": 1793461880.369445,
-    "puertomonttbasquetbol|cdespanolosorno|ml:home|20261031": 1793473873.395639
+    "puertomonttbasquetbol|cdespanolosorno|ml:home|20261031": 1793473873.395639,
+    "thamesvalleycavaliers|essexrebels|ml:home|20261031": 1793474597.124477,
+    "thamesvalleycavaliers|essexrebels|ah:-6.5:home|20261031": 1793474597.124477,
+    "thamesvalleycavaliers|essexrebels|ah:-5.5:home|20261031": 1793474957.173307
   },
   "last_report_date": "2026-10-31",
-  "next_id": 1562,
+  "next_id": 1565,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793474507.191037,
+      "ts": 1793475137.124911,
       "ok": true,
-      "vegas_events": 1927,
-      "ref_events": 1426,
+      "vegas_events": 1917,
+      "ref_events": 1429,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
