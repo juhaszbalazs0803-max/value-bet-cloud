@@ -46084,7 +46084,7 @@
       "close_fair_odds": 1.7171,
       "clv_pct": null,
       "close_fair_p": 0.5823758827869717,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46204,7 +46204,7 @@
       "close_fair_odds": 1.5239,
       "clv_pct": null,
       "close_fair_p": 0.6562103850264721,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46384,7 +46384,7 @@
       "close_fair_odds": 1.9418,
       "clv_pct": null,
       "close_fair_p": 0.5149991803726571,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46477,7 +46477,7 @@
       "close_fair_odds": 1.763,
       "clv_pct": null,
       "close_fair_p": 0.5671996542783059,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46507,7 +46507,7 @@
       "close_fair_odds": 1.4055,
       "clv_pct": null,
       "close_fair_p": 0.7114678585273527,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46535,10 +46535,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 2.0,
-      "clv_pct": null,
+      "clv_pct": 0.0,
       "close_fair_p": 0.5,
-      "close_ts": 1793436809.487022,
-      "close_provisional": true
+      "close_ts": 1793437439.486114,
+      "close_provisional": false
     },
     {
       "id": 1536,
@@ -46567,7 +46567,7 @@
       "close_fair_odds": 2.1561,
       "clv_pct": null,
       "close_fair_p": 0.46379259497573655,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46627,7 +46627,7 @@
       "close_fair_odds": 1.8191,
       "clv_pct": null,
       "close_fair_p": 0.5497307200781895,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46657,7 +46657,7 @@
       "close_fair_odds": 1.8329,
       "clv_pct": null,
       "close_fair_p": 0.5455921894170778,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46687,7 +46687,7 @@
       "close_fair_odds": 1.9204,
       "clv_pct": -0.59,
       "close_fair_p": 0.5207214428857715,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437169.494167,
       "close_provisional": false
     },
     {
@@ -46717,7 +46717,7 @@
       "close_fair_odds": 1.7454,
       "clv_pct": null,
       "close_fair_p": 0.5729303547963207,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46744,10 +46744,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 2.0306,
-      "clv_pct": -9.73,
-      "close_fair_p": 0.49247074872763524,
-      "close_ts": 1793436809.487022,
+      "close_fair_odds": 2.0217,
+      "clv_pct": -9.33,
+      "close_fair_p": 0.4946338135348605,
+      "close_ts": 1793437349.470062,
       "close_provisional": false
     },
     {
@@ -46777,7 +46777,7 @@
       "close_fair_odds": 1.7419,
       "clv_pct": null,
       "close_fair_p": 0.5741016372528175,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     },
     {
@@ -46807,7 +46807,37 @@
       "close_fair_odds": 1.8368,
       "clv_pct": null,
       "close_fair_p": 0.5444249387738673,
-      "close_ts": 1793436809.487022,
+      "close_ts": 1793437439.486114,
+      "close_provisional": true
+    },
+    {
+      "id": 1545,
+      "ts": 1793437439.486114,
+      "key": "67:18144793:ah:6.5:home",
+      "content_key": "vikosfalconbc|aek|ah:6.5:home|20261031",
+      "sport": "Kosárlabda",
+      "sport_id": 67,
+      "subkey": "ah:6.5:home",
+      "event": "Vikos Falcon BC - AEK",
+      "market": "ah",
+      "market_name": "Hendikep +6.5",
+      "tip": "Hendikep Vikos Falcon BC (+6.5)",
+      "odds": 1.833,
+      "stake": 1100,
+      "value_pct": 3.78,
+      "fair_pct": 56.6,
+      "start": "2026-10-31T13:00:00+00:00",
+      "start_ts": 1793451600.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7666,
+      "clv_pct": null,
+      "close_fair_p": 0.5660720313676613,
+      "close_ts": 1793437439.486114,
       "close_provisional": true
     }
   ],
@@ -47305,17 +47335,18 @@
     "realuniondetenerifesantacruz|lanzarote|ou:2.5:over|20261031": 1793435819.48795,
     "ryukyugoldenkingsokinawa|sanenneophoenix|ah:1.5:away|20261031": 1793435999.5121,
     "rfcunionlacalamine|royaleunionhutoise|ou:2.5:over|20261031": 1793436089.484592,
-    "comerciantesfc|llacuabamba|ml:home|20261031": 1793436629.545382
+    "comerciantesfc|llacuabamba|ml:home|20261031": 1793436629.545382,
+    "vikosfalconbc|aek|ah:6.5:home|20261031": 1793437439.486114
   },
-  "last_report_date": "2026-10-30",
-  "next_id": 1545,
+  "last_report_date": "2026-10-31",
+  "next_id": 1546,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793436809.487022,
+      "ts": 1793437439.486114,
       "ok": true,
-      "vegas_events": 2366,
-      "ref_events": 2206,
+      "vegas_events": 2354,
+      "ref_events": 2218,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
