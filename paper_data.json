@@ -46084,7 +46084,7 @@
       "close_fair_odds": 1.7472,
       "clv_pct": null,
       "close_fair_p": 0.5723437212843604,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     },
     {
@@ -46174,7 +46174,7 @@
       "close_fair_odds": 1.7593,
       "clv_pct": null,
       "close_fair_p": 0.5683950882084831,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     },
     {
@@ -46204,7 +46204,7 @@
       "close_fair_odds": 1.5239,
       "clv_pct": null,
       "close_fair_p": 0.6562103850264721,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     },
     {
@@ -46384,7 +46384,7 @@
       "close_fair_odds": 1.9418,
       "clv_pct": null,
       "close_fair_p": 0.5149991803726571,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     },
     {
@@ -46477,7 +46477,7 @@
       "close_fair_odds": 1.763,
       "clv_pct": null,
       "close_fair_p": 0.5671996542783059,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     },
     {
@@ -46507,7 +46507,7 @@
       "close_fair_odds": 1.4055,
       "clv_pct": null,
       "close_fair_p": 0.7114678585273527,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     },
     {
@@ -46537,7 +46537,7 @@
       "close_fair_odds": 1.9414,
       "clv_pct": null,
       "close_fair_p": 0.5150980234828425,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     },
     {
@@ -46567,7 +46567,7 @@
       "close_fair_odds": 1.8818,
       "clv_pct": null,
       "close_fair_p": 0.5314084847183835,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     },
     {
@@ -46627,7 +46627,7 @@
       "close_fair_odds": 1.8191,
       "clv_pct": null,
       "close_fair_p": 0.5497307200781895,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     },
     {
@@ -46657,7 +46657,37 @@
       "close_fair_odds": 1.8329,
       "clv_pct": null,
       "close_fair_p": 0.5455921894170778,
-      "close_ts": 1793434289.512951,
+      "close_ts": 1793434919.486951,
+      "close_provisional": true
+    },
+    {
+      "id": 1540,
+      "ts": 1793434829.511902,
+      "key": "66:18086499:ml:home",
+      "content_key": "kagoshimaunited|roassokumamoto|ml:home|20261031",
+      "sport": "Foci",
+      "sport_id": 66,
+      "subkey": "ml:home",
+      "event": "Kagoshima United - Roasso Kumamoto",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "1 — Kagoshima United",
+      "odds": 1.909,
+      "stake": 1500,
+      "value_pct": 5.41,
+      "fair_pct": 55.2,
+      "start": "2026-10-31T09:00:00+00:00",
+      "start_ts": 1793437200.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.8112,
+      "clv_pct": null,
+      "close_fair_p": 0.5521240497110836,
+      "close_ts": 1793434919.486951,
       "close_provisional": true
     }
   ],
@@ -47150,17 +47180,18 @@
     "spartabrno|fckurim|ou:3.5:under|20261031": 1793400812.879209,
     "gifuswoops|fukuiblowwinds|ah:5.5:away|20261031": 1793401269.280975,
     "goytacaz|campogrande|ml:home|20261031": 1793434289.512951,
-    "llaneros|junior|ou:2.5:over|20261031": 1793434289.512951
+    "llaneros|junior|ou:2.5:over|20261031": 1793434289.512951,
+    "kagoshimaunited|roassokumamoto|ml:home|20261031": 1793434829.511902
   },
   "last_report_date": "2026-10-30",
-  "next_id": 1540,
+  "next_id": 1541,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793434289.512951,
+      "ts": 1793434919.486951,
       "ok": true,
-      "vegas_events": 2342,
-      "ref_events": 2199,
+      "vegas_events": 2352,
+      "ref_events": 2201,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
