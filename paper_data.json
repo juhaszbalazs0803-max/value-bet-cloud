@@ -46867,7 +46867,7 @@
       "close_fair_odds": 1.7378,
       "clv_pct": null,
       "close_fair_p": 0.5754470731258441,
-      "close_ts": 1793533194.507167,
+      "close_ts": 1793533849.700883,
       "close_provisional": true
     },
     {
@@ -46897,7 +46897,7 @@
       "close_fair_odds": 1.6122,
       "clv_pct": null,
       "close_fair_p": 0.6202531645569621,
-      "close_ts": 1793533194.507167,
+      "close_ts": 1793533849.700883,
       "close_provisional": true
     },
     {
@@ -46927,7 +46927,7 @@
       "close_fair_odds": 2.1735,
       "clv_pct": null,
       "close_fair_p": 0.4600920237240353,
-      "close_ts": 1793533194.507167,
+      "close_ts": 1793533849.700883,
       "close_provisional": true
     },
     {
@@ -47287,7 +47287,7 @@
       "close_fair_odds": 2.0121,
       "clv_pct": null,
       "close_fair_p": 0.49698153446361365,
-      "close_ts": 1793533194.507167,
+      "close_ts": 1793533849.700883,
       "close_provisional": true
     },
     {
@@ -47465,10 +47465,10 @@
       "settle_source": null,
       "needs_manual": false,
       "close_fair_odds": 1.7889,
-      "clv_pct": null,
+      "clv_pct": 5.6,
       "close_fair_p": 0.5590111014880719,
-      "close_ts": 1793533194.507167,
-      "close_provisional": true
+      "close_ts": 1793533849.700883,
+      "close_provisional": false
     },
     {
       "id": 1567,
@@ -47497,7 +47497,7 @@
       "close_fair_odds": 1.6141,
       "clv_pct": null,
       "close_fair_p": 0.6195416884377101,
-      "close_ts": 1793533194.507167,
+      "close_ts": 1793533849.700883,
       "close_provisional": true
     },
     {
@@ -47527,7 +47527,37 @@
       "close_fair_odds": 1.8921,
       "clv_pct": null,
       "close_fair_p": 0.5285139316080333,
-      "close_ts": 1793533194.507167,
+      "close_ts": 1793533849.700883,
+      "close_provisional": true
+    },
+    {
+      "id": 1569,
+      "ts": 1793533849.700883,
+      "key": "70:18155836:ml:away",
+      "content_key": "visbyroma|nybro|ml:away|20261101",
+      "sport": "Jégkorong",
+      "sport_id": 70,
+      "subkey": "ml:away",
+      "event": "Visby/Roma - Nybro",
+      "market": "ml",
+      "market_name": "Meccsgyőztes",
+      "tip": "2 — Nybro",
+      "odds": 1.909,
+      "stake": 1900,
+      "value_pct": 6.76,
+      "fair_pct": 55.9,
+      "start": "2026-11-01T15:30:00+00:00",
+      "start_ts": 1793547000.0,
+      "status": "pending",
+      "settled_ts": null,
+      "source": "auto",
+      "final_score": null,
+      "settle_source": null,
+      "needs_manual": false,
+      "close_fair_odds": 1.7883,
+      "clv_pct": null,
+      "close_fair_p": 0.5592044525335655,
+      "close_ts": 1793533849.700883,
       "close_provisional": true
     }
   ],
@@ -48045,16 +48075,17 @@
     "dynamic|vojvodina|ah:8.5:home|20261101": 1793476944.93356,
     "karcagisc|mezkvesdzsryfc|ou:2.5:over|20261101": 1793533194.507167,
     "racingsantander|realmadrid|ou:4.5:under|20261101": 1793533194.507167,
-    "sanremese|asdimperia1923|ml:home|20261101": 1793533194.507167
+    "sanremese|asdimperia1923|ml:home|20261101": 1793533194.507167,
+    "visbyroma|nybro|ml:away|20261101": 1793533849.700883
   },
   "last_report_date": "2026-11-01",
-  "next_id": 1569,
+  "next_id": 1570,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793533194.507167,
+      "ts": 1793533849.700883,
       "ok": true,
-      "vegas_events": 1928,
+      "vegas_events": 1925,
       "ref_events": 1545,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
