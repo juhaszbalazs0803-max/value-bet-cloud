@@ -46867,7 +46867,7 @@
       "close_fair_odds": 1.73,
       "clv_pct": null,
       "close_fair_p": 0.5780287515936011,
-      "close_ts": 1793535200.700819,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     },
     {
@@ -46897,7 +46897,7 @@
       "close_fair_odds": 1.61,
       "clv_pct": null,
       "close_fair_p": 0.6211180124223602,
-      "close_ts": 1793535200.700819,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     },
     {
@@ -46927,7 +46927,7 @@
       "close_fair_odds": 2.2146,
       "clv_pct": null,
       "close_fair_p": 0.4515393990779503,
-      "close_ts": 1793535200.700819,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     },
     {
@@ -47287,7 +47287,7 @@
       "close_fair_odds": 2.0121,
       "clv_pct": null,
       "close_fair_p": 0.49698153446361365,
-      "close_ts": 1793535200.700819,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     },
     {
@@ -47497,7 +47497,7 @@
       "close_fair_odds": 1.6166,
       "clv_pct": null,
       "close_fair_p": 0.6185927016038512,
-      "close_ts": 1793535200.700819,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     },
     {
@@ -47527,7 +47527,7 @@
       "close_fair_odds": 1.8836,
       "clv_pct": null,
       "close_fair_p": 0.5309070946292898,
-      "close_ts": 1793535200.700819,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     },
     {
@@ -47557,7 +47557,7 @@
       "close_fair_odds": 2.4011,
       "clv_pct": null,
       "close_fair_p": 0.41648431801604663,
-      "close_ts": 1793535200.700819,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     },
     {
@@ -47587,7 +47587,7 @@
       "close_fair_odds": 1.7138,
       "clv_pct": null,
       "close_fair_p": 0.5835156819839533,
-      "close_ts": 1793535200.700819,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     },
     {
@@ -47614,10 +47614,10 @@
       "final_score": null,
       "settle_source": null,
       "needs_manual": false,
-      "close_fair_odds": 1.6716,
+      "close_fair_odds": 1.7716,
       "clv_pct": null,
-      "close_fair_p": 0.5982280334199965,
-      "close_ts": 1793535200.700819,
+      "close_fair_p": 0.5644766347913499,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     },
     {
@@ -47647,7 +47647,7 @@
       "close_fair_odds": 1.918,
       "clv_pct": null,
       "close_fair_p": 0.5213779273795031,
-      "close_ts": 1793535200.700819,
+      "close_ts": 1793535878.069403,
       "close_provisional": true
     }
   ],
@@ -48176,10 +48176,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793535200.700819,
+      "ts": 1793535878.069403,
       "ok": true,
-      "vegas_events": 1885,
-      "ref_events": 1510,
+      "vegas_events": 1881,
+      "ref_events": 1505,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
