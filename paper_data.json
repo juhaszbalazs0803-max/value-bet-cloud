@@ -47742,9 +47742,6 @@
     }
   ],
   "papered": {
-    "solesdemexicali|panterasdeaguascalientes|ah:-7.5:away|20260922": 1790013673.309347,
-    "phoenixmercuryn|dallaswingsn|ou:173.0:over|20260922": 1790014933.280816,
-    "solesdemexicali|panterasdeaguascalientes|ou:166.5:over|20260922": 1790016373.277077,
     "maccabipetahtikvaelitzur|elitzurnetanya|ou:167.5:under|20260923": 1790105608.097226,
     "cangrejerasdesanturce|gigantesdecarolina|ah:-1.5:home|20260923": 1790105608.097226,
     "vilniauskibirkstis|azspoznann|ah:-7.5:away|20260923": 1790106688.038301,
@@ -48211,7 +48208,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793897962.70535,
+      "ts": 1793917885.643865,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
