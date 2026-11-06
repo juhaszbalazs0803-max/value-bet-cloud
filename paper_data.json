@@ -47742,8 +47742,6 @@
     }
   ],
   "papered": {
-    "maccabipetahtikvaelitzur|elitzurnetanya|ou:167.5:under|20260923": 1790105608.097226,
-    "cangrejerasdesanturce|gigantesdecarolina|ah:-1.5:home|20260923": 1790105608.097226,
     "vilniauskibirkstis|azspoznann|ah:-7.5:away|20260923": 1790106688.038301,
     "flammescarolobasketn|kpbrnon|ah:-19.5:home|20260923": 1790106958.059604,
     "maccabiraanana|asramathasharon|ah:-7.5:away|20260923": 1790149529.430227,
@@ -48208,10 +48206,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1793993052.152199,
+      "ts": 1793993682.211471,
       "ok": false,
       "vegas_events": 0,
-      "ref_events": 1906,
+      "ref_events": 1901,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
