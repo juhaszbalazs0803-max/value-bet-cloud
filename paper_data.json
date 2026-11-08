@@ -48201,7 +48201,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1794099830.809408,
+      "ts": 1794100460.812972,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
@@ -48220,7 +48220,7 @@
       ],
       "settle_err": null
     },
-    "last_alert_ts": 1794072843.5694232,
+    "last_alert_ts": 1794100011.9986806,
     "alert_active": true
   }
 }
