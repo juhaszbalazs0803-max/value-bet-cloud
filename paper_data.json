@@ -48201,10 +48201,10 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1794129977.671147,
+      "ts": 1794152807.757687,
       "ok": false,
       "vegas_events": 0,
-      "ref_events": 1453,
+      "ref_events": 898,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {},
       "ref_gap": {},
