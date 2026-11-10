@@ -47742,7 +47742,6 @@
     }
   ],
   "papered": {
-    "esbvilleneuvedascqn|sastoulousemetropolen|ah:-12.5:home|20260926": 1790413525.662391,
     "polonia1912leszno|wkkwroclaw|ou:155.5:under|20260926": 1790414065.647578,
     "formartineunited|edinburghcityfc|ml:home|20260926": 1790414965.645338,
     "llantwitmajor|llanellitownafc|ou:3.5:under|20260926": 1790415595.657811,
@@ -48196,12 +48195,12 @@
     "bendigospiritn|geelongsupercatsn|ah:-5.5:home|20261102": 1793554675.642234,
     "mogidascruzes|clubnacional|ah:-8.5:away|20261101": 1793569887.080932
   },
-  "last_report_date": "2026-11-09",
+  "last_report_date": "2026-11-10",
   "next_id": 1576,
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1794278708.269161,
+      "ts": 1794302055.244033,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
