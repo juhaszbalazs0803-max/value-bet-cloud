@@ -47742,7 +47742,6 @@
     }
   ],
   "papered": {
-    "ceplorient|vitreaurore|ah:-5.5:away|20260929": 1790705120.428901,
     "orientepetrolero|thestrongest|ou:3.5:under|20261001": 1790797720.406881,
     "parisbasketball|zalgiris|ou:177.5:under|20261001": 1790797720.406881,
     "minerosdezacatecas|abejasdeleon|ah:-5.5:away|20261002": 1790878054.245404,
@@ -48158,7 +48157,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1794577817.114354,
+      "ts": 1794601208.425199,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
