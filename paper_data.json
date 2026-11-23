@@ -47742,17 +47742,6 @@
     }
   ],
   "papered": {
-    "borussiadortmund|werderbremen|ou:3.5:under|20261009": 1791564983.739904,
-    "brasiliabasquete|caxiasdosul|ah:-9.5:home|20261009": 1791564983.739904,
-    "botev2012vratsa|balkanbotevgrad|ah:20.5:home|20261010": 1791564983.739904,
-    "minyor2015|shumen|ah:-10.5:away|20261010": 1791564983.739904,
-    "rytasvilnius|neptunas|ah:-8.5:away|20261010": 1791564983.739904,
-    "astoriabydgoszcz|gtkgliwice|ou:171.5:over|20261009": 1791564983.739904,
-    "oberwartgunners|kapfenbergbulls|ah:3.5:home|20261010": 1791565446.709134,
-    "lasvegasacesn|goldenstatevalkyriesn|ah:-3.5:home|20261010": 1791565896.647821,
-    "neptunasakvaservisklaipeda|bcsilute|ah:-5.5:away|20261010": 1791565986.671963,
-    "sokolprazsky|slavojbklitomerice|ml:home|20261009": 1791566526.666329,
-    "uniontarbeslourdespyreneesbasket|ubchartresmetropole|ah:-5.5:home|20261009": 1791567336.680571,
     "phoenixsuns|sanantoniospurs|ou:221.5:under|20261011": 1791619539.310966,
     "zkdilirijan|zkktriglavkranjn|ml:home|20261010": 1791619539.310966,
     "miamiheat|minnesotatimberwolves|ml:away|20261011": 1791619813.76888,
@@ -48097,7 +48086,7 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1795437474.252115,
+      "ts": 1795476169.314395,
       "ok": false,
       "vegas_events": 0,
       "ref_events": 0,
