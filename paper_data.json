@@ -48062,23 +48062,23 @@
   "tg_offset": 363415793,
   "health": {
     "last_scan": {
-      "ts": 1795550125.576968,
+      "ts": 1795550755.581613,
       "ok": false,
       "vegas_events": 0,
-      "ref_events": 943,
+      "ref_events": 428,
       "ref_name": "multi(pinnacle,smarkets)",
       "ref_down": {
-        "70": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0"
+        "66": "pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0"
       },
       "ref_gap": {},
       "sports_err": {},
       "problems": [
-        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([70] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/19/matchups?withSpecials=false&brandId=0)",
+        "az ELSŐDLEGES fair-forrás kiesett 1 sportnál — ezeket KIHAGYJUK, nincs gyengébb vonalra visszaesés ([66] pinnacle: 403 Client Error: Forbidden for url: https://guest.api.arcadia.pinnacle.com/0.1/sports/29/matchups?withSpecials=false&brandId=0)",
         "a vegas.hu (Altenar) 0 eseményt adott — API-változás?"
       ],
       "settle_err": null
     },
-    "last_alert_ts": 1795508693.2772882,
+    "last_alert_ts": 1795550307.1886969,
     "alert_active": true
   }
 }
